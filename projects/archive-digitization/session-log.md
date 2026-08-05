@@ -98,3 +98,28 @@ STATUS: CHECKPOINT
 Completed: Reported the arkiv.dk network block; preserved and cross-referenced the akj-cbj.dk Hopp-slægt page against the grandfather's own chapter numbering.
 Next: Still waiting on the Boe-slægten file and on the grandfather's access grant. New follow-up: ask the grandfather about his own 1978/1991 published articles and the proposed chapter matches.
 Waiting for: The human to resolve file access with the grandfather; no other action possible until then.
+
+---
+
+## [HUMAN] — Turn 7 | 2026-08-05
+
+Asked, ahead of the thousands of names expected once material starts arriving, whether individuals should be tracked in a relational database, a CSV, or something else — spouses/children as relationships, plus birth/death year, birth place, occupation, free text. Asked how real genealogy systems handle this, then asked for a fuller explanation of GEDCOM (the recommended answer) and a concrete mockup to have ready.
+
+---
+
+## [Claude] — Turn 8 | 2026-08-05
+
+Explained GEDCOM (FamilySearch's genealogy interchange standard: plain-text `INDI`/`FAM` records, relationships held in family-unit records rather than as columns on a person, which is exactly what a flat CSV cannot do gracefully once a remarriage occurs) and built a concrete side-by-side mockup in `context/data-structure-proposal.md`, using the real (still `[UNVERIFIED]`) Hopp chain from `external-source-hopp-herredsfoged.md` as worked data — deliberately chosen because it already has a birth-year contradiction and unknown-parent gaps, a good stress test for the format.
+
+Proposed, not built: a single cross-*slægt* top-level `family-tree/tree.ged`, since marriages inherently cross domain boundaries and a per-domain GEDCOM file would fight that. Explicitly flagged that creating the actual folder and updating `Architecture.md` is a structural, system-layer decision needing the same plan-first treatment `grandfather-review/` got — not something to add quietly alongside a sketch. This turn only produced the sketch itself, which is ordinary project-layer content (freely revisable, no approval gate).
+
+### Session close
+
+Knowledge candidates: None — this is a structural/tooling sketch, not a domain fact.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Explained GEDCOM and produced a GEDCOM-vs-CSV mockup using real Hopp-chain data, saved as a non-binding proposal.
+Next: Awaiting the human's decision on whether/when to commit to GEDCOM and actually create `family-tree/` — not yet needed until real material starts arriving in volume, per the project's own inventory-first philosophy.
+Waiting for: The Boe-slægten file, and/or direction on the data-structure proposal.
