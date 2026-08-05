@@ -1,6 +1,6 @@
 # Context Architecture — System Design
 
-Version 1.5 | 2026-08-05 | Production
+Version 1.6 | 2026-08-05 | Production
 
 ---
 
@@ -145,6 +145,8 @@ This fork adds a third layer, `grandfather-review/`, not part of the generic tem
 
 The promotion path this layer feeds is stricter than ordinary knowledge promotion: a `[FLAG FOR GRANDFATHER REVIEW]` item never reaches `knowledge/` on the human's approval alone. It is only promoted after the grandfather's own explicit confirmation is recorded in `log.md`, at which point it is written into the relevant domain's `knowledge.md` with `[VERIFIED: grandfather, YYYY-MM-DD]`. See `knowledge/flow/operating-principles.md` §5 and `ROUTING.md` Hard Constraints.
 
+Both files in this layer are written in Danish, unlike the rest of this repo — the grandfather's English is limited and the research itself is Danish, so translating at send-time would risk losing nuance on every cycle. Each file's own top-of-file note explains this; the `## Version History` section of each is the one part that stays in the repo's standard English convention, so `scripts/validate.ps1` keeps recognizing it.
+
 ---
 
 ## 4. Dynamic Routing
@@ -213,3 +215,4 @@ To fork this template for a new initiative:
 | 1.3 | 2026-07-25 | §4 Routing inputs gained a bullet for domain/project retirement status — `Retired` entries are excluded from default routing. See `MarkdownConventions.md` §1 and `knowledge/domains/index.md` § Retiring a Domain for the underlying convention. |
 | 1.4 | 2026-07-25 | §6 gained a step for activating the new `.githooks/pre-commit` hook (`git config core.hooksPath .githooks`), which mechanically enforces that system-layer edits are logged in the same commit. See `scripts/pre-commit-check.ps1`. |
 | 1.5 | 2026-08-05 | Fork-specific addition (`kej-context-architecture`): new top-level `grandfather-review/` folder (§2) and a new §3 subsection, "A third layer — fork-specific: grandfather review," documenting why this fork's knowledge-promotion gate is stricter than the generic template's — the grandfather, not the human operating this repo, is the subject-matter authority whose explicit confirmation genealogical findings require. See `knowledge/flow/operating-principles.md` §5 and `ROUTING.md` Hard Constraints. |
+| 1.6 | 2026-08-05 | §3 noted that `grandfather-review/`'s two files are written in Danish, unlike the rest of the repo — the grandfather's English is limited and the research itself is Danish. |

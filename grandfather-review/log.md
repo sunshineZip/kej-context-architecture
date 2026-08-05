@@ -1,27 +1,29 @@
-# Grandfather Review Log
+# Bedstefars Gennemgangslog
 
-Version 1.0 | 2026-08-05 | Active
-
----
-
-## Document Purpose
-
-Append-only history of what has been sent to the grandfather for review and how he responded. Every item that leaves `queue.md` — confirmed, corrected, or rejected — gets a permanent record here, so nothing is asked twice and no resolution is silently lost. This file is never edited or trimmed, only appended to, same discipline as a project `session-log.md`.
+Version 1.1 | 2026-08-05 | Active
 
 ---
 
-## Entries
+> **Sprog:** Skrevet på dansk, ligesom `queue.md` — se dens note øverst for begrundelsen. Samme undtagelse gælder her: overskriften "## Version History" og linjen "Version | Dato | Status" ovenfor følger arkivets almindelige (engelske) konvention af hensyn til `scripts/validate.ps1`.
 
-*No digests sent yet. When the human sends the current `queue.md` contents to the grandfather, record it here as it happens (sent date) and append his response when it arrives, using this format:*
+## Dokumentets Formål
+
+Fortløbende historik over, hvad der er sendt til bedstefar til gennemgang, og hvordan han har svaret. Hvert punkt, der forlader `queue.md` — bekræftet, rettet eller afvist — får en permanent registrering her, så intet spørges to gange, og intet svar går tabt. Denne fil redigeres aldrig og beskæres aldrig, kun tilføjes til — samme disciplin som et projekts `session-log.md`.
+
+---
+
+## Indførsler
+
+*Ingen oversigter sendt endnu. Når punkterne i `queue.md` sendes til bedstefar, registreres det her (dato for afsendelse), og hans svar tilføjes, når det kommer, i dette format:*
 
 ```
-## YYYY-MM-DD — Sent
+## ÅÅÅÅ-MM-DD — Sendt
 
-Items included: [list, or "see queue.md as of this commit"]
+Punkter inkluderet: [liste, eller "se queue.md på dette tidspunkt"]
 
-## YYYY-MM-DD — Response
+## ÅÅÅÅ-MM-DD — Svar
 
-Item [N]: Confirmed / Corrected: [what he said] / Rejected: [why]
+Punkt [N]: Bekræftet / Rettet: [hvad han sagde] / Afvist: [hvorfor]
 [...]
 ```
 
@@ -32,3 +34,4 @@ Item [N]: Confirmed / Corrected: [what he said] / Rejected: [why]
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-05 | Initial creation. Empty log — no digests sent to the grandfather yet. |
+| 1.1 | 2026-08-05 | Translated into Danish per the human's request, matching `queue.md` — same rationale, same English exceptions (Version History heading, header status line) for `scripts/validate.ps1` compatibility. |

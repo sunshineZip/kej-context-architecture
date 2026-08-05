@@ -1,6 +1,6 @@
 # Routing
 
-Version 1.12 | 2026-08-05 | Production
+Version 1.13 | 2026-08-05 | Production
 
 ---
 
@@ -147,7 +147,7 @@ Apply these in every session regardless of project type or how you entered the s
 
 **I noticed something during research that the grandfather hasn't confirmed** (a discovery, a connection between his research threads, an apparent inconsistency, or a data gap)
 → Do not write it into any domain's `knowledge.md` as settled — see the Hard Constraint above
-→ Raise `[FLAG FOR GRANDFATHER REVIEW]` (format in `knowledge/flow/operating-principles.md` §5) and append it to `grandfather-review/queue.md`
+→ Raise `[FLAG FOR GRANDFATHER REVIEW]` (format in `knowledge/flow/operating-principles.md` §5) and append it to `grandfather-review/queue.md` **in Danish** — see that file's own language note
 → The human reviews and sends the queue to the grandfather on his own schedule (no fixed cadence enforced by this repo) — when his response comes back, record it in `grandfather-review/log.md` and, only for confirmed items, promote the finding into the relevant domain with `[VERIFIED: grandfather, YYYY-MM-DD]`
 
 **I want to retire a domain or project**
@@ -198,3 +198,4 @@ The real *slægt* (family line) list can't be known until the source material �
 | 1.10 | 2026-08-05 | Forked from `proto-context-architecture` (upstream commit `86d4eddb6211b623a0e5a9ea047528076533ea8a`) for family genealogy research. Step 2 table replaced example rows with the System row and a `website-infrastructure` reference-domain row; adopted the "work directly on `main`" default outright (no longer overridable-template-default phrasing, since this fork is confirmed personal/family use); added a Hard Constraint against silently attempting handwriting transcription/OCR as a solved problem; added a Standing Rule on rigorous validity-signal use, matching genealogical research practice; Quick Task Guide's "fresh fork" entry replaced with this fork's actual inventory-first sequence and current phase status. |
 | 1.11 | 2026-08-05 | Opened the Archive Digitization project — added its Step 2 routing row and updated the Quick Task Guide's setup-sequence status (Phase 2 now "open, in progress" rather than "next"), pointing at the full intake manifest transcribed from the grandfather's first email. |
 | 1.12 | 2026-08-05 | Added a Hard Constraint establishing the grandfather, not the human operating this repo, as final authority on genealogical conclusions — this repo's own discoveries/connections/inconsistencies/gaps are proposals only until he confirms them, via the new `[FLAG FOR GRANDFATHER REVIEW]` mechanism (`operating-principles.md` §5, `grandfather-review/queue.md` + `log.md`). Added a matching Quick Task Guide entry. |
+| 1.13 | 2026-08-05 | Quick Task Guide's grandfather-review entry now notes that queue entries must be written in Danish. |

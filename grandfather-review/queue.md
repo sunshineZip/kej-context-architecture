@@ -1,42 +1,44 @@
-# Grandfather Review Queue
+# Bedstefars Gennemgangsliste
 
-Version 1.0 | 2026-08-05 | Active
-
----
-
-## Document Purpose
-
-Running list of discoveries, proposed connections, apparent inconsistencies, and data gaps that this repo has noticed on its own — not yet reviewed by the grandfather (Knud Erik Jakobsen). Nothing here is settled fact. See `knowledge/flow/operating-principles.md` §5 (Grandfather review flags) for the flag format and `log.md` for the append-only history of past digests and his responses.
-
-**How to use this file:** periodically (suggested: monthly, but on the human's own schedule — not automated), copy the open items below into an email or message to the grandfather. When he responds, move each item to `log.md` with his answer, and — only for confirmed items — promote the finding into the relevant domain's `knowledge.md` with `[VERIFIED: grandfather, YYYY-MM-DD]`. Do not delete resolved items from here without first recording them in `log.md`.
+Version 1.1 | 2026-08-05 | Active
 
 ---
 
-## Open Items
+> **Sprog:** Denne fil er bevidst skrevet på dansk — det er bedstefars sprog, og det er sproget forskningen selv foregår på. Undtagelser: overskriften "## Version History" og linjen "Version | Dato | Status" ovenfor følger arkivets almindelige (engelske) konvention, så `scripts/validate.ps1` fortsat kan genkende og kontrollere dem.
 
-### 1. Proposed match — Hopp-slægt chapters "01"/"01F" vs. an external source
+## Dokumentets Formål
 
-**Type:** Connection
-**Source:** Project Archive Digitization, Turn 6 (2026-08-05) — see `projects/archive-digitization/context/external-source-hopp-herredsfoged.md`
-**Finding:** An external genealogy page (akj-cbj.dk/Hopp.htm, by Arne Bjørn Jørgensen) describes a Knud Danielsen Hopp (b. ~1640, d. 1723, herredsfoged in Salling Nørre Herred) and his son Knud Knudsen Hopp (d. 1762) — birth/death years match the grandfather's own chapters "01 Knud Danielsen Hopp o.1640-1723" and "01F Knud Knudsen Hopp død 1762" exactly.
-**Basis:** Two independent secondary tellings agreeing on names and years. The external page itself cites the grandfather's own 1978 and 1991 published articles as its primary source, so this may simply be his own research reflected back — not necessarily new to him.
-**Status:** Proposed — not yet reviewed by the grandfather. Also worth asking whether he still has copies of those 1978/1991 articles himself.
+Løbende liste over opdagelser, foreslåede forbindelser, tilsyneladende uoverensstemmelser og datahuller, som dette arkiv selv har bemærket — endnu ikke gennemgået af bedstefar (Knud Erik Jakobsen). Intet her er fastslået. Se `knowledge/flow/operating-principles.md` §5 (Flag til bedstefars gennemgang) for flagformatet, og `log.md` for den fortløbende historik over tidligere oversigter og hans svar.
 
-### 2. Possible earlier generations not yet in his chapter list
+**Sådan bruges filen:** med jævne mellemrum (forslag: månedligt, men i dit eget tempo — ikke automatiseret) kopieres punkterne nedenfor ind i en mail eller besked til bedstefar. Når han svarer, flyttes hvert punkt til `log.md` sammen med hans svar — og kun for bekræftede punkter skrives fundet ind i det pågældende slægtsdomænes `knowledge.md` med `[VERIFIED: bedstefar, ÅÅÅÅ-MM-DD]`. Slet ikke punkter herfra, uden først at have registreret dem i `log.md`.
 
-**Type:** Discovery
-**Source:** Project Archive Digitization, Turn 6 (2026-08-05) — same external source as item 1
-**Finding:** The external page names three generations before "01": Hans Hop (1562-1624, Metzingen → Skagen), Mads Hopp (1590-1650, Skagen rådmand), and Daniel Madsen Hopp (b. ~1620 or 1633, uncertain) — none of these appear in the grandfather's own manifest of Hopp-slægten chapters as sent so far.
-**Basis:** Same external page; not cross-checked against any primary record.
-**Status:** Proposed — not yet reviewed. Ask whether these predate his own chaptering deliberately (out of scope for his research) or are simply not yet digitized/sent.
+---
 
-### 3. Two distinct "Hans Hop(s)" figures — possible confusion risk
+## Åbne Punkter
 
-**Type:** Inconsistency
-**Source:** Project Archive Digitization, Turn 6 (2026-08-05)
-**Finding:** The grandfather's own manifest lists "Hopp-slægt B — Hans Hops (1599-1666), Købmand og brygger i Kbh., indvandret fra Holland" under "andre Hopp-slægter" (research not yet confirmed as connected to the family line). The external page's Hans Hop (1562-1624, farmer from Metzingen, also emigrated via Holland) has different birth/death years and a different profession — likely a separate person, but the similar name and shared "via Holland" detail is a plausible mix-up risk.
-**Basis:** Comparison of two names/dates from two different sources; no primary record checked.
-**Status:** Proposed — not yet reviewed. Ask the grandfather to confirm these are indeed two different men.
+### 1. Foreslået match — Hopp-slægtens kapitel "01"/"01F" mod en ekstern kilde
+
+**Kategori:** Forbindelse
+**Kilde:** Projekt Arkivdigitalisering, Turn 6 (2026-08-05) — se `projects/archive-digitization/context/external-source-hopp-herredsfoged.md`
+**Fund:** En ekstern slægtsforskningsside (akj-cbj.dk/Hopp.htm, af Arne Bjørn Jørgensen) beskriver en Knud Danielsen Hopp (f. o. 1640, d. 1723, herredsfoged i Salling Nørre Herred) og hans søn Knud Knudsen Hopp (d. 1762) — fødsels-/dødsår stemmer nøjagtigt overens med bedstefars egne kapitler "01 Knud Danielsen Hopp o.1640-1723" og "01F Knud Knudsen Hopp død 1762".
+**Grundlag:** To uafhængige, sekundære fremstillinger, der stemmer overens om navne og årstal. Siden citerer selv bedstefars egne artikler fra 1978 og 1991 som sin primærkilde — så dette er måske blot hans eget arbejde, der spejles tilbage, og ikke nødvendigvis nyt for ham.
+**Status:** Foreslået — endnu ikke gennemgået af bedstefar. Værd også at spørge, om han stadig selv har de to artikler fra 1978/1991.
+
+### 2. Mulige tidligere generationer, der endnu ikke er i hans kapitelliste
+
+**Kategori:** Opdagelse
+**Kilde:** Projekt Arkivdigitalisering, Turn 6 (2026-08-05) — samme eksterne kilde som punkt 1
+**Fund:** Den eksterne side nævner tre generationer før "01": Hans Hop (1562-1624, Metzingen → Skagen), Mads Hopp (1590-1650, rådmand i Skagen) og Daniel Madsen Hopp (f. o. 1620 eller 1633, usikkert) — ingen af disse optræder i bedstefars egen liste over Hopp-slægtens kapitler, som sendt indtil videre.
+**Grundlag:** Samme eksterne side; ikke krydstjekket mod nogen primærkilde.
+**Status:** Foreslået — endnu ikke gennemgået. Spørg, om disse bevidst ligger uden for hans egen kapitelinddeling (uden for hans forskningsafgrænsning), eller om de blot endnu ikke er digitaliseret/sendt.
+
+### 3. To forskellige personer ved navn "Hans Hop(s)" — risiko for sammenblanding
+
+**Kategori:** Uoverensstemmelse
+**Kilde:** Projekt Arkivdigitalisering, Turn 6 (2026-08-05)
+**Fund:** Bedstefars egen liste nævner "Hopp-slægt B — Hans Hops (1599-1666), købmand og brygger i Kbh., indvandret fra Holland" under "andre Hopp-slægter" (forskning, hvis forbindelse til familiens egen linje endnu ikke er bekræftet). Den eksterne sides Hans Hop (1562-1624, bonde fra Metzingen, også indvandret via Holland) har andre fødsels-/dødsår og et andet erhverv — sandsynligvis en anden person, men det lignende navn og den fælles "via Holland"-detalje giver en reel risiko for sammenblanding.
+**Grundlag:** Sammenligning af to navne/årstal fra to forskellige kilder; ingen primærkilde tjekket.
+**Status:** Foreslået — endnu ikke gennemgået. Spørg bedstefar, om det bekræftet er to forskellige mænd.
 
 ---
 
@@ -45,3 +47,4 @@ Running list of discoveries, proposed connections, apparent inconsistencies, and
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-05 | Initial creation. Three items migrated from `projects/archive-digitization/context/external-source-hopp-herredsfoged.md`'s Open Items — the first real use of the new grandfather-review mechanism. |
+| 1.1 | 2026-08-05 | Translated the file into Danish per the human's request — the grandfather's English is limited and the research itself is Danish, so translating at send-time risked losing nuance. Kept the "Version History" heading and the header status line in English so `scripts/validate.ps1` keeps recognizing them. |

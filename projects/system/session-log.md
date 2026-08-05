@@ -111,3 +111,29 @@ STATUS: CHECKPOINT
 Completed: Designed and built the `grandfather-review/` mechanism (new flag type, queue + log files, Hard Constraint) establishing the grandfather as final authority on genealogical conclusions; migrated the first three real findings into it.
 Next: None planned — awaiting the Boe-slægten file or further direction.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 5 | 2026-08-05
+
+Human pointed out the grandfather's English is limited while the research itself is Danish, and asked whether `grandfather-review/` content should be authored natively in Danish or translated at send-time. Recommended native Danish — translating at send-time adds a manual step and a real risk of losing nuance on names/dates every cycle, for a file whose only audience is him. Flagged one technical constraint before acting: `scripts/validate.ps1` recognizes the Version History section by matching the literal English heading text, so translating that specific heading would silently stop the file from being checked — the same class of bug this repo's own history already hit once with `MarkdownConventions.md`'s numbered heading. Kept that one heading, plus the `Version | Date | Status` line, in the standard convention; translated everything else.
+
+**Built:**
+
+- `grandfather-review/queue.md` (1.0 → 1.1) and `grandfather-review/log.md` (1.0 → 1.1) — fully translated into Danish (title, Document Purpose, usage instructions, all three existing entries), each with a top-of-file note explaining the language exception and which two structural elements stay English for tooling compatibility.
+- `knowledge/flow/operating-principles.md` (1.2 → 1.3) — §5 clarified: the in-turn `[FLAG FOR GRANDFATHER REVIEW]` block stays in whatever language the session log itself is in (that's an internal working note), but the actual entry appended to `queue.md` must be in Danish — added the Danish field-label template (Kategori/Kilde/Fund/Grundlag/Status) so future sessions have the real template to copy, not just a translation instruction.
+- `ROUTING.md` (1.12 → 1.13) — Quick Task Guide's grandfather-review entry now flags the Danish requirement inline.
+- `Architecture.md` (1.5 → 1.6) — §3 notes the language exception and its rationale.
+
+No change to `README.md` this turn — its existing one-line mention of `grandfather-review/` didn't need updating for this.
+
+### Session close
+
+Knowledge candidates: None — language/process convention, not a domain fact.
+Open flags: None.
+Push status: Pending — will push immediately after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Translated `grandfather-review/queue.md` and `log.md` into Danish per the human's request; documented the convention (and the one tooling exception) across `operating-principles.md`, `ROUTING.md`, and `Architecture.md`.
+Next: None planned — awaiting the Boe-slægten file or further direction.
+Waiting for: Nothing further this turn — pushing now.
