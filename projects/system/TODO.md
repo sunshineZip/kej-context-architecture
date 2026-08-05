@@ -15,8 +15,9 @@ Version 1.0 | 2026-08-05 | Active
 
 ## Open
 
-- [ ] Confirm the full list of *slægt* (family line) names with the family — Boe and Hopp are known; there are almost certainly more not yet asked about
-- [ ] Create `projects/archive-digitization/` (Phase 2) — get the laptop's document pile into the repo and roughly triaged
+- [ ] Confirm the full list of *slægt* (family line) names with the family — the grandfather's manifest names at least Boe, Hopp, Dølby (Bruno's line), and Inge's slægt (Rahbæk-Østergaard, Neermann); Svend Åge Pedersen's 7 slægter may be more still
+- [ ] Receive the actual "2024 Boe-slægen fra Mors og Fur.docx" file from the human — see `projects/archive-digitization/TODO.md`
+- [ ] Resolve open classification questions from the intake manifest: mills/Lokalarkiv as `library/` deep wells, Hopp-surname-research connection, Svend Åge Pedersen's slægter status — see `projects/archive-digitization/TODO.md`
 - [ ] Decide an approach to handwriting transcription for older Danish church records (possibly Gothic/Kurrent script) — manual transcription, a specialized OCR tool, or the family's own knowledge of the handwriting. Not yet solved — see `ROUTING.md` Hard Constraints
 - [ ] Create the first real *slægt* domain(s) once Phase 2 surfaces triaged material (Phase 3)
 - [ ] Fill in `knowledge/domains/website-infrastructure/knowledge.md` §3–5 once the website repository is created
@@ -29,6 +30,7 @@ Version 1.0 | 2026-08-05 | Active
 - [x] Forked `proto-context-architecture` (upstream commit `86d4eddb6211b623a0e5a9ea047528076533ea8a`) into `kej-context-architecture` (2026-08-05)
 - [x] Adapted `README.md`, `ROUTING.md`, `.github/copilot-instructions.md`, `knowledge/domains/index.md` for this initiative (2026-08-05)
 - [x] Scaffolded `website-infrastructure` as a thin stub domain (2026-08-05)
+- [x] Created `projects/archive-digitization/` (Phase 2) and transcribed the grandfather's full intake manifest (53 items, 8 categories) (2026-08-05)
 
 ---
 

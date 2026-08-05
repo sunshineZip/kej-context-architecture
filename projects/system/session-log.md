@@ -56,3 +56,28 @@ STATUS: CHECKPOINT
 Completed: Forked and adapted the context-architecture template for this genealogy research initiative (Phase 1 of the agreed three-phase sequence) — root docs, routing, entry point, domain registry, and a thin `website-infrastructure` reference domain. Upstream sync marker recorded.
 Next: Phase 2 — create `projects/archive-digitization/` to begin getting the laptop's document pile into the repo and roughly triaged.
 Waiting for: Human confirmation before starting Phase 2.
+
+---
+
+## [Claude] — Turn 3 | 2026-08-05
+
+The grandfather sent his first email: one document ("2024 Boe-slægen fra Mors og Fur.docx") plus, in his own words, a full manifest of everything he plans to send afterward. This is Phase 2 actually starting, confirmed implicitly by the human providing real material rather than a fresh ambiguous request — no separate plan-approval cycle needed on top of the Phase 2 already agreed in Turn 2.
+
+Opened `projects/archive-digitization/` (`session-log.md`, `TODO.md`, `context/intake-manifest.md`) and transcribed the grandfather's full email into the intake manifest — 53 items across 8 categories (Boe-slægten, Hopp-slægten, Svend Åge Pedersens 7 slægter, Dølby-slægten, Inges slægt, broader Hopp-surname research, mills in Sundsøre Kommune, Sundsøre Lokalarkiv). This is project-layer work, appended freely without an approval gate — no `knowledge/domains/` content was touched.
+
+The manifest itself surfaced three real classification questions, recorded as open items in `projects/archive-digitization/TODO.md` rather than silently resolved: whether the mills/Lokalarkiv material should be `library/` deep wells rather than domains (proposed default, per `authoring-guidelines.md` §9.2's "large, cross-domain, mined incrementally" test), whether the broader Hopp-surname research connects to the family's own Hopp-slægt, and whether Svend Åge Pedersen's seven slægter are additional family lines or belong under an existing one.
+
+Because this added a new project, `ROUTING.md` Step 2 needed a new row — this is system-layer work per the Hard Constraints, hence this turn. Also updated the Quick Task Guide's setup-sequence note (Phase 2: "next" → "open, in progress"). No actual document content was ingested this turn — the one file the grandfather sent was not actually attached to the conversation, only its filename; still waiting on the human to provide it.
+
+**Files changed:** `ROUTING.md` (1.10 → 1.11) — new Step 2 row for Archive Digitization, Quick Task Guide status update. New: `projects/archive-digitization/session-log.md`, `TODO.md`, `context/intake-manifest.md`.
+
+### Session close
+
+Knowledge candidates: None — no source material ingested yet, this was intake scaffolding only.
+Open flags: None.
+Push status: Pending — will push immediately after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Opened the Archive Digitization project and transcribed the grandfather's full intake manifest (53 items, 8 categories); added its `ROUTING.md` routing row.
+Next: Receive the actual "2024 Boe-slægen fra Mors og Fur.docx" file from the human; resolve the three open classification questions (mills/Lokalarkiv as deep wells, Hopp-surname research connection, Svend Åge Pedersen's slægter status) — ideally with input from the grandfather, not guessed.
+Waiting for: The human to provide the actual file, and/or direction on the open classification questions.
