@@ -81,3 +81,33 @@ STATUS: CHECKPOINT
 Completed: Opened the Archive Digitization project and transcribed the grandfather's full intake manifest (53 items, 8 categories); added its `ROUTING.md` routing row.
 Next: Receive the actual "2024 Boe-slægen fra Mors og Fur.docx" file from the human; resolve the three open classification questions (mills/Lokalarkiv as deep wells, Hopp-surname research connection, Svend Åge Pedersen's slægter status) — ideally with input from the grandfather, not guessed.
 Waiting for: The human to provide the actual file, and/or direction on the open classification questions.
+
+---
+
+## [Claude] — Turn 4 | 2026-08-05
+
+Human raised a governance concern that this session's own cross-referencing work (see Archive Digitization Turn 6 — the Hopp herredsfoged external-source analysis) made concrete rather than hypothetical: this repo, by aggregating and cross-referencing the grandfather's research, may surface discoveries or connections he has never made himself. The human does not want this repo's own inferences to silently alter or replace his conclusions, wants a running list of such findings he can review periodically (his own cadence, not automated — confirmed via `AskUserQuestion`, human declined an automated monthly reminder), and wants it explicit that the grandfather — not the human operating this repo — remains the final signer on research conclusions, for as long as he is able to continue his own research.
+
+Proposed a concrete design before building, per the Plan-first rule (a new Hard Constraint plus a new cross-cutting mechanism is structural, system-layer work): a third `[FLAG FOR GRANDFATHER REVIEW]` flag type alongside the existing knowledge-update/system flags, and a new top-level `grandfather-review/` folder (`queue.md` for open items, `log.md` as an append-only history of what was sent and how he responded). Human confirmed the design as described.
+
+**Built:**
+
+- `knowledge/flow/operating-principles.md` (1.1 → 1.2) — new "Grandfather review flags" subsection in §5, defining the flag format and the promotion path (confirmed items get `[VERIFIED: grandfather, YYYY-MM-DD]` when written into a domain).
+- `ROUTING.md` (1.11 → 1.12) — new Hard Constraint naming the grandfather as final authority on genealogical conclusions specifically (not overriding his ordinary latitude to make system/project-layer decisions himself); new Quick Task Guide entry.
+- `Architecture.md` (1.4 → 1.5) — `grandfather-review/` added to the §2 file structure diagram; new §3 subsection, "A third layer — fork-specific: grandfather review," explaining why this fork's promotion gate is stricter than the generic template's (the human's own approval is insufficient for a genealogical claim; only the grandfather's explicit confirmation, recorded in `log.md`, allows promotion).
+- `README.md` (1.3 → 1.4) — matching folder-diagram and "How it works" updates.
+- New `grandfather-review/queue.md` and `grandfather-review/log.md` — the mechanism itself, both starting fresh (`log.md` empty, no digests sent yet).
+- Migrated the three open questions from `projects/archive-digitization/context/external-source-hopp-herredsfoged.md`'s own Open Items into `grandfather-review/queue.md` as its first real entries, and replaced that section with a pointer to the queue (own-vs-reference rule — one owning list, not two copies that could drift).
+
+This is the first structural addition this fork has made beyond what the template itself provides — everything else so far has been filling in the template's own scaffolding. Recorded here in full per the Hard Constraint requiring system-layer changes to be logged before committing.
+
+### Session close
+
+Knowledge candidates: None — this was a governance/process mechanism, not a domain fact.
+Open flags: None.
+Push status: Pending — will push immediately after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Designed and built the `grandfather-review/` mechanism (new flag type, queue + log files, Hard Constraint) establishing the grandfather as final authority on genealogical conclusions; migrated the first three real findings into it.
+Next: None planned — awaiting the Boe-slægten file or further direction.
+Waiting for: Nothing further this turn — pushing now.
