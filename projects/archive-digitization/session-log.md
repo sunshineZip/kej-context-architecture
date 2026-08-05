@@ -69,3 +69,32 @@ STATUS: CHECKPOINT
 Completed: Reprioritized the intake tracker per the human's direction — classification questions deferred with working assumptions, no longer blocking.
 Next: Receive the actual Boe-slægten file; begin the first real triage pass once it's in hand.
 Waiting for: The human to provide the actual file.
+
+---
+
+## [HUMAN] — Turn 5 | 2026-08-05
+
+Grandfather shared the Boe-slægten document via a link without granting access, rather than attaching it — still waiting on him. In the meantime, asked whether https://arkiv.dk/vis/5737222 (possibly related to Sundsøre Lokalarkiv material) could be crawled, then separately found and pasted the full text of http://www.akj-cbj.dk/Hopp.htm, an external genealogist's page naming the grandfather (Knud Erik Jakobsen, Risum) as the source for Hopp-slægt herredsfoged history.
+
+---
+
+## [Claude] — Turn 6 | 2026-08-05
+
+**arkiv.dk:** attempted to fetch, blocked at the network-policy level (proxy returned 403 on CONNECT to arkiv.dk:443 — an organizational egress policy denial, not a scraping restriction). Reported this to the human rather than attempting a workaround, per the proxy's own guidance not to retry policy denials. Human agreed to hold on this site pending either a policy change or manually provided content.
+
+**akj-cbj.dk/Hopp.htm:** the human pasted the full page text directly, so no fetch was needed. Preserved it verbatim in `context/external-source-hopp-herredsfoged.md`, with full citation (author Arne Bjørn Jørgensen, page dated 2010-08-10, primary source cited: the grandfather's own 1978 and 1991 published articles) and a cross-reference analysis against the grandfather's own chapter numbering in `intake-manifest.md` §3.
+
+Cross-reference found a strong candidate match (birth/death years agree exactly) between this page's Knud Danielsen Hopp (~1640–1723) / Knud Knudsen Hopp (d. 1762) and the grandfather's own chapters "01" and "01F" — flagged as a proposed match, not [VERIFIED], since it rests on two independent secondary tellings rather than a primary record. Also found the page's earlier generations (Hans Hop, Mads Hopp, Daniel Madsen Hopp, predating chapter "01") are not part of the manifest's own Hopp-slægten listing, and that this page's Hans Hop (1562-1624, Metzingen/Skagen) is a different person from "Hopp-slægt B"'s Hans Hops (1599-1666, Copenhagen) in the "andre Hopp-slægter" bucket — genuinely new nuance, not something to resolve unilaterally. All of this recorded as open items in `TODO.md` for the grandfather to confirm, not treated as settled.
+
+This is project-layer work only (a working note plus TODO items) — no domain created, no knowledge-layer file touched, since no Hopp-slægt domain exists yet.
+
+### Session close
+
+Knowledge candidates: None yet, formally — this is strong candidate material for a future Hopp-slægt domain's `sources/`, but nothing is promoted until that domain exists (Phase 3) and the open questions are confirmed with the grandfather.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Reported the arkiv.dk network block; preserved and cross-referenced the akj-cbj.dk Hopp-slægt page against the grandfather's own chapter numbering.
+Next: Still waiting on the Boe-slægten file and on the grandfather's access grant. New follow-up: ask the grandfather about his own 1978/1991 published articles and the proposed chapter matches.
+Waiting for: The human to resolve file access with the grandfather; no other action possible until then.
