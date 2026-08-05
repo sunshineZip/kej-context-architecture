@@ -22,6 +22,7 @@ This repo is the **research knowledge base** for a family genealogy research pro
 - **Routing** (`ROUTING.md`) is a four-step instruction set loaded by the AI at the start of every session. It tells the AI what to load and how to behave based on the request.
 - **Validity signals** (`[VERIFIED: source]` / `[UNVERIFIED]` / `[CONTRADICTS: source]` / `[OUTDATED: date]`) are applied rigorously here — this maps directly onto how genealogical research is already graded (a primary record outranks family oral tradition; conflicting records are tracked, not silently resolved). See `MarkdownConventions.md` §8.
 - **Privacy:** `[SENSITIVE]` is applied to anything involving living relatives — addresses, health information, or anything else that surfaces incidentally but shouldn't be casually re-shared.
+- **Grandfather review** (`grandfather-review/`) — the grandfather, not whoever is operating this repo, is the final authority on genealogical conclusions. Anything this repo notices on its own (a cross-reference, an apparent inconsistency, a gap) is queued here for his periodic review, never written into a domain as settled fact on its own.
 
 For the full structural design: see [Architecture.md](Architecture.md).
 
@@ -76,6 +77,10 @@ kej-context-architecture/
     reference-index.md                ← Registry of every deep well, stored or not
     deep-wells/                       ← Physical files for cornerstone-status deep wells only
 
+  grandfather-review/                 ← Fork-specific — see Architecture.md §3
+    queue.md                          ← Discoveries/connections/inconsistencies/gaps awaiting his review
+    log.md                            ← Append-only history of what was sent and how he responded
+
   projects/
     system/                           ← Pre-created — audit log for structural changes to this system
       session-log.md
@@ -106,3 +111,4 @@ kej-context-architecture/
 | 1.1 | 2026-06-29 | Rewritten as human-readable document. LLM routing instructions moved to ROUTING.md. |
 | 1.2 | 2026-07-16 | Added `library/` (cross-domain deep-well registry) and the per-domain `sources/` folder to the folder structure diagram — see `knowledge/domains/authoring-guidelines.md` §9. Also fixed a pre-existing formatting break in the `projects/` block of this same diagram (missing line breaks had collapsed three tree rows onto one line). |
 | 1.3 | 2026-08-05 | Forked from `proto-context-architecture` (upstream commit `86d4eddb6211b623a0e5a9ea047528076533ea8a`) for family genealogy research (*slægtsforskning*). Adapted human-facing overview: research-knowledge-base framing, the backup-safety rationale stated plainly, the inventory-first setup deviation, and the folder structure diagram updated for a `website-infrastructure` reference domain and per-*slægt* domains. |
+| 1.4 | 2026-08-05 | Added `grandfather-review/` to the "How it works" bullets and the folder structure diagram — a fork-specific mechanism establishing the grandfather as final authority on genealogical conclusions. See `Architecture.md` §3. |

@@ -1,6 +1,6 @@
 # Routing
 
-Version 1.11 | 2026-08-05 | Production
+Version 1.12 | 2026-08-05 | Production
 
 ---
 
@@ -111,6 +111,7 @@ Do not break these regardless of what the human asks.
 - **Do not retire or delete a domain or project without explicit human confirmation.** Retiring is a structural change — route to `projects/system/` and record it in `session-log.md`, same as adding one. Default to archive-in-place (`Retired` status, `MarkdownConventions.md` §1) — never delete files as part of retirement. Only hard-delete on a separate, explicit human instruction, confirmed again before anything is removed.
 - **Do not adopt an adversarial or opposing persona without an explicit, unambiguous human request** — never infer that intent from a loaded topic or context alone; if it's ambiguous, ask. Drop back to your normal voice immediately and unprompted at any sign the human has stepped outside the exercise (a real logistical question, genuine distress, confusion about whether something is real advice) — do not wait to be asked.
 - **Do not attempt automated transcription of handwritten source material — especially older Gothic/Kurrent-script Danish church records — as if it were a solved problem.** Treat OCR/transcription of the digitized archive as an open problem requiring a deliberate approach (manual transcription, a specialized tool, or the family's own knowledge of the handwriting), not something to silently attempt and present as reliable. See `projects/archive-digitization/` once that project exists.
+- **The grandfather (Knud Erik Jakobsen), not the human operating this repo, is the final authority on genealogical conclusions.** Anything this repo notices on its own — a cross-reference between his research threads, an apparent inconsistency, a discovery not in his materials, a data gap — is a proposal, never a fact, until he has explicitly confirmed it. The human's own agreement is not sufficient sign-off for a genealogical claim; do not write such a finding into a domain's `knowledge.md` as settled on that basis alone. Raise `[FLAG FOR GRANDFATHER REVIEW]` (format in `knowledge/flow/operating-principles.md` §5) and append it to `grandfather-review/queue.md` instead. This does not apply to ordinary system-layer or project-layer decisions the human is entitled to make himself — only to claims about the family's genealogy.
 
 ---
 
@@ -143,6 +144,11 @@ Apply these in every session regardless of project type or how you entered the s
 
 **I want to check for upstream template updates** (forks only — not applicable to this repo itself)
 → See `knowledge/flow/upstream-sync.md` for the full check/apply procedure. Opportunistic, not scheduled — run it when you have spare capacity in a System project session, or when asked to tidy up. The sync marker lives in `projects/system/TODO.md`'s System Maintenance Pass section.
+
+**I noticed something during research that the grandfather hasn't confirmed** (a discovery, a connection between his research threads, an apparent inconsistency, or a data gap)
+→ Do not write it into any domain's `knowledge.md` as settled — see the Hard Constraint above
+→ Raise `[FLAG FOR GRANDFATHER REVIEW]` (format in `knowledge/flow/operating-principles.md` §5) and append it to `grandfather-review/queue.md`
+→ The human reviews and sends the queue to the grandfather on his own schedule (no fixed cadence enforced by this repo) — when his response comes back, record it in `grandfather-review/log.md` and, only for confirmed items, promote the finding into the relevant domain with `[VERIFIED: grandfather, YYYY-MM-DD]`
 
 **I want to retire a domain or project**
 → Confirm with the human first — this is a structural decision, not a routine edit
@@ -191,3 +197,4 @@ The real *slægt* (family line) list can't be known until the source material �
 | 1.9 | 2026-07-25 | Added a Hard Constraint against adopting an adversarial/opposing persona without an explicit human request, with an unprompted-exit rule at any sign the human has stepped outside the exercise. See `knowledge/domains/authoring-guidelines.md` §4 (Behavioral and communication-style notes) for the corresponding content-authoring guidance. |
 | 1.10 | 2026-08-05 | Forked from `proto-context-architecture` (upstream commit `86d4eddb6211b623a0e5a9ea047528076533ea8a`) for family genealogy research. Step 2 table replaced example rows with the System row and a `website-infrastructure` reference-domain row; adopted the "work directly on `main`" default outright (no longer overridable-template-default phrasing, since this fork is confirmed personal/family use); added a Hard Constraint against silently attempting handwriting transcription/OCR as a solved problem; added a Standing Rule on rigorous validity-signal use, matching genealogical research practice; Quick Task Guide's "fresh fork" entry replaced with this fork's actual inventory-first sequence and current phase status. |
 | 1.11 | 2026-08-05 | Opened the Archive Digitization project — added its Step 2 routing row and updated the Quick Task Guide's setup-sequence status (Phase 2 now "open, in progress" rather than "next"), pointing at the full intake manifest transcribed from the grandfather's first email. |
+| 1.12 | 2026-08-05 | Added a Hard Constraint establishing the grandfather, not the human operating this repo, as final authority on genealogical conclusions — this repo's own discoveries/connections/inconsistencies/gaps are proposals only until he confirms them, via the new `[FLAG FOR GRANDFATHER REVIEW]` mechanism (`operating-principles.md` §5, `grandfather-review/queue.md` + `log.md`). Added a matching Quick Task Guide entry. |

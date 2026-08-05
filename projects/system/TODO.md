@@ -21,6 +21,7 @@ Version 1.0 | 2026-08-05 | Active
 - [ ] Decide an approach to handwriting transcription for older Danish church records (possibly Gothic/Kurrent script) — manual transcription, a specialized OCR tool, or the family's own knowledge of the handwriting. Not yet solved — see `ROUTING.md` Hard Constraints
 - [ ] Create the first real *slægt* domain(s) once Phase 2 surfaces triaged material (Phase 3)
 - [ ] Fill in `knowledge/domains/website-infrastructure/knowledge.md` §3–5 once the website repository is created
+- [ ] Human to review `grandfather-review/queue.md` and send it to the grandfather when it feels due (no fixed cadence — his own schedule)
 
 ---
 
@@ -31,6 +32,7 @@ Version 1.0 | 2026-08-05 | Active
 - [x] Adapted `README.md`, `ROUTING.md`, `.github/copilot-instructions.md`, `knowledge/domains/index.md` for this initiative (2026-08-05)
 - [x] Scaffolded `website-infrastructure` as a thin stub domain (2026-08-05)
 - [x] Created `projects/archive-digitization/` (Phase 2) and transcribed the grandfather's full intake manifest (53 items, 8 categories) (2026-08-05)
+- [x] Built the `grandfather-review/` mechanism — new flag type, `queue.md` + `log.md`, Hard Constraint naming the grandfather as final authority on genealogical conclusions (2026-08-05)
 
 ---
 

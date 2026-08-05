@@ -1,6 +1,6 @@
 # External Source Note — "Hopp forfædrene" (akj-cbj.dk)
 
-Version 1.0 | 2026-08-05 | Active
+Version 1.1 | 2026-08-05 | Active
 
 ---
 
@@ -193,10 +193,7 @@ Arne Bjørn Jørgensen
 
 ## Open Items
 
-- [ ] Ask the grandfather whether he has copies of his own published articles — "Om den sidste herredsfoged i Salling Nørre herred" (1978, *Skiveegnens Jul*) and "Degnekår om slægten Hop" (1991) — these would be excellent primary evidentiary sources with more detail and precise citations than this secondary retelling
-- [ ] Ask the grandfather to confirm or correct the proposed match between this page's Knud Danielsen Hopp/Knud Knudsen Hopp and his own chapters "01"/"01F"
-- [ ] Ask the grandfather whether Hans Hop (1562-1624, Metzingen/Skagen) and Mads Hopp belong in the main Hopp-slægt line (predating chapter "01"), or are separate research
-- [ ] Ask the grandfather to clarify how this page's Hans Hop (1562-1624) relates to, or differs from, "Hopp-slægt B"'s Hans Hops (1599-1666) in his own "andre Hopp-slægter" research — they appear to be different people, not confirmed
+Tracked in [grandfather-review/queue.md](../../../grandfather-review/queue.md) items 1–3, not restated here — that file is the single owning list for anything pending the grandfather's review, per `operating-principles.md` §5.
 
 ---
 
@@ -205,3 +202,4 @@ Arne Bjørn Jørgensen
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-05 | Initial creation. Full text preserved as pasted by the human, plus a cross-reference analysis against the grandfather's own Hopp-slægten chapter numbering from `intake-manifest.md`. Not yet confirmed with the grandfather. |
+| 1.1 | 2026-08-05 | Open Items replaced with a pointer to the new `grandfather-review/queue.md` (items 1–3), which now owns this list — avoids two copies of the same pending questions drifting apart. |
