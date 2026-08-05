@@ -1,6 +1,6 @@
 # Routing
 
-Version 1.10 | 2026-08-05 | Production
+Version 1.11 | 2026-08-05 | Production
 
 ---
 
@@ -35,6 +35,7 @@ Read the first message. Match one row. Load the listed files before responding.
 | If the request concerns... | Project | Also load |
 |---|---|---|
 | Changes to or questions about the context architecture itself — adding domains, modifying routing or protocols, structural improvements, or any work that changes how this system operates | System | `projects/system/TODO.md` |
+| Getting the grandfather's document pile (emails, scans, .docx files) into this repo and roughly triaged by *slægt*/category — including anything from the intake manifest | Archive Digitization | `projects/archive-digitization/TODO.md` · `projects/archive-digitization/context/intake-manifest.md` |
 | Questions about the future genealogy website — its repo location, tech stack, deployment, or maintenance procedures once it exists | N/A — reference domain only, no dedicated project yet | `knowledge/domains/website-infrastructure/description.md` · `knowledge/domains/website-infrastructure/knowledge.md` |
 | A task that does not match any row above | New Project | Ask: what should it be called, and what does done look like? Do not create files until answered. |
 | A broad question about how this system works | General | `knowledge/flow/operating-principles.md` §1 only — no project files needed |
@@ -167,7 +168,7 @@ Apply these in every session regardless of project type or how you entered the s
 The real *slægt* (family line) list can't be known until the source material — a large, unsorted pile of digital documents on one laptop — has actually been triaged. So this fork does not go domain-first:
 
 1. **Repo skeleton and conventions** — done. Template forked, routing adapted, `website-infrastructure` reference domain scaffolded as a stub.
-2. **Archive Digitization project** — next. Copy `projects/_template/` to `projects/archive-digitization/`; goal is getting the laptop's document pile into the repo and roughly triaged by likely *slægt* and source type, with the handwriting/transcription problem (see Hard Constraints) explicitly named as unsolved rather than silently attempted.
+2. **Archive Digitization project** — open, in progress. `projects/archive-digitization/` tracks the intake: goal is getting the laptop's document pile into the repo and roughly triaged by likely *slægt* and source type, with the handwriting/transcription problem (see Hard Constraints) explicitly named as unsolved rather than silently attempted. The grandfather's full intake manifest — every item he plans to send, transcribed from his own email — lives in `projects/archive-digitization/context/intake-manifest.md`; check it for current receipt status before assuming what's already in hand.
 3. **Domain buildout** — once Phase 2 surfaces the real *slægt* list (confirmed with the family) and some triaged material, create each *slægt* domain properly: `knowledge/domains/[slægt-name]/`, with `sources/` used from day one for primary documents (church records, census records, certificates, letters, photographs).
 
 > Domain knowledge documents start thin and grow. A stub with an Executive Summary and a few key facts is enough to begin. The LLM will surface what is missing as it works.
@@ -189,3 +190,4 @@ The real *slægt* (family line) list can't be known until the source material �
 | 1.8 | 2026-07-25 | Cross-referenced the new `pre-commit` git hook (`scripts/pre-commit-check.ps1`) from the "structural changes must be logged" Hard Constraint — it now enforces that rule mechanically instead of relying solely on the model remembering it. |
 | 1.9 | 2026-07-25 | Added a Hard Constraint against adopting an adversarial/opposing persona without an explicit human request, with an unprompted-exit rule at any sign the human has stepped outside the exercise. See `knowledge/domains/authoring-guidelines.md` §4 (Behavioral and communication-style notes) for the corresponding content-authoring guidance. |
 | 1.10 | 2026-08-05 | Forked from `proto-context-architecture` (upstream commit `86d4eddb6211b623a0e5a9ea047528076533ea8a`) for family genealogy research. Step 2 table replaced example rows with the System row and a `website-infrastructure` reference-domain row; adopted the "work directly on `main`" default outright (no longer overridable-template-default phrasing, since this fork is confirmed personal/family use); added a Hard Constraint against silently attempting handwriting transcription/OCR as a solved problem; added a Standing Rule on rigorous validity-signal use, matching genealogical research practice; Quick Task Guide's "fresh fork" entry replaced with this fork's actual inventory-first sequence and current phase status. |
+| 1.11 | 2026-08-05 | Opened the Archive Digitization project — added its Step 2 routing row and updated the Quick Task Guide's setup-sequence status (Phase 2 now "open, in progress" rather than "next"), pointing at the full intake manifest transcribed from the grandfather's first email. |
