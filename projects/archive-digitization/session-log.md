@@ -44,3 +44,28 @@ STATUS: CHECKPOINT
 Completed: Opened this project; transcribed the full manifest from the human's grandfather's email into an intake tracker.
 Next: Receive the actual "2024 Boe-slægen fra Mors og Fur.docx" file from the human, then do the first real triage pass on it.
 Waiting for: The human to provide the actual file (upload or link) — nothing further can happen on real content until then.
+
+---
+
+## [HUMAN] — Turn 3 | 2026-08-05
+
+Priority is getting all of the grandfather's research absorbed into the repo — relationships between topics (mills/Lokalarkiv classification, whether the broader Hopp research connects to the family's own line, Svend Åge Pedersen's slægter status) don't matter for now, as long as the architecture can accommodate them later.
+
+---
+
+## [Claude] — Turn 4 | 2026-08-05
+
+Updated `TODO.md`: moved the three classification questions out of `Open` into a new `Deferred — not blocking ingestion` section, each with a stated working assumption to triage against in the meantime (mills/Lokalarkiv → `library/` deep-well candidates; broader Hopp research → triaged separately for now; Svend Åge Pedersen's slægter → treated as their own lines). None of this required a knowledge-layer change or system-project routing — it's a priority/status adjustment to project-layer tracking, freely editable.
+
+The real blocker is unchanged: the "2024 Boe-slægen fra Mors og Fur.docx" file itself has still not reached this session — only its filename appeared in the relayed email text.
+
+### Session close
+
+Knowledge candidates: None — no source material ingested yet.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Reprioritized the intake tracker per the human's direction — classification questions deferred with working assumptions, no longer blocking.
+Next: Receive the actual Boe-slægten file; begin the first real triage pass once it's in hand.
+Waiting for: The human to provide the actual file.
