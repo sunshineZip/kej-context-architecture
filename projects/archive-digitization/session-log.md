@@ -123,3 +123,28 @@ STATUS: CHECKPOINT
 Completed: Explained GEDCOM and produced a GEDCOM-vs-CSV mockup using real Hopp-chain data, saved as a non-binding proposal.
 Next: Awaiting the human's decision on whether/when to commit to GEDCOM and actually create `family-tree/` — not yet needed until real material starts arriving in volume, per the project's own inventory-first philosophy.
 Waiting for: The Boe-slægten file, and/or direction on the data-structure proposal.
+
+---
+
+## [HUMAN] — Turn 9 | 2026-08-05
+
+Confirmed extracting every individual should not happen as one bulk pass, and asked to fold the incremental approach into the TODO for now (not to build `family-tree/` yet).
+
+---
+
+## [Claude] — Turn 10 | 2026-08-05
+
+Recorded the agreed plan in `TODO.md` rather than just leaving it in conversation: build `family-tree/tree.ged` incrementally, one document's worth of individuals at a time, as each piece of material is actually read and triaged — not a separate bulk extraction sweep. Also recorded the transcription-vs-inference boundary explicitly, since it wasn't obvious and matters at this volume: transcribing a fact directly from the grandfather's own document doesn't need a `[FLAG FOR GRANDFATHER REVIEW]` entry (it's just reformatting his own words), only genuine inferences beyond a single source do. Without writing this down now, a future session extracting individuals could easily over-flag (queueing every transcribed birth year) or under-flag (silently resolving a real name-spelling ambiguity as if it were routine).
+
+Pure TODO update — no folder created, no `knowledge/`/`ROUTING.md`/`Architecture.md` file touched, so no system-layer routing needed.
+
+### Session close
+
+Knowledge candidates: None — process/planning note, not a domain fact.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Folded the incremental extraction plan and the transcription-vs-inference boundary into `TODO.md`.
+Next: `family-tree/` creation stays deferred until the first real document arrives.
+Waiting for: The Boe-slægten file, or further direction.
