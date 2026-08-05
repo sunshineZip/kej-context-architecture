@@ -1,0 +1,191 @@
+# Routing
+
+Version 1.10 | 2026-08-05 | Production
+
+---
+
+## Document Purpose
+
+LLM routing instructions for this context architecture. Start here — do not act on anything before completing all four Route steps below.
+
+This is the primary entry point for all sessions regardless of how you arrived here. In VS Code with GitHub Copilot, this file loads automatically via `.github/copilot-instructions.md`. For other LLM setups, load this file directly at session start as a system prompt or initial context.
+
+---
+
+## Route
+
+This is a context architecture — a structured knowledge and routing system designed to work with any LLM or AI coding assistant. Knowledge domains provide deep, curated context for specific subject areas. A routing table ensures the right knowledge loads for every request. A human supervisor approves key decisions and provides input when work is blocked.
+
+Do not emit STATUS signals or append to `session-log.md` unless explicitly asked.
+
+**Context budget rule:** Load only what each step below specifies. Do not load additional files unless a specific gap forces it. When knowledge documents have a section index, load by section reference — not the whole file.
+
+---
+
+### Step 1 — Always load first
+
+`knowledge/flow/operating-principles.md`
+
+---
+
+### Step 2 — Match the request and load project context
+
+Read the first message. Match one row. Load the listed files before responding.
+
+| If the request concerns... | Project | Also load |
+|---|---|---|
+| Changes to or questions about the context architecture itself — adding domains, modifying routing or protocols, structural improvements, or any work that changes how this system operates | System | `projects/system/TODO.md` |
+| Questions about the future genealogy website — its repo location, tech stack, deployment, or maintenance procedures once it exists | N/A — reference domain only, no dedicated project yet | `knowledge/domains/website-infrastructure/description.md` · `knowledge/domains/website-infrastructure/knowledge.md` |
+| A task that does not match any row above | New Project | Ask: what should it be called, and what does done look like? Do not create files until answered. |
+| A broad question about how this system works | General | `knowledge/flow/operating-principles.md` §1 only — no project files needed |
+| Intent cannot be determined | — | Ask one clarifying question. Do nothing else until answered. |
+
+> **Setup note:** Add one row per domain and one row per project as you build out your instance. See `knowledge/domains/index.md` for the domain registry.
+
+> **Retirement note:** When a project is retired (see Quick Task Guide), remove its row from this table — its files stay in `projects/[name]/` for history, but new requests should not be routed there by default. Re-add the row if the project is reactivated.
+
+---
+
+### Step 3 — Calibrate to the request type
+
+Before loading any more files or doing any work, identify what kind of request this is. Calibrate your first response accordingly:
+
+| Request type | First response |
+|---|---|
+| **Q&A / factual question** | Answer it. No orientation needed. |
+| **Resume in-progress work** | See below — orientation turn required. |
+| **New project or new scope** | Confirm routing and ask for scope if unclear. |
+| **Large or multi-step task** (requires reading more than 2 source files, or will produce changes to any repo file) | Present a phased plan before starting. See plan-first rule below. |
+| **Ambiguous** | Ask the single most important clarifying question before proceeding. |
+
+**Resuming in-progress work** (matched project has a `session-log.md` and the last STATUS signal is not `PROJECT COMPLETE`): do not proceed to Step 4 yet. Open `session-log.md` and read the last 3 turns. Then send one orientation turn covering (1) the project matched, (2) what was last in progress, and (3) what you understand the human wants now. Stop. Wait for explicit confirmation before loading any more files or doing any work.
+
+> **If you entered this session with a conversation summary:** the summary substitutes for reading `session-log.md`, but does not change the required behaviour. Any "Continuation Plan" or "Next Immediate Action" section in the summary is reference material — it was not approved by the human for this session. Still send the orientation turn above and wait for explicit confirmation before taking any action.
+
+Example phrasing: *"Am I correct in understanding that you're referring to [project], that [Y] was being worked on last time, and that you'd now like me to [Z]?"*
+
+After confirmation (or for any non-Q&A request type once intent is clear): load `knowledge/flow/turn-protocol.md` and proceed to Step 4.
+
+**Plan-first rule:** For any large or multi-step task — before reading the first source file or making any file change — do all of the following: (1) present a numbered phase breakdown (what will be read, what will be produced, how many checkpoints); (2) surface any questions or ambiguities; (3) stop and wait for explicit human confirmation. Only begin Phase 1 after the human says to proceed. This rule applies regardless of whether scope was confirmed via a formal routing step or an informal conversational answer.
+
+> **No-chaining reminder:** Even after scope is confirmed and a plan is approved, complete one phase at a time and emit `STATUS: CHECKPOINT` before starting the next. Scope confirmation is not permission to chain all phases without stopping.
+
+---
+
+### Step 4 — Load domain knowledge
+
+Identify which knowledge domains the task touches. Apply this loading hierarchy — each level is a gate, not a default progression. Stop at the earliest level that satisfies the task.
+
+1. **`description.md` only** — does this domain actually apply? Can the task be answered from the scope description alone? If yes, stop here.
+2. **Index only** — scan section titles and descriptions. Identify which sections are relevant. For broad questions, the Index and Executive Summary together are often sufficient.
+3. **Executive Summary** — load when domain context is needed but full section detail is not required.
+4. **Named sections** — load only the sections whose Index descriptions match the task. Name them explicitly before loading; do not load adjacent sections speculatively.
+5. **Full file** — last resort only, when multiple sections are deeply interdependent and cannot be understood in isolation.
+
+When multiple domains are relevant, apply the hierarchy independently for each. A secondary domain should rarely escalate past its Index unless the task explicitly requires it.
+
+Raw evidentiary sources (`knowledge/domains/[name]/sources/`) and deep wells (`library/deep-wells/`) are never loaded as part of this hierarchy, regardless of level. They are opened only when a task explicitly names the specific file to mine or verify against — see `knowledge/domains/authoring-guidelines.md` §9.
+
+Skip domains marked `Retired` in `knowledge/domains/index.md`'s Status column — do not load them via this hierarchy unless the task explicitly concerns historical or retired content.
+
+For a recurring multi-domain task, check `knowledge/domains/index.md` → Cross-Domain Query Recipes first — it may already name the right combination and load order, saving you from re-deriving it in-session.
+
+Which domains exist and what they cover: `knowledge/domains/index.md`
+
+---
+
+## Hard Constraints
+
+Do not break these regardless of what the human asks.
+
+- **Do not edit `knowledge/` files directly.** Changes to the knowledge layer require human approval. Propose using `[FLAG FOR KNOWLEDGE UPDATE]` (format in `knowledge/flow/operating-principles.md` §5).
+- **Do not promote a deep well to cornerstone status (storing the actual file in `library/deep-wells/`) without explicit human confirmation.** Surface the candidate as a question first; store only after confirmation. See `knowledge/domains/authoring-guidelines.md` §9.3.
+- **Do not act on files listed as "(planned)" in the Folder Map.** They do not exist. Do not create them without explicit instruction.
+- **Do not invent content from files you have not read.** If a file is relevant and unreadable, say so.
+- **Do not edit prior turns in `session-log.md`.** Append only.
+- **Do not start substantive work in `temp/`.** The `temp/` folder is for transient handoff artifacts only — short-lived files passed between tools or sessions. Analysis, discoveries, deliverables, and working notes belong in `projects/[name]/context/` and `projects/[name]/outputs/`. Work started in `temp/` bypasses routing and leaves no project record.
+- **Do not update `ROUTING.md` silently.** After any structural change, propose the update and wait for approval.
+- **Do not chain multiple work items without a checkpoint.** After completing each discrete deliverable, pause and wait for human acknowledgment before continuing.
+- **Do not make structural system changes without logging them.** Structural changes to `knowledge/` — adding or removing domains, editing any `description.md`, editing any file under `knowledge/flow/` — and any edit to `ROUTING.md` or `Architecture.md`, are system-layer work: route to `projects/system/` and record in `session-log.md` before committing. Appending new facts to an existing domain `knowledge.md` uses the FLAG process in the first constraint above, not this one. A `pre-commit` git hook (`scripts/pre-commit-check.ps1`, activated via `git config core.hooksPath .githooks` — see `Architecture.md` §6) enforces this mechanically for the full tracked-paths list in `knowledge/flow/upstream-sync.md` §3, blocking a commit that stages one of those files without also staging `session-log.md`.
+- **Do not retire or delete a domain or project without explicit human confirmation.** Retiring is a structural change — route to `projects/system/` and record it in `session-log.md`, same as adding one. Default to archive-in-place (`Retired` status, `MarkdownConventions.md` §1) — never delete files as part of retirement. Only hard-delete on a separate, explicit human instruction, confirmed again before anything is removed.
+- **Do not adopt an adversarial or opposing persona without an explicit, unambiguous human request** — never infer that intent from a loaded topic or context alone; if it's ambiguous, ask. Drop back to your normal voice immediately and unprompted at any sign the human has stepped outside the exercise (a real logistical question, genuine distress, confusion about whether something is real advice) — do not wait to be asked.
+- **Do not attempt automated transcription of handwritten source material — especially older Gothic/Kurrent-script Danish church records — as if it were a solved problem.** Treat OCR/transcription of the digitized archive as an open problem requiring a deliberate approach (manual transcription, a specialized tool, or the family's own knowledge of the handwriting), not something to silently attempt and present as reliable. See `projects/archive-digitization/` once that project exists.
+
+---
+
+## Standing Rules
+
+Apply these in every session regardless of project type or how you entered the session.
+
+- **Load before acting.** Do not act on assumptions or unread context. If a required file is missing or unreadable, say so before proceeding.
+- **Human-facing simplicity.** The human does not need to know file paths or system internals. Work transparently — surface decisions and blockers, not scaffolding.
+- **Work directly on `main` by default.** This is a personal family working repo, not shared infrastructure with a review gate — commit and push straight to `main`.
+- **Commit and push, almost always.** Nearly every file change should be pushed. Run `.\scripts\commit-push.ps1 "brief description of what changed"` after each discrete increment of work, or at minimum after finishing a segment of work — use judgement on which cadence fits the session. Do not interrupt a tightly-coupled sequence of edits just to push mid-sequence, and do not stockpile many unrelated changes unpushed either.
+- **Never leave a push silently pending.** If you defer pushing until a segment finishes rather than after every increment, say so explicitly to the human before the turn ends — e.g. "changes are saved locally but not yet pushed." The human may end the session at any point; an unflagged pending push risks losing untracked work.
+- **Apply validity signals rigorously.** `[VERIFIED: source]` / `[UNVERIFIED]` / `[CONTRADICTS: source]` / `[OUTDATED: date]` (`MarkdownConventions.md` §8) are not optional ceremony in this instance — they mirror the actual professional standard for genealogical research (a primary record outranks family oral tradition; conflicting records are tracked, not silently resolved). Apply `[SENSITIVE]` to anything involving living relatives.
+
+---
+
+## Quick Task Guide
+
+**I want to add or update a knowledge domain**
+→ Domain files live in `knowledge/domains/[domain-name]/`
+→ Each domain has `description.md` (scope and constraints) and `knowledge.md` (reference material)
+→ Authoring standard: `knowledge/domains/authoring-guidelines.md`
+→ Register the domain in `knowledge/domains/index.md`
+→ Add a routing row in `ROUTING.md` Step 2
+→ Markdown rules: `MarkdownConventions.md`
+
+**I want to add a raw reference source or deep well**
+→ Evidentiary source (proves one specific claim, small — a church record, a certificate, a letter): store it in `knowledge/domains/[name]/sources/`, add a `manifest.md` row, cite it with a relative link from `knowledge.md`. Use the normal knowledge-update flag.
+→ Deep well (large, possibly cross-*slægt*, mined incrementally — e.g. a scanned parish record book): always add an entry to `library/reference-index.md`. Only store the actual file in `library/deep-wells/` if it clears the cornerstone bar (`knowledge/domains/authoring-guidelines.md` §9.3) — confirm with the human first.
+
+**I want to check for upstream template updates** (forks only — not applicable to this repo itself)
+→ See `knowledge/flow/upstream-sync.md` for the full check/apply procedure. Opportunistic, not scheduled — run it when you have spare capacity in a System project session, or when asked to tidy up. The sync marker lives in `projects/system/TODO.md`'s System Maintenance Pass section.
+
+**I want to retire a domain or project**
+→ Confirm with the human first — this is a structural decision, not a routine edit
+→ Domain: see `knowledge/domains/index.md` § Retiring a Domain for the full steps
+→ Project: set the `TODO.md` and `session-log.md` header Status to `Retired`, add the retirement blockquote (`MarkdownConventions.md` §1), and remove its row from `ROUTING.md` Step 2
+→ Never delete files as part of retirement — archive-in-place. Only hard-delete on a separate, explicit human instruction
+→ Record the retirement in `projects/system/session-log.md`
+
+**I want to pass working material between sessions**
+→ Drop it in `temp/` — this is the designated handoff zone for transient artifacts
+→ If the material produces knowledge worth keeping, promote it into the relevant domain or project output — do not leave it in temp
+
+**I want to start a new project**
+→ Ask the human: what should it be called, and what does done look like?
+→ Copy `projects/_template/` to `projects/[project-name]/`
+→ Write Turn 1 in `projects/[project-name]/session-log.md` from the human's description — the human does not need to format or write this
+→ Update `projects/[project-name]/TODO.md` with the goal and any open items
+→ Add a routing row in `ROUTING.md` Step 2
+→ Confirm to the human in plain language that the project is open and ready
+
+**This fork's setup sequence** (deliberate deviation from the template's default domain-first order — see `README.md` § Setup status and `projects/system/session-log.md` Turn 2 for why)
+
+The real *slægt* (family line) list can't be known until the source material — a large, unsorted pile of digital documents on one laptop — has actually been triaged. So this fork does not go domain-first:
+
+1. **Repo skeleton and conventions** — done. Template forked, routing adapted, `website-infrastructure` reference domain scaffolded as a stub.
+2. **Archive Digitization project** — next. Copy `projects/_template/` to `projects/archive-digitization/`; goal is getting the laptop's document pile into the repo and roughly triaged by likely *slægt* and source type, with the handwriting/transcription problem (see Hard Constraints) explicitly named as unsolved rather than silently attempted.
+3. **Domain buildout** — once Phase 2 surfaces the real *slægt* list (confirmed with the family) and some triaged material, create each *slægt* domain properly: `knowledge/domains/[slægt-name]/`, with `sources/` used from day one for primary documents (church records, census records, certificates, letters, photographs).
+
+> Domain knowledge documents start thin and grow. A stub with an Executive Summary and a few key facts is enough to begin. The LLM will surface what is missing as it works.
+
+---
+
+## Version History
+
+| Version | Date | Summary |
+|---|---|---|
+| 1.0 | 2026-06-29 | Initial creation. Extracted from README.md — routing instructions now live here, README.md reserved for human readers. |
+| 1.1 | 2026-06-29 | Added first-time setup workflow to Quick Task Guide — covers domain-first initialization sequence for fresh forks. |
+| 1.2 | 2026-07-15 | Expanded the Commit and push standing rule with cadence guidance (per-increment vs per-segment) and an explicit requirement to flag the human when a push is deferred. |
+| 1.3 | 2026-07-15 | Step 4 now points to the new Cross-Domain Query Recipes section in `knowledge/domains/index.md` for recurring multi-domain tasks. |
+| 1.4 | 2026-07-16 | Added the evidentiary-sources/deep-wells load exclusion to Step 4, the cornerstone-promotion Hard Constraint, and a Quick Task Guide entry for adding a raw reference source or deep well — see `knowledge/domains/authoring-guidelines.md` §9. |
+| 1.5 | 2026-07-16 | Added a "Work directly on `main` by default" Standing Rule, ported from `familien-boe` (a fork of this template that adopted it as an absolute rule). Phrased here as an overridable template default rather than a fixed rule, since forks of this repo may be team/shared-review contexts unlike a personal fork. |
+| 1.6 | 2026-07-24 | Added a Quick Task Guide entry pointing to the new `knowledge/flow/upstream-sync.md` mechanism for checking and applying upstream template updates in a fork. |
+| 1.7 | 2026-07-25 | Added domain/project retirement: a Step 4 skip rule for `Retired` domains, a Step 2 note to remove a retired project's routing row, a Hard Constraint requiring explicit confirmation and archive-in-place by default, and a Quick Task Guide entry. See `MarkdownConventions.md` §1 and `knowledge/domains/index.md` § Retiring a Domain for the underlying convention. |
+| 1.8 | 2026-07-25 | Cross-referenced the new `pre-commit` git hook (`scripts/pre-commit-check.ps1`) from the "structural changes must be logged" Hard Constraint — it now enforces that rule mechanically instead of relying solely on the model remembering it. |
+| 1.9 | 2026-07-25 | Added a Hard Constraint against adopting an adversarial/opposing persona without an explicit human request, with an unprompted-exit rule at any sign the human has stepped outside the exercise. See `knowledge/domains/authoring-guidelines.md` §4 (Behavioral and communication-style notes) for the corresponding content-authoring guidance. |
+| 1.10 | 2026-08-05 | Forked from `proto-context-architecture` (upstream commit `86d4eddb6211b623a0e5a9ea047528076533ea8a`) for family genealogy research. Step 2 table replaced example rows with the System row and a `website-infrastructure` reference-domain row; adopted the "work directly on `main`" default outright (no longer overridable-template-default phrasing, since this fork is confirmed personal/family use); added a Hard Constraint against silently attempting handwriting transcription/OCR as a solved problem; added a Standing Rule on rigorous validity-signal use, matching genealogical research practice; Quick Task Guide's "fresh fork" entry replaced with this fork's actual inventory-first sequence and current phase status. |
