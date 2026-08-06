@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.12 | 2026-08-06 | Active
+Version 1.13 | 2026-08-06 | Active
 
 ---
 
@@ -128,6 +128,26 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 **Grundlag:** Direkte visuel inspektion af billedet. Ingen billedtekst, ingen krydsreference til en bestemt alder eller begivenhed, der kan bruges til at afgrænse kandidatlisten yderligere.
 **Status:** Foreslået — endnu ikke gennemgået. Menneskets egen vurdering: billedet virker "meget ude af kontekst" i forhold til resten af dette checkpoint. Genkender du den unge mand med brillerne? Og hvis ikke — ved du, hvor billedet ellers kunne høre hjemme?
 
+### 14. image29.jpeg — ukendt par, evt. "Laurids"?
+
+**Kategori:** Billedidentifikation
+**Kilde:** Projekt Arkivdigitalisering, medie-manifest — se `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`, afsnittet om `image29.jpeg`
+**Fund:** Et bryllupsportræt: bruden med opsat, tilbagekæmmet hår og en høj-halset kjole (ikke traditionel slør-og-krone), holdende en stor rosenbuket; brudgommen i mørkt jakkesæt med boutonnière og lommetørklæde, med tilbagevigende hårgrænse og gråt ved tindingerne. **Vigtigt forbehold:** dette projekts egen oprindelige tidsangivelse ("1960'er-stil") var et rent stilgæt (frisure/snit), ikke en dokumenteret dato — der findes hverken billedtekst eller nogen anden kilde, der fastslår tiåret. Menneskets egen indvending (2026-08-06) er berettiget: vi kan ikke være sikre på 1960'erne. Brudgommens tilsyneladende alder (sent i 30'erne til 40'erne, ud fra hårgrænse/gråt hår) er et separat, svagere visuelt indtryk — heller ikke en sikker kendsgerning.
+**Tjekket og afvist:** Hanne (`I167`) og Knud Erik Jakobsen (`I168`)s eget bryllup 1966 — KEJ var kun 21 år på det tidspunkt, hvilket ikke passer til brudgommens udseende her, uanset det præcise tiår.
+**Familiens hypotese (2026-08-06):** Brugerens mor foreslår, at brudgommen kunne være "Laurids." Ingen af de seks personer med navnet Laurids/Laurits i `family-tree/tree.ged` passer dog rigtig godt: Laurids Christensen Boe (`I37`, gift 1915, ville være i 70'erne i 1960'erne) er alt for gammel; Jan Laurids Boll (`I232`, f.1959) ville stadig være barn i 1960'erne, og selv hvis fotoet reelt er fra 1980'erne, virker brudgommens udseende ældre end en mand i tyverne. De øvrige fire er alle fra Toft-anetavlen, 1700-1800-tallet — udelukket på tid alene.
+**Grundlag:** Direkte visuel inspektion, sammenholdt med fødsels-/vielsesdatoer allerede i `family-tree/tree.ged`. Ingen af navnene "Laurids"/"Laurits" i træet passer overbevisende.
+**Status:** Foreslået — endnu ikke gennemgået. Genkender du parret? Er det virkelig en "Laurids" — måske en, der (endnu) ikke er i træet, eller en, hvis fulde navn/tilnavn vi ikke har fanget rigtigt?
+
+### 15. image30.jpeg — mulig "Gyda" (Anna Gyda Boll)?
+
+**Kategori:** Billedidentifikation
+**Kilde:** Projekt Arkivdigitalisering, medie-manifest — se `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`, afsnittet om `image30.jpeg`
+**Fund:** Et traditionelt bryllupsportræt: brudgommen ung (tyverne, ud fra udseendet), mørkt jakkesæt med blomst i knaphullet; bruden i hvid kjole med slør og blomsterkrone, holdende en lang, faldende buket. **Samme forbehold som punkt 14:** den tidligere "1940'er-stil"-vurdering i manifestet er også kun et stilgæt — hvid slør-og-krone-bryllup var stadig helt traditionelt i Danmark langt ind i 1970'erne, så stilen alene udelukker ikke et senere tiår.
+**Familiens hypotese (2026-08-06):** Brugerens mor foreslår "Gyda." Der findes én person i træet, som familien selv kalder "Gyda": **Anna Gyda Boll** (`I208`, f. 13.8.1952, datter af Karen Kristensen Boe og Arne Frandsen Boll — samme afsnit som punkt 13/14's checkpoint), gift med **Kaj Godsk Pedersen**, tagdækker (`I209`). Manuskriptets egne noter om deres børn omtaler forældrene uformelt som "Anna Gyda og Kaj" — et ægte navnesammenfald, ikke kun en gætning.
+**Vigtig begrænsning:** Der er **ingen vielsesdato** angivet noget sted i kilden for Anna Gyda og Kaj — hverken i deres egne indførsler eller i familien F78. Det gør det umuligt at be- eller afkræfte matchet kronologisk her; kun KEJ selv (eller en primærkilde) kan afgøre det.
+**Grundlag:** Navnesammenfald ("Gyda") plus direkte visuel inspektion. Ingen billedtekst. Ingen dato at sammenholde med.
+**Status:** Foreslået — endnu ikke gennemgået. Er det Anna Gyda Boll og Kaj Godsk Pedersens bryllup? Hvis ja, kender du et omtrentligt årstal for deres vielse, som kunne tilføjes til `family-tree/tree.ged`?
+
 ---
 
 ## Version History
@@ -147,3 +167,4 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 | 1.10 | 2026-08-06 | Added item 11: `image21.jpeg`'s identity — direct visual inspection plus birth-year math suggests one of Meta's older brothers (Hans Kristian or Karl Alfred Christensen Boe) holding baby sister Edith, revising an earlier ruled-out guess (Hanne + Carlo). Human explicitly asked for this to be queued rather than treated as settled. |
 | 1.11 | 2026-08-06 | Added item 12: `image23.jpeg`'s identity — plausible match to Meta and Peter Severin Nielsen's 1946 wedding, based on visual inspection (age gap, non-white dress, era) against already-known facts. Also notes the related, still-unconfirmed `image22.jpeg` guess (young Meta) for the same review round rather than opening a fourth item for it. |
 | 1.12 | 2026-08-06 | Added item 13: `image28.jpeg`, an unidentified young man with round glasses — unlike item 11, no anchor (baby, wedding, dated event) in the photo to narrow down candidates, so queued as a flat open ID request rather than a reasoned hypothesis. |
+| 1.13 | 2026-08-06 | Added items 14 and 15: `image29.jpeg` (unknown couple, family suggests "Laurids" — no clean match found, and this item's own write-up corrects an earlier overconfident "1960s style" dating claim the human rightly pushed back on) and `image30.jpeg` (unknown couple, family suggests "Gyda" — a genuine name match to Anna Gyda Boll exists, but no marriage date is recorded anywhere in the source to check it against). |
