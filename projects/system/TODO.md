@@ -23,6 +23,7 @@ Version 1.0 | 2026-08-05 | Active
 - [ ] Fill in `knowledge/domains/website-infrastructure/knowledge.md` §3–5 once the website repository is created
 - [ ] Human to review `grandfather-review/queue.md` and send it to KEJ when it feels due (no fixed cadence — his own schedule)
 - [ ] Refine the Danish citation templates in `authoring-guidelines.md` §9.5 (kirkebog/folketælling/skifteprotokol) once real parish/census/probate material is actually in hand — they're a starting adaptation of Evidence Explained's general logic, not a finished translation
+- [ ] **Long-term, not urgent:** once material is organized into real domains with proper citations, consider depositing it with a recognized Danish genealogy institution — verified two concrete avenues (2026-08-05): **Danskernes Historie Online** (formerly Slægtsforskernes Bibliotek, run by Danske Slægtsforskere/DIS-Danmark) explicitly accepts donated family-history manuscripts (physical, electronic, or scanned) and digitizes them for the community; **local archives via arkiv.dk** (e.g. Sundsøre Lokalarkiv, already in the intake manifest) welcome personal/family papers, though not every lokalarkiv feeds arkiv.dk. Rigsarkivet has a formal "submit research data" process too, but it reads as institutional/bureaucratic (questionnaires, transfer-obligation determination) rather than a natural fit for a personal compilation — would need a direct inquiry to know for sure. Worth raising with KEJ — he may already know these channels, or have views on whether he wants this shared at all.
 
 ---
 
