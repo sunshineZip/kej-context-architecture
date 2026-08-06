@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Deep Well Manifest
 
-Version 1.13 | 2026-08-06 | Production
+Version 1.14 | 2026-08-06 | Production
 
 ---
 
@@ -15,7 +15,7 @@ Detailed extraction log for the "Boe-slægten fra Mors og Fur" deep well (`libra
 - **`boe-slaegten-fra-mors-og-fur-2024.docx`** (48,375,813 bytes / 46.1 MB) — the original manuscript, received 2026-08-06 via the human pushing it directly into `incoming/` with GitHub Desktop (bypassing the Google Drive connector's 10 MB cap that blocked the initial fetch attempt — see Version History). Verified after triage: valid Office Open XML zip container (78 internal entries, `word/document.xml` present, `zipfile.testzip()` clean), byte-identical in size to the Drive original (48,375,813 bytes per the file's Drive metadata). This is now the authoritative, byte-for-bit copy.
 - **`boe-slaegten-fra-mors-og-fur-2024-fulltext.txt`** (153 KB, 147,860 characters) — a full plain-text extraction of the manuscript's content, pulled via the Google Drive connector's `read_file_content` tool on 2026-08-06, kept alongside the original as a convenience copy for quick text search/grep without needing a `.docx`-capable tool. No longer load-bearing for redundancy now that the original itself is stored — that was its purpose while the original was still unreachable.
 - **Original manuscript metadata** (from Drive, 2026-08-06): title "2024 Boe-slægen fra Mors og Fur.docx", owner hogedalboe@gmail.com, `mimeType` `application/vnd.openxmlformats-officedocument.wordprocessingml.document`, Drive file ID `1-3X1fR0bJ2qnMjkERx1LTPhn-jOCto29`.
-- **`boe-slaegten-fra-mors-og-fur-2024-media/`** — a subfolder holding images extracted from the `.docx` (48 real images embedded in it; text-only extraction had ignored these entirely until now). See that folder's own `manifest.md` for the per-image inventory — kept separate from this manifest because the schema is different (visual description, legibility/confidence, people depicted) and would otherwise dwarf the text extraction log below.
+- **`boe-slaegten-fra-mors-og-fur-2024-media/`** — a subfolder holding images extracted from the `.docx` (48 real images embedded in it, all 48 now checked, 45 physically stored). See that folder's own `manifest.md` for the per-image inventory — kept separate from this manifest because the schema is different (visual description, legibility/confidence, people depicted) and would otherwise dwarf the text extraction log below. The 3 not stored: `image18` (a confirmed exact duplicate of `image2`), and `image26`/`image27`, which turned out to belong to a different manuscript entirely (KEJ's separate Hopp-slægten project) and were moved to `library/deep-wells/hopp-slaegten-preview-images/` instead.
 
 ---
 
@@ -64,3 +64,4 @@ No content has been promoted into any `knowledge/domains/` file yet — Phase 3 
 | 1.11 | 2026-08-06 | Logged Kapitel 3, fully read (33 new individuals, 6 new families — 334 individuals, 106 families total). Found KEJ's own handwritten master pedigree chart while checking images; used it to help resolve a wedding-date contradiction. |
 | 1.12 | 2026-08-06 | Logged Kapitel 4, fully read — a one-page cross-reference to Kapitel 3, no new individuals. All four numbered chapters of the manuscript are now complete; only the Anetavler and Kilder remain. |
 | 1.13 | 2026-08-06 | Logged the Anetavler and Kilder, fully read. **The entire manuscript is now read.** 27 new individuals, 13 new families — 361 individuals, 117 families total in `family-tree/tree.ged`. |
+| 1.14 | 2026-08-06 | Extracted and stored the 20 images previously only described-but-unfiled, closing a real risk the human flagged: a description in a manifest doesn't guarantee anyone revisits the actual image. 45 of 48 images now physically stored; the remaining 3 are a confirmed duplicate and two images moved to a new Hopp-slægten preview location instead (not part of this manuscript). |
