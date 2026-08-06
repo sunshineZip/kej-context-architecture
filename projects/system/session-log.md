@@ -166,3 +166,32 @@ STATUS: CHECKPOINT
 Completed: Renamed "grandfather" to "KEJ" in prose across all tracked system-layer files, keeping structural identifiers (folder paths, the flag tag, mechanism-naming headings) and historical append-only records untouched.
 Next: None planned — awaiting the Boe-slægten file or further direction.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 7 | 2026-08-05
+
+Human's stated aim for this whole repo, given directly this turn: generate output that would be recognized as quality work by the genealogy research community — not just a private backup. Asked to fully adopt the Genealogical Proof Standard (GPS) and Elizabeth Shown Mills' Evidence Explained (EE) citation format, and explicitly asked whether these are actually valid outside the US — a fair question given both originate from American institutions (BCG for GPS, Mills' own publishing for EE).
+
+**Verified rather than assumed**, via web search, before writing anything: GPS is widely respected but not universal — some European genealogical traditions historically emphasize lineage reconstruction over citation rigor, which if anything argues for adopting GPS here rather than against it. EE is similarly US-centric in its worked examples; even Swedish citation examples were only added in its 4th edition (2024), and it has no ready-made Danish templates. Conclusion: adopt GPS as a methodology and EE's general citation *logic*, but build genuinely Danish record-type templates ourselves rather than claim the book already covers this — cross-checked against Rigsarkivet's own Arkivalieronline documentation (parish/sogn organization, event-type codes, "opslag" image numbering) rather than guessed.
+
+**Built**, in `knowledge/domains/authoring-guidelines.md` (1.7 → 1.8), new §9.5 "Genealogical Proof Standard and Citation Format":
+- A table mapping GPS's five elements to mechanisms this repo already has (inventory-first intake, `[CONTRADICTS]`, `[VERIFIED]`/`[UNVERIFIED]`, cross-reference analysis) — adopting GPS didn't require new machinery, mostly formalizing what was already the direction of travel.
+- An explicit international-validity note, stating the US origin and non-universality plainly rather than glossing over it.
+- Citation anatomy (who / what / where / how-accessed) and four Danish-adapted templates: kirkebog via Arkivalieronline, folketælling, skifteprotokol, and secondary sources — each with a worked example, one of them using this repo's own real akj-cbj.dk source.
+- A new **Citation** column added to the `sources/manifest.md` template (§9.1) and a matching Quick Checklist item (§11).
+
+**Demonstrated immediately, not left abstract:** added a real citation string to `projects/archive-digitization/context/external-source-hopp-herredsfoged.md`'s Source table using the new secondary-source template — the first real application, not just documentation nobody has tried yet.
+
+Explicitly noted in the guidelines that the Danish templates are a starting adaptation, to be refined once real kirkebog/folketælling material is in hand and its actual on-the-ground structure is known firsthand.
+
+### Session close
+
+Knowledge candidates: None — this is itself a knowledge-authoring-standard change (system-layer), not a domain fact.
+Open flags: None.
+Push status: Pending — will push immediately after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Adopted GPS and an Evidence Explained-derived citation format as this repo's explicit research/citation standard, with Danish-adapted templates verified against real Rigsarkivet documentation rather than assumed; demonstrated on the existing akj-cbj.dk source.
+Next: Refine the Danish templates once real parish/census/probate material is actually in hand.
+Waiting for: The Boe-slægten file, or further direction.
