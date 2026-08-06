@@ -1,6 +1,6 @@
 # Possible Duplicates and Recurring Data-Quality Patterns
 
-Version 1.2 | 2026-08-06 | Production
+Version 1.3 | 2026-08-06 | Production
 
 ---
 
@@ -52,7 +52,13 @@ Values in the extracted text that don't reconcile with other stated facts, judge
 |---|---|---|---|---|---|---|
 | D1 | Christen Pedersen Boe, generation "05" (`@I27@`) | Relationship label + branch-letter, as Esper Marinus Christensen Boe's fadder | "(morbror = g.)" — maternal uncle, branch-letter of Laurids | "morfaderen" (maternal grandfather), no branch-letter applicable — confirmed two lines later in the same passage, which calls the same person "morfaderen, Christen Pedersen" | `boe-slaegten-fra-mors-og-fur`, p.25-54 | Not queued — first instance of this shape; distinct from sub-pattern C (there, the *name itself* is reordered; here the name is right and only the relationship/letter is wrong) |
 
-**Reassessment trigger:** generation "04" added zero new instances of sub-pattern A or B (still three each) — the pattern didn't recur, itself informative. Efterslægt branches a/c/d/f/h/i also added none. Sub-pattern C stays at one instance (C1); sub-pattern D opens with its first (D1). Each needs a second occurrence of its own specific shape before escalating past a probable one-off slip. If a fourth instance of A/B, a second of C, or a second of D appears during further reading, stop treating it as a probable tooling artifact and flag it to `grandfather-review/queue.md` instead.
+**Sub-pattern E — a full date is given, but yields an implausible age or timeline (new, Efterslægt branch e):**
+
+| # | Individual | Field | Manuscript shows | Expected (from context) | Source | Status |
+|---|---|---|---|---|---|---|
+| E1 | Marie Kirstine Goul Boe (`@I98@`) | Marriage date | "Gift febr. 1967" | Almost certainly 1977 — as given, she'd be not yet 9 years old (b.8.3.1957); 1977 gives a plausible ~19-20 | `boe-slaegten-fra-mors-og-fur`, p.25-54 | Not queued — first instance of this shape; a single-digit decade error, not the same mechanism as sub-pattern A's century-digit swap |
+
+**Reassessment trigger:** generation "04" and Efterslægt branches a/c/d/f/h/i added no new instances of sub-pattern A or B (still three each) — the pattern didn't recur, itself informative. Sub-patterns C, D, and E each stand at one instance (C1, D1, E1). Each needs a second occurrence of its own specific shape before escalating past a probable one-off slip. If a fourth instance of A/B, or a second of C, D, or E, appears during further reading, stop treating it as a probable tooling artifact and flag it to `grandfather-review/queue.md` instead.
 
 ---
 
@@ -63,3 +69,4 @@ Values in the extracted text that don't reconcile with other stated facts, judge
 | 1.0 | 2026-08-06 | Initial creation. Backfilled the recurring data-quality anomaly log (§2) with the six instances already found and reasoned about across `boe-slaegten-chapter1-extraction.md`'s Open Items and Version History rows during Chapter 1's read-through of generations "02"-"03" — previously scattered prose, not centrally counted. §1 (possible duplicate individuals) opened with no entries yet. Human confirmed building this file now rather than leaving the two-tier duplicate-tracking system half-built. |
 | 1.1 | 2026-08-06 | Generation "04" added no new instances of sub-patterns A/B (still three each — noted explicitly, since a pattern that stops recurring is itself worth recording). Added sub-pattern C (name/patronymic order inversion), a new shape not seen in generations "02"/"03," with its first instance. |
 | 1.2 | 2026-08-06 | Efterslægt branches a/c/d/f/h/i and b read; no new A/B/C instances. Added sub-pattern D (correct name, wrong relationship-label/branch-letter) with its first instance, found in branch b — deliberately kept separate from sub-pattern C rather than folded in, since the underlying error shape is different (label wrong vs. name reordered). |
+| 1.3 | 2026-08-06 | Efterslægt branch e read; no new A/B/C/D instances. Added sub-pattern E (a full date yielding an implausible age/timeline) with its first instance — a marriage date that would make the bride 8 years old as given, almost certainly a single-digit decade error. |

@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Chapter 1 Extraction Notes
 
-Version 1.8 | 2026-08-06 | Active
+Version 1.9 | 2026-08-06 | Active
 
 ---
 
@@ -28,7 +28,7 @@ This also answers a separate question: what guards against Claude simply misread
 - [ ] Efterslægt (descendants, p.25-54) — broken down by generation 05's own children (branches a-i, per the manuscript's own structure):
   - [x] a, c, d, f, h, i — six short, closed branches (no further descendants)
   - [x] b — Marie Christensen Boe (incl. son Esper Marinus Christensen Boe's own line)
-  - [ ] e — Jens Christensen Boe (incl. K.K.K. Boe's line, 3-4 generations)
+  - [x] e — Jens Christensen Boe (incl. K.K.K. Boe's line, 3-4 generations)
   - [ ] g — Laurids Christensen Boe (largest branch, ~1,100 lines/73+ individuals, 4-5 generations reaching to 2026 — will need its own further sub-breakdown, likely by child)
 
 **Images, added 2026-08-06:** the manuscript's 48 embedded images had been ignored by the text-only extraction above until now. Now tracked separately in `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`, with its own per-image schema (KEJ's original filename, position, type, description, legibility/confidence, people cross-referenced to `family-tree/tree.ged`). First batch — the 6 images tied to Aneoversigt/generations "02"-"05" above — is done. From Efterslægt onward, image extraction happens in the same working session as the text it's found in, not as a separate catch-up pass.
@@ -201,6 +201,38 @@ All individuals in this section now modeled in `family-tree/tree.ged`: `@I45@`-`
 
 ---
 
+## Efterslægt — Branch e (Jens Christensen Boe)
+
+**Jens Christensen Boe** (b.1.11.1882; child "e." of generation 05) married **Marie Kirstine Christensen** (b.1879) 21.3.1916 on Fur; gårdejer in Kønsberg, Fur; died 25.9.1964, Kønsberg; wife died 1968. Four children ("I."–"IV."). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+**"I." — Christen Knudsen Christensen Boe, i.e. "K.K.K. Boe"** (b.3.2.1917, Kønsberg; d.11.12.1981, Lemvig): the same person who narrated the walking-postman story (generation "04") and the premarital-courtship oral history (generation "05"). Reading his own entry directly resolves the earlier cross-reference inconsistency (Open Item 9): he is confirmed **"=05-e-I."** — his father Jens Christensen Boe is branch "e," not "f." Lærer (teacher) in Byrum sogn, Læsø (1941-1946), later Lemvig. Married **Marie Elisabeth Madsen** (b.28.9.1914, Husby, Ringkøbing amt; daughter of gårdejer Mads Peder Madsen and Maren Jensen) in 1941, Nees kirke. Seven children — the two born on the same day (2.4.1945) are twins. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+**K.K.K. Boe's seven children, all `[SENSITIVE]` — no death dates given for any of them:**
+- **1. Egon Kristensen Boe** (b.13.10.1941). Landmand, Søndergårde på Fur. Married Ulla 1990, who brought 3 children from a previous marriage (unnamed in the source).
+- **2. Thilde Kristensen Boe** (b.2.4.1945, twin with "3."). Married a Madsen, Langå (first name not given). 4 children: Sten, Susanne, Marianne, Brian Boe Madsen.
+- **3. Birgit Kristine Boe** (b.2.4.1945, twin with "2."). Married a Hornsgård, Ikast. 2 children: Lars, Jens Boe Hornsgård.
+- **4. Irma Boe** (b.14.9.1946). Married a Pedersen, Hald. 2 children: Karen, Gorm Boe Pedersen.
+- **5. Ingrid (Kristensen) Boe** (b.27.4.1949, renamed "Ingrid Boe" by navnebevis 3.4.1970). Married a Jensen, Ølby. No children given.
+- **6. Britta (Kristensen) Boe** (b.3.3.1951, renamed "Britta Boe" by navnebevis 3.4.1970). Married a Krarup, Herning. 1 child: Stig Boe Krarup.
+- **7. Lis Boe** (b.27.4.1954). Left the Danish national church 4.1.1974; attended Skive Seminarium (teacher training college) 1976. Married a Jensen, Ølby. No children given.
+
+**Curiosity, not investigated:** "5." and "7." (Ingrid and Lis) are both recorded with the identical spouse description "Gift Jensen, Ølby" — could genuinely be two sisters marrying into the same family/town (Jensen being Denmark's most common surname), could be a copy-paste artifact in the source. Noted in both individuals' `tree.ged` records rather than assumed either way. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+**"II." — Anna Nielsine Petrea Christensen Boe** (b.24.7.1918, Kyngsberg). Married a Dahl (first name not given); widowed, living in Skive. 3 children: Jens Boe Dahl (Skive), Vagn Boe Dahl (Ikast), Else Boe Dahl (married, Skive — spouse not named at all, not even a surname, so no individual record created for him/her). `[SENSITIVE]` — no death date given, though she would be roughly 108 in 2026 if still alive. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+**"III." — Thomas Manfred Christensen Boe** (b.12.7.1920, Kyngsberg; d.28.12.2007, Fur Ældrecenter, age 87). Attended Tommerup Landbrugsskole 1943, returned to Fur, eventually took over and ran his parents' farm in Kønsberg until moving to a Fur old-age home c.1997. Unmarried. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+**"IV." — Hans Christian Pedersen Boe** (b.19.3.1923, Kyngsberg; d.1.6.1991). Gårdejer, Tøndering. Married **Grete Ladefoged Goul** (b.1.9.1933, Grundvad, Rødding sogn; daughter of boelsmand Søren Sørensen Goul and Ingrid Andersen Ladefoged, Bajlum — both parents' names directly given in this section, unlike the deferred-appendix cases elsewhere, so both received `tree.ged` records) 13.3.1955, Hjerk kirke. Three children:
+- **1. Søren Goul Boe** (b./d. 14.3.1956, Tøndering) — died the same day, aged 1 day.
+- **2. Marie Kirstine Goul Boe** (b.8.3.1957, Tøndering). Married Harry Hejgaard Jensen (Skive) — the manuscript gives the marriage as "Feb. 1967," which would make her not yet 9 years old. **Almost certainly a digit error** (most likely "1977," giving a plausible age of not-quite-20) but not silently corrected here — see Open Items and `family-tree/possible-duplicates.md` new sub-pattern E.
+- **3. Søren Goul Boe** (b.5.10.1960, Tøndering; d.9.11.2022, Jebjerg) — name reused after "1."'s infant death. Married Hanne (surname not given). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+**Images:** `image11.jpeg` ("Boe A36") is a family portrait — father, mother, three young children — plausibly matching Jens Christensen Boe's family c.1918-1922, based on timing and composition, though unconfirmed. `image10.jpeg` ("Boe A37," a streetscape) was checked and deferred to branch g instead — Laurids Boe's murer work is tied to a street informally called "Boegade" in the manuscript. See the media manifest.
+
+All individuals in this section now modeled in `family-tree/tree.ged`: `@I62@`-`@I101@` (40 new individuals), families `@F27@`-`@F35@`, `@F37@`-`@F40@` (new), plus `@F13@`/`@I34@`/`@I35@` refined from stub to full detail.
+
+---
+
 ## Open Items — Data Quality
 
 Not resolved here; flagged rather than silently corrected, per this repo's correction discipline. Items 3, 5, and 6 below (the likely-extraction-artifact anomalies) are now also tracked centrally in `family-tree/possible-duplicates.md` §2, cross-referenced by ID (A1-A3, B1-B3) — that file is where to look for the running count across sections, not just this one.
@@ -213,7 +245,8 @@ Not resolved here; flagged rather than silently corrected, per this repo's corre
 6. **Johanne Christensdatter (h.)'s age at the 1845 census (16) doesn't reconcile with her 1822 birth year** (would be ~22-23). Same low-confidence, not-yet-queued treatment as the earlier 1801 age discrepancies.
 7. **Peder Christensen Boe's (04) 1845 census birthplace ("Sdr Dråby") contradicts his own established birth record (Jørsby)** — already flagged by KEJ himself in the manuscript (an exclamation point in the source), not a finding of this session's. Not queued to `grandfather-review/` on that basis — see the generation "04" section above for the full detail.
 8. **Bodil Kirstine Iversdatter's father is named "Iver Hendriksen" at her 1850 marriage record but a fadder at her grandson's 1861 baptism is named "Hendrik Iversen (morfar)"** — the patronymic order looks inverted between the two mentions for what should be the same person. Low-confidence, not queued — could be a manuscript typo, a genuine generational mix-up (the fadder being the *next* generation back instead), or a transcription slip on this session's part. Logged as a new sub-pattern in `family-tree/possible-duplicates.md` §2 (first instance, not yet a pattern).
-9. **Internal cross-reference labeling inconsistency:** "K.K.K. Boe" of Lemvig is cited both as "=05-e-I." and "=05-f-I." in the same generation "04" section (see above) — cannot be resolved until generation "05"'s own children are read in detail.
+9. **Internal cross-reference labeling inconsistency:** "K.K.K. Boe" of Lemvig is cited both as "=05-e-I." and "=05-f-I." in the same generation "04" section (see above) — cannot be resolved until generation "05"'s own children are read in detail. **Resolved 2026-08-06:** Efterslægt branch e confirms he is Jens Christensen Boe's ("e.") own son, i.e. "=05-e-I." is correct and "=05-f-I." was the manuscript's own slip.
+11. **Marie Kirstine Goul Boe's (Efterslægt branch e) marriage date is chronologically implausible as given:** "Gift febr. 1967" against a birth date of 8.3.1957 would make her not yet 9 years old. Almost certainly a digit error for "1977" (age ~19-20), not corrected here — added to `family-tree/possible-duplicates.md` as new sub-pattern E.
 10. **Else Marie Christensen's (i., generation 05's youngest child) death year is genuinely inconsistent within the manuscript itself, not an artifact:** her own vital-facts entry (Aneoversigt-level summary, read in an earlier section) gives "f. 1892, d.1894" — an infant death. But the surname-bevilling narrative in generation "05"'s own section states plainly "Søsteren Else Marie (= i.) døde o.1900," implying she lived to about age 8 and was still alive circa the 1904/05 events, only recently deceased by the time of the royal name grant (this also matches the passage's own bookkeeping: 9 children minus 2 excluded for other reasons [a., c.] minus 1 deceased [i.] = the "remaining 6" who received the name in 1905). This is a real cross-reference contradiction within KEJ's own manuscript, the same kind as the Mads Pedersen birth-year conflict in generation "02" — **added to `grandfather-review/queue.md` as item 5.**
 
 ---
@@ -231,3 +264,4 @@ Not resolved here; flagged rather than silently corrected, per this repo's corre
 | 1.6 | 2026-08-06 | Noted the start of image extraction (previously ignored entirely) — first batch of 6 images tied to Aneoversigt/generations "02"-"05", tracked in the new `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md` rather than duplicated here. Two images served as genuine independent fidelity checks of already-extracted text. |
 | 1.7 | 2026-08-06 | Started Efterslægt, broken down by generation 05's nine children (branches a-i) per the manuscript's own structure. First batch: the six short, closed branches (a, c, d, f, h, i) — no marriages producing further lines, or none at all. Notable: branch f (Mette Christensen Boe) founded a still-distributing charitable trust in 1972; her death date corrected from an earlier "AFT 1975" estimate to a precise 10.8.1977, resolving the prior `[SENSITIVE]`-pending uncertainty. Branch i (Else Marie) yielded a third, more precise data point (4.6.1894) for the death-year contradiction already queued as `grandfather-review/queue.md` item 5 — updated that item with the new evidence rather than resolving it unilaterally, though `family-tree/tree.ged` now uses 4.6.1894 as the better-supported value. One image checked (`image7.jpeg`) did not match any of these six branches on content grounds, deferred to branches b/e/g. |
 | 1.8 | 2026-08-06 | Added Efterslægt branch b (Marie Christensen Boe, including son Esper Marinus Christensen Boe's own line — 17 new individuals). First branch reaching into likely-living family (Poul and Henning Christensen Boe's generation, `[SENSITIVE]` throughout, no death dates given). New low-confidence anomaly found (a fadder mislabeled both by relationship and branch-letter) — logged as new sub-pattern D in `family-tree/possible-duplicates.md`, deliberately kept separate from sub-pattern C since the error shape differs (label wrong vs. name reordered). Two more images checked: one plausible-but-unconfirmed wedding-portrait match, one left fully unclassified. |
+| 1.9 | 2026-08-06 | Added Efterslægt branch e (Jens Christensen Boe, including "K.K.K. Boe"'s own line — 40 new individuals, the largest single addition yet). Resolved Open Item 9 (the "=05-e-I." vs "=05-f-I." cross-reference): confirmed "=05-e-I." correct by reading his own entry directly. New sub-pattern E logged (an implausible age/timeline from a full but likely-erroneous date — a marriage date that would make the bride 8 years old as given). Extensive `[SENSITIVE]` coverage, since most of K.K.K. Boe's own children and grandchildren have no death dates. One plausible family-portrait image match found; one streetscape image deferred to branch g on a thematic hint (a street informally named after Laurids Boe). |

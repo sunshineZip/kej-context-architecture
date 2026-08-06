@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.1 | 2026-08-06 | Production
+Version 1.2 | 2026-08-06 | Production
 
 ---
 
@@ -76,6 +76,20 @@ Close studio portrait, older man and woman, clothing/hairstyle consistent with r
 
 ---
 
+## Images: Efterslægt Branch e (Jens Christensen Boe)
+
+| File | KEJ's filename | Position | Type |
+|---|---|---|---|
+| image11.jpeg | Boe A36_NEW.jpg | Branch e (plausible) | Photo, family group |
+
+### image11.jpeg — Family portrait
+
+Studio family portrait: father, mother, and three young children (a toddler boy, a girl, and a baby), clothing/style consistent with roughly 1918-1922. **Not confirmed**, but the timing fits well: Jens Christensen Boe (`@I34@`) and Marie Kirstine Christensen (`@I35@`) married 1916, and had three children by 1920 (K.K.K. Boe b.1917, Anna b.1918, Thomas Manfred b.1920) before a fourth (Hans Christian, b.1923) — matching this photo's apparent three-children composition better than any other Efterslægt family at this stage. Worth confirming with KEJ rather than treating as settled. `[UNVERIFIED: AI visual description, identity unconfirmed]`
+
+**Also checked and deferred:** `image10.jpeg` ("Boe A37") — a streetscape of brick townhouses, no people. Possibly tied to branch g instead — Laurids Boe's murer work is credited with a street in Durup informally called "Boegade" until the early 1970s — but branch g hasn't been read yet, so this is a guess for later, not stored here.
+
+---
+
 ## Sensitivity
 
 The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` flag — everyone in them died well over 70 years ago. That changes starting with Efterslægt: `image8`/`image9` above don't currently need the flag either (no confirmed identity, and if image8's guess is right, a 1910 marriage is not recent), but per the branch-b text extraction, several individuals in this branch (Poul and Henning Christensen Boe and their families) have no death dates and are treated as potentially living — any future image confirmed to depict them would need `[SENSITIVE]`.
@@ -88,3 +102,4 @@ The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` f
 |---|---|---|
 | 1.0 | 2026-08-06 | Initial creation. First batch: the 6 images tied to Aneoversigt and generations "02"-"05" (the sections already read). Two images cross-checked directly against already-extracted text as genuine fidelity spot-checks (image5, image6); one filename-level discrepancy noted in KEJ's own naming (image2, "1732" vs the document's actual 1832 date); two images left with unconfirmed identities rather than guessed (image3, image4). |
 | 1.1 | 2026-08-06 | Added images for Efterslægt branch b: a plausible-but-unconfirmed wedding-portrait match (image8) and one left fully unclassified (image9). Noted image7 was checked and ruled out for all branches read so far, deferred rather than stored prematurely. |
+| 1.2 | 2026-08-06 | Added image for Efterslægt branch e: a family portrait (image11) plausibly matching Jens Christensen Boe's young family c.1920, based on composition and timing. Noted image10 (a streetscape) as a candidate deferred to branch g, once read. |
