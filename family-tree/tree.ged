@@ -1590,6 +1590,316 @@
 1 HUSB @I161@
 1 WIFE @I162@
 
+0 @I163@ INDI
+1 NAME Meta Kristine Kristensen /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1 MAR 1918
+2 PLAC Durup, Danmark
+1 DEAT
+2 DATE 1982
+1 OCCU Damefrisør; senere husbestyrerinde
+1 FAMC @F14@
+1 FAMS @F61@
+1 FAMS @F62@
+1 FAMS @F63@
+1 NOTE Barn "III." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. En fadder ved hendes dåb var boelsmand Niels Jensen, Vilholm (05-b, dvs. faster Marie Christensen Boes ægtefælle) — endnu et krydsreferencet fadderskab mellem grene. Husbestyrerinde hos Peder Alfred Plejdrup i Toustrup (1940); uddannet damefrisør. Fik uden for ægteskab datteren Hanne (1944) — se @F61@. Gift 1. gang 18.8.1946, Durup kirke; gift 2. gang (år ikke angivet) med plejer Peder N. Pedersen. Boede sidst i Skt. Mathiasgade i Viborg til sin død 1982 (kun årstal angivet i kilden, ingen præcis dato). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I164@ INDI
+1 NAME Gunnar Vilhelm /Carlsen/
+1 SEX M
+1 BIRT
+2 DATE 19 NOV 1918
+2 PLAC Silkeborg, Danmark
+1 OCCU Arbejdsmand, Silkeborg
+1 FAMS @F61@
+1 NOTE Udlagt barnefader (erklæret, ikke gift) til Hanne Boe/Nielsen (@I167@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I165@ INDI
+1 NAME Peter Severin /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE 5 MAR 1898
+2 PLAC Sahl, Danmark
+1 DEAT
+2 DATE 1968
+1 OCCU Fyrbøder ved Brunshåb Papfabrik
+1 FAMS @F62@
+1 NOTE Søn af husmand Peder Nielsen og hustru Severine Sørensen. Enkemand ved giftermålet med Meta — tidligere gift med Hansine Marie Kirkegaard (død 20.12.1945); hun er ikke selvstændigt oprettet her, da hun ikke har nogen kendt forbindelse til Boe-slægten. Parret solgte huset i Brunshåb og boede en tid på Overlund Alderdomshjem, hvor Peter døde 1968. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I166@ INDI
+1 NAME Peder N. /Pedersen/
+1 SEX M
+1 OCCU Plejer
+1 FAMS @F63@
+1 NOTE Metas 2. ægtefælle. Parret boede Ll. Skt. Pedersstræde (by ikke angivet i kilden, formentlig Viborg) indtil Peders død. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I167@ INDI
+1 NAME Hanne /Boe/
+1 SEX F
+1 BIRT
+2 DATE 20 NOV 1944
+2 PLAC Durup, Danmark
+1 DEAT
+2 DATE 13 FEB 2005
+2 PLAC Viborg sygehus, Danmark
+1 OCCU Kontorassistent, senere bogholder hos Skov A/S i Glyngøre
+1 FAMC @F61@
+1 FAMS @F64@
+1 NOTE Barn "1." af Meta Kristine Kristensen Boe, født uden for ægteskab (far: Gunnar Vilhelm Carlsen, @I164@). Fik ved fødslen navnet Hanne Boe; navnet ændret til Hanne Nielsen ved moderens giftermål 1946 (Peter Severin Nielsen var ikke hendes far). Faddere ved hendes dåb, alle korrekt mærkede: mormoder Ottine Boline Marie Pedersen (bar barnet); moster Else Margrethe Boe og hendes mand Frederik Lund (moderens søster = I.); morbrødrene Poul Kristensen Boe (= VI.) og Christian Kristensen Boe (= VII.) — fire flere positive modeksempler til fejlmærkningsmønstret i grandfather-review/queue.md #7. Genantog 18.4.1984 sit fødenavn Hanne Boe. Begravet på Asmild kirkegård ved Viborg. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I168@ INDI
+1 NAME Knud Erik /Jakobsen/
+1 SEX M
+1 BIRT
+2 DATE 26 AUG 1945
+2 PLAC Viborg, Danmark
+1 OCCU Lærer (Thorum 1970, Selde 1976); arkivleder, slægtsforsker m.m.
+1 FAMS @F64@
+1 NOTE **Dette er manuskriptets egen forfatter, Knud Erik Jakobsen (KEJ)** — se dette dokuments kildeangivelse. Gift med Hanne Boe/Nielsen (@I167@) 1966; parret boede i Åbybro under hans uddannelse på Ålborg seminarium (1966-70), senere i Åsted, fra 1973 på Risumvej 3. Ægteskabet opløst 1983. Manuskriptet henviser videre til "Salling-slægten Hopp" m.fl. — KEJ's egne øvrige slægtsforskningsprojekter, ikke undersøgt nærmere her. [SENSITIVE] — ingen dødsdato angivet (manuskriptets forfatter, i live pr. 2026). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I169@ INDI
+1 NAME Lotta Ann (Jakobsen) /Boe/
+1 SEX F
+1 BIRT
+2 DATE 12 OCT 1966
+2 PLAC Ansgar sogn, Ålborg, Danmark
+1 OCCU Ingeniør (1990, Horsens); ansat ved Skanderborg Kommune, fra 2017 Vejle Kommune
+1 FAMC @F64@
+1 FAMS @F65@
+1 NOTE Barn "a/" af Hanne og Knud Erik Jakobsen. Navneændring 1984 til Lotta Ann Jakobsen Boe. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I170@ INDI
+1 NAME Bruno /Dølby/
+1 SEX M
+1 BIRT
+2 DATE 10 SEP 1964
+2 PLAC Durup, Danmark
+1 OCCU Udlært maskinsnedker (Horsens); senere lager-/pladsmand hos Brdr. Plagborg
+1 FAMS @F65@
+1 NOTE Manuskriptet henviser til en ekstern slægtsbog for hans egen linje: "Hopp-Slægten kap. 1, Afsnit 13 a-2-d/" — ikke undersøgt nærmere her. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I171@ INDI
+1 NAME Frederikke /Dølby/
+1 SEX F
+1 BIRT
+2 DATE 26 SEP 2000
+2 PLAC Horsens sygehus, Danmark
+1 OCCU Studerende, Odense (2026: socialrådgiver)
+1 FAMC @F65@
+1 FAMS @F66@
+1 NOTE Barn "1/" af Lotta Ann og Bruno. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I172@ INDI
+1 NAME Martin /Buchwald/
+1 SEX M
+1 BIRT
+2 DATE 9 JUL 1997
+2 PLAC Sludstrup, Danmark
+1 OCCU Uddannet mekaniker
+1 FAMS @F66@
+1 NOTE Frederikkes kæreste (ikke gift). Kildens egen fødselsdato-notation ("f. 9.71997") mangler tilsyneladende et skilletegn — tolket her som 9.7.1997; ikke behandlet som en uoverensstemmelse af samme art som sub-mønster A/E, da den sandsynlige læsning er entydig. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I173@ INDI
+1 NAME Mathias /Dølby/
+1 SEX M
+1 BIRT
+2 DATE 11 JUN 2003
+2 PLAC Horsens sygehus, Danmark
+1 OCCU Praktikant, Polar Park (Nordnorge); ved læsning i kilden p.t. Givskud Zoo
+1 FAMC @F65@
+1 NOTE Barn "2/" af Lotta Ann og Bruno. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I174@ INDI
+1 NAME Gitte (Jakobsen) /Boe/
+1 SEX F
+1 BIRT
+2 DATE 17 SEP 1970
+2 PLAC Skive, Danmark
+1 OCCU Montrice ved Oticon, Thisted
+1 FAMC @F64@
+1 FAMS @F67@
+1 FAMS @F68@
+1 NOTE Barn "b/" af Hanne og Knud Erik Jakobsen. Navneændring 1984 til Gitte Jakobsen Boe (samtidig med søsteren Lotta Ann). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I175@ INDI
+1 NAME Tommy Høgedal /Krogh/
+1 SEX M
+1 BIRT
+2 DATE 23 MAR 1964
+1 OCCU Elektromekaniker; salgschef hos Skov A/S i Glyngøre
+1 FAMS @F67@
+1 NOTE Gittes kæreste (ikke gift), parforholdet senere opløst. Boede ca. ½ år i Saskatoon, Canada, med Gitte, før bosættelse i Nykøbing Mors/Nordmors. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I176@ INDI
+1 NAME Jens /Munk/
+1 SEX M
+1 BIRT
+2 DATE 25 JUN 1964
+2 PLAC Vester Hassing, Danmark
+1 OCCU Gårdejer, Vester Hassing
+1 FAMS @F68@
+1 NOTE To børn fra tidligere forhold (Cathrine, f.2004, og Christian, f.2006) — ikke Boe-slægtens biologiske linje, ingen @I@-poster oprettet for dem. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I177@ INDI
+1 NAME Nikolaj Høgedal /Boe/
+1 SEX M
+1 BIRT
+2 DATE 31 JAN 1992
+2 PLAC Skive, Danmark
+1 OCCU Sergent; læser (2016) statskundskab, Københavns Universitet; senere IT, Region Hovedstaden, fra 2022 Deloitte København
+1 FAMC @F67@
+1 FAMS @F69@
+1 NOTE Barn "1/" af Gitte og Tommy Høgedal Krogh. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I178@ INDI
+1 NAME Tatiana "Tanja" /Kormanowa/
+1 SEX F
+1 BIRT
+2 DATE 7 SEP 1997
+2 PLAC Slovakiet
+1 FAMS @F69@
+1 NOTE [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I179@ INDI
+1 NAME Hanna /Boe/
+1 SEX F
+1 BIRT
+2 DATE 25 SEP 2023
+2 PLAC Hvidovre Hospital, Danmark
+1 FAMC @F69@
+1 NOTE Barn "I/" af Nikolaj og Tatiana. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I180@ INDI
+1 NAME Henry /Boe/
+1 SEX M
+1 BIRT
+2 DATE 2 NOV 2024
+2 PLAC Hvidovre Hospital, Danmark
+1 FAMC @F69@
+1 NOTE Barn "II/" af Nikolaj og Tatiana. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I181@ INDI
+1 NAME Cecilie Høgedal /Boe/
+1 SEX F
+1 BIRT
+2 DATE 10 SEP 1994
+2 PLAC Skive, Danmark
+1 OCCU Pædagogassistent (2016); operatør ved Arla, Holstebro Mejeri
+1 FAMC @F67@
+1 FAMS @F70@
+1 NOTE Barn "2/" af Gitte og Tommy Høgedal Krogh. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I182@ INDI
+1 NAME Morten /Frederiksen/
+1 SEX M
+1 BIRT
+2 DATE 9 JUL 1992
+1 FAMS @F70@
+1 NOTE Cecilies kæreste (ikke gift). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I183@ INDI
+1 NAME Freja Hegaard /Frederiksen/
+1 SEX F
+1 BIRT
+2 DATE 3 JUL 2021
+2 PLAC Holstebro, Danmark
+1 FAMC @F70@
+1 NOTE Barn "I/" af Cecilie og Morten. Efternavnet staves "Frederisen" ét sted i kilden (mod "Frederiksen" ellers) — behandlet som en stavefejl, ikke en separat person. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I184@ INDI
+1 NAME Emil Hegaard /Frederiksen/
+1 SEX M
+1 BIRT
+2 DATE 28 JUL 2025
+2 PLAC Gødstrup, Danmark
+1 FAMC @F70@
+1 NOTE Barn "II/" af Cecilie og Morten. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I185@ INDI
+1 NAME Carlo Boe /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE 30 APR 1947
+2 PLAC Kjellerup sygehus, Danmark
+1 DEAT
+2 DATE 1962
+2 PLAC København, Danmark
+1 FAMC @F62@
+1 NOTE Barn "2." af Meta og Peter Severin Nielsen (1. ægteskab). Havde en medfødt hjertefejl; en af de første i Danmark opereret for det på Rigshospitalet, men døde efter operationen 1962, kun 15 år gammel. Begravet i Asmild. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @F61@ FAM
+1 HUSB @I164@
+1 WIFE @I163@
+1 CHIL @I167@
+1 NOTE Ikke et ægteskab — Hanne født udenfor ægteskab, før Metas senere giftermål.
+
+0 @F62@ FAM
+1 HUSB @I165@
+1 WIFE @I163@
+1 MARR
+2 DATE 18 AUG 1946
+2 PLAC Durup kirke, Danmark
+1 CHIL @I185@
+1 NOTE Metas 1. ægteskab.
+
+0 @F63@ FAM
+1 HUSB @I166@
+1 WIFE @I163@
+1 NOTE Metas 2. ægteskab. Dato ikke angivet i kilden. Ingen børn.
+
+0 @F64@ FAM
+1 HUSB @I168@
+1 WIFE @I167@
+1 MARR
+2 DATE 1966
+1 CHIL @I169@
+1 CHIL @I174@
+1 NOTE Ægteskabet opløst 1983.
+
+0 @F65@ FAM
+1 HUSB @I170@
+1 WIFE @I169@
+1 MARR
+2 DATE 29 APR 2000
+1 CHIL @I171@
+1 CHIL @I173@
+
+0 @F66@ FAM
+1 HUSB @I172@
+1 WIFE @I171@
+1 NOTE Ikke et ægteskab (kæreste).
+
+0 @F67@ FAM
+1 HUSB @I175@
+1 WIFE @I174@
+1 CHIL @I177@
+1 CHIL @I181@
+1 NOTE Ikke et ægteskab (kæreste), senere opløst.
+
+0 @F68@ FAM
+1 HUSB @I176@
+1 WIFE @I174@
+1 MARR
+2 DATE 2015
+2 PLAC Ålborg rådhus, Danmark
+
+0 @F69@ FAM
+1 HUSB @I177@
+1 WIFE @I178@
+1 MARR
+2 DATE 3 NOV 2021
+2 PLAC Københavns Rådhus, Danmark
+1 CHIL @I179@
+1 CHIL @I180@
+
+0 @F70@ FAM
+1 HUSB @I182@
+1 WIFE @I181@
+1 NOTE Ikke et ægteskab (kæreste).
+1 CHIL @I183@
+1 CHIL @I184@
+
 0 @F42@ FAM
 1 HUSB @I108@
 1 WIFE @I107@
@@ -1911,6 +2221,7 @@
 1 CHIL @I117@
 1 CHIL @I122@
 1 CHIL @I138@
-1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet; ni ("I.", "II.", "IV.", "V.", "VI.", "VII.", "IX.", "X.", "XI.") tilføjet her indtil videre — kun "III." og "VIII." mangler nu. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (@I107@) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
+1 CHIL @I163@
+1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet; ti ("I.", "II.", "III.", "IV.", "V.", "VI.", "VII.", "IX.", "X.", "XI.") tilføjet her indtil videre — kun "VIII." mangler nu. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (@I107@) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
 
 0 TRLR
