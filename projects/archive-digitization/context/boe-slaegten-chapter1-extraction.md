@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Chapter 1 Extraction Notes
 
-Version 1.11 | 2026-08-06 | Active
+Version 1.12 | 2026-08-06 | Active
 
 ---
 
@@ -32,7 +32,7 @@ This also answers a separate question: what guards against Claude simply misread
   - [ ] g — Laurids Christensen Boe (largest branch, ~1,100 lines/73+ individuals, 4-5 generations reaching to 2026), scoped into 5 checkpoints by size, grouped rather than strict letter order:
     - [x] IV, VI, VII — three smallest children (~20-27 lines each)
     - [x] I, V, IX, XI — four medium children (~50-67 lines each)
-    - [ ] II, X — two larger children (~90-140 lines each)
+    - [x] II, X — two larger children (~90-140 lines each)
     - [ ] III — Meta Kristine Kristensen Boe (~175 lines)
     - [ ] VIII — Karen Kristensen Boe / the Boll family (~330 lines, largest single sub-branch; she died 2012, so this is where currently-living relatives are most likely — will probably need its own further split once reached)
 
@@ -276,6 +276,36 @@ The four medium-sized children — a richer, more eventful batch than Part 1, wi
 
 ---
 
+## Efterslægt — Branch g, Part 3: Children II, X
+
+The two largest of the remaining four children — both reaching into likely-living family, and both surfacing new anomalies.
+
+**"II." Ernst Kristian Jørgen Kristensen Boe** (b.9.5.1915, Durup) — murersvend, senere murermester og entreprenør, Durup/Tøndering, senere Skive. Married **Inger Kjerstine Handberg** (b.14.2.1913) 24.11.1939, Rødding kirke. A fadder at Ernst's own baptism was named "Landmand Kristen Pedersen, Fur (farfar)" — correctly labeled this time (generation "05," `@I27@`, genuinely his paternal grandfather), a positive counter-example to the mislabeling pattern flagged as `grandfather-review/queue.md` item 7. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+**Ernst and Inger Kjerstine's three children:**
+- **1. Knud Preben Handberg Boe** (b.30.11.1940, Durup; d.30.10.2016). Radiomekaniker ved Danmarks Radio, København. Married **Ilse** (surname not given); marriage later dissolved. Two children: Berit Carola (b.30.5.1966) and Steffen (no birthdate given). Faddere at Knud Preben's own 1940 baptism included two correctly-labeled uncles: "Malerlærling Hans Boe i Durup (farbror = V.)" and "Tjenestekarl Karl Boe i Dølby (farbror = IV.)" — two more correct instances, reinforcing that the mislabeling in item 7 is not universal across branch g's fadder lists. `[SENSITIVE]` (Ilse, Berit Carola, Steffen).
+- **2. Kurt Handberg Boe** (b.19.10.1943, Durup; d.15.6.1949, Skive sygehus) — died age 5, begravet 21.6.1949 i Durup.
+- **3. Annie Handberg Boe** (b.10.9.1951, Tøndering). Laborant, bl.a. Skive sygehus; settled at Svansømosegård ved Skive (the parents' own property). Married **Henning Gade** (murer). One named child, Jacob; a second child ("b/") mentioned in the source but left unnamed. `[SENSITIVE]`.
+
+[VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+**"X." Ane Margrethe Christensen Boe, "Anna"** (b.24.11.1928, Durup; d.21.4.2003, Grynnerup) — husassistent before her first marriage, later landmand (Grynnerup, Sæby sogn ved Glyngøre). A fadder at Anna's own baptism, "Isenkræmmer Karl Alfred Thorndal og hustru Bolette Thorndal i Roslev," is the same fadder couple named in her brother Karl Alfred Christensen Boe's (`@I102@`, branch g checkpoint 1) own entry — plausibly the naming source for his own middle name, though not stated outright by the manuscript. Married twice:
+
+- **1. ægteskab — Gunnar Bak** (b.16.3.1917, Grynnerup; landbrugsmedhjælper, senere landmand, Grynnerup), 16.4.1948, Durup. Gunnar was himself born out of wedlock, son of unmarried Knudsine Auguste Jeppesen Bak with no father named; the manuscript cites an external genealogy, "En slægt Bak fra Sæby sogn, Harre Herred" (Nordisk Slægtsforskning i Skals, 1983), a possible future deep-well candidate not investigated further now. Four children:
+  - **1. Grethe Bak** (b.27.4.1949, Grynnerup; d.12.4.2010, age 60). Gårdejer "Engholm," Grynnerupvej 38. Married Jørgen Henrik Jensen Futtrup (b.20.5.1946, Outrup, Mors; son of gårdejer Mads Johan Futtrup). Four children: Karin (b.1969), Jan (b.1970), Gitte (b.1973, sygeplejerske), Jette (b.1978, sygeplejerske) — all `[SENSITIVE]`.
+  - **2. Margit Bak** (b.1.10.1951, Grynnerup). A fadder at her baptism was correctly labeled: "Laurits Boe i Durup (morfar)" — her actual maternal grandfather (`@I37@`), another correct counter-example. Married Svend Erik Poulsen (b.22.2.1949, Tøndering; frisør, senere slagteriarbejder, Skive) 6.1.1971. Three children (Charlotte, Kim Gunnar, Mik), all `[SENSITIVE]`. **Manuscript gives her death date as "Død 24.1.1916"** — chronologically impossible, 35 years before her own 1951 birth. Not corrected here; `tree.ged`'s `DEAT` field deliberately left empty rather than guessed. Second instance of sub-pattern E in `family-tree/possible-duplicates.md`, escalated to **`grandfather-review/queue.md` item 8**.
+  - **3. Poul Viggo Bak** (b.13.4.1955, Grynnerup; fisker m.m.), surname spelled "Bach" in the source unlike the rest of the family's "Bak" — possibly named after his own fadder, "industriarbejder Viggo Bach i Glyngøre," who shares the same spelling. Married Birgit Winther Andersen (b.1947, Harre; brought 2 children from an earlier marriage, not part of the Boe bloodline, no records created). One shared child, Pia (b.1983). `[SENSITIVE]`.
+  - **4. Knud Erik Bak** (b.23.4.1959, Grynnerup; landbrugsmedhjælper m.m.). Married Betina (surname not given). Children not given in the source ("Børn ?"). `[SENSITIVE]`.
+- **2. ægteskab — Harry Kjeldsen** (landmand, Grynnerup), gift 1967. One child: **Søren Kjeldsen Bak** (b.4.10.1971) — hybrid surname likely reflecting both parents. `[SENSITIVE]`.
+
+[VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+**Images:** two more checked (`image19.png`, a family living-room scene with an accordion player, and `image20.jpeg`, the same young man alone with his accordion — both bear a "PRØVE" watermark from the scanning service) — neither confidently matches "II." or "X." on content or timing grounds. Left unfiled, consistent with this session's discipline of not forcing uncertain matches.
+
+`family-tree/tree.ged`: `@I128@`-`@I162@` (35 new individuals), families `@F47@`-`@F60@` (new); `@F14@` now has 9 of 11 children (missing "III.", "VIII.").
+
+---
+
 ## Open Items — Data Quality
 
 Not resolved here; flagged rather than silently corrected, per this repo's correction discipline. Items 3, 5, and 6 below (the likely-extraction-artifact anomalies) are now also tracked centrally in `family-tree/possible-duplicates.md` §2, cross-referenced by ID (A1-A3, B1-B3) — that file is where to look for the running count across sections, not just this one.
@@ -310,3 +340,4 @@ Not resolved here; flagged rather than silently corrected, per this repo's corre
 | 1.9 | 2026-08-06 | Added Efterslægt branch e (Jens Christensen Boe, including "K.K.K. Boe"'s own line — 40 new individuals, the largest single addition yet). Resolved Open Item 9 (the "=05-e-I." vs "=05-f-I." cross-reference): confirmed "=05-e-I." correct by reading his own entry directly. New sub-pattern E logged (an implausible age/timeline from a full but likely-erroneous date — a marriage date that would make the bride 8 years old as given). Extensive `[SENSITIVE]` coverage, since most of K.K.K. Boe's own children and grandchildren have no death dates. One plausible family-portrait image match found; one streetscape image deferred to branch g on a thematic hint (a street informally named after Laurids Boe). |
 | 1.10 | 2026-08-06 | Scoped out branch g (Laurids Christensen Boe, the largest — 11 children, ~73 individuals) into 5 checkpoints by size before starting; recorded in Progress. Read the first: children "IV."/"VI."/"VII.", the three smallest and simplest (5 new individuals). Notable only for a cross-branch fadder link (Poul's own baptism fadder was his cousin Esper Marinus from branch b). Two more images checked, neither matched, left unfiled. |
 | 1.11 | 2026-08-06 | Read branch g checkpoint 2: children "I."/"V."/"IX."/"XI." (21 new individuals). Two genuine manuscript contradictions found and queued to `grandfather-review/queue.md`: item 6 (Laurids and Ottine's wedding date, 27.2.1915 vs 27.3.1914) and item 7 (three instances of a sibling mislabeled with the wrong roman-numeral reference — hit `possible-duplicates.md`'s own escalation trigger for sub-pattern D). New sub-pattern F logged (a stray year concatenated onto a place name) but not queued. Two confirmed image matches, both tied to captions found directly in the text — a rare case of the manuscript's own captions doing the identification work. |
+| 1.12 | 2026-08-06 | Read branch g checkpoint 3: children "II."/"X." (35 new individuals, largest single checkpoint yet). Several correctly-labeled fadder references noted as positive counter-examples to item 7's mislabeling pattern. One new contradiction found: Margit Bak's manuscript death date ("Død 24.1.1916") predates her own 1951 birth by 35 years — a chronological impossibility, not just an implausible age. Second instance of sub-pattern E, escalated per `possible-duplicates.md`'s own reassessment trigger to **`grandfather-review/queue.md` item 8**. Two more images checked (a family accordion-player scene and a solo portrait of the same young man), neither confidently matched, left unfiled. Only "III." (Meta) and "VIII." (Karen/the Boll family, the largest sub-branch) remain in branch g. |

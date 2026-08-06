@@ -1,6 +1,6 @@
 # Possible Duplicates and Recurring Data-Quality Patterns
 
-Version 1.4 | 2026-08-06 | Production
+Version 1.5 | 2026-08-06 | Production
 
 ---
 
@@ -59,6 +59,7 @@ Values in the extracted text that don't reconcile with other stated facts, judge
 | # | Individual | Field | Manuscript shows | Expected (from context) | Source | Status |
 |---|---|---|---|---|---|---|
 | E1 | Marie Kirstine Goul Boe (`@I98@`) | Marriage date | "Gift febr. 1967" | Almost certainly 1977 — as given, she'd be not yet 9 years old (b.8.3.1957); 1977 gives a plausible ~19-20 | `boe-slaegten-fra-mors-og-fur`, p.25-54 | Not queued — first instance of this shape; a single-digit decade error, not the same mechanism as sub-pattern A's century-digit swap |
+| E2 | Margit Bak (`@I151@`) | Death date | "Død 24.1.1916." | Unknown — but 1916 predates her own birth (1.10.1951) by 35 years, an outright impossibility, not just an implausible age | `boe-slaegten-fra-mors-og-fur`, p.25-54 | **Queued — grandfather-review/queue.md #8** — second instance of sub-pattern E, hitting this pattern's own reassessment trigger, and the worst individual case yet (not just implausible, actually impossible) |
 
 **Sub-pattern F — a year value appears concatenated directly onto a hospital/place name with no separator, sometimes matching the stated birth year and sometimes not (new, branch g child "V."):**
 
@@ -67,7 +68,7 @@ Values in the extracted text that don't reconcile with other stated facts, judge
 | F1 | Mona Schmidt Boe (`@I115@`) | Birthplace field | "Viborg sygehus 1955" (trailing year doesn't match her own stated birth year, 1950) | Unclear — possibly a stray digit sequence from elsewhere in the original layout | `boe-slaegten-fra-mors-og-fur`, p.25-54 | Not queued — first instance |
 | F2 | Thorkil Schmidt Boe (`@I116@`) | Birthplace field | "Viborg sygehus1958" (trailing year matches his own stated birth year, 1958) | Same concatenation shape as F1, but here happens to agree with the birth year already given | `boe-slaegten-fra-mors-og-fur`, p.25-54 | Not queued — second instance found in the same reading pass as F1 (same sibling group); genuinely a new mechanism from sub-patterns A-E (concatenation, not digit-swap or mislabeling), and one of the two instances doesn't even conflict with anything — kept at "not queued" despite technically meeting the usual two-instance bar, since there's nothing yet for KEJ to actually adjudicate (F2 isn't wrong) |
 
-**Reassessment trigger:** generation "04" and Efterslægt branches a/c/d/f/h/i added no new instances of sub-pattern A or B (still three each) — the pattern didn't recur, itself informative. Sub-pattern C stands at one instance (C1) — not yet queued. **Sub-pattern D reached three instances (D1-D3) in branch g's first checkpoint and is now queued to `grandfather-review/queue.md` as item 7** — a systematic off-by-one/mislabeling pattern in the manuscript's own roman-numeral cross-references, not explainable as a single slip anymore. Sub-pattern E stands at one instance (E1). Sub-pattern F has two instances (F1-F2) but isn't queued — see F2's own note on why. If a fourth instance of A/B, a second of C or E, or a further instance of F that actually conflicts with a stated fact, appears during further reading, escalate it the same way.
+**Reassessment trigger:** generation "04" and Efterslægt branches a/c/d/f/h/i added no new instances of sub-pattern A or B (still three each) — the pattern didn't recur, itself informative. Sub-pattern C stands at one instance (C1) — not yet queued. **Sub-pattern D reached three instances (D1-D3) in branch g's first checkpoint and is queued to `grandfather-review/queue.md` as item 7.** **Sub-pattern E reached two instances (E1-E2) in branch g's second checkpoint and is queued as item 8** — E2 in particular is an outright impossibility (a death date predating the person's own birth by 35 years), not just implausible. Sub-pattern F stays at two instances (F1-F2), still not queued — see F2's own note on why. If a fourth instance of A/B, a second of C, or a further instance of F that actually conflicts with a stated fact, appears during further reading, escalate it the same way.
 
 ---
 
@@ -80,3 +81,4 @@ Values in the extracted text that don't reconcile with other stated facts, judge
 | 1.2 | 2026-08-06 | Efterslægt branches a/c/d/f/h/i and b read; no new A/B/C instances. Added sub-pattern D (correct name, wrong relationship-label/branch-letter) with its first instance, found in branch b — deliberately kept separate from sub-pattern C rather than folded in, since the underlying error shape is different (label wrong vs. name reordered). |
 | 1.3 | 2026-08-06 | Efterslægt branch e read; no new A/B/C/D instances. Added sub-pattern E (a full date yielding an implausible age/timeline) with its first instance — a marriage date that would make the bride 8 years old as given, almost certainly a single-digit decade error. |
 | 1.4 | 2026-08-06 | Branch g checkpoint 1 (children I/V/IX/XI): sub-pattern D reached 3 instances (D2, D3 found in a single fadder list) and escalated to `grandfather-review/queue.md` item 7, per this file's own reassessment trigger — the first sub-pattern to actually cross that line. Added sub-pattern F (year concatenated onto a place name), 2 instances found together, kept unqueued since one instance isn't actually wrong. |
+| 1.5 | 2026-08-06 | Branch g checkpoint 2 (children II/X): sub-pattern E reached 2 instances (E2 — a death date predating the person's own birth by 35 years) and escalated to `grandfather-review/queue.md` item 8. |

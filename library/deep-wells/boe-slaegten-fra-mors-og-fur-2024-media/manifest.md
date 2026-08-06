@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.2 | 2026-08-06 | Production
+Version 1.3 | 2026-08-06 | Production
 
 ---
 
@@ -114,6 +114,14 @@ A 1960s-1970s-style photo of a middle-aged/older couple in conversation at a din
 
 ---
 
+## Images: Efterslægt Branch g, Checkpoint 3 (Children II, X)
+
+No images stored from this checkpoint — both checked candidates were left unfiled.
+
+**Checked and deferred:** `image19.png` — a family living-room scene, an accordion player performing for what reads as an informal domestic audience, bearing a "PRØVE" (proof/sample) watermark from the scanning service. `image20.jpeg` — apparently the same young man, alone with his accordion, same watermark. Neither carries a caption or other content match to children "II." (Ernst Kristian Jørgen Kristensen Boe) or "X." (Ane Margrethe "Anna" Christensen Boe) or their own children as read in this checkpoint — no musician occupation or hobby is mentioned for anyone in either line. Left unfiled rather than guessed; may belong to branch g's remaining children ("III.," "VIII.") or elsewhere.
+
+---
+
 ## Sensitivity
 
 The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` flag — everyone in them died well over 70 years ago. That changes starting with Efterslægt: `image8`/`image9` above don't currently need the flag either (no confirmed identity, and if image8's guess is right, a 1910 marriage is not recent), but per the branch-b text extraction, several individuals in this branch (Poul and Henning Christensen Boe and their families) have no death dates and are treated as potentially living — any future image confirmed to depict them would need `[SENSITIVE]`.
@@ -127,3 +135,4 @@ The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` f
 | 1.0 | 2026-08-06 | Initial creation. First batch: the 6 images tied to Aneoversigt and generations "02"-"05" (the sections already read). Two images cross-checked directly against already-extracted text as genuine fidelity spot-checks (image5, image6); one filename-level discrepancy noted in KEJ's own naming (image2, "1732" vs the document's actual 1832 date); two images left with unconfirmed identities rather than guessed (image3, image4). |
 | 1.1 | 2026-08-06 | Added images for Efterslægt branch b: a plausible-but-unconfirmed wedding-portrait match (image8) and one left fully unclassified (image9). Noted image7 was checked and ruled out for all branches read so far, deferred rather than stored prematurely. |
 | 1.2 | 2026-08-06 | Added image for Efterslægt branch e: a family portrait (image11) plausibly matching Jens Christensen Boe's young family c.1920, based on composition and timing. Noted image10 (a streetscape) as a candidate deferred to branch g, once read. |
+| 1.3 | 2026-08-06 | Branch g checkpoint 3 (children II/X): two more images checked (image19, image20 — a family accordion-player scene and a solo portrait of the same young man), neither matched anyone in this checkpoint; both left unfiled. No new images stored this checkpoint. |

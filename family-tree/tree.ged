@@ -1099,6 +1099,360 @@
 2 DATE 1967
 1 FAMC @F46@
 1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I127 (kraever adgang til den private modul-repo).
+0 @I128@ INDI
+1 NAME Ernst Kristian Jørgen Kristensen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 9 MAY 1915
+2 PLAC Durup, Danmark
+1 OCCU Murersvend, senere murermester og entreprenør, Durup/Tøndering, senere Skive
+1 FAMC @F14@
+1 FAMS @F47@
+1 NOTE Barn "II." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. En fadder ved hans dåb var "Landmand Kristen Pedersen, Fur (farfar)" — korrekt mærket denne gang (generation 05, @I27@), til forskel fra de fejlmærkede tilfælde i grandfather-review/queue.md #7. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I129@ INDI
+1 NAME Inger Kjerstine /Handberg/
+1 SEX F
+1 BIRT
+2 DATE 14 FEB 1913
+1 FAMS @F47@
+1 NOTE [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I130@ INDI
+1 NAME Knud Preben Handberg /Boe/
+1 SEX M
+1 BIRT
+2 DATE 30 NOV 1940
+2 PLAC Durup, Danmark
+1 DEAT
+2 DATE 30 OCT 2016
+1 OCCU Radiomekaniker ved Danmarks Radio, København
+1 FAMC @F47@
+1 FAMS @F48@
+1 NOTE Barn "1." af Ernst og Inger Kjerstine. Faddere ved hans dåb (1940) omfattede korrekt mærkede onkler: "Malerlærling Hans Boe i Durup (farbror = V.)" og "Tjenestekarl Karl Boe i Dølby (farbror = IV.)". [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I131@ INDI
+1 NAME Living /?/
+1 SEX F
+1 FAMS @F48@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I131 (kraever adgang til den private modul-repo).
+0 @I132@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1966
+1 FAMC @F48@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I132 (kraever adgang til den private modul-repo).
+0 @I133@ INDI
+1 NAME Living /Boe/
+1 SEX M
+1 FAMC @F48@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I133 (kraever adgang til den private modul-repo).
+0 @I134@ INDI
+1 NAME Kurt Handberg /Boe/
+1 SEX M
+1 BIRT
+2 DATE 19 OCT 1943
+2 PLAC Durup, Danmark
+1 DEAT
+2 DATE 15 JUN 1949
+2 PLAC Skive, Danmark
+1 FAMC @F47@
+1 NOTE Barn "2." af Ernst og Inger Kjerstine. Død på sygehuset i Skive, 5 år gl., begravet 21.6.1949 i Durup. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I135@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1951
+1 FAMC @F47@
+1 FAMS @F49@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I135 (kraever adgang til den private modul-repo).
+0 @I136@ INDI
+1 NAME Living /Gade/
+1 SEX M
+1 FAMS @F49@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I136 (kraever adgang til den private modul-repo).
+0 @I137@ INDI
+1 NAME Living /Gade/
+1 SEX M
+1 FAMC @F49@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I137 (kraever adgang til den private modul-repo).
+0 @I138@ INDI
+1 NAME Ane Margrethe Christensen /Boe/
+1 SEX F
+1 BIRT
+2 DATE 24 NOV 1928
+2 PLAC Durup, Danmark
+1 DEAT
+2 DATE 21 APR 2003
+2 PLAC Grynnerup, Danmark
+1 OCCU Landmand (efter giftermål), Grynnerup, Sæby sogn ved Glyngøre
+1 FAMC @F14@
+1 FAMS @F50@
+1 FAMS @F51@
+1 NOTE Barn "X." af Laurids Christensen Boe og Ottine Boline Marie Pedersen, kaldet "Anna". Husassistent ved 1. giftermål. En fadder ved hendes dåb var "Isenkræmmer Karl Alfred Thorndal og hustru Bolette Thorndal i Roslev" — sandsynlig navnekilde til broderen Karl Alfred Christensen Boe (@I102@), som har samme fadderfamilie nævnt i sin egen indførsel. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I139@ INDI
+1 NAME Gunnar /Bak/
+1 SEX M
+1 BIRT
+2 DATE 16 MAR 1917
+2 PLAC Grynnerup, Danmark
+1 OCCU Landbrugsmedhjælper, senere landmand, Grynnerup, Sæby sogn
+1 FAMS @F50@
+1 NOTE Søn af ugift Knudsine Auguste Jeppesen Bak — født udenfor ægteskab, ingen far angivet. Manuskriptet henviser til en ekstern slægtsbog: "En slægt Bak fra Sæby sogn, Harre Herred," Nordisk Slægtsforskning i Skals, 1983 — mulig fremtidig deep-well-kandidat, ikke undersøgt nærmere nu. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I140@ INDI
+1 NAME Living /Kjeldsen/
+1 SEX M
+1 FAMS @F51@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I140 (kraever adgang til den private modul-repo).
+0 @I141@ INDI
+1 NAME Grethe /Bak/
+1 SEX F
+1 BIRT
+2 DATE 27 APR 1949
+2 PLAC Grynnerup, Danmark
+1 DEAT
+2 DATE 12 APR 2010
+1 FAMC @F50@
+1 FAMS @F52@
+1 NOTE Barn "1." af Anna og Gunnar Bak (1. ægteskab). Gårdejer "Engholm," Grynnerupvej 38, Grynderup, Sæby sogn. Død 60 år gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I142@ INDI
+1 NAME Living /Futtrup/
+1 SEX M
+1 BIRT
+2 DATE 1946
+1 FAMS @F52@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I142 (kraever adgang til den private modul-repo).
+0 @I143@ INDI
+1 NAME Living /Futtrup/
+1 SEX F
+1 BIRT
+2 DATE 1969
+1 FAMC @F52@
+1 FAMS @F53@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I143 (kraever adgang til den private modul-repo).
+0 @I144@ INDI
+1 NAME Living /?/
+1 SEX M
+1 FAMS @F53@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I144 (kraever adgang til den private modul-repo).
+0 @I145@ INDI
+1 NAME Living /Futtrup/
+1 SEX M
+1 BIRT
+2 DATE 1970
+1 FAMC @F52@
+1 FAMS @F54@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I145 (kraever adgang til den private modul-repo).
+0 @I146@ INDI
+1 NAME Living /?/
+1 SEX F
+1 FAMS @F54@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I146 (kraever adgang til den private modul-repo).
+0 @I147@ INDI
+1 NAME Living /Futtrup/
+1 SEX F
+1 BIRT
+2 DATE 1973
+1 FAMC @F52@
+1 FAMS @F55@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I147 (kraever adgang til den private modul-repo).
+0 @I148@ INDI
+1 NAME Living /?/
+1 SEX M
+1 FAMS @F55@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I148 (kraever adgang til den private modul-repo).
+0 @I149@ INDI
+1 NAME Living /Futtrup/
+1 SEX F
+1 BIRT
+2 DATE 1978
+1 FAMC @F52@
+1 FAMS @F56@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I149 (kraever adgang til den private modul-repo).
+0 @I150@ INDI
+1 NAME Living /?/
+1 SEX M
+1 FAMS @F56@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I150 (kraever adgang til den private modul-repo).
+0 @I151@ INDI
+1 NAME Margit /Bak/
+1 SEX F
+1 BIRT
+2 DATE 1 OCT 1951
+2 PLAC Grynnerup, Danmark
+1 FAMC @F50@
+1 FAMS @F57@
+1 NOTE Barn "2." af Anna og Gunnar Bak (1. ægteskab). En fadder var "Laurits Boe i Durup (morfar)" — korrekt mærket (generation g's Laurids, @I37@, hendes egen morfar). Bopæl Sallingsundvej ved Roslev. **Kronologisk umulig dødsdato i kilden:** "Død 24.1.1916." — dette er FØR hendes egen fødsel (1951), en åbenlys fejl, men ingen rettelse forsøgt her. Ikke afgjort — se grandfather-review/queue.md #8. DEAT-feltet bevidst udeladt. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54][CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal (dødsdato før fødselsdato) — grandfather-review/queue.md #8]
+
+0 @I152@ INDI
+1 NAME Living /Poulsen/
+1 SEX M
+1 BIRT
+2 DATE 1949
+1 FAMS @F57@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I152 (kraever adgang til den private modul-repo).
+0 @I153@ INDI
+1 NAME Living /Poulsen/
+1 SEX F
+1 BIRT
+2 DATE 1972
+1 FAMC @F57@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I153 (kraever adgang til den private modul-repo).
+0 @I154@ INDI
+1 NAME Living /Poulsen/
+1 SEX M
+1 BIRT
+2 DATE 1974
+1 FAMC @F57@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I154 (kraever adgang til den private modul-repo).
+0 @I155@ INDI
+1 NAME Living /Poulsen/
+1 SEX M
+1 BIRT
+2 DATE 1979
+1 FAMC @F57@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I155 (kraever adgang til den private modul-repo).
+0 @I156@ INDI
+1 NAME Living /Bach/
+1 SEX M
+1 BIRT
+2 DATE 1955
+1 FAMC @F50@
+1 FAMS @F58@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I156 (kraever adgang til den private modul-repo).
+0 @I157@ INDI
+1 NAME Living /Andersen/
+1 SEX F
+1 BIRT
+2 DATE 1947
+1 FAMS @F58@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I157 (kraever adgang til den private modul-repo).
+0 @I158@ INDI
+1 NAME Living /Bak/
+1 SEX F
+1 BIRT
+2 DATE 1983
+1 FAMC @F58@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I158 (kraever adgang til den private modul-repo).
+0 @I159@ INDI
+1 NAME Living /Bak/
+1 SEX M
+1 BIRT
+2 DATE 1959
+1 FAMC @F50@
+1 FAMS @F59@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I159 (kraever adgang til den private modul-repo).
+0 @I160@ INDI
+1 NAME Living /?/
+1 SEX F
+1 FAMS @F59@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I160 (kraever adgang til den private modul-repo).
+0 @I161@ INDI
+1 NAME Living /Bak/
+1 SEX M
+1 BIRT
+2 DATE 1971
+1 FAMC @F51@
+1 FAMS @F60@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I161 (kraever adgang til den private modul-repo).
+0 @I162@ INDI
+1 NAME Living /?/
+1 SEX F
+1 FAMS @F60@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I162 (kraever adgang til den private modul-repo).
+0 @F47@ FAM
+1 HUSB @I128@
+1 WIFE @I129@
+1 MARR
+2 DATE 24 NOV 1939
+2 PLAC Rødding kirke, Danmark
+1 CHIL @I130@
+1 CHIL @I134@
+1 CHIL @I135@
+
+0 @F48@ FAM
+1 HUSB @I130@
+1 WIFE @I131@
+1 NOTE Ægteskabet opløst.
+1 CHIL @I132@
+1 CHIL @I133@
+
+0 @F49@ FAM
+1 HUSB @I136@
+1 WIFE @I135@
+1 CHIL @I137@
+
+0 @F50@ FAM
+1 HUSB @I139@
+1 WIFE @I138@
+1 MARR
+2 DATE 16 APR 1948
+2 PLAC Durup, Danmark
+1 CHIL @I141@
+1 CHIL @I151@
+1 CHIL @I156@
+1 CHIL @I159@
+1 NOTE Annas 1. ægteskab.
+
+0 @F51@ FAM
+1 HUSB @I140@
+1 WIFE @I138@
+1 MARR
+2 DATE 1967
+1 CHIL @I161@
+1 NOTE Annas 2. ægteskab.
+
+0 @F52@ FAM
+1 HUSB @I142@
+1 WIFE @I141@
+1 CHIL @I143@
+1 CHIL @I145@
+1 CHIL @I147@
+1 CHIL @I149@
+
+0 @F53@ FAM
+1 HUSB @I144@
+1 WIFE @I143@
+
+0 @F54@ FAM
+1 HUSB @I145@
+1 WIFE @I146@
+
+0 @F55@ FAM
+1 HUSB @I148@
+1 WIFE @I147@
+
+0 @F56@ FAM
+1 HUSB @I150@
+1 WIFE @I149@
+
+0 @F57@ FAM
+1 HUSB @I152@
+1 WIFE @I151@
+1 MARR
+2 DATE 6 JAN 1971
+1 CHIL @I153@
+1 CHIL @I154@
+1 CHIL @I155@
+
+0 @F58@ FAM
+1 HUSB @I156@
+1 WIFE @I157@
+1 CHIL @I158@
+
+0 @F59@ FAM
+1 HUSB @I159@
+1 WIFE @I160@
+
+0 @F60@ FAM
+1 HUSB @I161@
+1 WIFE @I162@
+
 0 @F42@ FAM
 1 HUSB @I108@
 1 WIFE @I107@
@@ -1412,12 +1766,14 @@
 2 DATE 27 FEB 1915
 2 PLAC Brøndum kirke, Salling, Danmark
 1 CHIL @I107@
+1 CHIL @I128@
 1 CHIL @I102@
 1 CHIL @I110@
 1 CHIL @I103@
 1 CHIL @I104@
 1 CHIL @I117@
 1 CHIL @I122@
-1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet; syv ("I.", "IV.", "V.", "VI.", "VII.", "IX.", "XI.") tilføjet her indtil videre — resten ("II.", "III.", "VIII.", "X.") følger efterhånden som de læses. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (@I107@) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
+1 CHIL @I138@
+1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet; ni ("I.", "II.", "IV.", "V.", "VI.", "VII.", "IX.", "X.", "XI.") tilføjet her indtil videre — kun "III." og "VIII." mangler nu. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (@I107@) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
 
 0 TRLR

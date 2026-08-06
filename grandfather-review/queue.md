@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.6 | 2026-08-06 | Active
+Version 1.7 | 2026-08-06 | Active
 
 ---
 
@@ -77,6 +77,14 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 **Grundlag:** Sammenligning af flere angivelser af samme personers romertal/slægtsbetegnelser inden for samme manuskript. Ikke en sammenligning mod en ekstern kilde.
 **Status:** Foreslået — endnu ikke gennemgået. Er dette blot skrivefejl i de originale fadderlister (letforklarligt, da flere børn skulle holdes styr på), eller er der en systematisk forveksling et sted i din egen nummerering af branch g's børn, som er værd at tjekke igennem, inden vi læser resten af branch g (fire børn tilbage: "II.", "III.", "VIII.", "X.")?
 
+### 8. Margit Baks dødsdato — kronologisk umulig
+
+**Kategori:** Uoverensstemmelse
+**Kilde:** Projekt Arkivdigitalisering, "Boe-slægten fra Mors og Fur", Kapitel 1, Efterslægten, branch g (2026-08-06) — se `family-tree/possible-duplicates.md` sub-pattern E
+**Fund:** Margit Bak, født 1.10.1951 og gift 6.1.1971 med Svend Erik Poulsen, har ifølge manuskriptet dødsdatoen "Død 24.1.1916." Dette er ikke blot usandsynligt, men kronologisk umuligt: 1916 ligger 35 år FØR hendes egen fødsel i 1951. Der er ingen anden dødsdato angivet noget andet sted i manuskriptet for hende. `family-tree/tree.ged` er bevidst efterladt uden et DEAT-felt for hende, med en NOTE der henviser hertil.
+**Grundlag:** Intern sammenligning mellem Margit Baks egen fødselsdato og den angivne dødsdato, begge inden for samme manuskript — ikke en sammenligning mod en ekstern kilde.
+**Status:** Foreslået — endnu ikke gennemgået. Er "1916" en fejlskrivning af et andet årstal (f.eks. en fejllæsning eller -indtastning af et 19xx-tal, i familie med sub-mønster A's øvrige tilfælde), eller mangler der reelt en dødsdato for Margit Bak, som "24.1.1916" ikke burde stå i stedet for? Er hun i live på nuværende tidspunkt?
+
 ---
 
 ## Version History
@@ -90,3 +98,4 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 | 1.4 | 2026-08-06 | Added item 5: Else Marie Christensen's (generation 05's youngest child) death year internally inconsistent — 1894 (infant) per her own vital-facts entry vs. o.1900 (implied age ~8) per the surname-bevilling narrative elsewhere in the same manuscript. Found during generation "05"'s read-through. |
 | 1.5 | 2026-08-06 | Updated item 5 with a third data point found during the Efterslægt read-through: Else Marie's own individual entry gives an exact date, 4.6.1894, agreeing with the Aneoversigt table against the "o.1900" narrative mention. Still not treated as settled — appended as new evidence, not a resolution. |
 | 1.6 | 2026-08-06 | Added item 6 (Laurids and Ottine's wedding date internally inconsistent, 27.2.1915 vs 27.3.1914) and item 7 (three instances of correctly-named branch-g individuals mislabeled with the wrong roman-numeral sibling reference, escalated per `family-tree/possible-duplicates.md`'s own reassessment trigger for sub-pattern D). Both found during Efterslægt branch g's first checkpoint. |
+| 1.7 | 2026-08-06 | Added item 8: Margit Bak's death date ("Død 24.1.1916") predates her own birth (1.10.1951) by 35 years — a chronological impossibility, not merely an implausible age. Escalated per `family-tree/possible-duplicates.md`'s reassessment trigger for sub-pattern E (second instance). Found during Efterslægt branch g's second checkpoint. |
