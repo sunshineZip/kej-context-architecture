@@ -1,12 +1,12 @@
 # Boe-slægten fra Mors og Fur — Chapter 1 Extraction Notes
 
-Version 1.2 | 2026-08-06 | Active
+Version 1.3 | 2026-08-06 | Active
 
 ---
 
 ## Document Purpose
 
-Working extraction notes from "2024 Boe-slægen fra Mors og Fur.docx" (KEJ's compiled Boe-slægt manuscript, Kapitel 1-4, version maj 2026), processed section by section per the human's explicit request — not the whole document at once. Project-layer working notes, not domain knowledge — no Boe domain exists yet (Phase 3 not started). Accessed via Google Drive (file too large to upload directly), not yet committed to this repo in original format — see Open Items.
+Working extraction notes from "2024 Boe-slægen fra Mors og Fur.docx" (KEJ's compiled Boe-slægt manuscript, Kapitel 1-4, version maj 2026), processed section by section per the human's explicit request — not the whole document at once. Project-layer working notes, not domain knowledge — no Boe domain exists yet (Phase 3 not started). Original manuscript now stored at `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx`.
 
 **Source citation** (per `authoring-guidelines.md` §9.5, adapted — this is KEJ's own unpublished manuscript, not a published article): Knud Erik Jakobsen (KEJ), Risum, "Boe-slægten, Mors/Fur, Kapitel 1-4," unpublished manuscript, maj 2026, accessed via Google Drive (file ID `1-3X1fR0bJ2qnMjkERx1LTPhn-jOCto29`), 2026-08-06. Registered as a deep well: `library/reference-index.md#boe-slaegten-fra-mors-og-fur`. Citation slug used below: `boe-slaegten-fra-mors-og-fur`.
 
@@ -111,3 +111,4 @@ Not resolved here; flagged rather than silently corrected, per this repo's corre
 | 1.0 | 2026-08-06 | Initial creation. Aneoversigt and generation "02" (Peder Christensen Boe) extracted and summarized, including the documented "Kyssesekten" episode. Four data-quality items flagged, one promoted to `grandfather-review/queue.md`. |
 | 1.1 | 2026-08-06 | Added generation "03" (Christen Pedersen Boe): a full transcribed 1832 probate record (skifte), his widow's later life, and ten children including one line (Vestergaard, via Else Christensdatter Boe) that runs forward into the 20th century — flagged for future [SENSITIVE] treatment since its most recent named individuals may still be living. Three more data-quality items noted, none queued to `grandfather-review/` — a recurring 19xx/18xx digit-transposition pattern looks like an extraction artifact, not a manuscript error. |
 | 1.2 | 2026-08-06 | Retrofitted per-claim citations (`[VERIFIED: boe-slaegten-fra-mors-og-fur, p.N]`) throughout, replacing the single file-level citation this document opened with; added a citation-and-fidelity-methodology note explaining the page-range precision actually available and the verbatim-quote + precise-citation practice used as a lightweight transcription spot-check. Cross-referenced the new `family-tree/tree.ged` (all individuals from generations "02"/"03" now modeled there, plus "04"/"05" at Aneoversigt-level detail) and `family-tree/possible-duplicates.md` (the recurring anomaly log, now tracked centrally instead of only in this file's prose). |
+| 1.3 | 2026-08-06 | Corrected a now-stale line in the Document Purpose: the original manuscript is stored (`library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx`), not still missing — it arrived via the new `incoming/` mechanism, not the Google Drive connector this document originally described. |

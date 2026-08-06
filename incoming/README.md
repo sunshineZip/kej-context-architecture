@@ -1,6 +1,6 @@
 # Incoming
 
-Version 1.0 | 2026-08-06 | Production
+Version 1.1 | 2026-08-06 | Production
 
 ---
 
@@ -25,7 +25,7 @@ Landing zone for raw, unprocessed files (from KEJ or elsewhere) that haven't bee
 
 ## Currently Waiting
 
-*Empty as of 2026-08-06 — nothing has been dropped here yet through this mechanism (the Boe-slægten manuscript arrived via Google Drive before this folder existed, and is already triaged into `library/deep-wells/`).*
+*Empty as of 2026-08-06.* First real use: the Boe-slægten original `.docx`, pushed here via GitHub Desktop and triaged the same day into `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx` (see `projects/archive-digitization/TODO.md` Done list). Confirms the mechanism works end-to-end, including for files well over the connector caps that motivated it.
 
 ---
 
@@ -34,3 +34,4 @@ Landing zone for raw, unprocessed files (from KEJ or elsewhere) that haven't bee
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-06 | Initial creation, in response to the Google Drive connector's 10 MB download cap plus this environment's network policy blocking direct Drive access — both made pulling large files through an AI tool connector unsustainable. This folder lets the human push files directly into the repo instead, bypassing both. |
+| 1.1 | 2026-08-06 | First real use recorded: the Boe-slægten original `.docx` (46.1 MB), pushed via GitHub Desktop after GitHub's website upload UI turned out to have its own separate 25 MB cap — worth knowing that git/GitHub Desktop doesn't share that limit, only the website's drag-and-drop uploader does. Triaged out the same day. |
