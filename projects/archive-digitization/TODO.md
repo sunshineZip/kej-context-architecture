@@ -5,7 +5,7 @@ project: archive-digitization
 
 # Archive Digitization — TODO
 
-Version 1.3 | 2026-08-06 | Active
+Version 1.4 | 2026-08-06 | Active
 
 > **Routing check:** This is a task tracking file, not a work queue. Do not start work on any item here unless you have completed ROUTING.md routing and received explicit human confirmation for this session.
 
@@ -13,6 +13,7 @@ Version 1.3 | 2026-08-06 | Active
 
 ## Open
 
+- [ ] **Image extraction now proceeds alongside text extraction, not as a separate pass (decided 2026-08-06):** the Boe-slægten `.docx` has 48 embedded images (photos, scanned documents, maps) that the text-only extraction had ignored entirely. First batch (6 images tied to Aneoversigt/generations "02"-"05", the sections already read) is done — see `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`. Going forward: when reading a new section of the manuscript, pull and process its images in the same working session, not deferred to a later catch-up pass. Efterslægt in particular will need this — its images will very likely depict living or recently-living people, so expect `[SENSITIVE]` handling to become the default there, not the exception.
 - [ ] **Check `incoming/` for new files at the start of each working session** (2026-08-06): the human now pushes raw files directly into `incoming/` via git/GitHub instead of an AI tool connector fetch (see `incoming/README.md`), specifically to avoid connector size caps. Anything found there needs the same triage as any other manifest item: update `context/intake-manifest.md`, decide its real home, move it out of `incoming/`. First real use (2026-08-06): the Boe-slægten original `.docx`, see Done below.
 - [ ] Decide an approach to handwriting transcription for older Danish church records (possibly Gothic/Kurrent script) — manual transcription, a specialized OCR tool, or the family's own knowledge of the handwriting
 - [ ] As each item in `context/intake-manifest.md` arrives: mark it received, do a rough triage pass (slægt/category, source type) using the working assumptions below, update its status
@@ -39,3 +40,4 @@ Human confirmed (2026-08-05) that absorbing the material matters more right now 
 - [x] Project opened (2026-08-05)
 - [x] Full intake manifest transcribed from KEJ's email (2026-08-05) — see `context/intake-manifest.md`
 - [x] Original Boe-slægten `.docx` stored (2026-08-06): human pushed it into `incoming/` via GitHub Desktop, first real use of that mechanism; triaged into `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx` after verifying zip/docx integrity. Supersedes the earlier text-only interim measure — see `library/reference-index.md#boe-slaegten-fra-mors-og-fur`.
+- [x] First image batch extracted and inventoried (2026-08-06): 6 images tied to Aneoversigt/generations "02"-"05" — see `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`. Two served as genuine fidelity spot-checks against already-extracted text (family gravestone photo, 1905 name-grant certificate — all 6 names/dates on the certificate matched `family-tree/tree.ged` exactly).

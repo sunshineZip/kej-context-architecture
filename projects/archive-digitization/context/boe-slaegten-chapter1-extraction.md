@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Chapter 1 Extraction Notes
 
-Version 1.5 | 2026-08-06 | Active
+Version 1.6 | 2026-08-06 | Active
 
 ---
 
@@ -26,6 +26,8 @@ This also answers a separate question: what guards against Claude simply misread
 - [x] 04. Peder Christensen Boe, 1816-1879 (p.18-20)
 - [x] 05. Christen Pedersen Boe, 1853-1930 (p.21-24)
 - [ ] Efterslægt (descendants, p.25-54) — will need its own further breakdown once reached
+
+**Images, added 2026-08-06:** the manuscript's 48 embedded images had been ignored by the text-only extraction above until now. Now tracked separately in `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`, with its own per-image schema (KEJ's original filename, position, type, description, legibility/confidence, people cross-referenced to `family-tree/tree.ged`). First batch — the 6 images tied to Aneoversigt/generations "02"-"05" above — is done. From Efterslægt onward, image extraction happens in the same working session as the text it's found in, not as a separate catch-up pass.
 
 ---
 
@@ -180,3 +182,4 @@ Not resolved here; flagged rather than silently corrected, per this repo's corre
 | 1.3 | 2026-08-06 | Corrected a now-stale line in the Document Purpose: the original manuscript is stored (`library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx`), not still missing — it arrived via the new `incoming/` mechanism, not the Google Drive connector this document originally described. |
 | 1.4 | 2026-08-06 | Added generation "04" (Peder Christensen Boe, 1816-1879): a transcribed property deed (skøde) for two hedelodder on Fur, his work as a walking postman (corroborated by a quoted 1947 newspaper article), his death by drowning/freezing on the Limfjord ice, and five children including one who is generation "05." Corrected the v1.2 "per-claim page precision from generation 04 onward" promise — the plain-text extraction doesn't reliably preserve page breaks, so this section stays at the same p.18-20 section-range precision as before. Two new low-confidence anomalies noted (Open Items 8-9), one of them (item 8) also logged as a new sub-pattern in `family-tree/possible-duplicates.md`; item 7 documents a discrepancy KEJ already flagged himself in the source, not a new finding. |
 | 1.5 | 2026-08-06 | Added generation "05" (Christen Pedersen Boe, 1853-1930): marriage and census trail, a substantial quoted oral-history passage from grandson K.K.K. Boe (1976) about the couple's premarital-pregnancy courtship, and the family's 1904/05 royal name-grant history (six of nine children received the legal "Boe" surname; three did not, for three different reasons). Nine children's birthdates confirmed precise against the earlier Aneoversigt-level summary with no contradictions. One genuine manuscript-internal contradiction found (Else Marie Christensen's death year, 1894 vs. o.1900) and **queued to `grandfather-review/queue.md` as item 5** — not an extraction artifact, a real cross-reference conflict in KEJ's own text. Stopped at the manuscript's own explicit "see following pages" marker, which divides generation "05"'s own section from the much larger Efterslægt (descendants) section — deliberately not read yet. |
+| 1.6 | 2026-08-06 | Noted the start of image extraction (previously ignored entirely) — first batch of 6 images tied to Aneoversigt/generations "02"-"05", tracked in the new `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md` rather than duplicated here. Two images served as genuine independent fidelity checks of already-extracted text. |
