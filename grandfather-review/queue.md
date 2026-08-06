@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.8 | 2026-08-06 | Active
+Version 1.9 | 2026-08-06 | Active
 
 ---
 
@@ -94,6 +94,14 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 **Grundlag:** Sammenligning af tre angivelser inden for samme manuskript (Kapitel 1's egen indledning til generation "03", Kapitel 3's selvstændige omtale af samme vielse, og KEJ's eget håndskrevne stamtræsdiagram) — ikke en sammenligning mod en ekstern kilde.
 **Status:** Foreslået — endnu ikke gennemgået. To af tre kilder peger nu på 1810 — er Kapitel 1's "1808" en fejl i selve prosateksten? Og hænger det sammen med de indbyrdes modstridende datoer for Jens Thomasens dåb/begravelse (9.7.1810 vs. 14.7.1809)?
 
+### 10. Hanne Boes biologiske far — familiens erindring mod manuskriptets angivelse
+
+**Kategori:** Familietradition vs. kilde
+**Kilde:** Samtale med hjemmesidens bruger (Hanne Boes barnebarn), 2026-08-06 — ikke fundet i manuskriptet selv
+**Fund:** Manuskriptet angiver eksplicit "udlagt barnefader" (formelt erklæret, ikke gift) til Hanne Boe (f. 20.11.1944, I167) som Gunnar Vilhelm Carlsen, arbejdsmand i Silkeborg (f. 19.11.1918, I164) — se `family-tree/tree.ged#I164` og #I167. Brugerens mor (Hannes egen datter) mener derimod, at "Gunnar" ikke er den biologiske far, og husker i stedet en "Peder" eller "Peter" et sted i billedet. Manuskriptet nævner faktisk to sådanne mænd i Metas liv omkring denne periode: (1) Peder Alfred Plejdrup, hos hvem Meta var husbestyrerinde i Toustrup ved folketællingen 5.11.1940 — fire år før Hannes fødsel, ingen dokumenteret forbindelse til selve fødslen; og (2) Peter Severin Nielsen, som Meta giftede sig med 18.8.1946 (næsten to år EFTER Hannes fødsel) — manuskriptet fastslår selv direkte, at han ikke var Hannes far, men han gav hende sit efternavn og var den mand, hun voksede op hos.
+**Grundlag:** Mundtlig familietradition (én kilde, ikke skriftligt dokumenteret) mod en formel samtidig kildeangivelse i manuskriptet ("udlagt barnefader" er en juridisk betegnelse fra periodens danske børnelovgivning, ikke blot en påstand). Ingen af de to sider er krydstjekket mod en primær kirkebogs- eller retskilde her.
+**Status:** Foreslået — endnu ikke gennemgået. Kender du til, at Hannes biologiske far skulle have været en anden end Gunnar Vilhelm Carlsen? Er "Peter" i familiens erindring mon Peter Severin Nielsen (som opdragede hende, men ifølge kilden ikke var hendes far), eller er der en helt anden person, familien tænker på? Findes der en kirkebogsindførsel eller anden primærkilde, der kan af- eller bekræfte "udlagt barnefader"-angivelsen?
+
 ---
 
 ## Version History
@@ -109,3 +117,4 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 | 1.6 | 2026-08-06 | Added item 6 (Laurids and Ottine's wedding date internally inconsistent, 27.2.1915 vs 27.3.1914) and item 7 (three instances of correctly-named branch-g individuals mislabeled with the wrong roman-numeral sibling reference, escalated per `family-tree/possible-duplicates.md`'s own reassessment trigger for sub-pattern D). Both found during Efterslægt branch g's first checkpoint. |
 | 1.7 | 2026-08-06 | Added item 8: Margit Bak's death date ("Død 24.1.1916") predates her own birth (1.10.1951) by 35 years — a chronological impossibility, not merely an implausible age. Escalated per `family-tree/possible-duplicates.md`'s reassessment trigger for sub-pattern E (second instance). Found during Efterslægt branch g's second checkpoint. |
 | 1.8 | 2026-08-06 | Added item 9: Christen Pedersen Boe and Mette Jensdatter's wedding year is internally inconsistent — 1808 (Chapter 1) vs. 1810 (Chapter 3), same day/month. Found while reading Chapter 3 (Mette's own family, the Møller/miller line from Vester Vandet), which also surfaced a related son born out of wedlock with his own internally contradictory baptism/burial dates. Immediately updated with a third data point: KEJ's own handwritten master pedigree chart spanning all four chapters also shows 1810, so `tree.ged` now uses that as the better-supported value — still not treated as settled. |
+| 1.9 | 2026-08-06 | Added item 10, a new category (family tradition vs. source, not an internal manuscript inconsistency): the human's mother believes Gunnar Vilhelm Carlsen was not Hanne Boe's biological father and recalls a "Peder"/"Peter" instead. Manuscript names two candidates in Meta's life around that period (Peder Alfred Plejdrup, a pre-birth employer; Peter Severin Nielsen, the husband who raised Hanne but is explicitly stated not to be her father) — neither cleanly matches the family's memory. Raised during a live Q&A session about the family tree, not found during manuscript reading. |
