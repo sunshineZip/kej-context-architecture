@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.1 | 2026-08-05 | Active
+Version 1.2 | 2026-08-06 | Active
 
 ---
 
@@ -31,6 +31,7 @@ Checklist of every item KEJ's email (2026-08-05) named — either sent already o
 | Not yet received | Named in the manifest; no file has reached this repo or session |
 | Incoming | KEJ has said he is sending it; not yet in hand |
 | Received | File is in this session/repo, not yet triaged |
+| In progress | Received and being read section-by-section; not all of it triaged yet |
 | Triaged | File received and roughly categorized (slægt/category, source type) |
 
 ---
@@ -41,7 +42,7 @@ Mors/Fur line. First batch — KEJ said he'd send this to begin with.
 
 | Item | Version | Status |
 |---|---|---|
-| Boe-slægten fra Mors og Fur, Kapitel 1-4 (file: "2024 Boe-slægen fra Mors og Fur.docx") | maj 2026 | Incoming — KEJ says sent; file not yet in this session |
+| Boe-slægten fra Mors og Fur, Kapitel 1-4 (file: "2024 Boe-slægen fra Mors og Fur.docx") | maj 2026 | In progress — received via Google Drive 2026-08-06; full-text extraction stored as a deep well (`library/reference-index.md#boe-slaegten-fra-mors-og-fur`; original .docx not yet stored — see that entry's Stored note); Kapitel 1 read through generation "03" of 4 generations plus a large Efterslægt section (`projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`) |
 
 ---
 
@@ -166,3 +167,4 @@ Local archive material — properties, individual families, and local-history to
 |---|---|---|
 | 1.0 | 2026-08-05 | Initial creation. Full manifest transcribed from the grandfather's email, relayed by the human. 53 items across 8 categories; only the Boe-slægten item is marked Incoming, everything else Not yet received. |
 | 1.1 | 2026-08-05 | Prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference. |
+| 1.2 | 2026-08-06 | Boe-slægten row updated from stale "Incoming" (file had actually arrived and two generations were already read) to "In progress," reflecting the file's real receipt and read state. Added the "In progress" status to the legend — the existing four values had no term for "received and partway through section-by-section reading." |

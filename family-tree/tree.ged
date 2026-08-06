@@ -1,0 +1,522 @@
+0 HEAD
+1 SOUR kej-context-architecture
+1 CHAR UTF-8
+1 GEDC
+2 VERS 5.5.1
+1 NOTE Seeded 2026-08-06 from Boe-slaegten fra Mors og Fur, Kapitel 1 (generations "02" and "03" fully read; generations "04"/"05" and their children included only at the vital-fact level already captured in the Aneoversigt/children summary, not yet from their own detailed sections). Source: library/reference-index.md#boe-slaegten-fra-mors-og-fur. Structure and conventions per projects/archive-digitization/context/data-structure-proposal.md.
+
+0 @I1@ INDI
+1 NAME Peder Christensen /Boe/
+1 SEX M
+1 BIRT
+2 DATE ABT 1731
+1 DEAT
+2 DATE 17 AUG 1810
+2 PLAC Sdr. Dråby, Mors, Danmark
+1 OCCU Husmand (Jørsby, fra 1775), senere fæstegårdmand (Sdr. Dråby, fra ca. 1785, under Ullerup gods)
+1 FAMS @F1@
+1 NOTE Generation "02" i Aneoversigten. Først fundne bærer af tilnavnet Boe, Jørsby kirkebog 1771. Boe-navnets oprindelse er eksplicit ukendt ifølge KEJ selv. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
+
+0 @I2@ INDI
+1 NAME Sidsel (Zidsel) Lauridsdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE ABT 1747
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 25 DEC 1821
+2 PLAC Sdr. Dråby, Mors, Danmark
+1 FAMS @F1@
+1 FAMS @F2@
+1 NOTE Datter af Laurids Nielsen Toft (d.1797). Konfirmeret 1765. Indblandet i "Kyssesekten" (Peder Lassen Grud) — søn Mads avlet udenfor ægteskab, se @I6@. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
+
+0 @I3@ INDI
+1 NAME Anna Pedersdatter /Boe/
+1 SEX F
+1 BIRT
+2 DATE 29 MAR 1777
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F1@
+1 NOTE 1834: 57 år, ugift, boende hos halvbror Mads Pedersen Boe i Sdr. Dråby. 1801-alder (14) stemmer ikke med fødselsår — formodet udtræksartefakt fra denne sessions egen tekstbehandling, ikke en manuskriptfejl; se family-tree/possible-duplicates.md. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
+
+0 @I4@ INDI
+1 NAME Christen Pedersen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 21 JUN 1780
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 11 MAR 1832
+2 PLAC Jørsby, Mors, Danmark
+1 OCCU Gårdfæster under Ullerup gods, Jørsby
+1 FAMC @F1@
+1 FAMS @F5@
+1 NOTE Generation "03" i Aneoversigten. Insolvent skifte 1832, Ullerup gods skifteprotokol (13. april, 15. dec., afsluttet 22. dec. 1832) — værdi 212 dr 4 mk 4 sk mod udgifter 692 dr 2 mk 4 sk. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I5@ INDI
+1 NAME Laurs Pedersen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 9 JUL 1784
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F1@
+1 NOTE 1801-alder (14) stemmer ikke med fødselsår — samme formodede udtræksartefakt som @I3@; se family-tree/possible-duplicates.md. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
+
+0 @I6@ INDI
+1 NAME Mads Pedersen /Boe/
+1 SEX M
+1 DEAT
+2 DATE 10 NOV 1847
+2 PLAC Sdr. Dråby, Mors, Danmark
+1 OCCU Aftægtsmand, Sdr. Dråby. Overtog stedfar Peder Christensen Boes gård 1802.
+1 FAMC @F2@
+1 FAMS @F3@
+1 FAMS @F4@
+1 NOTE Fødselsår internt uoverensstemmende i manuskriptet (1774 ét sted, 8.5.1773 et andet, 1771-1773 implicit af tre alderangivelser) — ikke løst her, se grandfather-review/queue.md #4. Tog navnet "Boe" efter stedfar Peder Christensen Boe. Efterkommere bar stadig navnet Boe pr. 2019 ifølge manuskriptet. [CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal — grandfather-review/queue.md #4]
+
+0 @I7@ INDI
+1 NAME Peder Lassen /Grud/
+1 SEX M
+1 FAMS @F2@
+1 NOTE Leder af "Kyssesekten" i Jørsby (bogstavelig fortolkning af "hils hinanden med et helligt kys"). Fik børn med mindst 4 kvinder, dømt til fæstningsarbejde i København (senere formildet), ~2 års afsoning, vendte tilbage og fortsatte sekten nogle år. Biologisk far til Mads Pedersen (@I6@), erklæret "Barne Fader" i kirkebogen. Kilder ifølge manuskriptet: "Historisk Årbog for Thy og Mors" 1968-70, Steen Busck "En alternativ bevægelse i 1700-årene". [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
+
+0 @I8@ INDI
+1 NAME Karen Pedersdatter /Krøll/
+1 SEX F
+1 FAMS @F3@
+1 NOTE Trolovelse (lysning) med Mads Pedersen 1799, Sdr. Dråby. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
+
+0 @I9@ INDI
+1 NAME Karen /Christensdatter/
+1 SEX F
+1 FAMS @F4@
+1 NOTE Mads Pedersens anden hustru (gift senest 1834 — nøjagtig dato ikke angivet i det læste afsnit). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
+
+0 @I10@ INDI
+1 NAME Mette /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 27 APR 1787
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 19 OCT 1850
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F15@
+1 FAMS @F5@
+1 NOTE Datter af Jens Møller og Else Jensdatter (kapitel 3). Dødsårsag "Slagtilfælde" (slagtilfælde/apopleksi), alder 63½. Aneoversigt-tabellen viser fødselsår "1878" — formodet cifferombytning af 1787 (det præcise fødselsår givet her); ikke rettet i kilden. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17][CONTRADICTS: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3 shows "1878"]
+
+0 @I11@ INDI
+1 NAME Else Christensdatter /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1811
+1 DEAT
+2 DATE 1858
+1 FAMC @F5@
+1 FAMS @F6@
+1 NOTE Linje fortsætter flere generationer frem via datter Else Marie Thomasdatter (f.1839) → Christen Clausen → Vestergaard-slægten i Solbjerg, ind i 1900-tallet. Ikke selvstændigt gentranskriberet her. [SENSITIVE] — nyeste navngivne personer i denne gren har ingen dødsår angivet og kan stadig være i live. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I12@ INDI
+1 NAME Sissel (Zidsel) Christensdatter /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1813
+1 FAMC @F5@
+1 NOTE Ingen ægteskab angivet i det læste afsnit. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I13@ INDI
+1 NAME Lars Christensen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 1814
+1 DEAT
+2 DATE 16 DEC 1858
+1 OCCU Fæstegårdmand, Jørsby
+1 FAMC @F5@
+1 FAMS @F7@
+1 NOTE Dødsårsag "Drukkengalskab" (alkoholrelateret), alder 44¼. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I14@ INDI
+1 NAME Peder Christensen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 1816
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 1879
+2 PLAC på Limfjorden
+1 OCCU Husmand og fisker, Fur
+1 FAMC @F5@
+1 FAMS @F10@
+1 NOTE Generation "04" i Aneoversigten. Flyttede til Fur efter konfirmation (1831). Kun Aneoversigt-niveau fakta medtaget her — kapitlets egen detaljerede sektion for generation "04" (s.18-20) er endnu ikke læst. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I15@ INDI
+1 NAME Maren /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE 1818
+1 FAMC @F5@
+1 NOTE Død som spæd (1 år 2 mdr 2 uger 6 dage). Manuskriptet viser dødsår "1919" — formodet cifferombytning (18/19), dødsårstal derfor bevidst udeladt her frem for gættet. Se family-tree/possible-duplicates.md. [UNVERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17 — suspected extraction artifact]
+
+0 @I16@ INDI
+1 NAME Maren Christensdatter /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1820
+1 FAMC @F5@
+1 NOTE Navn genbrugt efter @I15@'s død som spæd (periodetypisk mønster). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I17@ INDI
+1 NAME Johanne /Christensdatter/
+1 SEX F
+1 FAMC @F5@
+1 NOTE Død før dåben blev bekendtgjort i kirken. Manuskriptet viser fødselsår "1921" — formodet cifferombytning (18/19), fødselsår derfor bevidst udeladt her. Se family-tree/possible-duplicates.md. [UNVERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17 — suspected extraction artifact]
+
+0 @I18@ INDI
+1 NAME Johanne Christensdatter /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1822
+1 FAMC @F5@
+1 FAMS @F8@
+1 NOTE Navn genbrugt efter @I17@'s død. Ugift; datter Mette Christensdatter (@I23@) født udenfor ægteskab. 1845-folketællingsalder (16) stemmer ikke med fødselsår (ville være ~22-23) — samme formodede udtræksartefakt-mønster som @I3@/@I5@; se family-tree/possible-duplicates.md. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I19@ INDI
+1 NAME Grethe /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE 1827
+1 DEAT
+2 DATE BET 1827 AND 1828
+1 FAMC @F5@
+1 NOTE Død som spæd (under 1 år). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I20@ INDI
+1 NAME Grethe Christensdatter /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1829
+1 FAMC @F5@
+1 FAMS @F9@
+1 NOTE Navn genbrugt efter @I19@'s død. Gift 1854, Jørsby. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I21@ INDI
+1 NAME Thomas /Nielsen/
+1 SEX M
+1 FAMS @F6@
+1 NOTE Gift med Else Christensdatter Boe 1838. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I22@ INDI
+1 NAME Ane /Nielsdatter/
+1 SEX F
+1 FAMS @F7@
+1 NOTE Gift med Lars Christensen Boe. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I23@ INDI
+1 NAME Mette /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE 1849
+1 FAMC @F8@
+1 NOTE Født udenfor ægteskab; erklæret far "ungkarl Jens Josefsen" (@I24@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I24@ INDI
+1 NAME Jens /Josefsen/
+1 SEX M
+1 FAMS @F8@
+1 NOTE "Ungkarl" — erklæret (ikke bekræftet gift) far til Mette Christensdatter (@I23@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I25@ INDI
+1 NAME Peder /Thomasen/
+1 SEX M
+1 FAMS @F9@
+1 NOTE Gift med Grethe Christensdatter Boe 1854, Jørsby. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+
+0 @I26@ INDI
+1 NAME Bodil Kirstine /Iversdatter/
+1 SEX F
+1 BIRT
+2 DATE 1824
+2 PLAC Thorum, Danmark
+1 DEAT
+2 DATE 1906
+2 PLAC Fur, Danmark
+1 FAMS @F10@
+1 NOTE Aneoversigt-niveau fakta kun. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I27@ INDI
+1 NAME Christen Pedersen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 1853
+2 PLAC Fur, Heden, Danmark
+1 DEAT
+2 DATE 1930
+2 PLAC Fur, Nederby, Danmark
+1 OCCU Husmand og fisker, Fur
+1 FAMC @F10@
+1 FAMS @F11@
+1 NOTE Generation "05" i Aneoversigten. Kun Aneoversigt-niveau fakta medtaget her — kapitlets egen detaljerede sektion for generation "05" (s.21-24) er endnu ikke læst. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I28@ INDI
+1 NAME Mette /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 1847
+2 PLAC Fur, Danmark
+1 DEAT
+2 DATE 1932
+2 PLAC Fur, Danmark
+1 FAMS @F11@
+1 NOTE Aneoversigt-niveau fakta kun. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I29@ INDI
+1 NAME Jens Christian /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 1872
+2 PLAC Fur, Danmark
+1 FAMC @F11@
+1 NOTE Rejste o.1890 til Amerika. Barn "a." af generation 05. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I30@ INDI
+1 NAME Marie Christensen /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1874
+2 PLAC Fur, Danmark
+1 FAMC @F11@
+1 FAMS @F12@
+1 NOTE Barn "b." af generation 05. Gift 1910, Tøndering. 4 børn 1897-1917 ifølge manuskriptet, ikke selvstændigt transskriberet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I31@ INDI
+1 NAME Niels /Jensen/
+1 SEX M
+1 FAMS @F12@
+1 NOTE Bmd. Vilholm, Tøndering sogn. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I32@ INDI
+1 NAME Jens Peter /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 1877
+2 PLAC Fur, Danmark
+1 OCCU Skofabrikant på Fur, senere Skive og Odense
+1 FAMC @F11@
+1 NOTE Barn "c." af generation 05. Havde en adoptivdatter ifølge manuskriptet, ikke selvstændigt transskriberet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I33@ INDI
+1 NAME Bodil Kirstine Christensen /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1880
+2 PLAC Fur, Danmark
+1 DEAT
+2 DATE 1943
+2 PLAC Fur, Danmark
+1 FAMC @F11@
+1 NOTE Barn "d." af generation 05. Ugift. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I34@ INDI
+1 NAME Jens Christensen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 1882
+2 PLAC Fur, Danmark
+1 DEAT
+2 DATE 1964
+2 PLAC Fur, Danmark
+1 OCCU Gårdmand på Fur
+1 FAMC @F11@
+1 FAMS @F13@
+1 NOTE Barn "e." af generation 05. Gift 1916, Fur. 4 børn 1917-1923 ifølge manuskriptet, ikke selvstændigt transskriberet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I35@ INDI
+1 NAME Marie Kirstine /Christensen/
+1 SEX F
+1 BIRT
+2 DATE 1879
+2 PLAC Fur, Danmark
+1 DEAT
+2 DATE 1968
+2 PLAC Fur, Danmark
+1 FAMS @F13@
+1 NOTE [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I36@ INDI
+1 NAME Mette Christensen /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1884
+2 PLAC Fur, Danmark
+1 DEAT
+2 DATE AFT 1975
+2 PLAC Nykøbing Mors, Danmark
+1 OCCU Husbestyrerinde
+1 FAMC @F11@
+1 NOTE Barn "f." af generation 05. Ugift. Muligvis i live indtil nyligt før 1975-datoen — [SENSITIVE] behandling relevant hvis dette skulle blive et rigtigt domæne. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I37@ INDI
+1 NAME Laurids Christensen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 1887
+2 PLAC Fur, Danmark
+1 DEAT
+2 DATE 1957
+2 PLAC Durup, Danmark
+1 OCCU Murermester i Durup
+1 FAMC @F11@
+1 FAMS @F14@
+1 NOTE Barn "g." af generation 05. Gift 1915, Brøndum. 11 børn (1911-1930) ifølge manuskriptet, ikke selvstændigt transskriberet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I38@ INDI
+1 NAME Ottine Boline Marie /Pedersen/
+1 SEX F
+1 BIRT
+2 DATE 1887
+2 PLAC Løkken, Danmark
+1 FAMS @F14@
+1 NOTE [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I39@ INDI
+1 NAME Christen Christensen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 1889
+2 PLAC Fur, Danmark
+1 FAMC @F11@
+1 NOTE Barn "h." af generation 05. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @I40@ INDI
+1 NAME Else Marie /Christensen/
+1 SEX F
+1 BIRT
+2 DATE 1892
+2 PLAC Fur, Danmark
+1 DEAT
+2 DATE 1894
+2 PLAC Fur, Danmark
+1 FAMC @F11@
+1 NOTE Barn "i." af generation 05. Spædbarnsdød. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+
+0 @F15@ FAM
+1 NOTE Jens Møller og Else Jensdatter, forældre til Mette Jensdatter (@I10@) — omtalt i manuskriptets kapitel 3, ikke selvstændigt læst/transskriberet endnu. Ingen @I@-poster oprettet for dem her for at undgå at gætte navneformer, der ikke er set direkte.
+
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 MARR
+2 DATE 16 FEB 1776
+2 PLAC Jørsby kirke, Mors, Danmark
+1 CHIL @I3@
+1 CHIL @I4@
+1 CHIL @I5@
+
+0 @F2@ FAM
+1 HUSB @I7@
+1 WIFE @I2@
+1 CHIL @I6@
+1 NOTE Ikke et ægteskab — Mads "avlet uden Ægteskab" ifølge kirkebogscitat i manuskriptet.
+
+0 @F3@ FAM
+1 HUSB @I6@
+1 WIFE @I8@
+1 MARR
+2 DATE ABT 1799
+2 PLAC Sdr. Dråby, Mors, Danmark
+1 NOTE Trolovelse/lysning 1799.
+
+0 @F4@ FAM
+1 HUSB @I6@
+1 WIFE @I9@
+1 NOTE Mads Pedersens andet ægteskab, senest 1834.
+
+0 @F5@ FAM
+1 HUSB @I4@
+1 WIFE @I10@
+1 MARR
+2 DATE 19 OCT 1808
+2 PLAC Jørsby, Mors, Danmark
+1 CHIL @I11@
+1 CHIL @I12@
+1 CHIL @I13@
+1 CHIL @I14@
+1 CHIL @I15@
+1 CHIL @I16@
+1 CHIL @I17@
+1 CHIL @I18@
+1 CHIL @I19@
+1 CHIL @I20@
+1 NOTE Trolovet 8.9.1808, viet 19.10.1808. Forlovere: Niels Christensen og Mads Pedersen (Boe).
+
+0 @F6@ FAM
+1 HUSB @I21@
+1 WIFE @I11@
+1 MARR
+2 DATE 1838
+
+0 @F7@ FAM
+1 HUSB @I13@
+1 WIFE @I22@
+
+0 @F8@ FAM
+1 HUSB @I24@
+1 WIFE @I18@
+1 CHIL @I23@
+1 NOTE Ikke et ægteskab — Mette Christensdatter født udenfor ægteskab.
+
+0 @F9@ FAM
+1 HUSB @I25@
+1 WIFE @I20@
+1 MARR
+2 DATE 1854
+2 PLAC Jørsby, Mors, Danmark
+
+0 @F10@ FAM
+1 HUSB @I14@
+1 WIFE @I26@
+1 MARR
+2 DATE 1850
+2 PLAC på Fur
+1 CHIL @I27@
+1 NOTE Kun ét barn (generation "05") medtaget her — kapitlets egen detaljerede sektion for generation "04" (s.18-20), som ville liste alle børn, er endnu ikke læst.
+
+0 @F11@ FAM
+1 HUSB @I27@
+1 WIFE @I28@
+1 MARR
+2 DATE 1872
+2 PLAC på Fur
+1 CHIL @I29@
+1 CHIL @I30@
+1 CHIL @I32@
+1 CHIL @I33@
+1 CHIL @I34@
+1 CHIL @I36@
+1 CHIL @I37@
+1 CHIL @I39@
+1 CHIL @I40@
+
+0 @F12@ FAM
+1 HUSB @I31@
+1 WIFE @I30@
+1 MARR
+2 DATE 1910
+2 PLAC Tøndering, Danmark
+
+0 @F13@ FAM
+1 HUSB @I34@
+1 WIFE @I35@
+1 MARR
+2 DATE 1916
+2 PLAC på Fur
+
+0 @F14@ FAM
+1 HUSB @I37@
+1 WIFE @I38@
+1 MARR
+2 DATE 1915
+2 PLAC Brøndum, Danmark
+
+0 TRLR
