@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.6 | 2026-08-06 | Production
+Version 1.7 | 2026-08-06 | Production
 
 ---
 
@@ -45,6 +45,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
   - 2026-08-06: Generation "03" (Christen Pedersen Boe, incl. 1832 skifte) → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`
   - 2026-08-06: Generations "04"/"05" (Peder/Christen Christensen Boe) → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`
   - 2026-08-06: First image batch (6 images, Aneoversigt/generations "02"-"05") → `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`
+  - 2026-08-06: Efterslægt branch g checkpoints 1-3 (children IV/VI/VII, I/V/IX/XI, II/X — 61 new individuals) → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`; images tracked in `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`
 
 ---
 
@@ -59,3 +60,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.4 | 2026-08-06 | Efterslægt read-through started (branches a/c/d/f/h/i, b); media count updated to 8 processed. Detail lives in the deep-well manifest, not duplicated here. |
 | 1.5 | 2026-08-06 | Efterslægt branch e read; media count updated to 9 processed. Only branch g remains. |
 | 1.6 | 2026-08-06 | Branch g checkpoints 1-2 read; media count updated to 12 processed. |
+| 1.7 | 2026-08-06 | Branch g checkpoint 3 read (children II/X, 35 new individuals). No new images filed this checkpoint — media count unchanged at 12. |

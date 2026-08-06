@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Deep Well Manifest
 
-Version 1.6 | 2026-08-06 | Production
+Version 1.7 | 2026-08-06 | Production
 
 ---
 
@@ -34,6 +34,7 @@ Detailed extraction log for the "Boe-slægten fra Mors og Fur" deep well (`libra
 | 2026-08-06 | Image for Efterslægt branch e (1 plausible family-portrait match) | → `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md` |
 | 2026-08-06 | Efterslægt branch g, part 1 of 5 (children "IV."/"VI."/"VII." — 5 new individuals) | → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md` §Efterslægt |
 | 2026-08-06 | Efterslægt branch g, part 2 of 5 (children "I."/"V."/"IX."/"XI." — 21 new individuals) + 2 confirmed image matches | → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md` §Efterslægt; `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md` |
+| 2026-08-06 | Efterslægt branch g, part 3 of 5 (children "II."/"X." — 35 new individuals, largest checkpoint yet) + 2 images checked, neither matched | → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md` §Efterslægt; `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md` |
 
 No content has been promoted into any `knowledge/domains/` file yet — Phase 3 (domain buildout) has not started, so nothing here is cited with `[VERIFIED: boe-slaegten-fra-mors-og-fur]` from a domain document yet. That citation slug is reserved for when it does. From this point on, text and image extraction proceed together per section rather than as separate passes — see `projects/archive-digitization/TODO.md`.
 
@@ -50,3 +51,4 @@ No content has been promoted into any `knowledge/domains/` file yet — Phase 3 
 | 1.4 | 2026-08-06 | Logged Efterslægt branch e (40 new individuals, largest single addition yet) plus 1 more image. Only branch g remains in Efterslægt. |
 | 1.5 | 2026-08-06 | Branch g scoped into 5 checkpoints by size; part 1 of 5 (three smallest children) logged. |
 | 1.6 | 2026-08-06 | Logged branch g part 2 of 5 (21 new individuals, 2 confirmed images). Two new grandfather-review items raised from this checkpoint. |
+| 1.7 | 2026-08-06 | Logged branch g part 3 of 5 (35 new individuals, the largest checkpoint yet; 2 images checked, none matched). One new grandfather-review item raised. |
