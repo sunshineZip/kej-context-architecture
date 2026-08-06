@@ -1453,6 +1453,271 @@
 1 HUSB @I161@
 1 WIFE @I162@
 
+0 @I163@ INDI
+1 NAME Meta Kristine Kristensen /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1 MAR 1918
+2 PLAC Durup, Danmark
+1 DEAT
+2 DATE 1982
+1 OCCU Damefrisør; senere husbestyrerinde
+1 FAMC @F14@
+1 FAMS @F61@
+1 FAMS @F62@
+1 FAMS @F63@
+1 NOTE Barn "III." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. En fadder ved hendes dåb var boelsmand Niels Jensen, Vilholm (05-b, dvs. faster Marie Christensen Boes ægtefælle) — endnu et krydsreferencet fadderskab mellem grene. Husbestyrerinde hos Peder Alfred Plejdrup i Toustrup (1940); uddannet damefrisør. Fik uden for ægteskab datteren Hanne (1944) — se @F61@. Gift 1. gang 18.8.1946, Durup kirke; gift 2. gang (år ikke angivet) med plejer Peder N. Pedersen. Boede sidst i Skt. Mathiasgade i Viborg til sin død 1982 (kun årstal angivet i kilden, ingen præcis dato). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I164@ INDI
+1 NAME Gunnar Vilhelm /Carlsen/
+1 SEX M
+1 BIRT
+2 DATE 19 NOV 1918
+2 PLAC Silkeborg, Danmark
+1 OCCU Arbejdsmand, Silkeborg
+1 FAMS @F61@
+1 NOTE Udlagt barnefader (erklæret, ikke gift) til Hanne Boe/Nielsen (I167), fastslået ved dom af Politimesteren i Silkeborg 31.8.1945 (Fs. 131-45) — bekræftet direkte af KEJ. Yderligere kontekst om selve faderskabstvisten (herunder KEJ's egen opfølgning og en anden persons omtalte politiske tilhørsforhold under krigen) er bevidst udeladt her efter KEJ's eksplicitte instruks — se restricted/tree-sensitive.ged#I164 (kræver adgang til den private modul-repo). [VERIFIED: familieidentifikation — Knud Erik Jakobsen, sikker, 2026-08-08][VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+0 @I165@ INDI
+1 NAME Peter Severin /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE 5 MAR 1898
+2 PLAC Sahl, Danmark
+1 DEAT
+2 DATE 1968
+1 OCCU Fyrbøder ved Brunshåb Papfabrik
+1 FAMS @F62@
+1 NOTE Søn af husmand Peder Nielsen og hustru Severine Sørensen. Enkemand ved giftermålet med Meta — tidligere gift med Hansine Marie Kirkegaard (død 20.12.1945); hun er ikke selvstændigt oprettet her, da hun ikke har nogen kendt forbindelse til Boe-slægten. Parret solgte huset i Brunshåb og boede en tid på Overlund Alderdomshjem, hvor Peter døde 1968. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I166@ INDI
+1 NAME Living /Pedersen/
+1 SEX M
+1 FAMS @F63@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I166 (kraever adgang til den private modul-repo).
+0 @I167@ INDI
+1 NAME Hanne /Boe/
+1 SEX F
+1 BIRT
+2 DATE 20 NOV 1944
+2 PLAC Durup, Danmark
+1 DEAT
+2 DATE 13 FEB 2005
+2 PLAC Viborg sygehus, Danmark
+1 OCCU Kontorassistent, senere bogholder hos Skov A/S i Glyngøre
+1 FAMC @F61@
+1 FAMS @F64@
+1 NOTE Barn "1." af Meta Kristine Kristensen Boe, født uden for ægteskab (far: Gunnar Vilhelm Carlsen, I164 — se dér for hvorfor yderligere kontekst om faderskabet ikke er gengivet her). Fik ved fødslen navnet Hanne Boe; navnet ændret til Hanne Nielsen ved moderens giftermål 1946 (Peter Severin Nielsen var ikke hendes far). Faddere ved hendes dåb, alle korrekt mærkede: mormoder Ottine Boline Marie Pedersen (bar barnet); moster Else Margrethe Boe og hendes mand Frederik Lund (moderens søster = I.); morbrødrene Poul Kristensen Boe (= VI.) og Christian Kristensen Boe (= VII.) — fire flere positive modeksempler til fejlmærkningsmønstret i grandfather-review/queue.md #7. Genantog sit fødenavn Hanne Boe — manuskriptet angiver 18.4.1984, men KEJs egen mail (2026-08-08) angiver "igen i 2005"; uafklaret hvilken der er korrekt/hvad forskellen dækker over, ikke sendt videre til KEJ endnu (lav prioritet). Begravet på Asmild kirkegård ved Viborg. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54][VERIFIED: familieidentifikation — Knud Erik Jakobsen, sikker, 2026-08-08 — navnehistorik]
+1 NOTE Foto/dokument: sammen med Knud Erik Jakobsen (I168), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image26.jpeg — identificeret direkte af familien (2026-08-06), ikke fundet via manuskriptets egen billedtekst. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
+0 @I168@ INDI
+1 NAME Living /Jakobsen/
+1 SEX M
+1 BIRT
+2 DATE 1945
+1 FAMS @F64@
+1 FAMS @F120@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I168 (kraever adgang til den private modul-repo).
+0 @I169@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1966
+1 FAMC @F64@
+1 FAMS @F65@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I169 (kraever adgang til den private modul-repo).
+0 @I170@ INDI
+1 NAME Living /Dølby/
+1 SEX M
+1 BIRT
+2 DATE 1964
+1 FAMS @F65@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I170 (kraever adgang til den private modul-repo).
+0 @I171@ INDI
+1 NAME Living /Dølby/
+1 SEX F
+1 BIRT
+2 DATE 2000
+1 FAMC @F65@
+1 FAMS @F66@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I171 (kraever adgang til den private modul-repo).
+0 @I172@ INDI
+1 NAME Living /Buchwald/
+1 SEX M
+1 BIRT
+2 DATE 1997
+1 FAMS @F66@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I172 (kraever adgang til den private modul-repo).
+0 @I173@ INDI
+1 NAME Living /Dølby/
+1 SEX M
+1 BIRT
+2 DATE 2003
+1 FAMC @F65@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I173 (kraever adgang til den private modul-repo).
+0 @I174@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1970
+1 FAMC @F64@
+1 FAMS @F67@
+1 FAMS @F68@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I174 (kraever adgang til den private modul-repo).
+0 @I175@ INDI
+1 NAME Living /Krogh/
+1 SEX M
+1 BIRT
+2 DATE 1964
+1 FAMS @F67@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I175 (kraever adgang til den private modul-repo).
+0 @I176@ INDI
+1 NAME Living /Munk/
+1 SEX M
+1 BIRT
+2 DATE 1964
+1 FAMS @F68@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I176 (kraever adgang til den private modul-repo).
+0 @I177@ INDI
+1 NAME Living /Boe/
+1 SEX M
+1 BIRT
+2 DATE 1992
+1 FAMC @F67@
+1 FAMS @F69@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I177 (kraever adgang til den private modul-repo).
+0 @I178@ INDI
+1 NAME Living /Kormanowa/
+1 SEX F
+1 BIRT
+2 DATE 1997
+1 FAMS @F69@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I178 (kraever adgang til den private modul-repo).
+0 @I179@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 2023
+1 FAMC @F69@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I179 (kraever adgang til den private modul-repo).
+0 @I180@ INDI
+1 NAME Living /Boe/
+1 SEX M
+1 BIRT
+2 DATE 2024
+1 FAMC @F69@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I180 (kraever adgang til den private modul-repo).
+0 @I181@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1994
+1 FAMC @F67@
+1 FAMS @F70@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I181 (kraever adgang til den private modul-repo).
+0 @I182@ INDI
+1 NAME Living /Frederiksen/
+1 SEX M
+1 BIRT
+2 DATE 1992
+1 FAMS @F70@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I182 (kraever adgang til den private modul-repo).
+0 @I183@ INDI
+1 NAME Living /Frederiksen/
+1 SEX F
+1 BIRT
+2 DATE 2021
+1 FAMC @F70@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I183 (kraever adgang til den private modul-repo).
+0 @I184@ INDI
+1 NAME Living /Frederiksen/
+1 SEX M
+1 BIRT
+2 DATE 2025
+1 FAMC @F70@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I184 (kraever adgang til den private modul-repo).
+0 @I185@ INDI
+1 NAME Carlo Boe /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE 30 APR 1947
+2 PLAC Kjellerup sygehus, Danmark
+1 DEAT
+2 DATE 1962
+2 PLAC København, Danmark
+1 FAMC @F62@
+1 NOTE Barn "2." af Meta og Peter Severin Nielsen (1. ægteskab). Havde en medfødt hjertefejl; en af de første i Danmark opereret for det på Rigshospitalet, men døde efter operationen 1962, kun 15 år gammel. Begravet i Asmild. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @F61@ FAM
+1 HUSB @I164@
+1 WIFE @I163@
+1 CHIL @I167@
+1 NOTE Ikke et ægteskab — Hanne født udenfor ægteskab, før Metas senere giftermål.
+
+0 @F62@ FAM
+1 HUSB @I165@
+1 WIFE @I163@
+1 MARR
+2 DATE 18 AUG 1946
+2 PLAC Durup kirke, Danmark
+1 CHIL @I185@
+1 NOTE Metas 1. ægteskab.
+
+0 @F63@ FAM
+1 HUSB @I166@
+1 WIFE @I163@
+1 NOTE Metas 2. ægteskab. Dato ikke angivet i kilden. Ingen børn.
+
+0 @F64@ FAM
+1 HUSB @I168@
+1 WIFE @I167@
+1 MARR
+2 DATE 1966
+1 CHIL @I169@
+1 CHIL @I174@
+1 NOTE Ægteskabet opløst 1983.
+
+0 @F65@ FAM
+1 HUSB @I170@
+1 WIFE @I169@
+1 MARR
+2 DATE 29 APR 2000
+1 CHIL @I171@
+1 CHIL @I173@
+
+0 @F66@ FAM
+1 HUSB @I172@
+1 WIFE @I171@
+1 NOTE Ikke et ægteskab (kæreste).
+
+0 @F67@ FAM
+1 HUSB @I175@
+1 WIFE @I174@
+1 CHIL @I177@
+1 CHIL @I181@
+1 NOTE Ikke et ægteskab (kæreste), senere opløst.
+
+0 @F68@ FAM
+1 HUSB @I176@
+1 WIFE @I174@
+1 MARR
+2 DATE 2015
+2 PLAC Ålborg rådhus, Danmark
+
+0 @F69@ FAM
+1 HUSB @I177@
+1 WIFE @I178@
+1 MARR
+2 DATE 3 NOV 2021
+2 PLAC Københavns Rådhus, Danmark
+1 CHIL @I179@
+1 CHIL @I180@
+
+0 @F70@ FAM
+1 HUSB @I182@
+1 WIFE @I181@
+1 NOTE Ikke et ægteskab (kæreste).
+1 CHIL @I183@
+1 CHIL @I184@
+
 0 @F42@ FAM
 1 HUSB @I108@
 1 WIFE @I107@
@@ -1774,6 +2039,7 @@
 1 CHIL @I117@
 1 CHIL @I122@
 1 CHIL @I138@
-1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet; ni ("I.", "II.", "IV.", "V.", "VI.", "VII.", "IX.", "X.", "XI.") tilføjet her indtil videre — kun "III." og "VIII." mangler nu. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (@I107@) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
+1 CHIL @I163@
+1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet; ti ("I.", "II.", "III.", "IV.", "V.", "VI.", "VII.", "IX.", "X.", "XI.") tilføjet her indtil videre — kun "VIII." mangler nu. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (@I107@) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
 
 0 TRLR

@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.3 | 2026-08-06 | Production
+Version 1.4 | 2026-08-06 | Production
 
 ---
 
@@ -122,9 +122,38 @@ No images stored from this checkpoint — both checked candidates were left unfi
 
 ---
 
+## Images: Efterslægt Branch g, Checkpoint 4 (Child III — Meta Kristine Kristensen Boe)
+
+| File | KEJ's filename | Position | Type |
+|---|---|---|---|
+| image24.jpeg | Boe A65_NEW.jpg | Branch g child "III" (confirmed) | Photo, two children in a garden |
+| image25.jpeg | Boe B38_NEW.jpg | Branch g child "III" (confirmed) | Photo, four generations |
+| image22.jpeg | Boe B29B_NEW.jpg | Branch g child "III" (plausible) | Photo, young woman portrait |
+| image23.jpeg | Boe B23_NEW.jpg | Branch g child "III" (plausible) | Photo, wedding portrait |
+
+### image24.jpeg — Confirmed: Hanne and Carlo in the garden at Brunshåb
+
+A girl and a younger boy holding hands, standing in a garden in front of a brick wall — clothing and print style consistent with the mid-1950s. **Direct match** to the manuscript's own caption, "Hanne og Carlo i haven i Brunshåb" ("Hanne and Carlo in the garden in Brunshåb"), and the apparent ages (girl roughly 10-11, boy roughly 7-8) fit Hanne (b.1944) and Carlo (b.1947) well for a c.1954-55 photo, taken at the Brunshåb property where Meta and Peter Severin Nielsen lived. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption match] Individuals: `@I167@` (Hanne), `@I185@` (Carlo).
+
+### image25.jpeg — Confirmed: Four generations, Ottine/Meta/Hanne/Lotta
+
+A color photograph (faded to a magenta tone typical of 1960s-70s prints) of three women of clearly different generations — elderly, middle-aged, and young adult — the youngest holding a newborn. **Direct match** to the caption "4 generationer: Ottine, Meta og Hanne med Lotta" ("4 generations: Ottine, Meta, and Hanne with Lotta"). Ottine Boline Marie Pedersen (`@I38@`, b.1887) would have been ~79; Meta (`@I163@`, b.1918) ~48; Hanne (`@I167@`, b.1944) ~22, consistent with holding her newborn daughter Lotta Ann (`@I169@`, b.1966). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption match] Individuals: `@I38@`, `@I163@`, `@I167@`, `@I169@`.
+
+### image22.jpeg — Plausible: young Meta Kristine Kristensen Boe
+
+A close studio portrait of a young woman, 1930s hairstyle and collar. **Not confirmed**, but the era fits Meta's own young adulthood (she trained as a damefrisør, a profession with an obvious reason to keep a well-groomed portrait of herself) better than any other individual read in this checkpoint. `[UNVERIFIED: AI visual description, identity unconfirmed]`
+
+### image23.jpeg — Plausible: Meta and Peter Severin Nielsen's wedding
+
+A formal couple portrait: an older, balding groom in a dark suit with a boutonnière, and a younger bride in a dark dress (not white) holding a bouquet — a style consistent with a more modest 1940s wartime/postwar wedding, and with the bride not being a first-time teenage bride. Peter Severin Nielsen was a 48-year-old widower when he married the 28-year-old Meta in 1946; the apparent age gap and era fit this description well. **Not confirmed.** `[UNVERIFIED: AI visual description, identity unconfirmed]`
+
+**Also checked and left unfiled:** `image21.jpeg` — a studio portrait of a boy (roughly 9-10) with a baby girl (roughly 1) — the apparent age gap (~8-9 years) doesn't fit Hanne and Carlo's actual 3-year gap well, so left unmatched rather than forced. `image29.jpeg` — a 1960s wedding portrait; the groom's apparent age (mid-30s to 40s, based on hairline) doesn't fit a 21-year-old Knud Erik Jakobsen in 1966, so not treated as Hanne and KEJ's own wedding photo despite the tempting date range. `image30.jpeg` — a traditional white-veil wedding portrait of a young couple, 1940s style; no contextual link found to anyone in this checkpoint.
+
+---
+
 ## Sensitivity
 
-The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` flag — everyone in them died well over 70 years ago. That changes starting with Efterslægt: `image8`/`image9` above don't currently need the flag either (no confirmed identity, and if image8's guess is right, a 1910 marriage is not recent), but per the branch-b text extraction, several individuals in this branch (Poul and Henning Christensen Boe and their families) have no death dates and are treated as potentially living — any future image confirmed to depict them would need `[SENSITIVE]`.
+The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` flag — everyone in them died well over 70 years ago. That changes starting with Efterslægt: `image8`/`image9` above don't currently need the flag either (no confirmed identity, and if image8's guess is right, a 1910 marriage is not recent), but per the branch-b text extraction, several individuals in this branch (Poul and Henning Christensen Boe and their families) have no death dates and are treated as potentially living — any future image confirmed to depict them would need `[SENSITIVE]`. `image24`/`image25` (branch g checkpoint 4) depict Hanne (d.2005) and, in image25, Meta and Ottine (both long deceased) plus baby Lotta — Lotta Ann (Jakobsen) Boe is presumed living, but as an infant in the photo is not identifiable as an adult from it, so no flag needed on the image itself; her own `tree.ged` record carries `[SENSITIVE]`.
 
 ---
 
@@ -136,3 +165,4 @@ The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` f
 | 1.1 | 2026-08-06 | Added images for Efterslægt branch b: a plausible-but-unconfirmed wedding-portrait match (image8) and one left fully unclassified (image9). Noted image7 was checked and ruled out for all branches read so far, deferred rather than stored prematurely. |
 | 1.2 | 2026-08-06 | Added image for Efterslægt branch e: a family portrait (image11) plausibly matching Jens Christensen Boe's young family c.1920, based on composition and timing. Noted image10 (a streetscape) as a candidate deferred to branch g, once read. |
 | 1.3 | 2026-08-06 | Branch g checkpoint 3 (children II/X): two more images checked (image19, image20 — a family accordion-player scene and a solo portrait of the same young man), neither matched anyone in this checkpoint; both left unfiled. No new images stored this checkpoint. |
+| 1.4 | 2026-08-06 | Branch g checkpoint 4 (child III, Meta Kristine Kristensen Boe): two confirmed matches via direct caption text (image24, image25) and two plausible-but-unconfirmed additions (image22, image23). Three more images checked and left unfiled (image21, image29, image30). |
