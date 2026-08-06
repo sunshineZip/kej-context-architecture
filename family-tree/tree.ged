@@ -1900,6 +1900,598 @@
 1 CHIL @I183@
 1 CHIL @I184@
 
+0 @I186@ INDI
+1 NAME Karen Kristensen /Boe/
+1 SEX F
+1 BIRT
+2 DATE 23 MAY 1925
+2 PLAC Skive sygehus, Danmark
+1 DEAT
+2 DATE 21 SEP 2012
+2 PLAC Durup, Danmark
+1 OCCU Husassistent (før ægteskab)
+1 FAMC @F14@
+1 FAMS @F71@
+1 NOTE Barn "VIII." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Faddere: moderen, enke Mariane Stengaard, gartner Hans Simonsen i Skive, og faderen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I187@ INDI
+1 NAME Arne Frandsen /Boll/
+1 SEX M
+1 BIRT
+2 DATE 22 JUN 1917
+2 PLAC Oustrup, Mors, Danmark
+1 DEAT
+2 DATE 26 DEC 1991
+1 OCCU Boelsmand, senere gårdejer, Tøndering
+1 FAMS @F71@
+1 NOTE Søn af gårdejer Aage Boll og hustru Else Thomine Marie Frandsen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I188@ INDI
+1 NAME Svend Tage /Boll/
+1 SEX M
+1 BIRT
+2 DATE 9 APR 1948
+2 PLAC Tøndering, Danmark
+1 OCCU Murer; ophold i bl.a. Australien og Afrika; bopæl Jegindø gl. præstegård
+1 FAMC @F71@
+1 FAMS @F72@
+1 NOTE Barn "1." af Karen og Arne. Faddere, korrekt mærkede: forældrene; landmand Harald Boll i Åsted sogn (farbror); gartner Kristian Boe i Tøndering (morbror = VII.); landmand Viggo Boll i Åsted sogn (farbror) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I189@ INDI
+1 NAME Grethe /Sørensen/
+1 SEX F
+1 OCCU Lærer
+1 FAMS @F72@
+1 NOTE Svend Tages hustru, gift 1974. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I190@ INDI
+1 NAME Thomas /Boll/
+1 SEX M
+1 BIRT
+2 DATE 1977
+1 OCCU Lærer ved Hornum Ungdomsskole
+1 FAMC @F72@
+1 FAMS @F73@
+1 NOTE Barn "a/" af Svend Tage og Grethe. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I191@ INDI
+1 NAME Ane /?/
+1 SEX F
+1 FAMS @F73@
+1 NOTE Efternavn ikke angivet. Thomas' hustru. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I192@ INDI
+1 NAME Ea /Boll/
+1 SEX F
+1 FAMC @F73@
+1 NOTE Barn "A" af Thomas og Ane. To yderligere søskende ("B", "C") nævnt i kilden uden navn, den yngste født 2018 — ingen selvstændige @I@-poster oprettet for dem. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I193@ INDI
+1 NAME Esther /Boll/
+1 SEX F
+1 BIRT
+2 DATE 29 NOV 1978
+1 OCCU Bioanalytiker
+1 FAMC @F72@
+1 FAMS @F74@
+1 NOTE Barn "b/" af Svend Tage og Grethe. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I194@ INDI
+1 NAME Lars /?/
+1 SEX M
+1 OCCU Kommunaldirektør, Holstebro
+1 FAMS @F74@
+1 NOTE Efternavn ikke angivet. Esthers ægtefælle. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I195@ INDI
+1 NAME Georg /?/
+1 SEX M
+1 FAMC @F74@
+1 NOTE Barn "A" af Esther og Lars. Efternavn ikke angivet (faderens efternavn er ukendt i kilden). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I196@ INDI
+1 NAME Knud /?/
+1 SEX M
+1 FAMC @F74@
+1 NOTE Barn "B" af Esther og Lars. Et tredje barn ("C") nævnt uden navn, født 2018 — ingen selvstændig @I@-post oprettet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I197@ INDI
+1 NAME Birgit /Boll/
+1 SEX F
+1 BIRT
+2 DATE 21 APR 1949
+2 PLAC Tøndering, Danmark
+1 DEAT
+2 DATE 8 DEC 2004
+2 PLAC Silkeborg sygehus, Danmark
+1 OCCU Uddannet i forretning
+1 FAMC @F71@
+1 FAMS @F75@
+1 NOTE Barn "2." af Karen og Arne. Faddere, korrekt mærkede: forældrene; landmand Harald Boll i Nøreng (farbror); landmand Anders Boll i Nøreng (farbror); kontorassistent Krista Boe, Aagade i Skive (moster = IX.) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I198@ INDI
+1 NAME Erik /Vestergård/
+1 SEX M
+1 BIRT
+2 DATE 1947
+1 OCCU Fabrikschef, Hammel
+1 FAMS @F75@
+1 NOTE Gift med Birgit 1973; ægteskabet opløst 2000. Giftede sig igen (2. ægteskab, kildens egen dato "1016" er næsten sikkert en fejlskrivning for 2016) med Birthe Andersen (f.1956) — hun er ikke selvstændigt oprettet her, ingen kendt forbindelse til Boe-slægten. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I199@ INDI
+1 NAME Linda Boll /Vestergård/
+1 SEX F
+1 BIRT
+2 DATE 1976
+2 PLAC Roslev, Danmark
+1 FAMC @F75@
+1 FAMS @F76@
+1 NOTE Barn "a/" af Birgit og Erik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I200@ INDI
+1 NAME Henrik /Damsgaard/
+1 SEX M
+1 FAMS @F76@
+1 NOTE Lindas ægtefælle, gift 2007, opløst 2016. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I201@ INDI
+1 NAME Rebecca Vestergaard /Damsgaard/
+1 SEX F
+1 BIRT
+2 DATE 2005
+2 PLAC Vamdrup, Danmark
+1 FAMC @F76@
+1 NOTE Barn "A" af Linda og Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I202@ INDI
+1 NAME Sebastian Vestergaard /Damsgaard/
+1 SEX M
+1 BIRT
+2 DATE 2010
+2 PLAC Vamdrup, Danmark
+1 FAMC @F76@
+1 NOTE Barn "B" af Linda og Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I203@ INDI
+1 NAME Lars Boll /Vestergård/
+1 SEX M
+1 BIRT
+2 DATE 1979
+2 PLAC Roslev, Danmark
+1 FAMC @F75@
+1 FAMS @F77@
+1 NOTE Barn "b/" af Birgit og Erik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I204@ INDI
+1 NAME Mette /Lydiger/
+1 SEX F
+1 FAMS @F77@
+1 NOTE Lars' kæreste (ikke gift), sammen fra 2018. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I205@ INDI
+1 NAME Esther Annie Lydiger /Vestergaard/
+1 SEX F
+1 BIRT
+2 DATE 2018
+2 PLAC Horsens, Danmark
+1 FAMC @F77@
+1 NOTE Datter af Lars og Mette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I206@ INDI
+1 NAME Marie Boll /Vestergaard/
+1 SEX F
+1 BIRT
+2 DATE 1983
+2 PLAC Roslev, Danmark
+1 DEAT
+2 DATE 1983
+2 PLAC Grønning, Danmark
+1 FAMC @F75@
+1 NOTE Barn "c/" af Birgit og Erik. Spædbarnsdød, samme år som fødslen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I207@ INDI
+1 NAME Annie Boll /Vestergaard/
+1 SEX F
+1 BIRT
+2 DATE 1985
+2 PLAC Roslev, Danmark
+1 DEAT
+2 DATE 30 JAN 2012
+2 PLAC Hospice Djursland, Danmark
+1 FAMC @F75@
+1 NOTE Barn "d/" af Birgit og Erik. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I208@ INDI
+1 NAME Anna Gyda /Boll/
+1 SEX F
+1 BIRT
+2 DATE 13 AUG 1952
+2 PLAC Tøndering, Danmark
+1 OCCU Dagplejer, Selde
+1 FAMC @F71@
+1 FAMS @F78@
+1 NOTE Barn "3." af Karen og Arne. Faddere, korrekt mærkede: forældrene; boelsmand Harald Boll i Nøreng, Åsted sogn (farbror); murermester Laurits Boe i Durup (morfar) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I209@ INDI
+1 NAME Kaj Godsk /Pedersen/
+1 SEX M
+1 OCCU Tagdækker
+1 FAMS @F78@
+1 NOTE Anna Gydas ægtefælle. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I210@ INDI
+1 NAME Lone Boll /Pedersen/
+1 SEX F
+1 BIRT
+2 DATE 12 MAY 1975
+2 PLAC Selde, Danmark
+1 OCCU Social- og sundhedsassistent
+1 FAMC @F78@
+1 FAMS @F79@
+1 NOTE Barn "a/" af Anna Gyda og Kaj. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I211@ INDI
+1 NAME Ole /Rasmussen/
+1 SEX M
+1 OCCU Maskinsnedker
+1 FAMS @F79@
+1 NOTE Lones ægtefælle. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I212@ INDI
+1 NAME Malene Boll /Rasmussen/
+1 SEX F
+1 BIRT
+2 DATE 3 SEP 1998
+1 FAMC @F79@
+1 NOTE Barn "A" af Lone og Ole. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I213@ INDI
+1 NAME Rikke Boll /Rasmussen/
+1 SEX F
+1 BIRT
+2 DATE 3 APR 2000
+1 FAMC @F79@
+1 NOTE Barn "B" af Lone og Ole. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I214@ INDI
+1 NAME Jakob Boll /Rasmussen/
+1 SEX M
+1 BIRT
+2 DATE 19 MAY 2006
+1 FAMC @F79@
+1 NOTE Barn "C" af Lone og Ole. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I215@ INDI
+1 NAME Helle Boll /Pedersen/
+1 SEX F
+1 BIRT
+2 DATE 23 SEP 1976
+2 PLAC Selde, Danmark
+1 OCCU Sygeplejerske
+1 FAMC @F78@
+1 FAMS @F80@
+1 NOTE Barn "b/" af Anna Gyda og Kaj. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I216@ INDI
+1 NAME Flemming /Tingholm/
+1 SEX M
+1 OCCU Skorstensfejer
+1 FAMS @F80@
+1 NOTE Helles ægtefælle, gift 16.8.2003. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I217@ INDI
+1 NAME Iben /?/
+1 SEX F
+1 BIRT
+2 DATE 15 APR 2004
+1 FAMC @F80@
+1 NOTE Barn "A" af Helle og Flemming. Efternavn ikke angivet i kilden (i modsætning til fætrene/kusinerne i denne gren, som alle vises med bindestregs-efternavne). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I218@ INDI
+1 NAME Lisa /?/
+1 SEX F
+1 BIRT
+2 DATE 2 OCT 2005
+1 FAMC @F80@
+1 NOTE Barn "B" af Helle og Flemming. Efternavn ikke angivet i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I219@ INDI
+1 NAME Diana /?/
+1 SEX F
+1 BIRT
+2 DATE 4 JAN 2008
+1 FAMC @F80@
+1 NOTE Barn "C" af Helle og Flemming. Efternavn ikke angivet i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I220@ INDI
+1 NAME Ole Boll /Pedersen/
+1 SEX M
+1 BIRT
+2 DATE 21 DEC 1982
+2 PLAC Selde, Danmark
+1 OCCU Maler
+1 FAMC @F78@
+1 FAMS @F81@
+1 NOTE Barn "c/" af Anna Gyda og Kaj. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I221@ INDI
+1 NAME Sara /Korntved/
+1 SEX F
+1 OCCU Sygeplejerske
+1 FAMS @F81@
+1 NOTE Oles hustru, gift 31.5.2014. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I222@ INDI
+1 NAME Adam /?/
+1 SEX M
+1 BIRT
+2 DATE 22 JAN 2014
+1 FAMC @F81@
+1 NOTE Barn "A" af Ole og Sara. Efternavn ikke angivet i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I223@ INDI
+1 NAME Elias /?/
+1 SEX M
+1 BIRT
+2 DATE 5 OCT 2016
+1 FAMC @F81@
+1 NOTE Barn "B" af Ole og Sara. Efternavn ikke angivet i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I224@ INDI
+1 NAME Karsten /Boll/
+1 SEX M
+1 BIRT
+2 DATE 18 JUL 1955
+2 PLAC Tøndering, Danmark
+1 OCCU Lærer i Ringe; senere Luxembourg, Billund, Selde
+1 FAMC @F71@
+1 FAMS @F82@
+1 NOTE Barn "4." af Karen og Arne. Faddere: forældrene; sygeplejerske Martha Boll, Amtssygehuset i Gentofte (faster; kildens egen stavning "Getofte" læst som en åbenlys trykfejl); tilsynshavende Ellen Boll, Amtssygehuset i Gentofte; gartner Poul Boe i Durup (morbror = VI. — korrekt mærket, endnu et positivt modeksempel til grandfather-review/queue.md #7). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I225@ INDI
+1 NAME Aase Færk /Jørgensen/
+1 SEX F
+1 FAMS @F82@
+1 NOTE Karstens hustru, gift 4.10.1980. Datter af Tinna og Aage Jørgensen i Roslev. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I226@ INDI
+1 NAME Anna /Boll/
+1 SEX F
+1 FAMC @F82@
+1 NOTE Datter "A" af Karsten og Aase. Bor i København. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I227@ INDI
+1 NAME Anders Henrik /Boll/
+1 SEX M
+1 BIRT
+2 DATE 27 APR 1957
+2 PLAC Tøndering, Danmark
+1 OCCU Pædagog i Snedsted
+1 FAMC @F71@
+1 FAMS @F83@
+1 NOTE Barn "5." af Karen og Arne. Faddere, korrekt mærkede: forældrene; boelsmand Harald Boll i Nøreng, Åsted sogn (farbror); gartner Poul Boe i Durup (morbror = VI.) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I228@ INDI
+1 NAME Anette /?/
+1 SEX F
+1 FAMS @F83@
+1 NOTE Efternavn ikke angivet. Anders Henriks hustru. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I229@ INDI
+1 NAME Maja /Boll/
+1 SEX F
+1 OCCU Sygeplejerske
+1 FAMC @F83@
+1 NOTE Barn "A" af Anders Henrik og Anette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I230@ INDI
+1 NAME Emil /Boll/
+1 SEX M
+1 OCCU Murer
+1 FAMC @F83@
+1 NOTE Barn "B" af Anders Henrik og Anette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I231@ INDI
+1 NAME Liva /Boll/
+1 SEX F
+1 FAMC @F83@
+1 NOTE Barn "C" af Anders Henrik og Anette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I232@ INDI
+1 NAME Jan Laurids /Boll/
+1 SEX M
+1 BIRT
+2 DATE 17 SEP 1959
+2 PLAC Tøndering, Danmark
+1 OCCU Tømrer, pedel på Skive Seminarium
+1 FAMC @F71@
+1 FAMS @F84@
+1 NOTE Barn "6." af Karen og Arne. Faddere: forældrene; gårdejer Harald Boll i Nøreng pr. Durup; gårdejer Viggo Boll i Hvidbjerg pr. Skive (farbror); "gartner Poul Boll i Durup (morbror = VI.)" — romertallet er korrekt, men efternavnet er forvekslet: personen er entydigt Poul **Kristensen Boe** (@I103@), samme gartner-onkel korrekt navngivet "Poul Boe" i søskendes egne fadderlister ovenfor. Ny, hidtil ubeskrevet fejltype — logget som sub-mønster G i `family-tree/possible-duplicates.md`, første forekomst. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I233@ INDI
+1 NAME Kirsten Høj /Jørgensen/
+1 SEX F
+1 OCCU Pædagog ved Skivehus Skole
+1 FAMS @F84@
+1 NOTE Jan Lauridsʼ hustru. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I234@ INDI
+1 NAME Mette /Boll/
+1 SEX F
+1 OCCU Skolelærer i Odder
+1 FAMC @F84@
+1 NOTE Barn "A" af Jan Laurids og Kirsten. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I235@ INDI
+1 NAME Jens /Boll/
+1 SEX M
+1 OCCU Skolelærer
+1 FAMC @F84@
+1 NOTE Barn "B" af Jan Laurids og Kirsten. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I236@ INDI
+1 NAME John Harald /Boll/
+1 SEX M
+1 BIRT
+2 DATE 10 OCT 1965
+2 PLAC Tøndering, Danmark
+1 OCCU Maskinsmed, pedel på Durup skole
+1 FAMC @F71@
+1 FAMS @F85@
+1 NOTE Barn "7." af Karen og Arne, yngst — født for sent (1965) til at være med på det ovenfor nævnte gruppefoto fra o.1962. Overtog forældrenes tidligere ejendom, Hegnetvej 7 i Tøndering. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I237@ INDI
+1 NAME Mette G. /Bodilsen/
+1 SEX F
+1 OCCU Kontoruddannet
+1 FAMS @F85@
+1 NOTE John Haralds hustru. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I238@ INDI
+1 NAME Line /Boll/
+1 SEX F
+1 OCCU Politiet i Holstebro
+1 FAMC @F85@
+1 NOTE Barn "A" af John Harald og Mette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I239@ INDI
+1 NAME Mathias /Boll/
+1 SEX M
+1 FAMC @F85@
+1 NOTE Barn "B" af John Harald og Mette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I240@ INDI
+1 NAME Emma /Boll/
+1 SEX F
+1 FAMC @F85@
+1 NOTE Barn "C" af John Harald og Mette. Kildens egen tekst slutter blot "født." uden dato — en ægte mangel, ikke en uoverensstemmelse. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @F71@ FAM
+1 HUSB @I187@
+1 WIFE @I186@
+1 MARR
+2 DATE 5 JUN 1947
+2 PLAC Durup kirke, Danmark
+1 CHIL @I188@
+1 CHIL @I197@
+1 CHIL @I208@
+1 CHIL @I224@
+1 CHIL @I227@
+1 CHIL @I232@
+1 CHIL @I236@
+1 NOTE Syv børn ("1."-"7."). Foto: gruppebillede af de seks ældste børn o.1962 (John Harald endnu ikke født) — se library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image31.jpeg, bekræftet mod kildens egen billedtekst.
+
+0 @F72@ FAM
+1 HUSB @I188@
+1 WIFE @I189@
+1 MARR
+2 DATE 1974
+1 CHIL @I190@
+1 CHIL @I193@
+
+0 @F73@ FAM
+1 HUSB @I190@
+1 WIFE @I191@
+1 CHIL @I192@
+
+0 @F74@ FAM
+1 HUSB @I194@
+1 WIFE @I193@
+1 CHIL @I195@
+1 CHIL @I196@
+
+0 @F75@ FAM
+1 HUSB @I198@
+1 WIFE @I197@
+1 MARR
+2 DATE 1973
+1 CHIL @I199@
+1 CHIL @I203@
+1 CHIL @I206@
+1 CHIL @I207@
+1 NOTE Ægteskabet opløst 2000, hvorefter Birgit flyttede til Kappelsdal.
+
+0 @F76@ FAM
+1 HUSB @I200@
+1 WIFE @I199@
+1 MARR
+2 DATE 2007
+2 PLAC Vamdrup kirke, Danmark
+1 CHIL @I201@
+1 CHIL @I202@
+1 NOTE Ægteskabet opløst 2016.
+
+0 @F77@ FAM
+1 HUSB @I203@
+1 WIFE @I204@
+1 CHIL @I205@
+1 NOTE Ikke et ægteskab (kæreste fra 2018).
+
+0 @F78@ FAM
+1 HUSB @I209@
+1 WIFE @I208@
+1 CHIL @I210@
+1 CHIL @I215@
+1 CHIL @I220@
+
+0 @F79@ FAM
+1 HUSB @I211@
+1 WIFE @I210@
+1 MARR
+2 DATE 2004
+2 PLAC Selde kirke, Danmark
+1 CHIL @I212@
+1 CHIL @I213@
+1 CHIL @I214@
+1 NOTE Kildens egen dato ("Gift 29..2004") mangler tilsyneladende månedstallet — dagen (29.) er læselig, men måneden ikke; kun årstal registreret her.
+
+0 @F80@ FAM
+1 HUSB @I216@
+1 WIFE @I215@
+1 MARR
+2 DATE 16 AUG 2003
+2 PLAC Selde, Danmark
+1 CHIL @I217@
+1 CHIL @I218@
+1 CHIL @I219@
+
+0 @F81@ FAM
+1 HUSB @I220@
+1 WIFE @I221@
+1 MARR
+2 DATE 31 MAY 2014
+2 PLAC Viborg gl. Rådhus, Danmark
+1 CHIL @I222@
+1 CHIL @I223@
+
+0 @F82@ FAM
+1 HUSB @I224@
+1 WIFE @I225@
+1 MARR
+2 DATE 4 OCT 1980
+2 PLAC Roslev, Danmark
+1 CHIL @I226@
+
+0 @F83@ FAM
+1 HUSB @I227@
+1 WIFE @I228@
+1 CHIL @I229@
+1 CHIL @I230@
+1 CHIL @I231@
+
+0 @F84@ FAM
+1 HUSB @I232@
+1 WIFE @I233@
+1 CHIL @I234@
+1 CHIL @I235@
+
+0 @F85@ FAM
+1 HUSB @I236@
+1 WIFE @I237@
+1 CHIL @I238@
+1 CHIL @I239@
+1 CHIL @I240@
+
 0 @F42@ FAM
 1 HUSB @I108@
 1 WIFE @I107@
@@ -2222,6 +2814,7 @@
 1 CHIL @I122@
 1 CHIL @I138@
 1 CHIL @I163@
-1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet; ti ("I.", "II.", "III.", "IV.", "V.", "VI.", "VII.", "IX.", "X.", "XI.") tilføjet her indtil videre — kun "VIII." mangler nu. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (@I107@) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
+1 CHIL @I186@
+1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet — alle elleve nu tilføjet her, Efterslægten for branch g er fuldt læst. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (@I107@) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
 
 0 TRLR

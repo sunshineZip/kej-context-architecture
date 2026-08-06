@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Chapter 1 Extraction Notes
 
-Version 1.13 | 2026-08-06 | Active
+Version 1.14 | 2026-08-06 | Active
 
 ---
 
@@ -25,16 +25,16 @@ This also answers a separate question: what guards against Claude simply misread
 - [x] 03. Christen Pedersen Boe, 1780-1832 (p.9-17)
 - [x] 04. Peder Christensen Boe, 1816-1879 (p.18-20)
 - [x] 05. Christen Pedersen Boe, 1853-1930 (p.21-24)
-- [ ] Efterslægt (descendants, p.25-54) — broken down by generation 05's own children (branches a-i, per the manuscript's own structure):
+- [x] Efterslægt (descendants, p.25-54) — broken down by generation 05's own children (branches a-i, per the manuscript's own structure):
   - [x] a, c, d, f, h, i — six short, closed branches (no further descendants)
   - [x] b — Marie Christensen Boe (incl. son Esper Marinus Christensen Boe's own line)
   - [x] e — Jens Christensen Boe (incl. K.K.K. Boe's line, 3-4 generations)
-  - [ ] g — Laurids Christensen Boe (largest branch, ~1,100 lines/73+ individuals, 4-5 generations reaching to 2026), scoped into 5 checkpoints by size, grouped rather than strict letter order:
+  - [x] g — Laurids Christensen Boe (largest branch, ~1,100 lines/73+ individuals, 4-5 generations reaching to 2026), scoped into 5 checkpoints by size, grouped rather than strict letter order:
     - [x] IV, VI, VII — three smallest children (~20-27 lines each)
     - [x] I, V, IX, XI — four medium children (~50-67 lines each)
     - [x] II, X — two larger children (~90-140 lines each)
     - [x] III — Meta Kristine Kristensen Boe (~175 lines)
-    - [ ] VIII — Karen Kristensen Boe / the Boll family (~330 lines, largest single sub-branch; she died 2012, so this is where currently-living relatives are most likely — will probably need its own further split once reached)
+    - [x] VIII — Karen Kristensen Boe / the Boll family (~330 lines, largest single sub-branch — 55 new individuals, four generations)
 
 **Images, added 2026-08-06:** the manuscript's 48 embedded images had been ignored by the text-only extraction above until now. Now tracked separately in `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`, with its own per-image schema (KEJ's original filename, position, type, description, legibility/confidence, people cross-referenced to `family-tree/tree.ged`). First batch — the 6 images tied to Aneoversigt/generations "02"-"05" above — is done. From Efterslægt onward, image extraction happens in the same working session as the text it's found in, not as a separate catch-up pass.
 
@@ -330,6 +330,33 @@ The two largest of the remaining four children — both reaching into likely-liv
 
 ---
 
+## Efterslægt — Branch g, Part 5: Child VIII (Karen Kristensen Boe / the Boll family)
+
+The last of branch g's eleven children, and the largest single sub-branch in the manuscript — 55 new individuals across four generations, all descending from one couple. With this checkpoint, branch g and Efterslægt as a whole are complete.
+
+**Karen Kristensen Boe** (b.23.5.1925, Skive sygehus; d.21.9.2012, Durup) married **Arne Frandsen Boll** (b.22.6.1917, Oustrup, Mors; d.26.12.1991), boelsmand/gårdejer in Tøndering, 5.6.1947, Durup kirke. Seven children ("1."-"7."), all born in Tøndering between 1948 and 1965. A group photo of the six eldest (John Harald, the youngest, not yet born) is directly captioned in the source — see Images below. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+**Karen and Arne's seven children, each summarized with their own descendants:**
+- **1. Svend Tage Boll** (b.1948). Murer; worked in Australia and Africa; settled at Jegindø gl. præstegård. Married Grethe Sørensen (lærer) 1974. Two children: Thomas (b.1977, lærer; married Ane — one named child, Ea, plus two more mentioned but unnamed in the source, the youngest born 2018) and Esther (b.1978, bioanalytiker; married Lars, kommunaldirektør i Holstebro — two named children, Georg and Knud, plus a third mentioned but unnamed, born 2018).
+- **2. Birgit Boll** (b.1949; d.8.12.2004, Silkeborg sygehus). Married Erik Vestergård (b.1947, fabrikschef Hammel) 1973; dissolved 2000, after which Birgit moved to Kappelsdal. Erik remarried (the source's own "1016" is almost certainly a typo for 2016) — not pursued further, no bloodline connection. Four children: Linda (b.1976; married, later divorced, Henrik Damsgaard — two children, Rebecca and Sebastian), Lars (b.1979; unmarried partner Mette Lydiger from 2018 — one daughter, Esther Annie Lydiger Vestergaard, b.2018), Marie (b./d.1983, an infant death), and Annie (b.1985; d.30.1.2012, Hospice Djursland).
+- **3. Anna Gyda Boll** (b.1952). Dagplejer i Selde. Married Kaj Godsk Pedersen (tagdækker). Three children: Lone (b.1975; married Ole Rasmussen, maskinsnedker — three children, Malene, Rikke, Jakob), Helle (b.1976; married Flemming Tingholm, skorstensfejer, 2003 — three children, Iben, Lisa, Diana), and Ole (b.1982; married Sara Korntved, sygeplejerske, 2014 — two children, Adam and Elias).
+- **4. Karsten Boll** (b.1955). Lærer i Ringe, later Luxembourg, then Billund, then Selde. Married Aase Færk Jørgensen 4.10.1980. One daughter, Anna, living in Copenhagen.
+- **5. Anders Henrik Boll** (b.1957). Pædagog i Snedsted. Married Anette. Three children: Maja (sygeplejerske), Emil (murer), Liva.
+- **6. Jan Laurids Boll** (b.1959). Tømrer, pedel på Skive Seminarium. Married Kirsten Høj Jørgensen (pædagog, Skivehus Skole). Two children: Mette (skolelærer i Odder) and Jens (skolelærer).
+- **7. John Harald Boll** (b.1965, the youngest — born after the group photo below was taken). Maskinsmed, pedel på Durup skole. Married Mette G. Bodilsen (kontoruddannet); took over Karen and Arne's own former property, Hegnetvej 7 i Tøndering. Three children: Line (politiet i Holstebro), Mathias, Emma.
+
+[VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+**Eleven more correctly-labeled fadder references, a strong counterweight to `grandfather-review/queue.md` item 7:** across this one checkpoint alone, uncles are named as faddere with the right roman numerals at least four separate times — Christian Christensen Boe ("morbror = VII.") at Svend Tage's baptism, Krista Boe ("moster = IX.") at Birgit's, Laurids Boe himself ("morfar," no numeral needed) at Anna Gyda's, and Poul Kristensen Boe ("morbror = VI.") at both Karsten's and Anders Henrik's. Combined with the four correct references found at Hanne's baptism in checkpoint 4, that's eleven correct labels against item 7's three incorrect ones — worth noting plainly in `possible-duplicates.md`'s own reassessment trigger, since it changes the read on item 7 from "a systemic numbering problem" to "a localized slip in one or two specific fadder lists."
+
+**A new, distinct labeling anomaly:** Jan Laurids Boll's own fadder list names "gartner Poul **Boll** i Durup (morbror = VI.)" — the roman numeral is correct, but the surname is wrong (it should be "Poul **Boe**," the same gartner-uncle correctly named in three other siblings' fadder lists in this same checkpoint). This is a different error shape from item 7 (which had wrong numerals, correct names) — logged as new sub-pattern G in `family-tree/possible-duplicates.md`, first instance, not queued.
+
+**Images:** one confirmed via direct caption match — `image31.jpeg`, a studio portrait of six children ranging from a toddler to a young teenager, matching the manuscript's own caption "o. 1962 Siddende fra venstre: Birgit, Henrik, Jan og Tage. Stående fra venstre: Gyda og Karsten" (c.1962; the seventh child, John Harald, wasn't born until 1965, consistent with only six children appearing). A few more images checked (a 1950s woman's portrait, a boy holding a baby, a formal dinner-party group) but none carried a specific textual tie to this branch — left unfiled rather than guessed. See the media manifest.
+
+`family-tree/tree.ged`: `@I186@`-`@I240@` (55 new individuals, the largest single checkpoint in this entire read-through), families `@F71@`-`@F85@` (new); `@F14@` now has all eleven children. **Branch g, Efterslægt, and Chapter 1's family-tree read-through are now complete.**
+
+---
+
 ## Open Items — Data Quality
 
 Not resolved here; flagged rather than silently corrected, per this repo's correction discipline. Items 3, 5, and 6 below (the likely-extraction-artifact anomalies) are now also tracked centrally in `family-tree/possible-duplicates.md` §2, cross-referenced by ID (A1-A3, B1-B3) — that file is where to look for the running count across sections, not just this one.
@@ -366,3 +393,4 @@ Not resolved here; flagged rather than silently corrected, per this repo's corre
 | 1.11 | 2026-08-06 | Read branch g checkpoint 2: children "I."/"V."/"IX."/"XI." (21 new individuals). Two genuine manuscript contradictions found and queued to `grandfather-review/queue.md`: item 6 (Laurids and Ottine's wedding date, 27.2.1915 vs 27.3.1914) and item 7 (three instances of a sibling mislabeled with the wrong roman-numeral reference — hit `possible-duplicates.md`'s own escalation trigger for sub-pattern D). New sub-pattern F logged (a stray year concatenated onto a place name) but not queued. Two confirmed image matches, both tied to captions found directly in the text — a rare case of the manuscript's own captions doing the identification work. |
 | 1.12 | 2026-08-06 | Read branch g checkpoint 3: children "II."/"X." (35 new individuals, largest single checkpoint yet). Several correctly-labeled fadder references noted as positive counter-examples to item 7's mislabeling pattern. One new contradiction found: Margit Bak's manuscript death date ("Død 24.1.1916") predates her own 1951 birth by 35 years — a chronological impossibility, not just an implausible age. Second instance of sub-pattern E, escalated per `possible-duplicates.md`'s own reassessment trigger to **`grandfather-review/queue.md` item 8**. Two more images checked (a family accordion-player scene and a solo portrait of the same young man), neither confidently matched, left unfiled. Only "III." (Meta) and "VIII." (Karen/the Boll family, the largest sub-branch) remain in branch g. |
 | 1.13 | 2026-08-06 | Read branch g checkpoint 4: child "III." (Meta Kristine Kristensen Boe, 23 new individuals spanning five generations). **Notable discovery:** the manuscript's own author, Knud Erik Jakobsen (KEJ), appears in his own text as a family member by marriage — married to Meta's granddaughter Hanne Boe/Nielsen 1966-1983, with two daughters and further descendants down to two 2023/2024-born children. Four more correctly-labeled fadder references found (all four faddere at Hanne's own baptism), further reinforcing that item 7's mislabeling pattern is a localized slip, not systemic. Two confirmed image matches via direct caption text (a garden photo of young Hanne and Carlo; a four-generation portrait with baby Lotta), two more stored as plausible-but-unconfirmed (a likely young Meta; a likely 1946 wedding portrait), two checked and left unfiled. Only "VIII." (Karen/the Boll family, the largest sub-branch, most likely to reach currently-living relatives) remains in branch g. |
+| 1.14 | 2026-08-06 | Read branch g checkpoint 5: child "VIII." (Karen Kristensen Boe / the Boll family, 55 new individuals across four generations — the largest single checkpoint in this entire read-through). **This completes branch g, Efterslægt, and Chapter 1's family-tree read-through.** Seven more correctly-labeled fadder references found in this checkpoint alone (eleven total across checkpoints 4-5), a strong counterweight noted in `possible-duplicates.md`'s reassessment trigger against item 7's mislabeling pattern being systemic. One new anomaly found: a fadder correctly named and numbered but attached to the wrong surname ("Poul Boll" for "Poul Boe") — a distinct error shape from item 7, logged as new sub-pattern G, not queued (single instance). One image confirmed via direct caption match (a six-children group portrait, c.1962). `family-tree/tree.ged` now has 240 individuals and 85 families. |
