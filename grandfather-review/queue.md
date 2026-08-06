@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.10 | 2026-08-06 | Active
+Version 1.11 | 2026-08-06 | Active
 
 ---
 
@@ -111,6 +111,15 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 **Grundlag:** Direkte visuel inspektion af billedet plus fødselsårsberegning — ingen billedtekst eller anden kildehenvisning fundet. Ikke krydstjekket mod noget andet end fødselsdatoerne allerede i `family-tree/tree.ged`.
 **Status:** Foreslået — endnu ikke gennemgået. Genkender du billedet? Er det Hans Kristian eller Karl Alfred med lillesøster Edith — eller en helt anden kombination af søskende/børnebørn, vi ikke har tænkt på?
 
+### 12. image23.jpeg — er det Meta og Peter Severin Nielsens bryllupsbillede?
+
+**Kategori:** Billedidentifikation
+**Kilde:** Projekt Arkivdigitalisering, medie-manifest — se `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`, afsnittet om `image23.jpeg`
+**Fund:** Et formelt parportræt: en ældre, skaldet brudgom i mørkt jakkesæt med butterfly og boutonnière, og en yngre brud i en mørk (ikke hvid) kjole med en stor buket med lange bånd. Stilen (mørk brudekjole, afdæmpet pynt) passer til et mere beskedent 1940'er-bryllup under/lige efter krigen. **Hypotese:** Meta Kristine Kristensen Boe (`I163`) og Peter Severin Nielsen (`I165`) — Peter var 48 år og enkemand ved deres vielse 18.8.1946, Meta 28 år; aldersforskellen og brudens ikke-hvide kjole i billedet stemmer godt overens med dette. Ingen billedtekst eller navn på selve billedet.
+**Beslægtet:** `image22.jpeg` (samme checkpoint, samme usikkerhed) — et nærportræt af en ung kvinde, 1930'er frisure og krave, gættet som en ung Meta ud fra tidsperioden og hendes uddannelse som damefrisør. Heller ikke bekræftet. Nævnes her for samlet overblik, ikke som et selvstændigt punkt.
+**Grundlag:** Direkte visuel inspektion af billedet plus sammenligning med kendte fakta (alder, dato, enkemandsstatus) allerede i `family-tree/tree.ged`. Ingen billedtekst eller anden kildehenvisning fundet for hverken image22 eller image23.
+**Status:** Foreslået — endnu ikke gennemgået. Genkender du billedet af parret i image23 — er det Meta og Peter Severin Nielsens bryllup? Og genkender du den unge kvinde i image22 som en ung Meta?
+
 ---
 
 ## Version History
@@ -128,3 +137,4 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 | 1.8 | 2026-08-06 | Added item 9: Christen Pedersen Boe and Mette Jensdatter's wedding year is internally inconsistent — 1808 (Chapter 1) vs. 1810 (Chapter 3), same day/month. Found while reading Chapter 3 (Mette's own family, the Møller/miller line from Vester Vandet), which also surfaced a related son born out of wedlock with his own internally contradictory baptism/burial dates. Immediately updated with a third data point: KEJ's own handwritten master pedigree chart spanning all four chapters also shows 1810, so `tree.ged` now uses that as the better-supported value — still not treated as settled. |
 | 1.9 | 2026-08-06 | Added item 10, a new category (family tradition vs. source, not an internal manuscript inconsistency): the human's mother believes Gunnar Vilhelm Carlsen was not Hanne Boe's biological father and recalls a "Peder"/"Peter" instead. Manuscript names two candidates in Meta's life around that period (Peder Alfred Plejdrup, a pre-birth employer; Peter Severin Nielsen, the husband who raised Hanne but is explicitly stated not to be her father) — neither cleanly matches the family's memory. Raised during a live Q&A session about the family tree, not found during manuscript reading. |
 | 1.10 | 2026-08-06 | Added item 11: `image21.jpeg`'s identity — direct visual inspection plus birth-year math suggests one of Meta's older brothers (Hans Kristian or Karl Alfred Christensen Boe) holding baby sister Edith, revising an earlier ruled-out guess (Hanne + Carlo). Human explicitly asked for this to be queued rather than treated as settled. |
+| 1.11 | 2026-08-06 | Added item 12: `image23.jpeg`'s identity — plausible match to Meta and Peter Severin Nielsen's 1946 wedding, based on visual inspection (age gap, non-white dress, era) against already-known facts. Also notes the related, still-unconfirmed `image22.jpeg` guess (young Meta) for the same review round rather than opening a fourth item for it. |
