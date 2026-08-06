@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Deep Well Manifest
 
-Version 1.0 | 2026-08-06 | Production
+Version 1.1 | 2026-08-06 | Production
 
 ---
 
@@ -10,13 +10,11 @@ Detailed extraction log for the "Boe-slægten fra Mors og Fur" deep well (`libra
 
 ---
 
-## What Is Stored Here, and What Isn't
+## What Is Stored Here
 
-- **`boe-slaegten-fra-mors-og-fur-2024-fulltext.txt`** (153 KB, 147,860 characters) — a full plain-text extraction of the manuscript's content, pulled via the Google Drive connector's `read_file_content` tool on 2026-08-06. This is genuine redundancy for the document's actual text: the pedigree tables, generation narratives, transcribed kirkebog/skifte passages, and source citations are all present in this file.
-- **The original `.docx` binary is NOT stored here.** The source file is 48,375,813 bytes (46.1 MB), well under GitHub's ~100 MB limit — so size was never the blocker for storing the *original*. The blocker is this session's Google Drive connector: its `download_file_content` tool caps at 10 MB and returned "File too large for download" for the actual binary. The file's Drive permissions show only the owner (`hogedalboe@gmail.com`) with no public/"anyone with link" grant, so an unauthenticated direct-download URL was not attempted (would fail, and isn't the right way to route around an access control). Retrieving the true original `.docx` — with its original formatting, embedded structure, and any images — needs either a Drive connector without the 10 MB cap, or the human uploading/attaching the file directly to a session that can receive it whole.
+- **`boe-slaegten-fra-mors-og-fur-2024.docx`** (48,375,813 bytes / 46.1 MB) — the original manuscript, received 2026-08-06 via the human pushing it directly into `incoming/` with GitHub Desktop (bypassing the Google Drive connector's 10 MB cap that blocked the initial fetch attempt — see Version History). Verified after triage: valid Office Open XML zip container (78 internal entries, `word/document.xml` present, `zipfile.testzip()` clean), byte-identical in size to the Drive original (48,375,813 bytes per the file's Drive metadata). This is now the authoritative, byte-for-bit copy.
+- **`boe-slaegten-fra-mors-og-fur-2024-fulltext.txt`** (153 KB, 147,860 characters) — a full plain-text extraction of the manuscript's content, pulled via the Google Drive connector's `read_file_content` tool on 2026-08-06, kept alongside the original as a convenience copy for quick text search/grep without needing a `.docx`-capable tool. No longer load-bearing for redundancy now that the original itself is stored — that was its purpose while the original was still unreachable.
 - **Original manuscript metadata** (from Drive, 2026-08-06): title "2024 Boe-slægen fra Mors og Fur.docx", owner hogedalboe@gmail.com, `mimeType` `application/vnd.openxmlformats-officedocument.wordprocessingml.document`, Drive file ID `1-3X1fR0bJ2qnMjkERx1LTPhn-jOCto29`.
-
-> **Open item, not silently resolved:** this manifest exists specifically because the "original file, not just its text" redundancy goal is only partially met. See `projects/archive-digitization/TODO.md` for the outstanding action (re-attempt the original-binary fetch when a suitable path exists).
 
 ---
 
@@ -36,3 +34,4 @@ No content has been promoted into any `knowledge/domains/` file yet — Phase 3 
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-06 | Initial creation. Registered the full-text extraction as a partial redundancy measure; documented that the original `.docx` binary could not be retrieved this session due to the Google Drive connector's 10 MB download cap, distinct from a GitHub size limit (46.1 MB original is well under that). |
+| 1.1 | 2026-08-06 | Original `.docx` now stored — the human downloaded it from Drive and pushed it into the new `incoming/` folder via GitHub Desktop (see `Architecture.md` §3 and `incoming/README.md`), sidestepping the connector cap entirely. Triaged out of `incoming/` into this folder after verifying zip/docx integrity. The redundancy goal from v1.0 is now fully met, not partial. |
