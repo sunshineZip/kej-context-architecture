@@ -195,3 +195,28 @@ STATUS: CHECKPOINT
 Completed: Adopted GPS and an Evidence Explained-derived citation format as this repo's explicit research/citation standard, with Danish-adapted templates verified against real Rigsarkivet documentation rather than assumed; demonstrated on the existing akj-cbj.dk source.
 Next: Refine the Danish templates once real parish/census/probate material is actually in hand.
 Waiting for: The Boe-slægten file, or further direction.
+
+---
+
+## [Claude] — Turn 8 | 2026-08-06
+
+Human, working in Archive Digitization on the Boe-slægten Chapter 1 read-through, confirmed all four decision items from an orientation-turn review pass at once: (1) build `family-tree/possible-duplicates.md` now, (2) use whichever citation-retrofit approach is most robust, (3) the "wait for real data" threshold for creating `family-tree/` is now passed (two full generations read), and (4) asked what a transcription-fidelity safeguard would look like and whether it's worth building. This turn covers only the structural, system-layer piece of that work — creating the actual `family-tree/` folder and updating `Architecture.md` — per Subproject Transcendence (`Architecture.md` §5); the project-layer content (the seeded `tree.ged`, the extraction-notes citation retrofit, the intake-manifest and TODO updates) is recorded in `projects/archive-digitization/` context files directly, not narrated here.
+
+**Built:**
+
+- `family-tree/tree.ged` — the actual file `context/data-structure-proposal.md` had only sketched, created and seeded with 40 individuals / 14 families from Boe-slægten Chapter 1 (generations "02" and "03" at full detail; "04"/"05" and generation-05's children at Aneoversigt-level detail only, explicitly noted as such in each record's `NOTE` rather than implying a fuller read that hasn't happened yet). Append-only `@I@`/`@F@` ID assignment per the design doc's §4.1.
+- `family-tree/possible-duplicates.md` — the other half of the two-tier duplicate-tracking system that was previously half-built (`grandfather-review/queue.md` existed and was in use; this file didn't). Backfilled with the recurring low-confidence anomaly instances already found and reasoned about across three `boe-slaegten-chapter1-extraction.md` Version History rows, now counted centrally instead of scattered — six instances logged across two sub-patterns, with an explicit reassessment trigger (a 4th instance of either shape escalates to `grandfather-review/queue.md` instead of staying a probable tooling artifact).
+- `Architecture.md` (1.7 → 1.8) — §2 file structure diagram gained the `family-tree/` folder; new §3 subsection "Cross-*slægt* structural data — fork-specific: `family-tree/`" explaining why this data sits alongside `library/` as cross-cutting rather than inside any one domain, and cross-referencing the ID-stability and duplicate-tier rules already designed in `data-structure-proposal.md`.
+
+**Also touched this turn, not gated by this file** (registered but not requiring system-project routing — `library/reference-index.md` deep-well registration only requires the cornerstone confirmation already given, per `authoring-guidelines.md` §9.2-9.3, not a separate system-layer log entry): registered the Boe-slægten manuscript as this repo's first deep well. Its physical storage is partial — a full plain-text extraction (147,860 characters) is stored, but the original `.docx` (46.1 MB) could not be retrieved this session; the Google Drive connector's `download_file_content` tool caps at 10 MB, which is a session/tooling limit, not the GitHub size limit (well clear at 46.1 MB) or the cornerstone decision (confirmed). Flagged as an open item in `projects/archive-digitization/TODO.md` rather than silently treated as resolved.
+
+### Session close
+
+Knowledge candidates: None — structural/tooling additions, not domain facts.
+Open flags: None new. One pre-existing tooling limitation flagged as an open TODO item (original .docx binary not retrievable this session), not a `[FLAG FOR ...]` in the formal sense since it's a technical blocker, not a content or research question.
+Push status: Pending — will push after this turn is logged, together with the rest of this session's archive-digitization work in the same commit.
+
+STATUS: CHECKPOINT
+Completed: Created `family-tree/tree.ged` and `family-tree/possible-duplicates.md`, formalizing what `data-structure-proposal.md` had only sketched; updated `Architecture.md` to match. Registered the Boe-slægten manuscript as the first `library/` deep well (partially stored — text only, original binary blocked by a connector limit, not a decision).
+Next: Continue `family-tree/tree.ged` incrementally as further Boe-slægten sections are read (generation "04" next); re-attempt the original `.docx` retrieval when a suitable path exists.
+Waiting for: Nothing further this turn — pushing now.

@@ -1,6 +1,6 @@
 # Context Architecture — System Design
 
-Version 1.7 | 2026-08-05 | Production
+Version 1.8 | 2026-08-06 | Production
 
 ---
 
@@ -82,6 +82,10 @@ The session log only ever grows — no entries are deleted or edited after the f
     reference-index.md                ← Registry of every deep well ever touched, stored or not
     deep-wells/                       ← Physical files for cornerstone-status deep wells only
 
+  family-tree/                        ← Fork-specific — cross-slægt structural data, see §3
+    tree.ged                          ← GEDCOM 5.5.1 individuals (INDI) and families (FAM), built incrementally
+    possible-duplicates.md            ← Routine same-name-ambiguity tracking — see §3
+
   grandfather-review/                 ← Fork-specific — see §3, "A Third Layer" below
     queue.md                          ← Open discoveries/connections/inconsistencies/gaps, not yet reviewed
     log.md                            ← Append-only history of what was sent and how KEJ responded
@@ -138,6 +142,12 @@ When something discovered during a project should update the knowledge layer —
 4. Only after approval is the change committed to `knowledge/`.
 
 This gate exists because the knowledge layer is loaded by every future session. An incorrect or premature update propagates everywhere. The same gate applies, with one addition, to promoting a deep well from registry-only to physically stored in `library/deep-wells/` — the cornerstone rule (`knowledge/domains/authoring-guidelines.md` §9.3) requires explicit human confirmation before the file is stored.
+
+### Cross-*slægt* structural data — fork-specific: `family-tree/`
+
+This fork adds `family-tree/tree.ged`, a single top-level GEDCOM file — not part of the generic template. Genealogical relationships are inherently cross-*slægt* (marriages connect one family line to another by design), so this data does not belong inside any one domain's folder; it sits alongside `library/` as cross-cutting structural data, built incrementally as each source document is read rather than in one bulk pass. Domain `knowledge.md` files cite into it for the canonical vital-record entry (e.g., "see `family-tree/tree.ged#I4`"), the same pattern used to cite a `library/reference-index.md` entry.
+
+ID assignment is append-only, same discipline as `session-log.md` turn numbers: once `@I137@` exists it is never reused or renumbered, even for a confirmed duplicate (marked merged-into-survivor instead of deleted). Routine same-name ambiguity — expected at volume, given Danish patronymic naming — is tracked in `family-tree/possible-duplicates.md`; only well-evidenced duplicate candidates escalate to `grandfather-review/queue.md`. Full design rationale: `projects/archive-digitization/context/data-structure-proposal.md`.
 
 ### A third layer — fork-specific: grandfather review
 
@@ -217,3 +227,4 @@ To fork this template for a new initiative:
 | 1.5 | 2026-08-05 | Fork-specific addition (`kej-context-architecture`): new top-level `grandfather-review/` folder (§2) and a new §3 subsection, "A third layer — fork-specific: grandfather review," documenting why this fork's knowledge-promotion gate is stricter than the generic template's — the grandfather, not the human operating this repo, is the subject-matter authority whose explicit confirmation genealogical findings require. See `knowledge/flow/operating-principles.md` §5 and `ROUTING.md` Hard Constraints. |
 | 1.6 | 2026-08-05 | §3 noted that `grandfather-review/`'s two files are written in Danish, unlike the rest of the repo — the grandfather's English is limited and the research itself is Danish. |
 | 1.7 | 2026-08-05 | §3 prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference — including the `[VERIFIED: KEJ, YYYY-MM-DD]` signal value. The `grandfather-review/` folder name and the `[FLAG FOR GRANDFATHER REVIEW]` tag are kept as-is — stable structural identifiers, not prose. |
+| 1.8 | 2026-08-06 | Fork-specific addition: created the actual `family-tree/tree.ged` (GEDCOM) and `family-tree/possible-duplicates.md`, previously only sketched in `projects/archive-digitization/context/data-structure-proposal.md` — human confirmed the "wait for real data" threshold was passed once two full generations of Boe-slægten data were in hand. §2 file structure diagram and new §3 subsection "Cross-*slægt* structural data — fork-specific: `family-tree/`" added. |
