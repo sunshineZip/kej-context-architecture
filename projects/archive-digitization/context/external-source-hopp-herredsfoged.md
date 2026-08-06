@@ -1,6 +1,6 @@
 # External Source Note — "Hopp forfædrene" (akj-cbj.dk)
 
-Version 1.2 | 2026-08-05 | Active
+Version 1.3 | 2026-08-05 | Active
 
 ---
 
@@ -20,6 +20,7 @@ Preserves an externally found web page relevant to the Hopp-slægt, found by the
 | Page date | 10. august 2010 |
 | Primary source cited by the page | "Om den sidste herredsfoged i Salling Nørre-herred" by **Knud Erik Jakobsen (KEJ), Risum**, published in *Skiveegnens Jul*, 1978; also "Degnekår om slægten Hop" by the same author, 1991 |
 | Retrieved | 2026-08-05, pasted by the human (the URL itself is not reachable from this session — outside this repo's network policy) |
+| Citation (per `authoring-guidelines.md` §9.5) | Arne Bjørn Jørgensen, "Hopp forfædrene," akj-cbj.dk, 10 August 2010, http://www.akj-cbj.dk/Hopp.htm, accessed 2026-08-05. |
 
 > **Note:** This page is written by a different family researcher, tracing his own ancestors (Anne Katrine and Claus Bjørn Jørgensen) back through the shared Hopp line. It is a secondary source relative to this repo's own research — the author states he used KEJ's 1978/1991 published articles, church books (kirkebøger), census records (folketællinger), and other named sources.
 
@@ -204,3 +205,4 @@ Tracked in [grandfather-review/queue.md](../../../grandfather-review/queue.md) i
 | 1.0 | 2026-08-05 | Initial creation. Full text preserved as pasted by the human, plus a cross-reference analysis against the grandfather's own Hopp-slægten chapter numbering from `intake-manifest.md`. Not yet confirmed with the grandfather. |
 | 1.1 | 2026-08-05 | Open Items replaced with a pointer to the new `grandfather-review/queue.md` (items 1–3), which now owns this list — avoids two copies of the same pending questions drifting apart. |
 | 1.2 | 2026-08-05 | Prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference, including a heading rename (§ Cross-Reference Against KEJ's Own Chapter Numbering). The `grandfather-review/` path reference is kept as-is. |
+| 1.3 | 2026-08-05 | Added a full Evidence Explained-style citation to the Source table, per the newly adopted `authoring-guidelines.md` §9.5 — first real-world application of the format. |

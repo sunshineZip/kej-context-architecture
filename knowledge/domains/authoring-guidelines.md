@@ -1,6 +1,6 @@
 # Domain Knowledge Authoring Guidelines
 
-Version 1.7 | 2026-07-25 | Production
+Version 1.8 | 2026-08-05 | Production
 
 ---
 
@@ -265,9 +265,9 @@ raw files that specific claims in knowledge.md cite back to.
 
 ---
 
-| File | Type | Effective date | Acquired | Supersedes | Status |
-|---|---|---|---|---|---|
-| home-policy-2026.pdf | Insurance policy | 2026-01-01 | 2026-01-15 | home-policy-2025.pdf | Current |
+| File | Type | Effective date | Acquired | Supersedes | Status | Citation |
+|---|---|---|---|---|---|---|
+| home-policy-2026.pdf | Insurance policy | 2026-01-01 | 2026-01-15 | home-policy-2025.pdf | Current | [Full citation per §9.5] |
 
 ---
 
@@ -344,6 +344,51 @@ This decision is never made unilaterally by the LLM — same pattern as the exis
 
 > **Note:** Raw evidentiary sources and deep-well files are never loaded as part of routine domain-knowledge routing (`ROUTING.md` §4) — they are opened only when a task explicitly names the specific file to mine or verify against.
 
+### 9.5 Genealogical Proof Standard and Citation Format
+
+This fork (`kej-context-architecture`) targets the **Genealogical Proof Standard (GPS)** — the field's recognized credibility benchmark, from the US Board for Certification of Genealogists (BCG). Its five elements map onto mechanisms this repo already has, rather than requiring new machinery:
+
+| GPS element | This repo's mechanism |
+|---|---|
+| Reasonably exhaustive research | Inventory-first intake (`projects/archive-digitization/`); cross-checking multiple sources before treating a claim as settled |
+| Complete, accurate source citations | This section's citation templates; `sources/manifest.md` |
+| Skillful correlation and interpretation of evidence | Cross-reference analysis in domain `knowledge.md`; `library/` deep wells |
+| Resolution of contradictory evidence | `[CONTRADICTS: source]` (§6) — tracked explicitly, never silently resolved |
+| Soundly reasoned, coherently written conclusions | `knowledge.md` prose itself; `[VERIFIED]`/`[UNVERIFIED]` stated honestly rather than glossed over |
+
+> **On international validity:** GPS originates from a US certifying body and is not universally adopted — some European genealogical traditions historically emphasize lineage reconstruction over citation rigor. That is a reason to apply it here, not a reason not to: GPS-level discipline is recognized wherever it is applied, and its absence is exactly what separates hobbyist work from credible work. **Evidence Explained** (Elizabeth Shown Mills), the field's standard citation-format reference, is similarly US-centric in its worked examples — even Swedish examples were only added in its 4th edition (2024), and it has no ready-made Danish templates. What follows adapts EE's general citation *logic* (identify who created/holds a record, what it is, where it lives, how it was accessed), not its specific American templates, to the record types actually expected in this research — cross-checked against how Rigsarkivet's own Arkivalieronline platform identifies its holdings (parish/sogn, record type, "opslag" image number).
+
+**Citation anatomy** — every citation in this repo identifies, in order: **who** created or holds the record; **what** it is (record type); **where** it lives (repository, and precise location within it — volume, opslag, page); **how it was accessed** (URL and access date, for anything consulted online).
+
+**Danish record-type templates**, to use until real examples justify refining them:
+
+```
+Kirkebog (parish church record), via Arkivalieronline:
+[Sogn] sogn, [Herred] herred, [Amt] amt, kirkebog [fødte og døbte / konfirmerede / viede / døde], [year range], opslag [N], Arkivalieronline (rigsarkivet.dk), accessed [YYYY-MM-DD].
+
+Example: Grinderslev sogn, Nørre herred, Viborg amt, kirkebog viede,
+1687-1720, opslag 14, Arkivalieronline (rigsarkivet.dk), accessed 2026-08-05.
+
+Folketælling (census):
+[Year] folketælling, [Sogn] sogn, [Herred] herred, [Amt] amt, [household
+detail if relevant], Arkivalieronline eller Dansk Demografisk Database
+(ddd.dda.dk), accessed [YYYY-MM-DD].
+
+Skifteprotokol (probate record):
+[Jurisdiction, e.g. Skivehus Amt] skifteprotokol, [year], [name of
+deceased], fol./p. [N], Rigsarkivet, accessed [YYYY-MM-DD].
+
+Secondary source (published article, external genealogy website):
+[Author], "[Title]," [Publication/site name], [date], [URL if online],
+accessed [YYYY-MM-DD].
+
+Example (already in this repo): Arne Bjørn Jørgensen, "Hopp forfædrene,"
+akj-cbj.dk, 10 August 2010, http://www.akj-cbj.dk/Hopp.htm, accessed
+2026-08-05.
+```
+
+Add the full citation string to `sources/manifest.md`'s **Citation** column (§9.1) — the other columns (File/Type/Effective date/Acquired/Supersedes/Status) stay for quick tracking; the citation is what a genealogist reviewing this work would actually expect to see. These templates are a starting adaptation, not a finished translation of Evidence Explained — refine them once real kirkebog/folketælling material is in hand and its actual structure (which fields Arkivalieronline exposes, how a given parish's books are organized) is known firsthand rather than guessed from documentation alone.
+
 ---
 
 ## 10. What Does Not Belong in a Knowledge Document
@@ -373,6 +418,7 @@ Before submitting any knowledge document for human approval:
 - [ ] Validity signals applied to unverified or contradicted claims, and time-sensitive or sensitive facts carry the appropriate signal (§6)
 - [ ] Sections are independently loadable — no critical fact depends on a prior section that may not be loaded
 - [ ] Evidentiary sources have a manifest.md; every source cited from knowledge.md resolves to a real file or a real reference-index.md heading (§9)
+- [ ] Each evidentiary source has a full citation string in `sources/manifest.md`'s Citation column, per §9.5 — not just a filename
 - [ ] Version History row added for this edit
 
 ---
@@ -389,3 +435,4 @@ Before submitting any knowledge document for human approval:
 | 1.5 | 2026-07-24 | §8 now cross-references `knowledge/flow/upstream-sync.md` — the repo-level analog of this domain-scoped Maintenance Pass. |
 | 1.6 | 2026-07-25 | §8 gained a check for whether a domain should be retired rather than left silently stale — see the new retirement convention in `MarkdownConventions.md` §1 and `knowledge/domains/index.md` § Retiring a Domain. |
 | 1.7 | 2026-07-25 | §4 gained "Behavioral and communication-style notes" — how a domain captures what's known about how a household member or external party tends to communicate or argue, without needing a separate content type or top-level structure. Reuses existing signals ([SENSITIVE], [VERIFIED]/[UNVERIFIED]) rather than inventing new ones. |
+| 1.8 | 2026-08-05 | Fork-specific addition (`kej-context-architecture`): new §9.5 "Genealogical Proof Standard and Citation Format," adopting GPS (mapped to existing repo mechanisms) and an Evidence Explained-derived citation format, with Danish-adapted templates for kirkebog/folketælling/skifteprotokol/secondary sources (EE itself has no ready-made Danish templates — verified via web search, not assumed). Added a Citation column to the `sources/manifest.md` template (§9.1) and a matching Quick Checklist item (§11). |

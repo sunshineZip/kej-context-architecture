@@ -22,6 +22,7 @@ Version 1.0 | 2026-08-05 | Active
 - [ ] Create the first real *slægt* domain(s) once Phase 2 surfaces triaged material (Phase 3)
 - [ ] Fill in `knowledge/domains/website-infrastructure/knowledge.md` §3–5 once the website repository is created
 - [ ] Human to review `grandfather-review/queue.md` and send it to KEJ when it feels due (no fixed cadence — his own schedule)
+- [ ] Refine the Danish citation templates in `authoring-guidelines.md` §9.5 (kirkebog/folketælling/skifteprotokol) once real parish/census/probate material is actually in hand — they're a starting adaptation of Evidence Explained's general logic, not a finished translation
 
 ---
 
@@ -33,6 +34,7 @@ Version 1.0 | 2026-08-05 | Active
 - [x] Scaffolded `website-infrastructure` as a thin stub domain (2026-08-05)
 - [x] Created `projects/archive-digitization/` (Phase 2) and transcribed KEJ's full intake manifest (53 items, 8 categories) (2026-08-05)
 - [x] Built the `grandfather-review/` mechanism — new flag type, `queue.md` + `log.md`, Hard Constraint naming KEJ as final authority on genealogical conclusions (2026-08-05)
+- [x] Adopted GPS and an Evidence Explained-derived citation format as this repo's explicit research/citation standard (`authoring-guidelines.md` §9.5), with Danish-adapted templates (2026-08-05)
 
 ---
 
