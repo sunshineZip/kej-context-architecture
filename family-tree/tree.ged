@@ -898,6 +898,7 @@
 1 OCCU Gartner (Møn, Bysted, Lyby), kirkebetjent (Oddense-Otting, kort tid Durup kirke)
 1 FAMC @F14@
 1 NOTE Barn "VI." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Ugift. Optræder hyppigt som fadder hos søskendes børn (1944, 1949, 1955, 1957, 1959) — boede tilsyneladende lokalt hele livet. En fadder ved hans egen dåb var "ungkarl Espen Marinus Boe" — fætteren Esper Marinus Christensen Boe fra branch b (@I46@), en fin krydsreference mellem grene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fejlmærket "(V.)" i stedet for "(VI.)" ved en fadderliste i søsterdatteren Monas dåbsindførsel (@I115@) — se family-tree/possible-duplicates.md sub-pattern D, instans D3.
 
 0 @I104@ INDI
 1 NAME Living /Boe/
@@ -924,6 +925,222 @@
 2 DATE 1966
 1 CHIL @I106@
 1 NOTE Ægteskabet opløst.
+
+0 @I107@ INDI
+1 NAME Else Margrethe (Pedersen) Christensen /Boe/
+1 SEX F
+1 BIRT
+2 DATE 14 NOV 1911
+2 PLAC Ålborg Budolfi sogn, Danmark
+1 FAMC @F14@
+1 FAMS @F42@
+1 NOTE Barn "I." af Laurids Christensen Boe og Ottine Boline Marie Pedersen — født FØR forældrenes ægteskab, mens moderen arbejdede som sypige i Ålborg; faderskabet tilsyneladende anerkendt af Laurids 1914, navnet rettet fra "Pedersen" til "Christensen Boe". Opvokset hos forældrene i Durup fra i hvert fald 1916. **Ægteskabsdato-uoverensstemmelse:** en tilføjelse til hendes egen fødselsindførsel angiver "Viede 27/3.1914" for forældrenes vielse — men afsnittets egen indledning (se @F14@) angiver 27.2.1915, Brøndum kirke. Forskellig dag, måned OG år. Ikke afgjort her — se grandfather-review/queue.md #6. Gift 5.2.1933, Durup kirke. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54][CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal — grandfather-review/queue.md #6]
+1 NOTE Foto/dokument: muligvis det beskårne bryllupsfoto øverst i venstre hjørne af library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image14.jpg (siden 33 af manuskriptet), ikke fuldt bekræftet pga. beskæringen.
+
+0 @I108@ INDI
+1 NAME Frederik /Lund/
+1 SEX M
+1 BIRT
+2 DATE 2 MAY 1910
+2 PLAC Ørum by, Danmark
+1 OCCU Teglværksarbejder, senere vognmand, Brunshåb ved Viborg
+1 FAMS @F42@
+1 NOTE Søn af husmand Søren Lund og hustru Marie Cathrine Lund, Ørum. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Foto/dokument: bekræftet på Brunshåb Teglværk, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image14.jpg (manuskriptside 33, billedtekst direkte læselig). Hus og garage med lastbil: image16.jpeg.
+
+0 @I109@ INDI
+1 NAME Egon /Lund/
+1 SEX M
+1 BIRT
+2 DATE 5 FEB 1934
+2 PLAC Brunshåb, Danmark
+1 DEAT
+2 DATE 10 MAY 1934
+2 PLAC Brunshåb, Danmark
+1 FAMC @F42@
+1 NOTE Barn af Else Margrethe og Frederik Lund. Døbt Durup kirke 8.4.1934. Spædbarnsdød, 3 måneder gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I110@ INDI
+1 NAME Hans Kristian Kristensen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 11 AUG 1921
+2 PLAC Durup, Danmark
+1 OCCU Malermester, Havrebakken 4, Rødding ved Viborg
+1 FAMC @F14@
+1 FAMS @F43@
+1 NOTE Barn "V." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Malerlærling 1940, malersvend 1943, malermester fra 1951. Gift 23.7.1948, Ørum-Sønderlyng kirke. [SENSITIVE] — intet dødsår angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I111@ INDI
+1 NAME Living /Schmidt/
+1 SEX F
+1 BIRT
+2 DATE 1927
+1 FAMS @F43@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I111 (kraever adgang til den private modul-repo).
+0 @I112@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1950
+1 FAMC @F43@
+1 FAMS @F44@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I112 (kraever adgang til den private modul-repo).
+0 @I113@ INDI
+1 NAME Living /Broberg/
+1 SEX M
+1 FAMS @F44@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I113 (kraever adgang til den private modul-repo).
+0 @I114@ INDI
+1 NAME Living /Broberg/
+1 SEX F
+1 BIRT
+2 DATE 1974
+1 FAMC @F44@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I114 (kraever adgang til den private modul-repo).
+0 @I115@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1950
+1 FAMC @F43@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I115 (kraever adgang til den private modul-repo).
+0 @I116@ INDI
+1 NAME Living /Boe/
+1 SEX M
+1 BIRT
+2 DATE 1958
+1 FAMC @F43@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I116 (kraever adgang til den private modul-repo).
+0 @I117@ INDI
+1 NAME Krista Marie Kristensen /Boe/
+1 SEX F
+1 BIRT
+2 DATE 21 MAR 1927
+2 PLAC Durup, Danmark
+1 DEAT
+1 FAMC @F14@
+1 FAMS @F45@
+1 NOTE Barn "IX." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Kontorassistent, Aagade i Skive. Gift 1.1.1954, Durup kirke. Bopæl Hybenvej 5, Åbybro. Manuskriptet angiver selv dødsåret som ukendt: "Krista død 19??)." — KEJs egen markerede usikkerhed, ikke denne sessions fund; DATE-feltet derfor bevidst tomt. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I118@ INDI
+1 NAME Martin Christoffer /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 19 MAY 1915
+2 PLAC Damsig, Skæve sogn, Hjørring amt, Danmark
+1 OCCU Svejser
+1 FAMS @F45@
+1 NOTE Søn af landmand Jens Christian Emanuel Christensen og hustru Ingeborg Sørensen. Byggede o.1967 nyt hus ved siden af det gamle i Åbybro, som derefter blev revet ned. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I119@ INDI
+1 NAME Living /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 1955
+1 FAMC @F45@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I119 (kraever adgang til den private modul-repo).
+0 @I120@ INDI
+1 NAME Living /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 1960
+1 FAMC @F45@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I120 (kraever adgang til den private modul-repo).
+0 @I121@ INDI
+1 NAME Kaj /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 12 NOV 1962
+1 DEAT
+1 FAMC @F45@
+1 NOTE Barn "3." af Krista og Martin. Bekræftet afdød, intet dødsår angivet. Børn ikke angivet i kilden ("Børn ?"). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I122@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1930
+1 FAMC @F14@
+1 FAMS @F46@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I122 (kraever adgang til den private modul-repo).
+0 @I123@ INDI
+1 NAME Living /Thomsen/
+1 SEX M
+1 BIRT
+2 DATE 1925
+1 FAMS @F46@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I123 (kraever adgang til den private modul-repo).
+0 @I124@ INDI
+1 NAME Living /Thomsen/
+1 SEX M
+1 BIRT
+2 DATE 1960
+1 FAMC @F46@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I124 (kraever adgang til den private modul-repo).
+0 @I125@ INDI
+1 NAME Living /Thomsen/
+1 SEX F
+1 BIRT
+2 DATE 1960
+1 FAMC @F46@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I125 (kraever adgang til den private modul-repo).
+0 @I126@ INDI
+1 NAME Living /Thomsen/
+1 SEX M
+1 BIRT
+2 DATE 1965
+1 FAMC @F46@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I126 (kraever adgang til den private modul-repo).
+0 @I127@ INDI
+1 NAME Living /Thomsen/
+1 SEX M
+1 BIRT
+2 DATE 1967
+1 FAMC @F46@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I127 (kraever adgang til den private modul-repo).
+0 @F42@ FAM
+1 HUSB @I108@
+1 WIFE @I107@
+1 MARR
+2 DATE 5 FEB 1933
+2 PLAC Durup kirke, Danmark
+1 CHIL @I109@
+
+0 @F43@ FAM
+1 HUSB @I110@
+1 WIFE @I111@
+1 MARR
+2 DATE 23 JUL 1948
+2 PLAC Ørum-Sønderlyng kirke, Danmark
+1 CHIL @I112@
+1 CHIL @I115@
+1 CHIL @I116@
+
+0 @F44@ FAM
+1 HUSB @I113@
+1 WIFE @I112@
+
+0 @F45@ FAM
+1 HUSB @I118@
+1 WIFE @I117@
+1 MARR
+2 DATE 1 JAN 1954
+2 PLAC Durup kirke, Danmark
+1 CHIL @I119@
+1 CHIL @I120@
+1 CHIL @I121@
+
+0 @F46@ FAM
+1 HUSB @I123@
+1 WIFE @I122@
+1 MARR
+2 DATE 10 AUG 1957
+2 PLAC Durup kirke, Danmark
+1 CHIL @I124@
+1 CHIL @I125@
+1 CHIL @I126@
+1 CHIL @I127@
 
 0 @F27@ FAM
 1 HUSB @I62@
@@ -1194,9 +1411,13 @@
 1 MARR
 2 DATE 27 FEB 1915
 2 PLAC Brøndum kirke, Salling, Danmark
+1 CHIL @I107@
 1 CHIL @I102@
+1 CHIL @I110@
 1 CHIL @I103@
 1 CHIL @I104@
-1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet; kun tre ("IV.", "VI.", "VII.") tilføjet her indtil videre — resten følger efterhånden som de læses.
+1 CHIL @I117@
+1 CHIL @I122@
+1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet; syv ("I.", "IV.", "V.", "VI.", "VII.", "IX.", "XI.") tilføjet her indtil videre — resten ("II.", "III.", "VIII.", "X.") følger efterhånden som de læses. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (@I107@) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
 
 0 TRLR

@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.5 | 2026-08-06 | Active
+Version 1.6 | 2026-08-06 | Active
 
 ---
 
@@ -57,6 +57,26 @@ Løbende liste over opdagelser, foreslåede forbindelser, tilsyneladende uoveren
 **Grundlag:** Sammenligning af tre angivelser inden for samme manuskript (Aneoversigt-tabellen, Efterslægtens egen indførsel, og narrativet om navnebevillingen) — ikke en sammenligning mod en ekstern kilde.
 **Status:** Foreslået — endnu ikke gennemgået. Hvilket dødsår er korrekt for Else Marie — 1894 (spædbarn, understøttet af to kilder inkl. en præcis dato) eller o.1900 (omkring 8 år, én kilde)?
 
+### 6. Laurids Christensen Boe og Ottine Boline Marie Pedersens vielsesdato — intern uoverensstemmelse
+
+**Kategori:** Uoverensstemmelse
+**Kilde:** Projekt Arkivdigitalisering, "Boe-slægten fra Mors og Fur", Kapitel 1, Efterslægten, branch g (2026-08-06) — se `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`
+**Fund:** Afsnittets egen indledning om Laurids Christensen Boe angiver, at han blev gift med Ottine Boline Marie Pedersen "27.2.1915 i Brøndum kirke i Salling". Men en tilføjelse til datteren Else Margrethes egen fødselsindførsel (hun blev født 1911, altså før forældrenes ægteskab, og faderskabet blev tilsyneladende først anerkendt af Laurids i 1914) angiver: "Viede 27/3.1914" samt en henvisning til "Skrivelse fra Durup 8-3-14 angaaende Navnets Rettelse og Vielsen". De to angivelser er forskellige i dag, måned OG år (27.2.1915 mod 27.3.1914).
+**Grundlag:** Sammenligning af to angivelser inden for samme manuskript (afsnittets egen indledning vs. en tilføjelse til et af børnenes fødselsindførsler) — ikke en sammenligning mod en ekstern kilde.
+**Status:** Foreslået — endnu ikke gennemgået. Hvilken dato er korrekt for Laurids og Ottines vielse — 27.2.1915 eller 27.3.1914? Eller dækker de to datoer muligvis over to forskellige begivenheder (f.eks. en borgerlig/administrativ anerkendelse af faderskabet i 1914, adskilt fra selve kirkebrylluppet i 1915)?
+
+### 7. Gentagne fejlmærkede søskende-henvisninger (romertal) i branch g
+
+**Kategori:** Uoverensstemmelse
+**Kilde:** Projekt Arkivdigitalisering, "Boe-slægten fra Mors og Fur", Kapitel 1, Efterslægten, branch g (2026-08-06) — se `family-tree/possible-duplicates.md` sub-pattern D
+**Fund:** Tre tilfælde fundet, hvor en person i branch g (Laurids Christensen Boes efterslægt) nævnes korrekt ved navn som fadder, men med et forkert romertal eller en forkert slægtsbetegnelse:
+1. Christen Pedersen Boe (generation 05, faderen til hele slægt g's generation) omtales som "(morbror = g.)" ved et barnedåb — skulle være "morfaderen", uden romertal (han er bedstefar, ikke onkel, og "g." er slet ikke en betegnelse, der gælder for ham).
+2. Christian Christensen Boe (barn "VII." af Laurids) omtales som "(VI.)" ved niecen Mona Schmidt Boes dåb — hans eget afsnit og alle andre henvisninger til ham bruger konsekvent "VII.".
+3. Poul Kristensen Boe (barn "VI." af Laurids) omtales som "(V.)" ved samme dåb — hans eget afsnit og mindst 5 andre henvisninger til ham andetsteds i manuskriptet bruger konsekvent "VI.".
+Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret ser ud til at ramme netop denne type liste.
+**Grundlag:** Sammenligning af flere angivelser af samme personers romertal/slægtsbetegnelser inden for samme manuskript. Ikke en sammenligning mod en ekstern kilde.
+**Status:** Foreslået — endnu ikke gennemgået. Er dette blot skrivefejl i de originale fadderlister (letforklarligt, da flere børn skulle holdes styr på), eller er der en systematisk forveksling et sted i din egen nummerering af branch g's børn, som er værd at tjekke igennem, inden vi læser resten af branch g (fire børn tilbage: "II.", "III.", "VIII.", "X.")?
+
 ---
 
 ## Version History
@@ -69,3 +89,4 @@ Løbende liste over opdagelser, foreslåede forbindelser, tilsyneladende uoveren
 | 1.3 | 2026-08-06 | Added item 4: Mads Pedersen (Boe)'s internally inconsistent birth year across the Boe-slægten manuscript itself, found during the first real chapter read-through. |
 | 1.4 | 2026-08-06 | Added item 5: Else Marie Christensen's (generation 05's youngest child) death year internally inconsistent — 1894 (infant) per her own vital-facts entry vs. o.1900 (implied age ~8) per the surname-bevilling narrative elsewhere in the same manuscript. Found during generation "05"'s read-through. |
 | 1.5 | 2026-08-06 | Updated item 5 with a third data point found during the Efterslægt read-through: Else Marie's own individual entry gives an exact date, 4.6.1894, agreeing with the Aneoversigt table against the "o.1900" narrative mention. Still not treated as settled — appended as new evidence, not a resolution. |
+| 1.6 | 2026-08-06 | Added item 6 (Laurids and Ottine's wedding date internally inconsistent, 27.2.1915 vs 27.3.1914) and item 7 (three instances of correctly-named branch-g individuals mislabeled with the wrong roman-numeral sibling reference, escalated per `family-tree/possible-duplicates.md`'s own reassessment trigger for sub-pattern D). Both found during Efterslægt branch g's first checkpoint. |

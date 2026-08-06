@@ -90,6 +90,30 @@ Studio family portrait: father, mother, and three young children (a toddler boy,
 
 ---
 
+## Images: Efterslægt Branch g, Checkpoint 1 (Children I, V, IX, XI)
+
+| File | KEJ's filename | Position | Type |
+|---|---|---|---|
+| image14.jpg | (Word auto-alt-text, no KEJ filename) | Branch g child "I" (confirmed) | Photo of a photographed manuscript page — two period photos plus a caption |
+| image16.jpeg | Boe B14_NEW.jpg | Branch g child "I" (confirmed) | Photo, house/garage with truck |
+| image15.jpeg | Boe A42_NEW.jpg | Branch g, unconfirmed | Photo, couple at a dinner table |
+
+### image14.jpg — Confirmed: manuscript page 33, Frederik Lund at Brunshåb Teglværk
+
+Unlike the other images, this one is a photograph *of a printed manuscript page* (page number "33" visible), not a clean scan — likely taken with a phone camera during compilation. It shows two source photos plus a partially-visible caption reading "...v. Frederik Lund, Brunshåb Teglv[ærk]" — this is a **direct, legible match** to a caption transcribed from the surrounding text ("Tv. Frederik Lund, Brunshåb Teglværk"). Main photo: two brickworks laborers with a handcart of bricks — Frederik Lund (`@I108@`, Else Margrethe Boe's husband) on the left per the caption. A second, partial photo in the top-left corner (cropped, cut off) appears to be a wedding portrait — plausibly Else Margrethe and Frederik's own 1933 wedding, though the crop makes this less certain than the main photo's match. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption text directly legible and matches the extracted transcription] Individual: `@I108@` (confirmed for the main photo), `@I107@` possibly (the cropped wedding photo, less certain).
+
+### image16.jpeg — Confirmed: Else Margrethe and Frederik Lund's house
+
+A house with an attached garage, a truck visible through the open garage door. **Direct match** to the caption "Hus og garage med lastbil" ("House and garage with truck") found in the same passage as `image14.jpg`'s captions — Frederik Lund worked as a vognmand (haulier) after his brickworks years, explaining the truck. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption match] Individuals: `@I107@`, `@I108@` (their property, though neither appears in the photo itself).
+
+### image15.jpeg — Unconfirmed: couple at a dinner table
+
+A 1960s-1970s-style photo of a middle-aged/older couple in conversation at a dinner table. No caption match found. Plausible but unconfirmed candidates from this checkpoint include Krista (`@I117@`) and Martin (`@I118@`), whose marriage (1954) and era would fit, but nothing distinguishes them from several other Efterslægt couples of similar age. Left unconfirmed rather than guessed. `[UNVERIFIED: AI visual description, identity unconfirmed]`
+
+**Also checked and deferred:** `image17.jpeg` ("Boe A50") — a young man's formal portrait, 1920s-1930s style. No caption or contextual match found in this checkpoint; left unfiled.
+
+---
+
 ## Sensitivity
 
 The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` flag — everyone in them died well over 70 years ago. That changes starting with Efterslægt: `image8`/`image9` above don't currently need the flag either (no confirmed identity, and if image8's guess is right, a 1910 marriage is not recent), but per the branch-b text extraction, several individuals in this branch (Poul and Henning Christensen Boe and their families) have no death dates and are treated as potentially living — any future image confirmed to depict them would need `[SENSITIVE]`.
