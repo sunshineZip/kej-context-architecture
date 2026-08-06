@@ -258,3 +258,30 @@ STATUS: CHECKPOINT
 Completed: Read and extracted the Aneoversigt and generation "02" of Chapter 1; flagged one genuine cross-reference-worthy inconsistency and deliberately did not flag two likely extraction artifacts.
 Next: Generation "03" (Christen Pedersen Boe, 1780-1832), pending the human's go-ahead.
 Waiting for: The human to confirm continuing to the next section.
+
+---
+
+## [HUMAN] — Turn 19 | 2026-08-06
+
+Confirmed continuing to generation "03."
+
+---
+
+## [Claude] — Turn 20 | 2026-08-06
+
+Read and extracted generation "03" (Christen Pedersen Boe, 1780-1832, ~18,000 characters). Notable content: a full transcribed 1832 probate record (skifte) from the Ullerup gods skifteprotokol — itemized estate inventory, an insolvent outcome (692 dr expenses against 212 dr valuation) — a genuine primary-source example matching the `skifteprotokol` citation template built in `authoring-guidelines.md` §9.5, worth citing precisely once a domain exists. Also ten children (ages 1811-1829, with the period-typical pattern of reusing a name after an earlier child by that name died in infancy), one of whose lines (via Else Christensdatter Boe → the Vestergaard family in Solbjerg) runs forward into the 20th century.
+
+**Flagged for later, not acted on now:** the Vestergaard line's most recent individuals have no death dates given in the manuscript and may still be living — noted for `[SENSITIVE]` treatment once this becomes real domain content, not something to act on in a project-layer working note.
+
+**Data quality:** found a third instance of the same digit-transposition shape (an infant's death year and another's birth year both showing "19xx" instead of "18xx") — treated as a likely recurring extraction artifact rather than three separate manuscript errors, and explicitly logged as "worth double-checking a few more instances before concluding it's systematic." Did not add anything to `grandfather-review/queue.md` this turn — everything found was either straightforward transcription (no inference involved) or, per the artifact pattern, not confident enough to be worth KEJ's time.
+
+### Session close
+
+Knowledge candidates: None yet, formally — same as Turn 18, pending Phase 3.
+Open flags: None added this turn.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Extracted generation "03," including a full probate record and ten children with one multi-generation descendant line.
+Next: Generation "04" (Peder Christensen Boe, 1816-1879), pending the human's go-ahead.
+Waiting for: The human to confirm continuing to the next section.
