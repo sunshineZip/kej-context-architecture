@@ -650,6 +650,11 @@ if (Test-Path $treeGedPath) {
     foreach ($gedLine in $gedLines) {
         $gedLineNum++
 
+        if ($gedLine.Trim() -eq '') {
+            Add-ValidationError "family-tree/tree.ged:$gedLineNum — blank line (invalid GEDCOM; every line must start with a level number). This is what actually produced Gramps' 'Line ignored' import errors on 2026-08-06, not the earlier @-escaping bug — do not use blank lines as visual spacing between records."
+            continue
+        }
+
         if ($gedLine.Length -gt 255) {
             Add-ValidationWarning "family-tree/tree.ged:$gedLineNum — line is $($gedLine.Length) chars, over the 255-char soft limit some GEDCOM tools enforce (Gramps tolerates this; flagged as a warning only)"
         }
