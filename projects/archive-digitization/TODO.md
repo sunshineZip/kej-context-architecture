@@ -5,7 +5,7 @@ project: archive-digitization
 
 # Archive Digitization — TODO
 
-Version 1.1 | 2026-08-06 | Active
+Version 1.2 | 2026-08-06 | Active
 
 > **Routing check:** This is a task tracking file, not a work queue. Do not start work on any item here unless you have completed ROUTING.md routing and received explicit human confirmation for this session.
 
@@ -13,6 +13,7 @@ Version 1.1 | 2026-08-06 | Active
 
 ## Open
 
+- [ ] **Check `incoming/` for new files at the start of each working session** (2026-08-06): the human now pushes raw files directly into `incoming/` via git/GitHub instead of an AI tool connector fetch (see `incoming/README.md`), specifically to avoid connector size caps like the one below. Anything found there needs the same triage as any other manifest item: update `context/intake-manifest.md`, decide its real home, move it out of `incoming/`.
 - [ ] **Store the original Boe-slægten `.docx`, not just its text** (2026-08-06): received via Google Drive and read through generation "03," but the true original binary is still not in the repo. A full plain-text extraction is stored as an interim measure (`library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-fulltext.txt`), but this session's Google Drive connector caps `download_file_content` at 10 MB and the file is 46.1 MB — the connector itself is the blocker, not GitHub's ~100 MB limit (46.1 MB is well under that) and not the cornerstone decision (already confirmed). Needs either a Drive connector without the 10 MB cap, or the human attaching the file directly to a session that can receive it whole. See `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-manifest.md`.
 - [ ] Decide an approach to handwriting transcription for older Danish church records (possibly Gothic/Kurrent script) — manual transcription, a specialized OCR tool, or the family's own knowledge of the handwriting
 - [ ] As each item in `context/intake-manifest.md` arrives: mark it received, do a rough triage pass (slægt/category, source type) using the working assumptions below, update its status

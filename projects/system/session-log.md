@@ -220,3 +220,31 @@ STATUS: CHECKPOINT
 Completed: Created `family-tree/tree.ged` and `family-tree/possible-duplicates.md`, formalizing what `data-structure-proposal.md` had only sketched; updated `Architecture.md` to match. Registered the Boe-slægten manuscript as the first `library/` deep well (partially stored — text only, original binary blocked by a connector limit, not a decision).
 Next: Continue `family-tree/tree.ged` incrementally as further Boe-slægten sections are read (generation "04" next); re-attempt the original `.docx` retrieval when a suitable path exists.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 9 | 2026-08-06
+
+Same session as Turn 8, continued. Human asked directly how to solve the Boe-slægten `.docx` size problem going forward, since more (possibly larger) files are coming. Investigated rather than assumed: the Google Drive connector's `download_file_content` tool caps at 10 MB regardless of file permissions, and — tried directly — this environment's outbound network policy separately blocks a direct `curl` to `drive.google.com` at the proxy level (`403`, confirmed via the proxy's own status endpoint), so even public-sharing the file plus a raw fetch wouldn't have worked here. Two independent blockers, not one; loosening either alone doesn't fix it, and Google's own large-file interstitial would still complicate a raw fetch even if the network policy allowed it.
+
+Recommended routing large-file intake through a direct git push instead of an AI tool connector fetch — the human has ordinary unrestricted access to their own Drive downloads, so pushing straight into the repo sidesteps both blockers entirely, up to GitHub's own ~100 MB per-file limit. Human asked for a dedicated `incoming/` folder to make that concrete.
+
+**Built:**
+
+- `incoming/README.md` — new top-level, git-tracked landing zone for untriaged raw files. Flat, no required subfolder structure (matches the human's stated goal of minimizing upload-time friction); explicitly distinguished from `temp/`, which is gitignored and for transient handoff material only, not durable storage. States the triage procedure (check against `projects/archive-digitization/context/intake-manifest.md`, decide the real destination per existing `library/deep-wells/`/`sources/`/registry-only rules, then move the file out — `incoming/` is a waiting room, not a permanent home).
+- `Architecture.md` (1.8 → 1.9) — §2 file structure diagram gained `incoming/`; new §3 subsection "Untriaged file intake — fork-specific: `incoming/`".
+- `ROUTING.md` (1.14 → 1.15) — new Quick Task Guide entry: push a raw file into `incoming/` directly rather than defaulting to an AI tool connector fetch for anything of meaningful size.
+- `projects/archive-digitization/TODO.md` — added checking `incoming/` at the start of each working session as a standing item.
+
+No design fork genuinely needed the human's input beyond "yes, build this" — folder location (top-level, sibling to `library/`/`family-tree/`/`grandfather-review/`, not project-scoped, since intake isn't specific to one project) and the flat/no-subfolder structure were both reasonably unambiguous defaults given the stated goal, so built directly rather than raising a separate design question first.
+
+### Session close
+
+Knowledge candidates: None — structural/tooling addition, not a domain fact.
+Open flags: None.
+Push status: Pending — will push after this turn is logged, together with Turn 8's work if not already pushed.
+
+STATUS: CHECKPOINT
+Completed: Diagnosed the Boe-slægten `.docx` size problem as two independent, environment-level blockers (connector cap + network policy), not something fixable from within the session; built `incoming/` as the sustainable fix — direct git push instead of a connector fetch for future large files.
+Next: Human to start pushing queued files into `incoming/`; triage them in a subsequent session per `incoming/README.md`.
+Waiting for: Nothing further this turn — pushing now.
