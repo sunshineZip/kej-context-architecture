@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Chapter 1 Extraction Notes
 
-Version 1.9 | 2026-08-06 | Active
+Version 1.10 | 2026-08-06 | Active
 
 ---
 
@@ -29,7 +29,12 @@ This also answers a separate question: what guards against Claude simply misread
   - [x] a, c, d, f, h, i — six short, closed branches (no further descendants)
   - [x] b — Marie Christensen Boe (incl. son Esper Marinus Christensen Boe's own line)
   - [x] e — Jens Christensen Boe (incl. K.K.K. Boe's line, 3-4 generations)
-  - [ ] g — Laurids Christensen Boe (largest branch, ~1,100 lines/73+ individuals, 4-5 generations reaching to 2026 — will need its own further sub-breakdown, likely by child)
+  - [ ] g — Laurids Christensen Boe (largest branch, ~1,100 lines/73+ individuals, 4-5 generations reaching to 2026), scoped into 5 checkpoints by size, grouped rather than strict letter order:
+    - [x] IV, VI, VII — three smallest children (~20-27 lines each)
+    - [ ] I, V, IX, XI — four medium children (~50-67 lines each)
+    - [ ] II, X — two larger children (~90-140 lines each)
+    - [ ] III — Meta Kristine Kristensen Boe (~175 lines)
+    - [ ] VIII — Karen Kristensen Boe / the Boll family (~330 lines, largest single sub-branch; she died 2012, so this is where currently-living relatives are most likely — will probably need its own further split once reached)
 
 **Images, added 2026-08-06:** the manuscript's 48 embedded images had been ignored by the text-only extraction above until now. Now tracked separately in `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`, with its own per-image schema (KEJ's original filename, position, type, description, legibility/confidence, people cross-referenced to `family-tree/tree.ged`). First batch — the 6 images tied to Aneoversigt/generations "02"-"05" above — is done. From Efterslægt onward, image extraction happens in the same working session as the text it's found in, not as a separate catch-up pass.
 
@@ -233,6 +238,20 @@ All individuals in this section now modeled in `family-tree/tree.ged`: `@I62@`-`
 
 ---
 
+## Efterslægt — Branch g (Laurids Christensen Boe), Part 1: Children IV, VI, VII
+
+Branch g — **Laurids Christensen Boe** (1887-1957) and **Ottine Boline Marie Pedersen** (b.1887, Løkken), married 27.2.1915, Brøndum kirke — is by far the largest of generation 05's nine children, with eleven of its own children ("I."–"XI.") and roughly 73 named individuals across 4-5 generations. Scoped out before starting (see prior turn): grouped into five checkpoints by size rather than read straight through in letter order. This is the first: the three smallest, shortest entries.
+
+- **"IV." Karl Alfred Christensen Boe** (b.2.2.1920, Durup). Faddere: parents, isenkræmmer (hardware merchant) Thorndal and wife Bolette, Roslev. Daglejer (day laborer), mostly on Fyn. Unmarried. The manuscript confirms he died ("Død") but gives no date at all — a genuine gap, not a contradiction, so no `[SENSITIVE]` flag needed (confirmed deceased, just undated).
+- **"VI." Poul Kristensen Boe** (b.24.1.1923, Durup; d.6.6.2009, Durup). Gartner (gardener) — Møn, then back to Salling (Bysted, later Glyngørevejen in Lyby), kirkebetjent (church verger) in Oddense-Otting and briefly at Durup church; retired to a house on Hovedgaden, Durup. Unmarried. Shows up repeatedly as fadder for his siblings' children across decades (1944, 1949, 1955, 1957, 1959) — clearly stayed locally involved his whole life. One of his own faddere was "ungkarl Espen Marinus Boe" — his cousin Esper Marinus Christensen Boe from branch b (`@I46@`), a small but genuine cross-branch link.
+- **"VII." Christian Christensen Boe** (b.19.5.1924, Durup). Medhjælper (farmhand) in Toustrup 1940; gartnerelev (gardening apprentice) in Odense 1944; later worked as a gartner in Iceland, Lyby, and Århus. Married 1966 to Lisbeth, who had five children from a previous marriage (John, Norma, Brian, Lasse, Peter — not part of the Boe bloodline, no individual records created). Marriage later dissolved. One son together: Ernst Christian Boe, no further detail given. `[SENSITIVE]` — no death date for Christian, Lisbeth, or Ernst Christian.
+
+**Images:** two more checked (`image12.jpeg`, an indoor domestic scene, and `image13.jpeg`, another period wedding portrait, style 1920s) — neither matches any of these three (none married in a way consistent with a 1920s wedding photo; Karl Alfred and Poul were unmarried, Christian's 1966 marriage is too late for this photo's style). Left unfiled, not forced into this batch.
+
+`family-tree/tree.ged`: `@I102@`-`@I106@` (5 new individuals), family `@F41@` (new), plus `@F14@`/`@I37@`/`@I38@` refined from stub to full detail (children list still incomplete — 8 of 11 remain).
+
+---
+
 ## Open Items — Data Quality
 
 Not resolved here; flagged rather than silently corrected, per this repo's correction discipline. Items 3, 5, and 6 below (the likely-extraction-artifact anomalies) are now also tracked centrally in `family-tree/possible-duplicates.md` §2, cross-referenced by ID (A1-A3, B1-B3) — that file is where to look for the running count across sections, not just this one.
@@ -265,3 +284,4 @@ Not resolved here; flagged rather than silently corrected, per this repo's corre
 | 1.7 | 2026-08-06 | Started Efterslægt, broken down by generation 05's nine children (branches a-i) per the manuscript's own structure. First batch: the six short, closed branches (a, c, d, f, h, i) — no marriages producing further lines, or none at all. Notable: branch f (Mette Christensen Boe) founded a still-distributing charitable trust in 1972; her death date corrected from an earlier "AFT 1975" estimate to a precise 10.8.1977, resolving the prior `[SENSITIVE]`-pending uncertainty. Branch i (Else Marie) yielded a third, more precise data point (4.6.1894) for the death-year contradiction already queued as `grandfather-review/queue.md` item 5 — updated that item with the new evidence rather than resolving it unilaterally, though `family-tree/tree.ged` now uses 4.6.1894 as the better-supported value. One image checked (`image7.jpeg`) did not match any of these six branches on content grounds, deferred to branches b/e/g. |
 | 1.8 | 2026-08-06 | Added Efterslægt branch b (Marie Christensen Boe, including son Esper Marinus Christensen Boe's own line — 17 new individuals). First branch reaching into likely-living family (Poul and Henning Christensen Boe's generation, `[SENSITIVE]` throughout, no death dates given). New low-confidence anomaly found (a fadder mislabeled both by relationship and branch-letter) — logged as new sub-pattern D in `family-tree/possible-duplicates.md`, deliberately kept separate from sub-pattern C since the error shape differs (label wrong vs. name reordered). Two more images checked: one plausible-but-unconfirmed wedding-portrait match, one left fully unclassified. |
 | 1.9 | 2026-08-06 | Added Efterslægt branch e (Jens Christensen Boe, including "K.K.K. Boe"'s own line — 40 new individuals, the largest single addition yet). Resolved Open Item 9 (the "=05-e-I." vs "=05-f-I." cross-reference): confirmed "=05-e-I." correct by reading his own entry directly. New sub-pattern E logged (an implausible age/timeline from a full but likely-erroneous date — a marriage date that would make the bride 8 years old as given). Extensive `[SENSITIVE]` coverage, since most of K.K.K. Boe's own children and grandchildren have no death dates. One plausible family-portrait image match found; one streetscape image deferred to branch g on a thematic hint (a street informally named after Laurids Boe). |
+| 1.10 | 2026-08-06 | Scoped out branch g (Laurids Christensen Boe, the largest — 11 children, ~73 individuals) into 5 checkpoints by size before starting; recorded in Progress. Read the first: children "IV."/"VI."/"VII.", the three smallest and simplest (5 new individuals). Notable only for a cross-branch fadder link (Poul's own baptism fadder was his cousin Esper Marinus from branch b). Two more images checked, neither matched, left unfiled. |
