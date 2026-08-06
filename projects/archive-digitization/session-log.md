@@ -227,3 +227,34 @@ STATUS: CHECKPOINT
 Completed: Logged the handoff to a local VS Code + Copilot session; gave a storage-format recommendation pending confirmation once the file is actually accessible.
 Next: Chapter-by-chapter read-through of Boe-slægten fra Mors og Fur.docx, one chapter at a time with a check-in between each, continuing in the local session.
 Waiting for: The human to continue in VS Code + Copilot.
+
+---
+
+## [HUMAN] — Turn 17 | 2026-08-06
+
+Offered to try sharing the file via Google Drive instead of switching to VS Code.
+
+---
+
+## [Claude] — Turn 18 | 2026-08-06
+
+The Google Drive connector worked — no VS Code switch needed after all. Retrieved file metadata first (46.1 MB, owner hogedalboe@gmail.com, docx) before pulling full content, since the tool description warned large-file reads can be incomplete. The full text (147,860 characters) came back too large for one read, saved to a local scratch file by the tool; used a quick Python pass over that file to locate real chapter/section boundaries via regex before reading anything substantial into context — this surfaced that "Chapter 1" alone (pages 4-54) is roughly 88,000 characters, nearly as large as the other three chapters combined, with a further internal structure (4 generation entries, 02-05, plus a much larger Efterslægt/descendants section, p.25-54). Reported this back and proposed an even finer read cadence than one-chapter-at-a-time before reading further — human confirmed.
+
+Read the Aneoversigt and generation "02" (Peder Christensen Boe, o.1731-1810) — roughly the first 17,000 characters of real content. Extracted into `context/boe-slaegten-chapter1-extraction.md`: the four-generation Aneoversigt table, detailed notes on Peder Christensen Boe and his wife Zidsel Lauridsdatter Toft, the documented "Kyssesekten" episode (a religious sect scandal directly touching this family — Zidsel's son Mads Pedersen was fathered out of wedlock by the sect's leader, per what reads like a direct kirkebog quotation in the manuscript), and the three children of this marriage (Anna, Christen [=generation "03"], Laurs).
+
+**Data-quality issues found and handled per this repo's correction discipline — flagged, not silently resolved:**
+- Mads Pedersen (Boe)'s birth year is internally inconsistent across the manuscript itself (1774 stated explicitly in one passage, 8.5.1773 in another, and 1772/1773/1771 implied by three different age-at-date statements) — genuinely a period-record ambiguity, not an extraction error, so **added to `grandfather-review/queue.md` as item 4**, bundled with a minor second question about an apparent "(= 03)" mislabel that looks like it should read "(= 02)".
+- Two other apparent inconsistencies (children's ages in the 1801 census; Mette Jensdatter's implausible "1878" birth year in the Aneoversigt table) were deliberately *not* queued — the pattern (identical wrong value appearing twice) reads more like a text-extraction artifact from this session's own tooling than a real error in KEJ's work, and shouldn't be put to him as if it were.
+
+No domain created — this stays project-layer working notes, consistent with the current phase. The original .docx itself has still not been committed to the repo in any format; that's a separate, not-yet-actioned decision (library/ deep well, pending the cornerstone confirmation and a file-size check already flagged as fine at 46.1 MB, well under GitHub's 100MB limit).
+
+### Session close
+
+Knowledge candidates: None yet, formally — strong candidate material for a future Boe domain, but nothing promoted until that domain exists (Phase 3).
+Open flags: One added to `grandfather-review/queue.md` (item 4).
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Read and extracted the Aneoversigt and generation "02" of Chapter 1; flagged one genuine cross-reference-worthy inconsistency and deliberately did not flag two likely extraction artifacts.
+Next: Generation "03" (Christen Pedersen Boe, 1780-1832), pending the human's go-ahead.
+Waiting for: The human to confirm continuing to the next section.
