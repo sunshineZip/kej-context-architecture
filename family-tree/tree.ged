@@ -3,7 +3,7 @@
 1 CHAR UTF-8
 1 GEDC
 2 VERS 5.5.1
-1 NOTE Seeded 2026-08-06 from Boe-slaegten fra Mors og Fur, Kapitel 1 (generations "02" and "03" fully read; generations "04"/"05" and their children included only at the vital-fact level already captured in the Aneoversigt/children summary, not yet from their own detailed sections). Source: library/reference-index.md#boe-slaegten-fra-mors-og-fur. Structure and conventions per projects/archive-digitization/context/data-structure-proposal.md.
+1 NOTE Seeded 2026-08-06 from Boe-slaegten fra Mors og Fur, Kapitel 1, built incrementally as each generation is read. Generations "02"-"04" fully read (04 added 2026-08-06); "05" and its children still only at the vital-fact level captured from the Aneoversigt/children summary, not yet from generation 05's own detailed section. Source: library/reference-index.md#boe-slaegten-fra-mors-og-fur. Structure and conventions per projects/archive-digitization/context/data-structure-proposal.md.
 
 0 @I1@ INDI
 1 NAME Peder Christensen /Boe/
@@ -140,15 +140,15 @@
 1 NAME Peder Christensen /Boe/
 1 SEX M
 1 BIRT
-2 DATE 1816
+2 DATE 18 MAY 1816
 2 PLAC Jørsby, Mors, Danmark
 1 DEAT
-2 DATE 1879
+2 DATE 10 FEB 1879
 2 PLAC på Limfjorden
-1 OCCU Husmand og fisker, Fur
+1 OCCU Husmand ("Heden"/Anshede, Fur), fisker, gå-post (Skive-Fur)
 1 FAMC @F5@
 1 FAMS @F10@
-1 NOTE Generation "04" i Aneoversigten. Flyttede til Fur efter konfirmation (1831). Kun Aneoversigt-niveau fakta medtaget her — kapitlets egen detaljerede sektion for generation "04" (s.18-20) er endnu ikke læst. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Konfirmeret 1831, Jørsby. Til Fur 1848. Købte to hedelodder 1851/1853 (skøde transskriberet i manuskriptet). Druknede/frøs ihjel på Limfjordens is 10.2.1879 sammen med Christen Nielsen Hautorn. 1845-folketællingen viser fejlagtigt fødested "Sdr Dråby" (KEJ har selv markeret dette med udråbstegn i kilden — ikke denne sessions fund). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
 
 0 @I15@ INDI
 1 NAME Maren /Christensdatter/
@@ -236,13 +236,14 @@
 1 NAME Bodil Kirstine /Iversdatter/
 1 SEX F
 1 BIRT
-2 DATE 1824
-2 PLAC Thorum, Danmark
+2 DATE 17 OCT 1824
+2 PLAC Thorum, Salling, Danmark
 1 DEAT
-2 DATE 1906
-2 PLAC Fur, Danmark
+2 DATE 31 JUL 1906
+2 PLAC Fur, "Bakkerne", Danmark
+1 FAMC @F16@
 1 FAMS @F10@
-1 NOTE Aneoversigt-niveau fakta kun. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Aftægtskone hos søn Christen Pedersen Boe (gen. "05") efter mandens død, folketællinger 1880-1906. Datter af Iver Hendriksen og Else Jensdatter — se SØGÅRD-SLÆGTEN (anetavle, endnu ikke læst); ingen individuelle poster oprettet for forældrene endnu. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
 
 0 @I27@ INDI
 1 NAME Christen Pedersen /Boe/
@@ -400,6 +401,57 @@
 1 FAMC @F11@
 1 NOTE Barn "i." af generation 05. Spædbarnsdød. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
 
+0 @I41@ INDI
+1 NAME Iver /Pedersen/
+1 SEX M
+1 BIRT
+2 DATE 22 AUG 1851
+2 PLAC Hvirp, Fur, Danmark
+1 DEAT
+2 DATE 5 FEB 1871
+2 PLAC Fur, Danmark
+1 FAMC @F10@
+1 NOTE Barn "a." af generation 04. Konfirmeret efterår 1866. Død ugift, 19½ år. "Minde over Ungkarl Iver Pedersen af Heden" nævnt i manuskriptet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+
+0 @I42@ INDI
+1 NAME Jens /Pedersen/
+1 SEX M
+1 BIRT
+2 DATE 28 MAY 1859
+2 PLAC på "Heden", Fur, Danmark
+1 DEAT
+2 DATE 14 DEC 1859
+2 PLAC på "Heden", Fur, Danmark
+1 FAMC @F10@
+1 NOTE Barn "c." af generation 04. Spædbarnsdød, ½ år gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+
+0 @I43@ INDI
+1 NAME Jens /Pedersen/
+1 SEX M
+1 BIRT
+2 DATE 25 JUL 1861
+2 PLAC på "Heden", Fur, Danmark
+1 DEAT
+2 DATE 6 MAR 1864
+2 PLAC på "Heden", Fur, Danmark
+1 FAMC @F10@
+1 NOTE Barn "d." af generation 04. Navn genbrugt efter @I42@'s død som spæd. Død 2½ år gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+
+0 @I44@ INDI
+1 NAME Mette /Pedersdatter/
+1 SEX F
+1 BIRT
+2 DATE 20 JUN 1863
+2 PLAC på "Heden", Fur, Danmark
+1 DEAT
+2 DATE 5 AUG 1877
+2 PLAC Fur, Danmark
+1 FAMC @F10@
+1 NOTE Barn "e." af generation 04. Død 14 år gl., indrammet gravskrift ifølge manuskriptet. En senere Mette Boe (barn "f." af generation 05, @I36@) blev opkaldt efter hende. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+
+0 @F16@ FAM
+1 NOTE Iver Hendriksen og Else Jensdatter, forældre til Bodil Kirstine Iversdatter (@I26@) — omtalt i manuskriptets SØGÅRD-SLÆGTEN anetavle-appendiks, ikke selvstændigt læst/transskriberet endnu. Ingen @I@-poster oprettet for dem her, samme praksis som @F15@. Se også family-tree/possible-duplicates.md §2C for en navnerækkefølge-uoverensstemmelse fundet ved en fadder kaldet "Hendrik Iversen (morfar)" ved et barnedåb i generation 04's sektion.
+
 0 @F15@ FAM
 1 NOTE Jens Møller og Else Jensdatter, forældre til Mette Jensdatter (@I10@) — omtalt i manuskriptets kapitel 3, ikke selvstændigt læst/transskriberet endnu. Ingen @I@-poster oprettet for dem her for at undgå at gætte navneformer, der ikke er set direkte.
 
@@ -477,10 +529,14 @@
 1 HUSB @I14@
 1 WIFE @I26@
 1 MARR
-2 DATE 1850
+2 DATE 17 AUG 1850
 2 PLAC på Fur
+1 CHIL @I41@
 1 CHIL @I27@
-1 NOTE Kun ét barn (generation "05") medtaget her — kapitlets egen detaljerede sektion for generation "04" (s.18-20), som ville liste alle børn, er endnu ikke læst.
+1 CHIL @I42@
+1 CHIL @I43@
+1 CHIL @I44@
+1 NOTE Fem børn (a.-e.) per generation "04"'s egen sektion. Barn "b." (Christen Pedersen, @I27@) er generation "05".
 
 0 @F11@ FAM
 1 HUSB @I27@

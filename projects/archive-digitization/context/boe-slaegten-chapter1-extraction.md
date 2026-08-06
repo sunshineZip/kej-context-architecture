@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Chapter 1 Extraction Notes
 
-Version 1.3 | 2026-08-06 | Active
+Version 1.4 | 2026-08-06 | Active
 
 ---
 
@@ -14,6 +14,8 @@ Working extraction notes from "2024 Boe-slægen fra Mors og Fur.docx" (KEJ's com
 
 This also answers a separate question: what guards against Claude simply misreading or mis-paraphrasing KEJ's own text (distinct from `grandfather-review/`, which guards against Claude's own *inferences* being wrong, not plain misreads)? Two practices, already partly in use and now made explicit: (1) quote consequential atomic facts — dates, ages, named individuals, and any passage that reads as a direct kirkebog/skifte transcription — close to verbatim rather than paraphrasing them, so a mismatch is visible at a glance; (2) precise per-claim citations (this paragraph) make it a cheap, localized check for KEJ or the human to compare a specific claim against the original document, rather than needing a full independent re-transcription pass, which would cost roughly as much as the original extraction for uncertain benefit given it would be the same reader checking their own reading.
 
+**Correction to the v1.2 "going forward" promise:** intended to capture exact per-claim page numbers from generation "04" onward. In practice, this section was read from the plain-text extraction (`library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-fulltext.txt`), which does not reliably preserve page-break markers — the only page-like marker encountered mid-text ("Kapitel 1 - 06") does not correspond consistently to the manuscript's own absolute page numbers and looks like a running header/footer artifact of the docx-to-text conversion, not a trustworthy pin. Generation "04" below is therefore still cited at the same section-range precision (`p.18-20`) as generations "02"/"03," not finer — stated plainly rather than quietly falling short of what v1.2 said. True per-claim page precision would need reading the original `.docx` with page rendering intact, not this extraction.
+
 ---
 
 ## Progress
@@ -21,7 +23,7 @@ This also answers a separate question: what guards against Claude simply misread
 - [x] Aneoversigt (pedigree overview, p.3)
 - [x] 02. Peder Christensen Boe, o.1731-1810 (p.5-8)
 - [x] 03. Christen Pedersen Boe, 1780-1832 (p.9-17)
-- [ ] 04. Peder Christensen Boe, 1816-1879 (p.18-20)
+- [x] 04. Peder Christensen Boe, 1816-1879 (p.18-20)
 - [ ] 05. Christen Pedersen Boe, 1853-1930 (p.21-24)
 - [ ] Efterslægt (descendants, p.25-54) — will need its own further breakdown once reached
 
@@ -91,6 +93,35 @@ All individuals in this section are now also modeled in `family-tree/tree.ged` (
 
 ---
 
+## 04. Peder Christensen Boe (1816–1879) — Detailed Notes
+
+**Vital facts:** born 18.5.1816, Jørsby, son of gårdbruger Christen Pedersen Boe (03) and Mette Jensdatter. Faddere: Mads Pedersen, Lars Toft (gårdbrugere, Jørsby/Sdr. Dråby), Christen og Zidsel Nygaard, Grethe Pedersdatter (Jørsby). Confirmed 1831, Jørsby, age 15, "Ganske gode Kundskaber. Opførsel også god." Moved as tjenestedreng: to Sdr. Dråby 3.11.1834 (age 18), to Sejerslev 2.11.1837 (age 21½), then to Fur 1848 ("Har tjent på Mølhave," "med godt skudsmål"). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+
+**A discrepancy KEJ flags himself, not this session's finding:** the 1.2.1845 folketælling entry for "tjenestekarl Peder Christensen, 28 år" gives his birthplace as "Sdr Dråby" — the manuscript itself marks this with an exclamation point, since every other record in this section (and generation "03"'s own account of his birth) places his birth in Jørsby, not Sdr. Dråby. Transcribed faithfully as a source-level inconsistency KEJ already noticed, not queued to `grandfather-review/` since it isn't new information for him. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20][CONTRADICTS: boe-slaegten-fra-mors-og-fur, birth record earlier in same manuscript]
+
+**Marriage:** 1.2.1850 folketælling shows Peder Christensen, 33, tjenestekarl for sognepræst Ernst Christian Fischer, Fur — where Bodil Kirstine Iversdatter also served as tjenestepige (in the parish since 1849). Married 17.8.1850, Fur: ungkarl Peder Christensen (tjener i præstegården) and pigen Bodil Kirstine Iversdatter, born 17.10.1824, Thorum i Salling, daughter of Iver Hendriksen and Else Jensdatter (manuscript cross-references "SØGÅRD-SLÆGTEN," an anetavle appendix not yet read — no individual records created for her parents here, same as Mette Jensdatter's parents in generation "03," pending that appendix). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+
+**Property — a transcribed skøde (deed), a genuine primary-source example matching this manuscript's habit of quoting source documents at length:** 1.11.1851, Peder Christensen Boe bought a hedelod ("Anshede, bakkerne," matr. 130, hartkorn ¼ album) from selvejergårdmand Anders Andersen for 100 rigsbankdaler — full deed text transcribed in the manuscript, witnessed by Christen Mortensen and Søren Mortensen, tinglæst (registered) 5.8.1853 at Salling Herreders Ret. A later continuation-attest (1860) notes and resolves a title-chain irregularity in Anders Andersen's own prior ownership. The manuscript concludes Peder Boe likely took possession by 1.4.1852, shortly after the 1850 wedding — supported by son Iver's birth record (22.8.1851) already naming the father "Peder Christensen Boe af Heden." A second hedelod (No. 5, Litra B, Østerhusheden) was bought 30.6.1853 for 36 rigsbankdaler from husmand Jens Pedersen; both deeds registered together 5.8.1853. A panteobligation (mortgage bond) of 100 rigsdaler to ungkarl Mikkel Jensen (Sdr. Lundgård), secured against these hedelodder at 4% p.a., was issued 27.12.1863 and redeemed 14.12.1879 — the manuscript adds context that private mortgage financing of this kind was standard before parish savings banks (e.g. "Fuur Ø's Spare- og Laanekasse," established 1873) became common. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+
+**Census and occupation:** 1.2.1855, daglejer i "Jegdal," wife and 2 children (Iver, 4; Christen, 2). 1.2.1860, husmand, "Heden," wife and 2 children. 1.2.1870, age 53, wife and daughter Mette (6). Alongside the hedelod and Limfjord fishing (universal on Fur), the manuscript records — per family testimony from Mette Boe (Nykøbing) and lærer K.K.K. Boe (Lemvig), corroborated by a quoted *Skive Folkeblad* article (1.9.1947) — that Peder Boe worked as a gå-post (walking postman) between Skive and Fur, appointed by the parish priest, running the route twice weekly and also carrying wool/vadmel goods for dyeing and errands to the apothecary and shops. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+
+**Death:** Peder Christensen Boe ("Hmd, gift, af Anshede") died 10.2.1879 on the Limfjord together with Christen Nielsen Hautorn (also married, "af Anshede") — per Mette Boe and K.K.K. Boe, they drove into a våge (open break in the ice) while sledging to Nykøbing Mors; Boe was recovered but froze to death. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+
+**Widow Bodil Kirstine Iversdatter:** folketællinger 1880/1890/1901/1906 all show her living with son Christen Pedersen Boe (generation "05"), described successively as "Husfaders Moder, der af ham forsørges," "Husfaderens Moder," "Aftægtskone," and "Farmoder, på Aftægt." Died 31.7.1906, Fur, aftægtskone i "Bakkerne," begravet 4.8.1906. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+
+**Five children of Peder Boe and Bodil Kirstine, 1851–1863 (a–e; two more infant deaths and one name-reuse, the same period pattern already seen in generation "03"):**
+- **a. Iver Pedersen** (b.22.8.1851, Hvirp, Fur). Confirmed efterår 1866, Fur ("Kundskaber tg, opførsel mg"). Died 5.2.1871, age 19½, unmarried ("Søn af Huusmand Peder Christensen Boe af Heden" — the manuscript notes a separate "Minde over Ungkarl Iver Pedersen af Heden," i.e. a memorial notice). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+- **b. Kristen (Christen) Pedersen** (b.6.7.1853, "Heden," Fur) — husmand på Anshede, "sikkert i faderens ejendom." **This is generation "05"** — manuscript explicitly cross-references "= 05" at the 1860 census entry, consistent with the Aneoversigt. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+- **c. Jens Pedersen** (b.28.5.1859, "Heden," Fur) — died 14.12.1859, age ½ year (infant death). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+- **d. Jens Pedersen (name reused)** (b.25.7.1861, "Heden," Fur) — died 6.3.1864, age 2½ (infant death). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+- **e. Mette Pedersdatter** (b.20.6.1863, "Heden," Fur). 1870 census: age 6, with parents. Died 5.8.1877, Fur, age 14 ("forældrene Hmd Peder Christensen Boes Datter af Heden"), with a framed gravskrift (epitaph). The manuscript notes that a later Mette Boe (of Nykøbing, generation 05's child "f.") was named after her — a cross-generation naming-after-a-deceased-relative pattern, distinct from (but related to) the immediate name-reuse-after-infant-death pattern already logged for generation "03." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+
+**Minor labeling inconsistency, not urgent:** the manuscript cites the schoolteacher "K.K.K. Boe" of Lemvig once as "=05-e-I." and once, a few lines later, as "=05-f-I." for what reads as the same person — an internal cross-reference numbering slip, not something this section can resolve since generation "05"'s own children (and their children, the "-I." generation) haven't been read in detail yet. Noted here for whoever reads generation "05" next to watch for.
+
+All individuals in this section are now also modeled in `family-tree/tree.ged` (`@I14@`, `@I26@`, family `@F10@` refined from Aneoversigt-level to full detail; new individuals `@I41@`-`@I44@`; new placeholder family `@F16@` for Bodil Kirstine's unread parents).
+
+---
+
 ## Open Items — Data Quality
 
 Not resolved here; flagged rather than silently corrected, per this repo's correction discipline. Items 3, 5, and 6 below (the likely-extraction-artifact anomalies) are now also tracked centrally in `family-tree/possible-duplicates.md` §2, cross-referenced by ID (A1-A3, B1-B3) — that file is where to look for the running count across sections, not just this one.
@@ -101,6 +132,9 @@ Not resolved here; flagged rather than silently corrected, per this repo's corre
 4. **Mette Jensdatter's birth year shows as "1878" in the Aneoversigt table**, which cannot be correct for someone married in 1808 — almost certainly a typo for 1778 or similar. Not corrected here; worth a quick confirmation. (Her actual birth date is later given precisely as 27.4.1787 in generation "03"'s own section — the Aneoversigt table's "1878"/"1778" is very likely just a stray digit-transposition of 1787, not a separate error.)
 5. **Maren Christensdatter's (e.) death year shows as "1919"** and **Johanne Christensdatter's (g.) birth year shows as "1921"** — both born ~1818-1821 and clearly died/were born as infants in that era, not the 20th century. Reads as a recurring "19" vs "18" digit-transposition pattern in this extraction (third instance of this general shape of error, after items above) — worth double-checking a few more instances before concluding it's systematic, but treating as a likely extraction/OCR artifact rather than a manuscript error unless the pattern keeps recurring.
 6. **Johanne Christensdatter (h.)'s age at the 1845 census (16) doesn't reconcile with her 1822 birth year** (would be ~22-23). Same low-confidence, not-yet-queued treatment as the earlier 1801 age discrepancies.
+7. **Peder Christensen Boe's (04) 1845 census birthplace ("Sdr Dråby") contradicts his own established birth record (Jørsby)** — already flagged by KEJ himself in the manuscript (an exclamation point in the source), not a finding of this session's. Not queued to `grandfather-review/` on that basis — see the generation "04" section above for the full detail.
+8. **Bodil Kirstine Iversdatter's father is named "Iver Hendriksen" at her 1850 marriage record but a fadder at her grandson's 1861 baptism is named "Hendrik Iversen (morfar)"** — the patronymic order looks inverted between the two mentions for what should be the same person. Low-confidence, not queued — could be a manuscript typo, a genuine generational mix-up (the fadder being the *next* generation back instead), or a transcription slip on this session's part. Logged as a new sub-pattern in `family-tree/possible-duplicates.md` §2 (first instance, not yet a pattern).
+9. **Internal cross-reference labeling inconsistency:** "K.K.K. Boe" of Lemvig is cited both as "=05-e-I." and "=05-f-I." in the same generation "04" section (see above) — cannot be resolved until generation "05"'s own children are read in detail.
 
 ---
 
@@ -112,3 +146,4 @@ Not resolved here; flagged rather than silently corrected, per this repo's corre
 | 1.1 | 2026-08-06 | Added generation "03" (Christen Pedersen Boe): a full transcribed 1832 probate record (skifte), his widow's later life, and ten children including one line (Vestergaard, via Else Christensdatter Boe) that runs forward into the 20th century — flagged for future [SENSITIVE] treatment since its most recent named individuals may still be living. Three more data-quality items noted, none queued to `grandfather-review/` — a recurring 19xx/18xx digit-transposition pattern looks like an extraction artifact, not a manuscript error. |
 | 1.2 | 2026-08-06 | Retrofitted per-claim citations (`[VERIFIED: boe-slaegten-fra-mors-og-fur, p.N]`) throughout, replacing the single file-level citation this document opened with; added a citation-and-fidelity-methodology note explaining the page-range precision actually available and the verbatim-quote + precise-citation practice used as a lightweight transcription spot-check. Cross-referenced the new `family-tree/tree.ged` (all individuals from generations "02"/"03" now modeled there, plus "04"/"05" at Aneoversigt-level detail) and `family-tree/possible-duplicates.md` (the recurring anomaly log, now tracked centrally instead of only in this file's prose). |
 | 1.3 | 2026-08-06 | Corrected a now-stale line in the Document Purpose: the original manuscript is stored (`library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx`), not still missing — it arrived via the new `incoming/` mechanism, not the Google Drive connector this document originally described. |
+| 1.4 | 2026-08-06 | Added generation "04" (Peder Christensen Boe, 1816-1879): a transcribed property deed (skøde) for two hedelodder on Fur, his work as a walking postman (corroborated by a quoted 1947 newspaper article), his death by drowning/freezing on the Limfjord ice, and five children including one who is generation "05." Corrected the v1.2 "per-claim page precision from generation 04 onward" promise — the plain-text extraction doesn't reliably preserve page breaks, so this section stays at the same p.18-20 section-range precision as before. Two new low-confidence anomalies noted (Open Items 8-9), one of them (item 8) also logged as a new sub-pattern in `family-tree/possible-duplicates.md`; item 7 documents a discrepancy KEJ already flagged himself in the source, not a new finding. |
