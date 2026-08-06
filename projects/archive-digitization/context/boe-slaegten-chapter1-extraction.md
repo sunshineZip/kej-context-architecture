@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Chapter 1 Extraction Notes
 
-Version 1.0 | 2026-08-06 | Active
+Version 1.1 | 2026-08-06 | Active
 
 ---
 
@@ -16,7 +16,7 @@ Working extraction notes from "2024 Boe-slægen fra Mors og Fur.docx" (KEJ's com
 
 - [x] Aneoversigt (pedigree overview, p.3)
 - [x] 02. Peder Christensen Boe, o.1731-1810 (p.5-8)
-- [ ] 03. Christen Pedersen Boe, 1780-1832 (p.9-17)
+- [x] 03. Christen Pedersen Boe, 1780-1832 (p.9-17)
 - [ ] 04. Peder Christensen Boe, 1816-1879 (p.18-20)
 - [ ] 05. Christen Pedersen Boe, 1853-1930 (p.21-24)
 - [ ] Efterslægt (descendants, p.25-54) — will need its own further breakdown once reached
@@ -59,6 +59,28 @@ Children of generation 05 (labeled a–i in the manuscript): Jens Christian Chri
 
 ---
 
+## 03. Christen Pedersen Boe (1780–1832) — Detailed Notes
+
+**Vital facts:** born 21.6.1780, Jørsby, son of Peder Christensen Boe (02) & Sidsel Laursdatter (husmand "Nyegaard tilhørende"). Married 1808, Jørsby (trolovet 8.9., viet 19.10.) to Mette Jensdatter, born Jørsby 27.4.1787, daughter of Jens Møller & Else Jensdatter (manuscript cross-references "KAPITEL 3"). Witnesses (forlovere): Niels Christensen and Mads Pedersen (his half-brother, per the previous section). Gårdfæster under Ullerup gods, Jørsby; died 11.3.1832, age 51.
+
+**Probate record (skifte), transcribed at length in the manuscript** — a genuine primary-source example of the `skifteprotokol` citation type built in `authoring-guidelines.md` §9.5: proceedings dated 13 April, 15 December, and finalized 22 December 1832, Ullerup gods skifteprotokol / Herredscontoiret Nykøbing. Heirs: widow Mette Jensdatter and children Else (21, serving Hesselberg), Sidsel (19), Lars (18), Peder (16, serving with Jens Poulsen), Maren (12), Johanne (10), Grethe (3). Guardians: Mads Boe (sons), Lars Larsen (daughters); widow's lavværge: Hans Nielsen. Full itemized estate inventory given (livestock, furniture, farm equipment) — valuation 212 dr 4 mk 4 sk sølv. The estate was insolvent: total expenses 692 dr 2 mk 4 sk against that valuation, including a 210 rdr landlord claim for "Bygfæld, Besætning og Inventarium." Worth citing this specific passage precisely once a domain exists — it is exactly the kind of primary-source detail GPS rewards.
+
+**Widow Mette Jensdatter:** 1834 folketælling, 47, widow/tenant-farmer's-wife under Ullerup, with 5 children at home. 1845 and 1850: aftægtskone (retirement boarder) with son Lars in Jørsby. Died 19.10.1850, Jørsby, age 63½, "Slagtilfælde" (stroke).
+
+**Ten children of Christen Boe & Mette Jensdatter, 1811–1829 (a–j; two name-reuses after infant deaths, a known period pattern — Maren and Johanne and Grethe each appear twice):**
+- **a. Else Christensdatter Boe** (b.1811, d.1858) m. Thomas Nielsen 1838. Their line runs forward several more generations in the manuscript via daughter Else Marie Thomasdatter (b.1839) → Christen Clausen → the **Vestergaard line** in Solbjerg, extending into 20th-century occupations (mekaniker, gårdmand, tømmermester, landmand) with marriages into the 1920s–30s. Not fully re-transcribed here (would need its own pass) — flagged for [SENSITIVE] treatment once a domain exists, since the most recent named individuals in this branch have no death dates given and may still be living or recently so.
+- **b. Sissel (Zidsel) Christensdatter Boe** (døbt 1813) — no marriage recorded here.
+- **c. Lars Christensen Boe** (b.1814) m. Ane Nielsdatter; fæstegårdmand, Jørsby. Died 16.12.1858, age 44¼, cause of death recorded as "Drukkengalskab" (alcohol-related).
+- **d. Peder Christensen Boe** (b.1816) — moved to Fur after confirmation (1831), husmand og fisker. **This is generation "04."**
+- **e. Maren Christensdatter** (b.1818) — died as an infant (age 1y2m2w6d; manuscript shows death year as "1919," almost certainly a typo for 1819 given the age given — see Open Items).
+- **f. Maren Christensdatter (Boe)** (b.1820) — name reused after e.'s death.
+- **g. Johanne Christensdatter** (b.1821 — manuscript shows "1921," typo — see Open Items) — died before baptism was announced in church.
+- **h. Johanne Christensdatter (Boe)** (b.1822) — name reused after g.'s death. Unmarried; had a daughter, Mette Christensdatter (b.1849), out of wedlock — the manuscript names the declared father as "ungkarl Jens Josefsen." One age given for her (16, at the 1845 census) doesn't reconcile with her birth year (would be ~22) — see Open Items, likely the same kind of extraction artifact as before rather than a real error.
+- **i. Grethe Christensdatter** (b.1827) — died as an infant, under 1 year.
+- **j. Grethe Christensdatter (Boe)** (b.1829) — name reused after i.'s death. Married 1854, Jørsby, to Peder Thomasen.
+
+---
+
 ## Open Items — Data Quality
 
 Not resolved here; flagged rather than silently corrected, per this repo's correction discipline.
@@ -66,7 +88,9 @@ Not resolved here; flagged rather than silently corrected, per this repo's corre
 1. **Mads Pedersen (Boe)'s birth year is internally inconsistent within this single manuscript** — stated as 1774 in one passage ("hun i 1774 fødte sønnen Mads Pedersen (1774-1847)"), as 8.5.1773 in another ("Mads Pedersen, der er født 8.5.1773"), and implied as 1772, 1773, or 1771 by three different age-at-date statements (1801 age 29, 1834 age 61, 1847 death age 76). This reads as a genuine period-record ambiguity (common when a person's own documented age varied across census/record years), not a transcription error on this repo's part — **added to `grandfather-review/queue.md` as item 4**, since KEJ is best placed to know which year his own research ultimately settled on, if any.
 2. **Possible manuscript mislabel:** a later passage refers to "Peder Christensen Boe (= 03)," restating facts identical to "02" (same birth year o.1731, same death date 17.8.1810). This looks like a typo (should likely read "= 02") rather than a second person, but not assumed — noted here, not queued separately, as a minor editorial question to mention alongside item 4 rather than a distinct finding.
 3. **Anna Pedersdatter Boe's and Laurs Pedersen Boe's 1801 ages (both recorded as "14") don't reconcile with their birth years** (Anna would be ~24, Laurs ~17). Deliberately *not* flagged as a research inconsistency — this pattern (both entries showing the identical, wrong-for-both value) reads more like a text-extraction artifact from the original table layout than a real error in KEJ's source. Needs checking against the actual document formatting once viewed directly, not assumed to be a genuine period-record problem.
-4. **Mette Jensdatter's birth year shows as "1878" in the Aneoversigt table**, which cannot be correct for someone married in 1808 — almost certainly a typo for 1778 or similar. Not corrected here; worth a quick confirmation.
+4. **Mette Jensdatter's birth year shows as "1878" in the Aneoversigt table**, which cannot be correct for someone married in 1808 — almost certainly a typo for 1778 or similar. Not corrected here; worth a quick confirmation. (Her actual birth date is later given precisely as 27.4.1787 in generation "03"'s own section — the Aneoversigt table's "1878"/"1778" is very likely just a stray digit-transposition of 1787, not a separate error.)
+5. **Maren Christensdatter's (e.) death year shows as "1919"** and **Johanne Christensdatter's (g.) birth year shows as "1921"** — both born ~1818-1821 and clearly died/were born as infants in that era, not the 20th century. Reads as a recurring "19" vs "18" digit-transposition pattern in this extraction (third instance of this general shape of error, after items above) — worth double-checking a few more instances before concluding it's systematic, but treating as a likely extraction/OCR artifact rather than a manuscript error unless the pattern keeps recurring.
+6. **Johanne Christensdatter (h.)'s age at the 1845 census (16) doesn't reconcile with her 1822 birth year** (would be ~22-23). Same low-confidence, not-yet-queued treatment as the earlier 1801 age discrepancies.
 
 ---
 
@@ -75,3 +99,4 @@ Not resolved here; flagged rather than silently corrected, per this repo's corre
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-06 | Initial creation. Aneoversigt and generation "02" (Peder Christensen Boe) extracted and summarized, including the documented "Kyssesekten" episode. Four data-quality items flagged, one promoted to `grandfather-review/queue.md`. |
+| 1.1 | 2026-08-06 | Added generation "03" (Christen Pedersen Boe): a full transcribed 1832 probate record (skifte), his widow's later life, and ten children including one line (Vestergaard, via Else Christensdatter Boe) that runs forward into the 20th century — flagged for future [SENSITIVE] treatment since its most recent named individuals may still be living. Three more data-quality items noted, none queued to `grandfather-review/` — a recurring 19xx/18xx digit-transposition pattern looks like an extraction artifact, not a manuscript error. |
