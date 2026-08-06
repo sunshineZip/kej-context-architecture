@@ -248,3 +248,32 @@ STATUS: CHECKPOINT
 Completed: Diagnosed the Boe-slægten `.docx` size problem as two independent, environment-level blockers (connector cap + network policy), not something fixable from within the session; built `incoming/` as the sustainable fix — direct git push instead of a connector fetch for future large files.
 Next: Human to start pushing queued files into `incoming/`; triage them in a subsequent session per `incoming/README.md`.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 10 | 2026-08-06
+
+Different session, continued from `archive-digitization` after `family-tree/tree.ged` reached "Fully read" and a subsequent Gramps import reported "483 errors detected." Diagnosed (in that project's own context, not repeated here) two real, previously-undetected GEDCOM bug classes accumulated across the long manual editing session: missing bidirectional `FAMC`/`FAMS`/`HUSB`/`WIFE`/`CHIL` back-references (8 instances), and 127 lines with informal `@I123@`/`@F45@`-style cross-references left unescaped inside free-text `NOTE` fields (GEDCOM 5.5.1 requires a literal `@` in a value to be escaped as `@@` wherever it occurs, not just at line-start). Both fixed directly in `tree.ged`. Human then asked, as a system-layer question, how to catch this automatically on every future edit rather than relying on a one-off manual diagnosis.
+
+**Built:** extended the existing `scripts/validate.ps1` — deliberately not a separate script — with a new "family-tree/tree.ged — GEDCOM structural consistency" section, since `validate.ps1` already runs automatically via the pre-commit hook on every commit; a standalone script would depend on someone remembering to run it. Gated on `Test-Path family-tree/tree.ged` so it's a no-op for forks without this fork's `family-tree/` addition. Ports the exact logic already validated ad hoc via a throwaway Python script while diagnosing the Gramps failure:
+
+- Duplicate `@I@`/`@F@` id detection (error).
+- Dangling-reference detection: `FAMC`/`FAMS` pointing at a `FAM` id that doesn't exist, `HUSB`/`WIFE`/`CHIL` pointing at an `INDI` id that doesn't exist (error).
+- Full bidirectional consistency, both directions: every `FAM`'s `HUSB`/`WIFE`/`CHIL` must have a matching `FAMS`/`FAMC` on the referenced individual, and vice versa (error).
+- Unescaped `@` in free text: any non-structural line containing an `@I###@`/`@F###@` pattern (error) — the exact mistake that produced Gramps' "Line ignored" output.
+- Line length >255 chars (warning only — Gramps is known to tolerate this even though the spec doesn't formally allow it, already confirmed to the human in the source project).
+
+Ran `pwsh -NoProfile -File scripts/validate.ps1` against the now-fixed `tree.ged`: 0 errors, 140 warnings (139 are the new line-length notices — expected, matches what was already told to the human about Gramps tolerating long lines — plus one pre-existing, unrelated orphan-file warning). Confirms the new checks are clean against current state and would have caught both real bug classes had they existed.
+
+Also added one paragraph to `Architecture.md`'s "Cross-*slægt* structural data — fork-specific: `family-tree/`" subsection, documenting that `validate.ps1` now checks `tree.ged` structurally, so the mechanism is discoverable there rather than only in the script's own comments.
+
+### Session close
+
+Knowledge candidates: None — tooling/validation addition, not a domain fact.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: `scripts/validate.ps1` now runs GEDCOM structural consistency checks (duplicate/dangling ids, full bidirectional `FAMC`/`FAMS`/`HUSB`/`WIFE`/`CHIL` consistency, unescaped `@` in free text) against `family-tree/tree.ged` on every commit, via the existing pre-commit hook — no separate script to remember to run. Verified clean against the current file.
+Next: None specific — mechanism is live going forward. Return to `archive-digitization` for the next open item (`family-tree/possible-duplicates.md` reassessment trigger, or the open `TODO.md` items).
+Waiting for: Nothing further this turn — pushing now.
