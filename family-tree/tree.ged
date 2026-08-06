@@ -5,7 +5,6 @@
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
 1 NOTE Seeded 2026-08-06 from Boe-slaegten fra Mors og Fur, Kapitel 1, built incrementally as each generation/branch is read. Generations "02"-"05" fully read. Efterslaegt (descendants of generation 05, branches a-i) in progress: branches a/c/d/f/h/i (six short closed lines), b (Marie Christensen Boe) and e (Jens Christensen Boe, incl. K.K.K. Boe's line) done 2026-08-06; branch g (the largest, ~1100 lines/73+ individuals) not yet read. Source: library/reference-index.md#boe-slaegten-fra-mors-og-fur. Structure and conventions per projects/archive-digitization/context/data-structure-proposal.md.
-
 0 @I1@ INDI
 1 NAME Peder Christensen /Boe/
 1 SEX M
@@ -18,7 +17,6 @@
 1 FAMS @F1@
 1 NOTE Generation "02" i Aneoversigten. Først fundne bærer af tilnavnet Boe, Jørsby kirkebog 1771. Boe-navnets oprindelse er eksplicit ukendt ifølge KEJ selv. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
 1 NOTE Anetavlernes "Boe-slægter"-afsnit (p.86-91) styrker snarere end løser denne usikkerhed: KEJ har selv aktivt undersøgt og konkluderet IMOD en forbindelse til den bedst dokumenterede anden Boe-slægt (den fynske, "Boernes Slægtsbog" 1960) — "Det må derimod anses for usandsynligt" — og finder kun en spekulativ, ubekræftet mulig forbindelse til Boe-slægten i Himmerland/Thy via et fælles gods (Sivert Brockenhuus). Ingen forbindelse fundet til Boe-familier på Ålborgegnen, i Sønderjylland eller ved Nyord/Møn. Navnets egen foreslåede oprindelse: "manden i Boen" eller "bonde." [VERIFIED: boe-slaegten-fra-mors-og-fur, Boe-slægter p.86-91]
-
 0 @I2@ INDI
 1 NAME Sidsel (Zidsel) Lauridsdatter /Toft/
 1 SEX F
@@ -33,7 +31,6 @@
 1 FAMS @F2@
 1 NOTE Datter af Laurids Nielsen Toft (d.1797). Konfirmeret 1765. Indblandet i "Kyssesekten" (Peder Lassen Grud) — søn Mads avlet udenfor ægteskab, se I6. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
 1 NOTE Kapitel 2 (Boe-slægten, Jørsby) genbesøger hende fra Toft-familiens egen side, uden nyt om hendes egen linje ud over fadderskabslister allerede dækket — men bekræfter faderens navn, tilføjer moderens navn (Kirsten Jensdatter, I246) og giver et fuldt kirkebogscitat om Mads' faderskabssag (se I6's note). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I3@ INDI
 1 NAME Anna Pedersdatter /Boe/
 1 SEX F
@@ -43,7 +40,6 @@
 1 FAMC @F1@
 1 NOTE 1834: 57 år, ugift, boende hos halvbror Mads Pedersen Boe i Sdr. Dråby. 1801-alder (14) stemmer ikke med fødselsår — formodet udtræksartefakt fra denne sessions egen tekstbehandling, ikke en manuskriptfejl; se family-tree/possible-duplicates.md. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
 1 NOTE Kapitel 2 tilføjer det præcise fødselsklokkeslæt: "om Natten klokken 4." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I4@ INDI
 1 NAME Christen Pedersen /Boe/
 1 SEX M
@@ -59,7 +55,6 @@
 1 NOTE Generation "03" i Aneoversigten. Insolvent skifte 1832, Ullerup gods skifteprotokol (13. april, 15. dec., afsluttet 22. dec. 1832) — værdi 212 dr 4 mk 4 sk mod udgifter 692 dr 2 mk 4 sk. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
 1 NOTE Foto/dokument: skifte-siden er scannet, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image2.jpeg (håndskrift ikke selvstændigt transskriberet).
 1 NOTE Kapitel 2 nævner ham igen (som "Kapitel 1 03") som fadder for flere Toft-kusiner/-fætre i 1770'erne-90'erne — bekræfter blot allerede kendte fakta, ingen ny biografisk detalje. Gift 19.10.1808 med Mette Jensdatter — Kapitel 2 henviser videre til "kapitel 3 Afsnit 02 – h." for hendes egen slægt (endnu ikke læst). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I5@ INDI
 1 NAME Laurs Pedersen /Boe/
 1 SEX M
@@ -69,7 +64,6 @@
 1 FAMC @F1@
 1 NOTE 1801-alder (14) stemmer ikke med fødselsår — samme formodede udtræksartefakt som I3; se family-tree/possible-duplicates.md. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
 1 NOTE Kapitel 2 nævner ham igen kort, ingen ny biografisk detalje ud over faderens/moderens navne allerede kendt. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I6@ INDI
 1 NAME Mads Pedersen /Boe/
 1 SEX M
@@ -82,26 +76,22 @@
 1 FAMS @F4@
 1 NOTE Fødselsår internt uoverensstemmende i manuskriptet (1774 ét sted, 8.5.1773 et andet, 1771-1773 implicit af tre alderangivelser) — ikke løst her, se grandfather-review/queue.md #4. Tog navnet "Boe" efter stedfar Peder Christensen Boe. Efterkommere bar stadig navnet Boe pr. 2019 ifølge manuskriptet. [CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal — grandfather-review/queue.md #4]
 1 NOTE Kapitel 2 citerer kirkebogen langt fyldigere end Kapitel 1's egen omtale: "Zidsel Larsdatter Toft hendes uægte Barn... Nat Bene. Peder Lassen, Self Ejer i Jørsbye blef udlagt til Baene Fader" — og afslører, at Peder Lassen samtidig nægtede faderskab til to ANDRE anførte børn (Zidsels og en Else Pedersdatter af Sundbyes), hvilket antyder flere sager end dokumenteret i denne slægtsbog. Han havde desuden endnu et barn med sin husholderske Maren Andersdatter, halvbroderen Jens (I301, se F100). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I7@ INDI
 1 NAME Peder Lassen /Grud/
 1 SEX M
 1 FAMS @F2@
 1 FAMS @F100@
 1 NOTE Leder af "Kyssesekten" i Jørsby (bogstavelig fortolkning af "hils hinanden med et helligt kys"). Fik børn med mindst 4 kvinder, dømt til fæstningsarbejde i København (senere formildet), ~2 års afsoning, vendte tilbage og fortsatte sekten nogle år. Biologisk far til Mads Pedersen (I6), erklæret "Barne Fader" i kirkebogen. Kilder ifølge manuskriptet: "Historisk Årbog for Thy og Mors" 1968-70, Steen Busck "En alternativ bevægelse i 1700-årene". [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
-
 0 @I8@ INDI
 1 NAME Karen Pedersdatter /Krøll/
 1 SEX F
 1 FAMS @F3@
 1 NOTE Trolovelse (lysning) med Mads Pedersen 1799, Sdr. Dråby. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
-
 0 @I9@ INDI
 1 NAME Karen /Christensdatter/
 1 SEX F
 1 FAMS @F4@
 1 NOTE Mads Pedersens anden hustru (gift senest 1834 — nøjagtig dato ikke angivet i det læste afsnit). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
-
 0 @I10@ INDI
 1 NAME Mette /Jensdatter/
 1 SEX F
@@ -116,7 +106,6 @@
 1 FAMS @F106@
 1 NOTE Datter af Jens Møller og Else Jensdatter (kapitel 3). Dødsårsag "Slagtilfælde" (slagtilfælde/apopleksi), alder 63½. Aneoversigt-tabellen viser fødselsår "1878" — formodet cifferombytning af 1787 (det præcise fødselsår givet her); ikke rettet i kilden. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17][CONTRADICTS: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3 shows "1878"]
 1 NOTE Kapitel 3 tilføjer: hendes egen far Jens Christensen Møllers fulde slægt (se F15, nu opdateret fra pladsholder), og et tidligere ukendt barn født uden for ægteskab, Jens Thomasen (I333, se F106), inden hendes giftermål med Christen Pedersen Boe. Navnet "Mette" var allerede brugt af en ældre søster, der døde som spædbarn 1784 (I329). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I11@ INDI
 1 NAME Else Christensdatter /Boe/
 1 SEX F
@@ -127,7 +116,6 @@
 1 FAMC @F5@
 1 FAMS @F6@
 1 NOTE Linje fortsætter flere generationer frem via datter Else Marie Thomasdatter (f.1839) → Christen Clausen → Vestergaard-slægten i Solbjerg, ind i 1900-tallet. Ikke selvstændigt gentranskriberet her. [SENSITIVE] — nyeste navngivne personer i denne gren har ingen dødsår angivet og kan stadig være i live. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
-
 0 @I12@ INDI
 1 NAME Sissel (Zidsel) Christensdatter /Boe/
 1 SEX F
@@ -135,7 +123,6 @@
 2 DATE 1813
 1 FAMC @F5@
 1 NOTE Ingen ægteskab angivet i det læste afsnit. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
-
 0 @I13@ INDI
 1 NAME Lars Christensen /Boe/
 1 SEX M
@@ -147,7 +134,6 @@
 1 FAMC @F5@
 1 FAMS @F7@
 1 NOTE Dødsårsag "Drukkengalskab" (alkoholrelateret), alder 44¼. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
-
 0 @I14@ INDI
 1 NAME Peder Christensen /Boe/
 1 SEX M
@@ -161,7 +147,6 @@
 1 FAMC @F5@
 1 FAMS @F10@
 1 NOTE Konfirmeret 1831, Jørsby. Til Fur 1848. Købte to hedelodder 1851/1853 (skøde transskriberet i manuskriptet). Druknede/frøs ihjel på Limfjordens is 10.2.1879 sammen med Christen Nielsen Hautorn. 1845-folketællingen viser fejlagtigt fødested "Sdr Dråby" (KEJ har selv markeret dette med udråbstegn i kilden — ikke denne sessions fund). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
-
 0 @I15@ INDI
 1 NAME Maren /Christensdatter/
 1 SEX F
@@ -169,7 +154,6 @@
 2 DATE 1818
 1 FAMC @F5@
 1 NOTE Død som spæd (1 år 2 mdr 2 uger 6 dage). Manuskriptet viser dødsår "1919" — formodet cifferombytning (18/19), dødsårstal derfor bevidst udeladt her frem for gættet. Se family-tree/possible-duplicates.md. [UNVERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17 — suspected extraction artifact]
-
 0 @I16@ INDI
 1 NAME Maren Christensdatter /Boe/
 1 SEX F
@@ -177,13 +161,11 @@
 2 DATE 1820
 1 FAMC @F5@
 1 NOTE Navn genbrugt efter I15's død som spæd (periodetypisk mønster). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
-
 0 @I17@ INDI
 1 NAME Johanne /Christensdatter/
 1 SEX F
 1 FAMC @F5@
 1 NOTE Død før dåben blev bekendtgjort i kirken. Manuskriptet viser fødselsår "1921" — formodet cifferombytning (18/19), fødselsår derfor bevidst udeladt her. Se family-tree/possible-duplicates.md. [UNVERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17 — suspected extraction artifact]
-
 0 @I18@ INDI
 1 NAME Johanne Christensdatter /Boe/
 1 SEX F
@@ -192,7 +174,6 @@
 1 FAMC @F5@
 1 FAMS @F8@
 1 NOTE Navn genbrugt efter I17's død. Ugift; datter Mette Christensdatter (I23) født udenfor ægteskab. 1845-folketællingsalder (16) stemmer ikke med fødselsår (ville være ~22-23) — samme formodede udtræksartefakt-mønster som I3/I5; se family-tree/possible-duplicates.md. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
-
 0 @I19@ INDI
 1 NAME Grethe /Christensdatter/
 1 SEX F
@@ -202,7 +183,6 @@
 2 DATE BET 1827 AND 1828
 1 FAMC @F5@
 1 NOTE Død som spæd (under 1 år). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
-
 0 @I20@ INDI
 1 NAME Grethe Christensdatter /Boe/
 1 SEX F
@@ -211,19 +191,16 @@
 1 FAMC @F5@
 1 FAMS @F9@
 1 NOTE Navn genbrugt efter I19's død. Gift 1854, Jørsby. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
-
 0 @I21@ INDI
 1 NAME Thomas /Nielsen/
 1 SEX M
 1 FAMS @F6@
 1 NOTE Gift med Else Christensdatter Boe 1838. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
-
 0 @I22@ INDI
 1 NAME Ane /Nielsdatter/
 1 SEX F
 1 FAMS @F7@
 1 NOTE Gift med Lars Christensen Boe. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
-
 0 @I23@ INDI
 1 NAME Mette /Christensdatter/
 1 SEX F
@@ -231,19 +208,16 @@
 2 DATE 1849
 1 FAMC @F8@
 1 NOTE Født udenfor ægteskab; erklæret far "ungkarl Jens Josefsen" (I24). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
-
 0 @I24@ INDI
 1 NAME Jens /Josefsen/
 1 SEX M
 1 FAMS @F8@
 1 NOTE "Ungkarl" — erklæret (ikke bekræftet gift) far til Mette Christensdatter (I23). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
-
 0 @I25@ INDI
 1 NAME Peder /Thomasen/
 1 SEX M
 1 FAMS @F9@
 1 NOTE Gift med Grethe Christensdatter Boe 1854, Jørsby. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
-
 0 @I26@ INDI
 1 NAME Bodil Kirstine /Iversdatter/
 1 SEX F
@@ -256,7 +230,6 @@
 1 FAMC @F16@
 1 FAMS @F10@
 1 NOTE Aftægtskone hos søn Christen Pedersen Boe (gen. "05") efter mandens død, folketællinger 1880-1906. Datter af Iver Henriksen og Else Jensdatter — se SØGAARD-SLÆGTEN (anetavle), nu læst og fuldt modelleret, se F16. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
-
 0 @I27@ INDI
 1 NAME Christen Pedersen /Boe/
 1 SEX M
@@ -271,7 +244,6 @@
 1 FAMS @F11@
 1 NOTE Konfirmeret 1868, Fur. Gift 19½ år gl. (KEJ markerer selv alderen med udråbstegn); ældste barn født kun 2 mdr. efter brylluppet. Familietradition (citeret fra sønnesøn K.K.K. Boe, 1976) fortæller om en frieri-historie under pres efter en udenomsægteskabelig graviditet. Søgte/fik kongelig bevilling på navnet "Boe" 1904/05 sammen med 6 af sine 9 børn. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 1 NOTE Foto/dokument: familiegravsted (library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image5.jpeg, bekræftet match); navnebevis 1905 (image6.jpeg, navne/datoer krydstjekket mod stamtræet); muligvis afbilledet i et ugift par-portræt (image3.jpeg), men ikke bekræftet.
-
 0 @I28@ INDI
 1 NAME Mette /Jensen/
 1 SEX F
@@ -285,7 +257,6 @@
 1 FAMS @F11@
 1 NOTE Datter af Jens Christian Thorsen og Margrethe Jensdatter (moderen af gammel Furbo-slægt) — tidligere en cross-reference til "KAPITEL 9" (et andet dokument), nu identificeret i stedet via Anetavler-appendikset "LUNDGAARD-SLÆGTEN FUR" (image40.png), se F114. Uddannet syerske. Et sted i folketællingen 1930 fejlagtigt kaldet "Mette Pedersen Boe" i stedet for sit eget navn (formodet sammenblanding med mandens patronym) — for trivielt til at spore som mønster. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 1 NOTE Foto/dokument: muligvis afbilledet i et ugift par-portræt (library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image3.jpeg), ikke bekræftet. Faderen Jens Christian Thorsen muligvis afbilledet i image4.jpeg ("Boe kap 9 02"), identitet fortsat ubekræftet — "Kapitel 9" er ikke en del af dette manuskript og forbliver ulæst.
-
 0 @I29@ INDI
 1 NAME Jens Christian /Christensen/
 1 SEX M
@@ -294,7 +265,6 @@
 2 PLAC Fur, Danmark
 1 FAMC @F11@
 1 NOTE Rejste o.1890 til Amerika efter arveforskud fra faderen. Barn "a." af generation 05, opkaldt efter morfaderen. Familien hørte fra ham 5-6 år, derefter intet. Fik ikke navnet Boe ved bevillingen 1905 (kontakten til ham i Amerika var tabt). Efterslægt ukendt. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 og p.25-54]
-
 0 @I30@ INDI
 1 NAME Marie Christensen /Boe/
 1 SEX F
@@ -306,7 +276,6 @@
 1 FAMS @F17@
 1 NOTE Barn "b." af generation 05. Fik 1897 sønnen Esper Marinus Christensen (Boe fra 1905) udenfor ægteskab — hans egen fulde biografi hører til Efterslægten, ikke selvstændigt transskriberet her. Gift 1910, Tøndering. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 1 NOTE Foto/dokument: navn og fødselsdato (samt sønnen Esper Marinus') bekræftet mod navnebevis-scanningen, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image6.jpeg.
-
 0 @I31@ INDI
 1 NAME Niels /Jensen/
 1 SEX M
@@ -320,11 +289,9 @@
 1 FAMC @F26@
 1 FAMS @F12@
 1 NOTE Enkemand ved giftermålet med Marie Christensen Boe (I30) 1910. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @F26@ FAM
 1 CHIL @I31@
 1 NOTE Jens Thorsen og Maren Nielsdatter, forældre til Niels Jensen (I31) — ikke selvstændigt læst/transskriberet, samme praksis som F15/F16 oprindeligt (begge nu opdateret til fulde poster; denne står stadig som pladsholder).
-
 0 @I32@ INDI
 1 NAME Jens Peter /Christensen/
 1 SEX M
@@ -334,7 +301,6 @@
 1 OCCU Skofabrikant på Fur, senere Skive og Odense
 1 FAMC @F11@
 1 NOTE Barn "c." af generation 05. Udlært skomager på Fur, senere Skive; etablerede sig som skofabrikant i Odense. Gift med Marie, ingen egne børn — adoptivdatter Alfild gift med D. List, Søborg. Nægtede at deltage i navnebevillingen 1905 — fik ikke navnet Boe; protesterede senere mod gravstensindskriften "Chr. P. Boe". [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 og p.25-54]
-
 0 @I33@ INDI
 1 NAME Bodil Kirstine Christensen /Boe/
 1 SEX F
@@ -347,7 +313,6 @@
 1 FAMC @F11@
 1 NOTE Barn "d." af generation 05, kaldet "Stinne". Ugift; boede hjemme og passede forældrene i Nederby i mange år, overtog ejendommen efter deres død. Solgt til Peder Chr. Mikkelsen efter hendes egen død 1943, begravet i familiegravstedet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 og p.25-54]
 1 NOTE Foto/dokument: navn og fødselsdato bekræftet mod navnebevis-scanningen, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image6.jpeg.
-
 0 @I34@ INDI
 1 NAME Jens Christensen /Boe/
 1 SEX M
@@ -362,7 +327,6 @@
 1 FAMS @F13@
 1 NOTE Barn "e." af generation 05. Fik navnet Boe ved bevillingen 1905. Gift 21.3.1916, Fur. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 og p.25-54]
 1 NOTE Foto/dokument: navn og fødselsdato bekræftet mod navnebevis-scanningen, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image6.jpeg.
-
 0 @I35@ INDI
 1 NAME Marie Kirstine /Christensen/
 1 SEX F
@@ -374,7 +338,6 @@
 2 PLAC Fur, Danmark
 1 FAMS @F13@
 1 NOTE [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I36@ INDI
 1 NAME Mette Christensen /Boe/
 1 SEX F
@@ -388,7 +351,6 @@
 1 FAMC @F11@
 1 NOTE Barn "f." af generation 05. Ugift, ingen børn. Fik navnet Boe ved bevillingen 1905. Opkaldt efter faderens yngre søster af samme navn (I44, død 1877 som ung). Arvede en formue efter Niels Ovesens død 1941; oprettede ved testamente 14.9.1972 "Mette Boe's Legat" (70.000 kr., fundats 30.12.1977) til hjælp for en kvinde født på eller stærkt knyttet til Mors — stadig uddelende pr. 30.12.1998. Husket af familien som krasbørstig, med markante meninger. Død 92 år gammel — dødsdato nu præcis (rettet fra tidligere estimat "AFT 1975"; [SENSITIVE]-forbeholdet om mulig fortsat liv bortfalder, hun er bekræftet afdød). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 og p.25-54]
 1 NOTE Foto/dokument: navn og fødselsdato bekræftet mod navnebevis-scanningen, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image6.jpeg.
-
 0 @I37@ INDI
 1 NAME Laurids Christensen /Boe/
 1 SEX M
@@ -403,7 +365,6 @@
 1 FAMS @F14@
 1 NOTE Barn "g." af generation 05. Formodentlig drivkraften bag familiens ansøgning om kongelig navnebevilling 1904/05 — fik selv navnet Boe. Gift 1915, Brøndum. 11 børn (1911-1930) ifølge manuskriptet, ikke selvstændigt transskriberet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 1 NOTE Foto/dokument: navn og fødselsdato bekræftet mod navnebevis-scanningen, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image6.jpeg.
-
 0 @I38@ INDI
 1 NAME Ottine Boline Marie /Pedersen/
 1 SEX F
@@ -412,7 +373,6 @@
 2 PLAC Løkken, Danmark
 1 FAMS @F14@
 1 NOTE [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
-
 0 @I39@ INDI
 1 NAME Christen Christensen /Boe/
 1 SEX M
@@ -422,7 +382,6 @@
 1 FAMC @F11@
 1 NOTE Barn "h." af generation 05. Fik navnet Boe ved kgl. bevilling, præcis dateret 31.5.1905. Ikke fundet på Fur ved folketælling 1.2.1916 — intet videre spor, ingen kendt efterslægt. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 og p.25-54]
 1 NOTE Foto/dokument: navn og fødselsdato bekræftet mod navnebevis-scanningen, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image6.jpeg.
-
 0 @I40@ INDI
 1 NAME Else Marie /Christensen/
 1 SEX F
@@ -434,7 +393,6 @@
 2 PLAC Bakkerne, Fur, Danmark
 1 FAMC @F11@
 1 NOTE Barn "i." af generation 05. Dødsår internt uoverensstemmende i manuskriptet: to kilder (Aneoversigt-niveau opsummering "1894"; hendes egen individuelle indførsel i Efterslægten, "4.6.1894, Bakkerne, 2 år") stemmer overens og er mere præcise end den tredje (afsnittet om navnebevillingen 1904/05, "o.1900" — ville da have været o.8 år). DATE-feltet sat til 4.6.1894 som bedst understøttet af de to mest specifikke kilder, men uoverensstemmelsen er ikke selvstændigt afgjort her — se grandfather-review/queue.md #5 for KEJs endelige bekræftelse. [CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal ("o.1900" i navnebevillings-afsnittet) — grandfather-review/queue.md #5]
-
 0 @I41@ INDI
 1 NAME Iver /Pedersen/
 1 SEX M
@@ -446,7 +404,6 @@
 2 PLAC Fur, Danmark
 1 FAMC @F10@
 1 NOTE Barn "a." af generation 04. Konfirmeret efterår 1866. Død ugift, 19½ år. "Minde over Ungkarl Iver Pedersen af Heden" nævnt i manuskriptet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
-
 0 @I42@ INDI
 1 NAME Jens /Pedersen/
 1 SEX M
@@ -458,7 +415,6 @@
 2 PLAC på "Heden", Fur, Danmark
 1 FAMC @F10@
 1 NOTE Barn "c." af generation 04. Spædbarnsdød, ½ år gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
-
 0 @I43@ INDI
 1 NAME Jens /Pedersen/
 1 SEX M
@@ -470,7 +426,6 @@
 2 PLAC på "Heden", Fur, Danmark
 1 FAMC @F10@
 1 NOTE Barn "d." af generation 04. Navn genbrugt efter I42's død som spæd. Død 2½ år gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
-
 0 @I44@ INDI
 1 NAME Mette /Pedersdatter/
 1 SEX F
@@ -482,13 +437,11 @@
 2 PLAC Fur, Danmark
 1 FAMC @F10@
 1 NOTE Barn "e." af generation 04. Død 14 år gl., indrammet gravskrift ifølge manuskriptet. En senere Mette Boe (barn "f." af generation 05, I36) blev opkaldt efter hende. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
-
 0 @I45@ INDI
 1 NAME Søren Christian /Jensen/
 1 SEX M
 1 FAMS @F17@
 1 NOTE Tjenestekarl af Krejbjerg. Udlagt barnefader (erklæret, ikke gift) til Esper Marinus Christensen (I46). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I46@ INDI
 1 NAME Esper Marinus Christensen /Boe/
 1 SEX M
@@ -502,7 +455,6 @@
 1 FAMC @F17@
 1 FAMS @F18@
 1 NOTE Barn "I." af Marie Christensen Boe (I30), født udenfor ægteskab. Fik navnet Boe ved bevillingen 31.5.1905 (navn og dato bekræftet mod library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image6.jpeg). Opvokset hos morfaderen Christen Pedersen Boe (I27), senere hos morbroderen Laurids (I37) i Durup, hvor han lærte murerfaget. En fadder ved hans dåb er opført som "Christen Pedersen Boe i Bakkerne (morbror = g.)" — reelt formentlig morfaderen I27 selv (bekræftet to linjer senere som "morfaderen, Christen Pedersen"), fejlmærket både som "morbror" og med broderens bogstav "g."; endnu en instans af navne-/relationsforveksling, se family-tree/possible-duplicates.md §2C. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I47@ INDI
 1 NAME Katrine "Tinne" /?/
 1 SEX F
@@ -514,7 +466,6 @@
 2 PLAC Hvirp, Fur, Danmark
 1 FAMS @F18@
 1 NOTE Efternavn ikke angivet i det læste afsnit. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I48@ INDI
 1 NAME Poul Christensen /Boe/
 1 SEX M
@@ -525,13 +476,11 @@
 1 FAMC @F18@
 1 FAMS @F19@
 1 NOTE Barn "1." af Esper Marinus og Katrine. [SENSITIVE] — intet dødsår angivet, muligvis i live. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I49@ INDI
 1 NAME Elly /?/
 1 SEX F
 1 FAMS @F19@
 1 NOTE Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I50@ INDI
 1 NAME Bruno /Boe/
 1 SEX M
@@ -540,7 +489,6 @@
 1 FAMC @F19@
 1 FAMS @F20@
 1 NOTE Adoptivsøn af Poul Christensen Boe og Elly. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I51@ INDI
 1 NAME Jonna /Boe/
 1 SEX F
@@ -549,13 +497,11 @@
 1 FAMC @F20@
 1 FAMS @F21@
 1 NOTE Formodentlig datter af Bruno Boe (I50) — rækkefølgen i manuskriptet ("a/" lige efter Brunos indførsel) antyder dette, men er ikke eksplicit bekræftet; kunne alternativt være endnu et barn af Poul og Elly. [SENSITIVE] [UNVERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — relationship inferred from document order]
-
 0 @I52@ INDI
 1 NAME Niels /Jørgen/
 1 SEX M
 1 FAMS @F21@
 1 NOTE Efternavn muligvis "Jørgen" er fornavn nr. 2, ikke efternavn — uklart i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I53@ INDI
 1 NAME Henning Ingvard Christensen /Boe/
 1 SEX M
@@ -567,25 +513,21 @@
 1 FAMS @F22@
 1 FAMS @F23@
 1 NOTE Barn "2." af Esper Marinus og Katrine. [SENSITIVE] — intet dødsår angivet, muligvis i live. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I54@ INDI
 1 NAME Gerda /?/
 1 SEX F
 1 FAMS @F22@
 1 NOTE Henning Ingvard Christensen Boes første hustru; ægteskabet opløst, ingen børn. Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I55@ INDI
 1 NAME Lydia /?/
 1 SEX F
 1 FAMS @F23@
 1 NOTE Født i Tyskland. Havde 2 børn fra tidligere ægteskab (ikke navngivet i det læste afsnit), som fik navnet Boe — ingen individuelle @I@-poster oprettet for dem. Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I56@ INDI
 1 NAME Katharina /?/
 1 SEX F
 1 FAMC @F23@
 1 NOTE Adoptivdatter af Henning Ingvard Christensen Boe og Lydia. Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I57@ INDI
 1 NAME Johanne Marie /Jensen/
 1 SEX F
@@ -594,7 +536,6 @@
 2 PLAC Vilholm, Tøndering sogn, Danmark
 1 FAMC @F12@
 1 NOTE Barn "II." af Niels Jensen og Marie Christensen Boe. Ugift, bopæl Vilholm ved Durup sammen med broderen Jens Kristian (barn "IV.", I61). Bemærk: samme dag-og-måned fødselsdato (27. juli) som broderen Jens Kristian, født 6 år senere — muligvis tilfældigt, muligvis en kildefejl, ikke undersøgt nærmere. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I58@ INDI
 1 NAME Maren /Jensen/
 1 SEX F
@@ -604,20 +545,17 @@
 1 FAMC @F12@
 1 FAMS @F25@
 1 NOTE Barn "III." af Niels Jensen og Marie Christensen Boe. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I59@ INDI
 1 NAME Svend Åge /Storegård/
 1 SEX M
 1 OCCU Maskinist, Tolstrup ved Skive
 1 FAMS @F25@
 1 NOTE [SENSITIVE] — ingen datoer angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I60@ INDI
 1 NAME Mogens /Storegård/
 1 SEX M
 1 FAMC @F25@
 1 NOTE Et af 3 børn ("1.-3.") af Svend Åge Storegård og Maren Jensen — kun han er navngivet i det læste afsnit ("bl.a. søn Mogens"); de to øvrige børn ikke navngivet, ingen @I@-poster oprettet for dem. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I61@ INDI
 1 NAME Jens Kristian /Jensen/
 1 SEX M
@@ -626,7 +564,6 @@
 2 PLAC Vilholm, Tøndering sogn, Danmark
 1 FAMC @F12@
 1 NOTE Barn "IV." af Niels Jensen og Marie Christensen Boe. Ugift, bopæl Vilholm ved Durup sammen med søsteren Johanne Marie (barn "II.", I57). Faddere inkluderede halvbroderen Marinus Boe (I46, "= I."). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I62@ INDI
 1 NAME Christen Knudsen Christensen /Boe/
 1 SEX M
@@ -640,7 +577,6 @@
 1 FAMC @F13@
 1 FAMS @F27@
 1 NOTE Barn "I." af Jens Christensen Boe og Marie Kirstine Christensen. Kendt i manuskriptet som "K.K.K. Boe" — kilde til familietraditionen citeret i generation 04 og 05's sektioner (postbud-historien, frieri-historien). Tidligere fejlmærket "=05-f-I." ét sted i generation 04's sektion; korrekt mærkning er "=05-e-I.", nu bekræftet ved selvstændig læsning af hans egen indførsel. Gift 1941, Nees kirke, Ringkøbing amt. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I63@ INDI
 1 NAME Marie Elisabeth /Madsen/
 1 SEX F
@@ -649,7 +585,6 @@
 2 PLAC Husby, Ringkøbing amt, Danmark
 1 FAMS @F27@
 1 NOTE Datter af gårdejer Mads Peder Madsen og hustru Maren Jensen. Husbestyrerinde ved giftermålet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I64@ INDI
 1 NAME Egon Kristensen /Boe/
 1 SEX M
@@ -660,13 +595,11 @@
 1 FAMC @F27@
 1 FAMS @F28@
 1 NOTE Barn "1." af K.K.K. Boe. Konfirmeret 1943, Lemvig. [SENSITIVE] — intet dødsår angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I65@ INDI
 1 NAME Ulla /?/
 1 SEX F
 1 FAMS @F28@
 1 NOTE Efternavn ikke angivet. Flyttede 1983 fra Hammerum til Fur; havde 3 børn fra tidligere ægteskab (ikke navngivet, ingen @I@-poster). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I66@ INDI
 1 NAME Thilde Kristensen /Boe/
 1 SEX F
@@ -676,37 +609,31 @@
 1 FAMC @F27@
 1 FAMS @F29@
 1 NOTE Barn "2." af K.K.K. Boe — tvilling med Birgit Kristine (I72, samme fødselsdato). Konfirmeret 1959, Lemvig. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I67@ INDI
 1 NAME N.N. /Madsen/
 1 SEX M
 1 FAMS @F29@
 1 NOTE Fornavn ikke angivet, kun "Gift Madsen, Langå". [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I68@ INDI
 1 NAME Sten Boe /Madsen/
 1 SEX M
 1 FAMC @F29@
 1 NOTE Barn "a/" af Thilde og N.N. Madsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I69@ INDI
 1 NAME Susanne Boe /Madsen/
 1 SEX F
 1 FAMC @F29@
 1 NOTE Barn "b/" af Thilde og N.N. Madsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I70@ INDI
 1 NAME Marianne Boe /Madsen/
 1 SEX F
 1 FAMC @F29@
 1 NOTE Barn "c/" af Thilde og N.N. Madsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I71@ INDI
 1 NAME Brian Boe /Madsen/
 1 SEX M
 1 FAMC @F29@
 1 NOTE Barn "d/" af Thilde og N.N. Madsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I72@ INDI
 1 NAME Birgit Kristine /Boe/
 1 SEX F
@@ -716,25 +643,21 @@
 1 FAMC @F27@
 1 FAMS @F30@
 1 NOTE Barn "3." af K.K.K. Boe — tvilling med Thilde (I66). Konfirmeret 4.10.1959, Lemvig. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I73@ INDI
 1 NAME N.N. /Hornsgård/
 1 SEX M
 1 FAMS @F30@
 1 NOTE Fornavn ikke angivet, kun "Gift Hornsgård, Ikast". [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I74@ INDI
 1 NAME Lars Boe /Hornsgård/
 1 SEX M
 1 FAMC @F30@
 1 NOTE Barn "a/" af Birgit Kristine og N.N. Hornsgård. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I75@ INDI
 1 NAME Jens Boe /Hornsgård/
 1 SEX M
 1 FAMC @F30@
 1 NOTE Barn "b/" af Birgit Kristine og N.N. Hornsgård. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I76@ INDI
 1 NAME Irma /Boe/
 1 SEX F
@@ -744,25 +667,21 @@
 1 FAMC @F27@
 1 FAMS @F31@
 1 NOTE Barn "4." af K.K.K. Boe. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I77@ INDI
 1 NAME N.N. /Pedersen/
 1 SEX M
 1 FAMS @F31@
 1 NOTE Fornavn ikke angivet, kun "Gift Pedersen, Hald". [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I78@ INDI
 1 NAME Karen Boe /Pedersen/
 1 SEX F
 1 FAMC @F31@
 1 NOTE Barn "a/" af Irma og N.N. Pedersen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I79@ INDI
 1 NAME Gorm Boe /Pedersen/
 1 SEX M
 1 FAMC @F31@
 1 NOTE Barn "b/" af Irma og N.N. Pedersen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I80@ INDI
 1 NAME Ingrid (Kristensen) /Boe/
 1 SEX F
@@ -772,13 +691,11 @@
 1 FAMC @F27@
 1 FAMS @F32@
 1 NOTE Barn "5." af K.K.K. Boe. Navneændring til "Ingrid Boe" ved navnebevis 3.4.1970. Ingen børn nævnt i det læste afsnit. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I81@ INDI
 1 NAME N.N. /Jensen/
 1 SEX M
 1 FAMS @F32@
 1 NOTE Fornavn ikke angivet, kun "Gift Jensen, Ølby". Bemærk: identisk "Jensen, Ølby"-angivelse for søsteren Lis (I86's ægtefælle) — muligvis to søstre gift med samme families mænd, muligvis en gentagelsesfejl i kilden, ikke undersøgt nærmere. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I82@ INDI
 1 NAME Britta (Kristensen) /Boe/
 1 SEX F
@@ -788,19 +705,16 @@
 1 FAMC @F27@
 1 FAMS @F33@
 1 NOTE Barn "6." af K.K.K. Boe. Navneændring til "Britta Boe" ved navnebevis 3.4.1970. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I83@ INDI
 1 NAME N.N. /Krarup/
 1 SEX M
 1 FAMS @F33@
 1 NOTE Fornavn ikke angivet, kun "Gift Krarup, Herning". [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I84@ INDI
 1 NAME Stig Boe /Krarup/
 1 SEX M
 1 FAMC @F33@
 1 NOTE Barn "a/" af Britta og N.N. Krarup. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I85@ INDI
 1 NAME Lis /Boe/
 1 SEX F
@@ -810,13 +724,11 @@
 1 FAMC @F27@
 1 FAMS @F34@
 1 NOTE Barn "7." af K.K.K. Boe. Udtrådt af Folkekirken 4.1.1974; Skive Seminarium 1976. Ingen børn nævnt i det læste afsnit. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I86@ INDI
 1 NAME N.N. /Jensen/
 1 SEX M
 1 FAMS @F34@
 1 NOTE Fornavn ikke angivet, kun "Gift Jensen, Ølby" — se I81's NOTE om den identiske angivelse for søsteren Ingrids ægtefælle. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I87@ INDI
 1 NAME Anna Nielsine Petrea Christensen /Boe/
 1 SEX F
@@ -826,31 +738,26 @@
 1 FAMC @F13@
 1 FAMS @F35@
 1 NOTE Barn "II." af Jens Christensen Boe og Marie Kirstine Christensen. Enke i Skive. [SENSITIVE] — intet dødsår angivet (ville være o.108 år i 2026, formentlig afdød, men ikke bekræftet). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I88@ INDI
 1 NAME N.N. /Dahl/
 1 SEX M
 1 FAMS @F35@
 1 NOTE Fornavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I89@ INDI
 1 NAME Jens Boe /Dahl/
 1 SEX M
 1 FAMC @F35@
 1 NOTE Barn "1." af Anna og N.N. Dahl. Skive. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I90@ INDI
 1 NAME Vagn Boe /Dahl/
 1 SEX M
 1 FAMC @F35@
 1 NOTE Barn "2." af Anna og N.N. Dahl. Ikast. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I91@ INDI
 1 NAME Else Boe /Dahl/
 1 SEX F
 1 FAMC @F35@
 1 NOTE Barn "3." af Anna og N.N. Dahl. Gift, Skive — ægtefælle slet ikke navngivet i kilden (end ikke efternavn), ingen @I@-post oprettet for ham/hende. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I92@ INDI
 1 NAME Thomas Manfred Christensen /Boe/
 1 SEX M
@@ -863,7 +770,6 @@
 1 OCCU Gårdejer, Kønsberg på Fur (overtog forældrenes ejendom)
 1 FAMC @F13@
 1 NOTE Barn "III." af Jens Christensen Boe og Marie Kirstine Christensen. Ugift. Tommerup Landbrugsskole 1943. Flyttede o.1997 til Fur alderdomshjem. Død 87 år gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I93@ INDI
 1 NAME Hans Christian Pedersen /Boe/
 1 SEX M
@@ -876,7 +782,6 @@
 1 FAMC @F13@
 1 FAMS @F37@
 1 NOTE Barn "IV." af Jens Christensen Boe og Marie Kirstine Christensen. Gift 13.3.1955, Hjerk kirke. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I94@ INDI
 1 NAME Grete Ladefoged /Goul/
 1 SEX F
@@ -887,20 +792,17 @@
 1 FAMC @F38@
 1 FAMS @F37@
 1 NOTE Af Yttrup, Rybjerg sogn, ved giftermålet. [SENSITIVE] — intet dødsår angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I95@ INDI
 1 NAME Søren Sørensen /Goul/
 1 SEX M
 1 OCCU Boelsmand, Bajlum
 1 FAMS @F38@
 1 NOTE Far til Grete Ladefoged Goul (I94). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I96@ INDI
 1 NAME Ingrid Andersen /Ladefoged/
 1 SEX F
 1 FAMS @F38@
 1 NOTE Mor til Grete Ladefoged Goul (I94), Bajlum. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I97@ INDI
 1 NAME Søren Goul /Boe/
 1 SEX M
@@ -912,7 +814,6 @@
 2 PLAC Tøndering, Danmark
 1 FAMC @F37@
 1 NOTE Barn "1." af Hans Christian og Grete. Død samme dag som født (1 dag gammel). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I98@ INDI
 1 NAME Marie Kirstine Goul /Boe/
 1 SEX F
@@ -922,13 +823,11 @@
 1 FAMC @F37@
 1 FAMS @F39@
 1 NOTE Barn "2." af Hans Christian og Grete. Manuskriptet angiver "Gift febr. 1967" — hvis korrekt ville hun kun have været 9 år gammel; formodet cifferfejl (nok "1977", hvilket ville give en alder på knap 20 år), men ikke rettet her — se Open Items og family-tree/possible-duplicates.md sub-pattern E. [SENSITIVE] [UNVERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — implausible date as given]
-
 0 @I99@ INDI
 1 NAME Harry Hejgaard /Jensen/
 1 SEX M
 1 FAMS @F39@
 1 NOTE Skive. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I100@ INDI
 1 NAME Søren Goul /Boe/
 1 SEX M
@@ -941,13 +840,11 @@
 1 FAMC @F37@
 1 FAMS @F40@
 1 NOTE Barn "3." af Hans Christian og Grete. Navn genbrugt efter I97's død som spæd. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I101@ INDI
 1 NAME Hanne /?/
 1 SEX F
 1 FAMS @F40@
 1 NOTE Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I102@ INDI
 1 NAME Karl Alfred Christensen /Boe/
 1 SEX M
@@ -958,7 +855,6 @@
 1 OCCU Daglejer, især på Fyn
 1 FAMC @F14@
 1 NOTE Barn "IV." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Ugift. Bekræftet afdød ("Død"), men intet dødsår angivet i det læste afsnit. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I103@ INDI
 1 NAME Poul Kristensen /Boe/
 1 SEX M
@@ -972,7 +868,6 @@
 1 FAMC @F14@
 1 NOTE Barn "VI." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Ugift. Optræder hyppigt som fadder hos søskendes børn (1944, 1949, 1955, 1957, 1959) — boede tilsyneladende lokalt hele livet. En fadder ved hans egen dåb var "ungkarl Espen Marinus Boe" — fætteren Esper Marinus Christensen Boe fra branch b (I46), en fin krydsreference mellem grene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Fejlmærket "(V.)" i stedet for "(VI.)" ved en fadderliste i søsterdatteren Monas dåbsindførsel (I115) — se family-tree/possible-duplicates.md sub-pattern D, instans D3.
-
 0 @I104@ INDI
 1 NAME Christian Christensen /Boe/
 1 SEX M
@@ -984,19 +879,16 @@
 1 FAMS @F41@
 1 NOTE Barn "VII." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Medhjælper i Toustrup 1940. Gartnerelev i Odense 1944, senere arbejdede på Island. [SENSITIVE] — intet dødsår angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Fejlmærket "(VI.)" i stedet for "(VII.)" ved samme fadderliste som I103 — se family-tree/possible-duplicates.md sub-pattern D, instans D2.
-
 0 @I105@ INDI
 1 NAME Lisbeth /?/
 1 SEX F
 1 FAMS @F41@
 1 NOTE Efternavn ikke angivet. Havde børn fra tidligere ægteskab (John, Norma, Brian, Lasse, Peter — ikke Boe-slægtens biologiske linje, ingen @I@-poster oprettet for dem). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I106@ INDI
 1 NAME Ernst Christian /Boe/
 1 SEX M
 1 FAMC @F41@
 1 NOTE Fælles søn ("1.") af Christian Christensen Boe og Lisbeth. Ingen yderligere detaljer angivet i det læste afsnit. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @F41@ FAM
 1 HUSB @I104@
 1 WIFE @I105@
@@ -1004,7 +896,6 @@
 2 DATE 1966
 1 CHIL @I106@
 1 NOTE Ægteskabet opløst.
-
 0 @I107@ INDI
 1 NAME Else Margrethe (Pedersen) Christensen /Boe/
 1 SEX F
@@ -1015,7 +906,6 @@
 1 FAMS @F42@
 1 NOTE Barn "I." af Laurids Christensen Boe og Ottine Boline Marie Pedersen — født FØR forældrenes ægteskab, mens moderen arbejdede som sypige i Ålborg; faderskabet tilsyneladende anerkendt af Laurids 1914, navnet rettet fra "Pedersen" til "Christensen Boe". Opvokset hos forældrene i Durup fra i hvert fald 1916. **Ægteskabsdato-uoverensstemmelse:** en tilføjelse til hendes egen fødselsindførsel angiver "Viede 27/3.1914" for forældrenes vielse — men afsnittets egen indledning (se F14) angiver 27.2.1915, Brøndum kirke. Forskellig dag, måned OG år. Ikke afgjort her — se grandfather-review/queue.md #6. Gift 5.2.1933, Durup kirke. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54][CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal — grandfather-review/queue.md #6]
 1 NOTE Foto/dokument: muligvis det beskårne bryllupsfoto øverst i venstre hjørne af library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image14.jpg (siden 33 af manuskriptet), ikke fuldt bekræftet pga. beskæringen.
-
 0 @I108@ INDI
 1 NAME Frederik /Lund/
 1 SEX M
@@ -1026,7 +916,6 @@
 1 FAMS @F42@
 1 NOTE Søn af husmand Søren Lund og hustru Marie Cathrine Lund, Ørum. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Foto/dokument: bekræftet på Brunshåb Teglværk, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image14.jpg (manuskriptside 33, billedtekst direkte læselig). Hus og garage med lastbil: image16.jpeg.
-
 0 @I109@ INDI
 1 NAME Egon /Lund/
 1 SEX M
@@ -1038,7 +927,6 @@
 2 PLAC Brunshåb, Danmark
 1 FAMC @F42@
 1 NOTE Barn af Else Margrethe og Frederik Lund. Døbt Durup kirke 8.4.1934. Spædbarnsdød, 3 måneder gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I110@ INDI
 1 NAME Hans Kristian Kristensen /Boe/
 1 SEX M
@@ -1049,7 +937,6 @@
 1 FAMC @F14@
 1 FAMS @F43@
 1 NOTE Barn "V." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Malerlærling 1940, malersvend 1943, malermester fra 1951. Gift 23.7.1948, Ørum-Sønderlyng kirke. [SENSITIVE] — intet dødsår angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I111@ INDI
 1 NAME Elna Kristensen /Schmidt/
 1 SEX F
@@ -1058,7 +945,6 @@
 2 PLAC Velds Huse, Ørum sogn, Danmark
 1 FAMS @F43@
 1 NOTE Datter af statshusmand Anders Christian Sørensen Schmidt og hustru Agnes. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I112@ INDI
 1 NAME Lena Schmidt /Boe/
 1 SEX F
@@ -1068,13 +954,11 @@
 1 FAMC @F43@
 1 FAMS @F44@
 1 NOTE Barn "1." af Hans Kristian og Elna. Bopæl Huginsvej, Viborg. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I113@ INDI
 1 NAME Poul Erik /Broberg/
 1 SEX M
 1 FAMS @F44@
 1 NOTE [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I114@ INDI
 1 NAME Helle /Broberg/
 1 SEX F
@@ -1082,7 +966,6 @@
 2 DATE 1974
 1 FAMC @F44@
 1 NOTE Barn "a/" af Lena og Poul Erik Broberg. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I115@ INDI
 1 NAME Mona Schmidt /Boe/
 1 SEX F
@@ -1091,7 +974,6 @@
 2 PLAC Viborg sygehus, Danmark
 1 FAMC @F43@
 1 NOTE Barn "2." af Hans Kristian og Elna. Kilden viser "Født 8.2.1950, Viborg sygehus 1955" — et yderligere "1955" umiddelbart efter sygehusnavnet, uden forklaring. BIRT-året sat til 1950 (stemmer med søsteren Lenas nærliggende fødsel), men "1955" er ikke bare forkastet — se family-tree/possible-duplicates.md sub-pattern F. [SENSITIVE] [UNVERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — trailing year unexplained]
-
 0 @I116@ INDI
 1 NAME Thorkil Schmidt /Boe/
 1 SEX M
@@ -1100,7 +982,6 @@
 2 PLAC Viborg sygehus, Danmark
 1 FAMC @F43@
 1 NOTE Barn "3." af Hans Kristian og Elna. Kilden viser "Viborg sygehus1958" — samme mønster som søsteren Monas indførsel (et årstal sammenklistret med sygehusnavnet), men her stemmer det faktisk med fødselsåret. Se family-tree/possible-duplicates.md sub-pattern F. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I117@ INDI
 1 NAME Krista Marie Kristensen /Boe/
 1 SEX F
@@ -1111,7 +992,6 @@
 1 FAMC @F14@
 1 FAMS @F45@
 1 NOTE Barn "IX." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Kontorassistent, Aagade i Skive. Gift 1.1.1954, Durup kirke. Bopæl Hybenvej 5, Åbybro. Manuskriptet angiver selv dødsåret som ukendt: "Krista død 19??)." — KEJs egen markerede usikkerhed, ikke denne sessions fund; DATE-feltet derfor bevidst tomt. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I118@ INDI
 1 NAME Martin Christoffer /Christensen/
 1 SEX M
@@ -1121,7 +1001,6 @@
 1 OCCU Svejser
 1 FAMS @F45@
 1 NOTE Søn af landmand Jens Christian Emanuel Christensen og hustru Ingeborg Sørensen. Byggede o.1967 nyt hus ved siden af det gamle i Åbybro, som derefter blev revet ned. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I119@ INDI
 1 NAME Erik /Christensen/
 1 SEX M
@@ -1131,7 +1010,6 @@
 1 OCCU Skibsingeniør, bosat på Fyn
 1 FAMC @F45@
 1 NOTE Barn "1." af Krista og Martin. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I120@ INDI
 1 NAME Jørgen /Christensen/
 1 SEX M
@@ -1139,7 +1017,6 @@
 2 DATE 25 FEB 1960
 1 FAMC @F45@
 1 NOTE Barn "2." af Krista og Martin. Børn ikke angivet i kilden ("Børn ?"). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I121@ INDI
 1 NAME Kaj /Christensen/
 1 SEX M
@@ -1148,7 +1025,6 @@
 1 DEAT
 1 FAMC @F45@
 1 NOTE Barn "3." af Krista og Martin. Bekræftet afdød, intet dødsår angivet. Børn ikke angivet i kilden ("Børn ?"). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I122@ INDI
 1 NAME Edith Kristensen /Boe/
 1 SEX F
@@ -1158,7 +1034,6 @@
 1 FAMC @F14@
 1 FAMS @F46@
 1 NOTE Barn "XI." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Husbestyrerinde, Søby Marg. Gift 10.8.1957, Durup kirke. [SENSITIVE] — intet dødsår angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I123@ INDI
 1 NAME Jens Sinding /Thomsen/
 1 SEX M
@@ -1168,7 +1043,6 @@
 1 OCCU Boelsmand
 1 FAMS @F46@
 1 NOTE Søn af gårdmand Ingvard Thomsen og hustru Mette f. Thomsen, Vrou. Manuskriptet henviser til en ekstern slægtsbog: "Slægtsbog for efterkommere efter Mogens Nielsen, gdr. i Tastum, Kobberup sogn f. 1820," nr. II-A-8 — mulig fremtidig deep-well-kandidat, ikke undersøgt nærmere nu. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I124@ INDI
 1 NAME Kurt Engberg /Thomsen/
 1 SEX M
@@ -1176,7 +1050,6 @@
 2 DATE 26 AUG 1960
 1 FAMC @F46@
 1 NOTE Barn "1." af Edith og Jens Sinding Thomsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I125@ INDI
 1 NAME Lisbeth Margrethe Sinding /Thomsen/
 1 SEX F
@@ -1184,7 +1057,6 @@
 2 DATE 13 OCT 1960
 1 FAMC @F46@
 1 NOTE Barn "2." af Edith og Jens Sinding Thomsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I126@ INDI
 1 NAME Uffe /Thomsen/
 1 SEX M
@@ -1193,7 +1065,6 @@
 1 FAMC @F46@
 1 OCCU Områdechef, Teknisk Skole i Skive
 1 NOTE Barn "3." af Edith og Jens Sinding Thomsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I127@ INDI
 1 NAME Benny /Thomsen/
 1 SEX M
@@ -1201,7 +1072,6 @@
 2 DATE 6 MAR 1967
 1 FAMC @F46@
 1 NOTE Barn "4." af Edith og Jens Sinding Thomsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I128@ INDI
 1 NAME Ernst Kristian Jørgen Kristensen /Boe/
 1 SEX M
@@ -1212,7 +1082,6 @@
 1 FAMC @F14@
 1 FAMS @F47@
 1 NOTE Barn "II." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. En fadder ved hans dåb var "Landmand Kristen Pedersen, Fur (farfar)" — korrekt mærket denne gang (generation 05, I27), til forskel fra de fejlmærkede tilfælde i grandfather-review/queue.md #7. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I129@ INDI
 1 NAME Inger Kjerstine /Handberg/
 1 SEX F
@@ -1220,7 +1089,6 @@
 2 DATE 14 FEB 1913
 1 FAMS @F47@
 1 NOTE [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I130@ INDI
 1 NAME Knud Preben Handberg /Boe/
 1 SEX M
@@ -1233,13 +1101,11 @@
 1 FAMC @F47@
 1 FAMS @F48@
 1 NOTE Barn "1." af Ernst og Inger Kjerstine. Faddere ved hans dåb (1940) omfattede korrekt mærkede onkler: "Malerlærling Hans Boe i Durup (farbror = V.)" og "Tjenestekarl Karl Boe i Dølby (farbror = IV.)". [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I131@ INDI
 1 NAME Ilse /?/
 1 SEX F
 1 FAMS @F48@
 1 NOTE Efternavn ikke angivet. Ægteskabet med Knud Preben opløst. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I132@ INDI
 1 NAME Berit Carola Handberg /Boe/
 1 SEX F
@@ -1247,13 +1113,11 @@
 2 DATE 30 MAY 1966
 1 FAMC @F48@
 1 NOTE Barn "a/" af Knud Preben og Ilse. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I133@ INDI
 1 NAME Steffen Handberg /Boe/
 1 SEX M
 1 FAMC @F48@
 1 NOTE Barn "b/" af Knud Preben og Ilse. Ingen fødselsdato angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I134@ INDI
 1 NAME Kurt Handberg /Boe/
 1 SEX M
@@ -1265,7 +1129,6 @@
 2 PLAC Skive, Danmark
 1 FAMC @F47@
 1 NOTE Barn "2." af Ernst og Inger Kjerstine. Død på sygehuset i Skive, 5 år gl., begravet 21.6.1949 i Durup. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I135@ INDI
 1 NAME Annie Handberg /Boe/
 1 SEX F
@@ -1276,20 +1139,17 @@
 1 FAMC @F47@
 1 FAMS @F49@
 1 NOTE Barn "3." af Ernst og Inger Kjerstine. Bosat Svansømosegård ved Skive (forældrenes ejendom). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I136@ INDI
 1 NAME Henning /Gade/
 1 SEX M
 1 OCCU Murer
 1 FAMS @F49@
 1 NOTE [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I137@ INDI
 1 NAME Jacob /Gade/
 1 SEX M
 1 FAMC @F49@
 1 NOTE Barn "a/" af Annie og Henning Gade. Endnu et barn ("b/") nævnt, men ikke navngivet ("?") i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I138@ INDI
 1 NAME Ane Margrethe Christensen /Boe/
 1 SEX F
@@ -1304,7 +1164,6 @@
 1 FAMS @F50@
 1 FAMS @F51@
 1 NOTE Barn "X." af Laurids Christensen Boe og Ottine Boline Marie Pedersen, kaldet "Anna". Husassistent ved 1. giftermål. En fadder ved hendes dåb var "Isenkræmmer Karl Alfred Thorndal og hustru Bolette Thorndal i Roslev" — sandsynlig navnekilde til broderen Karl Alfred Christensen Boe (I102), som har samme fadderfamilie nævnt i sin egen indførsel. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I139@ INDI
 1 NAME Gunnar /Bak/
 1 SEX M
@@ -1314,14 +1173,12 @@
 1 OCCU Landbrugsmedhjælper, senere landmand, Grynnerup, Sæby sogn
 1 FAMS @F50@
 1 NOTE Søn af ugift Knudsine Auguste Jeppesen Bak — født udenfor ægteskab, ingen far angivet. Manuskriptet henviser til en ekstern slægtsbog: "En slægt Bak fra Sæby sogn, Harre Herred," Nordisk Slægtsforskning i Skals, 1983 — mulig fremtidig deep-well-kandidat, ikke undersøgt nærmere nu. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I140@ INDI
 1 NAME Harry /Kjeldsen/
 1 SEX M
 1 OCCU Landmand, Grynnerup
 1 FAMS @F51@
 1 NOTE Annas anden ægtefælle, gift 1967. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I141@ INDI
 1 NAME Grethe /Bak/
 1 SEX F
@@ -1333,7 +1190,6 @@
 1 FAMC @F50@
 1 FAMS @F52@
 1 NOTE Barn "1." af Anna og Gunnar Bak (1. ægteskab). Gårdejer "Engholm," Grynnerupvej 38, Grynderup, Sæby sogn. Død 60 år gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I142@ INDI
 1 NAME Jørgen Henrik Jensen /Futtrup/
 1 SEX M
@@ -1342,7 +1198,6 @@
 2 PLAC Outrup, Mors, Danmark
 1 FAMS @F52@
 1 NOTE Søn af gårdejer Mads Johan Futtrup og hustru Thora Jensen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I143@ INDI
 1 NAME Karin Bak /Futtrup/
 1 SEX F
@@ -1352,13 +1207,11 @@
 1 FAMC @F52@
 1 FAMS @F53@
 1 NOTE Barn "a/" af Grethe og Jørgen Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I144@ INDI
 1 NAME Jesper /?/
 1 SEX M
 1 FAMS @F53@
 1 NOTE Efternavn ikke angivet ("G. Jesper"). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I145@ INDI
 1 NAME Jan Bak /Futtrup/
 1 SEX M
@@ -1368,13 +1221,11 @@
 1 FAMC @F52@
 1 FAMS @F54@
 1 NOTE Barn "b/" af Grethe og Jørgen Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I146@ INDI
 1 NAME Conny /?/
 1 SEX F
 1 FAMS @F54@
 1 NOTE Efternavn ikke angivet ("G. Conny"). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I147@ INDI
 1 NAME Gitte Bak /Futtrup/
 1 SEX F
@@ -1385,13 +1236,11 @@
 1 FAMC @F52@
 1 FAMS @F55@
 1 NOTE Barn "c/" af Grethe og Jørgen Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I148@ INDI
 1 NAME Lars /?/
 1 SEX M
 1 FAMS @F55@
 1 NOTE Efternavn ikke angivet ("G. Lars"). Søn af en købmand i Sæby, Salling. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I149@ INDI
 1 NAME Jette Bak /Futtrup/
 1 SEX F
@@ -1402,13 +1251,11 @@
 1 FAMC @F52@
 1 FAMS @F56@
 1 NOTE Barn "d/" af Grethe og Jørgen Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I150@ INDI
 1 NAME Nicolaj /?/
 1 SEX M
 1 FAMS @F56@
 1 NOTE Efternavn ikke angivet ("G. Nicolaj"). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I151@ INDI
 1 NAME Margit /Bak/
 1 SEX F
@@ -1418,7 +1265,6 @@
 1 FAMC @F50@
 1 FAMS @F57@
 1 NOTE Barn "2." af Anna og Gunnar Bak (1. ægteskab). En fadder var "Laurits Boe i Durup (morfar)" — korrekt mærket (generation g's Laurids, I37, hendes egen morfar). Bopæl Sallingsundvej ved Roslev. **Kronologisk umulig dødsdato i kilden:** "Død 24.1.1916." — dette er FØR hendes egen fødsel (1951), en åbenlys fejl, men ingen rettelse forsøgt her. Ikke afgjort — se grandfather-review/queue.md #8. DEAT-feltet bevidst udeladt. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54][CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal (dødsdato før fødselsdato) — grandfather-review/queue.md #8]
-
 0 @I152@ INDI
 1 NAME Svend Erik /Poulsen/
 1 SEX M
@@ -1428,7 +1274,6 @@
 1 OCCU Frisør, senere slagteriarbejder, Skive
 1 FAMS @F57@
 1 NOTE Søn af hjemmeslagter Alfred Poulsen og hustru Vita Jensen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I153@ INDI
 1 NAME Charlotte Bak /Poulsen/
 1 SEX F
@@ -1437,7 +1282,6 @@
 2 PLAC Skive, Danmark
 1 FAMC @F57@
 1 NOTE Barn "a/" af Margit og Svend Erik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I154@ INDI
 1 NAME Kim Gunnar Bak /Poulsen/
 1 SEX M
@@ -1446,7 +1290,6 @@
 2 PLAC Skive, Danmark
 1 FAMC @F57@
 1 NOTE Barn "b/" af Margit og Svend Erik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I155@ INDI
 1 NAME Mik Bak /Poulsen/
 1 SEX M
@@ -1455,7 +1298,6 @@
 2 PLAC Skive, Danmark
 1 FAMC @F57@
 1 NOTE Barn "c/" af Margit og Svend Erik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I156@ INDI
 1 NAME Poul Viggo /Bach/
 1 SEX M
@@ -1466,7 +1308,6 @@
 1 FAMC @F50@
 1 FAMS @F58@
 1 NOTE Barn "3." af Anna og Gunnar Bak (1. ægteskab) — efternavn stavet "Bach" i modsætning til familiens ellers "Bak" (muligvis opkaldt efter fadderen "industriarbejder Viggo Bach i Glyngøre", som deler samme stavning). Bopæl Durupvej 24, Glyngøre. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I157@ INDI
 1 NAME Birgit Winther /Andersen/
 1 SEX F
@@ -1475,7 +1316,6 @@
 2 PLAC Harre, Danmark
 1 FAMS @F58@
 1 NOTE Havde 2 børn fra tidligere ægteskab (Janni og René — ikke Boe-slægtens biologiske linje, ingen @I@-poster oprettet for dem). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I158@ INDI
 1 NAME Pia /Bak/
 1 SEX F
@@ -1484,7 +1324,6 @@
 2 PLAC Thisted, Danmark
 1 FAMC @F58@
 1 NOTE Fælles barn ("a/") af Poul Viggo og Birgit. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I159@ INDI
 1 NAME Knud Erik /Bak/
 1 SEX M
@@ -1495,13 +1334,11 @@
 1 FAMC @F50@
 1 FAMS @F59@
 1 NOTE Barn "4." af Anna og Gunnar Bak (1. ægteskab). Børn ikke angivet i kilden ("Børn ?"). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I160@ INDI
 1 NAME Betina /?/
 1 SEX F
 1 FAMS @F59@
 1 NOTE Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I161@ INDI
 1 NAME Søren Kjeldsen /Bak/
 1 SEX M
@@ -1510,13 +1347,11 @@
 1 FAMC @F51@
 1 FAMS @F60@
 1 NOTE Barn "5." af Anna og Harry Kjeldsen (2. ægteskab) — hybrid-efternavnet "Kjeldsen Bak" afspejler formentlig begge forældre. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I162@ INDI
 1 NAME Chanette /?/
 1 SEX F
 1 FAMS @F60@
 1 NOTE Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @F47@ FAM
 1 HUSB @I128@
 1 WIFE @I129@
@@ -1526,19 +1361,16 @@
 1 CHIL @I130@
 1 CHIL @I134@
 1 CHIL @I135@
-
 0 @F48@ FAM
 1 HUSB @I130@
 1 WIFE @I131@
 1 NOTE Ægteskabet opløst.
 1 CHIL @I132@
 1 CHIL @I133@
-
 0 @F49@ FAM
 1 HUSB @I136@
 1 WIFE @I135@
 1 CHIL @I137@
-
 0 @F50@ FAM
 1 HUSB @I139@
 1 WIFE @I138@
@@ -1550,7 +1382,6 @@
 1 CHIL @I156@
 1 CHIL @I159@
 1 NOTE Annas 1. ægteskab.
-
 0 @F51@ FAM
 1 HUSB @I140@
 1 WIFE @I138@
@@ -1558,7 +1389,6 @@
 2 DATE 1967
 1 CHIL @I161@
 1 NOTE Annas 2. ægteskab.
-
 0 @F52@ FAM
 1 HUSB @I142@
 1 WIFE @I141@
@@ -1566,23 +1396,18 @@
 1 CHIL @I145@
 1 CHIL @I147@
 1 CHIL @I149@
-
 0 @F53@ FAM
 1 HUSB @I144@
 1 WIFE @I143@
-
 0 @F54@ FAM
 1 HUSB @I145@
 1 WIFE @I146@
-
 0 @F55@ FAM
 1 HUSB @I148@
 1 WIFE @I147@
-
 0 @F56@ FAM
 1 HUSB @I150@
 1 WIFE @I149@
-
 0 @F57@ FAM
 1 HUSB @I152@
 1 WIFE @I151@
@@ -1591,20 +1416,16 @@
 1 CHIL @I153@
 1 CHIL @I154@
 1 CHIL @I155@
-
 0 @F58@ FAM
 1 HUSB @I156@
 1 WIFE @I157@
 1 CHIL @I158@
-
 0 @F59@ FAM
 1 HUSB @I159@
 1 WIFE @I160@
-
 0 @F60@ FAM
 1 HUSB @I161@
 1 WIFE @I162@
-
 0 @I163@ INDI
 1 NAME Meta Kristine Kristensen /Boe/
 1 SEX F
@@ -1619,7 +1440,6 @@
 1 FAMS @F62@
 1 FAMS @F63@
 1 NOTE Barn "III." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. En fadder ved hendes dåb var boelsmand Niels Jensen, Vilholm (05-b, dvs. faster Marie Christensen Boes ægtefælle) — endnu et krydsreferencet fadderskab mellem grene. Husbestyrerinde hos Peder Alfred Plejdrup i Toustrup (1940); uddannet damefrisør. Fik uden for ægteskab datteren Hanne (1944) — se F61. Gift 1. gang 18.8.1946, Durup kirke; gift 2. gang (år ikke angivet) med plejer Peder N. Pedersen. Boede sidst i Skt. Mathiasgade i Viborg til sin død 1982 (kun årstal angivet i kilden, ingen præcis dato). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I164@ INDI
 1 NAME Gunnar Vilhelm /Carlsen/
 1 SEX M
@@ -1629,7 +1449,6 @@
 1 OCCU Arbejdsmand, Silkeborg
 1 FAMS @F61@
 1 NOTE Udlagt barnefader (erklæret, ikke gift) til Hanne Boe/Nielsen (I167). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I165@ INDI
 1 NAME Peter Severin /Nielsen/
 1 SEX M
@@ -1641,14 +1460,12 @@
 1 OCCU Fyrbøder ved Brunshåb Papfabrik
 1 FAMS @F62@
 1 NOTE Søn af husmand Peder Nielsen og hustru Severine Sørensen. Enkemand ved giftermålet med Meta — tidligere gift med Hansine Marie Kirkegaard (død 20.12.1945); hun er ikke selvstændigt oprettet her, da hun ikke har nogen kendt forbindelse til Boe-slægten. Parret solgte huset i Brunshåb og boede en tid på Overlund Alderdomshjem, hvor Peter døde 1968. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I166@ INDI
 1 NAME Peder N. /Pedersen/
 1 SEX M
 1 OCCU Plejer
 1 FAMS @F63@
 1 NOTE Metas 2. ægtefælle. Parret boede Ll. Skt. Pedersstræde (by ikke angivet i kilden, formentlig Viborg) indtil Peders død. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I167@ INDI
 1 NAME Hanne /Boe/
 1 SEX F
@@ -1663,7 +1480,6 @@
 1 FAMS @F64@
 1 NOTE Barn "1." af Meta Kristine Kristensen Boe, født uden for ægteskab (far: Gunnar Vilhelm Carlsen, I164). Fik ved fødslen navnet Hanne Boe; navnet ændret til Hanne Nielsen ved moderens giftermål 1946 (Peter Severin Nielsen var ikke hendes far). Faddere ved hendes dåb, alle korrekt mærkede: mormoder Ottine Boline Marie Pedersen (bar barnet); moster Else Margrethe Boe og hendes mand Frederik Lund (moderens søster = I.); morbrødrene Poul Kristensen Boe (= VI.) og Christian Kristensen Boe (= VII.) — fire flere positive modeksempler til fejlmærkningsmønstret i grandfather-review/queue.md #7. Genantog 18.4.1984 sit fødenavn Hanne Boe. Begravet på Asmild kirkegård ved Viborg. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Foto/dokument: sammen med Knud Erik Jakobsen (I168), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image26.jpeg — identificeret direkte af familien (2026-08-06), ikke fundet via manuskriptets egen billedtekst. [VERIFIED: familieidentifikation, 2026-08-06]
-
 0 @I168@ INDI
 1 NAME Knud Erik /Jakobsen/
 1 SEX M
@@ -1676,7 +1492,6 @@
 1 NOTE **Dette er manuskriptets egen forfatter, Knud Erik Jakobsen (KEJ)** — se dette dokuments kildeangivelse. Gift med Hanne Boe/Nielsen (I167) 1966; parret boede i Åbybro under hans uddannelse på Ålborg seminarium (1966-70), senere i Åsted, fra 1973 på Risumvej 3. Ægteskabet opløst 1983. Manuskriptet henviser videre til "Salling-slægten Hopp" m.fl. — KEJ's egne øvrige slægtsforskningsprojekter, ikke undersøgt nærmere her. [SENSITIVE] — ingen dødsdato angivet (manuskriptets forfatter, i live pr. 2026). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Foto/dokument: sammen med Hanne Boe (I167), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image26.jpeg. Billedet lå oprindelig fysisk indlejret blandt filer fra KEJ's egen "Hopp-slægter"-mappestruktur i .docx-filen (deraf det oprindelige, misvisende filnavn) — men billedets faktiske indhold er Boe-slægten, ikke Hopp-slægten; korrigeret 2026-08-06 efter direkte familieidentifikation. [VERIFIED: familieidentifikation, 2026-08-06]
 1 NOTE KEJ har en tredje datter, Astrid Kirk (I363), med en anden kvinde end Hanne Boe — oplyst direkte af familien (2026-08-06), ikke omtalt i manuskriptet. [VERIFIED: familieidentifikation, 2026-08-06]
-
 0 @I169@ INDI
 1 NAME Lotta Ann (Jakobsen) /Boe/
 1 SEX F
@@ -1688,7 +1503,6 @@
 1 FAMS @F65@
 1 NOTE Barn "a/" af Hanne og Knud Erik Jakobsen. Navneændring 1984 til Lotta Ann Jakobsen Boe. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Foto/dokument: gruppebillede, august 1995, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png — sammen med Bruno Dølby (I170), Gitte Boe (I174), Tommy Krogh (I175), Cecilie Boe (I181, spæd/lille barn), Nikolaj Boe (I177, dreng), samt Astrid Kirk (I363). Identificeret direkte af familien (2026-08-06). [VERIFIED: familieidentifikation, 2026-08-06]
-
 0 @I170@ INDI
 1 NAME Bruno /Dølby/
 1 SEX M
@@ -1699,7 +1513,6 @@
 1 FAMS @F65@
 1 NOTE Manuskriptet henviser til en ekstern slægtsbog for hans egen linje: "Hopp-Slægten kap. 1, Afsnit 13 a-2-d/" — ikke undersøgt nærmere her. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Foto/dokument: gruppebillede, august 1995 (stående), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png — sammen med Lotta Ann (I169), Gitte Boe (I174), Tommy Krogh (I175), Cecilie Boe (I181), Nikolaj Boe (I177), samt Astrid Kirk (I363). Identificeret direkte af familien (2026-08-06). [VERIFIED: familieidentifikation, 2026-08-06]
-
 0 @I171@ INDI
 1 NAME Frederikke /Dølby/
 1 SEX F
@@ -1710,7 +1523,6 @@
 1 FAMC @F65@
 1 FAMS @F66@
 1 NOTE Barn "1/" af Lotta Ann og Bruno. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I172@ INDI
 1 NAME Martin /Buchwald/
 1 SEX M
@@ -1720,7 +1532,6 @@
 1 OCCU Uddannet mekaniker
 1 FAMS @F66@
 1 NOTE Frederikkes kæreste (ikke gift). Kildens egen fødselsdato-notation ("f. 9.71997") mangler tilsyneladende et skilletegn — tolket her som 9.7.1997; ikke behandlet som en uoverensstemmelse af samme art som sub-mønster A/E, da den sandsynlige læsning er entydig. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I173@ INDI
 1 NAME Mathias /Dølby/
 1 SEX M
@@ -1730,7 +1541,6 @@
 1 OCCU Praktikant, Polar Park (Nordnorge); ved læsning i kilden p.t. Givskud Zoo
 1 FAMC @F65@
 1 NOTE Barn "2/" af Lotta Ann og Bruno. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I174@ INDI
 1 NAME Gitte (Jakobsen) /Boe/
 1 SEX F
@@ -1743,7 +1553,6 @@
 1 FAMS @F68@
 1 NOTE Barn "b/" af Hanne og Knud Erik Jakobsen. Navneændring 1984 til Gitte Jakobsen Boe (samtidig med søsteren Lotta Ann). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Foto/dokument: gruppebillede, august 1995 (med Cecilie), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png — sammen med Bruno Dølby (I170), Tommy Krogh (I175), Lotta Ann (I169), Cecilie Boe (I181), Nikolaj Boe (I177), samt Astrid Kirk (I363). Identificeret direkte af familien (2026-08-06). [VERIFIED: familieidentifikation, 2026-08-06]
-
 0 @I175@ INDI
 1 NAME Tommy Høgedal /Krogh/
 1 SEX M
@@ -1753,7 +1562,6 @@
 1 FAMS @F67@
 1 NOTE Gittes kæreste (ikke gift), parforholdet senere opløst. Boede ca. ½ år i Saskatoon, Canada, med Gitte, før bosættelse i Nykøbing Mors/Nordmors. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Foto/dokument: gruppebillede, august 1995 (med Nikolaj), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png — sammen med Bruno Dølby (I170), Gitte Boe (I174), Lotta Ann (I169), Cecilie Boe (I181), Nikolaj Boe (I177), samt Astrid Kirk (I363). Identificeret direkte af familien (2026-08-06). [VERIFIED: familieidentifikation, 2026-08-06]
-
 0 @I176@ INDI
 1 NAME Jens /Munk/
 1 SEX M
@@ -1763,7 +1571,6 @@
 1 OCCU Gårdejer, Vester Hassing
 1 FAMS @F68@
 1 NOTE To børn fra tidligere forhold (Cathrine, f.2004, og Christian, f.2006) — ikke Boe-slægtens biologiske linje, ingen @I@-poster oprettet for dem. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I177@ INDI
 1 NAME Nikolaj Høgedal /Boe/
 1 SEX M
@@ -1775,7 +1582,6 @@
 1 FAMS @F69@
 1 NOTE Barn "1/" af Gitte og Tommy Høgedal Krogh. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Foto/dokument: gruppebillede, august 1995 (som lille dreng, stående), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png — sammen med Bruno Dølby (I170), Gitte Boe (I174), Tommy Krogh (I175), Lotta Ann (I169), Cecilie Boe (I181), samt Astrid Kirk (I363). Identificeret direkte af familien (2026-08-06). [VERIFIED: familieidentifikation, 2026-08-06]
-
 0 @I178@ INDI
 1 NAME Tatiana "Tanja" /Kormanowa/
 1 SEX F
@@ -1784,7 +1590,6 @@
 2 PLAC Slovakiet
 1 FAMS @F69@
 1 NOTE [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I179@ INDI
 1 NAME Hanna /Boe/
 1 SEX F
@@ -1793,7 +1598,6 @@
 2 PLAC Hvidovre Hospital, Danmark
 1 FAMC @F69@
 1 NOTE Barn "I/" af Nikolaj og Tatiana. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I180@ INDI
 1 NAME Henry /Boe/
 1 SEX M
@@ -1802,7 +1606,6 @@
 2 PLAC Hvidovre Hospital, Danmark
 1 FAMC @F69@
 1 NOTE Barn "II/" af Nikolaj og Tatiana. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I181@ INDI
 1 NAME Cecilie Høgedal /Boe/
 1 SEX F
@@ -1814,7 +1617,6 @@
 1 FAMS @F70@
 1 NOTE Barn "2/" af Gitte og Tommy Høgedal Krogh. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Foto/dokument: gruppebillede, august 1995 (som spæd/lille barn), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png — sammen med Bruno Dølby (I170), Gitte Boe (I174), Tommy Krogh (I175), Lotta Ann (I169), Nikolaj Boe (I177), samt Astrid Kirk (I363). Identificeret direkte af familien (2026-08-06). [VERIFIED: familieidentifikation, 2026-08-06]
-
 0 @I182@ INDI
 1 NAME Morten /Frederiksen/
 1 SEX M
@@ -1822,7 +1624,6 @@
 2 DATE 9 JUL 1992
 1 FAMS @F70@
 1 NOTE Cecilies kæreste (ikke gift). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I183@ INDI
 1 NAME Freja Hegaard /Frederiksen/
 1 SEX F
@@ -1831,7 +1632,6 @@
 2 PLAC Holstebro, Danmark
 1 FAMC @F70@
 1 NOTE Barn "I/" af Cecilie og Morten. Efternavnet staves "Frederisen" ét sted i kilden (mod "Frederiksen" ellers) — behandlet som en stavefejl, ikke en separat person. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I184@ INDI
 1 NAME Emil Hegaard /Frederiksen/
 1 SEX M
@@ -1840,7 +1640,6 @@
 2 PLAC Gødstrup, Danmark
 1 FAMC @F70@
 1 NOTE Barn "II/" af Cecilie og Morten. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I185@ INDI
 1 NAME Carlo Boe /Nielsen/
 1 SEX M
@@ -1852,13 +1651,11 @@
 2 PLAC København, Danmark
 1 FAMC @F62@
 1 NOTE Barn "2." af Meta og Peter Severin Nielsen (1. ægteskab). Havde en medfødt hjertefejl; en af de første i Danmark opereret for det på Rigshospitalet, men døde efter operationen 1962, kun 15 år gammel. Begravet i Asmild. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @F61@ FAM
 1 HUSB @I164@
 1 WIFE @I163@
 1 CHIL @I167@
 1 NOTE Ikke et ægteskab — Hanne født udenfor ægteskab, før Metas senere giftermål.
-
 0 @F62@ FAM
 1 HUSB @I165@
 1 WIFE @I163@
@@ -1867,12 +1664,10 @@
 2 PLAC Durup kirke, Danmark
 1 CHIL @I185@
 1 NOTE Metas 1. ægteskab.
-
 0 @F63@ FAM
 1 HUSB @I166@
 1 WIFE @I163@
 1 NOTE Metas 2. ægteskab. Dato ikke angivet i kilden. Ingen børn.
-
 0 @F64@ FAM
 1 HUSB @I168@
 1 WIFE @I167@
@@ -1881,7 +1676,6 @@
 1 CHIL @I169@
 1 CHIL @I174@
 1 NOTE Ægteskabet opløst 1983.
-
 0 @F65@ FAM
 1 HUSB @I170@
 1 WIFE @I169@
@@ -1889,26 +1683,22 @@
 2 DATE 29 APR 2000
 1 CHIL @I171@
 1 CHIL @I173@
-
 0 @F66@ FAM
 1 HUSB @I172@
 1 WIFE @I171@
 1 NOTE Ikke et ægteskab (kæreste).
-
 0 @F67@ FAM
 1 HUSB @I175@
 1 WIFE @I174@
 1 CHIL @I177@
 1 CHIL @I181@
 1 NOTE Ikke et ægteskab (kæreste), senere opløst.
-
 0 @F68@ FAM
 1 HUSB @I176@
 1 WIFE @I174@
 1 MARR
 2 DATE 2015
 2 PLAC Ålborg rådhus, Danmark
-
 0 @F69@ FAM
 1 HUSB @I177@
 1 WIFE @I178@
@@ -1917,14 +1707,12 @@
 2 PLAC Københavns Rådhus, Danmark
 1 CHIL @I179@
 1 CHIL @I180@
-
 0 @F70@ FAM
 1 HUSB @I182@
 1 WIFE @I181@
 1 NOTE Ikke et ægteskab (kæreste).
 1 CHIL @I183@
 1 CHIL @I184@
-
 0 @I186@ INDI
 1 NAME Karen Kristensen /Boe/
 1 SEX F
@@ -1938,7 +1726,6 @@
 1 FAMC @F14@
 1 FAMS @F71@
 1 NOTE Barn "VIII." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Faddere: moderen, enke Mariane Stengaard, gartner Hans Simonsen i Skive, og faderen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I187@ INDI
 1 NAME Arne Frandsen /Boll/
 1 SEX M
@@ -1950,7 +1737,6 @@
 1 OCCU Boelsmand, senere gårdejer, Tøndering
 1 FAMS @F71@
 1 NOTE Søn af gårdejer Aage Boll og hustru Else Thomine Marie Frandsen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I188@ INDI
 1 NAME Svend Tage /Boll/
 1 SEX M
@@ -1961,14 +1747,12 @@
 1 FAMC @F71@
 1 FAMS @F72@
 1 NOTE Barn "1." af Karen og Arne. Faddere, korrekt mærkede: forældrene; landmand Harald Boll i Åsted sogn (farbror); gartner Kristian Boe i Tøndering (morbror = VII.); landmand Viggo Boll i Åsted sogn (farbror) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I189@ INDI
 1 NAME Grethe /Sørensen/
 1 SEX F
 1 OCCU Lærer
 1 FAMS @F72@
 1 NOTE Svend Tages hustru, gift 1974. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I190@ INDI
 1 NAME Thomas /Boll/
 1 SEX M
@@ -1978,19 +1762,16 @@
 1 FAMC @F72@
 1 FAMS @F73@
 1 NOTE Barn "a/" af Svend Tage og Grethe. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I191@ INDI
 1 NAME Ane /?/
 1 SEX F
 1 FAMS @F73@
 1 NOTE Efternavn ikke angivet. Thomas' hustru. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I192@ INDI
 1 NAME Ea /Boll/
 1 SEX F
 1 FAMC @F73@
 1 NOTE Barn "A" af Thomas og Ane. To yderligere søskende ("B", "C") nævnt i kilden uden navn, den yngste født 2018 — ingen selvstændige @I@-poster oprettet for dem. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I193@ INDI
 1 NAME Esther /Boll/
 1 SEX F
@@ -2000,26 +1781,22 @@
 1 FAMC @F72@
 1 FAMS @F74@
 1 NOTE Barn "b/" af Svend Tage og Grethe. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I194@ INDI
 1 NAME Lars /?/
 1 SEX M
 1 OCCU Kommunaldirektør, Holstebro
 1 FAMS @F74@
 1 NOTE Efternavn ikke angivet. Esthers ægtefælle. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I195@ INDI
 1 NAME Georg /?/
 1 SEX M
 1 FAMC @F74@
 1 NOTE Barn "A" af Esther og Lars. Efternavn ikke angivet (faderens efternavn er ukendt i kilden). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I196@ INDI
 1 NAME Knud /?/
 1 SEX M
 1 FAMC @F74@
 1 NOTE Barn "B" af Esther og Lars. Et tredje barn ("C") nævnt uden navn, født 2018 — ingen selvstændig @I@-post oprettet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I197@ INDI
 1 NAME Birgit /Boll/
 1 SEX F
@@ -2033,7 +1810,6 @@
 1 FAMC @F71@
 1 FAMS @F75@
 1 NOTE Barn "2." af Karen og Arne. Faddere, korrekt mærkede: forældrene; landmand Harald Boll i Nøreng (farbror); landmand Anders Boll i Nøreng (farbror); kontorassistent Krista Boe, Aagade i Skive (moster = IX.) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I198@ INDI
 1 NAME Erik /Vestergård/
 1 SEX M
@@ -2042,7 +1818,6 @@
 1 OCCU Fabrikschef, Hammel
 1 FAMS @F75@
 1 NOTE Gift med Birgit 1973; ægteskabet opløst 2000. Giftede sig igen (2. ægteskab, kildens egen dato "1016" er næsten sikkert en fejlskrivning for 2016) med Birthe Andersen (f.1956) — hun er ikke selvstændigt oprettet her, ingen kendt forbindelse til Boe-slægten. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I199@ INDI
 1 NAME Linda Boll /Vestergård/
 1 SEX F
@@ -2052,13 +1827,11 @@
 1 FAMC @F75@
 1 FAMS @F76@
 1 NOTE Barn "a/" af Birgit og Erik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I200@ INDI
 1 NAME Henrik /Damsgaard/
 1 SEX M
 1 FAMS @F76@
 1 NOTE Lindas ægtefælle, gift 2007, opløst 2016. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I201@ INDI
 1 NAME Rebecca Vestergaard /Damsgaard/
 1 SEX F
@@ -2067,7 +1840,6 @@
 2 PLAC Vamdrup, Danmark
 1 FAMC @F76@
 1 NOTE Barn "A" af Linda og Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I202@ INDI
 1 NAME Sebastian Vestergaard /Damsgaard/
 1 SEX M
@@ -2076,7 +1848,6 @@
 2 PLAC Vamdrup, Danmark
 1 FAMC @F76@
 1 NOTE Barn "B" af Linda og Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I203@ INDI
 1 NAME Lars Boll /Vestergård/
 1 SEX M
@@ -2086,13 +1857,11 @@
 1 FAMC @F75@
 1 FAMS @F77@
 1 NOTE Barn "b/" af Birgit og Erik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I204@ INDI
 1 NAME Mette /Lydiger/
 1 SEX F
 1 FAMS @F77@
 1 NOTE Lars' kæreste (ikke gift), sammen fra 2018. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I205@ INDI
 1 NAME Esther Annie Lydiger /Vestergaard/
 1 SEX F
@@ -2101,7 +1870,6 @@
 2 PLAC Horsens, Danmark
 1 FAMC @F77@
 1 NOTE Datter af Lars og Mette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I206@ INDI
 1 NAME Marie Boll /Vestergaard/
 1 SEX F
@@ -2113,7 +1881,6 @@
 2 PLAC Grønning, Danmark
 1 FAMC @F75@
 1 NOTE Barn "c/" af Birgit og Erik. Spædbarnsdød, samme år som fødslen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I207@ INDI
 1 NAME Annie Boll /Vestergaard/
 1 SEX F
@@ -2125,7 +1892,6 @@
 2 PLAC Hospice Djursland, Danmark
 1 FAMC @F75@
 1 NOTE Barn "d/" af Birgit og Erik. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I208@ INDI
 1 NAME Anna Gyda /Boll/
 1 SEX F
@@ -2136,14 +1902,12 @@
 1 FAMC @F71@
 1 FAMS @F78@
 1 NOTE Barn "3." af Karen og Arne. Faddere, korrekt mærkede: forældrene; boelsmand Harald Boll i Nøreng, Åsted sogn (farbror); murermester Laurits Boe i Durup (morfar) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I209@ INDI
 1 NAME Kaj Godsk /Pedersen/
 1 SEX M
 1 OCCU Tagdækker
 1 FAMS @F78@
 1 NOTE Anna Gydas ægtefælle. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I210@ INDI
 1 NAME Lone Boll /Pedersen/
 1 SEX F
@@ -2154,14 +1918,12 @@
 1 FAMC @F78@
 1 FAMS @F79@
 1 NOTE Barn "a/" af Anna Gyda og Kaj. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I211@ INDI
 1 NAME Ole /Rasmussen/
 1 SEX M
 1 OCCU Maskinsnedker
 1 FAMS @F79@
 1 NOTE Lones ægtefælle. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I212@ INDI
 1 NAME Malene Boll /Rasmussen/
 1 SEX F
@@ -2169,7 +1931,6 @@
 2 DATE 3 SEP 1998
 1 FAMC @F79@
 1 NOTE Barn "A" af Lone og Ole. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I213@ INDI
 1 NAME Rikke Boll /Rasmussen/
 1 SEX F
@@ -2177,7 +1938,6 @@
 2 DATE 3 APR 2000
 1 FAMC @F79@
 1 NOTE Barn "B" af Lone og Ole. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I214@ INDI
 1 NAME Jakob Boll /Rasmussen/
 1 SEX M
@@ -2185,7 +1945,6 @@
 2 DATE 19 MAY 2006
 1 FAMC @F79@
 1 NOTE Barn "C" af Lone og Ole. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I215@ INDI
 1 NAME Helle Boll /Pedersen/
 1 SEX F
@@ -2196,14 +1955,12 @@
 1 FAMC @F78@
 1 FAMS @F80@
 1 NOTE Barn "b/" af Anna Gyda og Kaj. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I216@ INDI
 1 NAME Flemming /Tingholm/
 1 SEX M
 1 OCCU Skorstensfejer
 1 FAMS @F80@
 1 NOTE Helles ægtefælle, gift 16.8.2003. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I217@ INDI
 1 NAME Iben /?/
 1 SEX F
@@ -2211,7 +1968,6 @@
 2 DATE 15 APR 2004
 1 FAMC @F80@
 1 NOTE Barn "A" af Helle og Flemming. Efternavn ikke angivet i kilden (i modsætning til fætrene/kusinerne i denne gren, som alle vises med bindestregs-efternavne). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I218@ INDI
 1 NAME Lisa /?/
 1 SEX F
@@ -2219,7 +1975,6 @@
 2 DATE 2 OCT 2005
 1 FAMC @F80@
 1 NOTE Barn "B" af Helle og Flemming. Efternavn ikke angivet i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I219@ INDI
 1 NAME Diana /?/
 1 SEX F
@@ -2227,7 +1982,6 @@
 2 DATE 4 JAN 2008
 1 FAMC @F80@
 1 NOTE Barn "C" af Helle og Flemming. Efternavn ikke angivet i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I220@ INDI
 1 NAME Ole Boll /Pedersen/
 1 SEX M
@@ -2238,14 +1992,12 @@
 1 FAMC @F78@
 1 FAMS @F81@
 1 NOTE Barn "c/" af Anna Gyda og Kaj. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I221@ INDI
 1 NAME Sara /Korntved/
 1 SEX F
 1 OCCU Sygeplejerske
 1 FAMS @F81@
 1 NOTE Oles hustru, gift 31.5.2014. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I222@ INDI
 1 NAME Adam /?/
 1 SEX M
@@ -2253,7 +2005,6 @@
 2 DATE 22 JAN 2014
 1 FAMC @F81@
 1 NOTE Barn "A" af Ole og Sara. Efternavn ikke angivet i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I223@ INDI
 1 NAME Elias /?/
 1 SEX M
@@ -2261,7 +2012,6 @@
 2 DATE 5 OCT 2016
 1 FAMC @F81@
 1 NOTE Barn "B" af Ole og Sara. Efternavn ikke angivet i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I224@ INDI
 1 NAME Karsten /Boll/
 1 SEX M
@@ -2272,19 +2022,16 @@
 1 FAMC @F71@
 1 FAMS @F82@
 1 NOTE Barn "4." af Karen og Arne. Faddere: forældrene; sygeplejerske Martha Boll, Amtssygehuset i Gentofte (faster; kildens egen stavning "Getofte" læst som en åbenlys trykfejl); tilsynshavende Ellen Boll, Amtssygehuset i Gentofte; gartner Poul Boe i Durup (morbror = VI. — korrekt mærket, endnu et positivt modeksempel til grandfather-review/queue.md #7). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I225@ INDI
 1 NAME Aase Færk /Jørgensen/
 1 SEX F
 1 FAMS @F82@
 1 NOTE Karstens hustru, gift 4.10.1980. Datter af Tinna og Aage Jørgensen i Roslev. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I226@ INDI
 1 NAME Anna /Boll/
 1 SEX F
 1 FAMC @F82@
 1 NOTE Datter "A" af Karsten og Aase. Bor i København. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I227@ INDI
 1 NAME Anders Henrik /Boll/
 1 SEX M
@@ -2295,33 +2042,28 @@
 1 FAMC @F71@
 1 FAMS @F83@
 1 NOTE Barn "5." af Karen og Arne. Faddere, korrekt mærkede: forældrene; boelsmand Harald Boll i Nøreng, Åsted sogn (farbror); gartner Poul Boe i Durup (morbror = VI.) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I228@ INDI
 1 NAME Anette /?/
 1 SEX F
 1 FAMS @F83@
 1 NOTE Efternavn ikke angivet. Anders Henriks hustru. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I229@ INDI
 1 NAME Maja /Boll/
 1 SEX F
 1 OCCU Sygeplejerske
 1 FAMC @F83@
 1 NOTE Barn "A" af Anders Henrik og Anette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I230@ INDI
 1 NAME Emil /Boll/
 1 SEX M
 1 OCCU Murer
 1 FAMC @F83@
 1 NOTE Barn "B" af Anders Henrik og Anette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I231@ INDI
 1 NAME Liva /Boll/
 1 SEX F
 1 FAMC @F83@
 1 NOTE Barn "C" af Anders Henrik og Anette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I232@ INDI
 1 NAME Jan Laurids /Boll/
 1 SEX M
@@ -2332,28 +2074,24 @@
 1 FAMC @F71@
 1 FAMS @F84@
 1 NOTE Barn "6." af Karen og Arne. Faddere: forældrene; gårdejer Harald Boll i Nøreng pr. Durup; gårdejer Viggo Boll i Hvidbjerg pr. Skive (farbror); "gartner Poul Boll i Durup (morbror = VI.)" — romertallet er korrekt, men efternavnet er forvekslet: personen er entydigt Poul **Kristensen Boe** (I103), samme gartner-onkel korrekt navngivet "Poul Boe" i søskendes egne fadderlister ovenfor. Ny, hidtil ubeskrevet fejltype — logget som sub-mønster G i `family-tree/possible-duplicates.md`, første forekomst. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I233@ INDI
 1 NAME Kirsten Høj /Jørgensen/
 1 SEX F
 1 OCCU Pædagog ved Skivehus Skole
 1 FAMS @F84@
 1 NOTE Jan Lauridsʼ hustru. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I234@ INDI
 1 NAME Mette /Boll/
 1 SEX F
 1 OCCU Skolelærer i Odder
 1 FAMC @F84@
 1 NOTE Barn "A" af Jan Laurids og Kirsten. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I235@ INDI
 1 NAME Jens /Boll/
 1 SEX M
 1 OCCU Skolelærer
 1 FAMC @F84@
 1 NOTE Barn "B" af Jan Laurids og Kirsten. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I236@ INDI
 1 NAME John Harald /Boll/
 1 SEX M
@@ -2364,33 +2102,28 @@
 1 FAMC @F71@
 1 FAMS @F85@
 1 NOTE Barn "7." af Karen og Arne, yngst — født for sent (1965) til at være med på det ovenfor nævnte gruppefoto fra o.1962. Overtog forældrenes tidligere ejendom, Hegnetvej 7 i Tøndering. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I237@ INDI
 1 NAME Mette G. /Bodilsen/
 1 SEX F
 1 OCCU Kontoruddannet
 1 FAMS @F85@
 1 NOTE John Haralds hustru. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I238@ INDI
 1 NAME Line /Boll/
 1 SEX F
 1 OCCU Politiet i Holstebro
 1 FAMC @F85@
 1 NOTE Barn "A" af John Harald og Mette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I239@ INDI
 1 NAME Mathias /Boll/
 1 SEX M
 1 FAMC @F85@
 1 NOTE Barn "B" af John Harald og Mette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @I240@ INDI
 1 NAME Emma /Boll/
 1 SEX F
 1 FAMC @F85@
 1 NOTE Barn "C" af John Harald og Mette. Kildens egen tekst slutter blot "født." uden dato — en ægte mangel, ikke en uoverensstemmelse. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-
 0 @F71@ FAM
 1 HUSB @I187@
 1 WIFE @I186@
@@ -2405,7 +2138,6 @@
 1 CHIL @I232@
 1 CHIL @I236@
 1 NOTE Syv børn ("1."-"7."). Foto: gruppebillede af de seks ældste børn o.1962 (John Harald endnu ikke født) — se library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image31.jpeg, bekræftet mod kildens egen billedtekst.
-
 0 @F72@ FAM
 1 HUSB @I188@
 1 WIFE @I189@
@@ -2413,18 +2145,15 @@
 2 DATE 1974
 1 CHIL @I190@
 1 CHIL @I193@
-
 0 @F73@ FAM
 1 HUSB @I190@
 1 WIFE @I191@
 1 CHIL @I192@
-
 0 @F74@ FAM
 1 HUSB @I194@
 1 WIFE @I193@
 1 CHIL @I195@
 1 CHIL @I196@
-
 0 @F75@ FAM
 1 HUSB @I198@
 1 WIFE @I197@
@@ -2435,7 +2164,6 @@
 1 CHIL @I206@
 1 CHIL @I207@
 1 NOTE Ægteskabet opløst 2000, hvorefter Birgit flyttede til Kappelsdal.
-
 0 @F76@ FAM
 1 HUSB @I200@
 1 WIFE @I199@
@@ -2445,20 +2173,17 @@
 1 CHIL @I201@
 1 CHIL @I202@
 1 NOTE Ægteskabet opløst 2016.
-
 0 @F77@ FAM
 1 HUSB @I203@
 1 WIFE @I204@
 1 CHIL @I205@
 1 NOTE Ikke et ægteskab (kæreste fra 2018).
-
 0 @F78@ FAM
 1 HUSB @I209@
 1 WIFE @I208@
 1 CHIL @I210@
 1 CHIL @I215@
 1 CHIL @I220@
-
 0 @F79@ FAM
 1 HUSB @I211@
 1 WIFE @I210@
@@ -2469,7 +2194,6 @@
 1 CHIL @I213@
 1 CHIL @I214@
 1 NOTE Kildens egen dato ("Gift 29..2004") mangler tilsyneladende månedstallet — dagen (29.) er læselig, men måneden ikke; kun årstal registreret her.
-
 0 @F80@ FAM
 1 HUSB @I216@
 1 WIFE @I215@
@@ -2479,7 +2203,6 @@
 1 CHIL @I217@
 1 CHIL @I218@
 1 CHIL @I219@
-
 0 @F81@ FAM
 1 HUSB @I220@
 1 WIFE @I221@
@@ -2488,7 +2211,6 @@
 2 PLAC Viborg gl. Rådhus, Danmark
 1 CHIL @I222@
 1 CHIL @I223@
-
 0 @F82@ FAM
 1 HUSB @I224@
 1 WIFE @I225@
@@ -2496,27 +2218,23 @@
 2 DATE 4 OCT 1980
 2 PLAC Roslev, Danmark
 1 CHIL @I226@
-
 0 @F83@ FAM
 1 HUSB @I227@
 1 WIFE @I228@
 1 CHIL @I229@
 1 CHIL @I230@
 1 CHIL @I231@
-
 0 @F84@ FAM
 1 HUSB @I232@
 1 WIFE @I233@
 1 CHIL @I234@
 1 CHIL @I235@
-
 0 @F85@ FAM
 1 HUSB @I236@
 1 WIFE @I237@
 1 CHIL @I238@
 1 CHIL @I239@
 1 CHIL @I240@
-
 0 @F42@ FAM
 1 HUSB @I108@
 1 WIFE @I107@
@@ -2524,7 +2242,6 @@
 2 DATE 5 FEB 1933
 2 PLAC Durup kirke, Danmark
 1 CHIL @I109@
-
 0 @F43@ FAM
 1 HUSB @I110@
 1 WIFE @I111@
@@ -2534,12 +2251,10 @@
 1 CHIL @I112@
 1 CHIL @I115@
 1 CHIL @I116@
-
 0 @F44@ FAM
 1 HUSB @I113@
 1 WIFE @I112@
 1 CHIL @I114@
-
 0 @F45@ FAM
 1 HUSB @I118@
 1 WIFE @I117@
@@ -2549,7 +2264,6 @@
 1 CHIL @I119@
 1 CHIL @I120@
 1 CHIL @I121@
-
 0 @F46@ FAM
 1 HUSB @I123@
 1 WIFE @I122@
@@ -2560,7 +2274,6 @@
 1 CHIL @I125@
 1 CHIL @I126@
 1 CHIL @I127@
-
 0 @F27@ FAM
 1 HUSB @I62@
 1 WIFE @I63@
@@ -2575,14 +2288,12 @@
 1 CHIL @I82@
 1 CHIL @I85@
 1 NOTE Syv børn ("1."-"7."), heraf "2." og "3." (Thilde og Birgit Kristine) tvillinger.
-
 0 @F28@ FAM
 1 HUSB @I64@
 1 WIFE @I65@
 1 MARR
 2 DATE 1990
 1 NOTE Ulla havde 3 børn fra tidligere ægteskab (ikke navngivet).
-
 0 @F29@ FAM
 1 HUSB @I67@
 1 WIFE @I66@
@@ -2590,39 +2301,32 @@
 1 CHIL @I69@
 1 CHIL @I70@
 1 CHIL @I71@
-
 0 @F30@ FAM
 1 HUSB @I73@
 1 WIFE @I72@
 1 CHIL @I74@
 1 CHIL @I75@
-
 0 @F31@ FAM
 1 HUSB @I77@
 1 WIFE @I76@
 1 CHIL @I78@
 1 CHIL @I79@
-
 0 @F32@ FAM
 1 HUSB @I81@
 1 WIFE @I80@
-
 0 @F33@ FAM
 1 HUSB @I83@
 1 WIFE @I82@
 1 CHIL @I84@
-
 0 @F34@ FAM
 1 HUSB @I86@
 1 WIFE @I85@
-
 0 @F35@ FAM
 1 HUSB @I88@
 1 WIFE @I87@
 1 CHIL @I89@
 1 CHIL @I90@
 1 CHIL @I91@
-
 0 @F37@ FAM
 1 HUSB @I93@
 1 WIFE @I94@
@@ -2633,13 +2337,11 @@
 1 CHIL @I98@
 1 CHIL @I100@
 1 NOTE Tre børn ("1."-"3."), hvoraf "1." (Søren) døde som nyfødt og navnet blev genbrugt til "3." (den anden Søren).
-
 0 @F38@ FAM
 1 HUSB @I95@
 1 WIFE @I96@
 1 CHIL @I94@
 1 NOTE Forældre til Grete Ladefoged Goul (I94), direkte transskriberet fra kilden (ikke en uløst fremtidig henvisning som F15/F16/F26).
-
 0 @F39@ FAM
 1 HUSB @I99@
 1 WIFE @I98@
@@ -2647,17 +2349,14 @@
 2 DATE FEB 1967
 2 PLAC Skive rådhus, Danmark
 1 NOTE Datoen som angivet i kilden er formodentlig fejlbehæftet — se I98's NOTE.
-
 0 @F40@ FAM
 1 HUSB @I100@
 1 WIFE @I101@
-
 0 @F17@ FAM
 1 HUSB @I45@
 1 WIFE @I30@
 1 CHIL @I46@
 1 NOTE Ikke et ægteskab — Esper Marinus født udenfor ægteskab.
-
 0 @F18@ FAM
 1 HUSB @I46@
 1 WIFE @I47@
@@ -2665,45 +2364,37 @@
 2 DATE 21 SEP 1933
 1 CHIL @I48@
 1 CHIL @I53@
-
 0 @F19@ FAM
 1 HUSB @I48@
 1 WIFE @I49@
 1 CHIL @I50@
 1 NOTE Bruno (I50) er adopteret, ikke biologisk barn.
-
 0 @F20@ FAM
 1 HUSB @I50@
 1 CHIL @I51@
 1 NOTE Jonnas mor ikke navngivet i kilden. Se I51's NOTE om usikkerheden i selve forældre-tilknytningen.
-
 0 @F21@ FAM
 1 HUSB @I52@
 1 WIFE @I51@
-
 0 @F22@ FAM
 1 HUSB @I53@
 1 WIFE @I54@
 1 NOTE Første ægteskab, opløst. Ingen børn.
-
 0 @F23@ FAM
 1 HUSB @I53@
 1 WIFE @I55@
 1 CHIL @I56@
 1 NOTE Andet ægteskab. Lydias 2 børn fra tidligere ægteskab fik navnet Boe (ikke navngivet, ingen @I@-poster). Adoptivdatter Katharina (I56).
-
 0 @F25@ FAM
 1 HUSB @I59@
 1 WIFE @I58@
 1 CHIL @I60@
 1 NOTE Kun ét af 3 børn navngivet i kilden (Mogens, I60).
-
 0 @F16@ FAM
 1 HUSB @I343@
 1 WIFE @I344@
 1 CHIL @I26@
 1 NOTE Iver Henriksen (I343) og Else Jensdatter (I344), forældre til Bodil Kirstine Iversdatter (I26) — nu fuldt modelleret fra Søgaard-slægtens anetavle-appendiks (et håndskrevet stamtræsdiagram, image38.png, ikke løbende prosa; tidligere en ren pladsholder). Se også family-tree/possible-duplicates.md §2C for en navnerækkefølge-uoverensstemmelse fundet ved en fadder kaldet "Hendrik Iversen (morfar)" ved et barnedåb i generation 04's sektion — stadig ikke løst, se I339's egen note.
-
 0 @F15@ FAM
 1 HUSB @I323@
 1 WIFE @I327@
@@ -2716,7 +2407,6 @@
 1 CHIL @I331@
 1 CHIL @I10@
 1 NOTE Jens Christensen Møller (I323) og Else Jensdatter (I327), forældre til Mette Jensdatter (I10) — nu fuldt modelleret fra Kapitel 3 (tidligere en ren pladsholder uden HUSB/WIFE-poster, oprettet under Kapitel 1's læsning af generation "03"). Fem børn ("c."-"g." ifølge kildens egen angivelse af det samlede antal — men et af de eksplicit navngivne overlevende børn i 1787-folketællingen er mærket "h.", hvilket ikke passer inden for "c.-g."-intervallet; kildens egen bogstavering er internt uoverensstemmende her, ikke løst). Jens' 2. ægteskab.
-
 0 @F1@ FAM
 1 HUSB @I1@
 1 WIFE @I2@
@@ -2726,13 +2416,11 @@
 1 CHIL @I3@
 1 CHIL @I4@
 1 CHIL @I5@
-
 0 @F2@ FAM
 1 HUSB @I7@
 1 WIFE @I2@
 1 CHIL @I6@
 1 NOTE Ikke et ægteskab — Mads "avlet uden Ægteskab" ifølge kirkebogscitat i manuskriptet.
-
 0 @F3@ FAM
 1 HUSB @I6@
 1 WIFE @I8@
@@ -2740,12 +2428,10 @@
 2 DATE ABT 1799
 2 PLAC Sdr. Dråby, Mors, Danmark
 1 NOTE Trolovelse/lysning 1799.
-
 0 @F4@ FAM
 1 HUSB @I6@
 1 WIFE @I9@
 1 NOTE Mads Pedersens andet ægteskab, senest 1834.
-
 0 @F5@ FAM
 1 HUSB @I4@
 1 WIFE @I10@
@@ -2764,30 +2450,25 @@
 1 CHIL @I19@
 1 CHIL @I20@
 1 NOTE Trolovet 8.9.1808, viet 19.10.1808. Forlovere: Niels Christensen og Mads Pedersen (Boe).
-
 0 @F6@ FAM
 1 HUSB @I21@
 1 WIFE @I11@
 1 MARR
 2 DATE 1838
-
 0 @F7@ FAM
 1 HUSB @I13@
 1 WIFE @I22@
-
 0 @F8@ FAM
 1 HUSB @I24@
 1 WIFE @I18@
 1 CHIL @I23@
 1 NOTE Ikke et ægteskab — Mette Christensdatter født udenfor ægteskab.
-
 0 @F9@ FAM
 1 HUSB @I25@
 1 WIFE @I20@
 1 MARR
 2 DATE 1854
 2 PLAC Jørsby, Mors, Danmark
-
 0 @F10@ FAM
 1 HUSB @I14@
 1 WIFE @I26@
@@ -2800,7 +2481,6 @@
 1 CHIL @I43@
 1 CHIL @I44@
 1 NOTE Fem børn (a.-e.) per generation "04"'s egen sektion. Barn "b." (Christen Pedersen, I27) er generation "05".
-
 0 @F11@ FAM
 1 HUSB @I27@
 1 WIFE @I28@
@@ -2816,7 +2496,6 @@
 1 CHIL @I37@
 1 CHIL @I39@
 1 CHIL @I40@
-
 0 @F12@ FAM
 1 HUSB @I31@
 1 WIFE @I30@
@@ -2827,7 +2506,6 @@
 1 CHIL @I58@
 1 CHIL @I61@
 1 NOTE Forlovere: Kresten Pedersen Boe (I27, brudens far) og husmand Jens Peter Rosted i Tøndering. Esper Marinus (I46, barn "I.") er IKKE barn af dette ægteskab — født før, af en anden far (I45, se F17).
-
 0 @F13@ FAM
 1 HUSB @I34@
 1 WIFE @I35@
@@ -2839,7 +2517,6 @@
 1 CHIL @I92@
 1 CHIL @I93@
 1 NOTE Fire børn ("I."-"IV." i manuskriptets egen nummerering).
-
 0 @F14@ FAM
 1 HUSB @I37@
 1 WIFE @I38@
@@ -2858,7 +2535,6 @@
 1 CHIL @I163@
 1 CHIL @I186@
 1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet — alle elleve nu tilføjet her, Efterslægten for branch g er fuldt læst. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (I107) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
-
 0 @I241@ INDI
 1 NAME Niels /Toft/
 1 SEX M
@@ -2870,7 +2546,6 @@
 1 OCCU Husmand ("Husfolk, og betler" ved folketælling 1787)
 1 FAMS @F86@
 1 NOTE Generation "01" i Kapitel 2's Aneoversigt. Fødselsår internt uoverensstemmende i kilden selv (81 år ved folketælling 1787 → f. o.1706; men 84 år ved dødsfaldet 1797 → f. o.1713) — en 7-års forskel præsenteret af manuskriptet selv som usikker, ikke en fejl fra denne sessions tekstbehandling. Druknede natten mellem 4. og 5. november 1797 "i en lille Aa imellem Torup og Knudby," blev ført hjem af sønnerne og begravet i Jørsby 12.11.1797. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I242@ INDI
 1 NAME Johanne /Pedersdatter/
 1 SEX F
@@ -2878,7 +2553,6 @@
 2 DATE ABT 1706
 1 FAMS @F86@
 1 NOTE Ved folketælling 1787: 81 år, gift med Niels Toft, "Husfolk, og betler." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I243@ INDI
 1 NAME Kirsten Nielsdatter /Toft/
 1 SEX F
@@ -2887,7 +2561,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F86@
 1 NOTE Barn "a." af Niels Toft og Johanne Pedersdatter. Konfirmeret 1766, Sejerslev kirke, derefter tjeneste i Sejerslev. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I244@ INDI
 1 NAME Maren Nielsdatter /Toft/
 1 SEX F
@@ -2898,7 +2571,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F86@
 1 NOTE Barn "b." af Niels Toft og Johanne Pedersdatter. Konfirmeret 1770, Jørsby kirke, derefter til V. Hundrup. Kilden foreslår selv, usikkert, at hun kan være samme "Maren Nielsdatter Toft" der 1780 var fadder hos Christen Pedersen Boe (I4) og Mette Jensdatter i Jørsby — ikke bekræftet. Død som "almisselem" (fattighjælpsmodtager), 61 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I245@ INDI
 1 NAME Laurids Nielsen /Toft/
 1 SEX M
@@ -2908,7 +2580,6 @@
 1 FAMC @F86@
 1 FAMS @F87@
 1 NOTE Barn "c." af Niels Toft og Johanne Pedersdatter — generation "02" i Kapitel 2's Aneoversigt. Fadder hos Christen Pedersen Boe (I4) i Jørsby 1811, 1813 og 1814. Sidsel (Zidsel) Lauridsdatter Toft (I2) er hans datter "d." — se F87. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I246@ INDI
 1 NAME Kirsten /Jensdatter/
 1 SEX F
@@ -2917,7 +2588,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMS @F87@
 1 NOTE Lauridsʼ hustru, "gårdmand i Jørsby af Ullerup gods, hans gamle moder," død 77 år (f. o.1703). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I247@ INDI
 1 NAME Jens Nielsen /Toft/
 1 SEX M
@@ -2931,14 +2601,12 @@
 1 FAMC @F86@
 1 FAMS @F88@
 1 NOTE Barn "d." af Niels Toft og Johanne Pedersdatter. Konfirmeret 1775, Sejerslev kirke. Ni børn kendt ("I."-"IX."), født 1781-1803. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I248@ INDI
 1 NAME Maren /Svenningsdatter/
 1 SEX F
 1 OCCU Kaldet "Snedker" (efternavn/tilnavn)
 1 FAMS @F88@
 1 NOTE Jens Nielsen Tofts hustru. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I249@ INDI
 1 NAME Peder Jensen /Toft/
 1 SEX M
@@ -2947,7 +2615,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F88@
 1 NOTE Barn "I." af Jens Nielsen Toft og Maren Svenningsdatter, "Husmand på Ullerup Gods." Faddere: moster Sissel Svenningsdatter, Johanne Heede, farbrødre Jens og Chresten "Tofter," morbrødre Nels og Ole Svennings Sønner. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I250@ INDI
 1 NAME Maren Jensdatter /Toft/
 1 SEX F
@@ -2955,7 +2622,6 @@
 2 DATE ABT 1782
 1 FAMC @F88@
 1 NOTE Barn "II." af Jens Nielsen Toft og Maren Svenningsdatter. Ved folketælling 1787 hos forældrene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I251@ INDI
 1 NAME Peder Jensen /Toft/
 1 SEX M
@@ -2964,7 +2630,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F88@
 1 NOTE Endnu en søn navngivet "Peder Jensen Toft," samme forældre som "I." (I249) — ingen dødsdato er angivet for den første Peder i det læste afsnit, så det er uklart om dette er et navnegenbrug efter et ubeskrevet spædbarnsdødsfald eller to samtidigt levende brødre med samme navn. Faddere: Maren Nielsdatter Toft, Sissel Svenningsdatter fra Gjerløv, Jens Toft, Niels Svenningsen fra Ejerslev. Konfirmeret 1803, Sejerslev kirke, "Mådelig oplyst." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I252@ INDI
 1 NAME Johanna Jensdatter /Toft/
 1 SEX F
@@ -2976,7 +2641,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F88@
 1 NOTE Barn "IV." af Jens Nielsen Toft og Maren Svenningsdatter. Konfirmeret 1803, Sejerslev kirke. Død 39 år, "hjemme hos sin moder og søster Maren Toft." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I253@ INDI
 1 NAME Anna Jensdatter /Toft/
 1 SEX F
@@ -2988,7 +2652,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F88@
 1 NOTE Barn "V." af Jens Nielsen Toft og Maren Svenningsdatter. Spædbarnsdød, 4 år 1 måned. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I254@ INDI
 1 NAME Sissel (Zidsel) Jensdatter /Toft/
 1 SEX F
@@ -2999,7 +2662,6 @@
 1 FAMS @F89@
 1 FAMS @F90@
 1 NOTE Barn "VI." af Jens Nielsen Toft og Maren Svenningsdatter. Konfirmeret 1808, Jørsby, "Maadelig oplyst." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I255@ INDI
 1 NAME Peder /Nielsen/
 1 SEX M
@@ -3007,7 +2669,6 @@
 2 DATE ABT 1774
 1 FAMS @F89@
 1 NOTE Sissels 1. ægtefælle, gift 17.11.1818, "hos sin broder gårdmand Jens Nielsen i Jørsby" ved vielsen, 44 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I256@ INDI
 1 NAME Søren /Christensen/
 1 SEX M
@@ -3015,7 +2676,6 @@
 2 DATE ABT 1807
 1 FAMS @F90@
 1 NOTE Sissels 2. ægtefælle (efter Peder Nielsens død), gift 4.4.1836, 29 år, tjenende i Sillerslev, Øster Assels sogn. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I257@ INDI
 1 NAME Svenning Jensen /Toft/
 1 SEX M
@@ -3024,7 +2684,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F88@
 1 NOTE Barn "VII." af Jens Nielsen Toft og Maren Svenningsdatter. Faddere: Niels Svenningsen fra Ljørslev, Anders Nielsen og Jens Nielsen Toft fra Jørsby, Anne Larsdatter; Zidsel Svenningsdatter bar barnet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I258@ INDI
 1 NAME Maren Jensdatter /Toft/
 1 SEX F
@@ -3034,7 +2693,6 @@
 1 FAMC @F88@
 1 FAMS @F91@
 1 NOTE Barn "VIII." af Jens Nielsen Toft og Maren Svenningsdatter (døbt). Gift 8.4.1822, Jørsby, 25 år, hos forældrene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I259@ INDI
 1 NAME Niels Christensen /Toft/
 1 SEX M
@@ -3043,7 +2701,6 @@
 1 OCCU Murermester
 1 FAMS @F91@
 1 NOTE Marens ægtefælle, gift 8.4.1822, "Murermester af Profession," 31 år, for tiden i Jørsby ved vielsen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I260@ INDI
 1 NAME Anna Jensdatter /Toft/
 1 SEX F
@@ -3053,19 +2710,16 @@
 1 FAMC @F88@
 1 FAMS @F92@
 1 NOTE Barn "IX." af Jens Nielsen Toft og Maren Svenningsdatter (døbt). En yngre, unavngiven søster ("Nyfødt pige") født og død 24.7.1803 — ingen selvstændig @I@-post oprettet. Gift 8.4.1822, Jørsby, 21 år, hos faderen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I261@ INDI
 1 NAME Peder Christian /Jacobsen/
 1 SEX M
 1 FAMS @F92@
 1 NOTE Annas ægtefælle, gift 8.4.1822, fra Hørdum i Thy. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I262@ INDI
 1 NAME Anders Nielsen /Toft/
 1 SEX M
 1 FAMC @F86@
 1 NOTE Barn "e." af Niels Toft og Johanne Pedersdatter. Konfirmeret 1778, Jørsby kirke. Ingen yderligere detaljer i det læste afsnit. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I263@ INDI
 1 NAME Christen Lauritsen /Toft/
 1 SEX M
@@ -3079,7 +2733,6 @@
 1 FAMC @F87@
 1 FAMS @F93@
 1 NOTE Barn "a." af Laurids Nielsen Toft og Kirsten Jensdatter. Konfirmeret 1761, Jørsby kirke, 17 år, hjemme. Kilden overvejer selv, om gårdmanden og den senere skoleholder er samme person — sandsynliggjort, ikke sikkert bekræftet. Tolv børn kendt ("I."-"XII."), født 1771-o.1788 (heraf "XII." muligvis identisk med "Michel," I282 — se dennes note). Død 56 år, begravet som "skoleholder og forsanger." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I264@ INDI
 1 NAME Inger /Michelsdatter/
 1 SEX F
@@ -3088,7 +2741,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMS @F93@
 1 NOTE Christens hustru, trolovet torsdag 17.1., viet 14.2.1771, Jørsby kirke. Ved folketælling 1787: 42 år (skolemesterens hustru). Død som "skoleholder enke," 57 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I265@ INDI
 1 NAME Lars Christensen /Toft/
 1 SEX M
@@ -3100,7 +2752,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F93@
 1 NOTE Barn "I." af Christen Lauritsen Toft og Inger Michelsdatter. Spædbarnsdød, 3 måneder. Blandt fadderne Zidsel Larsdatter Toft (I2, hans faster). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I266@ INDI
 1 NAME Lauritz Christensen /Toft/
 1 SEX M
@@ -3114,7 +2765,6 @@
 1 FAMC @F93@
 1 FAMS @F94@
 1 NOTE Barn "II." af Christen Lauritsen Toft og Inger Michelsdatter (samme som søsteren Anna Christensdatter Tofts "broder = II.", I283). Blandt fadderne Jens Toft. Trolovet, gift 29.12. (år ikke angivet i det læste afsnit) med Mette Sørensdatter. Død 75 år, "Ihjelslagen af en Hest" (dræbt af en hest). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I267@ INDI
 1 NAME Mette /Sørensdatter/
 1 SEX F
@@ -3122,7 +2772,6 @@
 2 DATE 12 DEC 1850
 1 FAMS @F94@
 1 NOTE Lauritzʼ hustru. Død som enke, 78¾ år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I268@ INDI
 1 NAME Christen Lauritzen /Toft/
 1 SEX M
@@ -3131,7 +2780,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F94@
 1 NOTE Barn "1." af Lauritz Christensen Toft og Mette Sørensdatter (døbt). Faddere: Niels Michelsen, Christen Villadsen, Mads Toft, Karen Toft; Maren Toft bar barnet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I269@ INDI
 1 NAME Karen Lauritzdatter /Toft/
 1 SEX F
@@ -3140,7 +2788,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F94@
 1 NOTE Barn "2." af Lauritz Christensen Toft og Mette Sørensdatter (døbt). Faddere: Mads Toft, Peder Toft, Karen Toft; Maren Toft bar barnet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I270@ INDI
 1 NAME Søren Lauritzen /Toft/
 1 SEX M
@@ -3149,7 +2796,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F94@
 1 NOTE Barn "3." af Lauritz Christensen Toft og Mette Sørensdatter (døbt). Faddere: Jens (Talksen), Arendt Jensen, Michel Toft, Maren Toft; Anne Sørensen bar barnet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I271@ INDI
 1 NAME Michel Christensen /Toft/
 1 SEX M
@@ -3158,7 +2804,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F93@
 1 NOTE Barn "III." af Christen Lauritsen Toft og Inger Michelsdatter. Faddere: morbrødre Niels og Søren Michelssønner, Peder Boe (I1), moster Anna Michelsdatter bar barnet. Konfirmeret 1792, Jørsby, sammen med søsteren Kirsten (I272) samme år — præsten noterede ham "tjener hos Niels Michelsen i Jørsbye." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I272@ INDI
 1 NAME Kirsten (Kierstine) Christensdatter /Toft/
 1 SEX F
@@ -3168,14 +2813,12 @@
 1 FAMC @F93@
 1 FAMS @F95@
 1 NOTE Barn "IV." af Christen Lauritsen Toft og Inger Michelsdatter. Faddere: (Iver) Michelsen, Christen Pedersen, Peder Boe (I1). Konfirmeret 1792, 16 år — præstens note: "ringe af Begreb," tjener i Strandgaard. Ved folketælling 1787: 11 år, hos forældrene. Forlovet 27.3., gift 25.4.1800 med husmand Niels Jepsen i Jørsby. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I273@ INDI
 1 NAME Niels /Jepsen/
 1 SEX M
 1 OCCU Husmand, Jørsby
 1 FAMS @F95@
 1 NOTE Kirstens ægtefælle, gift 25.4.1800. Deres søn Christen Nielsen (I274) er døbt allerede 26.1.1800, altså født før vielsen; Niels er angivet som "udlagt barnefader." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I274@ INDI
 1 NAME Christen /Nielsen/
 1 SEX M
@@ -3183,7 +2826,6 @@
 2 DATE 26 JAN 1800
 1 FAMC @F95@
 1 NOTE Barn "1." af Kirstine Christensdatter Toft og "udlagt barnefader" Niels Jepsen (døbt, født før forældrenes vielse 25.4.1800). Faddere: Laurs Toft, Michel Toft, Maren Toft; Inger Toft bar barnet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I275@ INDI
 1 NAME Inger /Nielsdatter/
 1 SEX F
@@ -3192,7 +2834,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F95@
 1 NOTE Barn "2." af husmand Niels Jepsen og hustru Kierstine Toft (døbt). Faddere: Niels Poulsen, Mads Toft, Peder Toft, Maren Toft; Karen Toft bar barnet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I276@ INDI
 1 NAME Maren Christensdatter /Toft/
 1 SEX F
@@ -3201,7 +2842,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F93@
 1 NOTE Barn af Christen Lauritsen Toft og Inger Michelsdatter — romertal ikke eksplicit angivet i det læste afsnit, position ("V.") udledt af fødselsrækkefølgen, ikke bekræftet. Faddere: Peder Søndergaards hustru i Sejerslev, Johanne Svenningsdatter i Jørsby, morbrødre Nels og Mickel, Peder Boe (I1). Ved folketælling 1787 hos forældrene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I277@ INDI
 1 NAME Karen Christensdatter /Toft/
 1 SEX F
@@ -3212,7 +2852,6 @@
 2 DATE 8 MAY 1853
 1 FAMC @F93@
 1 NOTE Barn af Christen Lauritsen Toft og Inger Michelsdatter — romertal ikke eksplicit angivet, position ("VI.") udledt. Faddere: Michel Larsens datter Karen, Karen Thøgersdatter, morbrødre Nels og Søren, Michel Hall. Død ugift, 74 år, "Nyder Almisse." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I278@ INDI
 1 NAME Mads Christensen /Toft/
 1 SEX M
@@ -3221,7 +2860,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F93@
 1 NOTE Barn af Christen Lauritsen Toft og Inger Michelsdatter — romertal ikke eksplicit angivet, position ("VII.") udledt. Faddere: Nels Mickelsen, Mickel Mickelsen, Christen Thyboe, Else (?)datter, Mickel Laursens datter Karen. Ved folketælling 1787 hos forældrene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I279@ INDI
 1 NAME Peder Christensen /Toft/
 1 SEX M
@@ -3233,7 +2871,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F93@
 1 NOTE Barn "VIII." af Christen Lauritsen Toft og Inger Michelsdatter, tvilling til en dødfødt pige (barn "IX.", unavngiven, ingen selvstændig @I@-post). Faddere: Mads Thomsøns hustru Anna Michelsdatter, Kirsten Michelsdatter, Niels Hald, Jens Toft, Poul Andersen. Sandsynligvis identisk med "Peder Toft af Jørsby," begravet 24.8.1806, 23 år 24 uger — alderen (23) stemmer med denne fødsel (1783), ikke med den anden "Peder Christensen Toft" (I280, f.1785). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I280@ INDI
 1 NAME Peder Christensen /Toft/
 1 SEX M
@@ -3242,7 +2879,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F93@
 1 NOTE Endnu en søn navngivet "Peder Christensen Toft," samme forældre som "VIII." (I279) — kilden giver ingen forklaring på navnegenbruget, og i modsætning til andre lignende tilfælde i dette kapitel dør den første Peder (24.8.1806) tilsyneladende FØR denne søn ville være navngivet, hvis dødsdatoen hører til I279 og ikke denne — kronologien er uklar. Ikke løst her. Faddere: Maren Andersdatter, Maren Nielsdatter Toft, Nels Michelsen, Peder Boe (I1). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I281@ INDI
 1 NAME Anders Christensen /Toft/
 1 SEX M
@@ -3253,7 +2889,6 @@
 2 DATE 22 JUN 1796
 1 FAMC @F93@
 1 NOTE Barn af Christen Lauritsen Toft og Inger Michelsdatter — romertal ikke angivet. Ved folketælling 1787 hos forældrene. Dødsåret er i kilden skrevet "1896" — kronologisk umuligt (ville gøre ham 111 år ved en angivet alder af 9 år); læst her som en åbenlys fejlskrivning for 1796, samme "19xx for 18xx"-mønster som allerede logget i family-tree/possible-duplicates.md sub-mønster A, ikke queued som et nyt tilfælde da læsningen er entydig. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I282@ INDI
 1 NAME Michel Christensen /Toft/
 1 SEX M
@@ -3262,7 +2897,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F93@
 1 NOTE Barn af Christen Lauritsen Toft og Inger Michelsdatter, muligvis den samme som "XII." nævnt i Kapitel 2's egen Aneoversigt-indledning (en søn Michel, hvis fødsel/ægtefærdighed KEJ selv beskriver som usikker: "en Inger Michelsdatter findes o.1788 gift med skoleholder Christen Lauritsen Toft... de fik 21.1. sønnen Michel") — ikke bekræftet som samme person som "III." (I271, også navngivet Michel, f.1774); et navnegenbrug uden angivet dødsfald for den første. Faddere: Karen Michelsdatter, Maren Nielsdatter Toft, Jens Laustsen Toft, Christen Christensen, Anders Christensen. Kilden noterer blot "Død" uden dato. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I283@ INDI
 1 NAME Anna Christensdatter /Toft/
 1 SEX F
@@ -3274,7 +2908,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F93@
 1 NOTE Barn af Christen Lauritsen Toft og Inger Michelsdatter. Faddere: Maren Jensdatter, Niels Michelsens kone Sissel Christensdatter, Christen Pedersen, Peder Søndergaard fra Sejerslev, farbror Jens Toft (skrædder i Jørsby), og broder Laurs Christensen Toft ("broder = II.", I266 — bekræfter dennes romertal). Spædbarnsdød, 2 år 7 måneder 28 dage. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I284@ INDI
 1 NAME Jens Lauritsen /Toft/
 1 SEX M
@@ -3285,7 +2918,6 @@
 1 FAMS @F96@
 1 FAMS @F97@
 1 NOTE Barn "b." af Laurids Nielsen Toft og Kirsten Jensdatter. Konfirmeret 1761, Jørsby kirke, 17 år, hjemme. Fadder for søsteren Marens (I291) forlovelse 1785, og for broderen Christens (I263, "= I.") 1791. Enkemand ved 2. ægteskab (1. hustru ikke navngivet i det læste afsnit). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I285@ INDI
 1 NAME Maren /Justesdatter/
 1 SEX F
@@ -3293,7 +2925,6 @@
 2 DATE ABT 1747
 1 FAMS @F97@
 1 NOTE Jens Lauritsen Tofts 2. hustru, trolovet 10.5.1789, viet 19.1.1790, Jørsby kirke. Ved folketælling 1801: 40 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I286@ INDI
 1 NAME Christen /Jensen/
 1 SEX M
@@ -3304,7 +2935,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F96@
 1 NOTE Søn af Jens Lauritsen Toft (skrædder) og en unavngiven 1. hustru (fødsel predaterer faderens 1790-ægteskab med Maren Justesdatter). Død af kopper (børnekopper), "Jens Tofts Skrædders søn i Jørsby." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I287@ INDI
 1 NAME Kirsten /Jensdatter/
 1 SEX F
@@ -3313,7 +2943,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F96@
 1 NOTE Datter af Jens Lauritsen Toft (skrædder) og en unavngiven 1. hustru. Tvilling til en dødfødt søskende samme dato, unavngiven, ingen selvstændig @I@-post. Faddere: Michel Schiærbechs hustru Kirstine Thomasdatter, Christen Tofts hustru Inger (I264), Peder Boe (I4 — kildens egen "kapitel 1 03" henvisning, dvs. generation "03," ikke I1), Ole Henrichsen, Peder Jensen. Kilden noterer blot "Død" uden dato. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I288@ INDI
 1 NAME Christen /Jensen/
 1 SEX M
@@ -3321,7 +2950,6 @@
 2 DATE ABT 1794
 1 FAMC @F97@
 1 NOTE Søn af Jens Lauritsen Toft og Maren Justesdatter (2. ægteskab) — navnegenbrug efter broderen I286's død 1780. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I289@ INDI
 1 NAME Laurits /Jensen/
 1 SEX M
@@ -3329,7 +2957,6 @@
 2 DATE ABT 1798
 1 FAMC @F97@
 1 NOTE Søn af Jens Lauritsen Toft og Maren Justesdatter. Ved folketælling 1801 hos forældrene, 3 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I290@ INDI
 1 NAME Birthe /Jensdatter/
 1 SEX F
@@ -3338,7 +2965,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F97@
 1 NOTE Datter af husmand Jens Lauritsen Toft og hustru Maren Justsdatter. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I291@ INDI
 1 NAME Maren Larsdatter /Toft/
 1 SEX F
@@ -3351,20 +2977,17 @@
 1 FAMS @F98@
 1 FAMS @F99@
 1 NOTE Barn "c." af Laurids Nielsen Toft og Kirsten Jensdatter. Konfirmeret 1764, Jørsby kirke, 19 år, derefter hjemme. Enke efter "lovligt skifte" ved 2. forlovelse 1785. Død som aftægtskone hos Jens Nielsen i Jørsby (identifikationen usikker, markeret med "?" i kilden). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I292@ INDI
 1 NAME Jens Sørensen /Heede/
 1 SEX M
 1 FAMS @F98@
 1 NOTE Marens 1. ægtefælle, "præstens annexbonde i Jørsby," gift 20.2.1771, Jørsby kirke. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I293@ INDI
 1 NAME Poul /Andersen/
 1 SEX M
 1 OCCU Fæster på annexstedet i Jørsby (præstens annexbonde)
 1 FAMS @F99@
 1 NOTE Marens 2. ægtefælle, gift 1785. Forlovere: Christen Andersen og skrædder Toft (I284, "= b."). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I294@ INDI
 1 NAME Maren /Jensdatter/
 1 SEX F
@@ -3373,7 +2996,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F98@
 1 NOTE Barn "I." af Jens Sørensen Heede og Maren Larsdatter. Blandt fadderne Zidsel Larsdatter Toft (I2, hendes faster) og Peder Boe (I1). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I295@ INDI
 1 NAME Maren /Jensdatter/
 1 SEX F
@@ -3382,7 +3004,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F98@
 1 NOTE Barn "II." af Jens Sørensen Heede og Maren Larsdatter — navnegenbrug efter søsteren I294, ingen dødsdato angivet for hende i det læste afsnit. Blandt fadderne Zidsel Larsdatter Toft (I2). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I296@ INDI
 1 NAME Margrethe /Jensdatter/
 1 SEX F
@@ -3391,7 +3012,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F98@
 1 NOTE Barn "III." af Jens Sørensen Heede og Maren Larsdatter. Faddere: Søren Heede, Jens Lassen, Edith Therkelsdatter; "Kirsten Marie, tjenende Peder Lassen" bar barnet (Peder Lassen, I7, samme person som Zidsel Larsdatter Tofts (I2) senere sagsfald i Kyssesekten). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I297@ INDI
 1 NAME Maren /Jensdatter/
 1 SEX F
@@ -3400,7 +3020,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F98@
 1 NOTE Endnu en datter navngivet "Maren Jensdatter," tredje gang dette navn bruges blandt Jens Sørensen Heede og Maren Larsdatters børn (efter I294 og I295) — ingen af de tidligere er noteret død i det læste afsnit. Faddere: Kirsten Marie, Else Christensdatter, Jens Larsen, Niels Heede, Chresten Pedersen Schade. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I298@ INDI
 1 NAME Ingeborg /Jensdatter/
 1 SEX F
@@ -3409,7 +3028,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F98@
 1 NOTE Barn af Jens Sørensen Heede og Maren Larsdatter. Faddere: Jens Fisker, Niels Heede, Peder Larsens karl Jens Chr., salig Mads Jensens datter Anna, Kirsten Marie (Peder Larsens pige). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I299@ INDI
 1 NAME Anders /Poulsen/
 1 SEX M
@@ -3418,20 +3036,17 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F99@
 1 NOTE Barn af Poul Andersen og Maren Larsdatter (2. ægteskab). Faddere: Christen Andersen i Sejerslev, Christen Toft (I263, "= a."), Claus Justsen, Grethe Olufsdatter Bojer, Else Christensdatter Heede. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I300@ INDI
 1 NAME Maren /Andersdatter/
 1 SEX F
 1 OCCU Husholderske hos Peder Lassen i Jørsby
 1 FAMS @F100@
 1 NOTE Peder Lassens (I7) husholderske — endnu et udenfor-ægteskabeligt forhold ud over det med Zidsel Larsdatter Toft (I2), som allerede gav Mads Pedersen (I6). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @I301@ INDI
 1 NAME Jens /?/
 1 SEX M
 1 FAMC @F100@
 1 NOTE Peder Lassens (I7) søn med husholderske Maren Andersdatter — Mads Pedersens (I6) halvbroder på faderens side, født samme periode (nøjagtigt år ikke angivet i det læste afsnit, men "14. September" er angivet som fødselsdag). Hjemmedøbt samme dag som fødslen; dåben publiceret 1. december samme år, "som var af C 7de allernaadigst paabudne Takke og Bede-Fest." "Til Barne-Fader blef Peder Lassen udlagt, det hand tilstod at være" — samme kirkebogscitat nævner også, at Peder Lassen nægtede at være far til to andre anførte børn (Zidsel Toftes og Else Pedersdatter af Sundbyes), hvilket antyder endnu flere sager end dem der er transskriberet her. Efternavn ikke angivet. Faddere: Jens Larsen, Jens Heede, Anne Boe, Else Terkelsdatter. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
-
 0 @F86@ FAM
 1 HUSB @I241@
 1 WIFE @I242@
@@ -3441,7 +3056,6 @@
 1 CHIL @I247@
 1 CHIL @I262@
 1 NOTE Fem børn ("a."-"e.").
-
 0 @F87@ FAM
 1 HUSB @I245@
 1 WIFE @I246@
@@ -3450,7 +3064,6 @@
 1 CHIL @I291@
 1 CHIL @I2@
 1 NOTE Fire børn ("a."-"d."). Barn "d." (Zidsel Lauridsdatter Toft, I2) er allerede fuldt modelleret fra Kapitel 1 — kun FAMC tilføjet her, ingen dublet oprettet.
-
 0 @F88@ FAM
 1 HUSB @I247@
 1 WIFE @I248@
@@ -3464,7 +3077,6 @@
 1 CHIL @I258@
 1 CHIL @I260@
 1 NOTE Ni børn ("I."-"IX.").
-
 0 @F89@ FAM
 1 HUSB @I255@
 1 WIFE @I254@
@@ -3472,7 +3084,6 @@
 2 DATE 17 NOV 1818
 2 PLAC Jørsby, Mors, Danmark
 1 NOTE Sissels 1. ægteskab.
-
 0 @F90@ FAM
 1 HUSB @I256@
 1 WIFE @I254@
@@ -3480,21 +3091,18 @@
 2 DATE 4 APR 1836
 2 PLAC Jørsby, Mors, Danmark
 1 NOTE Sissels 2. ægteskab, efter Peder Nielsens død.
-
 0 @F91@ FAM
 1 HUSB @I259@
 1 WIFE @I258@
 1 MARR
 2 DATE 8 APR 1822
 2 PLAC Jørsby, Mors, Danmark
-
 0 @F92@ FAM
 1 HUSB @I261@
 1 WIFE @I260@
 1 MARR
 2 DATE 8 APR 1822
 2 PLAC Jørsby, Mors, Danmark
-
 0 @F93@ FAM
 1 HUSB @I263@
 1 WIFE @I264@
@@ -3514,7 +3122,6 @@
 1 CHIL @I282@
 1 CHIL @I283@
 1 NOTE Tolv børn ("I."-"XII.") ifølge kilden; kun de romertal kilden selv angiver eksplicit (I., II., III., IV., VIII.) er brugt direkte ovenfor — resten er tildelt ud fra fødselsrækkefølge, se hver enkelt @I@-posts egen note. To navnegenbrug uden angivet dødsfald for den første bærer (Peder, Michel) gør nummereringen usikker. KEJ's egen advarsel i kildens Aneoversigt-indledning: "Toft-familiens familierelationer kan være noget komplicerede! Efterslægten kan for nogle børn være noget usikker!"
-
 0 @F94@ FAM
 1 HUSB @I266@
 1 WIFE @I267@
@@ -3524,7 +3131,6 @@
 1 CHIL @I269@
 1 CHIL @I270@
 1 NOTE Vielsesår ikke angivet i det læste afsnit, kun dag/måned (29. december) — børnenes fødselsår (1803-1806) sætter det til o.1802.
-
 0 @F95@ FAM
 1 HUSB @I273@
 1 WIFE @I272@
@@ -3533,13 +3139,11 @@
 2 PLAC Jørsby, Danmark
 1 CHIL @I274@
 1 CHIL @I275@
-
 0 @F96@ FAM
 1 HUSB @I284@
 1 CHIL @I286@
 1 CHIL @I287@
 1 NOTE Jens Lauritsen Tofts 1. ægteskab — hustruens navn ikke angivet i det læste afsnit ("enkemand" ved 2. ægteskab 1790).
-
 0 @F97@ FAM
 1 HUSB @I284@
 1 WIFE @I285@
@@ -3550,7 +3154,6 @@
 1 CHIL @I289@
 1 CHIL @I290@
 1 NOTE Jens Lauritsen Tofts 2. ægteskab.
-
 0 @F98@ FAM
 1 HUSB @I292@
 1 WIFE @I291@
@@ -3563,7 +3166,6 @@
 1 CHIL @I297@
 1 CHIL @I298@
 1 NOTE Marens 1. ægteskab.
-
 0 @F99@ FAM
 1 HUSB @I293@
 1 WIFE @I291@
@@ -3572,26 +3174,22 @@
 2 PLAC Jørsby, Danmark
 1 CHIL @I299@
 1 NOTE Marens 2. ægteskab.
-
 0 @F100@ FAM
 1 HUSB @I7@
 1 WIFE @I300@
 1 CHIL @I301@
 1 NOTE Ikke et ægteskab. Endnu et udenfor-ægteskabeligt forhold for Peder Lassen (I7), ud over det med Zidsel Larsdatter Toft (I2).
-
 0 @I302@ INDI
 1 NAME Christen /Christensen/
 1 SEX M
 1 OCCU Møller, Øster Mølle, Vester Vandet sogn (o.1711)
 1 FAMS @F101@
 1 NOTE Generation "01" i Kapitel 3's Aneoversigt, markeret med "?" i kildens egen overskrift ("Christen Christensen Møller ?") — identiteten er kildens egen, ikke fuldt sikker rekonstruktion. Trolovet 28.6.1703, viet 7.10.1703, Vester Vandet kirke, med Karen Madsdatter "ved Møllen." Ni børn kendt ("a."-"i."), fødsler mangler for 1710-1719 ifølge kilden selv. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I303@ INDI
 1 NAME Karen /Madsdatter/
 1 SEX F
 1 FAMS @F101@
 1 NOTE Christens hustru "ved Møllen," Vester Vandet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I304@ INDI
 1 NAME Christen /Christensen/
 1 SEX M
@@ -3600,7 +3198,6 @@
 2 PLAC Klitmøller, Vester Vandet sogn, Danmark
 1 FAMC @F101@
 1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — bogstav ikke eksplicit angivet i kilden, position ("a.") udledt af fødselsrækkefølge. Født "Klokken 8 Formiddag." Faddere: Michel Bloch, Christen Krog, Peder Broe, Dorthe Anders Madtsens, Ane Pedersdatter Krog. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I305@ INDI
 1 NAME Anders /Christensen/
 1 SEX M
@@ -3609,7 +3206,6 @@
 2 PLAC Klitmøller, Vester Vandet sogn, Danmark
 1 FAMC @F101@
 1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("b.") udledt. Født "Om morgenen 2 stund for Dag." Faddere: skolemesteren "her i Prestegaarden" studiosus Niels Jensen, Peder Krog, Jens Christensen, Inger Michel Blochis, Maren Christen Frostis. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I306@ INDI
 1 NAME Maren /Christensdatter/
 1 SEX F
@@ -3618,7 +3214,6 @@
 2 PLAC Klitmøller, Vester Vandet sogn, Danmark
 1 FAMC @F101@
 1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("c.") udledt. Født "Om Morgenen klokken 4." Faddere: Christen Frost, unge Christen Drasbech, Knud Christensen, Ane Christensdatter, Kirsten Bollesdatter. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I307@ INDI
 1 NAME Niels /Christensen/
 1 SEX M
@@ -3628,7 +3223,6 @@
 2 DATE 1 AUG 1742
 1 FAMC @F101@
 1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("d.") udledt. "Christen Christensen Møllers søn i Øster Mølle," død "Klokken 1 over Middag," 31 år "ringer 11 dage." Begravet 7.8.1742, Vester Vandet, samme dag som søsteren Anne (I309). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I308@ INDI
 1 NAME Christen Christensen /Møller/
 1 SEX M
@@ -3640,7 +3234,6 @@
 1 FAMC @F101@
 1 FAMS @F102@
 1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("e.") udledt; generation "02" i Kapitel 3's Aneoversigt, også markeret "?" i kilden. Død "i sin Alders 39 Aar og 1 Dag" ét sted i kilden, men "i sin Alder 29 år og 1 Dag" et andet sted for samme dødsfald — en intern uoverensstemmelse i kilden selv (29 stemmer bedre med f. o.1713, ikke rettet her). Da både han og hustruen Karen Pedersdatter Schindrup (I313) døde inden for få uger af hinanden 1743, blev sønnen Jens (I323) formodentlig plejeanbragt hos familie som spæd. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73][CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal — alder ved døden angivet to gange, 29 år og 39 år]
-
 0 @I309@ INDI
 1 NAME Anne /Christensdatter/
 1 SEX F
@@ -3650,13 +3243,11 @@
 2 DATE 30 JUL 1742
 1 FAMC @F101@
 1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("f.") udledt. "Christen Christensen Møllers datter i Øster Mølle," død "Klokken 10 om Aftenen," 28 år 5 md. 4 dage. Begravet 7.8.1742, Vester Vandet, samme dag som broderen Niels (I307). Fadder hos broderen Christens (I308) familie i Klovborg 1738. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I310@ INDI
 1 NAME Karen /Christensdatter/
 1 SEX F
 1 FAMC @F101@
 1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("g.") udledt; ingen fødsels- eller dødsdato angivet i det læste afsnit (formentlig blandt de manglende fødsler 1710-1719). Kendt kun fra fadderskab hos broderen Christens (I308) familie i Klovborg, 1738. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I311@ INDI
 1 NAME Ingeborg /Christensdatter/
 1 SEX F
@@ -3666,13 +3257,11 @@
 2 DATE 25 MAY 1740
 1 FAMC @F101@
 1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("h.") udledt. "Christen Christensen Møllers datter i Øster Mølle," død "Klokken 7 om Aftenen," 23 år "ringer 23 uger." Begravet 1.7.1740, Vester Vandet. Fadder hos broderen Christens (I308) familie i Klovborg, 1741. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I312@ INDI
 1 NAME Anders /Christensen/
 1 SEX M
 1 FAMC @F101@
 1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("i.") udledt; ingen fødsels- eller dødsdato angivet (formentlig blandt de manglende fødsler 1710-1719). Kendt kun fra fadderskab hos broderen Christens (I308) familie i Klovborg, 1741. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I313@ INDI
 1 NAME Karen Pedersdatter /Schindrup/
 1 SEX F
@@ -3681,7 +3270,6 @@
 2 PLAC Klovborg ved Klitmøller, Vester Vandet sogn, Danmark
 1 FAMS @F102@
 1 NOTE Christen Christensen Møllers (I308) hustru, trolovet 20.9.1737, viet 16.10.1737, Vester Vandet kirke. Død "i sin Alders 30 Aar." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I314@ INDI
 1 NAME Anne /Christensdatter/
 1 SEX F
@@ -3690,7 +3278,6 @@
 2 PLAC Klovborg ved Klitmøller, Vester Vandet sogn, Danmark
 1 FAMC @F102@
 1 NOTE Barn "a." af Christen Christensen Møller og Karen Pedersdatter, født "1 Time før Solens opgang." Faddere: Peder Michelsøn i Skindrup, Peder Andersøn i Fuglsang, Niels Pedersøn i Skanderup, Ane Jens Kiærs, farmoster Anne Christensdatter Møll (I309). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I315@ INDI
 1 NAME Karen /Christensdatter/
 1 SEX F
@@ -3699,7 +3286,6 @@
 2 PLAC Klovborg ved Klitmøller, Vester Vandet sogn, Danmark
 1 FAMC @F102@
 1 NOTE Barn "b." af Christen Christensen Møller og Karen Pedersdatter, født "klokken 9 Formiddag." Faddere: Peder Nielsøn i Klovborg, Niels Nielsøn i Skanderup, Michel Pedersøn i Skinderup, Anne Jensdatter, Ingeborg Christensdatter Møll (I311). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I316@ INDI
 1 NAME Peder Christensen /Møller/
 1 SEX M
@@ -3713,7 +3299,6 @@
 1 FAMC @F102@
 1 FAMS @F103@
 1 NOTE Barn "c." af Christen Christensen Møller og Karen Pedersdatter, født "klochen 3 om Morgenen." Faddere: Christen Christensen Møller i Øster Mølle, Jens Jensen, Anders Christensøn Møller, Maren (Peder Fuglsangs), Dorethe Nielsdatter. Forlover 1773 i Elsø for broderen Jens (I323, "= 03-d."). Ved folketælling 1787: 47 år (f. o.1740, en mindre uoverensstemmelse med den her angivne fødsel 1741), boede til leje i Østergade, Nykøbing. Død 49 år (f. o.1745, endnu en let uoverensstemmelse) — ingen af de mindre aldersforskelle rettet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I317@ INDI
 1 NAME Caritas (Elisabeth) /Sejersdatter/
 1 SEX F
@@ -3724,7 +3309,6 @@
 2 PLAC Nykøbing Mors, Danmark
 1 FAMS @F103@
 1 NOTE Peders hustru. Død 42 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I318@ INDI
 1 NAME Birgitte /Pedersdatter/
 1 SEX F
@@ -3733,7 +3317,6 @@
 2 PLAC Nykøbing Mors, Danmark
 1 FAMC @F103@
 1 NOTE Barn "I." af Peder Christensen Møller og Caritas Elisabeth Sejersdatter. Faddere: Niels Ring, Peder Dyhr, Anne Christensdatter, Antonette Dyhr, Willads Jensen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I319@ INDI
 1 NAME Sejer /Pedersen/
 1 SEX M
@@ -3742,7 +3325,6 @@
 2 PLAC Nykøbing Mors, Danmark
 1 FAMC @F103@
 1 NOTE Barn "II." af Peder Christensen Møller og Caritas Elisabeth Sejersdatter. Faddere: Anthonette Dyhr, Niels Klingenberg, Peder Theut, Anne Christensdatter, Niels Josephsen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I320@ INDI
 1 NAME Maren (Marie) /Pedersdatter/
 1 SEX F
@@ -3754,7 +3336,6 @@
 2 PLAC Nykøbing Mors, Danmark
 1 FAMC @F103@
 1 NOTE Barn "III." af Peder Møller og Caritas Sejersdatter — kildens egen tekst viser fødselsåret som "1874," kronologisk umuligt (dødsalderen, 10 år ved dødsfaldet 1784, bekræfter f.1774); læst som en tydelig cifferfejl, samme mønster som to af hendes yngre søstre (I321, I322) i samme afsnit. Faddere: Jfr. Malene Sybille Qvistgaard, Christen Præstgaard, Antonette Dyhr, farver Reimer. Død 10 år, "Peder Møllers datter Marie." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I321@ INDI
 1 NAME Ide /Pedersdatter/
 1 SEX F
@@ -3766,7 +3347,6 @@
 2 PLAC Nykøbing Mors, Danmark
 1 FAMC @F103@
 1 NOTE Barn "IV." af Peder Christensen Møller og Caritas Elisabeth Sejersdatter, født "3. Adventus 1777" (tredje søndag i advent). Faddere: Mads Draabys kone, Dorthe Nyboe, Hr. Jens Kragh, Frederich Juel, Jens Bødker. Død 30 uger gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I322@ INDI
 1 NAME Ide /Pedersdatter/
 1 SEX F
@@ -3778,7 +3358,6 @@
 2 PLAC Nykøbing Mors, Danmark
 1 FAMC @F103@
 1 NOTE Barn "V." af Peder Christensen Møller og Caritas Elisabeth Sejersdatter — navnegenbrug efter søsteren I321's død 1778. Kildens egen tekst viser fødselsåret som "1881" og dødsåret som "2782" — begge kronologisk umulige (12 ugers levetid mellem dem passer kun med 1781/1782); læst som cifferfejl, samme mønster som I320 i samme afsnit — tre lignende fejl i træk hos samme families børn, formentlig en systematisk artefakt fra denne sessions egen tekstbehandling af dette specifikke sideopslag, ikke en kildefejl. Faddere: Ane Stephansdatter, Inger Pedersdatter, Morten Østergaard, Mads Draabye, Niels Østergaard. Død 12 uger gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I323@ INDI
 1 NAME Jens Christensen /Møller/
 1 SEX M
@@ -3793,7 +3372,6 @@
 1 FAMS @F104@
 1 FAMS @F15@
 1 NOTE Barn "d." af Christen Christensen Møller og Karen Pedersdatter Schindrup — begge forældre døde inden for få uger af hinanden 1743 (se I308), så Jens blev formodentlig plejeanbragt, "ikke fundet i Vester Vandet efterfølgende." Konfirmeret 1761, Sejerslev kirke, "født i Vester Vandet sogn," derefter til Nørre Dråby. Dette er Mette Jensdatter Boes (I10) egen far, tidligere kun omtalt som "Jens Møller" i Kapitel 1's generation "03" (F15, nu opdateret fra ren pladsholder til fuld post). Død 54 år (f. o.1742, en mindre uoverensstemmelse med den her angivne fødsel o.1743/44). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I324@ INDI
 1 NAME Anne Jensdatter /Overgaard/
 1 SEX F
@@ -3803,7 +3381,6 @@
 2 DATE ABT 1776
 1 FAMS @F104@
 1 NOTE Jens' 1. hustru, trolovet 21.6.1773, viet 12.10.1773, Elsø kirke. Kildens egen tekst viser dødsåret som "1876," kronologisk umuligt (over 100 år efter vielsen); læst som 1776, hvilket stemmer overens med Jens' dokumenterede 2. ægteskab samme år. Død 39 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I325@ INDI
 1 NAME Jens Jensen /Møller/
 1 SEX M
@@ -3815,7 +3392,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F104@
 1 NOTE Barn "a." af Jens Christensen Møller og Anne Jensdatter. Spædbarnsdød, 5 uger gl. Faddere: Søren Jacobsen, Mads (Heede), morbroder Niels Jensen af Elsøe; Else Andersdatter bar barnet, Mette Michelsdatter "gik hos." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I326@ INDI
 1 NAME Jens Jensen /Møller/
 1 SEX M
@@ -3827,7 +3403,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F104@
 1 NOTE Barn "b." af Jens Christensen Møller og Anne Jensdatter — navnegenbrug efter broderen I325's død 1774. Kildens egen tekst viser dødsåret som "1774," hvilket ville sætte dødsfaldet FØR fødslen — læst som 1776 (samme år som fødslen, i overensstemmelse med den angivne levetid på 1 uge 2 dage). Faddere: Christen Toft, Inger Michelsdatter (I264); Christen Tofts hustru bar barnet, Johanne Svenningsdatter "vare overværende." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I327@ INDI
 1 NAME Else /Jensdatter/
 1 SEX F
@@ -3841,7 +3416,6 @@
 1 FAMS @F105@
 1 NOTE Jens' 2. hustru, Mette Jensdatter Boes (I10) mor. Trolovet 28.7.1776, viet 1.10.1776, Tødsø kirke. Ved folketælling 1787: 31 år (kilden angiver samtidig "f. 1736," hvilket ikke stemmer med 31 år i 1787 — internt uoverensstemmende, ikke rettet her). Gift 2. gang 5.6.1796 med Jens Pedersen (I332) efter Jens Møllers død samme år. Ved folketælling 1801: 56 år. Død/begravet 65 år 12 uger. En "Jens Møller," gårdmand, begravet 3.8.1809 i Jørsby, 49 år 2 uger — KEJ bemærker selv "Han er formodentlig = Jens Pedersen!", en formodning, ikke bekræftet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
 1 NOTE Kapitel 4's egen Aneoversigt-tabel viser dødsåret som "1808," mod 1809 (22.8.1809) i Kapitel 3's mere detaljerede tekst — endnu en mindre intern uoverensstemmelse, ikke rettet her; det mere præcise Kapitel 3-tal (med dag og måned) er brugt ovenfor som bedst understøttet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.74]
-
 0 @I328@ INDI
 1 NAME Ole Christian Jensen /Møller/
 1 SEX M
@@ -3850,7 +3424,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F15@
 1 NOTE Barn "c." af Jens Christensen Møller og Else Jensdatter. Faddere: Sissel Christensdatter Wastrup, Karen Jensen Wastrup, Christen Toft i Jørsby (I263), Michel (?)søn, Søren Jacobssøn. Ved folketælling 1787: 9 år, hjemme. Konfirmeret 1794, Sejerslev kirke, "hands Oplysnings Carakt.er ringe" (svag oplysningskarakter). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I329@ INDI
 1 NAME Mette Jensdatter /Møller/
 1 SEX F
@@ -3862,7 +3435,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F15@
 1 NOTE Barn af Jens Christensen Møller og Else Jensdatter — bogstav ikke sikkert placerbart i kildens egen "c.-g."-nummerering (se Åbne Punkter i udtræksnoterne). Spædbarnsdød, 18 dage gl., "Jens Møllers spæde barn, Mette." Navnet genbruges tre år senere til søsteren født 1787 (I10, Mette Jensdatter Boe). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I330@ INDI
 1 NAME Anna Jensdatter /Møller/
 1 SEX F
@@ -3874,7 +3446,6 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F15@
 1 NOTE Barn "e." af Jens Christensen Møller og Else Jensdatter. Faddere: Michel Schiærbecks steddatter Mette, Christen Tofts hustru (I264), Søren Jacobsen, Ole Nelsøn, Michel Laursøns karl Johan. Ved folketælling 1787: 6 år, hjemme; 1801: 21 år, hos moder og stedfar, "Aldeles vanvittig" (fuldstændig sindssyg). Død 30 år, samme dag som sin fødselsdag, "Som var berøvet Forstandens Brug" (som havde mistet sin forstand). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I331@ INDI
 1 NAME Maren Jensdatter /Møller/
 1 SEX F
@@ -3886,14 +3457,12 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F15@
 1 NOTE Barn "f." af Jens Christensen Møller og Else Jensdatter. Faddere: Christen Tofts kone Inger (I264), (?) Else, Søren Jacobsen, Mads Andersen, Ole Bojer. Ved folketælling 1787: 4 år, hjemme. Konfirmeret 1800, Sejerslev kirke, 15 år, "hos sin stedfar Jens Møller" (dvs. Jens Pedersen, I332). 1801: 16 år, hos moder og stedfar. Død 28 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I332@ INDI
 1 NAME Jens /Pedersen/
 1 SEX M
 1 OCCU Gårdbeboer, Jørsby
 1 FAMS @F105@
 1 NOTE Elses 2. ægtefælle, trolovet/viet 5.6.1796, Jørsby. Kildens egen trolovelsesattest citeret i fuld længde: bevidner at intet slægtskab, svogerskab eller andet ægteskabsløfte forhindrer vielsen. Forlovere: Niels Christensen på Nygård, Niels Michelsen i Jørsby. Ved folketælling 1801: 42 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @I333@ INDI
 1 NAME Jens /Thomasen/
 1 SEX M
@@ -3905,14 +3474,12 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F106@
 1 NOTE Mette Jensdatter Møllers (I10, senere Boe) søn født uden for ægteskab, før hendes 1808/1810-giftermål med Christen Pedersen Boe (I4 — se F5's note om selve årstalsuoverensstemmelsen). Kildens egne datoer er indbyrdes modstridende: dåben er dateret "9.7.1810," men begravelsen "14.7.1809" — en begravelse ville ikke kunne ligge FØR dåben/fødslen; hvilken af de to årstal der er den fejlagtige, er uklart, og ingen af dem er rettet her. Erklæret barnefader: ungkarl Thomas Johansen (I334), soldat, "det første af Begge Personers Begangne Leiermaal." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73][CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal — dåbsdato efter begravelsesdato]
-
 0 @I334@ INDI
 1 NAME Thomas /Johansen/
 1 SEX M
 1 OCCU Soldat, udkommanderet i "Kongens Tieneste"; tidligere tjenestekarl i Flade Præstegaard
 1 FAMS @F106@
 1 NOTE Erklæret ("udlagt") barnefader til Jens Thomasen (I333), ikke gift med Mette Jensdatter Møller (I10). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
-
 0 @F101@ FAM
 1 HUSB @I302@
 1 WIFE @I303@
@@ -3929,7 +3496,6 @@
 1 CHIL @I311@
 1 CHIL @I312@
 1 NOTE Ni børn ("a."-"i."), fødsler mangler 1710-1719 ifølge kilden selv.
-
 0 @F102@ FAM
 1 HUSB @I308@
 1 WIFE @I313@
@@ -3941,7 +3507,6 @@
 1 CHIL @I316@
 1 CHIL @I323@
 1 NOTE Fire børn ("a."-"d."). Begge forældre døde 1743, inden for få uger af hinanden.
-
 0 @F103@ FAM
 1 HUSB @I316@
 1 WIFE @I317@
@@ -3951,7 +3516,6 @@
 1 CHIL @I321@
 1 CHIL @I322@
 1 NOTE Fem børn ("I."-"V."), Nykøbing Mors.
-
 0 @F104@ FAM
 1 HUSB @I323@
 1 WIFE @I324@
@@ -3961,7 +3525,6 @@
 1 CHIL @I325@
 1 CHIL @I326@
 1 NOTE Jens' 1. ægteskab. To børn ("a."-"b."), begge døde som spæde.
-
 0 @F105@ FAM
 1 HUSB @I332@
 1 WIFE @I327@
@@ -3969,13 +3532,11 @@
 2 DATE 5 JUN 1796
 2 PLAC Jørsby, Mors, Danmark
 1 NOTE Elses 2. ægteskab, efter Jens Christensen Møllers død samme år.
-
 0 @F106@ FAM
 1 HUSB @I334@
 1 WIFE @I10@
 1 CHIL @I333@
 1 NOTE Ikke et ægteskab.
-
 0 @I335@ INDI
 1 NAME Henrich Andersen /Søgaard/
 1 SEX M
@@ -3987,7 +3548,6 @@
 1 FAMC @F112@
 1 FAMS @F107@
 1 NOTE Generation "03" i Søgaard-slægtens anetavle (Anetavler-appendiks, ikke en del af Kapitel 1-4's egen løbende tekst — kilden er et håndskrevet stamtræsdiagram, "SØGAARD-SLÆGTEN I ÅSTED," ikke transskriberet prosa). Bodil Kirstine Iversdatters (I26) tipoldefar. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
-
 0 @I336@ INDI
 1 NAME Maren /Christensdatter/
 1 SEX F
@@ -3997,7 +3557,6 @@
 2 DATE 1775
 1 FAMS @F107@
 1 NOTE Henrichs hustru. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
-
 0 @I337@ INDI
 1 NAME Iver /Henrichsen/
 1 SEX M
@@ -4011,7 +3570,6 @@
 1 FAMC @F107@
 1 FAMS @F108@
 1 NOTE Generation "04." Diagrammet viser flere andre børn af Henrich og Maren i sideliggende kolonner (navngivet kun "Peder", "Peder", "Niels", ingen datoer eller yderligere detaljer) — ingen selvstændige @I@-poster oprettet for dem, utilstrækkelig information. Bodil Kirstine Iversdatters (I26) oldefar. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
-
 0 @I338@ INDI
 1 NAME Dorthe /Christensdatter/
 1 SEX F
@@ -4019,7 +3577,6 @@
 2 DATE 1774
 1 FAMS @F108@
 1 NOTE Ivers hustru, gift 1761, Åsted. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
-
 0 @I339@ INDI
 1 NAME Henrich /Iversen/
 1 SEX M
@@ -4032,13 +3589,11 @@
 1 FAMC @F108@
 1 FAMS @F109@
 1 NOTE Generation "05." Bodil Kirstine Iversdatters (I26) farfar — død 1799, 25 år før hendes fødsel 1824, kan derfor ikke være den samme "Hendrik Iversen (morfar)" nævnt som fadder ved et barnedåb i Kapitel 1's generation "04"-afsnit (se family-tree/possible-duplicates.md sub-mønster C1); den uoverensstemmelse er stadig ikke løst af dette fund. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
-
 0 @I340@ INDI
 1 NAME Boel /Pedersdatter/
 1 SEX F
 1 FAMS @F109@
 1 NOTE Henrichs hustru, gift o.1795. Ingen datoer angivet i diagrammet. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
-
 0 @I341@ INDI
 1 NAME Jens /Pedersen/
 1 SEX M
@@ -4050,7 +3605,6 @@
 1 OCCU Selvejerhusmand (fra 1780), Hinnerup, Thorum sogn
 1 FAMS @F110@
 1 NOTE Else Jensdatters (I344) far — ikke at forveksle med den anden, urelaterede "Jens Pedersen" (I332) i Kapitel 3's Møller-slægt, eller med Else Jensdatter (I327) i samme kapitel, som er en helt anden person på trods af det identiske navn. Bodil Kirstine Iversdatters (I26) morfar. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
-
 0 @I342@ INDI
 1 NAME Anne /Nielsdatter/
 1 SEX F
@@ -4060,7 +3614,6 @@
 2 DATE BEF 1834
 1 FAMS @F110@
 1 NOTE Jens' hustru, gift o.1788. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
-
 0 @I343@ INDI
 1 NAME Iver /Henriksen/
 1 SEX M
@@ -4074,7 +3627,6 @@
 1 FAMC @F109@
 1 FAMS @F16@
 1 NOTE Bodil Kirstine Iversdatters (I26) far — tidligere kun kendt som "Iver Hendriksen" fra Kapitel 1's egen omtale (se F16, nu opdateret fra pladsholder). [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
-
 0 @I344@ INDI
 1 NAME Else /Jensdatter/
 1 SEX F
@@ -4087,12 +3639,10 @@
 1 FAMC @F110@
 1 FAMS @F16@
 1 NOTE Bodil Kirstine Iversdatters (I26) mor — bemærk: samme navn (Else Jensdatter) som en helt urelateret person i Kapitel 3's Møller-slægt (I327, Mette Jensdatter Boes mor); ingen forbindelse mellem de to, ren navnesammenfald. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
-
 0 @F107@ FAM
 1 HUSB @I335@
 1 WIFE @I336@
 1 CHIL @I337@
-
 0 @F108@ FAM
 1 HUSB @I337@
 1 WIFE @I338@
@@ -4100,27 +3650,23 @@
 2 DATE 1761
 2 PLAC Åsted, Danmark
 1 CHIL @I339@
-
 0 @F109@ FAM
 1 HUSB @I339@
 1 WIFE @I340@
 1 MARR
 2 DATE ABT 1795
 1 CHIL @I343@
-
 0 @F110@ FAM
 1 HUSB @I341@
 1 WIFE @I342@
 1 MARR
 2 DATE ABT 1788
 1 CHIL @I344@
-
 0 @I345@ INDI
 1 NAME Peder /?/
 1 SEX M
 1 FAMS @F111@
 1 NOTE Generation "01" i Søgaard-slægtens anetavle, en anden håndskrevet chartside (image39.png) end den, der først gav generation "03"-"06" (image38.png). Kun fornavn angivet i diagrammet, ingen datoer, ingen efternavn. Bodil Kirstine Iversdatters (I26) tipoldefars far. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image39.png]
-
 0 @I346@ INDI
 1 NAME Anders /Pedersen/
 1 SEX M
@@ -4132,22 +3678,18 @@
 1 FAMC @F111@
 1 FAMS @F112@
 1 NOTE Generation "02." Diagrammet viser efternavnet usikkert som "Pedersen/Persen" (to stavevarianter angivet side om side af KEJ selv). [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image39.png]
-
 0 @I347@ INDI
 1 NAME Anne (eller Kirsten) /?/
 1 SEX F
 1 FAMS @F112@
 1 NOTE Anders' hustru — selve fornavnet er usikkert i diagrammet, angivet som "Anne eller Kirsten." Efternavn ikke angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image39.png]
-
 0 @F111@ FAM
 1 HUSB @I345@
 1 CHIL @I346@
-
 0 @F112@ FAM
 1 HUSB @I346@
 1 WIFE @I347@
 1 CHIL @I335@
-
 0 @I348@ INDI
 1 NAME Jens /Thøgersen/
 1 SEX M
@@ -4160,7 +3702,6 @@
 1 OCCU Landmand, Madsbad, Fur
 1 FAMS @F113@
 1 NOTE Fra "LUNDGAARD-SLÆGTEN FUR," et håndskrevet stamtræsdiagram i Anetavler-appendikset (image40.png) — samme type kilde som Søgaard-slægten (I335 ff.), ikke løbende prosa. Mette Jensens (I28, generation 05's hustru) morfar. Diagrammet viser tre yderligere forfædregenerationer (kolonner "KAP1A/1B," "KAP2A/2B," "KAP3A/3B") bagud fra ham — ikke modelleret som selvstændige @I@-poster her, da diagrammets kolonnesammenkobling er for tvetydig til at transskribere med rimelig sikkerhed uden ledsagende tekst; bevaret i billedet til evt. senere, mere omhyggelig udredning. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.78-82 — image40.png]
-
 0 @I349@ INDI
 1 NAME Mette /Jensdatter/
 1 SEX F
@@ -4172,7 +3713,6 @@
 2 PLAC Fur, Danmark
 1 FAMS @F113@
 1 NOTE Jens Thøgersens hustru, gift 15.11.1807, Fur. Mette Jensens (I28) mormor. Endnu en anden, urelateret person med navnet "Mette Jensdatter" ud over I10 (Christen Pedersen Boe generation 03's hustru) og I329 (Kapitel 3's Møller-familie) — tre forskellige personer med samme navn i denne slægtsbog, ingen forbindelse mellem dem. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.78-82 — image40.png]
-
 0 @I350@ INDI
 1 NAME Margrethe /Jensdatter/
 1 SEX F
@@ -4185,7 +3725,6 @@
 1 FAMC @F113@
 1 FAMS @F114@
 1 NOTE Datter af Jens Thøgersen og Mette Jensdatter. Mette Jensens (I28) mor — tidligere kun omtalt i Kapitel 1's generation "05"-afsnit som en cross-reference til "KAPITEL 9" (et andet dokument/en anden af KEJ's slægtsbøger, ikke en del af dette manuskripts egne fire kapitler), nu identificeret via denne Anetavler-appendiks i stedet. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.78-82 — image40.png]
-
 0 @I351@ INDI
 1 NAME Jens Christian /Thorsen/
 1 SEX M
@@ -4199,7 +3738,6 @@
 1 FAMC @F115@
 1 FAMS @F114@
 1 NOTE Margrethes ægtefælle, gift 20.10.1844, Fur. Mette Jensens (I28) far. Diagrammet henviste videre til "DEGN-SLÆGTEN, FRAMMERSLEV" for hans egen slægt — nu fundet og læst (image45.png), se F115 for hans forældre og videre bagud. Fødselsdato præciseret fra "1823" til 28.2.1823. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.78-85 — image40.png, image45.png]
-
 0 @F113@ FAM
 1 HUSB @I348@
 1 WIFE @I349@
@@ -4207,7 +3745,6 @@
 2 DATE 15 NOV 1807
 2 PLAC Fur, Danmark
 1 CHIL @I350@
-
 0 @F114@ FAM
 1 HUSB @I351@
 1 WIFE @I350@
@@ -4215,7 +3752,6 @@
 2 DATE 20 OCT 1844
 2 PLAC Fur, Danmark
 1 CHIL @I28@
-
 0 @I352@ INDI
 1 NAME Thor /Jensen/
 1 SEX M
@@ -4229,7 +3765,6 @@
 1 FAMC @F116@
 1 FAMS @F115@
 1 NOTE Fra "DEGN-SLÆGTEN FRAMMERSLEV/FUR," et håndskrevet stamtræsdiagram i Anetavler-appendikset (image45.png) — dette diagram lukker cirklen og bekræfter forbindelsen helt frem til Mette Jensen (I28) og Christen Pedersen Boe, allerede i træet. Jens Christian Thorsens (I351) far. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
-
 0 @I353@ INDI
 1 NAME Anne /Christensdatter/
 1 SEX F
@@ -4241,7 +3776,6 @@
 1 FAMC @F118@
 1 FAMS @F115@
 1 NOTE Thors hustru, gift 13.1.1822, Fur. Jens Christian Thorsens (I351) mor. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
-
 0 @I354@ INDI
 1 NAME Jens Andersen /Degn/
 1 SEX M
@@ -4253,7 +3787,6 @@
 1 FAMC @F117@
 1 FAMS @F116@
 1 NOTE Thor Jensens far. Efternavnet "Degn" (kirkebetjent/klokker) er tilsyneladende et slægtstilnavn her, ikke nødvendigvis hans egen livsstilling. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
-
 0 @I355@ INDI
 1 NAME Dorthe /Thorsdatter/
 1 SEX F
@@ -4264,7 +3797,6 @@
 2 PLAC Frammerslev, Danmark
 1 FAMS @F116@
 1 NOTE Jens' hustru. Faderen angivet i diagrammet kun ved fornavnet "Thor," ingen yderligere detaljer, ingen selvstændig @I@-post oprettet. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
-
 0 @I356@ INDI
 1 NAME Anders Sørensen /Degn/
 1 SEX M
@@ -4276,7 +3808,6 @@
 1 OCCU Degn (kirkebetjent/klokker)
 1 FAMS @F117@
 1 NOTE Jens Andersen Degns far — her er "Degn" tilsyneladende hans egen faktiske livsstilling, hvorfra slægtstilnavnet stammer. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
-
 0 @I357@ INDI
 1 NAME Karen /Christensdatter/
 1 SEX F
@@ -4287,7 +3818,6 @@
 2 PLAC Frammerslev, Danmark
 1 FAMS @F117@
 1 NOTE Anders' hustru, gift 1736, Oddense. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
-
 0 @I358@ INDI
 1 NAME Christen Nielsen /Skytte/
 1 SEX M
@@ -4300,7 +3830,6 @@
 1 OCCU Fæstegårdmand i Debel, Fur
 1 FAMS @F118@
 1 NOTE Anne Christensdatters far. "Skytte" (jæger/skovfoged) tilsyneladende et tilnavn, ikke et efternavn i moderne forstand. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
-
 0 @I359@ INDI
 1 NAME Kirsten /Sørensdatter/
 1 SEX F
@@ -4313,7 +3842,6 @@
 1 FAMC @F119@
 1 FAMS @F118@
 1 NOTE Christens hustru, gift 9.4.1780, Fur. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
-
 0 @I360@ INDI
 1 NAME Søren /Olesen/
 1 SEX M
@@ -4325,7 +3853,6 @@
 1 OCCU Jordløs husmand og fisker
 1 FAMS @F119@
 1 NOTE Kirsten Sørensdatters far. Døde på Limfjorden — samme type dødsfald (druknet/omkommet på fjorden) som Peder Christensen Boe (I14, generation "04") mange år senere; ingen anden forbindelse mellem de to hændelser antydet. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
-
 0 @I361@ INDI
 1 NAME Anne /Jensdatter/
 1 SEX F
@@ -4336,7 +3863,6 @@
 2 DATE 1796
 1 FAMS @F119@
 1 NOTE Sørens hustru. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
-
 0 @F115@ FAM
 1 HUSB @I352@
 1 WIFE @I353@
@@ -4344,7 +3870,6 @@
 2 DATE 13 JAN 1822
 2 PLAC Fur, Danmark
 1 CHIL @I351@
-
 0 @F116@ FAM
 1 HUSB @I354@
 1 WIFE @I355@
@@ -4352,7 +3877,6 @@
 2 DATE ABT 1786
 2 PLAC Oddense, Danmark
 1 CHIL @I352@
-
 0 @F117@ FAM
 1 HUSB @I356@
 1 WIFE @I357@
@@ -4360,7 +3884,6 @@
 2 DATE 1736
 2 PLAC Oddense, Danmark
 1 CHIL @I354@
-
 0 @F118@ FAM
 1 HUSB @I358@
 1 WIFE @I359@
@@ -4368,28 +3891,23 @@
 2 DATE 9 APR 1780
 2 PLAC Fur, Danmark
 1 CHIL @I353@
-
 0 @F119@ FAM
 1 HUSB @I360@
 1 WIFE @I361@
 1 CHIL @I359@
-
 0 @I362@ INDI
 1 NAME ? /?/
 1 SEX F
 1 FAMS @F120@
 1 NOTE Astrid Kirks mor, en anden kvinde end Hanne Boe (I167). Hverken navn eller yderligere detaljer kendt endnu. [VERIFIED: familieidentifikation, 2026-08-06]
-
 0 @I363@ INDI
 1 NAME Astrid /Kirk/
 1 SEX F
 1 FAMC @F120@
 1 NOTE Knud Erik Jakobsens (I168) datter med en anden kvinde end Hanne Boe — halvsøster til Lotta Ann (I169) og Gitte (I174). Fødenavn ukendt; går i dag under efternavnet "Kirk." Ses sammen med den øvrige familie på gruppebilledet fra august 1995, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png (siddende på jorden). [SENSITIVE] — ingen dødsdato angivet, formodet i live. [VERIFIED: familieidentifikation, 2026-08-06]
-
 0 @F120@ FAM
 1 HUSB @I168@
 1 WIFE @I362@
 1 CHIL @I363@
 1 NOTE Ikke omtalt i manuskriptet selv — Astrid Kirks eksistens og forbindelse til familien er oplyst direkte af familien (2026-08-06), ikke fundet i boe-slaegten-fra-mors-og-fur.
-
 0 TRLR

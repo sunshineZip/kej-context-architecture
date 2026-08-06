@@ -277,3 +277,24 @@ STATUS: CHECKPOINT
 Completed: `scripts/validate.ps1` now runs GEDCOM structural consistency checks (duplicate/dangling ids, full bidirectional `FAMC`/`FAMS`/`HUSB`/`WIFE`/`CHIL` consistency, unescaped `@` in free text) against `family-tree/tree.ged` on every commit, via the existing pre-commit hook — no separate script to remember to run. Verified clean against the current file.
 Next: None specific — mechanism is live going forward. Return to `archive-digitization` for the next open item (`family-tree/possible-duplicates.md` reassessment trigger, or the open `TODO.md` items).
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 11 | 2026-08-06
+
+Same session, immediate correction. Human re-imported the Turn 10-fixed `tree.ged` into Gramps and still got "482 errors detected," almost entirely "Line ignored" — essentially unchanged from the original 483. This falsified Turn 10's claim that the unescaped-`@` cross-references were "the exact mistake that produced Gramps' 'Line ignored' output": that bug was real and worth fixing, but it was not the dominant cause. That claim was never actually verified against Gramps itself (no Gramps available in this environment; `python-gedcom`, the only parser on hand, was too lenient to reproduce the failure at all) — it was a plausible-sounding hypothesis stated with more confidence than the evidence supported. Recorded here as a correction rather than silently fixed, per this file's own append-only discipline.
+
+Re-diagnosed from scratch by checking for the one thing that would explain a count that large and that unmoved by the earlier fix: lines that don't start with a GEDCOM level number at all. Found exactly 482 blank lines in `tree.ged`, used throughout as human-readable visual spacing between `0`-level records — not valid GEDCOM (every line must start with a level number; a bare blank line has none). 482 blank lines against "482 errors" is not a coincidence; this is the actual, complete root cause.
+
+**Fixed:** stripped all 482 blank lines from `tree.ged` (4395 → 3913 lines). Verified record counts unchanged after the strip (363 `INDI`, 118 `FAM`, one `HEAD`, one `TRLR`) — pure whitespace removal, no data lost. Added a new check to `scripts/validate.ps1`'s GEDCOM section, ahead of the existing per-line checks: any blank line is now a hard error, with a message pointing at this turn so a future reader doesn't repeat Turn 10's misattribution. Re-ran `scripts/validate.ps1`: 0 errors, 140 warnings (same as Turn 10 — the blank-line strip didn't touch line lengths).
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Corrected Turn 10's misdiagnosis. The actual, complete cause of Gramps' "Line ignored" flood was 482 invalid blank lines used as record spacing, not primarily the `@`-escaping bug (which was a real but minor secondary issue, already fixed). Blank lines stripped from `tree.ged`; `validate.ps1` now hard-errors on any blank line in the file. Verified clean.
+Next: Human to re-import `tree.ged` into Gramps to confirm 0 errors now. If anything still surfaces, treat this incident as a reminder not to trust an unverified root-cause theory again — check the error count arithmetic against the fix before declaring it solved.
+Waiting for: Nothing further this turn — pushing now.
