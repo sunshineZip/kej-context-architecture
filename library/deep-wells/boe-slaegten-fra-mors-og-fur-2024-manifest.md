@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Deep Well Manifest
 
-Version 1.4 | 2026-08-06 | Production
+Version 1.5 | 2026-08-06 | Production
 
 ---
 
@@ -32,6 +32,7 @@ Detailed extraction log for the "Boe-slægten fra Mors og Fur" deep well (`libra
 | 2026-08-06 | Images for Efterslægt branch b (2 images, one plausible wedding-portrait match, one unclassified) | → `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md` |
 | 2026-08-06 | Efterslægt branch e (Jens Christensen Boe, incl. "K.K.K. Boe"'s own line — 40 new individuals) | → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md` §Efterslægt |
 | 2026-08-06 | Image for Efterslægt branch e (1 plausible family-portrait match) | → `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md` |
+| 2026-08-06 | Efterslægt branch g, part 1 of 5 (children "IV."/"VI."/"VII." — 5 new individuals) | → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md` §Efterslægt |
 
 No content has been promoted into any `knowledge/domains/` file yet — Phase 3 (domain buildout) has not started, so nothing here is cited with `[VERIFIED: boe-slaegten-fra-mors-og-fur]` from a domain document yet. That citation slug is reserved for when it does. From this point on, text and image extraction proceed together per section rather than as separate passes — see `projects/archive-digitization/TODO.md`.
 
@@ -46,3 +47,4 @@ No content has been promoted into any `knowledge/domains/` file yet — Phase 3 
 | 1.2 | 2026-08-06 | Extraction Log backfilled with generations "04"/"05" (previously only "02"/"03" were listed, despite both having been read — a bookkeeping gap, not a re-read). Added `boe-slaegten-fra-mors-og-fur-2024-media/`, the first extraction of images from the manuscript — 48 embedded images found, ignored entirely until now; first batch (6 images tied to sections already read) processed with its own manifest. |
 | 1.3 | 2026-08-06 | Logged the start of Efterslægt (generation 05's descendants, branches a-i): branches a/c/d/f/h/i and b done, plus 2 more images. |
 | 1.4 | 2026-08-06 | Logged Efterslægt branch e (40 new individuals, largest single addition yet) plus 1 more image. Only branch g remains in Efterslægt. |
+| 1.5 | 2026-08-06 | Branch g scoped into 5 checkpoints by size; part 1 of 5 (three smallest children) logged. |

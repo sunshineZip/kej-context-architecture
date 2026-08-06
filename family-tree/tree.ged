@@ -875,6 +875,56 @@
 1 SEX F
 1 FAMS @F40@
 1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I101 (kraever adgang til den private modul-repo).
+0 @I102@ INDI
+1 NAME Karl Alfred Christensen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 2 FEB 1920
+2 PLAC Durup, Danmark
+1 DEAT
+1 OCCU Daglejer, især på Fyn
+1 FAMC @F14@
+1 NOTE Barn "IV." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Ugift. Bekræftet afdød ("Død"), men intet dødsår angivet i det læste afsnit. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I103@ INDI
+1 NAME Poul Kristensen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 24 JAN 1923
+2 PLAC Durup, Danmark
+1 DEAT
+2 DATE 6 JUN 2009
+2 PLAC Durup, Danmark
+1 OCCU Gartner (Møn, Bysted, Lyby), kirkebetjent (Oddense-Otting, kort tid Durup kirke)
+1 FAMC @F14@
+1 NOTE Barn "VI." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Ugift. Optræder hyppigt som fadder hos søskendes børn (1944, 1949, 1955, 1957, 1959) — boede tilsyneladende lokalt hele livet. En fadder ved hans egen dåb var "ungkarl Espen Marinus Boe" — fætteren Esper Marinus Christensen Boe fra branch b (@I46@), en fin krydsreference mellem grene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I104@ INDI
+1 NAME Living /Boe/
+1 SEX M
+1 BIRT
+2 DATE 1924
+1 FAMC @F14@
+1 FAMS @F41@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I104 (kraever adgang til den private modul-repo).
+0 @I105@ INDI
+1 NAME Living /?/
+1 SEX F
+1 FAMS @F41@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I105 (kraever adgang til den private modul-repo).
+0 @I106@ INDI
+1 NAME Living /Boe/
+1 SEX M
+1 FAMC @F41@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I106 (kraever adgang til den private modul-repo).
+0 @F41@ FAM
+1 HUSB @I104@
+1 WIFE @I105@
+1 MARR
+2 DATE 1966
+1 CHIL @I106@
+1 NOTE Ægteskabet opløst.
+
 0 @F27@ FAM
 1 HUSB @I62@
 1 WIFE @I63@
@@ -1142,7 +1192,11 @@
 1 HUSB @I37@
 1 WIFE @I38@
 1 MARR
-2 DATE 1915
-2 PLAC Brøndum, Danmark
+2 DATE 27 FEB 1915
+2 PLAC Brøndum kirke, Salling, Danmark
+1 CHIL @I102@
+1 CHIL @I103@
+1 CHIL @I104@
+1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet; kun tre ("IV.", "VI.", "VII.") tilføjet her indtil videre — resten følger efterhånden som de læses.
 
 0 TRLR
