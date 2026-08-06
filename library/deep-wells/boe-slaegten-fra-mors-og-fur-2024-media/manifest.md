@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.5 | 2026-08-06 | Production
+Version 1.6 | 2026-08-06 | Production
 
 ---
 
@@ -151,6 +151,12 @@ A formal couple portrait: an older, balding groom in a dark suit with a boutonni
 
 ---
 
+## Chapter 2 (Boe-slægten, Jørsby) — No Images
+
+Checked `image35.jpeg` and `image36.png` while reading Chapter 2, expecting a Jørsby-area map or Toft-family document — instead both turned out to depict "Vester Vandet" and "Vestermølle" ("West Mill"), tying them to **Chapter 3** (Boe-slægten, Vester Vandet, the Møller/miller family) rather than Chapter 2. Deferred to Chapter 3's own checkpoint rather than filed here. No images were found specific to Chapter 2's Toft-family content.
+
+---
+
 ## Images: Efterslægt Branch g, Checkpoint 5 (Child VIII — Karen Kristensen Boe / the Boll family)
 
 | File | KEJ's filename | Position | Type |
@@ -181,3 +187,4 @@ The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` f
 | 1.3 | 2026-08-06 | Branch g checkpoint 3 (children II/X): two more images checked (image19, image20 — a family accordion-player scene and a solo portrait of the same young man), neither matched anyone in this checkpoint; both left unfiled. No new images stored this checkpoint. |
 | 1.4 | 2026-08-06 | Branch g checkpoint 4 (child III, Meta Kristine Kristensen Boe): two confirmed matches via direct caption text (image24, image25) and two plausible-but-unconfirmed additions (image22, image23). Three more images checked and left unfiled (image21, image29, image30). |
 | 1.5 | 2026-08-06 | Branch g checkpoint 5 (child VIII, Karen Kristensen Boe / the Boll family — the final checkpoint of branch g and Efterslægt): one confirmed match via direct caption text (image31, a six-children group portrait c.1962). Three more images checked and left unfiled (image32, image33, image34). |
+| 1.6 | 2026-08-06 | Chapter 2 (Boe-slægten, Jørsby) read — no images specific to it found; two checked (image35, image36) turned out to belong to Chapter 3 (Vester Vandet) instead, based on content (both depict that location by name), and are deferred there. |
