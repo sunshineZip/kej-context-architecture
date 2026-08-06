@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.11 | 2026-08-06 | Production
+Version 1.12 | 2026-08-06 | Production
 
 ---
 
@@ -149,7 +149,13 @@ A close studio portrait of a young woman, 1930s hairstyle and collar. **Not conf
 
 A formal couple portrait: an older, balding groom in a dark suit with a boutonnière, and a younger bride in a dark dress (not white) holding a bouquet — a style consistent with a more modest 1940s wartime/postwar wedding, and with the bride not being a first-time teenage bride. Peter Severin Nielsen was a 48-year-old widower when he married the 28-year-old Meta in 1946; the apparent age gap and era fit this description well. **Not confirmed.** `[UNVERIFIED: AI visual description, identity unconfirmed]`
 
-**Also checked and left unfiled:** `image29.jpeg` — a 1960s wedding portrait; the groom's apparent age (mid-30s to 40s, based on hairline) doesn't fit a 21-year-old Knud Erik Jakobsen in 1966, so not treated as Hanne and KEJ's own wedding photo despite the tempting date range. `image30.jpeg` — a traditional white-veil wedding portrait of a young couple, 1940s style; no contextual link found to anyone in this checkpoint.
+### image29.jpeg — Unmatched: unknown couple, family suggests "Laurids"
+
+A wedding portrait: bride with upswept hair and a high-necked dress (not a traditional veil-and-crown), holding a large rose bouquet; groom in a dark suit with boutonnière and pocket square, visibly receding hairline and greying temples. **This entry originally stated the style as "1960s" — that was an unverified stylistic guess, not a documented date, and the human rightly pushed back on it (2026-08-06); no caption or date exists in the source to pin down the decade.** Checked and ruled out against Hanne (`@I167@`) and KEJ's (`@I168@`) own 1966 wedding — KEJ was 21 at the time, which doesn't fit the groom's apparent age here regardless of the exact decade. The human's mother has since suggested the groom might be "Laurids" — checked against all six Laurids/Laurits-named individuals in `tree.ged`; none fit well (see `grandfather-review/queue.md` item 14 for the full reasoning). `[UNVERIFIED: AI visual description, identity unconfirmed]`
+
+### image30.jpeg — Unmatched: unknown couple, family suggests "Gyda"
+
+A traditional wedding portrait: young groom in a dark suit with a boutonnière; bride in a full white gown with veil and floral crown, holding a long cascading bouquet. **This entry originally stated the style as "1940s" — also an unverified stylistic guess; white veil-and-crown weddings remained traditional in Denmark well into the 1970s, so style alone doesn't pin a decade.** The human's mother has suggested the bride might be "Gyda" — there is a genuine name match, **Anna Gyda Boll** (`@I208@`, b. 13 Aug 1952), whom the manuscript itself informally calls "Gyda," married to **Kaj Godsk Pedersen** (`@I209@`), tagdækker. No marriage date is recorded anywhere in the source for them, so the match can't be checked chronologically. See `grandfather-review/queue.md` item 15. `[UNVERIFIED: AI visual description + family name suggestion, identity unconfirmed]` Individuals (candidates, not confirmed): `@I208@`, `@I209@`.
 
 ### image21.jpeg — Plausible (revised): Hans Kristian Kristensen Boe with baby sister Edith
 
@@ -259,8 +265,6 @@ A studio portrait of six children, ranging from a toddler of roughly 2-3 to a te
 | `image19.png` | Branch g checkpoint 3 | Family living-room scene, accordion player, "PRØVE" watermark. No match among children II/X. |
 | `image20.jpeg` | Branch g checkpoint 3 | The same young man, solo, with his accordion. Same watermark, same non-match. |
 | `image28.jpeg` | Branch g checkpoint 4 | Young man, round glasses, 1930s-40s style. No specific tie found. |
-| `image29.jpeg` | Branch g checkpoint 4 | 1960s wedding portrait. Groom's apparent age doesn't fit a 21-year-old KEJ in 1966. |
-| `image30.jpeg` | Branch g checkpoint 4 | Traditional white-veil wedding portrait, 1940s style. No contextual link found. |
 | `image32.jpeg` | Branch g checkpoint 5 | 1950s studio portrait, young woman with glasses. No specific tie found. |
 | `image33.jpeg` | Branch g checkpoint 5 | Boy of ~5-6 holding an infant on a couch. Plausibly two Boll siblings, no confident pairing made. |
 | `image34.png` | Branch g checkpoint 5 | Formal dinner-party group photo. No caption or contextual match found. |
@@ -308,3 +312,4 @@ The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` f
 | 1.9 | 2026-08-06 | Human raised the risk that unfiled images, described only in text, would never be revisited without a fresh `.docx` extraction. Extracted and stored all 14 remaining "checked but unmatched" images and the 6 further Anetavler deep-chart pages, closing that gap — 45 of 48 images now physically stored (the 3 not stored are a confirmed exact duplicate, image18, and two images that belong to a different manuscript entirely, image26/image27, moved to `library/deep-wells/hopp-slaegten-preview-images/` instead). |
 | 1.10 | 2026-08-06 | **Correction:** image26/image27 do NOT belong to Hopp-slægten — the human identified both directly: image26 shows Hanne Boe and Knud Erik Jakobsen (the manuscript's own author) together; image27 is a family group photo, August 1995, with Bruno Dølby, Gitte Boe, Tommy Krogh, Lotta Ann, Cecilie Boe, Nikolaj Boe, and Astrid Kirk (not yet linked in `tree.ged`). Both moved back into this deep well's own media folder; the Hopp-slægten preview folder created for them has been removed. 47 of 48 images now physically stored — only the confirmed duplicate, image18, remains unstored. |
 | 1.11 | 2026-08-06 | Revised `image21.jpeg`'s entry after direct visual inspection (prompted by the human questioning the original age-gap reasoning): moved out of the "unmatched" batch table into its own write-up. Original guess (Hanne + Carlo) ruled out on both age gap and visual era (photo reads as early-1930s). New hypothesis, human-prompted: one of Meta's older brothers (Hans Kristian or Karl Alfred Christensen Boe) holding baby sister Edith Kristensen Boe (b. Aug 1930), based on birth-year fit. Still unconfirmed — queued in `grandfather-review/queue.md` item 11 for KEJ. |
+| 1.12 | 2026-08-06 | Revised `image29.jpeg` and `image30.jpeg`'s entries, moved out of the "unmatched" batch table into their own write-ups. Corrected an overconfident dating claim on both (the "1960s"/"1940s" style labels were unverified guesses, not documented facts — the human rightly pushed back on the image29 one). Recorded two family-suggested name candidates: "Laurids" for image29 (checked against all Laurids/Laurits individuals in `tree.ged`, no good fit found) and "Gyda" for image30 (a genuine name match, Anna Gyda Boll, but no marriage date exists anywhere in the source to verify against). Both queued in `grandfather-review/queue.md` items 14-15. |
