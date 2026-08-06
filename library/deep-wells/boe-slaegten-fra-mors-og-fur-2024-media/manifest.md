@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.0 | 2026-08-06 | Production
+Version 1.1 | 2026-08-06 | Production
 
 ---
 
@@ -57,9 +57,28 @@ Scanned certificate opening "Vi Christian den Niende, af Guds Naade Konge til Da
 
 ---
 
+## Images: Efterslægt Branch b (Marie Christensen Boe)
+
+| File | KEJ's filename | Position | Type |
+|---|---|---|---|
+| image8.jpeg | Boe A19_NEW.jpg | Branch b (unconfirmed) | Photo, wedding portrait |
+| image9.jpeg | Boe A26_NEW.jpg | Unclassified | Photo, 2 people |
+
+### image8.jpeg — Wedding portrait
+
+Studio wedding portrait: bride in dark dress with a long veil, groom in formal double-breasted coat holding a top hat. Clothing style consistent with roughly 1900-1915. **Not confirmed**, but the date range fits Marie Christensen Boe and Niels Jensen's 9.8.1910 marriage (Tøndering) plausibly enough to record the guess — should not be treated as settled without KEJ's confirmation. `[UNVERIFIED: AI visual description, identity unconfirmed]`
+
+### image9.jpeg — Unidentified older couple
+
+Close studio portrait, older man and woman, clothing/hairstyle consistent with roughly 1930s-1950s. Checked against branch b (Esper Marinus Christensen Boe and Katrine, who would have been in that age range during this period) but nothing ties it specifically to them over any other Efterslægt couple of similar age — left unclassified rather than guessed. `[UNVERIFIED: AI visual description, identity unconfirmed]`
+
+**Also checked and explicitly ruled out for branches a/c/d/f/h/i and b:** `image7.jpeg` ("Boe B2") — a c.1920s-1930s outdoor photo of a young couple. Not stored here since it doesn't belong to any section read so far; will be pulled again once whichever branch (likely b, e, or g) it belongs to is reached.
+
+---
+
 ## Sensitivity
 
-None of the six images above require a `[SENSITIVE]` flag — every identified or plausibly-identified individual (generation "03" through "05") died well over 70 years ago. This will not hold once media from the Efterslægt section (living or recently-living descendants) is processed — expect `[SENSITIVE]` to become the norm, not the exception, once that begins.
+The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` flag — everyone in them died well over 70 years ago. That changes starting with Efterslægt: `image8`/`image9` above don't currently need the flag either (no confirmed identity, and if image8's guess is right, a 1910 marriage is not recent), but per the branch-b text extraction, several individuals in this branch (Poul and Henning Christensen Boe and their families) have no death dates and are treated as potentially living — any future image confirmed to depict them would need `[SENSITIVE]`.
 
 ---
 
@@ -68,3 +87,4 @@ None of the six images above require a `[SENSITIVE]` flag — every identified o
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-06 | Initial creation. First batch: the 6 images tied to Aneoversigt and generations "02"-"05" (the sections already read). Two images cross-checked directly against already-extracted text as genuine fidelity spot-checks (image5, image6); one filename-level discrepancy noted in KEJ's own naming (image2, "1732" vs the document's actual 1832 date); two images left with unconfirmed identities rather than guessed (image3, image4). |
+| 1.1 | 2026-08-06 | Added images for Efterslægt branch b: a plausible-but-unconfirmed wedding-portrait match (image8) and one left fully unclassified (image9). Noted image7 was checked and ruled out for all branches read so far, deferred rather than stored prematurely. |
