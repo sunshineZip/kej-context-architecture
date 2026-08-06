@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.9 | 2026-08-06 | Production
+Version 1.10 | 2026-08-06 | Production
 
 ---
 
@@ -38,7 +38,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
 - **Stored:** yes — the original `.docx` binary, pushed directly into `incoming/` by the human via GitHub Desktop (2026-08-06) and triaged into this folder, bypassing the Google Drive connector's 10 MB cap that blocked the initial fetch attempt entirely.
 - **Location:** library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx (original — see `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-manifest.md` for the full history and text extraction log; a plain-text extraction also sits alongside it as `boe-slaegten-fra-mors-og-fur-2024-fulltext.txt` — not itself a registered `Location`, since `scripts/validate.ps1` only checks the first `Location` line per entry; this is a known, harmless pre-existing warning, not new to this edit)
 - **Media:** library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/ (images extracted from the source — own manifest, 48 embedded images found, 17 processed so far)
-- **Referenced by domains:** None yet — Phase 3 (domain buildout) has not started. Currently mined by `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`.
+- **Referenced by domains:** None yet — Phase 3 (domain buildout) has not started. Currently mined by `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md` (Chapter 1, complete) and `projects/archive-digitization/context/boe-slaegten-chapter2-extraction.md` (Chapter 2, complete).
 - **Cornerstone status:** Yes — multi-chapter (4 chapters plus anetavler appendices, ~148,000 characters), mined incrementally section by section, and Chapter 3's own cross-references (Vester Vandet/Møller line) already suggest relevance beyond a single future Boe domain.
 - **Extraction log:**
   - 2026-08-06: Aneoversigt and generation "02" (Peder Christensen Boe) → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`
@@ -46,6 +46,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
   - 2026-08-06: Generations "04"/"05" (Peder/Christen Christensen Boe) → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`
   - 2026-08-06: First image batch (6 images, Aneoversigt/generations "02"-"05") → `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`
   - 2026-08-06: Efterslægt branch g checkpoints 1-5, complete (children IV/VI/VII, I/V/IX/XI, II/X, III, VIII — 139 new individuals; branch g and Efterslægt now fully read) → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`; images tracked in `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`
+  - 2026-08-06: Kapitel 2 (Boe-slægten, Jørsby), fully read (61 new individuals) → `projects/archive-digitization/context/boe-slaegten-chapter2-extraction.md`
 
 ---
 
@@ -63,3 +64,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.7 | 2026-08-06 | Branch g checkpoint 3 read (children II/X, 35 new individuals). No new images filed this checkpoint — media count unchanged at 12. |
 | 1.8 | 2026-08-06 | Branch g checkpoint 4 read (child III, 23 new individuals); media count updated to 16 processed. Notable: the manuscript's own author, KEJ, appears in the text as a family member by a former marriage. |
 | 1.9 | 2026-08-06 | Branch g checkpoint 5 read (child VIII, 55 new individuals) — branch g and Efterslægt now fully read; media count updated to 17 processed. |
+| 1.10 | 2026-08-06 | Chapter 1 complete. Chapter 2 (Boe-slægten, Jørsby) read in full — 61 new individuals, filling in generation "02" wife Sidsel Lauridsdatter Toft's own ancestry. New chapter-specific extraction file. No new images. |

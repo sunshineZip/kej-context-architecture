@@ -26,9 +26,11 @@
 1 DEAT
 2 DATE 25 DEC 1821
 2 PLAC Sdr. Dråby, Mors, Danmark
+1 FAMC @F87@
 1 FAMS @F1@
 1 FAMS @F2@
 1 NOTE Datter af Laurids Nielsen Toft (d.1797). Konfirmeret 1765. Indblandet i "Kyssesekten" (Peder Lassen Grud) — søn Mads avlet udenfor ægteskab, se @I6@. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
+1 NOTE Kapitel 2 (Boe-slægten, Jørsby) genbesøger hende fra Toft-familiens egen side, uden nyt om hendes egen linje ud over fadderskabslister allerede dækket — men bekræfter faderens navn, tilføjer moderens navn (Kirsten Jensdatter, @I246@) og giver et fuldt kirkebogscitat om Mads' faderskabssag (se @I6@'s note). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
 
 0 @I3@ INDI
 1 NAME Anna Pedersdatter /Boe/
@@ -38,6 +40,7 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F1@
 1 NOTE 1834: 57 år, ugift, boende hos halvbror Mads Pedersen Boe i Sdr. Dråby. 1801-alder (14) stemmer ikke med fødselsår — formodet udtræksartefakt fra denne sessions egen tekstbehandling, ikke en manuskriptfejl; se family-tree/possible-duplicates.md. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
+1 NOTE Kapitel 2 tilføjer det præcise fødselsklokkeslæt: "om Natten klokken 4." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
 
 0 @I4@ INDI
 1 NAME Christen Pedersen /Boe/
@@ -53,6 +56,7 @@
 1 FAMS @F5@
 1 NOTE Generation "03" i Aneoversigten. Insolvent skifte 1832, Ullerup gods skifteprotokol (13. april, 15. dec., afsluttet 22. dec. 1832) — værdi 212 dr 4 mk 4 sk mod udgifter 692 dr 2 mk 4 sk. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
 1 NOTE Foto/dokument: skifte-siden er scannet, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image2.jpeg (håndskrift ikke selvstændigt transskriberet).
+1 NOTE Kapitel 2 nævner ham igen (som "Kapitel 1 03") som fadder for flere Toft-kusiner/-fætre i 1770'erne-90'erne — bekræfter blot allerede kendte fakta, ingen ny biografisk detalje. Gift 19.10.1808 med Mette Jensdatter — Kapitel 2 henviser videre til "kapitel 3 Afsnit 02 – h." for hendes egen slægt (endnu ikke læst). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
 
 0 @I5@ INDI
 1 NAME Laurs Pedersen /Boe/
@@ -62,6 +66,7 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F1@
 1 NOTE 1801-alder (14) stemmer ikke med fødselsår — samme formodede udtræksartefakt som @I3@; se family-tree/possible-duplicates.md. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
+1 NOTE Kapitel 2 nævner ham igen kort, ingen ny biografisk detalje ud over faderens/moderens navne allerede kendt. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
 
 0 @I6@ INDI
 1 NAME Mads Pedersen /Boe/
@@ -74,6 +79,7 @@
 1 FAMS @F3@
 1 FAMS @F4@
 1 NOTE Fødselsår internt uoverensstemmende i manuskriptet (1774 ét sted, 8.5.1773 et andet, 1771-1773 implicit af tre alderangivelser) — ikke løst her, se grandfather-review/queue.md #4. Tog navnet "Boe" efter stedfar Peder Christensen Boe. Efterkommere bar stadig navnet Boe pr. 2019 ifølge manuskriptet. [CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal — grandfather-review/queue.md #4]
+1 NOTE Kapitel 2 citerer kirkebogen langt fyldigere end Kapitel 1's egen omtale: "Zidsel Larsdatter Toft hendes uægte Barn... Nat Bene. Peder Lassen, Self Ejer i Jørsbye blef udlagt til Baene Fader" — og afslører, at Peder Lassen samtidig nægtede faderskab til to ANDRE anførte børn (Zidsels og en Else Pedersdatter af Sundbyes), hvilket antyder flere sager end dokumenteret i denne slægtsbog. Han havde desuden endnu et barn med sin husholderske Maren Andersdatter, halvbroderen Jens (@I301@, se @F100@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
 
 0 @I7@ INDI
 1 NAME Peder Lassen /Grud/
@@ -2545,5 +2551,725 @@
 1 CHIL @I163@
 1 CHIL @I186@
 1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet — alle elleve nu tilføjet her, Efterslægten for branch g er fuldt læst. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (@I107@) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
+
+0 @I241@ INDI
+1 NAME Niels /Toft/
+1 SEX M
+1 BIRT
+2 DATE ABT 1706
+1 DEAT
+2 DATE 4 NOV 1797
+2 PLAC Jørsby, Mors, Danmark
+1 OCCU Husmand ("Husfolk, og betler" ved folketælling 1787)
+1 FAMS @F86@
+1 NOTE Generation "01" i Kapitel 2's Aneoversigt. Fødselsår internt uoverensstemmende i kilden selv (81 år ved folketælling 1787 → f. o.1706; men 84 år ved dødsfaldet 1797 → f. o.1713) — en 7-års forskel præsenteret af manuskriptet selv som usikker, ikke en fejl fra denne sessions tekstbehandling. Druknede natten mellem 4. og 5. november 1797 "i en lille Aa imellem Torup og Knudby," blev ført hjem af sønnerne og begravet i Jørsby 12.11.1797. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I242@ INDI
+1 NAME Johanne /Pedersdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1706
+1 FAMS @F86@
+1 NOTE Ved folketælling 1787: 81 år, gift med Niels Toft, "Husfolk, og betler." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I243@ INDI
+1 NAME Kirsten Nielsdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE ABT 1749
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F86@
+1 NOTE Barn "a." af Niels Toft og Johanne Pedersdatter. Konfirmeret 1766, Sejerslev kirke, derefter tjeneste i Sejerslev. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I244@ INDI
+1 NAME Maren Nielsdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE ABT 1753
+1 DEAT
+2 DATE 24 APR 1812
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F86@
+1 NOTE Barn "b." af Niels Toft og Johanne Pedersdatter. Konfirmeret 1770, Jørsby kirke, derefter til V. Hundrup. Kilden foreslår selv, usikkert, at hun kan være samme "Maren Nielsdatter Toft" der 1780 var fadder hos Christen Pedersen Boe (@I4@) og Mette Jensdatter i Jørsby — ikke bekræftet. Død som "almisselem" (fattighjælpsmodtager), 61 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I245@ INDI
+1 NAME Laurids Nielsen /Toft/
+1 SEX M
+1 BIRT
+2 DATE ABT 1754
+1 OCCU Fæstegårdmand i Jørsby
+1 FAMC @F86@
+1 FAMS @F87@
+1 NOTE Barn "c." af Niels Toft og Johanne Pedersdatter — generation "02" i Kapitel 2's Aneoversigt. Fadder hos Christen Pedersen Boe (@I4@) i Jørsby 1811, 1813 og 1814. Sidsel (Zidsel) Lauridsdatter Toft (@I2@) er hans datter "d." — se @F87@. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I246@ INDI
+1 NAME Kirsten /Jensdatter/
+1 SEX F
+1 DEAT
+2 DATE 6 FEB 1780
+2 PLAC Jørsby, Mors, Danmark
+1 FAMS @F87@
+1 NOTE Lauridsʼ hustru, "gårdmand i Jørsby af Ullerup gods, hans gamle moder," død 77 år (f. o.1703). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I247@ INDI
+1 NAME Jens Nielsen /Toft/
+1 SEX M
+1 BIRT
+2 DATE ABT 1754
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 9 DEC 1804
+2 PLAC Jørsby, Mors, Danmark
+1 OCCU Husmand ("bonde og husbond," senere husmand med jord)
+1 FAMC @F86@
+1 FAMS @F88@
+1 NOTE Barn "d." af Niels Toft og Johanne Pedersdatter. Konfirmeret 1775, Sejerslev kirke. Ni børn kendt ("I."-"IX."), født 1781-1803. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I248@ INDI
+1 NAME Maren /Svenningsdatter/
+1 SEX F
+1 OCCU Kaldet "Snedker" (efternavn/tilnavn)
+1 FAMS @F88@
+1 NOTE Jens Nielsen Tofts hustru. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I249@ INDI
+1 NAME Peder Jensen /Toft/
+1 SEX M
+1 BIRT
+2 DATE 9 OCT 1781
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F88@
+1 NOTE Barn "I." af Jens Nielsen Toft og Maren Svenningsdatter, "Husmand på Ullerup Gods." Faddere: moster Sissel Svenningsdatter, Johanne Heede, farbrødre Jens og Chresten "Tofter," morbrødre Nels og Ole Svennings Sønner. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I250@ INDI
+1 NAME Maren Jensdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE ABT 1782
+1 FAMC @F88@
+1 NOTE Barn "II." af Jens Nielsen Toft og Maren Svenningsdatter. Ved folketælling 1787 hos forældrene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I251@ INDI
+1 NAME Peder Jensen /Toft/
+1 SEX M
+1 BIRT
+2 DATE 5 APR 1785
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F88@
+1 NOTE Endnu en søn navngivet "Peder Jensen Toft," samme forældre som "I." (@I249@) — ingen dødsdato er angivet for den første Peder i det læste afsnit, så det er uklart om dette er et navnegenbrug efter et ubeskrevet spædbarnsdødsfald eller to samtidigt levende brødre med samme navn. Faddere: Maren Nielsdatter Toft, Sissel Svenningsdatter fra Gjerløv, Jens Toft, Niels Svenningsen fra Ejerslev. Konfirmeret 1803, Sejerslev kirke, "Mådelig oplyst." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I252@ INDI
+1 NAME Johanna Jensdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE 25 OCT 1787
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 15 JAN 1827
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F88@
+1 NOTE Barn "IV." af Jens Nielsen Toft og Maren Svenningsdatter. Konfirmeret 1803, Sejerslev kirke. Død 39 år, "hjemme hos sin moder og søster Maren Toft." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I253@ INDI
+1 NAME Anna Jensdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE 19 MAR 1790
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 11 MAY 1794
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F88@
+1 NOTE Barn "V." af Jens Nielsen Toft og Maren Svenningsdatter. Spædbarnsdød, 4 år 1 måned. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I254@ INDI
+1 NAME Sissel (Zidsel) Jensdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE 14 AUG 1792
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F88@
+1 FAMS @F89@
+1 FAMS @F90@
+1 NOTE Barn "VI." af Jens Nielsen Toft og Maren Svenningsdatter. Konfirmeret 1808, Jørsby, "Maadelig oplyst." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I255@ INDI
+1 NAME Peder /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1774
+1 FAMS @F89@
+1 NOTE Sissels 1. ægtefælle, gift 17.11.1818, "hos sin broder gårdmand Jens Nielsen i Jørsby" ved vielsen, 44 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I256@ INDI
+1 NAME Søren /Christensen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1807
+1 FAMS @F90@
+1 NOTE Sissels 2. ægtefælle (efter Peder Nielsens død), gift 4.4.1836, 29 år, tjenende i Sillerslev, Øster Assels sogn. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I257@ INDI
+1 NAME Svenning Jensen /Toft/
+1 SEX M
+1 BIRT
+2 DATE 16 JUL 1795
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F88@
+1 NOTE Barn "VII." af Jens Nielsen Toft og Maren Svenningsdatter. Faddere: Niels Svenningsen fra Ljørslev, Anders Nielsen og Jens Nielsen Toft fra Jørsby, Anne Larsdatter; Zidsel Svenningsdatter bar barnet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I258@ INDI
+1 NAME Maren Jensdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE 10 NOV 1798
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F88@
+1 FAMS @F91@
+1 NOTE Barn "VIII." af Jens Nielsen Toft og Maren Svenningsdatter (døbt). Gift 8.4.1822, Jørsby, 25 år, hos forældrene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I259@ INDI
+1 NAME Niels Christensen /Toft/
+1 SEX M
+1 BIRT
+2 DATE ABT 1791
+1 OCCU Murermester
+1 FAMS @F91@
+1 NOTE Marens ægtefælle, gift 8.4.1822, "Murermester af Profession," 31 år, for tiden i Jørsby ved vielsen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I260@ INDI
+1 NAME Anna Jensdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE 26 JUL 1801
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F88@
+1 FAMS @F92@
+1 NOTE Barn "IX." af Jens Nielsen Toft og Maren Svenningsdatter (døbt). En yngre, unavngiven søster ("Nyfødt pige") født og død 24.7.1803 — ingen selvstændig @I@-post oprettet. Gift 8.4.1822, Jørsby, 21 år, hos faderen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I261@ INDI
+1 NAME Peder Christian /Jacobsen/
+1 SEX M
+1 FAMS @F92@
+1 NOTE Annas ægtefælle, gift 8.4.1822, fra Hørdum i Thy. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I262@ INDI
+1 NAME Anders Nielsen /Toft/
+1 SEX M
+1 FAMC @F86@
+1 NOTE Barn "e." af Niels Toft og Johanne Pedersdatter. Konfirmeret 1778, Jørsby kirke. Ingen yderligere detaljer i det læste afsnit. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I263@ INDI
+1 NAME Christen Lauritsen /Toft/
+1 SEX M
+1 BIRT
+2 DATE ABT 1744
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 19 MAR 1799
+2 PLAC Jørsby, Mors, Danmark
+1 OCCU Gårdmand, senere skoleholder og forsanger ("skolemester") i Jørsby
+1 FAMC @F87@
+1 FAMS @F93@
+1 NOTE Barn "a." af Laurids Nielsen Toft og Kirsten Jensdatter. Konfirmeret 1761, Jørsby kirke, 17 år, hjemme. Kilden overvejer selv, om gårdmanden og den senere skoleholder er samme person — sandsynliggjort, ikke sikkert bekræftet. Tolv børn kendt ("I."-"XII."), født 1771-o.1788 (heraf "XII." muligvis identisk med "Michel," @I282@ — se dennes note). Død 56 år, begravet som "skoleholder og forsanger." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I264@ INDI
+1 NAME Inger /Michelsdatter/
+1 SEX F
+1 DEAT
+2 DATE 7 FEB 1802
+2 PLAC Jørsby, Mors, Danmark
+1 FAMS @F93@
+1 NOTE Christens hustru, trolovet torsdag 17.1., viet 14.2.1771, Jørsby kirke. Ved folketælling 1787: 42 år (skolemesterens hustru). Død som "skoleholder enke," 57 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I265@ INDI
+1 NAME Lars Christensen /Toft/
+1 SEX M
+1 BIRT
+2 DATE 16 MAY 1771
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 15 AUG 1771
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F93@
+1 NOTE Barn "I." af Christen Lauritsen Toft og Inger Michelsdatter. Spædbarnsdød, 3 måneder. Blandt fadderne Zidsel Larsdatter Toft (@I2@, hans faster). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I266@ INDI
+1 NAME Lauritz Christensen /Toft/
+1 SEX M
+1 BIRT
+2 DATE 8 JUL 1772
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 7 AUG 1847
+2 PLAC Jørsby, Mors, Danmark
+1 OCCU Gårdmand, senere aftægtsmand, Jørsby
+1 FAMC @F93@
+1 FAMS @F94@
+1 NOTE Barn "II." af Christen Lauritsen Toft og Inger Michelsdatter (samme som søsteren Anna Christensdatter Tofts "broder = II.", @I283@). Blandt fadderne Jens Toft. Trolovet, gift 29.12. (år ikke angivet i det læste afsnit) med Mette Sørensdatter. Død 75 år, "Ihjelslagen af en Hest" (dræbt af en hest). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I267@ INDI
+1 NAME Mette /Sørensdatter/
+1 SEX F
+1 DEAT
+2 DATE 12 DEC 1850
+1 FAMS @F94@
+1 NOTE Lauritzʼ hustru. Død som enke, 78¾ år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I268@ INDI
+1 NAME Christen Lauritzen /Toft/
+1 SEX M
+1 BIRT
+2 DATE 5 DEC 1803
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F94@
+1 NOTE Barn "1." af Lauritz Christensen Toft og Mette Sørensdatter (døbt). Faddere: Niels Michelsen, Christen Villadsen, Mads Toft, Karen Toft; Maren Toft bar barnet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I269@ INDI
+1 NAME Karen Lauritzdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE 10 OCT 1804
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F94@
+1 NOTE Barn "2." af Lauritz Christensen Toft og Mette Sørensdatter (døbt). Faddere: Mads Toft, Peder Toft, Karen Toft; Maren Toft bar barnet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I270@ INDI
+1 NAME Søren Lauritzen /Toft/
+1 SEX M
+1 BIRT
+2 DATE 15 APR 1806
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F94@
+1 NOTE Barn "3." af Lauritz Christensen Toft og Mette Sørensdatter (døbt). Faddere: Jens (Talksen), Arendt Jensen, Michel Toft, Maren Toft; Anne Sørensen bar barnet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I271@ INDI
+1 NAME Michel Christensen /Toft/
+1 SEX M
+1 BIRT
+2 DATE 16 MAR 1774
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F93@
+1 NOTE Barn "III." af Christen Lauritsen Toft og Inger Michelsdatter. Faddere: morbrødre Niels og Søren Michelssønner, Peder Boe (@I1@), moster Anna Michelsdatter bar barnet. Konfirmeret 1792, Jørsby, sammen med søsteren Kirsten (@I272@) samme år — præsten noterede ham "tjener hos Niels Michelsen i Jørsbye." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I272@ INDI
+1 NAME Kirsten (Kierstine) Christensdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE 31 AUG 1775
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F93@
+1 FAMS @F95@
+1 NOTE Barn "IV." af Christen Lauritsen Toft og Inger Michelsdatter. Faddere: (Iver) Michelsen, Christen Pedersen, Peder Boe (@I1@). Konfirmeret 1792, 16 år — præstens note: "ringe af Begreb," tjener i Strandgaard. Ved folketælling 1787: 11 år, hos forældrene. Forlovet 27.3., gift 25.4.1800 med husmand Niels Jepsen i Jørsby. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I273@ INDI
+1 NAME Niels /Jepsen/
+1 SEX M
+1 OCCU Husmand, Jørsby
+1 FAMS @F95@
+1 NOTE Kirstens ægtefælle, gift 25.4.1800. Deres søn Christen Nielsen (@I274@) er døbt allerede 26.1.1800, altså født før vielsen; Niels er angivet som "udlagt barnefader." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I274@ INDI
+1 NAME Christen /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE 26 JAN 1800
+1 FAMC @F95@
+1 NOTE Barn "1." af Kirstine Christensdatter Toft og "udlagt barnefader" Niels Jepsen (døbt, født før forældrenes vielse 25.4.1800). Faddere: Laurs Toft, Michel Toft, Maren Toft; Inger Toft bar barnet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I275@ INDI
+1 NAME Inger /Nielsdatter/
+1 SEX F
+1 BIRT
+2 DATE 7 APR 1805
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F95@
+1 NOTE Barn "2." af husmand Niels Jepsen og hustru Kierstine Toft (døbt). Faddere: Niels Poulsen, Mads Toft, Peder Toft, Maren Toft; Karen Toft bar barnet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I276@ INDI
+1 NAME Maren Christensdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE 22 OCT 1777
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F93@
+1 NOTE Barn af Christen Lauritsen Toft og Inger Michelsdatter — romertal ikke eksplicit angivet i det læste afsnit, position ("V.") udledt af fødselsrækkefølgen, ikke bekræftet. Faddere: Peder Søndergaards hustru i Sejerslev, Johanne Svenningsdatter i Jørsby, morbrødre Nels og Mickel, Peder Boe (@I1@). Ved folketælling 1787 hos forældrene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I277@ INDI
+1 NAME Karen Christensdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE 20 APR 1779
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 8 MAY 1853
+1 FAMC @F93@
+1 NOTE Barn af Christen Lauritsen Toft og Inger Michelsdatter — romertal ikke eksplicit angivet, position ("VI.") udledt. Faddere: Michel Larsens datter Karen, Karen Thøgersdatter, morbrødre Nels og Søren, Michel Hall. Død ugift, 74 år, "Nyder Almisse." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I278@ INDI
+1 NAME Mads Christensen /Toft/
+1 SEX M
+1 BIRT
+2 DATE 30 JAN 1781
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F93@
+1 NOTE Barn af Christen Lauritsen Toft og Inger Michelsdatter — romertal ikke eksplicit angivet, position ("VII.") udledt. Faddere: Nels Mickelsen, Mickel Mickelsen, Christen Thyboe, Else (?)datter, Mickel Laursens datter Karen. Ved folketælling 1787 hos forældrene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I279@ INDI
+1 NAME Peder Christensen /Toft/
+1 SEX M
+1 BIRT
+2 DATE 11 FEB 1783
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 24 AUG 1806
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F93@
+1 NOTE Barn "VIII." af Christen Lauritsen Toft og Inger Michelsdatter, tvilling til en dødfødt pige (barn "IX.", unavngiven, ingen selvstændig @I@-post). Faddere: Mads Thomsøns hustru Anna Michelsdatter, Kirsten Michelsdatter, Niels Hald, Jens Toft, Poul Andersen. Sandsynligvis identisk med "Peder Toft af Jørsby," begravet 24.8.1806, 23 år 24 uger — alderen (23) stemmer med denne fødsel (1783), ikke med den anden "Peder Christensen Toft" (@I280@, f.1785). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I280@ INDI
+1 NAME Peder Christensen /Toft/
+1 SEX M
+1 BIRT
+2 DATE 4 SEP 1785
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F93@
+1 NOTE Endnu en søn navngivet "Peder Christensen Toft," samme forældre som "VIII." (@I279@) — kilden giver ingen forklaring på navnegenbruget, og i modsætning til andre lignende tilfælde i dette kapitel dør den første Peder (24.8.1806) tilsyneladende FØR denne søn ville være navngivet, hvis dødsdatoen hører til @I279@ og ikke denne — kronologien er uklar. Ikke løst her. Faddere: Maren Andersdatter, Maren Nielsdatter Toft, Nels Michelsen, Peder Boe (@I1@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I281@ INDI
+1 NAME Anders Christensen /Toft/
+1 SEX M
+1 BIRT
+2 DATE ABT 1785
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 22 JUN 1796
+1 FAMC @F93@
+1 NOTE Barn af Christen Lauritsen Toft og Inger Michelsdatter — romertal ikke angivet. Ved folketælling 1787 hos forældrene. Dødsåret er i kilden skrevet "1896" — kronologisk umuligt (ville gøre ham 111 år ved en angivet alder af 9 år); læst her som en åbenlys fejlskrivning for 1796, samme "19xx for 18xx"-mønster som allerede logget i family-tree/possible-duplicates.md sub-mønster A, ikke queued som et nyt tilfælde da læsningen er entydig. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I282@ INDI
+1 NAME Michel Christensen /Toft/
+1 SEX M
+1 BIRT
+2 DATE 21 JAN 1788
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F93@
+1 NOTE Barn af Christen Lauritsen Toft og Inger Michelsdatter, muligvis den samme som "XII." nævnt i Kapitel 2's egen Aneoversigt-indledning (en søn Michel, hvis fødsel/ægtefærdighed KEJ selv beskriver som usikker: "en Inger Michelsdatter findes o.1788 gift med skoleholder Christen Lauritsen Toft... de fik 21.1. sønnen Michel") — ikke bekræftet som samme person som "III." (@I271@, også navngivet Michel, f.1774); et navnegenbrug uden angivet dødsfald for den første. Faddere: Karen Michelsdatter, Maren Nielsdatter Toft, Jens Laustsen Toft, Christen Christensen, Anders Christensen. Kilden noterer blot "Død" uden dato. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I283@ INDI
+1 NAME Anna Christensdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE 3 AUG 1791
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 1 APR 1794
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F93@
+1 NOTE Barn af Christen Lauritsen Toft og Inger Michelsdatter. Faddere: Maren Jensdatter, Niels Michelsens kone Sissel Christensdatter, Christen Pedersen, Peder Søndergaard fra Sejerslev, farbror Jens Toft (skrædder i Jørsby), og broder Laurs Christensen Toft ("broder = II.", @I266@ — bekræfter dennes romertal). Spædbarnsdød, 2 år 7 måneder 28 dage. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I284@ INDI
+1 NAME Jens Lauritsen /Toft/
+1 SEX M
+1 BIRT
+2 DATE ABT 1744
+1 OCCU Skrædder, senere husmand med jord, Jørsby
+1 FAMC @F87@
+1 FAMS @F96@
+1 FAMS @F97@
+1 NOTE Barn "b." af Laurids Nielsen Toft og Kirsten Jensdatter. Konfirmeret 1761, Jørsby kirke, 17 år, hjemme. Fadder for søsteren Marens (@I291@) forlovelse 1785, og for broderen Christens (@I263@, "= I.") 1791. Enkemand ved 2. ægteskab (1. hustru ikke navngivet i det læste afsnit). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I285@ INDI
+1 NAME Maren /Justesdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1747
+1 FAMS @F97@
+1 NOTE Jens Lauritsen Tofts 2. hustru, trolovet 10.5.1789, viet 19.1.1790, Jørsby kirke. Ved folketælling 1801: 40 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I286@ INDI
+1 NAME Christen /Jensen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1774
+1 DEAT
+2 DATE 15 MAY 1780
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F96@
+1 NOTE Søn af Jens Lauritsen Toft (skrædder) og en unavngiven 1. hustru (fødsel predaterer faderens 1790-ægteskab med Maren Justesdatter). Død af kopper (børnekopper), "Jens Tofts Skrædders søn i Jørsby." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I287@ INDI
+1 NAME Kirsten /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 9 SEP 1776
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F96@
+1 NOTE Datter af Jens Lauritsen Toft (skrædder) og en unavngiven 1. hustru. Tvilling til en dødfødt søskende samme dato, unavngiven, ingen selvstændig @I@-post. Faddere: Michel Schiærbechs hustru Kirstine Thomasdatter, Christen Tofts hustru Inger (@I264@), Peder Boe (@I4@ — kildens egen "kapitel 1 03" henvisning, dvs. generation "03," ikke @I1@), Ole Henrichsen, Peder Jensen. Kilden noterer blot "Død" uden dato. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I288@ INDI
+1 NAME Christen /Jensen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1794
+1 FAMC @F97@
+1 NOTE Søn af Jens Lauritsen Toft og Maren Justesdatter (2. ægteskab) — navnegenbrug efter broderen @I286@'s død 1780. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I289@ INDI
+1 NAME Laurits /Jensen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1798
+1 FAMC @F97@
+1 NOTE Søn af Jens Lauritsen Toft og Maren Justesdatter. Ved folketælling 1801 hos forældrene, 3 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I290@ INDI
+1 NAME Birthe /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 13 JUL 1804
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F97@
+1 NOTE Datter af husmand Jens Lauritsen Toft og hustru Maren Justsdatter. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I291@ INDI
+1 NAME Maren Larsdatter /Toft/
+1 SEX F
+1 BIRT
+2 DATE ABT 1745
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 3 DEC 1814
+1 FAMC @F87@
+1 FAMS @F98@
+1 FAMS @F99@
+1 NOTE Barn "c." af Laurids Nielsen Toft og Kirsten Jensdatter. Konfirmeret 1764, Jørsby kirke, 19 år, derefter hjemme. Enke efter "lovligt skifte" ved 2. forlovelse 1785. Død som aftægtskone hos Jens Nielsen i Jørsby (identifikationen usikker, markeret med "?" i kilden). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I292@ INDI
+1 NAME Jens Sørensen /Heede/
+1 SEX M
+1 FAMS @F98@
+1 NOTE Marens 1. ægtefælle, "præstens annexbonde i Jørsby," gift 20.2.1771, Jørsby kirke. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I293@ INDI
+1 NAME Poul /Andersen/
+1 SEX M
+1 OCCU Fæster på annexstedet i Jørsby (præstens annexbonde)
+1 FAMS @F99@
+1 NOTE Marens 2. ægtefælle, gift 1785. Forlovere: Christen Andersen og skrædder Toft (@I284@, "= b."). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I294@ INDI
+1 NAME Maren /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 30 JUN 1771
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F98@
+1 NOTE Barn "I." af Jens Sørensen Heede og Maren Larsdatter. Blandt fadderne Zidsel Larsdatter Toft (@I2@, hendes faster) og Peder Boe (@I1@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I295@ INDI
+1 NAME Maren /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 9 OCT 1772
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F98@
+1 NOTE Barn "II." af Jens Sørensen Heede og Maren Larsdatter — navnegenbrug efter søsteren @I294@, ingen dødsdato angivet for hende i det læste afsnit. Blandt fadderne Zidsel Larsdatter Toft (@I2@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I296@ INDI
+1 NAME Margrethe /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 24 JAN 1776
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F98@
+1 NOTE Barn "III." af Jens Sørensen Heede og Maren Larsdatter. Faddere: Søren Heede, Jens Lassen, Edith Therkelsdatter; "Kirsten Marie, tjenende Peder Lassen" bar barnet (Peder Lassen, @I7@, samme person som Zidsel Larsdatter Tofts (@I2@) senere sagsfald i Kyssesekten). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I297@ INDI
+1 NAME Maren /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 3 JAN 1782
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F98@
+1 NOTE Endnu en datter navngivet "Maren Jensdatter," tredje gang dette navn bruges blandt Jens Sørensen Heede og Maren Larsdatters børn (efter @I294@ og @I295@) — ingen af de tidligere er noteret død i det læste afsnit. Faddere: Kirsten Marie, Else Christensdatter, Jens Larsen, Niels Heede, Chresten Pedersen Schade. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I298@ INDI
+1 NAME Ingeborg /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 2 JAN 1783
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F98@
+1 NOTE Barn af Jens Sørensen Heede og Maren Larsdatter. Faddere: Jens Fisker, Niels Heede, Peder Larsens karl Jens Chr., salig Mads Jensens datter Anna, Kirsten Marie (Peder Larsens pige). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I299@ INDI
+1 NAME Anders /Poulsen/
+1 SEX M
+1 BIRT
+2 DATE 25 JAN 1786
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F99@
+1 NOTE Barn af Poul Andersen og Maren Larsdatter (2. ægteskab). Faddere: Christen Andersen i Sejerslev, Christen Toft (@I263@, "= a."), Claus Justsen, Grethe Olufsdatter Bojer, Else Christensdatter Heede. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I300@ INDI
+1 NAME Maren /Andersdatter/
+1 SEX F
+1 OCCU Husholderske hos Peder Lassen i Jørsby
+1 FAMS @F100@
+1 NOTE Peder Lassens (@I7@) husholderske — endnu et udenfor-ægteskabeligt forhold ud over det med Zidsel Larsdatter Toft (@I2@), som allerede gav Mads Pedersen (@I6@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @I301@ INDI
+1 NAME Jens /?/
+1 SEX M
+1 FAMC @F100@
+1 NOTE Peder Lassens (@I7@) søn med husholderske Maren Andersdatter — Mads Pedersens (@I6@) halvbroder på faderens side, født samme periode (nøjagtigt år ikke angivet i det læste afsnit, men "14. September" er angivet som fødselsdag). Hjemmedøbt samme dag som fødslen; dåben publiceret 1. december samme år, "som var af C 7de allernaadigst paabudne Takke og Bede-Fest." "Til Barne-Fader blef Peder Lassen udlagt, det hand tilstod at være" — samme kirkebogscitat nævner også, at Peder Lassen nægtede at være far til to andre anførte børn (Zidsel Toftes og Else Pedersdatter af Sundbyes), hvilket antyder endnu flere sager end dem der er transskriberet her. Efternavn ikke angivet. Faddere: Jens Larsen, Jens Heede, Anne Boe, Else Terkelsdatter. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+
+0 @F86@ FAM
+1 HUSB @I241@
+1 WIFE @I242@
+1 CHIL @I243@
+1 CHIL @I244@
+1 CHIL @I245@
+1 CHIL @I247@
+1 CHIL @I262@
+1 NOTE Fem børn ("a."-"e.").
+
+0 @F87@ FAM
+1 HUSB @I245@
+1 WIFE @I246@
+1 CHIL @I263@
+1 CHIL @I284@
+1 CHIL @I291@
+1 CHIL @I2@
+1 NOTE Fire børn ("a."-"d."). Barn "d." (Zidsel Lauridsdatter Toft, @I2@) er allerede fuldt modelleret fra Kapitel 1 — kun FAMC tilføjet her, ingen dublet oprettet.
+
+0 @F88@ FAM
+1 HUSB @I247@
+1 WIFE @I248@
+1 CHIL @I249@
+1 CHIL @I250@
+1 CHIL @I251@
+1 CHIL @I252@
+1 CHIL @I253@
+1 CHIL @I254@
+1 CHIL @I257@
+1 CHIL @I258@
+1 CHIL @I260@
+1 NOTE Ni børn ("I."-"IX.").
+
+0 @F89@ FAM
+1 HUSB @I255@
+1 WIFE @I254@
+1 MARR
+2 DATE 17 NOV 1818
+2 PLAC Jørsby, Mors, Danmark
+1 NOTE Sissels 1. ægteskab.
+
+0 @F90@ FAM
+1 HUSB @I256@
+1 WIFE @I254@
+1 MARR
+2 DATE 4 APR 1836
+2 PLAC Jørsby, Mors, Danmark
+1 NOTE Sissels 2. ægteskab, efter Peder Nielsens død.
+
+0 @F91@ FAM
+1 HUSB @I259@
+1 WIFE @I258@
+1 MARR
+2 DATE 8 APR 1822
+2 PLAC Jørsby, Mors, Danmark
+
+0 @F92@ FAM
+1 HUSB @I261@
+1 WIFE @I260@
+1 MARR
+2 DATE 8 APR 1822
+2 PLAC Jørsby, Mors, Danmark
+
+0 @F93@ FAM
+1 HUSB @I263@
+1 WIFE @I264@
+1 MARR
+2 DATE 14 FEB 1771
+2 PLAC Jørsby kirke, Danmark
+1 CHIL @I265@
+1 CHIL @I266@
+1 CHIL @I271@
+1 CHIL @I272@
+1 CHIL @I276@
+1 CHIL @I277@
+1 CHIL @I278@
+1 CHIL @I279@
+1 CHIL @I280@
+1 CHIL @I281@
+1 CHIL @I282@
+1 CHIL @I283@
+1 NOTE Tolv børn ("I."-"XII.") ifølge kilden; kun de romertal kilden selv angiver eksplicit (I., II., III., IV., VIII.) er brugt direkte ovenfor — resten er tildelt ud fra fødselsrækkefølge, se hver enkelt @I@-posts egen note. To navnegenbrug uden angivet dødsfald for den første bærer (Peder, Michel) gør nummereringen usikker. KEJ's egen advarsel i kildens Aneoversigt-indledning: "Toft-familiens familierelationer kan være noget komplicerede! Efterslægten kan for nogle børn være noget usikker!"
+
+0 @F94@ FAM
+1 HUSB @I266@
+1 WIFE @I267@
+1 MARR
+2 DATE ABT 1802
+1 CHIL @I268@
+1 CHIL @I269@
+1 CHIL @I270@
+1 NOTE Vielsesår ikke angivet i det læste afsnit, kun dag/måned (29. december) — børnenes fødselsår (1803-1806) sætter det til o.1802.
+
+0 @F95@ FAM
+1 HUSB @I273@
+1 WIFE @I272@
+1 MARR
+2 DATE 25 APR 1800
+2 PLAC Jørsby, Danmark
+1 CHIL @I274@
+1 CHIL @I275@
+
+0 @F96@ FAM
+1 HUSB @I284@
+1 CHIL @I286@
+1 CHIL @I287@
+1 NOTE Jens Lauritsen Tofts 1. ægteskab — hustruens navn ikke angivet i det læste afsnit ("enkemand" ved 2. ægteskab 1790).
+
+0 @F97@ FAM
+1 HUSB @I284@
+1 WIFE @I285@
+1 MARR
+2 DATE 19 JAN 1790
+2 PLAC Jørsby kirke, Danmark
+1 CHIL @I288@
+1 CHIL @I289@
+1 CHIL @I290@
+1 NOTE Jens Lauritsen Tofts 2. ægteskab.
+
+0 @F98@ FAM
+1 HUSB @I292@
+1 WIFE @I291@
+1 MARR
+2 DATE 20 FEB 1771
+2 PLAC Jørsby kirke, Danmark
+1 CHIL @I294@
+1 CHIL @I295@
+1 CHIL @I296@
+1 CHIL @I297@
+1 CHIL @I298@
+1 NOTE Marens 1. ægteskab.
+
+0 @F99@ FAM
+1 HUSB @I293@
+1 WIFE @I291@
+1 MARR
+2 DATE 1785
+2 PLAC Jørsby, Danmark
+1 CHIL @I299@
+1 NOTE Marens 2. ægteskab.
+
+0 @F100@ FAM
+1 HUSB @I7@
+1 WIFE @I300@
+1 CHIL @I301@
+1 NOTE Ikke et ægteskab. Endnu et udenfor-ægteskabeligt forhold for Peder Lassen (@I7@), ud over det med Zidsel Larsdatter Toft (@I2@).
 
 0 TRLR
