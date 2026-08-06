@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.11 | 2026-08-06 | Active
+Version 1.12 | 2026-08-06 | Active
 
 ---
 
@@ -120,6 +120,14 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 **Grundlag:** Direkte visuel inspektion af billedet plus sammenligning med kendte fakta (alder, dato, enkemandsstatus) allerede i `family-tree/tree.ged`. Ingen billedtekst eller anden kildehenvisning fundet for hverken image22 eller image23.
 **Status:** Foreslået — endnu ikke gennemgået. Genkender du billedet af parret i image23 — er det Meta og Peter Severin Nielsens bryllup? Og genkender du den unge kvinde i image22 som en ung Meta?
 
+### 13. image28.jpeg — ukendt ung mand med runde briller
+
+**Kategori:** Billedidentifikation
+**Kilde:** Projekt Arkivdigitalisering, medie-manifest — se `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`, afsnittet om `image28.jpeg`
+**Fund:** Et studieportræt af en ung mand, formentlig midt i eller sent i teenageårene, med runde stålindfattede briller, stribet slips og skjorte med krave, foran en ensfarvet baggrund. Stilen svarer til 1930'erne-40'erne. Dukkede op i samme del af manuskriptet som Metas egen familie (branch g checkpoint 4), men — modsat `image21.jpeg` — er der intet i selve billedet (ingen baby, intet bryllup, ingen anden fastholdt begivenhed), der kan bruges til at indsnævre hvem det er. Kunne i princippet være en af Metas brødre (Ernst Kristian f.1915, Karl Alfred f.1920, Hans Kristian f.1921, Poul Kristensen f.1923, Christian Christensen f.1924) som teenager, men lige så godt en helt urelateret person, hvis eneste forbindelse til denne del af manuskriptet er, hvor billedet tilfældigvis lå i den oprindelige fil.
+**Grundlag:** Direkte visuel inspektion af billedet. Ingen billedtekst, ingen krydsreference til en bestemt alder eller begivenhed, der kan bruges til at afgrænse kandidatlisten yderligere.
+**Status:** Foreslået — endnu ikke gennemgået. Menneskets egen vurdering: billedet virker "meget ude af kontekst" i forhold til resten af dette checkpoint. Genkender du den unge mand med brillerne? Og hvis ikke — ved du, hvor billedet ellers kunne høre hjemme?
+
 ---
 
 ## Version History
@@ -138,3 +146,4 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 | 1.9 | 2026-08-06 | Added item 10, a new category (family tradition vs. source, not an internal manuscript inconsistency): the human's mother believes Gunnar Vilhelm Carlsen was not Hanne Boe's biological father and recalls a "Peder"/"Peter" instead. Manuscript names two candidates in Meta's life around that period (Peder Alfred Plejdrup, a pre-birth employer; Peter Severin Nielsen, the husband who raised Hanne but is explicitly stated not to be her father) — neither cleanly matches the family's memory. Raised during a live Q&A session about the family tree, not found during manuscript reading. |
 | 1.10 | 2026-08-06 | Added item 11: `image21.jpeg`'s identity — direct visual inspection plus birth-year math suggests one of Meta's older brothers (Hans Kristian or Karl Alfred Christensen Boe) holding baby sister Edith, revising an earlier ruled-out guess (Hanne + Carlo). Human explicitly asked for this to be queued rather than treated as settled. |
 | 1.11 | 2026-08-06 | Added item 12: `image23.jpeg`'s identity — plausible match to Meta and Peter Severin Nielsen's 1946 wedding, based on visual inspection (age gap, non-white dress, era) against already-known facts. Also notes the related, still-unconfirmed `image22.jpeg` guess (young Meta) for the same review round rather than opening a fourth item for it. |
+| 1.12 | 2026-08-06 | Added item 13: `image28.jpeg`, an unidentified young man with round glasses — unlike item 11, no anchor (baby, wedding, dated event) in the photo to narrow down candidates, so queued as a flat open ID request rather than a reasoned hypothesis. |
