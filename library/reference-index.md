@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.11 | 2026-08-06 | Production
+Version 1.12 | 2026-08-06 | Production
 
 ---
 
@@ -38,7 +38,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
 - **Stored:** yes — the original `.docx` binary, pushed directly into `incoming/` by the human via GitHub Desktop (2026-08-06) and triaged into this folder, bypassing the Google Drive connector's 10 MB cap that blocked the initial fetch attempt entirely.
 - **Location:** library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx (original — see `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-manifest.md` for the full history and text extraction log; a plain-text extraction also sits alongside it as `boe-slaegten-fra-mors-og-fur-2024-fulltext.txt` — not itself a registered `Location`, since `scripts/validate.ps1` only checks the first `Location` line per entry; this is a known, harmless pre-existing warning, not new to this edit)
 - **Media:** library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/ (images extracted from the source — own manifest, 48 embedded images found, 20 processed so far)
-- **Referenced by domains:** None yet — Phase 3 (domain buildout) has not started. Currently mined by `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md` (Chapter 1, complete), `projects/archive-digitization/context/boe-slaegten-chapter2-extraction.md` (Chapter 2, complete), and `projects/archive-digitization/context/boe-slaegten-chapter3-extraction.md` (Chapter 3, complete).
+- **Referenced by domains:** None yet — Phase 3 (domain buildout) has not started. Currently mined by chapter-specific extraction files (`projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md` through `...-chapter4-extraction.md`) — all four numbered chapters now complete. Only the Anetavler (pedigree appendices) and Kilder (bibliography) remain unread.
 - **Cornerstone status:** Yes — multi-chapter (4 chapters plus anetavler appendices, ~148,000 characters), mined incrementally section by section, and Chapter 3's own cross-references (Vester Vandet/Møller line) already suggest relevance beyond a single future Boe domain.
 - **Extraction log:**
   - 2026-08-06: Aneoversigt and generation "02" (Peder Christensen Boe) → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`
@@ -48,6 +48,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
   - 2026-08-06: Efterslægt branch g checkpoints 1-5, complete (children IV/VI/VII, I/V/IX/XI, II/X, III, VIII — 139 new individuals; branch g and Efterslægt now fully read) → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`; images tracked in `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`
   - 2026-08-06: Kapitel 2 (Boe-slægten, Jørsby), fully read (61 new individuals) → `projects/archive-digitization/context/boe-slaegten-chapter2-extraction.md`
   - 2026-08-06: Kapitel 3 (Boe-slægten, Vester Vandet), fully read (33 new individuals) → `projects/archive-digitization/context/boe-slaegten-chapter3-extraction.md`
+  - 2026-08-06: Kapitel 4 (Boe-slægten Thy), fully read — a cross-reference to Kapitel 3, no new individuals → `projects/archive-digitization/context/boe-slaegten-chapter4-extraction.md`
 
 ---
 
@@ -67,3 +68,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.9 | 2026-08-06 | Branch g checkpoint 5 read (child VIII, 55 new individuals) — branch g and Efterslægt now fully read; media count updated to 17 processed. |
 | 1.10 | 2026-08-06 | Chapter 1 complete. Chapter 2 (Boe-slægten, Jørsby) read in full — 61 new individuals, filling in generation "02" wife Sidsel Lauridsdatter Toft's own ancestry. New chapter-specific extraction file. No new images. |
 | 1.11 | 2026-08-06 | Chapter 3 (Boe-slægten, Vester Vandet) read in full — 33 new individuals, filling in generation "03" wife Mette Jensdatter's own ancestry; media count updated to 20 processed, including KEJ's own handwritten master pedigree chart. |
+| 1.12 | 2026-08-06 | Chapter 4 (Boe-slægten Thy) read in full — confirmed a one-page cross-reference to Chapter 3, no new individuals. All four numbered chapters now complete. |
