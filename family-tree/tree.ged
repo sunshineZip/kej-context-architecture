@@ -110,7 +110,9 @@
 2 PLAC Jørsby, Mors, Danmark
 1 FAMC @F15@
 1 FAMS @F5@
+1 FAMS @F106@
 1 NOTE Datter af Jens Møller og Else Jensdatter (kapitel 3). Dødsårsag "Slagtilfælde" (slagtilfælde/apopleksi), alder 63½. Aneoversigt-tabellen viser fødselsår "1878" — formodet cifferombytning af 1787 (det præcise fødselsår givet her); ikke rettet i kilden. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17][CONTRADICTS: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3 shows "1878"]
+1 NOTE Kapitel 3 tilføjer: hendes egen far Jens Christensen Møllers fulde slægt (se @F15@, nu opdateret fra pladsholder), og et tidligere ukendt barn født uden for ægteskab, Jens Thomasen (@I333@, se @F106@), inden hendes giftermål med Christen Pedersen Boe. Navnet "Mette" var allerede brugt af en ældre søster, der døde som spædbarn 1784 (@I329@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
 
 0 @I11@ INDI
 1 NAME Else Christensdatter /Boe/
@@ -2409,7 +2411,17 @@
 1 NOTE Iver Hendriksen og Else Jensdatter, forældre til Bodil Kirstine Iversdatter (@I26@) — omtalt i manuskriptets SØGÅRD-SLÆGTEN anetavle-appendiks, ikke selvstændigt læst/transskriberet endnu. Ingen @I@-poster oprettet for dem her, samme praksis som @F15@. Se også family-tree/possible-duplicates.md §2C for en navnerækkefølge-uoverensstemmelse fundet ved en fadder kaldet "Hendrik Iversen (morfar)" ved et barnedåb i generation 04's sektion.
 
 0 @F15@ FAM
-1 NOTE Jens Møller og Else Jensdatter, forældre til Mette Jensdatter (@I10@) — omtalt i manuskriptets kapitel 3, ikke selvstændigt læst/transskriberet endnu. Ingen @I@-poster oprettet for dem her for at undgå at gætte navneformer, der ikke er set direkte.
+1 HUSB @I323@
+1 WIFE @I327@
+1 MARR
+2 DATE 1 OCT 1776
+2 PLAC Tødsø kirke, Danmark
+1 CHIL @I328@
+1 CHIL @I329@
+1 CHIL @I330@
+1 CHIL @I331@
+1 CHIL @I10@
+1 NOTE Jens Christensen Møller (@I323@) og Else Jensdatter (@I327@), forældre til Mette Jensdatter (@I10@) — nu fuldt modelleret fra Kapitel 3 (tidligere en ren pladsholder uden HUSB/WIFE-poster, oprettet under Kapitel 1's læsning af generation "03"). Fem børn ("c."-"g." ifølge kildens egen angivelse af det samlede antal — men et af de eksplicit navngivne overlevende børn i 1787-folketællingen er mærket "h.", hvilket ikke passer inden for "c.-g."-intervallet; kildens egen bogstavering er internt uoverensstemmende her, ikke løst). Jens' 2. ægteskab.
 
 0 @F1@ FAM
 1 HUSB @I1@
@@ -2444,8 +2456,9 @@
 1 HUSB @I4@
 1 WIFE @I10@
 1 MARR
-2 DATE 19 OCT 1808
+2 DATE 19 OCT 1810
 2 PLAC Jørsby, Mors, Danmark
+1 NOTE **Vielsesåret er internt uoverensstemmende i manuskriptet.** Kapitel 1's egen prosa angiver "Trolovet 8.9., viet 19.10." 1808; Kapitel 3's afsnit om Mette Jensdatter (@I10@) angiver eksplicit "Gift 19.10.1810" — samme dag/måned, forskelligt år. **Opdatering:** KEJ's eget håndskrevne stamtræsoverblik ("BOE-SLÆGTEN MORS/FUR," et samlet firekapitel-diagram, image37.png) viser også "19.10.1810 JØRSBY" for denne vielse — to af tre kilder (inkl. den, der ligner KEJ's eget primære arbejdsdokument) peger nu på 1810. Denne post er opdateret til 1810 som bedst understøttet, men ikke behandlet som endeligt afgjort — kun KEJ kan bekræfte, om 1808-angivelsen i Kapitel 1's prosa er en fejl. Se grandfather-review/queue.md #9, opdateret med denne nye evidens.
 1 CHIL @I11@
 1 CHIL @I12@
 1 CHIL @I13@
@@ -3271,5 +3284,402 @@
 1 WIFE @I300@
 1 CHIL @I301@
 1 NOTE Ikke et ægteskab. Endnu et udenfor-ægteskabeligt forhold for Peder Lassen (@I7@), ud over det med Zidsel Larsdatter Toft (@I2@).
+
+0 @I302@ INDI
+1 NAME Christen /Christensen/
+1 SEX M
+1 OCCU Møller, Øster Mølle, Vester Vandet sogn (o.1711)
+1 FAMS @F101@
+1 NOTE Generation "01" i Kapitel 3's Aneoversigt, markeret med "?" i kildens egen overskrift ("Christen Christensen Møller ?") — identiteten er kildens egen, ikke fuldt sikker rekonstruktion. Trolovet 28.6.1703, viet 7.10.1703, Vester Vandet kirke, med Karen Madsdatter "ved Møllen." Ni børn kendt ("a."-"i."), fødsler mangler for 1710-1719 ifølge kilden selv. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I303@ INDI
+1 NAME Karen /Madsdatter/
+1 SEX F
+1 FAMS @F101@
+1 NOTE Christens hustru "ved Møllen," Vester Vandet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I304@ INDI
+1 NAME Christen /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 4 AUG 1704
+2 PLAC Klitmøller, Vester Vandet sogn, Danmark
+1 FAMC @F101@
+1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — bogstav ikke eksplicit angivet i kilden, position ("a.") udledt af fødselsrækkefølge. Født "Klokken 8 Formiddag." Faddere: Michel Bloch, Christen Krog, Peder Broe, Dorthe Anders Madtsens, Ane Pedersdatter Krog. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I305@ INDI
+1 NAME Anders /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 7 JAN 1707
+2 PLAC Klitmøller, Vester Vandet sogn, Danmark
+1 FAMC @F101@
+1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("b.") udledt. Født "Om morgenen 2 stund for Dag." Faddere: skolemesteren "her i Prestegaarden" studiosus Niels Jensen, Peder Krog, Jens Christensen, Inger Michel Blochis, Maren Christen Frostis. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I306@ INDI
+1 NAME Maren /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE 10 JUN 1709
+2 PLAC Klitmøller, Vester Vandet sogn, Danmark
+1 FAMC @F101@
+1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("c.") udledt. Født "Om Morgenen klokken 4." Faddere: Christen Frost, unge Christen Drasbech, Knud Christensen, Ane Christensdatter, Kirsten Bollesdatter. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I307@ INDI
+1 NAME Niels /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 1711
+1 DEAT
+2 DATE 1 AUG 1742
+1 FAMC @F101@
+1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("d.") udledt. "Christen Christensen Møllers søn i Øster Mølle," død "Klokken 1 over Middag," 31 år "ringer 11 dage." Begravet 7.8.1742, Vester Vandet, samme dag som søsteren Anne (@I309@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I308@ INDI
+1 NAME Christen Christensen /Møller/
+1 SEX M
+1 BIRT
+2 DATE ABT 1713
+1 DEAT
+2 DATE 15 AUG 1743
+2 PLAC Klovborg ved Klitmøller, Vester Vandet sogn, Danmark
+1 FAMC @F101@
+1 FAMS @F102@
+1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("e.") udledt; generation "02" i Kapitel 3's Aneoversigt, også markeret "?" i kilden. Død "i sin Alders 39 Aar og 1 Dag" ét sted i kilden, men "i sin Alder 29 år og 1 Dag" et andet sted for samme dødsfald — en intern uoverensstemmelse i kilden selv (29 stemmer bedre med f. o.1713, ikke rettet her). Da både han og hustruen Karen Pedersdatter Schindrup (@I313@) døde inden for få uger af hinanden 1743, blev sønnen Jens (@I323@) formodentlig plejeanbragt hos familie som spæd. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73][CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal — alder ved døden angivet to gange, 29 år og 39 år]
+
+0 @I309@ INDI
+1 NAME Anne /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE 1714
+1 DEAT
+2 DATE 30 JUL 1742
+1 FAMC @F101@
+1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("f.") udledt. "Christen Christensen Møllers datter i Øster Mølle," død "Klokken 10 om Aftenen," 28 år 5 md. 4 dage. Begravet 7.8.1742, Vester Vandet, samme dag som broderen Niels (@I307@). Fadder hos broderen Christens (@I308@) familie i Klovborg 1738. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I310@ INDI
+1 NAME Karen /Christensdatter/
+1 SEX F
+1 FAMC @F101@
+1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("g.") udledt; ingen fødsels- eller dødsdato angivet i det læste afsnit (formentlig blandt de manglende fødsler 1710-1719). Kendt kun fra fadderskab hos broderen Christens (@I308@) familie i Klovborg, 1738. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I311@ INDI
+1 NAME Ingeborg /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE 1717
+1 DEAT
+2 DATE 25 MAY 1740
+1 FAMC @F101@
+1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("h.") udledt. "Christen Christensen Møllers datter i Øster Mølle," død "Klokken 7 om Aftenen," 23 år "ringer 23 uger." Begravet 1.7.1740, Vester Vandet. Fadder hos broderen Christens (@I308@) familie i Klovborg, 1741. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I312@ INDI
+1 NAME Anders /Christensen/
+1 SEX M
+1 FAMC @F101@
+1 NOTE Barn af Christen Christensen Møller og Karen Madsdatter — position ("i.") udledt; ingen fødsels- eller dødsdato angivet (formentlig blandt de manglende fødsler 1710-1719). Kendt kun fra fadderskab hos broderen Christens (@I308@) familie i Klovborg, 1741. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I313@ INDI
+1 NAME Karen Pedersdatter /Schindrup/
+1 SEX F
+1 DEAT
+2 DATE 27 JUL 1743
+2 PLAC Klovborg ved Klitmøller, Vester Vandet sogn, Danmark
+1 FAMS @F102@
+1 NOTE Christen Christensen Møllers (@I308@) hustru, trolovet 20.9.1737, viet 16.10.1737, Vester Vandet kirke. Død "i sin Alders 30 Aar." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I314@ INDI
+1 NAME Anne /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE 19 JUN 1738
+2 PLAC Klovborg ved Klitmøller, Vester Vandet sogn, Danmark
+1 FAMC @F102@
+1 NOTE Barn "a." af Christen Christensen Møller og Karen Pedersdatter, født "1 Time før Solens opgang." Faddere: Peder Michelsøn i Skindrup, Peder Andersøn i Fuglsang, Niels Pedersøn i Skanderup, Ane Jens Kiærs, farmoster Anne Christensdatter Møll (@I309@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I315@ INDI
+1 NAME Karen /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE 19 SEP 1739
+2 PLAC Klovborg ved Klitmøller, Vester Vandet sogn, Danmark
+1 FAMC @F102@
+1 NOTE Barn "b." af Christen Christensen Møller og Karen Pedersdatter, født "klokken 9 Formiddag." Faddere: Peder Nielsøn i Klovborg, Niels Nielsøn i Skanderup, Michel Pedersøn i Skinderup, Anne Jensdatter, Ingeborg Christensdatter Møll (@I311@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I316@ INDI
+1 NAME Peder Christensen /Møller/
+1 SEX M
+1 BIRT
+2 DATE 29 JUN 1741
+2 PLAC Klovborg ved Klitmøller, Vester Vandet sogn, Danmark
+1 DEAT
+2 DATE 10 JAN 1794
+2 PLAC Klostermølle, Danmark
+1 OCCU "Markmand" (?), Nykøbing Mors
+1 FAMC @F102@
+1 FAMS @F103@
+1 NOTE Barn "c." af Christen Christensen Møller og Karen Pedersdatter, født "klochen 3 om Morgenen." Faddere: Christen Christensen Møller i Øster Mølle, Jens Jensen, Anders Christensøn Møller, Maren (Peder Fuglsangs), Dorethe Nielsdatter. Forlover 1773 i Elsø for broderen Jens (@I323@, "= 03-d."). Ved folketælling 1787: 47 år (f. o.1740, en mindre uoverensstemmelse med den her angivne fødsel 1741), boede til leje i Østergade, Nykøbing. Død 49 år (f. o.1745, endnu en let uoverensstemmelse) — ingen af de mindre aldersforskelle rettet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I317@ INDI
+1 NAME Caritas (Elisabeth) /Sejersdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1748
+1 DEAT
+2 DATE 3 MAR 1790
+2 PLAC Nykøbing Mors, Danmark
+1 FAMS @F103@
+1 NOTE Peders hustru. Død 42 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I318@ INDI
+1 NAME Birgitte /Pedersdatter/
+1 SEX F
+1 BIRT
+2 DATE 16 JUL 1768
+2 PLAC Nykøbing Mors, Danmark
+1 FAMC @F103@
+1 NOTE Barn "I." af Peder Christensen Møller og Caritas Elisabeth Sejersdatter. Faddere: Niels Ring, Peder Dyhr, Anne Christensdatter, Antonette Dyhr, Willads Jensen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I319@ INDI
+1 NAME Sejer /Pedersen/
+1 SEX M
+1 BIRT
+2 DATE 8 FEB 1771
+2 PLAC Nykøbing Mors, Danmark
+1 FAMC @F103@
+1 NOTE Barn "II." af Peder Christensen Møller og Caritas Elisabeth Sejersdatter. Faddere: Anthonette Dyhr, Niels Klingenberg, Peder Theut, Anne Christensdatter, Niels Josephsen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I320@ INDI
+1 NAME Maren (Marie) /Pedersdatter/
+1 SEX F
+1 BIRT
+2 DATE 8 JUL 1774
+2 PLAC Nykøbing Mors, Danmark
+1 DEAT
+2 DATE 25 JUN 1784
+2 PLAC Nykøbing Mors, Danmark
+1 FAMC @F103@
+1 NOTE Barn "III." af Peder Møller og Caritas Sejersdatter — kildens egen tekst viser fødselsåret som "1874," kronologisk umuligt (dødsalderen, 10 år ved dødsfaldet 1784, bekræfter f.1774); læst som en tydelig cifferfejl, samme mønster som to af hendes yngre søstre (@I321@, @I322@) i samme afsnit. Faddere: Jfr. Malene Sybille Qvistgaard, Christen Præstgaard, Antonette Dyhr, farver Reimer. Død 10 år, "Peder Møllers datter Marie." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I321@ INDI
+1 NAME Ide /Pedersdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT DEC 1777
+2 PLAC Nykøbing Mors, Danmark
+1 DEAT
+2 DATE 7 JUL 1778
+2 PLAC Nykøbing Mors, Danmark
+1 FAMC @F103@
+1 NOTE Barn "IV." af Peder Christensen Møller og Caritas Elisabeth Sejersdatter, født "3. Adventus 1777" (tredje søndag i advent). Faddere: Mads Draabys kone, Dorthe Nyboe, Hr. Jens Kragh, Frederich Juel, Jens Bødker. Død 30 uger gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I322@ INDI
+1 NAME Ide /Pedersdatter/
+1 SEX F
+1 BIRT
+2 DATE 12 APR 1781
+2 PLAC Nykøbing Mors, Danmark
+1 DEAT
+2 DATE 22 JUN 1782
+2 PLAC Nykøbing Mors, Danmark
+1 FAMC @F103@
+1 NOTE Barn "V." af Peder Christensen Møller og Caritas Elisabeth Sejersdatter — navnegenbrug efter søsteren @I321@'s død 1778. Kildens egen tekst viser fødselsåret som "1881" og dødsåret som "2782" — begge kronologisk umulige (12 ugers levetid mellem dem passer kun med 1781/1782); læst som cifferfejl, samme mønster som @I320@ i samme afsnit — tre lignende fejl i træk hos samme families børn, formentlig en systematisk artefakt fra denne sessions egen tekstbehandling af dette specifikke sideopslag, ikke en kildefejl. Faddere: Ane Stephansdatter, Inger Pedersdatter, Morten Østergaard, Mads Draabye, Niels Østergaard. Død 12 uger gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I323@ INDI
+1 NAME Jens Christensen /Møller/
+1 SEX M
+1 BIRT
+2 DATE ABT 1743
+2 PLAC Vester Vandet sogn, Danmark
+1 DEAT
+2 DATE 27 JAN 1796
+2 PLAC Jørsby, Mors, Danmark
+1 OCCU Gårdmand ("bonde og gårdmand"), Jørsby, under Ullerup gods
+1 FAMC @F102@
+1 FAMS @F104@
+1 FAMS @F15@
+1 NOTE Barn "d." af Christen Christensen Møller og Karen Pedersdatter Schindrup — begge forældre døde inden for få uger af hinanden 1743 (se @I308@), så Jens blev formodentlig plejeanbragt, "ikke fundet i Vester Vandet efterfølgende." Konfirmeret 1761, Sejerslev kirke, "født i Vester Vandet sogn," derefter til Nørre Dråby. Dette er Mette Jensdatter Boes (@I10@) egen far, tidligere kun omtalt som "Jens Møller" i Kapitel 1's generation "03" (@F15@, nu opdateret fra ren pladsholder til fuld post). Død 54 år (f. o.1742, en mindre uoverensstemmelse med den her angivne fødsel o.1743/44). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I324@ INDI
+1 NAME Anne Jensdatter /Overgaard/
+1 SEX F
+1 BIRT
+2 DATE ABT 1737
+1 DEAT
+2 DATE ABT 1776
+1 FAMS @F104@
+1 NOTE Jens' 1. hustru, trolovet 21.6.1773, viet 12.10.1773, Elsø kirke. Kildens egen tekst viser dødsåret som "1876," kronologisk umuligt (over 100 år efter vielsen); læst som 1776, hvilket stemmer overens med Jens' dokumenterede 2. ægteskab samme år. Død 39 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I325@ INDI
+1 NAME Jens Jensen /Møller/
+1 SEX M
+1 BIRT
+2 DATE 19 AUG 1774
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 28 SEP 1774
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F104@
+1 NOTE Barn "a." af Jens Christensen Møller og Anne Jensdatter. Spædbarnsdød, 5 uger gl. Faddere: Søren Jacobsen, Mads (Heede), morbroder Niels Jensen af Elsøe; Else Andersdatter bar barnet, Mette Michelsdatter "gik hos." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I326@ INDI
+1 NAME Jens Jensen /Møller/
+1 SEX M
+1 BIRT
+2 DATE 13 JAN 1776
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 17 JAN 1776
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F104@
+1 NOTE Barn "b." af Jens Christensen Møller og Anne Jensdatter — navnegenbrug efter broderen @I325@'s død 1774. Kildens egen tekst viser dødsåret som "1774," hvilket ville sætte dødsfaldet FØR fødslen — læst som 1776 (samme år som fødslen, i overensstemmelse med den angivne levetid på 1 uge 2 dage). Faddere: Christen Toft, Inger Michelsdatter (@I264@); Christen Tofts hustru bar barnet, Johanne Svenningsdatter "vare overværende." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I327@ INDI
+1 NAME Else /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1745
+2 PLAC Vadstrup, Danmark
+1 DEAT
+2 DATE 22 AUG 1809
+2 PLAC Jørsby, Mors, Danmark
+1 FAMS @F104@
+1 FAMS @F15@
+1 FAMS @F105@
+1 NOTE Jens' 2. hustru, Mette Jensdatter Boes (@I10@) mor. Trolovet 28.7.1776, viet 1.10.1776, Tødsø kirke. Ved folketælling 1787: 31 år (kilden angiver samtidig "f. 1736," hvilket ikke stemmer med 31 år i 1787 — internt uoverensstemmende, ikke rettet her). Gift 2. gang 5.6.1796 med Jens Pedersen (@I332@) efter Jens Møllers død samme år. Ved folketælling 1801: 56 år. Død/begravet 65 år 12 uger. En "Jens Møller," gårdmand, begravet 3.8.1809 i Jørsby, 49 år 2 uger — KEJ bemærker selv "Han er formodentlig = Jens Pedersen!", en formodning, ikke bekræftet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I328@ INDI
+1 NAME Ole Christian Jensen /Møller/
+1 SEX M
+1 BIRT
+2 DATE 4 MAY 1777
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F15@
+1 NOTE Barn "c." af Jens Christensen Møller og Else Jensdatter. Faddere: Sissel Christensdatter Wastrup, Karen Jensen Wastrup, Christen Toft i Jørsby (@I263@), Michel (?)søn, Søren Jacobssøn. Ved folketælling 1787: 9 år, hjemme. Konfirmeret 1794, Sejerslev kirke, "hands Oplysnings Carakt.er ringe" (svag oplysningskarakter). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I329@ INDI
+1 NAME Mette Jensdatter /Møller/
+1 SEX F
+1 BIRT
+2 DATE 17 APR 1784
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 15 AUG 1784
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F15@
+1 NOTE Barn af Jens Christensen Møller og Else Jensdatter — bogstav ikke sikkert placerbart i kildens egen "c.-g."-nummerering (se Åbne Punkter i udtræksnoterne). Spædbarnsdød, 18 dage gl., "Jens Møllers spæde barn, Mette." Navnet genbruges tre år senere til søsteren født 1787 (@I10@, Mette Jensdatter Boe). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I330@ INDI
+1 NAME Anna Jensdatter /Møller/
+1 SEX F
+1 BIRT
+2 DATE 24 JUL 1779
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 24 JUL 1809
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F15@
+1 NOTE Barn "e." af Jens Christensen Møller og Else Jensdatter. Faddere: Michel Schiærbecks steddatter Mette, Christen Tofts hustru (@I264@), Søren Jacobsen, Ole Nelsøn, Michel Laursøns karl Johan. Ved folketælling 1787: 6 år, hjemme; 1801: 21 år, hos moder og stedfar, "Aldeles vanvittig" (fuldstændig sindssyg). Død 30 år, samme dag som sin fødselsdag, "Som var berøvet Forstandens Brug" (som havde mistet sin forstand). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I331@ INDI
+1 NAME Maren Jensdatter /Møller/
+1 SEX F
+1 BIRT
+2 DATE 3 JAN 1782
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 16 AUG 1809
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F15@
+1 NOTE Barn "f." af Jens Christensen Møller og Else Jensdatter. Faddere: Christen Tofts kone Inger (@I264@), (?) Else, Søren Jacobsen, Mads Andersen, Ole Bojer. Ved folketælling 1787: 4 år, hjemme. Konfirmeret 1800, Sejerslev kirke, 15 år, "hos sin stedfar Jens Møller" (dvs. Jens Pedersen, @I332@). 1801: 16 år, hos moder og stedfar. Død 28 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I332@ INDI
+1 NAME Jens /Pedersen/
+1 SEX M
+1 OCCU Gårdbeboer, Jørsby
+1 FAMS @F105@
+1 NOTE Elses 2. ægtefælle, trolovet/viet 5.6.1796, Jørsby. Kildens egen trolovelsesattest citeret i fuld længde: bevidner at intet slægtskab, svogerskab eller andet ægteskabsløfte forhindrer vielsen. Forlovere: Niels Christensen på Nygård, Niels Michelsen i Jørsby. Ved folketælling 1801: 42 år. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @I333@ INDI
+1 NAME Jens /Thomasen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1809
+2 PLAC Jørsby, Mors, Danmark
+1 DEAT
+2 DATE 14 JUL 1809
+2 PLAC Jørsby, Mors, Danmark
+1 FAMC @F106@
+1 NOTE Mette Jensdatter Møllers (@I10@, senere Boe) søn født uden for ægteskab, før hendes 1808/1810-giftermål med Christen Pedersen Boe (@I4@ — se @F5@'s note om selve årstalsuoverensstemmelsen). Kildens egne datoer er indbyrdes modstridende: dåben er dateret "9.7.1810," men begravelsen "14.7.1809" — en begravelse ville ikke kunne ligge FØR dåben/fødslen; hvilken af de to årstal der er den fejlagtige, er uklart, og ingen af dem er rettet her. Erklæret barnefader: ungkarl Thomas Johansen (@I334@), soldat, "det første af Begge Personers Begangne Leiermaal." [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73][CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal — dåbsdato efter begravelsesdato]
+
+0 @I334@ INDI
+1 NAME Thomas /Johansen/
+1 SEX M
+1 OCCU Soldat, udkommanderet i "Kongens Tieneste"; tidligere tjenestekarl i Flade Præstegaard
+1 FAMS @F106@
+1 NOTE Erklæret ("udlagt") barnefader til Jens Thomasen (@I333@), ikke gift med Mette Jensdatter Møller (@I10@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73]
+
+0 @F101@ FAM
+1 HUSB @I302@
+1 WIFE @I303@
+1 MARR
+2 DATE 7 OCT 1703
+2 PLAC Vester Vandet kirke, Danmark
+1 CHIL @I304@
+1 CHIL @I305@
+1 CHIL @I306@
+1 CHIL @I307@
+1 CHIL @I308@
+1 CHIL @I309@
+1 CHIL @I310@
+1 CHIL @I311@
+1 CHIL @I312@
+1 NOTE Ni børn ("a."-"i."), fødsler mangler 1710-1719 ifølge kilden selv.
+
+0 @F102@ FAM
+1 HUSB @I308@
+1 WIFE @I313@
+1 MARR
+2 DATE 16 OCT 1737
+2 PLAC Vester Vandet kirke, Danmark
+1 CHIL @I314@
+1 CHIL @I315@
+1 CHIL @I316@
+1 CHIL @I323@
+1 NOTE Fire børn ("a."-"d."). Begge forældre døde 1743, inden for få uger af hinanden.
+
+0 @F103@ FAM
+1 HUSB @I316@
+1 WIFE @I317@
+1 CHIL @I318@
+1 CHIL @I319@
+1 CHIL @I320@
+1 CHIL @I321@
+1 CHIL @I322@
+1 NOTE Fem børn ("I."-"V."), Nykøbing Mors.
+
+0 @F104@ FAM
+1 HUSB @I323@
+1 WIFE @I324@
+1 MARR
+2 DATE 12 OCT 1773
+2 PLAC Elsø kirke, Danmark
+1 CHIL @I325@
+1 CHIL @I326@
+1 NOTE Jens' 1. ægteskab. To børn ("a."-"b."), begge døde som spæde.
+
+0 @F105@ FAM
+1 HUSB @I332@
+1 WIFE @I327@
+1 MARR
+2 DATE 5 JUN 1796
+2 PLAC Jørsby, Mors, Danmark
+1 NOTE Elses 2. ægteskab, efter Jens Christensen Møllers død samme år.
+
+0 @F106@ FAM
+1 HUSB @I334@
+1 WIFE @I10@
+1 CHIL @I333@
+1 NOTE Ikke et ægteskab.
 
 0 TRLR

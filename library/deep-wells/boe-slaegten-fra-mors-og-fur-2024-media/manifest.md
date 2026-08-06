@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.6 | 2026-08-06 | Production
+Version 1.7 | 2026-08-06 | Production
 
 ---
 
@@ -157,6 +157,28 @@ Checked `image35.jpeg` and `image36.png` while reading Chapter 2, expecting a J�
 
 ---
 
+## Images: Chapter 3 (Boe-slægten, Vester Vandet)
+
+| File | KEJ's filename | Position | Type |
+|---|---|---|---|
+| image35.jpeg | (Word auto-alt-text, no KEJ filename) | Chapter 3 (confirmed) | Period map, Klitmøller/Vester Vandet |
+| image36.png | (Word auto-alt-text, no KEJ filename) | Chapter 3 (confirmed) | Hand-drawn cadastral map, Vestermølle |
+| image37.png | (Word auto-alt-text, no KEJ filename) | Cross-chapter (confirmed, spans Kap.1-4 + Søgaard-slægten) | KEJ's own handwritten master pedigree chart |
+
+### image35.jpeg — Klitmøller / Vester Vandet map
+
+A period engraved map of the coastal area around Klitmøller, Øster Vandet, Vester Vandet, and Nors Sø — directly matching Chapter 3's own title and setting. No people depicted. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73 — direct place-name match] 
+
+### image36.png — Vestermølle cadastral map
+
+A hand-drawn, colored matrikelkort (cadastral survey map) showing numbered land parcels around "Vestermølle" ("West Mill"), with surrounding owner names annotated in period handwriting. Matches this chapter's central subject — the Møller (miller) family — directly by place name. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73 — direct place-name match]
+
+### image37.png — KEJ's own master pedigree chart (significant cross-chapter find)
+
+A single hand-drawn wall-chart, "BOE-SLÆGTEN MORS/FUR," laying out four columns (Kap.1-4) plus a fifth section for "Søgaard-slægten," each subdivided by generation. This is not a page from the compiled manuscript's own narrative — it reads as KEJ's own primary working document, the summary the prose chapters were most likely written from. **Used as a direct fidelity check and tie-breaker**: it independently confirms "19.10.1810 JØRSBY" for Christen Pedersen Boe and Mette Jensdatter's wedding, the same date given in Chapter 3's prose and one year later than Chapter 1's own prose — see `grandfather-review/queue.md` item 9 and `family-tree/tree.ged`'s `@F5@`. Not fully mined for its Chapter 4/Søgaard-slægten content yet, deliberately — that will be checked again once those sections are actually read, to keep image and text absorption paced together rather than reading ahead from a summary chart. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73 — direct date match against Chapter 3's own text, used to help resolve a Chapter 1/Chapter 3 contradiction]
+
+---
+
 ## Images: Efterslægt Branch g, Checkpoint 5 (Child VIII — Karen Kristensen Boe / the Boll family)
 
 | File | KEJ's filename | Position | Type |
@@ -188,3 +210,4 @@ The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` f
 | 1.4 | 2026-08-06 | Branch g checkpoint 4 (child III, Meta Kristine Kristensen Boe): two confirmed matches via direct caption text (image24, image25) and two plausible-but-unconfirmed additions (image22, image23). Three more images checked and left unfiled (image21, image29, image30). |
 | 1.5 | 2026-08-06 | Branch g checkpoint 5 (child VIII, Karen Kristensen Boe / the Boll family — the final checkpoint of branch g and Efterslægt): one confirmed match via direct caption text (image31, a six-children group portrait c.1962). Three more images checked and left unfiled (image32, image33, image34). |
 | 1.6 | 2026-08-06 | Chapter 2 (Boe-slægten, Jørsby) read — no images specific to it found; two checked (image35, image36) turned out to belong to Chapter 3 (Vester Vandet) instead, based on content (both depict that location by name), and are deferred there. |
+| 1.7 | 2026-08-06 | Chapter 3 (Boe-slægten, Vester Vandet) read — image35 and image36 confirmed and filed here (Klitmøller/Vester Vandet map, Vestermølle cadastral map). Found image37, KEJ's own handwritten master pedigree chart spanning all four chapters — used to help resolve a wedding-date contradiction found in Chapter 3's own text (see `grandfather-review/queue.md` item 9). |

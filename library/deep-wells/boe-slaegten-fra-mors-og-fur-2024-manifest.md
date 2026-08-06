@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Deep Well Manifest
 
-Version 1.10 | 2026-08-06 | Production
+Version 1.11 | 2026-08-06 | Production
 
 ---
 
@@ -38,6 +38,7 @@ Detailed extraction log for the "Boe-slægten fra Mors og Fur" deep well (`libra
 | 2026-08-06 | Efterslægt branch g, part 4 of 5 (child "III." — 23 new individuals across 5 generations, incl. the manuscript's own author KEJ as a family member by marriage) + 2 confirmed images, 2 plausible | → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md` §Efterslægt; `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md` |
 | 2026-08-06 | Efterslægt branch g, part 5 of 5 (child "VIII." — 55 new individuals across 4 generations, the largest single checkpoint). **Branch g, Efterslægt, and Chapter 1's family-tree read-through complete.** + 1 confirmed image | → `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md` §Efterslægt; `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md` |
 | 2026-08-06 | **Kapitel 2 (Boe-slægten, Jørsby), fully read** (p.55-65) — Niels Toft's family and Laurids Nielsen Toft's family, filling in Sidsel Lauridsdatter Toft's (`@I2@`) own ancestry and three previously-undocumented siblings' descendant lines. 61 new individuals, 15 new families. New extraction notes file (chapter-specific, not appended to the Chapter 1 file) | → `projects/archive-digitization/context/boe-slaegten-chapter2-extraction.md` |
+| 2026-08-06 | **Kapitel 3 (Boe-slægten, Vester Vandet), fully read** (p.66-73) — the Møller (miller) family, filling in Mette Jensdatter's (`@I10@`) own ancestry (previously a placeholder family, `@F15@`). 33 new individuals, 6 new families. Found a previously undocumented fact (a son born out of wedlock before Mette's marriage) and, via a checked image, KEJ's own master pedigree chart — used to help resolve a wedding-date contradiction (`grandfather-review/queue.md` item 9) | → `projects/archive-digitization/context/boe-slaegten-chapter3-extraction.md` |
 
 No content has been promoted into any `knowledge/domains/` file yet — Phase 3 (domain buildout) has not started, so nothing here is cited with `[VERIFIED: boe-slaegten-fra-mors-og-fur]` from a domain document yet. That citation slug is reserved for when it does. From this point on, text and image extraction proceed together per section rather than as separate passes — see `projects/archive-digitization/TODO.md`.
 
@@ -58,3 +59,4 @@ No content has been promoted into any `knowledge/domains/` file yet — Phase 3 
 | 1.8 | 2026-08-06 | Logged branch g part 4 of 5 (23 new individuals; 2 confirmed images, 2 plausible). Notable: revealed the manuscript's author is himself a family member by a former marriage. |
 | 1.9 | 2026-08-06 | Logged branch g part 5 of 5 (55 new individuals, largest checkpoint yet; 1 confirmed image). Branch g, Efterslægt, and Chapter 1's family-tree read-through are now complete: 240 individuals, 85 families in `family-tree/tree.ged`. |
 | 1.10 | 2026-08-06 | Logged Kapitel 2, fully read (61 new individuals, 15 new families — 301 individuals, 100 families total in `family-tree/tree.ged`). Extraction notes now split across chapter-specific files; Kapitel 2's own file is `projects/archive-digitization/context/boe-slaegten-chapter2-extraction.md`. |
+| 1.11 | 2026-08-06 | Logged Kapitel 3, fully read (33 new individuals, 6 new families — 334 individuals, 106 families total). Found KEJ's own handwritten master pedigree chart while checking images; used it to help resolve a wedding-date contradiction. |
