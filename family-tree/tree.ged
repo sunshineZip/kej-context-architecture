@@ -3,7 +3,7 @@
 1 CHAR UTF-8
 1 GEDC
 2 VERS 5.5.1
-1 NOTE Seeded 2026-08-06 from Boe-slaegten fra Mors og Fur, Kapitel 1, built incrementally as each generation is read. Generations "02"-"04" fully read (04 added 2026-08-06); "05" and its children still only at the vital-fact level captured from the Aneoversigt/children summary, not yet from generation 05's own detailed section. Source: library/reference-index.md#boe-slaegten-fra-mors-og-fur. Structure and conventions per projects/archive-digitization/context/data-structure-proposal.md.
+1 NOTE Seeded 2026-08-06 from Boe-slaegten fra Mors og Fur, Kapitel 1, built incrementally as each generation is read. Generations "02"-"05" fully read (05 added 2026-08-06, stopped at the manuscript's own "see following pages" marker dividing generation 05 from the much larger Efterslaegt/descendants section, not yet read). Source: library/reference-index.md#boe-slaegten-fra-mors-og-fur. Structure and conventions per projects/archive-digitization/context/data-structure-proposal.md.
 
 0 @I1@ INDI
 1 NAME Peder Christensen /Boe/
@@ -249,46 +249,46 @@
 1 NAME Christen Pedersen /Boe/
 1 SEX M
 1 BIRT
-2 DATE 1853
-2 PLAC Fur, Heden, Danmark
+2 DATE 6 JUL 1853
+2 PLAC på "Heden", Fur sogn, Danmark
 1 DEAT
-2 DATE 1930
-2 PLAC Fur, Nederby, Danmark
-1 OCCU Husmand og fisker, Fur
+2 DATE 24 MAY 1930
+2 PLAC Nederby, Fur, Danmark
+1 OCCU Husmand, fisker, senere agerbruger/landbruger, Fur (Blegager, Bakkerne, Nederby)
 1 FAMC @F10@
 1 FAMS @F11@
-1 NOTE Generation "05" i Aneoversigten. Kun Aneoversigt-niveau fakta medtaget her — kapitlets egen detaljerede sektion for generation "05" (s.21-24) er endnu ikke læst. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Konfirmeret 1868, Fur. Gift 19½ år gl. (KEJ markerer selv alderen med udråbstegn); ældste barn født kun 2 mdr. efter brylluppet. Familietradition (citeret fra sønnesøn K.K.K. Boe, 1976) fortæller om en frieri-historie under pres efter en udenomsægteskabelig graviditet. Søgte/fik kongelig bevilling på navnet "Boe" 1904/05 sammen med 6 af sine 9 børn. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 
 0 @I28@ INDI
 1 NAME Mette /Jensen/
 1 SEX F
 1 BIRT
-2 DATE 1847
-2 PLAC Fur, Danmark
+2 DATE 27 FEB 1847
+2 PLAC Debel, Fur, Danmark
 1 DEAT
-2 DATE 1932
-2 PLAC Fur, Danmark
+2 DATE 24 DEC 1932
+2 PLAC Nederby, Fur, Danmark
 1 FAMS @F11@
-1 NOTE Aneoversigt-niveau fakta kun. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Datter af Jens Christian Thorsen og Margrethe Jensdatter (moderen af gammel Furbo-slægt) — se KAPITEL 9, endnu ikke læst. Uddannet syerske. Et sted i folketællingen 1930 fejlagtigt kaldet "Mette Pedersen Boe" i stedet for sit eget navn (formodet sammenblanding med mandens patronym) — for trivielt til at spore som mønster. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 
 0 @I29@ INDI
 1 NAME Jens Christian /Christensen/
 1 SEX M
 1 BIRT
-2 DATE 1872
+2 DATE 22 SEP 1872
 2 PLAC Fur, Danmark
 1 FAMC @F11@
-1 NOTE Rejste o.1890 til Amerika. Barn "a." af generation 05. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Rejste o.1890 til Amerika. Barn "a." af generation 05, opkaldt efter morfaderen. Fik ikke navnet Boe ved bevillingen 1905 (kontakten til ham i Amerika var tabt). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 
 0 @I30@ INDI
 1 NAME Marie Christensen /Boe/
 1 SEX F
 1 BIRT
-2 DATE 1874
+2 DATE 16 NOV 1874
 2 PLAC Fur, Danmark
 1 FAMC @F11@
 1 FAMS @F12@
-1 NOTE Barn "b." af generation 05. Gift 1910, Tøndering. 4 børn 1897-1917 ifølge manuskriptet, ikke selvstændigt transskriberet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Barn "b." af generation 05. Fik 1897 sønnen Esper Marinus Christensen (Boe fra 1905) udenfor ægteskab — hans egen fulde biografi hører til Efterslægten, ikke selvstændigt transskriberet her. Gift 1910, Tøndering. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 
 0 @I31@ INDI
 1 NAME Niels /Jensen/
@@ -300,29 +300,29 @@
 1 NAME Jens Peter /Christensen/
 1 SEX M
 1 BIRT
-2 DATE 1877
+2 DATE 31 OCT 1877
 2 PLAC Fur, Danmark
 1 OCCU Skofabrikant på Fur, senere Skive og Odense
 1 FAMC @F11@
-1 NOTE Barn "c." af generation 05. Havde en adoptivdatter ifølge manuskriptet, ikke selvstændigt transskriberet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Barn "c." af generation 05. Havde en adoptivdatter ifølge manuskriptet, ikke selvstændigt transskriberet her. Nægtede at deltage i navnebevillingen 1905 — fik ikke navnet Boe; protesterede senere mod gravstensindskriften "Chr. P. Boe". [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 
 0 @I33@ INDI
 1 NAME Bodil Kirstine Christensen /Boe/
 1 SEX F
 1 BIRT
-2 DATE 1880
+2 DATE 22 JUL 1880
 2 PLAC Fur, Danmark
 1 DEAT
 2 DATE 1943
 2 PLAC Fur, Danmark
 1 FAMC @F11@
-1 NOTE Barn "d." af generation 05. Ugift. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Barn "d." af generation 05, kaldet "Stinne". Ugift; boede hjemme og passede forældrene, overtog og senere solgte ejendommen i Nederby. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 
 0 @I34@ INDI
 1 NAME Jens Christensen /Boe/
 1 SEX M
 1 BIRT
-2 DATE 1882
+2 DATE 1 NOV 1882
 2 PLAC Fur, Danmark
 1 DEAT
 2 DATE 1964
@@ -330,7 +330,7 @@
 1 OCCU Gårdmand på Fur
 1 FAMC @F11@
 1 FAMS @F13@
-1 NOTE Barn "e." af generation 05. Gift 1916, Fur. 4 børn 1917-1923 ifølge manuskriptet, ikke selvstændigt transskriberet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Barn "e." af generation 05. Fik navnet Boe ved bevillingen 1905. Gift 1916, Fur. 4 børn 1917-1923 ifølge manuskriptet, ikke selvstændigt transskriberet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 
 0 @I35@ INDI
 1 NAME Marie Kirstine /Christensen/
@@ -348,28 +348,28 @@
 1 NAME Mette Christensen /Boe/
 1 SEX F
 1 BIRT
-2 DATE 1884
+2 DATE 30 DEC 1884
 2 PLAC Fur, Danmark
 1 DEAT
 2 DATE AFT 1975
 2 PLAC Nykøbing Mors, Danmark
 1 OCCU Husbestyrerinde
 1 FAMC @F11@
-1 NOTE Barn "f." af generation 05. Ugift. Muligvis i live indtil nyligt før 1975-datoen — [SENSITIVE] behandling relevant hvis dette skulle blive et rigtigt domæne. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Barn "f." af generation 05. Ugift. Fik navnet Boe ved bevillingen 1905. Muligvis i live indtil nyligt før 1975-datoen — [SENSITIVE] behandling relevant hvis dette skulle blive et rigtigt domæne. Opkaldt efter faderens yngre søster af samme navn (@I44@, død 1877 som ung). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 
 0 @I37@ INDI
 1 NAME Laurids Christensen /Boe/
 1 SEX M
 1 BIRT
-2 DATE 1887
+2 DATE 1 MAR 1887
 2 PLAC Fur, Danmark
 1 DEAT
 2 DATE 1957
 2 PLAC Durup, Danmark
-1 OCCU Murermester i Durup
+1 OCCU Murer/murermester i Durup
 1 FAMC @F11@
 1 FAMS @F14@
-1 NOTE Barn "g." af generation 05. Gift 1915, Brøndum. 11 børn (1911-1930) ifølge manuskriptet, ikke selvstændigt transskriberet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Barn "g." af generation 05. Formodentlig drivkraften bag familiens ansøgning om kongelig navnebevilling 1904/05 — fik selv navnet Boe. Gift 1915, Brøndum. 11 børn (1911-1930) ifølge manuskriptet, ikke selvstændigt transskriberet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 
 0 @I38@ INDI
 1 NAME Ottine Boline Marie /Pedersen/
@@ -384,22 +384,19 @@
 1 NAME Christen Christensen /Boe/
 1 SEX M
 1 BIRT
-2 DATE 1889
+2 DATE 8 FEB 1889
 2 PLAC Fur, Danmark
 1 FAMC @F11@
-1 NOTE Barn "h." af generation 05. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Barn "h." af generation 05. Fik navnet Boe ved bevillingen 1905. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
 
 0 @I40@ INDI
 1 NAME Else Marie /Christensen/
 1 SEX F
 1 BIRT
-2 DATE 1892
+2 DATE 6 MAR 1892
 2 PLAC Fur, Danmark
 1 DEAT
-2 DATE 1894
-2 PLAC Fur, Danmark
-1 FAMC @F11@
-1 NOTE Barn "i." af generation 05. Spædbarnsdød. [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE Barn "i." af generation 05. Dødsår internt uoverensstemmende i manuskriptet: Aneoversigt-niveau opsummering angiver "1894" (spædbarnsdød), men afsnittet om navnebevillingen 1904/05 angiver "o.1900" (ville da have været o.8 år). DATE-feltet bevidst udeladt her frem for at vælge mellem de to — se grandfather-review/queue.md #5. [CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal — grandfather-review/queue.md #5]
 
 0 @I41@ INDI
 1 NAME Iver /Pedersen/
@@ -542,7 +539,7 @@
 1 HUSB @I27@
 1 WIFE @I28@
 1 MARR
-2 DATE 1872
+2 DATE 25 JUL 1872
 2 PLAC på Fur
 1 CHIL @I29@
 1 CHIL @I30@
