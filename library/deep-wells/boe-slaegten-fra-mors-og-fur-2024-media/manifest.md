@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.7 | 2026-08-06 | Production
+Version 1.8 | 2026-08-06 | Production
 
 ---
 
@@ -175,7 +175,39 @@ A hand-drawn, colored matrikelkort (cadastral survey map) showing numbered land 
 
 ### image37.png — KEJ's own master pedigree chart (significant cross-chapter find)
 
-A single hand-drawn wall-chart, "BOE-SLÆGTEN MORS/FUR," laying out four columns (Kap.1-4) plus a fifth section for "Søgaard-slægten," each subdivided by generation. This is not a page from the compiled manuscript's own narrative — it reads as KEJ's own primary working document, the summary the prose chapters were most likely written from. **Used as a direct fidelity check and tie-breaker**: it independently confirms "19.10.1810 JØRSBY" for Christen Pedersen Boe and Mette Jensdatter's wedding, the same date given in Chapter 3's prose and one year later than Chapter 1's own prose — see `grandfather-review/queue.md` item 9 and `family-tree/tree.ged`'s `@F5@`. Not fully mined for its Chapter 4/Søgaard-slægten content yet, deliberately — that will be checked again once those sections are actually read, to keep image and text absorption paced together rather than reading ahead from a summary chart. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73 — direct date match against Chapter 3's own text, used to help resolve a Chapter 1/Chapter 3 contradiction]
+A single hand-drawn wall-chart, "BOE-SLÆGTEN MORS/FUR," laying out four columns (Kap.1-4) plus a fifth section for "Søgaard-slægten," each subdivided by generation. This is not a page from the compiled manuscript's own narrative — it reads as KEJ's own primary working document, the summary the prose chapters were most likely written from. **Used as a direct fidelity check and tie-breaker**: it independently confirms "19.10.1810 JØRSBY" for Christen Pedersen Boe and Mette Jensdatter's wedding, the same date given in Chapter 3's prose and one year later than Chapter 1's own prose — see `grandfather-review/queue.md` item 9 and `family-tree/tree.ged`'s `@F5@`. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73 — direct date match against Chapter 3's own text, used to help resolve a Chapter 1/Chapter 3 contradiction]
+
+---
+
+## Images: Anetavler (Søgaard-slægten, Lundgaard-slægten/Fur-slægter, Degn-slægten Frammerslev/Fur, Boe-slægter)
+
+| File | KEJ's filename | Position | Type |
+|---|---|---|---|
+| image38.png | (Word auto-alt-text, no KEJ filename) | Søgaard-slægten (confirmed) | Hand-drawn pedigree chart |
+| image39.png | (Word auto-alt-text, no KEJ filename) | Søgaard-slægten (confirmed) | Hand-drawn pedigree chart |
+| image40.png | (Word auto-alt-text, no KEJ filename) | Lundgaard-slægten/Fur-slægter (confirmed) | Hand-drawn pedigree chart |
+| image45.png | (Word auto-alt-text, no KEJ filename) | Degn-slægten Frammerslev/Fur (confirmed) | Hand-drawn pedigree chart |
+| image48.jpeg | (Word auto-alt-text, no KEJ filename) | Boe-slægter / Fyn-slægten Boe (confirmed) | Photo, commemorative stone |
+
+A significant discovery, documented in full in `projects/archive-digitization/context/boe-slaegten-anetavler-kilder-extraction.md`: the Søgaard-slægten, Lundgaard-slægten/Fur-slægter, and Degn-slægten Frammerslev/Fur appendices exist **only** as these hand-drawn pedigree charts — the plain-text extraction has no prose content for them at all. `image38`/`image39` gave Bodil Kirstine Iversdatter's (`@I26@`) previously-placeholder ancestry; `image40` and `image45` together gave Mette Jensen's (`@I28@`) previously cross-referenced-but-unread ancestry, closing a loop that had been open since Chapter 1.
+
+### image38.png / image39.png — Søgaard-slægten i Åsted
+
+Two pages of the same hand-drawn ahnentafel-style chart, directly confirmed by name/date match against `@I26@`'s existing record and mined for four generations of her direct ancestry. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — direct name/date match]
+
+### image40.png — Lundgaard-slægten Fur (direct-line page)
+
+A multi-column hand-drawn chart; only the direct line to Margrethe Jensdatter (`@I350@`) and Jens Christian Thorsen (`@I351@`) was mined — the chart's other columns (labeled KAP1A-KAP4B) extend several more 17th-century generations back and are not individually filed here, per the scope decision documented in the extraction notes. Three further pages of the same chart (`image41`-`image44`, viewed but not stored) confirmed this is a large, well-organized ahnentafel going back to a "Gravers Thomasen," documented from 1590.
+
+### image45.png — Degn-slægten Frammerslev/Fur (direct-line page)
+
+The cleanest of the deep pedigree charts — directly closes the loop from Jens Christian Thorsen back through four more generations to "Anders Sørensen (Degn)," and forward again to Mette Jensen and Christen Pedersen Boe, already in the tree. Two further pages (`image46`, `image47`, viewed but not stored) extend two side-branches back to the 1620s-1630s, same scope decision.
+
+### image48.jpeg — Helnæs commemorative stone (Fyn-slægten Boe)
+
+A photograph of a granite stone reading "FRA DENNE GAARD UDGIK DEN VESTFYENSKE BOE-SLÆGT" ("From this farm emerged the West Funen Boe family"), tied to the manuscript's own "Fyn-slægten Boe" comparative section — an explicitly *unconnected* Boe family (per KEJ's own conclusion) that this project does not model in `tree.ged`. Stored as illustrative context for that discussion. [VERIFIED: boe-slaegten-fra-mors-og-fur, Boe-slægter p.89 — direct content match to the section's own subject]
+
+**Not stored, confirmed relevant but out of scope:** `image41.png`-`image44.png` and `image46.png`-`image47.png` — further pages of the Lundgaard-slægten and Degn-slægten charts, extending several more generations of 17th-century ancestors not modeled in `tree.ged` (see scope decision above). All 48 real embedded images in the manuscript have now been checked at least once.
 
 ---
 
@@ -211,3 +243,4 @@ The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` f
 | 1.5 | 2026-08-06 | Branch g checkpoint 5 (child VIII, Karen Kristensen Boe / the Boll family — the final checkpoint of branch g and Efterslægt): one confirmed match via direct caption text (image31, a six-children group portrait c.1962). Three more images checked and left unfiled (image32, image33, image34). |
 | 1.6 | 2026-08-06 | Chapter 2 (Boe-slægten, Jørsby) read — no images specific to it found; two checked (image35, image36) turned out to belong to Chapter 3 (Vester Vandet) instead, based on content (both depict that location by name), and are deferred there. |
 | 1.7 | 2026-08-06 | Chapter 3 (Boe-slægten, Vester Vandet) read — image35 and image36 confirmed and filed here (Klitmøller/Vester Vandet map, Vestermølle cadastral map). Found image37, KEJ's own handwritten master pedigree chart spanning all four chapters — used to help resolve a wedding-date contradiction found in Chapter 3's own text (see `grandfather-review/queue.md` item 9). |
+| 1.8 | 2026-08-06 | Anetavler read in full. Discovered the Søgaard-slægten, Lundgaard-slægten/Fur-slægter, and Degn-slægten Frammerslev/Fur appendices exist only as hand-drawn pedigree charts, not prose text. Filed image38/39 (Søgaard-slægten), image40 (Lundgaard-slægten direct line), image45 (Degn-slægten direct line), and image48 (Helnæs stone, Fyn-slægten Boe). All 48 real embedded images have now been checked at least once. |

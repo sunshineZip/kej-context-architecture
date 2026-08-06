@@ -16,6 +16,7 @@
 1 OCCU Husmand (Jørsby, fra 1775), senere fæstegårdmand (Sdr. Dråby, fra ca. 1785, under Ullerup gods)
 1 FAMS @F1@
 1 NOTE Generation "02" i Aneoversigten. Først fundne bærer af tilnavnet Boe, Jørsby kirkebog 1771. Boe-navnets oprindelse er eksplicit ukendt ifølge KEJ selv. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
+1 NOTE Anetavlernes "Boe-slægter"-afsnit (p.86-91) styrker snarere end løser denne usikkerhed: KEJ har selv aktivt undersøgt og konkluderet IMOD en forbindelse til den bedst dokumenterede anden Boe-slægt (den fynske, "Boernes Slægtsbog" 1960) — "Det må derimod anses for usandsynligt" — og finder kun en spekulativ, ubekræftet mulig forbindelse til Boe-slægten i Himmerland/Thy via et fælles gods (Sivert Brockenhuus). Ingen forbindelse fundet til Boe-familier på Ålborgegnen, i Sønderjylland eller ved Nyord/Møn. Navnets egen foreslåede oprindelse: "manden i Boen" eller "bonde." [VERIFIED: boe-slaegten-fra-mors-og-fur, Boe-slægter p.86-91]
 
 0 @I2@ INDI
 1 NAME Sidsel (Zidsel) Lauridsdatter /Toft/
@@ -252,7 +253,7 @@
 2 PLAC Fur, "Bakkerne", Danmark
 1 FAMC @F16@
 1 FAMS @F10@
-1 NOTE Aftægtskone hos søn Christen Pedersen Boe (gen. "05") efter mandens død, folketællinger 1880-1906. Datter af Iver Hendriksen og Else Jensdatter — se SØGÅRD-SLÆGTEN (anetavle, endnu ikke læst); ingen individuelle poster oprettet for forældrene endnu. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
+1 NOTE Aftægtskone hos søn Christen Pedersen Boe (gen. "05") efter mandens død, folketællinger 1880-1906. Datter af Iver Henriksen og Else Jensdatter — se SØGAARD-SLÆGTEN (anetavle), nu læst og fuldt modelleret, se @F16@. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.18-20]
 
 0 @I27@ INDI
 1 NAME Christen Pedersen /Boe/
@@ -278,9 +279,10 @@
 1 DEAT
 2 DATE 24 DEC 1932
 2 PLAC Nederby, Fur, Danmark
+1 FAMC @F114@
 1 FAMS @F11@
-1 NOTE Datter af Jens Christian Thorsen og Margrethe Jensdatter (moderen af gammel Furbo-slægt) — se KAPITEL 9, endnu ikke læst. Uddannet syerske. Et sted i folketællingen 1930 fejlagtigt kaldet "Mette Pedersen Boe" i stedet for sit eget navn (formodet sammenblanding med mandens patronym) — for trivielt til at spore som mønster. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
-1 NOTE Foto/dokument: muligvis afbilledet i et ugift par-portræt (library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image3.jpeg), ikke bekræftet. Faderen Jens Christian Thorsen muligvis afbilledet i image4.jpeg ("Boe kap 9 02"), identitet ubekræftet indtil Kapitel 9 er læst.
+1 NOTE Datter af Jens Christian Thorsen og Margrethe Jensdatter (moderen af gammel Furbo-slægt) — tidligere en cross-reference til "KAPITEL 9" (et andet dokument), nu identificeret i stedet via Anetavler-appendikset "LUNDGAARD-SLÆGTEN FUR" (image40.png), se @F114@. Uddannet syerske. Et sted i folketællingen 1930 fejlagtigt kaldet "Mette Pedersen Boe" i stedet for sit eget navn (formodet sammenblanding med mandens patronym) — for trivielt til at spore som mønster. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
+1 NOTE Foto/dokument: muligvis afbilledet i et ugift par-portræt (library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image3.jpeg), ikke bekræftet. Faderen Jens Christian Thorsen muligvis afbilledet i image4.jpeg ("Boe kap 9 02"), identitet fortsat ubekræftet — "Kapitel 9" er ikke en del af dette manuskript og forbliver ulæst.
 
 0 @I29@ INDI
 1 NAME Jens Christian /Christensen/
@@ -2679,7 +2681,10 @@
 1 NOTE Kun ét af 3 børn navngivet i kilden (Mogens, @I60@).
 
 0 @F16@ FAM
-1 NOTE Iver Hendriksen og Else Jensdatter, forældre til Bodil Kirstine Iversdatter (@I26@) — omtalt i manuskriptets SØGÅRD-SLÆGTEN anetavle-appendiks, ikke selvstændigt læst/transskriberet endnu. Ingen @I@-poster oprettet for dem her, samme praksis som @F15@. Se også family-tree/possible-duplicates.md §2C for en navnerækkefølge-uoverensstemmelse fundet ved en fadder kaldet "Hendrik Iversen (morfar)" ved et barnedåb i generation 04's sektion.
+1 HUSB @I343@
+1 WIFE @I344@
+1 CHIL @I26@
+1 NOTE Iver Henriksen (@I343@) og Else Jensdatter (@I344@), forældre til Bodil Kirstine Iversdatter (@I26@) — nu fuldt modelleret fra Søgaard-slægtens anetavle-appendiks (et håndskrevet stamtræsdiagram, image38.png, ikke løbende prosa; tidligere en ren pladsholder). Se også family-tree/possible-duplicates.md §2C for en navnerækkefølge-uoverensstemmelse fundet ved en fadder kaldet "Hendrik Iversen (morfar)" ved et barnedåb i generation 04's sektion — stadig ikke løst, se @I339@'s egen note.
 
 0 @F15@ FAM
 1 HUSB @I323@
@@ -3953,5 +3958,403 @@
 1 WIFE @I10@
 1 CHIL @I333@
 1 NOTE Ikke et ægteskab.
+
+0 @I335@ INDI
+1 NAME Henrich Andersen /Søgaard/
+1 SEX M
+1 BIRT
+2 DATE ABT 1659
+1 DEAT
+2 DATE 1738
+1 OCCU Fæstegårdmand i Søgaard, Åsted sogn
+1 FAMC @F112@
+1 FAMS @F107@
+1 NOTE Generation "03" i Søgaard-slægtens anetavle (Anetavler-appendiks, ikke en del af Kapitel 1-4's egen løbende tekst — kilden er et håndskrevet stamtræsdiagram, "SØGAARD-SLÆGTEN I ÅSTED," ikke transskriberet prosa). Bodil Kirstine Iversdatters (@I26@) tipoldefar. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
+
+0 @I336@ INDI
+1 NAME Maren /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1689
+1 DEAT
+2 DATE 1775
+1 FAMS @F107@
+1 NOTE Henrichs hustru. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
+
+0 @I337@ INDI
+1 NAME Iver /Henrichsen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1725
+2 PLAC Søgaard, Åsted sogn, Danmark
+1 DEAT
+2 DATE 1788
+2 PLAC Åsted, Danmark
+1 OCCU Gårdfæster, Åsted
+1 FAMC @F107@
+1 FAMS @F108@
+1 NOTE Generation "04." Diagrammet viser flere andre børn af Henrich og Maren i sideliggende kolonner (navngivet kun "Peder", "Peder", "Niels", ingen datoer eller yderligere detaljer) — ingen selvstændige @I@-poster oprettet for dem, utilstrækkelig information. Bodil Kirstine Iversdatters (@I26@) oldefar. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
+
+0 @I338@ INDI
+1 NAME Dorthe /Christensdatter/
+1 SEX F
+1 DEAT
+2 DATE 1774
+1 FAMS @F108@
+1 NOTE Ivers hustru, gift 1761, Åsted. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
+
+0 @I339@ INDI
+1 NAME Henrich /Iversen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1771
+1 DEAT
+2 DATE 1799
+2 PLAC Åsted, Danmark
+1 OCCU Husmand, Nissum, Åsted sogn
+1 FAMC @F108@
+1 FAMS @F109@
+1 NOTE Generation "05." Bodil Kirstine Iversdatters (@I26@) farfar — død 1799, 25 år før hendes fødsel 1824, kan derfor ikke være den samme "Hendrik Iversen (morfar)" nævnt som fadder ved et barnedåb i Kapitel 1's generation "04"-afsnit (se family-tree/possible-duplicates.md sub-mønster C1); den uoverensstemmelse er stadig ikke løst af dette fund. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
+
+0 @I340@ INDI
+1 NAME Boel /Pedersdatter/
+1 SEX F
+1 FAMS @F109@
+1 NOTE Henrichs hustru, gift o.1795. Ingen datoer angivet i diagrammet. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
+
+0 @I341@ INDI
+1 NAME Jens /Pedersen/
+1 SEX M
+1 BIRT
+2 DATE 1766
+2 PLAC Åsted, Danmark
+1 DEAT
+2 DATE BET 1834 AND 1840
+1 OCCU Selvejerhusmand (fra 1780), Hinnerup, Thorum sogn
+1 FAMS @F110@
+1 NOTE Else Jensdatters (@I344@) far — ikke at forveksle med den anden, urelaterede "Jens Pedersen" (@I332@) i Kapitel 3's Møller-slægt, eller med Else Jensdatter (@I327@) i samme kapitel, som er en helt anden person på trods af det identiske navn. Bodil Kirstine Iversdatters (@I26@) morfar. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
+
+0 @I342@ INDI
+1 NAME Anne /Nielsdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1755
+1 DEAT
+2 DATE BEF 1834
+1 FAMS @F110@
+1 NOTE Jens' hustru, gift o.1788. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
+
+0 @I343@ INDI
+1 NAME Iver /Henriksen/
+1 SEX M
+1 BIRT
+2 DATE 1796
+2 PLAC Åsted, Danmark
+1 DEAT
+2 DATE 1849
+2 PLAC Thorum, Danmark
+1 OCCU Daglejer, husmand, Thorum/Fur m.v.
+1 FAMC @F109@
+1 FAMS @F16@
+1 NOTE Bodil Kirstine Iversdatters (@I26@) far — tidligere kun kendt som "Iver Hendriksen" fra Kapitel 1's egen omtale (se @F16@, nu opdateret fra pladsholder). [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
+
+0 @I344@ INDI
+1 NAME Else /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 1795
+2 PLAC Thorum, Danmark
+1 DEAT
+2 DATE 1850
+2 PLAC Thorum, Danmark
+1 FAMC @F110@
+1 FAMS @F16@
+1 NOTE Bodil Kirstine Iversdatters (@I26@) mor — bemærk: samme navn (Else Jensdatter) som en helt urelateret person i Kapitel 3's Møller-slægt (@I327@, Mette Jensdatter Boes mor); ingen forbindelse mellem de to, ren navnesammenfald. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image38.png]
+
+0 @F107@ FAM
+1 HUSB @I335@
+1 WIFE @I336@
+1 CHIL @I337@
+
+0 @F108@ FAM
+1 HUSB @I337@
+1 WIFE @I338@
+1 MARR
+2 DATE 1761
+2 PLAC Åsted, Danmark
+1 CHIL @I339@
+
+0 @F109@ FAM
+1 HUSB @I339@
+1 WIFE @I340@
+1 MARR
+2 DATE ABT 1795
+1 CHIL @I343@
+
+0 @F110@ FAM
+1 HUSB @I341@
+1 WIFE @I342@
+1 MARR
+2 DATE ABT 1788
+1 CHIL @I344@
+
+0 @I345@ INDI
+1 NAME Peder /?/
+1 SEX M
+1 FAMS @F111@
+1 NOTE Generation "01" i Søgaard-slægtens anetavle, en anden håndskrevet chartside (image39.png) end den, der først gav generation "03"-"06" (image38.png). Kun fornavn angivet i diagrammet, ingen datoer, ingen efternavn. Bodil Kirstine Iversdatters (@I26@) tipoldefars far. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image39.png]
+
+0 @I346@ INDI
+1 NAME Anders /Pedersen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1629
+1 DEAT
+2 DATE 1699
+1 OCCU Fæstegårdmand i Søgaard
+1 FAMC @F111@
+1 FAMS @F112@
+1 NOTE Generation "02." Diagrammet viser efternavnet usikkert som "Pedersen/Persen" (to stavevarianter angivet side om side af KEJ selv). [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image39.png]
+
+0 @I347@ INDI
+1 NAME Anne (eller Kirsten) /?/
+1 SEX F
+1 FAMS @F112@
+1 NOTE Anders' hustru — selve fornavnet er usikkert i diagrammet, angivet som "Anne eller Kirsten." Efternavn ikke angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.76-77 — image39.png]
+
+0 @F111@ FAM
+1 HUSB @I345@
+1 CHIL @I346@
+
+0 @F112@ FAM
+1 HUSB @I346@
+1 WIFE @I347@
+1 CHIL @I335@
+
+0 @I348@ INDI
+1 NAME Jens /Thøgersen/
+1 SEX M
+1 BIRT
+2 DATE 6 DEC 1778
+2 PLAC Fur, Danmark
+1 DEAT
+2 DATE 14 JUL 1853
+2 PLAC Fur, Danmark
+1 OCCU Landmand, Madsbad, Fur
+1 FAMS @F113@
+1 NOTE Fra "LUNDGAARD-SLÆGTEN FUR," et håndskrevet stamtræsdiagram i Anetavler-appendikset (image40.png) — samme type kilde som Søgaard-slægten (@I335@ ff.), ikke løbende prosa. Mette Jensens (@I28@, generation 05's hustru) morfar. Diagrammet viser tre yderligere forfædregenerationer (kolonner "KAP1A/1B," "KAP2A/2B," "KAP3A/3B") bagud fra ham — ikke modelleret som selvstændige @I@-poster her, da diagrammets kolonnesammenkobling er for tvetydig til at transskribere med rimelig sikkerhed uden ledsagende tekst; bevaret i billedet til evt. senere, mere omhyggelig udredning. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.78-82 — image40.png]
+
+0 @I349@ INDI
+1 NAME Mette /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 22 SEP 1776
+2 PLAC Fur, Danmark
+1 DEAT
+2 DATE 1 SEP 1856
+2 PLAC Fur, Danmark
+1 FAMS @F113@
+1 NOTE Jens Thøgersens hustru, gift 15.11.1807, Fur. Mette Jensens (@I28@) mormor. Endnu en anden, urelateret person med navnet "Mette Jensdatter" ud over @I10@ (Christen Pedersen Boe generation 03's hustru) og @I329@ (Kapitel 3's Møller-familie) — tre forskellige personer med samme navn i denne slægtsbog, ingen forbindelse mellem dem. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.78-82 — image40.png]
+
+0 @I350@ INDI
+1 NAME Margrethe /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 9 DEC 1812
+2 PLAC Madsbad, Fur, Danmark
+1 DEAT
+2 DATE 24 FEB 1902
+2 PLAC Debel, Fur, Danmark
+1 FAMC @F113@
+1 FAMS @F114@
+1 NOTE Datter af Jens Thøgersen og Mette Jensdatter. Mette Jensens (@I28@) mor — tidligere kun omtalt i Kapitel 1's generation "05"-afsnit som en cross-reference til "KAPITEL 9" (et andet dokument/en anden af KEJ's slægtsbøger, ikke en del af dette manuskripts egne fire kapitler), nu identificeret via denne Anetavler-appendiks i stedet. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.78-82 — image40.png]
+
+0 @I351@ INDI
+1 NAME Jens Christian /Thorsen/
+1 SEX M
+1 BIRT
+2 DATE 28 FEB 1823
+2 PLAC Debel, Fur, Danmark
+1 DEAT
+2 DATE 1905
+2 PLAC Debel, Fur, Danmark
+1 OCCU Gårdejer og tømrer, Fur
+1 FAMC @F115@
+1 FAMS @F114@
+1 NOTE Margrethes ægtefælle, gift 20.10.1844, Fur. Mette Jensens (@I28@) far. Diagrammet henviste videre til "DEGN-SLÆGTEN, FRAMMERSLEV" for hans egen slægt — nu fundet og læst (image45.png), se @F115@ for hans forældre og videre bagud. Fødselsdato præciseret fra "1823" til 28.2.1823. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.78-85 — image40.png, image45.png]
+
+0 @F113@ FAM
+1 HUSB @I348@
+1 WIFE @I349@
+1 MARR
+2 DATE 15 NOV 1807
+2 PLAC Fur, Danmark
+1 CHIL @I350@
+
+0 @F114@ FAM
+1 HUSB @I351@
+1 WIFE @I350@
+1 MARR
+2 DATE 20 OCT 1844
+2 PLAC Fur, Danmark
+1 CHIL @I28@
+
+0 @I352@ INDI
+1 NAME Thor /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 1800
+2 PLAC Frammerslev, Oddense sogn, Danmark
+1 DEAT
+2 DATE 17 JAN 1825
+2 PLAC Fur, Danmark
+1 OCCU Gårdejer, Debel, Fur
+1 FAMC @F116@
+1 FAMS @F115@
+1 NOTE Fra "DEGN-SLÆGTEN FRAMMERSLEV/FUR," et håndskrevet stamtræsdiagram i Anetavler-appendikset (image45.png) — dette diagram lukker cirklen og bekræfter forbindelsen helt frem til Mette Jensen (@I28@) og Christen Pedersen Boe, allerede i træet. Jens Christian Thorsens (@I351@) far. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
+
+0 @I353@ INDI
+1 NAME Anne /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE 13 MAR 1796
+2 PLAC Fur, Danmark
+1 DEAT
+2 DATE AFT 1845
+1 FAMC @F118@
+1 FAMS @F115@
+1 NOTE Thors hustru, gift 13.1.1822, Fur. Jens Christian Thorsens (@I351@) mor. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
+
+0 @I354@ INDI
+1 NAME Jens Andersen /Degn/
+1 SEX M
+1 BIRT
+2 DATE 1738
+1 DEAT
+2 DATE 1809
+2 PLAC Frammerslev, Danmark
+1 FAMC @F117@
+1 FAMS @F116@
+1 NOTE Thor Jensens far. Efternavnet "Degn" (kirkebetjent/klokker) er tilsyneladende et slægtstilnavn her, ikke nødvendigvis hans egen livsstilling. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
+
+0 @I355@ INDI
+1 NAME Dorthe /Thorsdatter/
+1 SEX F
+1 BIRT
+2 DATE 1748
+1 DEAT
+2 DATE 1816
+2 PLAC Frammerslev, Danmark
+1 FAMS @F116@
+1 NOTE Jens' hustru. Faderen angivet i diagrammet kun ved fornavnet "Thor," ingen yderligere detaljer, ingen selvstændig @I@-post oprettet. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
+
+0 @I356@ INDI
+1 NAME Anders Sørensen /Degn/
+1 SEX M
+1 BIRT
+2 DATE ABT 1716
+1 DEAT
+2 DATE 1781
+2 PLAC Nestild, Danmark
+1 OCCU Degn (kirkebetjent/klokker)
+1 FAMS @F117@
+1 NOTE Jens Andersen Degns far — her er "Degn" tilsyneladende hans egen faktiske livsstilling, hvorfra slægtstilnavnet stammer. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
+
+0 @I357@ INDI
+1 NAME Karen /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1709
+1 DEAT
+2 DATE 1748
+2 PLAC Frammerslev, Danmark
+1 FAMS @F117@
+1 NOTE Anders' hustru, gift 1736, Oddense. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
+
+0 @I358@ INDI
+1 NAME Christen Nielsen /Skytte/
+1 SEX M
+1 BIRT
+2 DATE 1759
+2 PLAC Fur, Danmark
+1 DEAT
+2 DATE 1839
+2 PLAC Fur, Danmark
+1 OCCU Fæstegårdmand i Debel, Fur
+1 FAMS @F118@
+1 NOTE Anne Christensdatters far. "Skytte" (jæger/skovfoged) tilsyneladende et tilnavn, ikke et efternavn i moderne forstand. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
+
+0 @I359@ INDI
+1 NAME Kirsten /Sørensdatter/
+1 SEX F
+1 BIRT
+2 DATE 1756
+2 PLAC Fur, Danmark
+1 DEAT
+2 DATE 1843
+2 PLAC Fur, Danmark
+1 FAMC @F119@
+1 FAMS @F118@
+1 NOTE Christens hustru, gift 9.4.1780, Fur. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
+
+0 @I360@ INDI
+1 NAME Søren /Olesen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1718
+1 DEAT
+2 DATE 1756
+2 PLAC Limfjorden, Danmark
+1 OCCU Jordløs husmand og fisker
+1 FAMS @F119@
+1 NOTE Kirsten Sørensdatters far. Døde på Limfjorden — samme type dødsfald (druknet/omkommet på fjorden) som Peder Christensen Boe (@I14@, generation "04") mange år senere; ingen anden forbindelse mellem de to hændelser antydet. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
+
+0 @I361@ INDI
+1 NAME Anne /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1723
+2 PLAC Kobberup, Danmark
+1 DEAT
+2 DATE 1796
+1 FAMS @F119@
+1 NOTE Sørens hustru. [VERIFIED: boe-slaegten-fra-mors-og-fur, Anetavler p.83-85 — image45.png]
+
+0 @F115@ FAM
+1 HUSB @I352@
+1 WIFE @I353@
+1 MARR
+2 DATE 13 JAN 1822
+2 PLAC Fur, Danmark
+1 CHIL @I351@
+
+0 @F116@ FAM
+1 HUSB @I354@
+1 WIFE @I355@
+1 MARR
+2 DATE ABT 1786
+2 PLAC Oddense, Danmark
+1 CHIL @I352@
+
+0 @F117@ FAM
+1 HUSB @I356@
+1 WIFE @I357@
+1 MARR
+2 DATE 1736
+2 PLAC Oddense, Danmark
+1 CHIL @I354@
+
+0 @F118@ FAM
+1 HUSB @I358@
+1 WIFE @I359@
+1 MARR
+2 DATE 9 APR 1780
+2 PLAC Fur, Danmark
+1 CHIL @I353@
+
+0 @F119@ FAM
+1 HUSB @I360@
+1 WIFE @I361@
+1 CHIL @I359@
 
 0 TRLR

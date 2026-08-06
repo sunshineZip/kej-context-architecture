@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Deep Well Manifest
 
-Version 1.12 | 2026-08-06 | Production
+Version 1.13 | 2026-08-06 | Production
 
 ---
 
@@ -40,6 +40,7 @@ Detailed extraction log for the "Boe-slægten fra Mors og Fur" deep well (`libra
 | 2026-08-06 | **Kapitel 2 (Boe-slægten, Jørsby), fully read** (p.55-65) — Niels Toft's family and Laurids Nielsen Toft's family, filling in Sidsel Lauridsdatter Toft's (`@I2@`) own ancestry and three previously-undocumented siblings' descendant lines. 61 new individuals, 15 new families. New extraction notes file (chapter-specific, not appended to the Chapter 1 file) | → `projects/archive-digitization/context/boe-slaegten-chapter2-extraction.md` |
 | 2026-08-06 | **Kapitel 3 (Boe-slægten, Vester Vandet), fully read** (p.66-73) — the Møller (miller) family, filling in Mette Jensdatter's (`@I10@`) own ancestry (previously a placeholder family, `@F15@`). 33 new individuals, 6 new families. Found a previously undocumented fact (a son born out of wedlock before Mette's marriage) and, via a checked image, KEJ's own master pedigree chart — used to help resolve a wedding-date contradiction (`grandfather-review/queue.md` item 9) | → `projects/archive-digitization/context/boe-slaegten-chapter3-extraction.md` |
 | 2026-08-06 | **Kapitel 4 (Boe-slægten Thy), fully read** (p.74) — confirmed to be a one-page cross-reference back to Kapitel 3, no new individuals. All four numbered chapters now complete | → `projects/archive-digitization/context/boe-slaegten-chapter4-extraction.md` |
+| 2026-08-06 | **Anetavler and Kilder, fully read** (p.75-96) — the FULL MANUSCRIPT IS NOW READ. Søgaard-slægten, Lundgaard-slægten/Fur-slægter, and Degn-slægten Frammerslev/Fur (chart-only appendices, discovered to have no prose content) filled in Bodil Kirstine Iversdatter's and Mette Jensen's own ancestries, closing two long-open placeholder families. Boe-slægter (comparative research on unconnected "Boe" families) read as reference prose, not modeled in `tree.ged`. Kilder is a bibliography, no new individuals. 27 new individuals, 13 new families | → `projects/archive-digitization/context/boe-slaegten-anetavler-kilder-extraction.md` |
 
 No content has been promoted into any `knowledge/domains/` file yet — Phase 3 (domain buildout) has not started, so nothing here is cited with `[VERIFIED: boe-slaegten-fra-mors-og-fur]` from a domain document yet. That citation slug is reserved for when it does. From this point on, text and image extraction proceed together per section rather than as separate passes — see `projects/archive-digitization/TODO.md`.
 
@@ -62,3 +63,4 @@ No content has been promoted into any `knowledge/domains/` file yet — Phase 3 
 | 1.10 | 2026-08-06 | Logged Kapitel 2, fully read (61 new individuals, 15 new families — 301 individuals, 100 families total in `family-tree/tree.ged`). Extraction notes now split across chapter-specific files; Kapitel 2's own file is `projects/archive-digitization/context/boe-slaegten-chapter2-extraction.md`. |
 | 1.11 | 2026-08-06 | Logged Kapitel 3, fully read (33 new individuals, 6 new families — 334 individuals, 106 families total). Found KEJ's own handwritten master pedigree chart while checking images; used it to help resolve a wedding-date contradiction. |
 | 1.12 | 2026-08-06 | Logged Kapitel 4, fully read — a one-page cross-reference to Kapitel 3, no new individuals. All four numbered chapters of the manuscript are now complete; only the Anetavler and Kilder remain. |
+| 1.13 | 2026-08-06 | Logged the Anetavler and Kilder, fully read. **The entire manuscript is now read.** 27 new individuals, 13 new families — 361 individuals, 117 families total in `family-tree/tree.ged`. |
