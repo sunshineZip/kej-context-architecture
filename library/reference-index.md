@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.4 | 2026-08-06 | Production
+Version 1.5 | 2026-08-06 | Production
 
 ---
 
@@ -37,7 +37,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
 - **Format:** .docx (original, now stored — see Stored, below), plus a plain-text extraction kept alongside for convenience.
 - **Stored:** yes — the original `.docx` binary, pushed directly into `incoming/` by the human via GitHub Desktop (2026-08-06) and triaged into this folder, bypassing the Google Drive connector's 10 MB cap that blocked the initial fetch attempt entirely.
 - **Location:** library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx (original — see `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-manifest.md` for the full history and text extraction log; a plain-text extraction also sits alongside it as `boe-slaegten-fra-mors-og-fur-2024-fulltext.txt` — not itself a registered `Location`, since `scripts/validate.ps1` only checks the first `Location` line per entry; this is a known, harmless pre-existing warning, not new to this edit)
-- **Media:** library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/ (images extracted from the source — own manifest, 48 embedded images found, 8 processed so far)
+- **Media:** library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/ (images extracted from the source — own manifest, 48 embedded images found, 9 processed so far)
 - **Referenced by domains:** None yet — Phase 3 (domain buildout) has not started. Currently mined by `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`.
 - **Cornerstone status:** Yes — multi-chapter (4 chapters plus anetavler appendices, ~148,000 characters), mined incrementally section by section, and Chapter 3's own cross-references (Vester Vandet/Møller line) already suggest relevance beyond a single future Boe domain.
 - **Extraction log:**
@@ -57,3 +57,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.2 | 2026-08-06 | Original `.docx` now stored — human pushed it into the new `incoming/` folder via GitHub Desktop, sidestepping the connector cap. `Location` updated to point to the original file; the earlier text-only extraction remains as a convenience copy. |
 | 1.3 | 2026-08-06 | Extraction log backfilled with generations "04"/"05" (bookkeeping gap — both had been read, just not logged here). Added the new `-media/` subfolder: image extraction now proceeds alongside text extraction rather than being ignored, per human direction. |
 | 1.4 | 2026-08-06 | Efterslægt read-through started (branches a/c/d/f/h/i, b); media count updated to 8 processed. Detail lives in the deep-well manifest, not duplicated here. |
+| 1.5 | 2026-08-06 | Efterslægt branch e read; media count updated to 9 processed. Only branch g remains. |

@@ -3,7 +3,7 @@
 1 CHAR UTF-8
 1 GEDC
 2 VERS 5.5.1
-1 NOTE Seeded 2026-08-06 from Boe-slaegten fra Mors og Fur, Kapitel 1, built incrementally as each generation/branch is read. Generations "02"-"05" fully read. Efterslaegt (descendants of generation 05, branches a-i) in progress: branches a/c/d/f/h/i (six short closed lines) and b (Marie Christensen Boe's line) done 2026-08-06; branches e and g (the largest, ~1100 lines/73+ individuals) not yet read. Source: library/reference-index.md#boe-slaegten-fra-mors-og-fur. Structure and conventions per projects/archive-digitization/context/data-structure-proposal.md.
+1 NOTE Seeded 2026-08-06 from Boe-slaegten fra Mors og Fur, Kapitel 1, built incrementally as each generation/branch is read. Generations "02"-"05" fully read. Efterslaegt (descendants of generation 05, branches a-i) in progress: branches a/c/d/f/h/i (six short closed lines), b (Marie Christensen Boe) and e (Jens Christensen Boe, incl. K.K.K. Boe's line) done 2026-08-06; branch g (the largest, ~1100 lines/73+ individuals) not yet read. Source: library/reference-index.md#boe-slaegten-fra-mors-og-fur. Structure and conventions per projects/archive-digitization/context/data-structure-proposal.md.
 
 0 @I1@ INDI
 1 NAME Peder Christensen /Boe/
@@ -341,12 +341,12 @@
 2 DATE 1 NOV 1882
 2 PLAC Fur, Danmark
 1 DEAT
-2 DATE 1964
-2 PLAC Fur, Danmark
-1 OCCU Gårdmand på Fur
+2 DATE 25 SEP 1964
+2 PLAC Kønsberg, Fur, Danmark
+1 OCCU Gårdejer, Kønsberg på Fur
 1 FAMC @F11@
 1 FAMS @F13@
-1 NOTE Barn "e." af generation 05. Fik navnet Boe ved bevillingen 1905. Gift 1916, Fur. 4 børn 1917-1923 ifølge manuskriptet, ikke selvstændigt transskriberet her. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24]
+1 NOTE Barn "e." af generation 05. Fik navnet Boe ved bevillingen 1905. Gift 21.3.1916, Fur. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 og p.25-54]
 1 NOTE Foto/dokument: navn og fødselsdato bekræftet mod navnebevis-scanningen, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image6.jpeg.
 
 0 @I35@ INDI
@@ -359,7 +359,7 @@
 2 DATE 1968
 2 PLAC Fur, Danmark
 1 FAMS @F13@
-1 NOTE [VERIFIED: boe-slaegten-fra-mors-og-fur, Aneoversigt p.3]
+1 NOTE [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 
 0 @I36@ INDI
 1 NAME Mette Christensen /Boe/
@@ -596,6 +596,375 @@
 1 FAMC @F12@
 1 NOTE Barn "IV." af Niels Jensen og Marie Christensen Boe. Ugift, bopæl Vilholm ved Durup sammen med søsteren Johanne Marie (barn "II.", @I57@). Faddere inkluderede halvbroderen Marinus Boe (@I46@, "= I."). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 
+0 @I62@ INDI
+1 NAME Christen Knudsen Christensen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 3 FEB 1917
+2 PLAC Kønsberg, Fur, Danmark
+1 DEAT
+2 DATE 11 DEC 1981
+2 PLAC Lemvig, Danmark
+1 OCCU Lærer, Byrum sogn (Læsø) 1941-1946, senere Lemvig
+1 FAMC @F13@
+1 FAMS @F27@
+1 NOTE Barn "I." af Jens Christensen Boe og Marie Kirstine Christensen. Kendt i manuskriptet som "K.K.K. Boe" — kilde til familietraditionen citeret i generation 04 og 05's sektioner (postbud-historien, frieri-historien). Tidligere fejlmærket "=05-f-I." ét sted i generation 04's sektion; korrekt mærkning er "=05-e-I.", nu bekræftet ved selvstændig læsning af hans egen indførsel. Gift 1941, Nees kirke, Ringkøbing amt. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I63@ INDI
+1 NAME Marie Elisabeth /Madsen/
+1 SEX F
+1 BIRT
+2 DATE 28 SEP 1914
+2 PLAC Husby, Ringkøbing amt, Danmark
+1 FAMS @F27@
+1 NOTE Datter af gårdejer Mads Peder Madsen og hustru Maren Jensen. Husbestyrerinde ved giftermålet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I64@ INDI
+1 NAME Living /Boe/
+1 SEX M
+1 BIRT
+2 DATE 1941
+1 FAMC @F27@
+1 FAMS @F28@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I64 (kraever adgang til den private modul-repo).
+0 @I65@ INDI
+1 NAME Living /?/
+1 SEX F
+1 FAMS @F28@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I65 (kraever adgang til den private modul-repo).
+0 @I66@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1945
+1 FAMC @F27@
+1 FAMS @F29@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I66 (kraever adgang til den private modul-repo).
+0 @I67@ INDI
+1 NAME Living /Madsen/
+1 SEX M
+1 FAMS @F29@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I67 (kraever adgang til den private modul-repo).
+0 @I68@ INDI
+1 NAME Living /Madsen/
+1 SEX M
+1 FAMC @F29@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I68 (kraever adgang til den private modul-repo).
+0 @I69@ INDI
+1 NAME Living /Madsen/
+1 SEX F
+1 FAMC @F29@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I69 (kraever adgang til den private modul-repo).
+0 @I70@ INDI
+1 NAME Living /Madsen/
+1 SEX F
+1 FAMC @F29@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I70 (kraever adgang til den private modul-repo).
+0 @I71@ INDI
+1 NAME Living /Madsen/
+1 SEX M
+1 FAMC @F29@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I71 (kraever adgang til den private modul-repo).
+0 @I72@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1945
+1 FAMC @F27@
+1 FAMS @F30@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I72 (kraever adgang til den private modul-repo).
+0 @I73@ INDI
+1 NAME Living /Hornsgård/
+1 SEX M
+1 FAMS @F30@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I73 (kraever adgang til den private modul-repo).
+0 @I74@ INDI
+1 NAME Living /Hornsgård/
+1 SEX M
+1 FAMC @F30@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I74 (kraever adgang til den private modul-repo).
+0 @I75@ INDI
+1 NAME Living /Hornsgård/
+1 SEX M
+1 FAMC @F30@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I75 (kraever adgang til den private modul-repo).
+0 @I76@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1946
+1 FAMC @F27@
+1 FAMS @F31@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I76 (kraever adgang til den private modul-repo).
+0 @I77@ INDI
+1 NAME Living /Pedersen/
+1 SEX M
+1 FAMS @F31@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I77 (kraever adgang til den private modul-repo).
+0 @I78@ INDI
+1 NAME Living /Pedersen/
+1 SEX F
+1 FAMC @F31@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I78 (kraever adgang til den private modul-repo).
+0 @I79@ INDI
+1 NAME Living /Pedersen/
+1 SEX M
+1 FAMC @F31@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I79 (kraever adgang til den private modul-repo).
+0 @I80@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1949
+1 FAMC @F27@
+1 FAMS @F32@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I80 (kraever adgang til den private modul-repo).
+0 @I81@ INDI
+1 NAME Living /Jensen/
+1 SEX M
+1 FAMS @F32@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I81 (kraever adgang til den private modul-repo).
+0 @I82@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1951
+1 FAMC @F27@
+1 FAMS @F33@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I82 (kraever adgang til den private modul-repo).
+0 @I83@ INDI
+1 NAME Living /Krarup/
+1 SEX M
+1 FAMS @F33@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I83 (kraever adgang til den private modul-repo).
+0 @I84@ INDI
+1 NAME Living /Krarup/
+1 SEX M
+1 FAMC @F33@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I84 (kraever adgang til den private modul-repo).
+0 @I85@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1954
+1 FAMC @F27@
+1 FAMS @F34@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I85 (kraever adgang til den private modul-repo).
+0 @I86@ INDI
+1 NAME Living /Jensen/
+1 SEX M
+1 FAMS @F34@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I86 (kraever adgang til den private modul-repo).
+0 @I87@ INDI
+1 NAME Anna Nielsine Petrea Christensen /Boe/
+1 SEX F
+1 BIRT
+2 DATE 24 JUL 1918
+2 PLAC Kyngsberg, Fur, Danmark
+1 FAMC @F13@
+1 FAMS @F35@
+1 NOTE Barn "II." af Jens Christensen Boe og Marie Kirstine Christensen. Enke i Skive. [SENSITIVE] — intet dødsår angivet (ville være o.108 år i 2026, formentlig afdød, men ikke bekræftet). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I88@ INDI
+1 NAME Living /Dahl/
+1 SEX M
+1 FAMS @F35@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I88 (kraever adgang til den private modul-repo).
+0 @I89@ INDI
+1 NAME Living /Dahl/
+1 SEX M
+1 FAMC @F35@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I89 (kraever adgang til den private modul-repo).
+0 @I90@ INDI
+1 NAME Living /Dahl/
+1 SEX M
+1 FAMC @F35@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I90 (kraever adgang til den private modul-repo).
+0 @I91@ INDI
+1 NAME Living /Dahl/
+1 SEX F
+1 FAMC @F35@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I91 (kraever adgang til den private modul-repo).
+0 @I92@ INDI
+1 NAME Thomas Manfred Christensen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 12 JUL 1920
+2 PLAC Kyngsberg, Fur, Danmark
+1 DEAT
+2 DATE 28 DEC 2007
+2 PLAC Fur Ældrecenter, Danmark
+1 OCCU Gårdejer, Kønsberg på Fur (overtog forældrenes ejendom)
+1 FAMC @F13@
+1 NOTE Barn "III." af Jens Christensen Boe og Marie Kirstine Christensen. Ugift. Tommerup Landbrugsskole 1943. Flyttede o.1997 til Fur alderdomshjem. Død 87 år gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I93@ INDI
+1 NAME Hans Christian Pedersen /Boe/
+1 SEX M
+1 BIRT
+2 DATE 19 MAR 1923
+2 PLAC Kyngsberg, Fur, Danmark
+1 DEAT
+2 DATE 1 JUN 1991
+1 OCCU Gårdejer, Tøndering (Tøndering Kirkevej)
+1 FAMC @F13@
+1 FAMS @F37@
+1 NOTE Barn "IV." af Jens Christensen Boe og Marie Kirstine Christensen. Gift 13.3.1955, Hjerk kirke. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I94@ INDI
+1 NAME Living /Goul/
+1 SEX F
+1 BIRT
+2 DATE 1933
+1 FAMC @F38@
+1 FAMS @F37@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I94 (kraever adgang til den private modul-repo).
+0 @I95@ INDI
+1 NAME Søren Sørensen /Goul/
+1 SEX M
+1 OCCU Boelsmand, Bajlum
+1 FAMS @F38@
+1 NOTE Far til Grete Ladefoged Goul (@I94@). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I96@ INDI
+1 NAME Ingrid Andersen /Ladefoged/
+1 SEX F
+1 FAMS @F38@
+1 NOTE Mor til Grete Ladefoged Goul (@I94@), Bajlum. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I97@ INDI
+1 NAME Søren Goul /Boe/
+1 SEX M
+1 BIRT
+2 DATE 14 MAR 1956
+2 PLAC Tøndering, Danmark
+1 DEAT
+2 DATE 14 MAR 1956
+2 PLAC Tøndering, Danmark
+1 FAMC @F37@
+1 NOTE Barn "1." af Hans Christian og Grete. Død samme dag som født (1 dag gammel). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I98@ INDI
+1 NAME Living /Boe/
+1 SEX F
+1 BIRT
+2 DATE 1957
+1 FAMC @F37@
+1 FAMS @F39@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I98 (kraever adgang til den private modul-repo).
+0 @I99@ INDI
+1 NAME Living /Jensen/
+1 SEX M
+1 FAMS @F39@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I99 (kraever adgang til den private modul-repo).
+0 @I100@ INDI
+1 NAME Søren Goul /Boe/
+1 SEX M
+1 BIRT
+2 DATE 5 OCT 1960
+2 PLAC Tøndering, Danmark
+1 DEAT
+2 DATE 9 NOV 2022
+2 PLAC Jebjerg, Danmark
+1 FAMC @F37@
+1 FAMS @F40@
+1 NOTE Barn "3." af Hans Christian og Grete. Navn genbrugt efter @I97@'s død som spæd. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I101@ INDI
+1 NAME Living /?/
+1 SEX F
+1 FAMS @F40@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I101 (kraever adgang til den private modul-repo).
+0 @F27@ FAM
+1 HUSB @I62@
+1 WIFE @I63@
+1 MARR
+2 DATE 1941
+2 PLAC Nees kirke, Ringkøbing amt, Danmark
+1 CHIL @I64@
+1 CHIL @I66@
+1 CHIL @I72@
+1 CHIL @I76@
+1 CHIL @I80@
+1 CHIL @I82@
+1 CHIL @I85@
+1 NOTE Syv børn ("1."-"7."), heraf "2." og "3." (Thilde og Birgit Kristine) tvillinger.
+
+0 @F28@ FAM
+1 HUSB @I64@
+1 WIFE @I65@
+1 MARR
+2 DATE 1990
+1 NOTE Ulla havde 3 børn fra tidligere ægteskab (ikke navngivet).
+
+0 @F29@ FAM
+1 HUSB @I67@
+1 WIFE @I66@
+1 CHIL @I68@
+1 CHIL @I69@
+1 CHIL @I70@
+1 CHIL @I71@
+
+0 @F30@ FAM
+1 HUSB @I73@
+1 WIFE @I72@
+1 CHIL @I74@
+1 CHIL @I75@
+
+0 @F31@ FAM
+1 HUSB @I77@
+1 WIFE @I76@
+1 CHIL @I78@
+1 CHIL @I79@
+
+0 @F32@ FAM
+1 HUSB @I81@
+1 WIFE @I80@
+
+0 @F33@ FAM
+1 HUSB @I83@
+1 WIFE @I82@
+1 CHIL @I84@
+
+0 @F34@ FAM
+1 HUSB @I86@
+1 WIFE @I85@
+
+0 @F35@ FAM
+1 HUSB @I88@
+1 WIFE @I87@
+1 CHIL @I89@
+1 CHIL @I90@
+1 CHIL @I91@
+
+0 @F37@ FAM
+1 HUSB @I93@
+1 WIFE @I94@
+1 MARR
+2 DATE 13 MAR 1955
+2 PLAC Hjerk kirke, Danmark
+1 CHIL @I97@
+1 CHIL @I98@
+1 CHIL @I100@
+1 NOTE Tre børn ("1."-"3."), hvoraf "1." (Søren) døde som nyfødt og navnet blev genbrugt til "3." (den anden Søren).
+
+0 @F38@ FAM
+1 HUSB @I95@
+1 WIFE @I96@
+1 NOTE Forældre til Grete Ladefoged Goul (@I94@), direkte transskriberet fra kilden (ikke en uløst fremtidig henvisning som @F15@/@F16@/@F26@).
+
+0 @F39@ FAM
+1 HUSB @I99@
+1 WIFE @I98@
+1 MARR
+2 DATE FEB 1967
+2 PLAC Skive rådhus, Danmark
+1 NOTE Datoen som angivet i kilden er formodentlig fejlbehæftet — se @I98@'s NOTE.
+
+0 @F40@ FAM
+1 HUSB @I100@
+1 WIFE @I101@
+
 0 @F17@ FAM
 1 HUSB @I45@
 1 WIFE @I30@
@@ -761,8 +1130,13 @@
 1 HUSB @I34@
 1 WIFE @I35@
 1 MARR
-2 DATE 1916
+2 DATE 21 MAR 1916
 2 PLAC på Fur
+1 CHIL @I62@
+1 CHIL @I87@
+1 CHIL @I92@
+1 CHIL @I93@
+1 NOTE Fire børn ("I."-"IV." i manuskriptets egen nummerering).
 
 0 @F14@ FAM
 1 HUSB @I37@
