@@ -1,6 +1,6 @@
 # Routing
 
-Version 1.13 | 2026-08-05 | Production
+Version 1.14 | 2026-08-05 | Production
 
 ---
 
@@ -35,7 +35,7 @@ Read the first message. Match one row. Load the listed files before responding.
 | If the request concerns... | Project | Also load |
 |---|---|---|
 | Changes to or questions about the context architecture itself — adding domains, modifying routing or protocols, structural improvements, or any work that changes how this system operates | System | `projects/system/TODO.md` |
-| Getting the grandfather's document pile (emails, scans, .docx files) into this repo and roughly triaged by *slægt*/category — including anything from the intake manifest | Archive Digitization | `projects/archive-digitization/TODO.md` · `projects/archive-digitization/context/intake-manifest.md` |
+| Getting KEJ's document pile (emails, scans, .docx files) into this repo and roughly triaged by *slægt*/category — including anything from the intake manifest | Archive Digitization | `projects/archive-digitization/TODO.md` · `projects/archive-digitization/context/intake-manifest.md` |
 | Questions about the future genealogy website — its repo location, tech stack, deployment, or maintenance procedures once it exists | N/A — reference domain only, no dedicated project yet | `knowledge/domains/website-infrastructure/description.md` · `knowledge/domains/website-infrastructure/knowledge.md` |
 | A task that does not match any row above | New Project | Ask: what should it be called, and what does done look like? Do not create files until answered. |
 | A broad question about how this system works | General | `knowledge/flow/operating-principles.md` §1 only — no project files needed |
@@ -111,7 +111,7 @@ Do not break these regardless of what the human asks.
 - **Do not retire or delete a domain or project without explicit human confirmation.** Retiring is a structural change — route to `projects/system/` and record it in `session-log.md`, same as adding one. Default to archive-in-place (`Retired` status, `MarkdownConventions.md` §1) — never delete files as part of retirement. Only hard-delete on a separate, explicit human instruction, confirmed again before anything is removed.
 - **Do not adopt an adversarial or opposing persona without an explicit, unambiguous human request** — never infer that intent from a loaded topic or context alone; if it's ambiguous, ask. Drop back to your normal voice immediately and unprompted at any sign the human has stepped outside the exercise (a real logistical question, genuine distress, confusion about whether something is real advice) — do not wait to be asked.
 - **Do not attempt automated transcription of handwritten source material — especially older Gothic/Kurrent-script Danish church records — as if it were a solved problem.** Treat OCR/transcription of the digitized archive as an open problem requiring a deliberate approach (manual transcription, a specialized tool, or the family's own knowledge of the handwriting), not something to silently attempt and present as reliable. See `projects/archive-digitization/` once that project exists.
-- **The grandfather (Knud Erik Jakobsen), not the human operating this repo, is the final authority on genealogical conclusions.** Anything this repo notices on its own — a cross-reference between his research threads, an apparent inconsistency, a discovery not in his materials, a data gap — is a proposal, never a fact, until he has explicitly confirmed it. The human's own agreement is not sufficient sign-off for a genealogical claim; do not write such a finding into a domain's `knowledge.md` as settled on that basis alone. Raise `[FLAG FOR GRANDFATHER REVIEW]` (format in `knowledge/flow/operating-principles.md` §5) and append it to `grandfather-review/queue.md` instead. This does not apply to ordinary system-layer or project-layer decisions the human is entitled to make himself — only to claims about the family's genealogy.
+- **Knud Erik Jakobsen (KEJ), not the human operating this repo, is the final authority on genealogical conclusions.** Anything this repo notices on its own — a cross-reference between his research threads, an apparent inconsistency, a discovery not in his materials, a data gap — is a proposal, never a fact, until he has explicitly confirmed it. The human's own agreement is not sufficient sign-off for a genealogical claim; do not write such a finding into a domain's `knowledge.md` as settled on that basis alone. Raise `[FLAG FOR GRANDFATHER REVIEW]` (format in `knowledge/flow/operating-principles.md` §5) and append it to `grandfather-review/queue.md` instead. This does not apply to ordinary system-layer or project-layer decisions the human is entitled to make himself — only to claims about the family's genealogy.
 
 ---
 
@@ -145,10 +145,10 @@ Apply these in every session regardless of project type or how you entered the s
 **I want to check for upstream template updates** (forks only — not applicable to this repo itself)
 → See `knowledge/flow/upstream-sync.md` for the full check/apply procedure. Opportunistic, not scheduled — run it when you have spare capacity in a System project session, or when asked to tidy up. The sync marker lives in `projects/system/TODO.md`'s System Maintenance Pass section.
 
-**I noticed something during research that the grandfather hasn't confirmed** (a discovery, a connection between his research threads, an apparent inconsistency, or a data gap)
+**I noticed something during research that KEJ hasn't confirmed** (a discovery, a connection between his research threads, an apparent inconsistency, or a data gap)
 → Do not write it into any domain's `knowledge.md` as settled — see the Hard Constraint above
 → Raise `[FLAG FOR GRANDFATHER REVIEW]` (format in `knowledge/flow/operating-principles.md` §5) and append it to `grandfather-review/queue.md` **in Danish** — see that file's own language note
-→ The human reviews and sends the queue to the grandfather on his own schedule (no fixed cadence enforced by this repo) — when his response comes back, record it in `grandfather-review/log.md` and, only for confirmed items, promote the finding into the relevant domain with `[VERIFIED: grandfather, YYYY-MM-DD]`
+→ The human reviews and sends the queue to KEJ on his own schedule (no fixed cadence enforced by this repo) — when his response comes back, record it in `grandfather-review/log.md` and, only for confirmed items, promote the finding into the relevant domain with `[VERIFIED: KEJ, YYYY-MM-DD]`
 
 **I want to retire a domain or project**
 → Confirm with the human first — this is a structural decision, not a routine edit
@@ -174,7 +174,7 @@ Apply these in every session regardless of project type or how you entered the s
 The real *slægt* (family line) list can't be known until the source material — a large, unsorted pile of digital documents on one laptop — has actually been triaged. So this fork does not go domain-first:
 
 1. **Repo skeleton and conventions** — done. Template forked, routing adapted, `website-infrastructure` reference domain scaffolded as a stub.
-2. **Archive Digitization project** — open, in progress. `projects/archive-digitization/` tracks the intake: goal is getting the laptop's document pile into the repo and roughly triaged by likely *slægt* and source type, with the handwriting/transcription problem (see Hard Constraints) explicitly named as unsolved rather than silently attempted. The grandfather's full intake manifest — every item he plans to send, transcribed from his own email — lives in `projects/archive-digitization/context/intake-manifest.md`; check it for current receipt status before assuming what's already in hand.
+2. **Archive Digitization project** — open, in progress. `projects/archive-digitization/` tracks the intake: goal is getting the laptop's document pile into the repo and roughly triaged by likely *slægt* and source type, with the handwriting/transcription problem (see Hard Constraints) explicitly named as unsolved rather than silently attempted. KEJ's full intake manifest — every item he plans to send, transcribed from his own email — lives in `projects/archive-digitization/context/intake-manifest.md`; check it for current receipt status before assuming what's already in hand.
 3. **Domain buildout** — once Phase 2 surfaces the real *slægt* list (confirmed with the family) and some triaged material, create each *slægt* domain properly: `knowledge/domains/[slægt-name]/`, with `sources/` used from day one for primary documents (church records, census records, certificates, letters, photographs).
 
 > Domain knowledge documents start thin and grow. A stub with an Executive Summary and a few key facts is enough to begin. The LLM will surface what is missing as it works.
@@ -199,3 +199,4 @@ The real *slægt* (family line) list can't be known until the source material �
 | 1.11 | 2026-08-05 | Opened the Archive Digitization project — added its Step 2 routing row and updated the Quick Task Guide's setup-sequence status (Phase 2 now "open, in progress" rather than "next"), pointing at the full intake manifest transcribed from the grandfather's first email. |
 | 1.12 | 2026-08-05 | Added a Hard Constraint establishing the grandfather, not the human operating this repo, as final authority on genealogical conclusions — this repo's own discoveries/connections/inconsistencies/gaps are proposals only until he confirms them, via the new `[FLAG FOR GRANDFATHER REVIEW]` mechanism (`operating-principles.md` §5, `grandfather-review/queue.md` + `log.md`). Added a matching Quick Task Guide entry. |
 | 1.13 | 2026-08-05 | Quick Task Guide's grandfather-review entry now notes that queue entries must be written in Danish. |
+| 1.14 | 2026-08-05 | Prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference — including the `[VERIFIED: KEJ, YYYY-MM-DD]` signal value. The `grandfather-review/` folder name and `[FLAG FOR GRANDFATHER REVIEW]` tag are kept as-is — stable structural identifiers, not prose. |

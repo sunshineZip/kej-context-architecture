@@ -137,3 +137,32 @@ STATUS: CHECKPOINT
 Completed: Translated `grandfather-review/queue.md` and `log.md` into Danish per the human's request; documented the convention (and the one tooling exception) across `operating-principles.md`, `ROUTING.md`, and `Architecture.md`.
 Next: None planned — awaiting the Boe-slægten file or further direction.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 6 | 2026-08-05
+
+Human asked (in an Archive Digitization session — see that project's Turn 11) that Knud Erik Jakobsen be referred to by name/initials, "KEJ" or "Knud Erik Jakobsen," rather than the relational term "grandfather," going forward. Searched the repo for every occurrence (13 files) before touching anything, to scope the change precisely rather than guessing.
+
+**Judgment call, stated explicitly rather than assumed:** treated this as a prose change, not a rename of structural identifiers. Kept the `grandfather-review/` folder and file paths, the `[FLAG FOR GRANDFATHER REVIEW]` tag, and the two section headings that name the mechanism ("Grandfather review flags" here in §5; "grandfather review" in `Architecture.md` §3) — a path/tag rename would have touched significantly more files (every path reference across the whole repo) for a request that read as being about how he's referred to in running text, not the mechanism's internal naming. Flagged this distinction to the human rather than silently deciding it was the full scope.
+
+**Updated, system-layer files (this repo's own tracked set):**
+- `ROUTING.md` (1.13 → 1.14) — Hard Constraint, Quick Task Guide entry, Step 2 table, and Quick Task Guide's fork-sequence status now say "KEJ" / "Knud Erik Jakobsen (KEJ)"; `[VERIFIED: grandfather, ...]` → `[VERIFIED: KEJ, ...]`.
+- `Architecture.md` (1.6 → 1.7) — §3 prose updated the same way.
+- `knowledge/flow/operating-principles.md` (1.3 → 1.4) — §5 prose and both the English and Danish flag-template examples updated.
+- `README.md` (1.4 → 1.5) — "How it works" bullet updated.
+
+**Also updated, project-layer files** (freely revisable, no gate needed): `projects/archive-digitization/TODO.md`, `projects/system/TODO.md`, `context/intake-manifest.md`, `context/external-source-hopp-herredsfoged.md`, and the Danish `grandfather-review/queue.md`/`log.md` (`bedstefar` → `KEJ`, same rationale applied to the Danish content).
+
+**Explicitly not touched:** any already-committed `session-log.md` turn (this file's own history included) and any already-committed Version History row in any file — both are append-only by Hard Constraint, mechanically enforced by `validate.ps1`. The old wording stands in the historical record; only new content uses "KEJ."
+
+### Session close
+
+Knowledge candidates: None — naming-convention change, not a domain fact.
+Open flags: None.
+Push status: Pending — will push immediately after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Renamed "grandfather" to "KEJ" in prose across all tracked system-layer files, keeping structural identifiers (folder paths, the flag tag, mechanism-naming headings) and historical append-only records untouched.
+Next: None planned — awaiting the Boe-slægten file or further direction.
+Waiting for: Nothing further this turn — pushing now.

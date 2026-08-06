@@ -1,12 +1,12 @@
 # External Source Note — "Hopp forfædrene" (akj-cbj.dk)
 
-Version 1.1 | 2026-08-05 | Active
+Version 1.2 | 2026-08-05 | Active
 
 ---
 
 ## Document Purpose
 
-Preserves an externally found web page relevant to the Hopp-slægt, found by the human during Archive Digitization intake, plus a cross-reference analysis against the grandfather's own chapter numbering (see `intake-manifest.md` §3). Working project-layer note — not yet promoted into a domain, since no Hopp-slægt domain exists yet (Phase 3). When that domain is created, this should be re-filed as a proper evidentiary source under `knowledge/domains/hopp-[...]/sources/`, with the confidence signals below re-applied per `authoring-guidelines.md` §9.1.
+Preserves an externally found web page relevant to the Hopp-slægt, found by the human during Archive Digitization intake, plus a cross-reference analysis against KEJ's own chapter numbering (see `intake-manifest.md` §3). Working project-layer note — not yet promoted into a domain, since no Hopp-slægt domain exists yet (Phase 3). When that domain is created, this should be re-filed as a proper evidentiary source under `knowledge/domains/hopp-[...]/sources/`, with the confidence signals below re-applied per `authoring-guidelines.md` §9.1.
 
 ---
 
@@ -18,26 +18,26 @@ Preserves an externally found web page relevant to the Hopp-slægt, found by the
 | Page title | Hopp forfædrene |
 | Author | Arne Bjørn Jørgensen |
 | Page date | 10. august 2010 |
-| Primary source cited by the page | "Om den sidste herredsfoged i Salling Nørre-herred" by **Knud Erik Jakobsen, Risum** (the human's grandfather), published in *Skiveegnens Jul*, 1978; also "Degnekår om slægten Hop" by the same author, 1991 |
+| Primary source cited by the page | "Om den sidste herredsfoged i Salling Nørre-herred" by **Knud Erik Jakobsen (KEJ), Risum**, published in *Skiveegnens Jul*, 1978; also "Degnekår om slægten Hop" by the same author, 1991 |
 | Retrieved | 2026-08-05, pasted by the human (the URL itself is not reachable from this session — outside this repo's network policy) |
 
-> **Note:** This page is written by a different family researcher, tracing his own ancestors (Anne Katrine and Claus Bjørn Jørgensen) back through the shared Hopp line. It is a secondary source relative to this repo's own research — the author states he used the grandfather's 1978/1991 published articles, church books (kirkebøger), census records (folketællinger), and other named sources.
+> **Note:** This page is written by a different family researcher, tracing his own ancestors (Anne Katrine and Claus Bjørn Jørgensen) back through the shared Hopp line. It is a secondary source relative to this repo's own research — the author states he used KEJ's 1978/1991 published articles, church books (kirkebøger), census records (folketællinger), and other named sources.
 
 ---
 
-## Cross-Reference Against the Grandfather's Own Chapter Numbering
+## Cross-Reference Against KEJ's Own Chapter Numbering
 
 Comparing this page's lineage to `intake-manifest.md` §3 (Hopp-slægten):
 
-| This page | Grandfather's chapter (manifest) | Match confidence |
+| This page | KEJ's chapter (manifest) | Match confidence |
 |---|---|---|
 | Knud Danielsen Hopp, b. ~1640, d. 1723, herredsfoged in Salling Nørre Herred | "01 Knud Danielsen Hopp o.1640-1723" | High — birth/death years match exactly; not yet [VERIFIED] against a primary record, but the coincidence across two independent sources is strong |
 | Knud Knudsen Hopp, d. 1762, degn (parish clerk) in Thise 1726–1762 | "01F Knud Knudsen Hopp død 1762" | High — death year matches exactly |
 | Mogens Knudsen Hopp, degn in Jebjerg from 1760, fled ~1765 on a counterfeiting accusation | Not directly named in the manifest's chapter list as sent so far | Open — may correspond to unlisted material, or simply not yet chaptered |
 
-**Earlier generations this page adds, not present in the manifest's own Hopp-slægten list:** Hans Hop (1562–1624, Metzingen → Skagen), Mads Hopp (1590–1650, Skagen rådmand), Daniel Madsen Hopp (b. ~1620/1633, uncertain). These predate the manifest's "01" chapter — genuinely new information if confirmed, not something to assume without the grandfather's input.
+**Earlier generations this page adds, not present in the manifest's own Hopp-slægten list:** Hans Hop (1562–1624, Metzingen → Skagen), Mads Hopp (1590–1650, Skagen rådmand), Daniel Madsen Hopp (b. ~1620/1633, uncertain). These predate the manifest's "01" chapter — genuinely new information if confirmed, not something to assume without KEJ's input.
 
-**Distinct from "Hopp-slægt B" in the manifest's "andre Hopp-slægter" bucket:** that entry describes a *different* Hans Hops (1599–1666, merchant/brewer in Copenhagen, also from Holland). This page's Hans Hop (1562–1624, farmer/hop-grower from Metzingen) has different birth/death years and a different profession/location — likely a separate immigrant founder, not the same person. Worth confirming with the grandfather rather than conflating the two.
+**Distinct from "Hopp-slægt B" in the manifest's "andre Hopp-slægter" bucket:** that entry describes a *different* Hans Hops (1599–1666, merchant/brewer in Copenhagen, also from Holland). This page's Hans Hop (1562–1624, farmer/hop-grower from Metzingen) has different birth/death years and a different profession/location — likely a separate immigrant founder, not the same person. Worth confirming with KEJ rather than conflating the two.
 
 ---
 
@@ -193,7 +193,7 @@ Arne Bjørn Jørgensen
 
 ## Open Items
 
-Tracked in [grandfather-review/queue.md](../../../grandfather-review/queue.md) items 1–3, not restated here — that file is the single owning list for anything pending the grandfather's review, per `operating-principles.md` §5.
+Tracked in [grandfather-review/queue.md](../../../grandfather-review/queue.md) items 1–3, not restated here — that file is the single owning list for anything pending KEJ's review, per `operating-principles.md` §5.
 
 ---
 
@@ -203,3 +203,4 @@ Tracked in [grandfather-review/queue.md](../../../grandfather-review/queue.md) i
 |---|---|---|
 | 1.0 | 2026-08-05 | Initial creation. Full text preserved as pasted by the human, plus a cross-reference analysis against the grandfather's own Hopp-slægten chapter numbering from `intake-manifest.md`. Not yet confirmed with the grandfather. |
 | 1.1 | 2026-08-05 | Open Items replaced with a pointer to the new `grandfather-review/queue.md` (items 1–3), which now owns this list — avoids two copies of the same pending questions drifting apart. |
+| 1.2 | 2026-08-05 | Prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference, including a heading rename (§ Cross-Reference Against KEJ's Own Chapter Numbering). The `grandfather-review/` path reference is kept as-is. |

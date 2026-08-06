@@ -148,3 +148,30 @@ STATUS: CHECKPOINT
 Completed: Folded the incremental extraction plan and the transcription-vs-inference boundary into `TODO.md`.
 Next: `family-tree/` creation stays deferred until the first real document arrives.
 Waiting for: The Boe-slægten file, or further direction.
+
+---
+
+## [HUMAN] — Turn 11 | 2026-08-05
+
+Raised the practical problem of duplicate/ambiguous individuals once names start arriving at volume (common Danish patronymic names repeating across records) and asked how GEDCOM IDs work (incremental like a relational PK?) and what to do about duplicates/unknown relations in the meantime. Confirmed the answer should be folded into `data-structure-proposal.md`. Separately asked that KEJ be referenced by name/initials ("KEJ" or "Knud Erik Jakobsen") rather than "grandfather" going forward.
+
+---
+
+## [Claude] — Turn 12 | 2026-08-05
+
+**Duplicates/IDs:** added §4 to `context/data-structure-proposal.md` (1.0 → 1.1) covering: GEDCOM ID stability (not guaranteed across re-export/merge by spec — adopted append-only assignment, same discipline as session-log turn numbers, so domain citations into `family-tree/tree.ged#I4`-style IDs never go stale); unknown relations (already a non-issue — GEDCOM represents "not known" by omitting the tag, not a null placeholder); and a two-tier duplicate workflow — routine same-name ambiguity gets a same-file `NOTE` plus a new (not yet created) `family-tree/possible-duplicates.md` running list, while only well-evidenced, specific candidates get promoted to `grandfather-review/queue.md`, to keep KEJ's review queue from being overwhelmed by every name collision. Confirmed a merge convention consistent with this repo's existing archive-in-place philosophy: never delete or renumber either ID, mark the retired one as merged into the survivor.
+
+**KEJ naming:** searched the whole repo for "grandfather" (13 files) and updated prose references to "KEJ" (or "Knud Erik Jakobsen (KEJ)" on first mention per file), including the Danish `bedstefar` → `KEJ` in `grandfather-review/queue.md` and `log.md`, and the `[VERIFIED: grandfather, ...]` signal value → `[VERIFIED: KEJ, ...]` wherever it appeared. Deliberately kept as stable structural identifiers, not prose: the `grandfather-review/` folder and file paths, the `[FLAG FOR GRANDFATHER REVIEW]` tag, and the "Grandfather review flags" / "grandfather review" section headings in `operating-principles.md` and `Architecture.md`. Left every past `session-log.md` turn and every already-committed Version History row untouched — both are append-only by Hard Constraint and mechanically enforced by `validate.ps1`; the new terminology applies from this turn forward, not retroactively.
+
+Touched `ROUTING.md`, `Architecture.md`, and `knowledge/flow/operating-principles.md` — system-layer files — so this is logged in `projects/system/session-log.md` (Turn 6) in the same commit, per the Hard Constraint.
+
+### Session close
+
+Knowledge candidates: None — structural/tooling and naming-convention changes, not domain facts.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Added the duplicates/IDs section to the data-structure proposal; renamed "grandfather" to "KEJ" in prose across the repo, keeping structural identifiers and historical logs untouched.
+Next: `family-tree/` and `family-tree/possible-duplicates.md` remain uncreated until real material arrives.
+Waiting for: The Boe-slægten file, or further direction.
