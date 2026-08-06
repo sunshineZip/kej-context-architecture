@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.10 | 2026-08-06 | Production
+Version 1.11 | 2026-08-06 | Production
 
 ---
 
@@ -149,7 +149,17 @@ A close studio portrait of a young woman, 1930s hairstyle and collar. **Not conf
 
 A formal couple portrait: an older, balding groom in a dark suit with a boutonnière, and a younger bride in a dark dress (not white) holding a bouquet — a style consistent with a more modest 1940s wartime/postwar wedding, and with the bride not being a first-time teenage bride. Peter Severin Nielsen was a 48-year-old widower when he married the 28-year-old Meta in 1946; the apparent age gap and era fit this description well. **Not confirmed.** `[UNVERIFIED: AI visual description, identity unconfirmed]`
 
-**Also checked and left unfiled:** `image21.jpeg` — a studio portrait of a boy (roughly 9-10) with a baby girl (roughly 1) — the apparent age gap (~8-9 years) doesn't fit Hanne and Carlo's actual 3-year gap well, so left unmatched rather than forced. `image29.jpeg` — a 1960s wedding portrait; the groom's apparent age (mid-30s to 40s, based on hairline) doesn't fit a 21-year-old Knud Erik Jakobsen in 1966, so not treated as Hanne and KEJ's own wedding photo despite the tempting date range. `image30.jpeg` — a traditional white-veil wedding portrait of a young couple, 1940s style; no contextual link found to anyone in this checkpoint.
+**Also checked and left unfiled:** `image29.jpeg` — a 1960s wedding portrait; the groom's apparent age (mid-30s to 40s, based on hairline) doesn't fit a 21-year-old Knud Erik Jakobsen in 1966, so not treated as Hanne and KEJ's own wedding photo despite the tempting date range. `image30.jpeg` — a traditional white-veil wedding portrait of a young couple, 1940s style; no contextual link found to anyone in this checkpoint.
+
+### image21.jpeg — Plausible (revised): Hans Kristian Kristensen Boe with baby sister Edith
+
+A sepia studio portrait of a boy of roughly 9-10 in a white shirt and tie, seated with a baby girl of roughly 1 in a patterned dress with a lace collar and a small cross pendant, both on the same chair. **Originally checked against Hanne (`@I167@`, b.1944) and Carlo (`@I185@`, b.1947) and ruled out** — their real age gap is 3 years, not the ~8-9 apparent here, and (on direct visual inspection, 2026-08-06) the sepia tone and dress/hairstyle read as early-1930s, a decade before either was born.
+
+**Revised hypothesis, human-prompted (2026-08-06):** Laurids Christensen Boe and Ottine Boline Marie Pedersen (`@F14@`) had 11 children born 1911-1930, not just Meta. The youngest, **Edith Kristensen Boe** (`@I122@`, b. 8 Aug 1930), fits the baby's apparent age and the photo's era far better. Candidate older brothers, by how closely their age at Edith's infancy (c. 1931) matches "9-10 years old":
+- **Hans Kristian Kristensen Boe** (`@I110@`, b. 11 Aug 1921) — would turn almost exactly 10 right around Edith's first birthday. Best fit.
+- **Karl Alfred Christensen Boe** (`@I102@`, b. 2 Feb 1920) — would be about 10-11 at the same time. Close second.
+
+**Still not confirmed** — birth-year math and visual style, no caption or direct source match. Queued in `grandfather-review/queue.md` item 11 for KEJ to confirm or rule out. `[UNVERIFIED: AI visual description + birth-year inference, identity unconfirmed]` Individuals (candidates, not confirmed): `@I110@`, `@I102@`, `@I122@`.
 
 ### image26.jpeg — Confirmed by family: Hanne Boe and Knud Erik Jakobsen (KEJ)
 
@@ -248,7 +258,6 @@ A studio portrait of six children, ranging from a toddler of roughly 2-3 to a te
 | `image17.jpeg` | Branch g checkpoint 2 | Young man's formal portrait, 1920s-30s style. No caption or contextual match found. |
 | `image19.png` | Branch g checkpoint 3 | Family living-room scene, accordion player, "PRØVE" watermark. No match among children II/X. |
 | `image20.jpeg` | Branch g checkpoint 3 | The same young man, solo, with his accordion. Same watermark, same non-match. |
-| `image21.jpeg` | Branch g checkpoint 4 | Boy of ~9-10 with a baby girl of ~1. Age gap doesn't fit Hanne/Carlo's actual 3-year gap. |
 | `image28.jpeg` | Branch g checkpoint 4 | Young man, round glasses, 1930s-40s style. No specific tie found. |
 | `image29.jpeg` | Branch g checkpoint 4 | 1960s wedding portrait. Groom's apparent age doesn't fit a 21-year-old KEJ in 1966. |
 | `image30.jpeg` | Branch g checkpoint 4 | Traditional white-veil wedding portrait, 1940s style. No contextual link found. |
@@ -277,7 +286,9 @@ A studio portrait of six children, ranging from a toddler of roughly 2-3 to a te
 
 The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` flag — everyone in them died well over 70 years ago. That changes starting with Efterslægt: `image8`/`image9` above don't currently need the flag either (no confirmed identity, and if image8's guess is right, a 1910 marriage is not recent), but per the branch-b text extraction, several individuals in this branch (Poul and Henning Christensen Boe and their families) have no death dates and are treated as potentially living — any future image confirmed to depict them would need `[SENSITIVE]`. `image24`/`image25` (branch g checkpoint 4) depict Hanne (d.2005) and, in image25, Meta and Ottine (both long deceased) plus baby Lotta — Lotta Ann (Jakobsen) Boe is presumed living, but as an infant in the photo is not identifiable as an adult from it, so no flag needed on the image itself; her own `tree.ged` record carries `[SENSITIVE]`.
 
-**On the "Unmatched / Unclassified" batch (added 2026-08-06):** none of these fourteen images carry a `[SENSITIVE]` flag today because none carry a confirmed identity — that's a statement about certainty, not about safety. Several were checked precisely because their style/era placed them in the same checkpoints as branch g's undated, presumed-living descendants (`image17`, `image19`-`image21`, `image28`-`image30`, `image32`-`image34` all come from checkpoints 2-5, where `[SENSITIVE]` is the default in the text). If any of these is later matched to a specific person — whether by a human, or by any future automated method — that match should get the same `[SENSITIVE]` treatment as every other living-descendant fact in this repo before being used or shared further.
+**On the "Unmatched / Unclassified" batch (added 2026-08-06):** none of these fourteen images carry a `[SENSITIVE]` flag today because none carry a confirmed identity — that's a statement about certainty, not about safety. Several were checked precisely because their style/era placed them in the same checkpoints as branch g's undated, presumed-living descendants (`image17`, `image19`-`image20`, `image28`-`image30`, `image32`-`image34` all come from checkpoints 2-5, where `[SENSITIVE]` is the default in the text). If any of these is later matched to a specific person — whether by a human, or by any future automated method — that match should get the same `[SENSITIVE]` treatment as every other living-descendant fact in this repo before being used or shared further.
+
+`image21.jpeg` (revised above, 2026-08-06) is the one exception with named candidates rather than no identity at all. Karl Alfred Christensen Boe and Edith Kristensen Boe both carry a confirmed (if undated) `DEAT` in `tree.ged`. Hans Kristian Kristensen Boe has no `DEAT` tag at all — but he was born 1921, making him 105 in 2026, so treated as certainly deceased on age alone rather than `[SENSITIVE]`; this is a deliberate exception to the "no DEAT tag defaults to potentially living" convention used elsewhere in this repo, not an oversight.
 
 ---
 
@@ -296,3 +307,4 @@ The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` f
 | 1.8 | 2026-08-06 | Anetavler read in full. Discovered the Søgaard-slægten, Lundgaard-slægten/Fur-slægter, and Degn-slægten Frammerslev/Fur appendices exist only as hand-drawn pedigree charts, not prose text. Filed image38/39 (Søgaard-slægten), image40 (Lundgaard-slægten direct line), image45 (Degn-slægten direct line), and image48 (Helnæs stone, Fyn-slægten Boe). All 48 real embedded images have now been checked at least once. |
 | 1.9 | 2026-08-06 | Human raised the risk that unfiled images, described only in text, would never be revisited without a fresh `.docx` extraction. Extracted and stored all 14 remaining "checked but unmatched" images and the 6 further Anetavler deep-chart pages, closing that gap — 45 of 48 images now physically stored (the 3 not stored are a confirmed exact duplicate, image18, and two images that belong to a different manuscript entirely, image26/image27, moved to `library/deep-wells/hopp-slaegten-preview-images/` instead). |
 | 1.10 | 2026-08-06 | **Correction:** image26/image27 do NOT belong to Hopp-slægten — the human identified both directly: image26 shows Hanne Boe and Knud Erik Jakobsen (the manuscript's own author) together; image27 is a family group photo, August 1995, with Bruno Dølby, Gitte Boe, Tommy Krogh, Lotta Ann, Cecilie Boe, Nikolaj Boe, and Astrid Kirk (not yet linked in `tree.ged`). Both moved back into this deep well's own media folder; the Hopp-slægten preview folder created for them has been removed. 47 of 48 images now physically stored — only the confirmed duplicate, image18, remains unstored. |
+| 1.11 | 2026-08-06 | Revised `image21.jpeg`'s entry after direct visual inspection (prompted by the human questioning the original age-gap reasoning): moved out of the "unmatched" batch table into its own write-up. Original guess (Hanne + Carlo) ruled out on both age gap and visual era (photo reads as early-1930s). New hypothesis, human-prompted: one of Meta's older brothers (Hans Kristian or Karl Alfred Christensen Boe) holding baby sister Edith Kristensen Boe (b. Aug 1930), based on birth-year fit. Still unconfirmed — queued in `grandfather-review/queue.md` item 11 for KEJ. |
