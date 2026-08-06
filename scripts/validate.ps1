@@ -620,6 +620,158 @@ foreach ($mdFile in $allMdFiles) {
     }
 }
 
+# --- family-tree/tree.ged — GEDCOM structural consistency ---
+# Ports checks that had to be done by hand on 2026-08-06, after a Gramps
+# import reported "483 errors" against a file that a lenient parser
+# (python-gedcom) had accepted without complaint. Two real bug classes were
+# found: missing bidirectional FAMC/FAMS/HUSB/WIFE/CHIL back-references, and
+# informal @I123@/@F45@-style cross-references left inside free-text NOTE
+# fields — GEDCOM 5.5.1 requires a literal "@" in a value to be escaped
+# wherever it appears, since an unescaped one is parsed as a pointer. See
+# projects/archive-digitization/context/ extraction notes and
+# projects/system/session-log.md for the incident this was written to catch
+# automatically from now on.
+$treeGedPath = Join-Path $repoRoot "family-tree\tree.ged"
+if (Test-Path $treeGedPath) {
+    $gedLines = Get-Content -Path $treeGedPath
+
+    $indiIds = New-Object System.Collections.Generic.HashSet[string]
+    $famIds = New-Object System.Collections.Generic.HashSet[string]
+    $indiFamc = @{}   # INDI id -> List[FAM id]
+    $indiFams = @{}   # INDI id -> List[FAM id]
+    $famHusb = @{}    # FAM id -> List[INDI id]
+    $famWife = @{}    # FAM id -> List[INDI id]
+    $famChil = @{}    # FAM id -> List[INDI id]
+
+    $currentType = $null   # 'INDI' or 'FAM'
+    $currentId = $null
+    $gedLineNum = 0
+
+    foreach ($gedLine in $gedLines) {
+        $gedLineNum++
+
+        if ($gedLine.Length -gt 255) {
+            Add-ValidationWarning "family-tree/tree.ged:$gedLineNum — line is $($gedLine.Length) chars, over the 255-char soft limit some GEDCOM tools enforce (Gramps tolerates this; flagged as a warning only)"
+        }
+
+        $recMatch = [regex]::Match($gedLine, '^0 @(I\d+|F\d+)@ (INDI|FAM)\s*$')
+        if ($recMatch.Success) {
+            $currentId = $recMatch.Groups[1].Value
+            $currentType = $recMatch.Groups[2].Value
+            if ($currentType -eq 'INDI') {
+                if (-not $indiIds.Add($currentId)) {
+                    Add-ValidationError "family-tree/tree.ged:$gedLineNum — duplicate INDI id @$currentId@"
+                }
+            } else {
+                if (-not $famIds.Add($currentId)) {
+                    Add-ValidationError "family-tree/tree.ged:$gedLineNum — duplicate FAM id @$currentId@"
+                }
+            }
+            continue
+        }
+        if ($gedLine -match '^0 ') { $currentType = $null; $currentId = $null; continue }
+
+        if ($currentType -eq 'INDI') {
+            $famcFamsMatch = [regex]::Match($gedLine, '^1 (FAMC|FAMS) @(F\d+)@\s*$')
+            if ($famcFamsMatch.Success) {
+                $tag = $famcFamsMatch.Groups[1].Value
+                $famId = $famcFamsMatch.Groups[2].Value
+                $targetDict = if ($tag -eq 'FAMC') { $indiFamc } else { $indiFams }
+                if (-not $targetDict.ContainsKey($currentId)) { $targetDict[$currentId] = New-Object System.Collections.Generic.List[string] }
+                $targetDict[$currentId].Add($famId)
+                continue
+            }
+        }
+        if ($currentType -eq 'FAM') {
+            $husbWifeChilMatch = [regex]::Match($gedLine, '^1 (HUSB|WIFE|CHIL) @(I\d+)@\s*$')
+            if ($husbWifeChilMatch.Success) {
+                $tag = $husbWifeChilMatch.Groups[1].Value
+                $indiId = $husbWifeChilMatch.Groups[2].Value
+                $targetDict = switch ($tag) { 'HUSB' { $famHusb }; 'WIFE' { $famWife }; 'CHIL' { $famChil } }
+                if (-not $targetDict.ContainsKey($currentId)) { $targetDict[$currentId] = New-Object System.Collections.Generic.List[string] }
+                $targetDict[$currentId].Add($indiId)
+                continue
+            }
+        }
+
+        # Anything reaching here is free text (NAME/NOTE/etc.) — level-0
+        # headers and structural pointer lines were already consumed above.
+        if ($gedLine -match '@[IF]\d+@') {
+            Add-ValidationError "family-tree/tree.ged:$gedLineNum — unescaped '@' in free text (informal @I###@/@F###@ cross-reference) — write the bare id without @ signs, e.g. 'see I6' not 'se @I6@'"
+        }
+    }
+
+    # Dangling references: FAMC/FAMS must point at a FAM id that exists;
+    # HUSB/WIFE/CHIL must point at an INDI id that exists.
+    foreach ($indiId in $indiFamc.Keys) {
+        foreach ($famId in $indiFamc[$indiId]) {
+            if (-not $famIds.Contains($famId)) {
+                Add-ValidationError "family-tree/tree.ged — @$indiId@ has FAMC @$famId@, which does not exist"
+            }
+        }
+    }
+    foreach ($indiId in $indiFams.Keys) {
+        foreach ($famId in $indiFams[$indiId]) {
+            if (-not $famIds.Contains($famId)) {
+                Add-ValidationError "family-tree/tree.ged — @$indiId@ has FAMS @$famId@, which does not exist"
+            }
+        }
+    }
+    $allFamRefIds = @($famHusb.Keys) + @($famWife.Keys) + @($famChil.Keys) | Select-Object -Unique
+    foreach ($famId in $allFamRefIds) {
+        foreach ($famDict in @($famHusb, $famWife, $famChil)) {
+            if ($famDict.ContainsKey($famId)) {
+                foreach ($indiId in $famDict[$famId]) {
+                    if (-not $indiIds.Contains($indiId)) {
+                        Add-ValidationError "family-tree/tree.ged — @$famId@ references @$indiId@, which does not exist"
+                    }
+                }
+            }
+        }
+    }
+
+    # Bidirectional consistency, FAM side -> INDI side.
+    foreach ($famId in $famHusb.Keys) {
+        foreach ($indiId in $famHusb[$famId]) {
+            if (-not ($indiFams.ContainsKey($indiId) -and $indiFams[$indiId].Contains($famId))) {
+                Add-ValidationError "family-tree/tree.ged — @$famId@ HUSB @$indiId@ has no matching '1 FAMS @$famId@' on @$indiId@"
+            }
+        }
+    }
+    foreach ($famId in $famWife.Keys) {
+        foreach ($indiId in $famWife[$famId]) {
+            if (-not ($indiFams.ContainsKey($indiId) -and $indiFams[$indiId].Contains($famId))) {
+                Add-ValidationError "family-tree/tree.ged — @$famId@ WIFE @$indiId@ has no matching '1 FAMS @$famId@' on @$indiId@"
+            }
+        }
+    }
+    foreach ($famId in $famChil.Keys) {
+        foreach ($indiId in $famChil[$famId]) {
+            if (-not ($indiFamc.ContainsKey($indiId) -and $indiFamc[$indiId].Contains($famId))) {
+                Add-ValidationError "family-tree/tree.ged — @$famId@ CHIL @$indiId@ has no matching '1 FAMC @$famId@' on @$indiId@"
+            }
+        }
+    }
+
+    # Bidirectional consistency, INDI side -> FAM side.
+    foreach ($indiId in $indiFams.Keys) {
+        foreach ($famId in $indiFams[$indiId]) {
+            $isHusb = $famHusb.ContainsKey($famId) -and $famHusb[$famId].Contains($indiId)
+            $isWife = $famWife.ContainsKey($famId) -and $famWife[$famId].Contains($indiId)
+            if (-not ($isHusb -or $isWife)) {
+                Add-ValidationError "family-tree/tree.ged — @$indiId@ FAMS @$famId@ but @$famId@ does not list @$indiId@ as HUSB or WIFE"
+            }
+        }
+    }
+    foreach ($indiId in $indiFamc.Keys) {
+        foreach ($famId in $indiFamc[$indiId]) {
+            if (-not ($famChil.ContainsKey($famId) -and $famChil[$famId].Contains($indiId))) {
+                Add-ValidationError "family-tree/tree.ged — @$indiId@ FAMC @$famId@ but @$famId@ does not list @$indiId@ as CHIL"
+            }
+        }
+    }
+}
+
 # --- Summary ---
 Write-Host ""
 Write-Host "Active projects: $($activeProjects.Count)"

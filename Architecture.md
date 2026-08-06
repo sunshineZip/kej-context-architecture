@@ -158,6 +158,8 @@ This fork adds `family-tree/tree.ged`, a single top-level GEDCOM file — not pa
 
 ID assignment is append-only, same discipline as `session-log.md` turn numbers: once `@I137@` exists it is never reused or renumbered, even for a confirmed duplicate (marked merged-into-survivor instead of deleted). Routine same-name ambiguity — expected at volume, given Danish patronymic naming — is tracked in `family-tree/possible-duplicates.md`; only well-evidenced duplicate candidates escalate to `grandfather-review/queue.md`. Full design rationale: `projects/archive-digitization/context/data-structure-proposal.md`.
 
+Since 2026-08-06, `scripts/validate.ps1` also checks `tree.ged` itself on every commit: duplicate or dangling `@I@`/`@F@` ids, full bidirectional `FAMC`/`FAMS`/`HUSB`/`WIFE`/`CHIL` consistency, and unescaped `@` characters left inside free-text `NOTE` fields (as errors), plus a >255-character line-length check (as a warning — Gramps tolerates long lines even though the spec doesn't). Added after a real Gramps import surfaced all of these at once on a file a more lenient parser had accepted without complaint — see `projects/system/session-log.md`.
+
 ### A third layer — fork-specific: grandfather review
 
 This fork adds a third layer, `grandfather-review/`, not part of the generic template. It exists because the human operating this repo is not the subject-matter authority his own knowledge-promotion approval would normally imply — Knud Erik Jakobsen (KEJ) is. `grandfather-review/queue.md` behaves like the project layer (appended to freely, no gate on raising an item) but is cross-cutting like `library/` (not scoped to one project or domain). `grandfather-review/log.md` is append-only, same discipline as a `session-log.md`.
