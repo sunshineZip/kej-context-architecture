@@ -1,6 +1,6 @@
 # Data Structure Proposal — Individuals and Families at Scale
 
-Version 1.1 | 2026-08-05 | Draft
+Version 1.2 | 2026-08-05 | Draft
 
 ---
 
@@ -16,6 +16,7 @@ A sketch, not yet a decision, for how to structure individual/family data once m
 2. [The GEDCOM Alternative](#2-the-gedcom-alternative) — worked mockup using real Hopp-chain data
 3. [Where This Would Live](#3-where-this-would-live) — proposed single cross-*slægt* `family-tree/tree.ged`
 4. [IDs, Duplicates, and Unknown Relations](#4-ids-duplicates-and-unknown-relations) — ID stability, never-merge-on-name-match, the two-tier duplicate workflow
+5. [Kirkebog Record Types → GEDCOM Tags](#5-kirkebog-record-types--gedcom-tags) — mapping each Danish parish record type to the specific GEDCOM structure it converts to, so extraction now doesn't need redoing later
 
 ---
 
@@ -195,9 +196,28 @@ Two tiers, so the volume of "might be the same person" cases doesn't overwhelm `
 
 ---
 
+## 5. Kirkebog Record Types → GEDCOM Tags
+
+The citation templates in `authoring-guidelines.md` §9.5 answer "where did this fact come from." They don't answer "which structured field does this fact go in" — that's a separate question, and getting it right now means extraction doesn't need redoing once volume arrives. Verified against Rigsarkivet/DIS-Danmark documentation rather than assumed (see `projects/system/session-log.md` for sources).
+
+Danish kirkebøger record six event types, in this order within the book: fødsel/dåb (birth/baptism), konfirmation, vielse (marriage), tilgang (arrival), afgang (departure), begravelse/død (burial/death).
+
+| Kirkebog record | Typical fields recorded | GEDCOM structure |
+|---|---|---|
+| Dåb (baptism) | Barnets navn, fødselsdato (sometimes), dåbsdato, faderens navn, moderens navn, faddere (≥2 godparents) | `CHR` (christening) with `DATE`/`PLAC`. Use `BIRT` too only if a birth date distinct from the baptism date is actually given — many entries only have dåbsdato, and recording that as `BIRT` misstates the source. Parents via `FAMC`. Godparents: separate `INDI` records linked via `ASSO` with a `ROLE` (e.g. "Fadder"), or a `NOTE` naming them if `ASSO` feels like overkill for a first pass |
+| Konfirmation | Barnets navn, alder (~14-16), bopæl at time of confirmation | `CONF` with `DATE`/`PLAC`. Useful for corroborating an approximate birth year and a residence at a specific date — note it as such, not as a primary birth source |
+| Vielse (marriage) | Brudgom + brud navn/alder/bopæl, forældre eller værge (esp. for a young bride), forlovere (≥2 witnesses, with addresses), evt. kongebrev (royal dispensation) | `MARR` on a `FAM` record linking the couple. Witnesses: same pattern as godparents — separate `INDI` + `ASSO`/`ROLE`, or `NOTE`. A royal dispensation is worth its own `NOTE` — it usually signals something noteworthy (close kinship, under-age, prior marriage) |
+| Tilgang / Afgang (arrival/departure) | Navn, dato, hvorfra/hvortil, reference to an attest (certificate) | Not `EMIG`/`IMMI` — those are for crossing national borders, and a parish-to-parish move within Denmark isn't that. Use `RESI` (residence) events per parish with date ranges, or a generic `EVEN` with `TYPE Tilgang`/`TYPE Afgang` if the specific transfer detail matters |
+| Begravelse / Død (burial/death) | Navn, alder, dødsdato and/or begravelsesdato (often only one is given), sometimes dødsårsag (cause), stand/erhverv | `BURI` and/or `DEAT`, whichever date the record actually gives — don't infer one from the other without saying so. `OCCU` for stand/erhverv if stated |
+
+**A real messiness pattern to expect, not be surprised by:** baptism records for children born outside marriage historically garble the mother's identity — the ordering of parent information differs from a normal entry, and sometimes another person's name (not the actual mother) appears where the mother's name would go. Treat any such entry's parentage as `[UNVERIFIED]` until corroborated, not as a plain fact — this is exactly the kind of source-specific caveat GPS's "reliable and skillfully correlated" element (`authoring-guidelines.md` §9.5) exists to catch.
+
+---
+
 ## Version History
 
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-05 | Initial creation. GEDCOM vs. CSV comparison using real Hopp-slægt data from `external-source-hopp-herredsfoged.md`, plus a proposed (not yet built) top-level `family-tree/` location. |
 | 1.1 | 2026-08-05 | Added §4 (IDs, duplicates, unknown relations): append-only ID assignment, the never-merge-on-name-match rule, the two-tier duplicate workflow (routine ambiguity vs. well-evidenced grandfather-review candidate), and the merge-without-deleting convention. Added an Index (file now exceeds four sections). Updated references to KEJ per the human's naming preference. |
+| 1.2 | 2026-08-05 | Added §5, mapping each Danish kirkebog record type (dåb, konfirmation, vielse, tilgang/afgang, begravelse/død) to its actual GEDCOM structure (CHR/CONF/MARR/RESI-or-EVEN/BURI-DEAT), verified against Rigsarkivet and DIS-Danmark documentation rather than assumed. Answers the question of whether we're capturing enough structured detail for a later conversion, not just citation provenance. Flagged the historical illegitimate-birth parentage-garbling pattern as an expected messiness case. |

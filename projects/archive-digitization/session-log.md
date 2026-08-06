@@ -175,3 +175,30 @@ STATUS: CHECKPOINT
 Completed: Added the duplicates/IDs section to the data-structure proposal; renamed "grandfather" to "KEJ" in prose across the repo, keeping structural identifiers and historical logs untouched.
 Next: `family-tree/` and `family-tree/possible-duplicates.md` remain uncreated until real material arrives.
 Waiting for: The Boe-slægten file, or further direction.
+
+---
+
+## [HUMAN] — Turn 13 | 2026-08-05
+
+Asked three things: (1) confirm the Danish citation templates from the previous turn are actually adopted (they are); (2) a sharper question — do those templates, or the GEDCOM sketch, actually capture the structured *attributes and relationships* a kirkebog record contains, so a later format conversion doesn't require redoing the extraction — flagged explicitly because KEJ's research draws heavily on kirkebøger; (3) whether Rigsarkivet, arkiv.dk, or similar Danish institutions offer a way to submit/deposit research.
+
+---
+
+## [Claude] — Turn 14 | 2026-08-05
+
+**Gap acknowledged directly:** the citation format (§9.5) answers "where did this fact come from," not "which structured field does it go in" — those are different jobs, and only the first had been built. Verified Danish kirkebog structure and GEDCOM's tag coverage via web search rather than relying on recalled detail, given the accuracy bar this work is aiming for.
+
+Added `context/data-structure-proposal.md` §5 (1.1 → 1.2): a table mapping each kirkebog record type to its actual GEDCOM structure — dåb → `CHR` (not `BIRT`, since most entries only give a baptism date), konfirmation → `CONF`, vielse → `MARR` with witnesses as `ASSO`-linked individuals, tilgang/afgang → `RESI` or a generic `EVEN` (not `EMIG`/`IMMI`, which are for crossing national borders, not moving between Danish parishes), begravelse/død → `BURI`/`DEAT` per whichever date the record actually gives. Flagged a real, expected messiness pattern found during verification: baptism records for children born outside marriage historically garble the mother's identity — worth treating parentage as `[UNVERIFIED]` on such entries by default, not a fact to be surprised by later.
+
+**Submission avenues, researched not assumed:** Danskernes Historie Online (formerly Slægtsforskernes Bibliotek, DIS-Danmark) explicitly accepts donated family-history manuscripts and digitizes them — a strong match for KEJ's compiled chaptered works. Local archives via arkiv.dk (Sundsøre Lokalarkiv already named in the intake manifest) welcome family papers, though not every lokalarkiv feeds arkiv.dk. Rigsarkivet has a formal submission process but reads institutional/bureaucratic rather than a natural fit for a personal compilation. Recorded as a long-term, not-urgent item in `projects/system/TODO.md` — this is well beyond current scope (nothing is even triaged yet), but worth having found now rather than rediscovering later.
+
+### Session close
+
+Knowledge candidates: None — structural/research additions, not domain facts.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Closed the gap between citation format and structured data capture by mapping kirkebog record types to GEDCOM tags; researched and recorded Danish genealogy-institution submission avenues as a long-term goal.
+Next: Everything remains gated on the Boe-slægten file actually arriving.
+Waiting for: The human to resolve file access with KEJ.
