@@ -1,6 +1,6 @@
 # Routing
 
-Version 1.14 | 2026-08-05 | Production
+Version 1.15 | 2026-08-06 | Production
 
 ---
 
@@ -161,6 +161,11 @@ Apply these in every session regardless of project type or how you entered the s
 → Drop it in `temp/` — this is the designated handoff zone for transient artifacts
 → If the material produces knowledge worth keeping, promote it into the relevant domain or project output — do not leave it in temp
 
+**KEJ (or the human) has a raw file to get into the repo, especially a large one**
+→ Push it directly into `incoming/` via a normal git commit or GitHub's web upload — see `incoming/README.md`. This is the preferred path for anything an AI tool connector struggles to fetch (size caps, network policy) — the human's own upload sidesteps that entirely.
+→ Do not fetch-and-store a large file via an AI tool connector as the default path anymore — try `incoming/` first for anything of meaningful size
+→ Triage it in a subsequent session per `incoming/README.md`'s procedure: update `projects/archive-digitization/context/intake-manifest.md`, then move it to its real home (`library/deep-wells/`, a domain's `sources/`, or registry-only)
+
 **I want to start a new project**
 → Ask the human: what should it be called, and what does done look like?
 → Copy `projects/_template/` to `projects/[project-name]/`
@@ -200,3 +205,4 @@ The real *slægt* (family line) list can't be known until the source material �
 | 1.12 | 2026-08-05 | Added a Hard Constraint establishing the grandfather, not the human operating this repo, as final authority on genealogical conclusions — this repo's own discoveries/connections/inconsistencies/gaps are proposals only until he confirms them, via the new `[FLAG FOR GRANDFATHER REVIEW]` mechanism (`operating-principles.md` §5, `grandfather-review/queue.md` + `log.md`). Added a matching Quick Task Guide entry. |
 | 1.13 | 2026-08-05 | Quick Task Guide's grandfather-review entry now notes that queue entries must be written in Danish. |
 | 1.14 | 2026-08-05 | Prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference — including the `[VERIFIED: KEJ, YYYY-MM-DD]` signal value. The `grandfather-review/` folder name and `[FLAG FOR GRANDFATHER REVIEW]` tag are kept as-is — stable structural identifiers, not prose. |
+| 1.15 | 2026-08-06 | Added a Quick Task Guide entry for the new `incoming/` folder — pushing a raw file directly into the repo is now the preferred path over an AI tool connector fetch, especially for large files, after the Boe-slægten manuscript repeatedly hit a Google Drive connector's 10 MB cap plus this environment's network policy blocking direct Drive access. See `Architecture.md` §3 and `incoming/README.md`. |

@@ -1,6 +1,6 @@
 # Context Architecture — System Design
 
-Version 1.8 | 2026-08-06 | Production
+Version 1.9 | 2026-08-06 | Production
 
 ---
 
@@ -78,6 +78,9 @@ The session log only ever grows — no entries are deleted or edited after the f
         sources/                      ← Evidentiary source files — only if this domain has any
           manifest.md                 ← Registry of the raw files in this folder
 
+  incoming/                           ← Fork-specific — untriaged raw file landing zone, see §3
+    README.md                         ← How to drop files here and how they get triaged out
+
   library/                            ← Cross-domain deep-well registry — see authoring-guidelines.md §9.2
     reference-index.md                ← Registry of every deep well ever touched, stored or not
     deep-wells/                       ← Physical files for cornerstone-status deep wells only
@@ -142,6 +145,12 @@ When something discovered during a project should update the knowledge layer —
 4. Only after approval is the change committed to `knowledge/`.
 
 This gate exists because the knowledge layer is loaded by every future session. An incorrect or premature update propagates everywhere. The same gate applies, with one addition, to promoting a deep well from registry-only to physically stored in `library/deep-wells/` — the cornerstone rule (`knowledge/domains/authoring-guidelines.md` §9.3) requires explicit human confirmation before the file is stored.
+
+### Untriaged file intake — fork-specific: `incoming/`
+
+This fork adds `incoming/`, a top-level landing zone for raw files that haven't been triaged yet — not part of the generic template. It exists to solve a specific, recurring friction: pulling a large file from an external source (e.g. Google Drive) through an AI tool connector can hit that connector's own size caps and this environment's network policy, independent of anything about the file itself. Pushing the file directly into `incoming/` via a normal git commit — the human's own upload, not a tool fetch — sidesteps both, up to GitHub's own per-file limit (~100 MB without Git LFS).
+
+`incoming/` is tracked in git and durable, unlike `temp/` (§2), which is gitignored and for transient handoff material only — the two must not be confused. A file in `incoming/` is a to-do, not a permanent home: a working session triages it (checks it against `projects/archive-digitization/context/intake-manifest.md`, decides its real destination per the existing `library/deep-wells/` / `knowledge/domains/[name]/sources/` / registry-only rules) and moves it out. See `incoming/README.md` for the full procedure.
 
 ### Cross-*slægt* structural data — fork-specific: `family-tree/`
 
@@ -228,3 +237,4 @@ To fork this template for a new initiative:
 | 1.6 | 2026-08-05 | §3 noted that `grandfather-review/`'s two files are written in Danish, unlike the rest of the repo — the grandfather's English is limited and the research itself is Danish. |
 | 1.7 | 2026-08-05 | §3 prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference — including the `[VERIFIED: KEJ, YYYY-MM-DD]` signal value. The `grandfather-review/` folder name and the `[FLAG FOR GRANDFATHER REVIEW]` tag are kept as-is — stable structural identifiers, not prose. |
 | 1.8 | 2026-08-06 | Fork-specific addition: created the actual `family-tree/tree.ged` (GEDCOM) and `family-tree/possible-duplicates.md`, previously only sketched in `projects/archive-digitization/context/data-structure-proposal.md` — human confirmed the "wait for real data" threshold was passed once two full generations of Boe-slægten data were in hand. §2 file structure diagram and new §3 subsection "Cross-*slægt* structural data — fork-specific: `family-tree/`" added. |
+| 1.9 | 2026-08-06 | Fork-specific addition: created `incoming/`, a tracked (non-gitignored) landing zone for untriaged raw files, after the Boe-slægten manuscript's original `.docx` repeatedly hit a Google Drive connector's 10 MB download cap plus this environment's network policy blocking direct Drive access — pulling large files through an AI tool connector was becoming unsustainable, so the human now pushes them into the repo directly instead. §2 file structure diagram and new §3 subsection "Untriaged file intake — fork-specific: `incoming/`" added; explicitly distinguished from `temp/`, which is gitignored and for transient material only. |
