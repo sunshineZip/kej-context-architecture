@@ -3,6 +3,7 @@
 1 CHAR UTF-8
 1 GEDC
 2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
 1 NOTE Seeded 2026-08-06 from Boe-slaegten fra Mors og Fur, Kapitel 1, built incrementally as each generation/branch is read. Generations "02"-"05" fully read. Efterslaegt (descendants of generation 05, branches a-i) in progress: branches a/c/d/f/h/i (six short closed lines), b (Marie Christensen Boe) and e (Jens Christensen Boe, incl. K.K.K. Boe's line) done 2026-08-06; branch g (the largest, ~1100 lines/73+ individuals) not yet read. Source: library/reference-index.md#boe-slaegten-fra-mors-og-fur. Structure and conventions per projects/archive-digitization/context/data-structure-proposal.md.
 
 0 @I1@ INDI
