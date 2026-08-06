@@ -1,6 +1,6 @@
 # Possible Duplicates and Recurring Data-Quality Patterns
 
-Version 1.0 | 2026-08-06 | Production
+Version 1.1 | 2026-08-06 | Production
 
 ---
 
@@ -40,7 +40,13 @@ Values in the extracted text that don't reconcile with other stated facts, judge
 | B2 | Laurs Pedersen Boe (`@I5@`) | Age at 1801 folketælling | 14 | ~17 (b.1784) | `boe-slaegten-fra-mors-og-fur`, p.5-8 | Not queued — same wrong value ("14") as B1, in the same 1801 table; reads as a table-layout extraction artifact rather than two independent period-record errors |
 | B3 | Johanne Christensdatter Boe, gen 03 child "h." (`@I18@`) | Age at 1845 folketælling | 16 | ~22-23 (b.1822) | `boe-slaegten-fra-mors-og-fur`, p.9-17 | Not queued |
 
-**Reassessment trigger:** three instances of sub-pattern A and three of sub-pattern B are now logged. If a fourth instance of either sub-pattern appears during generation "04" or later reading, stop treating this as a probable tooling artifact — flag it to `grandfather-review/queue.md` instead, since a pattern this consistent stops being explainable as one-off extraction noise.
+**Sub-pattern C — a person's name/patronymic appears in a different order across two mentions in the manuscript (new, generation "04"):**
+
+| # | Individual | Field | Manuscript shows | Expected (from context) | Source | Status |
+|---|---|---|---|---|---|---|
+| C1 | Bodil Kirstine Iversdatter's father (`@I26@`'s `@F16@`) | Father's name | "Hendrik Iversen (morfar)" at a 1861 baptism | "Iver Hendriksen," per Bodil Kirstine's own 1850 marriage record | `boe-slaegten-fra-mors-og-fur`, p.18-20 | Not queued — first instance of this shape |
+
+**Reassessment trigger:** generation "04" added zero new instances of sub-pattern A or B (still three each) — the pattern didn't recur this section, which is itself informative. Sub-pattern C opens with one instance (C1) and needs at least a second occurrence of the same shape before treating it as more than an isolated slip. If a fourth instance of sub-pattern A or B, or a second of sub-pattern C, appears during generation "05" or later reading, stop treating it as a probable tooling artifact — flag it to `grandfather-review/queue.md` instead, since a pattern this consistent stops being explainable as one-off extraction noise.
 
 ---
 
@@ -49,3 +55,4 @@ Values in the extracted text that don't reconcile with other stated facts, judge
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-06 | Initial creation. Backfilled the recurring data-quality anomaly log (§2) with the six instances already found and reasoned about across `boe-slaegten-chapter1-extraction.md`'s Open Items and Version History rows during Chapter 1's read-through of generations "02"-"03" — previously scattered prose, not centrally counted. §1 (possible duplicate individuals) opened with no entries yet. Human confirmed building this file now rather than leaving the two-tier duplicate-tracking system half-built. |
+| 1.1 | 2026-08-06 | Generation "04" added no new instances of sub-patterns A/B (still three each — noted explicitly, since a pattern that stops recurring is itself worth recording). Added sub-pattern C (name/patronymic order inversion), a new shape not seen in generations "02"/"03," with its first instance. |
