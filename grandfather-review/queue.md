@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.9 | 2026-08-06 | Active
+Version 1.10 | 2026-08-06 | Active
 
 ---
 
@@ -102,6 +102,15 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 **Grundlag:** Mundtlig familietradition (én kilde, ikke skriftligt dokumenteret) mod en formel samtidig kildeangivelse i manuskriptet ("udlagt barnefader" er en juridisk betegnelse fra periodens danske børnelovgivning, ikke blot en påstand). Ingen af de to sider er krydstjekket mod en primær kirkebogs- eller retskilde her.
 **Status:** Foreslået — endnu ikke gennemgået. Kender du til, at Hannes biologiske far skulle have været en anden end Gunnar Vilhelm Carlsen? Er "Peter" i familiens erindring mon Peter Severin Nielsen (som opdragede hende, men ifølge kilden ikke var hendes far), eller er der en helt anden person, familien tænker på? Findes der en kirkebogsindførsel eller anden primærkilde, der kan af- eller bekræfte "udlagt barnefader"-angivelsen?
 
+### 11. image21.jpeg — hvem er drengen med babyen?
+
+**Kategori:** Billedidentifikation
+**Kilde:** Projekt Arkivdigitalisering, medie-manifest — se `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`, afsnittet om `image21.jpeg`
+**Fund:** Et sepiafarvet studieportræt af en dreng på ca. 9-10 år (hvid skjorte, slips) med en babypige på ca. 1 år (mønstret kjole, hæklet krave, lille korsvedhæng) på samme stol. Oprindeligt tjekket mod Hanne (f.1944) og Carlo (f.1947), men afvist — deres reelle aldersforskel er 3 år, ikke de ca. 8-9 år, billedet antyder, og billedstilen (sepiatone, kjolesnit, frisure) svarer snarere til først i 1930'erne end midt i 1940'erne.
+**Ny hypotese (opstillet på menneskets forespørgsel, 2026-08-06):** Laurids Christensen Boe og Ottine Boline Marie Pedersen (`F14`) fik elleve børn, født 1911-1930 — ikke kun Meta. Den yngste, **Edith Kristensen Boe** (f. 8.8.1930), passer bedre på babyens alder og billedets tidsperiode. To kandidater til "den store dreng", ud fra hvem der ville være 9-10 år omkring Ediths spædbarnsalder (o. 1931): **Hans Kristian Kristensen Boe** (f. 11.8.1921, bedste match) eller **Karl Alfred Christensen Boe** (f. 2.2.1920, næstbedste match).
+**Grundlag:** Direkte visuel inspektion af billedet plus fødselsårsberegning — ingen billedtekst eller anden kildehenvisning fundet. Ikke krydstjekket mod noget andet end fødselsdatoerne allerede i `family-tree/tree.ged`.
+**Status:** Foreslået — endnu ikke gennemgået. Genkender du billedet? Er det Hans Kristian eller Karl Alfred med lillesøster Edith — eller en helt anden kombination af søskende/børnebørn, vi ikke har tænkt på?
+
 ---
 
 ## Version History
@@ -118,3 +127,4 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 | 1.7 | 2026-08-06 | Added item 8: Margit Bak's death date ("Død 24.1.1916") predates her own birth (1.10.1951) by 35 years — a chronological impossibility, not merely an implausible age. Escalated per `family-tree/possible-duplicates.md`'s reassessment trigger for sub-pattern E (second instance). Found during Efterslægt branch g's second checkpoint. |
 | 1.8 | 2026-08-06 | Added item 9: Christen Pedersen Boe and Mette Jensdatter's wedding year is internally inconsistent — 1808 (Chapter 1) vs. 1810 (Chapter 3), same day/month. Found while reading Chapter 3 (Mette's own family, the Møller/miller line from Vester Vandet), which also surfaced a related son born out of wedlock with his own internally contradictory baptism/burial dates. Immediately updated with a third data point: KEJ's own handwritten master pedigree chart spanning all four chapters also shows 1810, so `tree.ged` now uses that as the better-supported value — still not treated as settled. |
 | 1.9 | 2026-08-06 | Added item 10, a new category (family tradition vs. source, not an internal manuscript inconsistency): the human's mother believes Gunnar Vilhelm Carlsen was not Hanne Boe's biological father and recalls a "Peder"/"Peter" instead. Manuscript names two candidates in Meta's life around that period (Peder Alfred Plejdrup, a pre-birth employer; Peter Severin Nielsen, the husband who raised Hanne but is explicitly stated not to be her father) — neither cleanly matches the family's memory. Raised during a live Q&A session about the family tree, not found during manuscript reading. |
+| 1.10 | 2026-08-06 | Added item 11: `image21.jpeg`'s identity — direct visual inspection plus birth-year math suggests one of Meta's older brothers (Hans Kristian or Karl Alfred Christensen Boe) holding baby sister Edith, revising an earlier ruled-out guess (Hanne + Carlo). Human explicitly asked for this to be queued rather than treated as settled. |
