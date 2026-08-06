@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.4 | 2026-08-06 | Active
+Version 1.5 | 2026-08-06 | Active
 
 ---
 
@@ -50,6 +50,8 @@ Mors/Fur line. First batch — KEJ said he'd send this to begin with.
 ## 3. Hopp-slægten
 
 Kapitel 1 (three sub-items) sending next; kapitel 2–16 to follow later.
+
+**Preview material already in hand (2026-08-06):** two images belonging to this project turned up embedded in the unrelated Boe-slægten `.docx`, extracted and preserved at `library/deep-wells/hopp-slaegten-preview-images/`. Their original filenames ("Hopp 07 kap 1 Billeder m.m\07-d-IX-1...") point at chapter/section 7 — likely tied to item "07 Lauritz Jacobsen (Saling) 1841-1920" below. Not yet visually described; not a substitute for actually receiving Kapitel 1.
 
 | Item | Version | Status |
 |---|---|---|
@@ -171,3 +173,4 @@ Local archive material — properties, individual families, and local-history to
 | 1.2 | 2026-08-06 | Boe-slægten row updated from stale "Incoming" (file had actually arrived and two generations were already read) to "In progress," reflecting the file's real receipt and read state. Added the "In progress" status to the legend — the existing four values had no term for "received and partway through section-by-section reading." |
 | 1.3 | 2026-08-06 | Boe-slægten row updated again: original `.docx` is now fully stored (previously only a text extraction), received via the new `incoming/` mechanism instead of the Google Drive connector that had been capping at 10 MB. |
 | 1.4 | 2026-08-06 | Boe-slægten row updated to "Fully read" — the entire manuscript has been extracted into `family-tree/tree.ged`. First item on this manifest to reach a terminal status. |
+| 1.5 | 2026-08-06 | Noted two Hopp-slægten preview images found embedded in the (unrelated) Boe-slægten `.docx`, now preserved at `library/deep-wells/hopp-slaegten-preview-images/`. Doesn't change this item's own "Not yet received" status — still awaiting the real manuscript. |

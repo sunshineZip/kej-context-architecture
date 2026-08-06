@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.8 | 2026-08-06 | Production
+Version 1.9 | 2026-08-06 | Production
 
 ---
 
@@ -221,13 +221,53 @@ A photograph of a granite stone reading "FRA DENNE GAARD UDGIK DEN VESTFYENSKE B
 
 A studio portrait of six children, ranging from a toddler of roughly 2-3 to a teenager of roughly 14, wearing formal 1960s clothing (bow ties, suspenders, a pearl necklace). **Direct match** to the manuscript's own caption, "o. 1962 Siddende fra venstre: Birgit, Henrik, Jan og Tage. Stående fra venstre: Gyda og Karsten" ("c.1962, seated left to right: Birgit, Henrik, Jan, and Tage. Standing left to right: Gyda and Karsten"). The six named children — Svend Tage (b.1948), Birgit (b.1949), Anna Gyda (b.1952), Karsten (b.1955), Anders Henrik (b.1957), Jan Laurids (b.1959) — span exactly the age range visible in the photo; the seventh and youngest sibling, John Harald, wasn't born until 1965 and is absent, consistent with the c.1962 date. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption match] Individuals: `@I188@`, `@I197@`, `@I208@`, `@I224@`, `@I227@`, `@I232@`.
 
-**Also checked and left unfiled:** `image32.jpeg` — a 1950s studio portrait of a young woman with glasses, no specific textual tie found to this checkpoint. `image33.jpeg` — a boy of about 5-6 holding an infant on a couch; plausibly two Boll siblings, but no confident pairing could be made among several possible sibling combinations. `image34.png` — a formal dinner-party group photo, no caption or contextual match found.
+**Checked when this checkpoint was read; now stored below rather than left unfiled** — see "Unmatched / Unclassified Images," further down: `image32.jpeg` — a 1950s studio portrait of a young woman with glasses, no specific textual tie found to this checkpoint. `image33.jpeg` — a boy of about 5-6 holding an infant on a couch; plausibly two Boll siblings, but no confident pairing could be made among several possible sibling combinations. `image34.png` — a formal dinner-party group photo, no caption or contextual match found.
+
+---
+
+## Unmatched / Unclassified Images — Extracted and Stored for Future Analysis
+
+**Added 2026-08-06, after the manuscript's own read-through was complete.** Every image checked during this project was described in this manifest at the time, but the ones that never matched a specific person or section had — until now — only that text description; the image data itself stayed inside the original `.docx`, reachable only by re-extracting it. That's a real gap against this project's own stated future use for these images (a visual presentation of the research, and eventually more advanced analysis of the photos themselves) — a photo nobody can see isn't useful for either. All fourteen images previously left unfiled are now extracted and stored here instead, so they're directly accessible without redoing the extraction. None of these are matched to a specific individual; none carry `[VERIFIED]` identification claims. Cross-referenced by their original checkpoint sections above.
+
+| File | First checked during | Description |
+|---|---|---|
+| `image7.jpeg` | Efterslægt branches a/c/d/f/h/i and b | c.1920s-30s outdoor photo of a young couple. No match found in any branch read so far. |
+| `image10.jpeg` | Efterslægt branch e | A streetscape of brick townhouses, no people. Guessed at tying to branch g's "Boegade" but never confirmed once branch g was actually read. |
+| `image12.jpeg` | Branch g checkpoint 1 | Indoor domestic scene. No match among children IV/VI/VII. |
+| `image13.jpeg` | Branch g checkpoint 1 | Period wedding portrait, 1920s style. No match among children IV/VI/VII. |
+| `image17.jpeg` | Branch g checkpoint 2 | Young man's formal portrait, 1920s-30s style. No caption or contextual match found. |
+| `image19.png` | Branch g checkpoint 3 | Family living-room scene, accordion player, "PRØVE" watermark. No match among children II/X. |
+| `image20.jpeg` | Branch g checkpoint 3 | The same young man, solo, with his accordion. Same watermark, same non-match. |
+| `image21.jpeg` | Branch g checkpoint 4 | Boy of ~9-10 with a baby girl of ~1. Age gap doesn't fit Hanne/Carlo's actual 3-year gap. |
+| `image28.jpeg` | Branch g checkpoint 4 | Young man, round glasses, 1930s-40s style. No specific tie found. |
+| `image29.jpeg` | Branch g checkpoint 4 | 1960s wedding portrait. Groom's apparent age doesn't fit a 21-year-old KEJ in 1966. |
+| `image30.jpeg` | Branch g checkpoint 4 | Traditional white-veil wedding portrait, 1940s style. No contextual link found. |
+| `image32.jpeg` | Branch g checkpoint 5 | 1950s studio portrait, young woman with glasses. No specific tie found. |
+| `image33.jpeg` | Branch g checkpoint 5 | Boy of ~5-6 holding an infant on a couch. Plausibly two Boll siblings, no confident pairing made. |
+| `image34.png` | Branch g checkpoint 5 | Formal dinner-party group photo. No caption or contextual match found. |
+
+---
+
+## Anetavler Deep-Chart Pages — Extracted and Stored, Not Individually Mined
+
+**Added 2026-08-06.** Six further pages of the Lundgaard-slægten/Fur-slægter and Degn-slægten Frammerslev/Fur pedigree charts, confirmed relevant to those appendices but deliberately not transcribed into `family-tree/tree.ged` — see the scope decision in `projects/archive-digitization/context/boe-slaegten-anetavler-kilder-extraction.md`. Extracting them now makes "available for future deeper mining" actually true, rather than only true if someone remembers to re-open the `.docx`.
+
+| File | Appendix | Content |
+|---|---|---|
+| `image41.png` | Lundgaard-slægten Fur | "KAPITEL 1A" — extends one ancestor column back to "Gravers Thomasen," documented from 1590. |
+| `image42.png` | Lundgaard-slægten Fur | "KAPITEL 1B" — the paired ancestor column, back to "Thøger Iversen" and "Johanne Mortensdatter." |
+| `image43.png` | Lundgaard-slægten Fur | "KAPITEL 2" — a third ancestor column, back to "Thomas Iversen," documented from 1614. |
+| `image44.png` | Lundgaard-slægten Fur | "KAPITEL 3"/"KAPITEL 4" — further columns for the same appendix; KAP4 largely blank in this excerpt. |
+| `image46.png` | Degn-slægten Frammerslev/Fur | "KAPITEL 4A" — extends Søren Olesen's own ancestry back to "Mikkel Nielsen," documented from o.1630. |
+| `image47.png` | Degn-slægten Frammerslev/Fur | "KAPITEL 4B" — extends Anne Jensdatter (Kobberup)'s own ancestry back to "Jens Nielsen Kobberup," documented from o.1629. |
 
 ---
 
 ## Sensitivity
 
 The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` flag — everyone in them died well over 70 years ago. That changes starting with Efterslægt: `image8`/`image9` above don't currently need the flag either (no confirmed identity, and if image8's guess is right, a 1910 marriage is not recent), but per the branch-b text extraction, several individuals in this branch (Poul and Henning Christensen Boe and their families) have no death dates and are treated as potentially living — any future image confirmed to depict them would need `[SENSITIVE]`. `image24`/`image25` (branch g checkpoint 4) depict Hanne (d.2005) and, in image25, Meta and Ottine (both long deceased) plus baby Lotta — Lotta Ann (Jakobsen) Boe is presumed living, but as an infant in the photo is not identifiable as an adult from it, so no flag needed on the image itself; her own `tree.ged` record carries `[SENSITIVE]`.
+
+**On the "Unmatched / Unclassified" batch (added 2026-08-06):** none of these fourteen images carry a `[SENSITIVE]` flag today because none carry a confirmed identity — that's a statement about certainty, not about safety. Several were checked precisely because their style/era placed them in the same checkpoints as branch g's undated, presumed-living descendants (`image17`, `image19`-`image21`, `image28`-`image30`, `image32`-`image34` all come from checkpoints 2-5, where `[SENSITIVE]` is the default in the text). If any of these is later matched to a specific person — whether by a human, or by any future automated method — that match should get the same `[SENSITIVE]` treatment as every other living-descendant fact in this repo before being used or shared further.
 
 ---
 
@@ -244,3 +284,4 @@ The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` f
 | 1.6 | 2026-08-06 | Chapter 2 (Boe-slægten, Jørsby) read — no images specific to it found; two checked (image35, image36) turned out to belong to Chapter 3 (Vester Vandet) instead, based on content (both depict that location by name), and are deferred there. |
 | 1.7 | 2026-08-06 | Chapter 3 (Boe-slægten, Vester Vandet) read — image35 and image36 confirmed and filed here (Klitmøller/Vester Vandet map, Vestermølle cadastral map). Found image37, KEJ's own handwritten master pedigree chart spanning all four chapters — used to help resolve a wedding-date contradiction found in Chapter 3's own text (see `grandfather-review/queue.md` item 9). |
 | 1.8 | 2026-08-06 | Anetavler read in full. Discovered the Søgaard-slægten, Lundgaard-slægten/Fur-slægter, and Degn-slægten Frammerslev/Fur appendices exist only as hand-drawn pedigree charts, not prose text. Filed image38/39 (Søgaard-slægten), image40 (Lundgaard-slægten direct line), image45 (Degn-slægten direct line), and image48 (Helnæs stone, Fyn-slægten Boe). All 48 real embedded images have now been checked at least once. |
+| 1.9 | 2026-08-06 | Human raised the risk that unfiled images, described only in text, would never be revisited without a fresh `.docx` extraction. Extracted and stored all 14 remaining "checked but unmatched" images and the 6 further Anetavler deep-chart pages, closing that gap — 45 of 48 images now physically stored (the 3 not stored are a confirmed exact duplicate, image18, and two images that belong to a different manuscript entirely, image26/image27, moved to `library/deep-wells/hopp-slaegten-preview-images/` instead). |
