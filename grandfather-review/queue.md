@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.7 | 2026-08-06 | Active
+Version 1.8 | 2026-08-06 | Active
 
 ---
 
@@ -85,6 +85,15 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 **Grundlag:** Intern sammenligning mellem Margit Baks egen fødselsdato og den angivne dødsdato, begge inden for samme manuskript — ikke en sammenligning mod en ekstern kilde.
 **Status:** Foreslået — endnu ikke gennemgået. Er "1916" en fejlskrivning af et andet årstal (f.eks. en fejllæsning eller -indtastning af et 19xx-tal, i familie med sub-mønster A's øvrige tilfælde), eller mangler der reelt en dødsdato for Margit Bak, som "24.1.1916" ikke burde stå i stedet for? Er hun i live på nuværende tidspunkt?
 
+### 9. Christen Pedersen Boe og Mette Jensdatters vielsesår — 1808 eller 1810
+
+**Kategori:** Uoverensstemmelse
+**Kilde:** Projekt Arkivdigitalisering, "Boe-slægten fra Mors og Fur", Kapitel 1 (generation "03") og Kapitel 3 (Boe-slægten, Vester Vandet — Mette Jensdatters egen slægt) (2026-08-06)
+**Fund:** Kapitel 1's egen indførsel for Christen Pedersen Boe og Mette Jensdatters vielse angiver "Trolovet 8.9., viet 19.10." 1808. Men Kapitel 3's afsnit om Mette Jensdatters egen familie (Møller-slægten fra Vester Vandet) angiver eksplicit "Gift 19.10.1810 i Jørsby kirke med Christen Pedersen Boe" — samme dag og måned (19. oktober), men to år forskel (1808 mod 1810). Et beslægtet fund i samme passage: Mette havde en søn uden for ægteskab, Jens Thomasen, hvis dåbsdato (9.7.1810) og begravelsesdato (14.7.1809) i kilden også er indbyrdes modstridende (en begravelse kan ikke ligge før dåben) — muligvis et tegn på, at flere datoer omkring denne periode i Mettes liv er forvekslet i kilden.
+**Opdatering (2026-08-06):** en tredje kilde fundet — KEJ's eget håndskrevne stamtræsoverblik, der spænder over alle fire kapitler i ét diagram (`image37.png`), viser også "19.10.1810 JØRSBY" for denne vielse. To af tre kilder (inkl. det, der ligner KEJ's eget primære arbejdsdokument, hvorfra manuskriptets prosa formentlig er udarbejdet) peger nu på 1810 frem for 1808. `family-tree/tree.ged` er opdateret til at bruge 19.10.1810 som bedst understøttet, men dette behandles stadig ikke som endeligt afgjort.
+**Grundlag:** Sammenligning af tre angivelser inden for samme manuskript (Kapitel 1's egen indledning til generation "03", Kapitel 3's selvstændige omtale af samme vielse, og KEJ's eget håndskrevne stamtræsdiagram) — ikke en sammenligning mod en ekstern kilde.
+**Status:** Foreslået — endnu ikke gennemgået. To af tre kilder peger nu på 1810 — er Kapitel 1's "1808" en fejl i selve prosateksten? Og hænger det sammen med de indbyrdes modstridende datoer for Jens Thomasens dåb/begravelse (9.7.1810 vs. 14.7.1809)?
+
 ---
 
 ## Version History
@@ -99,3 +108,4 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 | 1.5 | 2026-08-06 | Updated item 5 with a third data point found during the Efterslægt read-through: Else Marie's own individual entry gives an exact date, 4.6.1894, agreeing with the Aneoversigt table against the "o.1900" narrative mention. Still not treated as settled — appended as new evidence, not a resolution. |
 | 1.6 | 2026-08-06 | Added item 6 (Laurids and Ottine's wedding date internally inconsistent, 27.2.1915 vs 27.3.1914) and item 7 (three instances of correctly-named branch-g individuals mislabeled with the wrong roman-numeral sibling reference, escalated per `family-tree/possible-duplicates.md`'s own reassessment trigger for sub-pattern D). Both found during Efterslægt branch g's first checkpoint. |
 | 1.7 | 2026-08-06 | Added item 8: Margit Bak's death date ("Død 24.1.1916") predates her own birth (1.10.1951) by 35 years — a chronological impossibility, not merely an implausible age. Escalated per `family-tree/possible-duplicates.md`'s reassessment trigger for sub-pattern E (second instance). Found during Efterslægt branch g's second checkpoint. |
+| 1.8 | 2026-08-06 | Added item 9: Christen Pedersen Boe and Mette Jensdatter's wedding year is internally inconsistent — 1808 (Chapter 1) vs. 1810 (Chapter 3), same day/month. Found while reading Chapter 3 (Mette's own family, the Møller/miller line from Vester Vandet), which also surfaced a related son born out of wedlock with his own internally contradictory baptism/burial dates. Immediately updated with a third data point: KEJ's own handwritten master pedigree chart spanning all four chapters also shows 1810, so `tree.ged` now uses that as the better-supported value — still not treated as settled. |
