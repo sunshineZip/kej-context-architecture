@@ -202,3 +202,28 @@ STATUS: CHECKPOINT
 Completed: Closed the gap between citation format and structured data capture by mapping kirkebog record types to GEDCOM tags; researched and recorded Danish genealogy-institution submission avenues as a long-term goal.
 Next: Everything remains gated on the Boe-slægten file actually arriving.
 Waiting for: The human to resolve file access with KEJ.
+
+---
+
+## [HUMAN] — Turn 15 | 2026-08-05
+
+Got the Boe-slægten fra Mors og Fur.docx file at last, and wants to read through it chapter by chapter (4 chapters), checking in between each rather than processing it all at once. Asked whether KEJ's original-format compiled manuscripts should be stored in the repo. The file was too large to upload to this web session, so continuing in a local VS Code + GitHub Copilot session against the same repo instead — asked for a handoff prompt covering what that session needs to know.
+
+---
+
+## [Claude] — Turn 16 | 2026-08-05
+
+Recommended storing KEJ's original compiled manuscripts as `library/` deep wells rather than per-domain `sources/` — a multi-chapter manuscript is "large, mined incrementally, possibly relevant to more than one domain," not a small atomic evidentiary item — pending the human's explicit cornerstone confirmation once the file is actually in hand (`authoring-guidelines.md` §9.3), and a file-size check against GitHub's ~100MB limit (Git LFS if it's large because of embedded scans).
+
+No file processing happened this turn — the actual document never reached this session. Wrote a handoff prompt for the VS Code + Copilot continuation rather than duplicating this session's full history into it: the repo's own `session-log.md`/`TODO.md`/context files already are the persistent record (that's their whole purpose), and `ROUTING.md` loads automatically there via `.github/copilot-instructions.md`, so the prompt only needs to state the immediate task and the two things not yet fully resolved (storage format, no premature domain creation) rather than re-deriving everything already written down.
+
+### Session close
+
+Knowledge candidates: None — handoff logistics, not a domain fact.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Logged the handoff to a local VS Code + Copilot session; gave a storage-format recommendation pending confirmation once the file is actually accessible.
+Next: Chapter-by-chapter read-through of Boe-slægten fra Mors og Fur.docx, one chapter at a time with a check-in between each, continuing in the local session.
+Waiting for: The human to continue in VS Code + Copilot.
