@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.4 | 2026-08-06 | Production
+Version 1.5 | 2026-08-06 | Production
 
 ---
 
@@ -151,6 +151,20 @@ A formal couple portrait: an older, balding groom in a dark suit with a boutonni
 
 ---
 
+## Images: Efterslægt Branch g, Checkpoint 5 (Child VIII — Karen Kristensen Boe / the Boll family)
+
+| File | KEJ's filename | Position | Type |
+|---|---|---|---|
+| image31.jpeg | Boe A100_NEW.jpg | Branch g child "VIII" (confirmed) | Photo, six children group portrait |
+
+### image31.jpeg — Confirmed: the six eldest Boll children, c.1962
+
+A studio portrait of six children, ranging from a toddler of roughly 2-3 to a teenager of roughly 14, wearing formal 1960s clothing (bow ties, suspenders, a pearl necklace). **Direct match** to the manuscript's own caption, "o. 1962 Siddende fra venstre: Birgit, Henrik, Jan og Tage. Stående fra venstre: Gyda og Karsten" ("c.1962, seated left to right: Birgit, Henrik, Jan, and Tage. Standing left to right: Gyda and Karsten"). The six named children — Svend Tage (b.1948), Birgit (b.1949), Anna Gyda (b.1952), Karsten (b.1955), Anders Henrik (b.1957), Jan Laurids (b.1959) — span exactly the age range visible in the photo; the seventh and youngest sibling, John Harald, wasn't born until 1965 and is absent, consistent with the c.1962 date. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption match] Individuals: `@I188@`, `@I197@`, `@I208@`, `@I224@`, `@I227@`, `@I232@`.
+
+**Also checked and left unfiled:** `image32.jpeg` — a 1950s studio portrait of a young woman with glasses, no specific textual tie found to this checkpoint. `image33.jpeg` — a boy of about 5-6 holding an infant on a couch; plausibly two Boll siblings, but no confident pairing could be made among several possible sibling combinations. `image34.png` — a formal dinner-party group photo, no caption or contextual match found.
+
+---
+
 ## Sensitivity
 
 The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` flag — everyone in them died well over 70 years ago. That changes starting with Efterslægt: `image8`/`image9` above don't currently need the flag either (no confirmed identity, and if image8's guess is right, a 1910 marriage is not recent), but per the branch-b text extraction, several individuals in this branch (Poul and Henning Christensen Boe and their families) have no death dates and are treated as potentially living — any future image confirmed to depict them would need `[SENSITIVE]`. `image24`/`image25` (branch g checkpoint 4) depict Hanne (d.2005) and, in image25, Meta and Ottine (both long deceased) plus baby Lotta — Lotta Ann (Jakobsen) Boe is presumed living, but as an infant in the photo is not identifiable as an adult from it, so no flag needed on the image itself; her own `tree.ged` record carries `[SENSITIVE]`.
@@ -166,3 +180,4 @@ The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` f
 | 1.2 | 2026-08-06 | Added image for Efterslægt branch e: a family portrait (image11) plausibly matching Jens Christensen Boe's young family c.1920, based on composition and timing. Noted image10 (a streetscape) as a candidate deferred to branch g, once read. |
 | 1.3 | 2026-08-06 | Branch g checkpoint 3 (children II/X): two more images checked (image19, image20 — a family accordion-player scene and a solo portrait of the same young man), neither matched anyone in this checkpoint; both left unfiled. No new images stored this checkpoint. |
 | 1.4 | 2026-08-06 | Branch g checkpoint 4 (child III, Meta Kristine Kristensen Boe): two confirmed matches via direct caption text (image24, image25) and two plausible-but-unconfirmed additions (image22, image23). Three more images checked and left unfiled (image21, image29, image30). |
+| 1.5 | 2026-08-06 | Branch g checkpoint 5 (child VIII, Karen Kristensen Boe / the Boll family — the final checkpoint of branch g and Efterslægt): one confirmed match via direct caption text (image31, a six-children group portrait c.1962). Three more images checked and left unfiled (image32, image33, image34). |

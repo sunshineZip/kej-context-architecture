@@ -1718,6 +1718,509 @@
 1 CHIL @I183@
 1 CHIL @I184@
 
+0 @I186@ INDI
+1 NAME Karen Kristensen /Boe/
+1 SEX F
+1 BIRT
+2 DATE 23 MAY 1925
+2 PLAC Skive sygehus, Danmark
+1 DEAT
+2 DATE 21 SEP 2012
+2 PLAC Durup, Danmark
+1 OCCU Husassistent (før ægteskab)
+1 FAMC @F14@
+1 FAMS @F71@
+1 NOTE Barn "VIII." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Faddere: moderen, enke Mariane Stengaard, gartner Hans Simonsen i Skive, og faderen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I187@ INDI
+1 NAME Arne Frandsen /Boll/
+1 SEX M
+1 BIRT
+2 DATE 22 JUN 1917
+2 PLAC Oustrup, Mors, Danmark
+1 DEAT
+2 DATE 26 DEC 1991
+1 OCCU Boelsmand, senere gårdejer, Tøndering
+1 FAMS @F71@
+1 NOTE Søn af gårdejer Aage Boll og hustru Else Thomine Marie Frandsen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I188@ INDI
+1 NAME Living /Boll/
+1 SEX M
+1 BIRT
+2 DATE 1948
+1 FAMC @F71@
+1 FAMS @F72@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I188 (kraever adgang til den private modul-repo).
+0 @I189@ INDI
+1 NAME Living /Sørensen/
+1 SEX F
+1 FAMS @F72@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I189 (kraever adgang til den private modul-repo).
+0 @I190@ INDI
+1 NAME Living /Boll/
+1 SEX M
+1 BIRT
+2 DATE 1977
+1 FAMC @F72@
+1 FAMS @F73@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I190 (kraever adgang til den private modul-repo).
+0 @I191@ INDI
+1 NAME Living /?/
+1 SEX F
+1 FAMS @F73@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I191 (kraever adgang til den private modul-repo).
+0 @I192@ INDI
+1 NAME Living /Boll/
+1 SEX F
+1 FAMC @F73@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I192 (kraever adgang til den private modul-repo).
+0 @I193@ INDI
+1 NAME Living /Boll/
+1 SEX F
+1 BIRT
+2 DATE 1978
+1 FAMC @F72@
+1 FAMS @F74@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I193 (kraever adgang til den private modul-repo).
+0 @I194@ INDI
+1 NAME Living /?/
+1 SEX M
+1 FAMS @F74@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I194 (kraever adgang til den private modul-repo).
+0 @I195@ INDI
+1 NAME Living /?/
+1 SEX M
+1 FAMC @F74@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I195 (kraever adgang til den private modul-repo).
+0 @I196@ INDI
+1 NAME Living /?/
+1 SEX M
+1 FAMC @F74@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I196 (kraever adgang til den private modul-repo).
+0 @I197@ INDI
+1 NAME Birgit /Boll/
+1 SEX F
+1 BIRT
+2 DATE 21 APR 1949
+2 PLAC Tøndering, Danmark
+1 DEAT
+2 DATE 8 DEC 2004
+2 PLAC Silkeborg sygehus, Danmark
+1 OCCU Uddannet i forretning
+1 FAMC @F71@
+1 FAMS @F75@
+1 NOTE Barn "2." af Karen og Arne. Faddere, korrekt mærkede: forældrene; landmand Harald Boll i Nøreng (farbror); landmand Anders Boll i Nøreng (farbror); kontorassistent Krista Boe, Aagade i Skive (moster = IX.) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I198@ INDI
+1 NAME Living /Vestergård/
+1 SEX M
+1 BIRT
+2 DATE 1947
+1 FAMS @F75@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I198 (kraever adgang til den private modul-repo).
+0 @I199@ INDI
+1 NAME Living /Vestergård/
+1 SEX F
+1 BIRT
+2 DATE 1976
+1 FAMC @F75@
+1 FAMS @F76@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I199 (kraever adgang til den private modul-repo).
+0 @I200@ INDI
+1 NAME Living /Damsgaard/
+1 SEX M
+1 FAMS @F76@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I200 (kraever adgang til den private modul-repo).
+0 @I201@ INDI
+1 NAME Living /Damsgaard/
+1 SEX F
+1 BIRT
+2 DATE 2005
+1 FAMC @F76@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I201 (kraever adgang til den private modul-repo).
+0 @I202@ INDI
+1 NAME Living /Damsgaard/
+1 SEX M
+1 BIRT
+2 DATE 2010
+1 FAMC @F76@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I202 (kraever adgang til den private modul-repo).
+0 @I203@ INDI
+1 NAME Living /Vestergård/
+1 SEX M
+1 BIRT
+2 DATE 1979
+1 FAMC @F75@
+1 FAMS @F77@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I203 (kraever adgang til den private modul-repo).
+0 @I204@ INDI
+1 NAME Living /Lydiger/
+1 SEX F
+1 FAMS @F77@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I204 (kraever adgang til den private modul-repo).
+0 @I205@ INDI
+1 NAME Living /Vestergaard/
+1 SEX F
+1 BIRT
+2 DATE 2018
+1 FAMC @F77@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I205 (kraever adgang til den private modul-repo).
+0 @I206@ INDI
+1 NAME Marie Boll /Vestergaard/
+1 SEX F
+1 BIRT
+2 DATE 1983
+2 PLAC Roslev, Danmark
+1 DEAT
+2 DATE 1983
+2 PLAC Grønning, Danmark
+1 FAMC @F75@
+1 NOTE Barn "c/" af Birgit og Erik. Spædbarnsdød, samme år som fødslen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I207@ INDI
+1 NAME Annie Boll /Vestergaard/
+1 SEX F
+1 BIRT
+2 DATE 1985
+2 PLAC Roslev, Danmark
+1 DEAT
+2 DATE 30 JAN 2012
+2 PLAC Hospice Djursland, Danmark
+1 FAMC @F75@
+1 NOTE Barn "d/" af Birgit og Erik. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+
+0 @I208@ INDI
+1 NAME Living /Boll/
+1 SEX F
+1 BIRT
+2 DATE 1952
+1 FAMC @F71@
+1 FAMS @F78@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I208 (kraever adgang til den private modul-repo).
+0 @I209@ INDI
+1 NAME Living /Pedersen/
+1 SEX M
+1 FAMS @F78@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I209 (kraever adgang til den private modul-repo).
+0 @I210@ INDI
+1 NAME Living /Pedersen/
+1 SEX F
+1 BIRT
+2 DATE 1975
+1 FAMC @F78@
+1 FAMS @F79@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I210 (kraever adgang til den private modul-repo).
+0 @I211@ INDI
+1 NAME Living /Rasmussen/
+1 SEX M
+1 FAMS @F79@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I211 (kraever adgang til den private modul-repo).
+0 @I212@ INDI
+1 NAME Living /Rasmussen/
+1 SEX F
+1 BIRT
+2 DATE 1998
+1 FAMC @F79@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I212 (kraever adgang til den private modul-repo).
+0 @I213@ INDI
+1 NAME Living /Rasmussen/
+1 SEX F
+1 BIRT
+2 DATE 2000
+1 FAMC @F79@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I213 (kraever adgang til den private modul-repo).
+0 @I214@ INDI
+1 NAME Living /Rasmussen/
+1 SEX M
+1 BIRT
+2 DATE 2006
+1 FAMC @F79@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I214 (kraever adgang til den private modul-repo).
+0 @I215@ INDI
+1 NAME Living /Pedersen/
+1 SEX F
+1 BIRT
+2 DATE 1976
+1 FAMC @F78@
+1 FAMS @F80@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I215 (kraever adgang til den private modul-repo).
+0 @I216@ INDI
+1 NAME Living /Tingholm/
+1 SEX M
+1 FAMS @F80@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I216 (kraever adgang til den private modul-repo).
+0 @I217@ INDI
+1 NAME Living /?/
+1 SEX F
+1 BIRT
+2 DATE 2004
+1 FAMC @F80@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I217 (kraever adgang til den private modul-repo).
+0 @I218@ INDI
+1 NAME Living /?/
+1 SEX F
+1 BIRT
+2 DATE 2005
+1 FAMC @F80@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I218 (kraever adgang til den private modul-repo).
+0 @I219@ INDI
+1 NAME Living /?/
+1 SEX F
+1 BIRT
+2 DATE 2008
+1 FAMC @F80@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I219 (kraever adgang til den private modul-repo).
+0 @I220@ INDI
+1 NAME Living /Pedersen/
+1 SEX M
+1 BIRT
+2 DATE 1982
+1 FAMC @F78@
+1 FAMS @F81@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I220 (kraever adgang til den private modul-repo).
+0 @I221@ INDI
+1 NAME Living /Korntved/
+1 SEX F
+1 FAMS @F81@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I221 (kraever adgang til den private modul-repo).
+0 @I222@ INDI
+1 NAME Living /?/
+1 SEX M
+1 BIRT
+2 DATE 2014
+1 FAMC @F81@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I222 (kraever adgang til den private modul-repo).
+0 @I223@ INDI
+1 NAME Living /?/
+1 SEX M
+1 BIRT
+2 DATE 2016
+1 FAMC @F81@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I223 (kraever adgang til den private modul-repo).
+0 @I224@ INDI
+1 NAME Living /Boll/
+1 SEX M
+1 BIRT
+2 DATE 1955
+1 FAMC @F71@
+1 FAMS @F82@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I224 (kraever adgang til den private modul-repo).
+0 @I225@ INDI
+1 NAME Living /Jørgensen/
+1 SEX F
+1 FAMS @F82@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I225 (kraever adgang til den private modul-repo).
+0 @I226@ INDI
+1 NAME Living /Boll/
+1 SEX F
+1 FAMC @F82@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I226 (kraever adgang til den private modul-repo).
+0 @I227@ INDI
+1 NAME Living /Boll/
+1 SEX M
+1 BIRT
+2 DATE 1957
+1 FAMC @F71@
+1 FAMS @F83@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I227 (kraever adgang til den private modul-repo).
+0 @I228@ INDI
+1 NAME Living /?/
+1 SEX F
+1 FAMS @F83@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I228 (kraever adgang til den private modul-repo).
+0 @I229@ INDI
+1 NAME Living /Boll/
+1 SEX F
+1 FAMC @F83@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I229 (kraever adgang til den private modul-repo).
+0 @I230@ INDI
+1 NAME Living /Boll/
+1 SEX M
+1 FAMC @F83@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I230 (kraever adgang til den private modul-repo).
+0 @I231@ INDI
+1 NAME Living /Boll/
+1 SEX F
+1 FAMC @F83@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I231 (kraever adgang til den private modul-repo).
+0 @I232@ INDI
+1 NAME Living /Boll/
+1 SEX M
+1 BIRT
+2 DATE 1959
+1 FAMC @F71@
+1 FAMS @F84@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I232 (kraever adgang til den private modul-repo).
+0 @I233@ INDI
+1 NAME Living /Jørgensen/
+1 SEX F
+1 FAMS @F84@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I233 (kraever adgang til den private modul-repo).
+0 @I234@ INDI
+1 NAME Living /Boll/
+1 SEX F
+1 FAMC @F84@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I234 (kraever adgang til den private modul-repo).
+0 @I235@ INDI
+1 NAME Living /Boll/
+1 SEX M
+1 FAMC @F84@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I235 (kraever adgang til den private modul-repo).
+0 @I236@ INDI
+1 NAME Living /Boll/
+1 SEX M
+1 BIRT
+2 DATE 1965
+1 FAMC @F71@
+1 FAMS @F85@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I236 (kraever adgang til den private modul-repo).
+0 @I237@ INDI
+1 NAME Living /Bodilsen/
+1 SEX F
+1 FAMS @F85@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I237 (kraever adgang til den private modul-repo).
+0 @I238@ INDI
+1 NAME Living /Boll/
+1 SEX F
+1 FAMC @F85@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I238 (kraever adgang til den private modul-repo).
+0 @I239@ INDI
+1 NAME Living /Boll/
+1 SEX M
+1 FAMC @F85@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I239 (kraever adgang til den private modul-repo).
+0 @I240@ INDI
+1 NAME Living /Boll/
+1 SEX F
+1 FAMC @F85@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I240 (kraever adgang til den private modul-repo).
+0 @F71@ FAM
+1 HUSB @I187@
+1 WIFE @I186@
+1 MARR
+2 DATE 5 JUN 1947
+2 PLAC Durup kirke, Danmark
+1 CHIL @I188@
+1 CHIL @I197@
+1 CHIL @I208@
+1 CHIL @I224@
+1 CHIL @I227@
+1 CHIL @I232@
+1 CHIL @I236@
+1 NOTE Syv børn ("1."-"7."). Foto: gruppebillede af de seks ældste børn o.1962 (John Harald endnu ikke født) — se library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image31.jpeg, bekræftet mod kildens egen billedtekst.
+
+0 @F72@ FAM
+1 HUSB @I188@
+1 WIFE @I189@
+1 MARR
+2 DATE 1974
+1 CHIL @I190@
+1 CHIL @I193@
+
+0 @F73@ FAM
+1 HUSB @I190@
+1 WIFE @I191@
+1 CHIL @I192@
+
+0 @F74@ FAM
+1 HUSB @I194@
+1 WIFE @I193@
+1 CHIL @I195@
+1 CHIL @I196@
+
+0 @F75@ FAM
+1 HUSB @I198@
+1 WIFE @I197@
+1 MARR
+2 DATE 1973
+1 CHIL @I199@
+1 CHIL @I203@
+1 CHIL @I206@
+1 CHIL @I207@
+1 NOTE Ægteskabet opløst 2000, hvorefter Birgit flyttede til Kappelsdal.
+
+0 @F76@ FAM
+1 HUSB @I200@
+1 WIFE @I199@
+1 MARR
+2 DATE 2007
+2 PLAC Vamdrup kirke, Danmark
+1 CHIL @I201@
+1 CHIL @I202@
+1 NOTE Ægteskabet opløst 2016.
+
+0 @F77@ FAM
+1 HUSB @I203@
+1 WIFE @I204@
+1 CHIL @I205@
+1 NOTE Ikke et ægteskab (kæreste fra 2018).
+
+0 @F78@ FAM
+1 HUSB @I209@
+1 WIFE @I208@
+1 CHIL @I210@
+1 CHIL @I215@
+1 CHIL @I220@
+
+0 @F79@ FAM
+1 HUSB @I211@
+1 WIFE @I210@
+1 MARR
+2 DATE 2004
+2 PLAC Selde kirke, Danmark
+1 CHIL @I212@
+1 CHIL @I213@
+1 CHIL @I214@
+1 NOTE Kildens egen dato ("Gift 29..2004") mangler tilsyneladende månedstallet — dagen (29.) er læselig, men måneden ikke; kun årstal registreret her.
+
+0 @F80@ FAM
+1 HUSB @I216@
+1 WIFE @I215@
+1 MARR
+2 DATE 16 AUG 2003
+2 PLAC Selde, Danmark
+1 CHIL @I217@
+1 CHIL @I218@
+1 CHIL @I219@
+
+0 @F81@ FAM
+1 HUSB @I220@
+1 WIFE @I221@
+1 MARR
+2 DATE 31 MAY 2014
+2 PLAC Viborg gl. Rådhus, Danmark
+1 CHIL @I222@
+1 CHIL @I223@
+
+0 @F82@ FAM
+1 HUSB @I224@
+1 WIFE @I225@
+1 MARR
+2 DATE 4 OCT 1980
+2 PLAC Roslev, Danmark
+1 CHIL @I226@
+
+0 @F83@ FAM
+1 HUSB @I227@
+1 WIFE @I228@
+1 CHIL @I229@
+1 CHIL @I230@
+1 CHIL @I231@
+
+0 @F84@ FAM
+1 HUSB @I232@
+1 WIFE @I233@
+1 CHIL @I234@
+1 CHIL @I235@
+
+0 @F85@ FAM
+1 HUSB @I236@
+1 WIFE @I237@
+1 CHIL @I238@
+1 CHIL @I239@
+1 CHIL @I240@
+
 0 @F42@ FAM
 1 HUSB @I108@
 1 WIFE @I107@
@@ -2040,6 +2543,7 @@
 1 CHIL @I122@
 1 CHIL @I138@
 1 CHIL @I163@
-1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet; ti ("I.", "II.", "III.", "IV.", "V.", "VI.", "VII.", "IX.", "X.", "XI.") tilføjet her indtil videre — kun "VIII." mangler nu. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (@I107@) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
+1 CHIL @I186@
+1 NOTE Elleve børn ("I."-"XI.") ifølge manuskriptet — alle elleve nu tilføjet her, Efterslægten for branch g er fuldt læst. **Ægteskabsdatoen selv er internt uoverensstemmende** — denne post bruger 27.2.1915 (angivet direkte i afsnittets egen indledning), men barn "I."s (@I107@) egen fødselsindførsel angiver "Viede 27/3.1914" for samme vielse. Ikke afgjort her — se grandfather-review/queue.md #6.
 
 0 TRLR
