@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.9 | 2026-08-06 | Production
+Version 1.10 | 2026-08-06 | Production
 
 ---
 
@@ -130,6 +130,8 @@ No images stored from this checkpoint — both checked candidates were left unfi
 | image25.jpeg | Boe B38_NEW.jpg | Branch g child "III" (confirmed) | Photo, four generations |
 | image22.jpeg | Boe B29B_NEW.jpg | Branch g child "III" (plausible) | Photo, young woman portrait |
 | image23.jpeg | Boe B23_NEW.jpg | Branch g child "III" (plausible) | Photo, wedding portrait |
+| image26.jpeg | (embedded under a Hopp-slægter folder path — see note) | Branch g child "III" (confirmed by family) | Photo, Hanne Boe and Knud Erik Jakobsen |
+| image27.png | (embedded under a Hopp-slægter folder path — see note) | Branch g child "III" (confirmed by family) | Photo, family group, August 1995 |
 
 ### image24.jpeg — Confirmed: Hanne and Carlo in the garden at Brunshåb
 
@@ -148,6 +150,14 @@ A close studio portrait of a young woman, 1930s hairstyle and collar. **Not conf
 A formal couple portrait: an older, balding groom in a dark suit with a boutonnière, and a younger bride in a dark dress (not white) holding a bouquet — a style consistent with a more modest 1940s wartime/postwar wedding, and with the bride not being a first-time teenage bride. Peter Severin Nielsen was a 48-year-old widower when he married the 28-year-old Meta in 1946; the apparent age gap and era fit this description well. **Not confirmed.** `[UNVERIFIED: AI visual description, identity unconfirmed]`
 
 **Also checked and left unfiled:** `image21.jpeg` — a studio portrait of a boy (roughly 9-10) with a baby girl (roughly 1) — the apparent age gap (~8-9 years) doesn't fit Hanne and Carlo's actual 3-year gap well, so left unmatched rather than forced. `image29.jpeg` — a 1960s wedding portrait; the groom's apparent age (mid-30s to 40s, based on hairline) doesn't fit a 21-year-old Knud Erik Jakobsen in 1966, so not treated as Hanne and KEJ's own wedding photo despite the tempting date range. `image30.jpeg` — a traditional white-veil wedding portrait of a young couple, 1940s style; no contextual link found to anyone in this checkpoint.
+
+### image26.jpeg — Confirmed by family: Hanne Boe and Knud Erik Jakobsen (KEJ)
+
+A photo of Hanne Boe (`@I167@`) and Knud Erik Jakobsen (`@I168@`) together — the manuscript's own author, and his former wife. **Not identified by this project's own visual inspection or the manuscript's captions** — this image was initially mis-sorted as belonging to KEJ's separate Hopp-slægten project, based solely on its embedded original file path ("...Hopp-slægter\Hopp A kapitel 1\...\07-d-IX-1 3.jpg"), and briefly stored outside this deep well as a result. The human corrected this directly (2026-08-06) and identified both people by name. The mismatch between the embedded folder path and the actual photo content is unexplained — possibly an incidental mixing of personal and project photos during KEJ's own scanning/filing — but the human's direct identification is authoritative here, over both the file metadata and any AI visual read. [VERIFIED: familieidentifikation, 2026-08-06] Individuals: `@I167@`, `@I168@`. `[SENSITIVE]` — Knud Erik Jakobsen has no death date on record (manuscript's own author, presumed living).
+
+### image27.png — Confirmed by family: group photo, August 1995
+
+Seven people: Bruno Dølby (`@I170@`, standing), Gitte Boe (`@I174@`), Tommy Krogh (`@I175@`), Lotta Ann (`@I169@`), Cecilie Boe (`@I181@`, toddler), Nikolaj Boe (`@I177@`, young boy, standing), and Astrid Kirk (seated on the ground) — identified directly by the human (2026-08-06). Same original mis-sorting as `image26.jpeg` above, for the same reason (embedded Hopp-slægter folder path), corrected the same way. **Astrid Kirk is not currently modeled as an individual in `family-tree/tree.ged`** — her name is known but her relationship to the family (if any — she may be a friend rather than a relative) has not been confirmed, so no `FAMC`/`FAMS` link has been guessed. [VERIFIED: familieidentifikation, 2026-08-06] Individuals: `@I169@`, `@I170@`, `@I174@`, `@I175@`, `@I177@`, `@I181@`. `[SENSITIVE]` — all six identified Boe/Krogh/Dølby individuals are presumed living; treat this image accordingly if it's ever used outside this repo.
 
 ---
 
@@ -285,3 +295,4 @@ The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` f
 | 1.7 | 2026-08-06 | Chapter 3 (Boe-slægten, Vester Vandet) read — image35 and image36 confirmed and filed here (Klitmøller/Vester Vandet map, Vestermølle cadastral map). Found image37, KEJ's own handwritten master pedigree chart spanning all four chapters — used to help resolve a wedding-date contradiction found in Chapter 3's own text (see `grandfather-review/queue.md` item 9). |
 | 1.8 | 2026-08-06 | Anetavler read in full. Discovered the Søgaard-slægten, Lundgaard-slægten/Fur-slægter, and Degn-slægten Frammerslev/Fur appendices exist only as hand-drawn pedigree charts, not prose text. Filed image38/39 (Søgaard-slægten), image40 (Lundgaard-slægten direct line), image45 (Degn-slægten direct line), and image48 (Helnæs stone, Fyn-slægten Boe). All 48 real embedded images have now been checked at least once. |
 | 1.9 | 2026-08-06 | Human raised the risk that unfiled images, described only in text, would never be revisited without a fresh `.docx` extraction. Extracted and stored all 14 remaining "checked but unmatched" images and the 6 further Anetavler deep-chart pages, closing that gap — 45 of 48 images now physically stored (the 3 not stored are a confirmed exact duplicate, image18, and two images that belong to a different manuscript entirely, image26/image27, moved to `library/deep-wells/hopp-slaegten-preview-images/` instead). |
+| 1.10 | 2026-08-06 | **Correction:** image26/image27 do NOT belong to Hopp-slægten — the human identified both directly: image26 shows Hanne Boe and Knud Erik Jakobsen (the manuscript's own author) together; image27 is a family group photo, August 1995, with Bruno Dølby, Gitte Boe, Tommy Krogh, Lotta Ann, Cecilie Boe, Nikolaj Boe, and Astrid Kirk (not yet linked in `tree.ged`). Both moved back into this deep well's own media folder; the Hopp-slægten preview folder created for them has been removed. 47 of 48 images now physically stored — only the confirmed duplicate, image18, remains unstored. |
