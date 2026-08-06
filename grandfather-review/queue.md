@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.3 | 2026-08-06 | Active
+Version 1.4 | 2026-08-06 | Active
 
 ---
 
@@ -48,6 +48,14 @@ Løbende liste over opdagelser, foreslåede forbindelser, tilsyneladende uoveren
 **Grundlag:** Sammenligning af flere angivelser inden for samme dokument — ikke en sammenligning mod en ekstern kilde.
 **Status:** Foreslået — endnu ikke gennemgået. Ved du, hvilket årstal der er korrekt for Mads Pedersen — eller er dette en kendt usikkerhed fra periodens egne kilder? Og er "(= 03)" for Peder Christensen Boe en skrivefejl for "(= 02)"?
 
+### 5. Else Marie Christensens dødsår — intern uoverensstemmelse i manuskriptet
+
+**Kategori:** Uoverensstemmelse
+**Kilde:** Projekt Arkivdigitalisering, "Boe-slægten fra Mors og Fur", Kapitel 1, afsnit 05 (2026-08-06) — se `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`
+**Fund:** Manuskriptets egen Aneoversigt-oversigt over generation 05's børn angiver Else Marie Christensen (barn "i.") som født 1892 og død 1894 — et spædbarnsdød. Men i afsnittet om familiens kongelige navnebevilling (1904/05) skriver manuskriptet direkte: "Søsteren Else Marie (= i.) døde o.1900" — hvilket antyder, at hun levede til omkring 8 års alderen og først døde kort før 1905-bevillingen, ikke som spædbarn i 1894. Passagens egen regnestykke (9 børn, 2 udelukket af andre grunde, "tilbage er 6 søskende" der fik navnet) stemmer kun, hvis Else Marie var i live indtil kort før 1905 — hvilket understøtter "o.1900" frem for "1894", men ingen af de to angivelser er rettet eller udeladt her.
+**Grundlag:** Sammenligning af to angivelser inden for samme manuskript (Aneoversigt-tabellen vs. narrativet om navnebevillingen) — ikke en sammenligning mod en ekstern kilde.
+**Status:** Foreslået — endnu ikke gennemgået. Hvilket dødsår er korrekt for Else Marie — 1894 (spædbarn) eller o.1900 (omkring 8 år)?
+
 ---
 
 ## Version History
@@ -58,3 +66,4 @@ Løbende liste over opdagelser, foreslåede forbindelser, tilsyneladende uoveren
 | 1.1 | 2026-08-05 | Translated the file into Danish per the human's request — the grandfather's English is limited and the research itself is Danish, so translating at send-time risked losing nuance. Kept the "Version History" heading and the header status line in English so `scripts/validate.ps1` keeps recognizing them. |
 | 1.2 | 2026-08-05 | Danish body text now refers to him as "KEJ" (Knud Erik Jakobsen) rather than "bedstefar," per the human's preference — including the title and the `[VERIFIED: KEJ, ÅÅÅÅ-MM-DD]` signal value. |
 | 1.3 | 2026-08-06 | Added item 4: Mads Pedersen (Boe)'s internally inconsistent birth year across the Boe-slægten manuscript itself, found during the first real chapter read-through. |
+| 1.4 | 2026-08-06 | Added item 5: Else Marie Christensen's (generation 05's youngest child) death year internally inconsistent — 1894 (infant) per her own vital-facts entry vs. o.1900 (implied age ~8) per the surname-bevilling narrative elsewhere in the same manuscript. Found during generation "05"'s read-through. |
