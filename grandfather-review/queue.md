@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.2 | 2026-08-05 | Active
+Version 1.3 | 2026-08-06 | Active
 
 ---
 
@@ -40,6 +40,14 @@ Løbende liste over opdagelser, foreslåede forbindelser, tilsyneladende uoveren
 **Grundlag:** Sammenligning af to navne/årstal fra to forskellige kilder; ingen primærkilde tjekket.
 **Status:** Foreslået — endnu ikke gennemgået. Spørg KEJ, om det bekræftet er to forskellige mænd.
 
+### 4. Mads Pedersen (Boe)'s fødselsår — intern uoverensstemmelse i manuskriptet
+
+**Kategori:** Uoverensstemmelse
+**Kilde:** Projekt Arkivdigitalisering, "Boe-slægten fra Mors og Fur", Kapitel 1, afsnit 02 (2026-08-06) — se `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`
+**Fund:** Samme manuskript angiver flere forskellige fødselsår for Mads Pedersen (Boe), søn af Zidsel Lauridsdatter Toft (og, ifølge teksten, Peder Lassen Grud): eksplicit "1774" ét sted, eksplicit "8.5.1773" et andet sted, og implicit 1772, 1773 eller 1771 ud fra tre forskellige alderangivelser (29 år i 1801, 61 år i 1834, 76 år ved død i 1847). Desuden: en senere passage omtaler "Peder Christensen Boe (= 03)" med facts identiske til "02" (samme fødselsår o.1731, samme dødsdato 17.8.1810) — formodentlig en skrivefejl (skulle være "= 02"?), nævnes her som et mindre spørgsmål sammen med hovedfundet.
+**Grundlag:** Sammenligning af flere angivelser inden for samme dokument — ikke en sammenligning mod en ekstern kilde.
+**Status:** Foreslået — endnu ikke gennemgået. Ved du, hvilket årstal der er korrekt for Mads Pedersen — eller er dette en kendt usikkerhed fra periodens egne kilder? Og er "(= 03)" for Peder Christensen Boe en skrivefejl for "(= 02)"?
+
 ---
 
 ## Version History
@@ -49,3 +57,4 @@ Løbende liste over opdagelser, foreslåede forbindelser, tilsyneladende uoveren
 | 1.0 | 2026-08-05 | Initial creation. Three items migrated from `projects/archive-digitization/context/external-source-hopp-herredsfoged.md`'s Open Items — the first real use of the new grandfather-review mechanism. |
 | 1.1 | 2026-08-05 | Translated the file into Danish per the human's request — the grandfather's English is limited and the research itself is Danish, so translating at send-time risked losing nuance. Kept the "Version History" heading and the header status line in English so `scripts/validate.ps1` keeps recognizing them. |
 | 1.2 | 2026-08-05 | Danish body text now refers to him as "KEJ" (Knud Erik Jakobsen) rather than "bedstefar," per the human's preference — including the title and the `[VERIFIED: KEJ, ÅÅÅÅ-MM-DD]` signal value. |
+| 1.3 | 2026-08-06 | Added item 4: Mads Pedersen (Boe)'s internally inconsistent birth year across the Boe-slægten manuscript itself, found during the first real chapter read-through. |
