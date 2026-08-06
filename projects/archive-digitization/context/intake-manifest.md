@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.3 | 2026-08-06 | Active
+Version 1.4 | 2026-08-06 | Active
 
 ---
 
@@ -33,6 +33,7 @@ Checklist of every item KEJ's email (2026-08-05) named — either sent already o
 | Received | File is in this session/repo, not yet triaged |
 | In progress | Received and being read section-by-section; not all of it triaged yet |
 | Triaged | File received and roughly categorized (slægt/category, source type) |
+| Fully read | Entire file read cover-to-cover and extracted into `family-tree/tree.ged` and/or `knowledge/domains/` — a terminal status, beyond Triaged |
 
 ---
 
@@ -42,7 +43,7 @@ Mors/Fur line. First batch — KEJ said he'd send this to begin with.
 
 | Item | Version | Status |
 |---|---|---|
-| Boe-slægten fra Mors og Fur, Kapitel 1-4 (file: "2024 Boe-slægen fra Mors og Fur.docx") | maj 2026 | In progress — original .docx now fully stored (`library/reference-index.md#boe-slaegten-fra-mors-og-fur`, received via `incoming/` and GitHub Desktop 2026-08-06); Kapitel 1 read through generation "03" of 4 generations plus a large Efterslægt section (`projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`) |
+| Boe-slægten fra Mors og Fur, Kapitel 1-4 (file: "2024 Boe-slægen fra Mors og Fur.docx") | maj 2026 | **Fully read (2026-08-06)** — original .docx stored (`library/reference-index.md#boe-slaegten-fra-mors-og-fur`); all four chapters, the Anetavler appendices, and Kilder extracted into `family-tree/tree.ged` (361 individuals) via five chapter-specific extraction notes files in `projects/archive-digitization/context/`. Not yet promoted into `knowledge/domains/` (Phase 3 not started). |
 
 ---
 
@@ -169,3 +170,4 @@ Local archive material — properties, individual families, and local-history to
 | 1.1 | 2026-08-05 | Prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference. |
 | 1.2 | 2026-08-06 | Boe-slægten row updated from stale "Incoming" (file had actually arrived and two generations were already read) to "In progress," reflecting the file's real receipt and read state. Added the "In progress" status to the legend — the existing four values had no term for "received and partway through section-by-section reading." |
 | 1.3 | 2026-08-06 | Boe-slægten row updated again: original `.docx` is now fully stored (previously only a text extraction), received via the new `incoming/` mechanism instead of the Google Drive connector that had been capping at 10 MB. |
+| 1.4 | 2026-08-06 | Boe-slægten row updated to "Fully read" — the entire manuscript has been extracted into `family-tree/tree.ged`. First item on this manifest to reach a terminal status. |
