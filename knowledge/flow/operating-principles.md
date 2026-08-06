@@ -1,6 +1,6 @@
 # Operating Principles
 
-Version 1.3 | 2026-08-05 | Production
+Version 1.4 | 2026-08-05 | Production
 
 ---
 
@@ -113,7 +113,7 @@ At session end, append a handoff turn to the system project's `session-log.md` s
 
 ### Grandfather review flags
 
-This fork's subject-matter authority is not the human operating this repo — it is the grandfather whose life's work this research is. Anything this repo notices on its own (a cross-reference between his research threads, an apparent inconsistency between sources, a discovery not present in his materials, a gap in the record) is a proposal, never a fact, until he has confirmed it. Do not write such a finding into any domain's `knowledge.md` as settled, and do not treat the human's own agreement as sufficient sign-off on a genealogical conclusion — only the grandfather's is.
+This fork's subject-matter authority is not the human operating this repo — it is Knud Erik Jakobsen (KEJ), whose life's work this research is. Anything this repo notices on its own (a cross-reference between his research threads, an apparent inconsistency between sources, a discovery not present in his materials, a gap in the record) is a proposal, never a fact, until he has confirmed it. Do not write such a finding into any domain's `knowledge.md` as settled, and do not treat the human's own agreement as sufficient sign-off on a genealogical conclusion — only KEJ's is.
 
 Raise a flag in your turn (this session-log entry stays in whatever language the rest of the turn is in) using this format to think it through:
 
@@ -123,7 +123,7 @@ Type: Discovery / Connection / Inconsistency / Missing Data
 Source: Project [name] or Domain [name], Turn [N] / file
 Finding: [Describe precisely what was noticed]
 Basis: [What evidence or cross-reference led to this]
-Status: Proposed — not yet reviewed by the grandfather
+Status: Proposed — not yet reviewed by KEJ
 ```
 
 **Then append the actual entry to `grandfather-review/queue.md` in Danish**, not English — his English is limited, the research itself is in Danish, and translating at send-time risks losing nuance every time. Use these field labels there:
@@ -135,10 +135,10 @@ Status: Proposed — not yet reviewed by the grandfather
 **Kilde:** Projekt/Domæne [navn], Turn [N] / fil
 **Fund:** [Beskriv præcist hvad der blev bemærket]
 **Grundlag:** [Hvilke beviser eller krydsreferencer der førte til dette]
-**Status:** Foreslået — endnu ikke gennemgået af bedstefar
+**Status:** Foreslået — endnu ikke gennemgået af KEJ
 ```
 
-See `grandfather-review/queue.md` and `grandfather-review/log.md` for the full mechanism: how items accumulate, how they are sent for his periodic review, and how his response (confirmed / corrected / rejected) is recorded and, once confirmed, promoted into the relevant domain with `[VERIFIED: grandfather, YYYY-MM-DD]`. Both files carry a note at the top explaining the Danish-language exception; the `## Version History` section of each stays in the repo's standard English convention so `scripts/validate.ps1` keeps recognizing it.
+See `grandfather-review/queue.md` and `grandfather-review/log.md` for the full mechanism: how items accumulate, how they are sent for KEJ's periodic review, and how his response (confirmed / corrected / rejected) is recorded and, once confirmed, promoted into the relevant domain with `[VERIFIED: KEJ, YYYY-MM-DD]`. Both files carry a note at the top explaining the Danish-language exception; the `## Version History` section of each stays in the repo's standard English convention so `scripts/validate.ps1` keeps recognizing it.
 
 ---
 
@@ -150,3 +150,4 @@ See `grandfather-review/queue.md` and `grandfather-review/log.md` for the full m
 | 1.1 | 2026-07-25 | §5 gained a note to actively watch for behavioral/argumentative-style signal when processing correspondence from a party already covered by a domain, not just the logistical content — same flag-and-confirm gate, no automatic capture. See `knowledge/domains/authoring-guidelines.md` §4 (Behavioral and communication-style notes). |
 | 1.2 | 2026-08-05 | Added a third flag type, `[FLAG FOR GRANDFATHER REVIEW]`, alongside the existing knowledge-update and system flags — for discoveries, connections, inconsistencies, or gaps this repo notices on its own during genealogical research. Established that the grandfather, not the human operating this repo, is the final authority on research conclusions; his sign-off is required before any such finding is treated as fact. See the new `grandfather-review/` mechanism. |
 | 1.3 | 2026-08-05 | §5 updated: the in-turn `[FLAG FOR GRANDFATHER REVIEW]` stays in whatever language the session log is in, but the actual entry appended to `grandfather-review/queue.md` must be written in Danish — his English is limited and the research itself is Danish. Added the Danish field-label template. |
+| 1.4 | 2026-08-05 | §5 prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference — including both the English and Danish flag-template examples and the `[VERIFIED: KEJ, YYYY-MM-DD]` signal value. The `[FLAG FOR GRANDFATHER REVIEW]` tag and `grandfather-review/` folder name are kept as-is. |

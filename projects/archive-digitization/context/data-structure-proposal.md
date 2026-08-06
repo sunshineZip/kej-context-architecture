@@ -1,12 +1,21 @@
 # Data Structure Proposal — Individuals and Families at Scale
 
-Version 1.0 | 2026-08-05 | Draft
+Version 1.1 | 2026-08-05 | Draft
 
 ---
 
 ## Document Purpose
 
 A sketch, not yet a decision, for how to structure individual/family data once material starts arriving in volume (thousands of names expected). Compares a flat CSV against GEDCOM, the genealogy industry's actual interchange standard, using real (still `[UNVERIFIED]`) Hopp-slægt data already in this repo as a concrete worked example. Project-layer content — freely revisable, not yet a structural commitment. Promoting this into an actual top-level folder and updating `Architecture.md` would be system-layer work requiring the same plan-first treatment as `grandfather-review/` got.
+
+---
+
+## Index
+
+1. [Why Not a Flat CSV](#1-why-not-a-flat-csv) — the remarriage/half-sibling problem a flat column can't express
+2. [The GEDCOM Alternative](#2-the-gedcom-alternative) — worked mockup using real Hopp-chain data
+3. [Where This Would Live](#3-where-this-would-live) — proposed single cross-*slægt* `family-tree/tree.ged`
+4. [IDs, Duplicates, and Unknown Relations](#4-ids-duplicates-and-unknown-relations) — ID stability, never-merge-on-name-match, the two-tier duplicate workflow
 
 ---
 
@@ -83,7 +92,7 @@ Same people, as GEDCOM. Individuals (`INDI`) hold vital facts; family units (`FA
 1 OCCU Herredsfoged og herredsskriver, Salling Nørre Herred (fra 1673)
 1 FAMC @F3@
 1 FAMS @F4@
-1 NOTE Ledte hekseprocessen mod "Tise Trolde" i 1686. Foreslået match med bedstefars kapitel "01". [UNVERIFIED — grandfather-review/queue.md #1]
+1 NOTE Ledte hekseprocessen mod "Tise Trolde" i 1686. Foreslået match med KEJs kapitel "01". [UNVERIFIED — grandfather-review/queue.md #1]
 
 0 @I5@ INDI
 1 NAME Birte /Pedersdatter/
@@ -101,7 +110,7 @@ Same people, as GEDCOM. Individuals (`INDI`) hold vital facts; family units (`FA
 1 OCCU Sognedegn i Thise (1726-1762)
 1 FAMC @F4@
 1 FAMS @F5@
-1 NOTE Foreslået match med bedstefars kapitel "01F". [UNVERIFIED — grandfather-review/queue.md #1]
+1 NOTE Foreslået match med KEJs kapitel "01F". [UNVERIFIED — grandfather-review/queue.md #1]
 
 0 @I7@ INDI
 1 NAME Else /Pedersdatter/
@@ -155,8 +164,40 @@ Domain `knowledge.md` files would keep the narrative and evidentiary sources exa
 
 ---
 
+## 4. IDs, Duplicates, and Unknown Relations
+
+Three practical problems that will show up as soon as real volume arrives, worked through here rather than left to be improvised mid-extraction.
+
+### 4.1 ID stability
+
+A GEDCOM `@I4@`-style cross-reference ID is functionally a primary key, but the spec doesn't guarantee it stays stable — most tools freely renumber IDs on re-export or merge, since the ID is only meant to be unique *within one file*. That's a real risk here specifically: domain `knowledge.md` files will cite individuals by ID (`family-tree/tree.ged#I4`), and a silent renumbering would quietly break every citation.
+
+**Rule:** treat ID assignment as append-only, the same discipline already used for session-log turn numbers and Version History rows. Once `@I137@` exists, it is `@I137@` forever — never reused, never reassigned, even if that individual later turns out to be a duplicate (§4.3).
+
+### 4.2 Unknown relations
+
+Already the easy case: GEDCOM represents "not yet known" by omitting the tag entirely, not by a null placeholder. No `FAMC` line means no parents identified yet; no `FAMS` line means no known spouse. This is a non-issue — the format's default state already matches this repo's own principle of not asserting what isn't confirmed.
+
+### 4.3 Duplicates — same name, unclear if same person
+
+Given how repetitive Danish patronymic naming is (a lot of "Niels Nielsen"s are coming), this will be a routine occurrence, not an edge case. Standard genealogical practice, adopted here: **never merge on name match alone — when uncertain, create a separate record.** Under-merging (two records that turn out to be one person) is a cheap, reversible mistake to fix once more evidence surfaces. Over-merging (one record that was actually two people) silently corrupts the tree in ways that are hard to even notice, let alone undo.
+
+Two tiers, so the volume of "might be the same person" cases doesn't overwhelm `grandfather-review/queue.md`:
+
+| Tier | Where it lives | When to use |
+|---|---|---|
+| Routine ambiguity — same name, no strong evidence either way | A same-file `NOTE` on each record (`[UNVERIFIED: possible duplicate of @I47@]`), tracked in a new `family-tree/possible-duplicates.md` running list | Most name collisions — not worth KEJ's time individually |
+| Well-evidenced candidate — a specific, answerable question | `[FLAG FOR GRANDFATHER REVIEW]`, appended to `grandfather-review/queue.md` (in Danish, per its own convention) | Only once there's concrete supporting evidence, matching the queue's existing "Grundlag" (basis) discipline — not a vague hunch |
+
+**Resolving a confirmed duplicate:** never delete or renumber either ID (§4.1). Mark the retired one as merged into the survivor — `1 NOTE Merged into @I200@, confirmed by KEJ YYYY-MM-DD` — archive-in-place, the same pattern this repo already uses for retiring a domain. Anything that ever cited the retired ID still resolves to an explanation, not a dead reference.
+
+**Transcription vs. inference reminder** (see `TODO.md`): creating a new individual record from something KEJ's own document states directly is not an inference and doesn't need queueing. Flagging two records as a *possible* duplicate, or proposing a merge, *is* an inference and follows the tiers above.
+
+---
+
 ## Version History
 
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-05 | Initial creation. GEDCOM vs. CSV comparison using real Hopp-slægt data from `external-source-hopp-herredsfoged.md`, plus a proposed (not yet built) top-level `family-tree/` location. |
+| 1.1 | 2026-08-05 | Added §4 (IDs, duplicates, unknown relations): append-only ID assignment, the never-merge-on-name-match rule, the two-tier duplicate workflow (routine ambiguity vs. well-evidenced grandfather-review candidate), and the merge-without-deleting convention. Added an Index (file now exceeds four sections). Updated references to KEJ per the human's naming preference. |

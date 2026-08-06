@@ -1,12 +1,12 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.0 | 2026-08-05 | Active
+Version 1.1 | 2026-08-05 | Active
 
 ---
 
 ## Document Purpose
 
-Checklist of every item the grandfather's email (2026-08-05) named — either sent already or planned to send later — transcribed verbatim from his own listing (Danish preserved as given). Tracks receipt and rough-triage status per item. This is a working intake tracker, not domain knowledge — nothing here has been ingested into `knowledge/domains/` yet.
+Checklist of every item KEJ's email (2026-08-05) named — either sent already or planned to send later — transcribed verbatim from his own listing (Danish preserved as given). Tracks receipt and rough-triage status per item. This is a working intake tracker, not domain knowledge — nothing here has been ingested into `knowledge/domains/` yet.
 
 ---
 
@@ -29,7 +29,7 @@ Checklist of every item the grandfather's email (2026-08-05) named — either se
 | Status | Meaning |
 |---|---|
 | Not yet received | Named in the manifest; no file has reached this repo or session |
-| Incoming | Grandfather has said he is sending it; not yet in hand |
+| Incoming | KEJ has said he is sending it; not yet in hand |
 | Received | File is in this session/repo, not yet triaged |
 | Triaged | File received and roughly categorized (slægt/category, source type) |
 
@@ -37,11 +37,11 @@ Checklist of every item the grandfather's email (2026-08-05) named — either se
 
 ## 2. Boe-slægten
 
-Mors/Fur line. First batch — grandfather said he'd send this to begin with.
+Mors/Fur line. First batch — KEJ said he'd send this to begin with.
 
 | Item | Version | Status |
 |---|---|---|
-| Boe-slægten fra Mors og Fur, Kapitel 1-4 (file: "2024 Boe-slægen fra Mors og Fur.docx") | maj 2026 | Incoming — grandfather says sent; file not yet in this session |
+| Boe-slægten fra Mors og Fur, Kapitel 1-4 (file: "2024 Boe-slægen fra Mors og Fur.docx") | maj 2026 | Incoming — KEJ says sent; file not yet in this session |
 
 ---
 
@@ -165,3 +165,4 @@ Local archive material — properties, individual families, and local-history to
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-05 | Initial creation. Full manifest transcribed from the grandfather's email, relayed by the human. 53 items across 8 categories; only the Boe-slægten item is marked Incoming, everything else Not yet received. |
+| 1.1 | 2026-08-05 | Prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference. |
