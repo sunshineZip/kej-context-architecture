@@ -1,6 +1,6 @@
 # KEJs Gennemgangslog
 
-Version 1.2 | 2026-08-05 | Active
+Version 1.3 | 2026-08-06 | Active
 
 ---
 
@@ -14,18 +14,35 @@ Fortløbende historik over, hvad der er sendt til KEJ til gennemgang, og hvordan
 
 ## Indførsler
 
-*Ingen oversigter sendt endnu. Når punkterne i `queue.md` sendes til KEJ, registreres det her (dato for afsendelse), og hans svar tilføjes, når det kommer, i dette format:*
+## 2026-08-06 — Sendt
+
+Punkter inkluderet: 4, 5, 6, 7, 8, 9, 10 — en uformel prioritering af `queue.md`s daværende 15 punkter, opdelt i fire "tiers" undervejs i samtalen med Nikolaj (Hannes barnebarn). Denne runde dækker kun Tier 1 (Hannes biologiske far; Margit Baks umulige dødsdato) og Tier 2 (interne uoverensstemmelser i selve manuskriptet: punkt 4, 5, 6, 7, 9). Punkterne 1-3 (Hopp-slægten, lavest prioritet — separat, endnu ikke modtaget projekt) og 11-15 (billedidentifikation) blev bevidst udeladt af denne runde til en senere, mindre presserende omgang.
+
+Formuleringen blev bevidst tilpasset undervejs, ikke bare kopieret fra `queue.md`: Nikolajs mors specifikke tvivl om punkt 10 blev neutraliseret til et ligefremt spørgsmål om sikkerhed (ikke tilskrevet hende personligt); punkt 5 og 9, hvor manuskriptets egne kilder allerede hælder overvejende én vej, blev omformuleret til at lede med det gættede svar og bede om bekræftelse i stedet for at fremstå helt åbne; og punkt 9 fik en eksplicit advarsel om, at en del af begrundelsen (`image37.png`, et foto af KEJs egen håndskrift) er læst af en kunstig intelligens, ikke et menneske, og derfor bærer en reel fejllæsningsrisiko.
+
+Sendt af Nikolaj til KEJ. Fuld tekst, som faktisk afsendt:
 
 ```
-## ÅÅÅÅ-MM-DD — Sendt
+Hej igen,
 
-Punkter inkluderet: [liste, eller "se queue.md på dette tidspunkt"]
+Jeg har forsøgt at strukturere så meget som muligt af den indlejrede viden i Boe-slægtsdokumentet ved hjælp af kunstig intelligens. Den kunstige intelligens har undervejs påpeget nedenstående uoverensstemmelser og åbne spørgsmål — nogle steder tror vi selv, vi kan gætte os til svaret, og har skrevet det; andre steder er det helt åbent. Sig endelig til, hvis nogle antagelser er forkerte eller for indlysende et spørgsmål.
 
-## ÅÅÅÅ-MM-DD — Svar
+* Hannes biologiske far: Hvor sikre er vi på, at Gunnar Vilhelm Carlsen er Hannes biologiske far? Slægtsbogen angiver ham som "udlagt barnefader" — ved du, om det stammer fra en kirkebogsindførsel, en retsafgørelse, eller noget tredje? Hvad er primærkilden på faderskabet?
+* Margit Baks dødsdato: Der står "24.1.1916" som dødsdato — men det er 35 år FØR hendes angivne fødsel i 1951, så det kan ikke være rigtigt. Vi går ud fra, det enten er en fejlskrivning for et andet årstal, eller at der reelt ikke findes en kendt dødsdato — kan du bekræfte hvilket?
 
-Punkt [N]: Bekræftet / Rettet: [hvad han sagde] / Afvist: [hvorfor]
-[...]
+* Fejlmærkede fadderskaber i gren g: I flere fadderlister ved dine børnebørns dåb er søskende nævnt med potentielt forkert romertal (Christian (VII.) kaldt "(VI.)", Poul (VI.) kaldt "(V.)" ved samme dåb, og Christen Pedersen Boe kaldt "morbror" i stedet for "morfar"). Vi gætter på, det bare er skrivefejl fra dengang — nemt at forveksle, når flere børn skulle noteres på samme dåb — men sig endelig til, hvis der er en mere systematisk forveksling i din egen nummerering af gren g's børn.
+* Laurids Christensen Boe og Ottine Boline Marie Pedersens vielsesdato: Indledningen til deres afsnit siger "27.2.1915 i Brøndum kirke," men en note ved datteren Else Margrethes fødsel (1911, altså før dette) siger "Viede 27/3.1914," med henvisning til et brev fra Durup 8.3.1914 om "Navnets Rettelse og Vielsen." Hvilken dato er den rigtige — eller dækker de to datoer måske to forskellige ting?
+* Christen Pedersen Boe og Mette Jensdatters vielsesår: Kapitel 1 siger 19.10.1808, Kapitel 3 siger 19.10.1810 — samme dag og måned, to år forskel. 1810 lyder mest sandsynligt, dels fordi Kapitel 3 selv siger det, dels fordi dit håndskrevne stamtræsoverblik også ser ud til at vise "1810." Bemærk dog: den sidste kilde er et foto af din håndskrift, som en kunstig intelligens har aflæst — ikke et menneske — så der er en reel risiko for fejllæsning der. Kan du bekræfte, om 1810 er korrekt?
+* Else Marie Christensens dødsår: Hælder mod 1894 (spædbarnsdød), da to kilder i selve teksten (ikke et billede) stemmer overens om den præcise dato. Men afsnittet om den kongelige navnebevilling (1904/05) siger "o.1900." Kan du bekræfte, om den sidste omtale er en fejl, eller dækker over noget andet?
+* Mads Pedersen (Boe)s fødselsår: Det står forskelligt tre steder — 1774, 8.5.1773, og enten 1771, 1772 eller 1773 ud fra tre forskellige alderangivelser. Ved du, hvilket der er rigtigt, eller er det en kendt usikkerhed fra periodens kilder?
+
+Og så lidt mere overordnet ville jeg lige høre, om du har en database eller et samlet kartotek for alle de pågældende personer? Jeg har ved hjælp af kunstig intelligens' læsning af dit dokument fået indført 363 personer i en "GEDCOM"-database, der er standardformatet for international slægtsforskning, som du sikkert allerede ved. Det kan vi eventuelt bruge til at sammenholde med dit yderligere materiale og andres forskning.
+
+Bedste hilsner,
+Nikolaj
 ```
+
+*Afventer KEJs svar — tilføjes her, punkt for punkt, når det kommer (se skabelonen i Dokumentets Formål ovenfor).*
 
 ---
 
@@ -36,3 +53,4 @@ Punkt [N]: Bekræftet / Rettet: [hvad han sagde] / Afvist: [hvorfor]
 | 1.0 | 2026-08-05 | Initial creation. Empty log — no digests sent to the grandfather yet. |
 | 1.1 | 2026-08-05 | Translated into Danish per the human's request, matching `queue.md` — same rationale, same English exceptions (Version History heading, header status line) for `scripts/validate.ps1` compatibility. |
 | 1.2 | 2026-08-05 | Danish body text now refers to him as "KEJ" (Knud Erik Jakobsen) rather than "bedstefar," per the human's preference, matching `queue.md`. |
+| 1.3 | 2026-08-06 | First real entry: recorded the 2026-08-06 outreach to KEJ covering `queue.md` items 4-10 (a prioritized "Tier 1-2" subset — internal manuscript inconsistencies plus the Hanne-paternity and Margit-Bak-date questions), including the exact message text as sent by Nikolaj. Items 1-3 and 11-15 deliberately held back for a later, lower-priority round. |
