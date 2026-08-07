@@ -298,3 +298,34 @@ STATUS: CHECKPOINT
 Completed: Corrected Turn 10's misdiagnosis. The actual, complete cause of Gramps' "Line ignored" flood was 482 invalid blank lines used as record spacing, not primarily the `@`-escaping bug (which was a real but minor secondary issue, already fixed). Blank lines stripped from `tree.ged`; `validate.ps1` now hard-errors on any blank line in the file. Verified clean.
 Next: Human to re-import `tree.ged` into Gramps to confirm 0 errors now. If anything still surfaces, treat this incident as a reminder not to trust an unverified root-cause theory again — check the error count arithmetic against the fix before declaring it solved.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 12 | 2026-08-07
+
+Different session, continued from `archive-digitization`. While researching a family-history question (why the family sought a 1904/05 royal name grant for the "Boe" surname), general Danish naming-law background was found via web search — not from KEJ's manuscript, not from direct family testimony. Human's follow-up question, as a system-layer concern: how to keep this kind of AI-contributed material clearly separated from KEJ's own research and from the human's own direct contributions, rather than letting provenance blur.
+
+Reviewed the existing mechanism first rather than inventing a parallel one: `knowledge/domains/authoring-guidelines.md` §9.5 already defines a GPS-based citation vocabulary (`[VERIFIED: ...]`, `[UNVERIFIED: ...]`, `[CONTRADICTS: ...]`) with Danish record-type citation templates, adopted 2026-08-05. It had no category for "general background, not a claim about the family" — every existing tag means "this specific fact about this specific family is evidenced by X." Proposed extending it rather than replacing it, iterated on the design with the human twice:
+
+- First round: proposed a new `[CONTEXT: ai-research, YYYY-MM-DD]` tag, distinct from `[VERIFIED: ...]` precisely because it plays a different evidentiary role (background, not a claim).
+- Human pushed back, correctly: a bare `ai-research` label with no actual citation is not "scientifically valid" — fails the same GPS standard everything else here is held to. Same objection applied retroactively to the already-existing `[VERIFIED: familieidentifikation, YYYY-MM-DD]` tag, which never recorded who made an identification or how confident they were.
+- Revised: `familieidentifikation` now requires `[VERIFIED: familieidentifikation — <name>, <confidence: sikker/formodet>, YYYY-MM-DD]`. `ai-research` now requires the short in-file tag to point at a file carrying full real citations (title/author/URL/access date), never a bare label. Human's only further edit: drop the `(barnebarn)` relation qualifier from the name — just the name, no relation annotation.
+
+**Built:**
+
+- `knowledge/domains/authoring-guidelines.md` (1.8 → 1.9) — §9.5 gained both refined formats, documented as the authoritative definitions.
+- `projects/archive-digitization/context/ai-research-danske-navnelove.md` — new file, the first real use of the `ai-research` tag: patronymic naming, the 1828/1856/1904 naming laws, and why "Boe" specifically (an informal family nickname since 1771, formalized in 1904/05). Headed with an explicit provenance notice distinguishing it from KEJ's manuscript and from family testimony.
+- `family-tree/tree.ged` — added a `[CONTEXT: ai-research, ...]` NOTE on `I27` (generation "05"'s father, whose family sought the 1904/05 grant) pointing to the new file. Retrofitted all 11 existing `[VERIFIED: familieidentifikation, ...]` tags (Astrid Kirk's record, the image26/27 identifications) to the new who/confidence format — all attributable to Nikolaj, all stated with no hedging, so all became `— Nikolaj Boe, sikker, 2026-08-06`. Also retrofitted one matching instance in `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md` for consistency.
+
+Deliberately did not build a new central registry for `ai-research` sources (parallel to `library/reference-index.md`'s deep-well registry) — the tag's relative file path already serves as the pointer, and a handful of background files doesn't yet justify that infrastructure. Revisit if this pattern grows large.
+
+### Session close
+
+Knowledge candidates: None — citation-format refinement, not a domain fact.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: `authoring-guidelines.md` §9.5 now defines two refined citation formats — `familieidentifikation` requires who + confidence, `ai-research` requires a real traceable citation file, not a bare label — closing a real provenance gap the human caught. Retrofitted across all existing usage in `tree.ged`, not just applied going forward.
+Next: None specific — mechanism is live going forward for future AI-researched background and future family-testimony citations.
+Waiting for: Nothing further this turn — pushing now.

@@ -1,6 +1,6 @@
 # Domain Knowledge Authoring Guidelines
 
-Version 1.8 | 2026-08-05 | Production
+Version 1.9 | 2026-08-07 | Production
 
 ---
 
@@ -389,6 +389,22 @@ akj-cbj.dk, 10 August 2010, http://www.akj-cbj.dk/Hopp.htm, accessed
 
 Add the full citation string to `sources/manifest.md`'s **Citation** column (§9.1) — the other columns (File/Type/Effective date/Acquired/Supersedes/Status) stay for quick tracking; the citation is what a genealogist reviewing this work would actually expect to see. These templates are a starting adaptation, not a finished translation of Evidence Explained — refine them once real kirkebog/folketælling material is in hand and its actual structure (which fields Arkivalieronline exposes, how a given parish's books are organized) is known firsthand rather than guessed from documentation alone.
 
+**Direct family testimony — `familieidentifikation`:** a fact stated directly by a living family member, not found in any document. Bare `[VERIFIED: familieidentifikation, YYYY-MM-DD]` is not enough on its own — GPS requires knowing *who* stated it and how it was assessed. Format:
+
+```
+[VERIFIED: familieidentifikation — <name>, <confidence>, YYYY-MM-DD]
+```
+
+`<name>` is the person who made the identification (not their relationship to the family — that's redundant with the rest of the record and adds noise). `<confidence>` is `sikker` (stated as plain fact, no hedging) or `formodet` (stated as a guess or hypothesis) — never omitted. Example: `[VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]`.
+
+**AI-researched background — `ai-research`:** general historical, legal, or cultural context an LLM finds via web research to help interpret an already-documented fact — never a new claim *about* the family itself, and never sourced from KEJ's own manuscript or direct family testimony. This is a genuinely different category from everything else in this section: `[VERIFIED: ...]` always means a specific, evidenced claim about this specific family; `[CONTEXT: ...]` marks explanatory background that isn't itself such a claim. Mixing the two would blur exactly the boundary a non-technical family member needs to be able to see at a glance. Format:
+
+```
+[CONTEXT: ai-research, YYYY-MM-DD — se <relative-path-to-file>]
+```
+
+The tag itself stays short — a pointer, same pattern as citing a stored deep well. The file it points to (typically in a project's own `context/` folder until a domain exists to hold it properly under `sources/`) must carry the actual full citations — title, author/publisher, URL, access date — one per source, in the Secondary Source format above. A bare "ai-research" label with no traceable citations does not satisfy this — see `projects/archive-digitization/context/ai-research-danske-navnelove.md` for a worked example.
+
 ---
 
 ## 10. What Does Not Belong in a Knowledge Document
@@ -436,3 +452,4 @@ Before submitting any knowledge document for human approval:
 | 1.6 | 2026-07-25 | §8 gained a check for whether a domain should be retired rather than left silently stale — see the new retirement convention in `MarkdownConventions.md` §1 and `knowledge/domains/index.md` § Retiring a Domain. |
 | 1.7 | 2026-07-25 | §4 gained "Behavioral and communication-style notes" — how a domain captures what's known about how a household member or external party tends to communicate or argue, without needing a separate content type or top-level structure. Reuses existing signals ([SENSITIVE], [VERIFIED]/[UNVERIFIED]) rather than inventing new ones. |
 | 1.8 | 2026-08-05 | Fork-specific addition (`kej-context-architecture`): new §9.5 "Genealogical Proof Standard and Citation Format," adopting GPS (mapped to existing repo mechanisms) and an Evidence Explained-derived citation format, with Danish-adapted templates for kirkebog/folketælling/skifteprotokol/secondary sources (EE itself has no ready-made Danish templates — verified via web search, not assumed). Added a Citation column to the `sources/manifest.md` template (§9.1) and a matching Quick Checklist item (§11). |
+| 1.9 | 2026-08-07 | §9.5 gained two refined citation formats, prompted by a human review of an early, under-specified use: `familieidentifikation` now requires naming who made the identification and their stated confidence (`sikker`/`formodet`), not just a bare tag; and a new `[CONTEXT: ai-research, ...]` tag for AI-researched general background (as distinct from `[VERIFIED: ...]`, which always means an evidenced claim about the family itself), pointing to a file carrying full, real citations rather than a vague label. Both retrofitted across existing `family-tree/tree.ged` usage, not just applied going forward. |
