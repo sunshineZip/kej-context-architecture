@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.13 | 2026-08-06 | Active
+Version 1.14 | 2026-08-06 | Active
 
 ---
 
@@ -45,8 +45,9 @@ Løbende liste over opdagelser, foreslåede forbindelser, tilsyneladende uoveren
 **Kategori:** Uoverensstemmelse
 **Kilde:** Projekt Arkivdigitalisering, "Boe-slægten fra Mors og Fur", Kapitel 1, afsnit 02 (2026-08-06) — se `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`
 **Fund:** Samme manuskript angiver flere forskellige fødselsår for Mads Pedersen (Boe), søn af Zidsel Lauridsdatter Toft (og, ifølge teksten, Peder Lassen Grud): eksplicit "1774" ét sted, eksplicit "8.5.1773" et andet sted, og implicit 1772, 1773 eller 1771 ud fra tre forskellige alderangivelser (29 år i 1801, 61 år i 1834, 76 år ved død i 1847). Desuden: en senere passage omtaler "Peder Christensen Boe (= 03)" med facts identiske til "02" (samme fødselsår o.1731, samme dødsdato 17.8.1810) — formodentlig en skrivefejl (skulle være "= 02"?), nævnes her som et mindre spørgsmål sammen med hovedfundet.
-**Grundlag:** Sammenligning af flere angivelser inden for samme dokument — ikke en sammenligning mod en ekstern kilde.
-**Status:** Foreslået — endnu ikke gennemgået. Ved du, hvilket årstal der er korrekt for Mads Pedersen — eller er dette en kendt usikkerhed fra periodens egne kilder? Og er "(= 03)" for Peder Christensen Boe en skrivefejl for "(= 02)"?
+**Opdatering (2026-08-06):** en uafhængig samtidig kilde fundet — M. P. Ejerslev, "En religiøs bevægelse i Jørsby" (Historisk Årbog for Thy og Mors 1970, s.427), selve den kilde manuskriptet allerede citerer ("Historisk Årbog for Thy og Mors 1968-70") men som nu er i arkivet. Den skriver direkte: "I 1773 i maj føder Sidsel Larsdatter Toft en søn, som Peder Lassen er fader til" — stemmer overens med manuskriptets "8.5.1773" og understøtter dette som bedst begrundet. `family-tree/tree.ged` er opdateret til at bruge 8.5.1773 som BIRT, men de øvrige angivelser (1774; 1771-1772 implicit) er stadig ikke forklaret, og dette behandles ikke som endeligt afgjort.
+**Grundlag:** Sammenligning af flere angivelser inden for samme dokument, nu suppleret med én uafhængig ekstern primærkilde (ikke blot en sammenligning internt i manuskriptet længere).
+**Status:** Foreslået — endnu ikke gennemgået. Kan du bekræfte 8.5.1773 som det korrekte fødselsår for Mads Pedersen, og forklare, hvor "1774" og de øvrige alderangivelser i manuskriptet kommer fra? Og er "(= 03)" for Peder Christensen Boe en skrivefejl for "(= 02)"?
 
 ### 5. Else Marie Christensens dødsår — intern uoverensstemmelse i manuskriptet
 
@@ -148,6 +149,14 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 **Grundlag:** Navnesammenfald ("Gyda") plus direkte visuel inspektion. Ingen billedtekst. Ingen dato at sammenholde med.
 **Status:** Foreslået — endnu ikke gennemgået. Er det Anna Gyda Boll og Kaj Godsk Pedersens bryllup? Hvis ja, kender du et omtrentligt årstal for deres vielse, som kunne tilføjes til `family-tree/tree.ged`?
 
+### 16. Var Peder Christensen Boe selv "Peder Boe," der husede Kyssesektens forsamlinger — og hvem er "Jens Boe"?
+
+**Kategori:** Forbindelse
+**Kilde:** M. P. Ejerslev, "En religiøs bevægelse i Jørsby," Historisk Årbog for Thy og Mors 1970, s.425-442 — se `library/reference-index.md#ejerslev-1970-religios-bevaegelse-i-jorsby`. Fundet og uploadet direkte af Nikolaj (Hannes barnebarn), 2026-08-06, som svar på et spørgsmål om Boe-linjens biologiske forbindelse til "Kyssesekten."
+**Fund:** Artiklen (selve den kilde, manuskriptet allerede citerer som "Historisk Årbog for Thy og Mors 1968-70") beskriver, at proprietæren Ammitsbøll og sognefogeden i Sejerslev en dag gik hen til "Ammitsbølls fæster Peder Boe," hvor der netop var en religiøs forsamling i gang — samme navn, sted (Jørsby) og periode (1773-1775) som Peder Christensen Boe (`I1`). Ved ransagningen var "Jens Boe" til stede (Peder kom først senere), sammen med Karen Skærbæk og Sidsel Toft (`I2`, Peder Christensen Boes egen hustru), "som begge havde fået barn med Peder Lassen." Hvis "Peder Boe" er Peder Christensen Boe selv, var han ikke blot en mand hvis hustru havde haft en affære før deres ægteskab — han husede efter alt at dømme selv sektens forsamlinger. "Jens Boe" er uidentificeret; kunne være en slægtning (bror? søn fra et andet forhold?), ikke fundet nogen steder i `family-tree/tree.ged` under dette navn i den rette periode.
+**Grundlag:** Navne-, steds- og tidssammenfald mellem artiklens "Peder Boe" og `tree.ged`s Peder Christensen Boe — stærkt, men ikke et 100% sikkert match (efternavnet "Boe" var i forvejen sjældent og nyligt optaget i Jørsby ifølge manuskriptets egen note på I1, hvilket styrker sandsynligheden). Ingen primærkilde ud over selve artiklen tjekket.
+**Status:** Foreslået — endnu ikke gennemgået. Er "Peder Boe," Ammitsbølls fæster i artiklen, den samme som Peder Christensen Boe? Og kender du en "Jens Boe" fra samme periode og sted, der kunne være en slægtning?
+
 ---
 
 ## Version History
@@ -168,3 +177,4 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 | 1.11 | 2026-08-06 | Added item 12: `image23.jpeg`'s identity — plausible match to Meta and Peter Severin Nielsen's 1946 wedding, based on visual inspection (age gap, non-white dress, era) against already-known facts. Also notes the related, still-unconfirmed `image22.jpeg` guess (young Meta) for the same review round rather than opening a fourth item for it. |
 | 1.12 | 2026-08-06 | Added item 13: `image28.jpeg`, an unidentified young man with round glasses — unlike item 11, no anchor (baby, wedding, dated event) in the photo to narrow down candidates, so queued as a flat open ID request rather than a reasoned hypothesis. |
 | 1.13 | 2026-08-06 | Added items 14 and 15: `image29.jpeg` (unknown couple, family suggests "Laurids" — no clean match found, and this item's own write-up corrects an earlier overconfident "1960s style" dating claim the human rightly pushed back on) and `image30.jpeg` (unknown couple, family suggests "Gyda" — a genuine name match to Anna Gyda Boll exists, but no marriage date is recorded anywhere in the source to check it against). |
+| 1.14 | 2026-08-06 | Updated item 4 with a new independent primary source (Ejerslev 1970, on "Kyssesekten") confirming Mads Pedersen's birth as May 1773, narrowing but not fully resolving the birth-year question. Added item 16: whether "Peder Boe," named in that same source as a tenant farmer whose Jørsby farm hosted the sect's gatherings, is Peder Christensen Boe himself — and who "Jens Boe," also present at one such gathering, might be. Both prompted by the human's direct question about the Boe bloodline's connection to the sect. |

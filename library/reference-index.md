@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.15 | 2026-08-06 | Production
+Version 1.16 | 2026-08-06 | Production
 
 ---
 
@@ -53,6 +53,19 @@ Add one heading per work, following this template (see `knowledge/domains/author
 
 ---
 
+## ejerslev-1970-religios-bevaegelse-i-jorsby
+
+- **Title:** "En religiøs bevægelse i Jørsby" — M. P. Ejerslev. Historisk Årbog for Thy og Mors, 1970, s. 425-442.
+- **Format:** .pdf (6 pages, scanned/typeset journal article, OCR-clean text)
+- **Stored:** yes — Nikolaj (Hannes barnebarn) found and uploaded it directly (2026-08-06), sourced from arkivthy.dk's public archive of the yearbook.
+- **Location:** library/deep-wells/ejerslev-1970-religios-bevaegelse-i-jorsby.pdf
+- **Referenced by domains:** None yet — Phase 3 (domain buildout) has not started.
+- **Cornerstone status:** Borderline, stored on explicit human confirmation regardless. It's a short, single-topic article, not something mined incrementally over months — the usual strongest cornerstone signal. But it is directly cited in `boe-slaegten-fra-mors-og-fur`'s own bibliography (as "Historisk Årbog for Thy og Mors 1968-70" on Peder Lassen Grud), which is itself cornerstone-status, and it's hosted only on a small regional local-archive site whose long-term URL stability isn't guaranteed the way a published book's would be. Both weigh toward keeping a permanent copy even without a slam-dunk case on any single §9.3 criterion.
+- **Extraction log:**
+  - 2026-08-06: Full article read — primary-source detail on "Kyssesekten"/Peder Lassen Grud (`family-tree/tree.ged#I7`), confirming his paternity of Sidsel Lauridsdatter Toft's son Mads Pedersen (`#I6`, narrows his birth to "maj 1773," now added as `tree.ged`'s best-supported BIRT date) and revealing that Sidsel (`#I2`) was present at a raided sect gathering hosted by a tenant farmer named "Peder Boe" — very likely Peder Christensen Boe himself (`#I1`), the direct-line ancestor. Added as NOTE citations on I1, I2, I6, I7. An unidentified "Jens Boe," also present at that gathering, is queued in `grandfather-review/queue.md` item 16 rather than modeled as an individual on this evidence alone. Cross-references `grandfather-review/queue.md` item 4 (Mads Pedersen's birth year) with the new corroborating source.
+
+---
+
 ## Version History
 
 | Version | Date | Summary |
@@ -73,3 +86,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.13 | 2026-08-06 | Anetavler and Kilder read in full — **the entire manuscript is now read**. 27 new individuals; media status updated to all 48 images checked, 25 filed. |
 | 1.14 | 2026-08-06 | Extracted and stored the 20 remaining relevant images (14 previously unmatched, 6 further Anetavler chart pages) so they're no longer only reachable by re-opening the `.docx` — media status updated to 45 of 48 filed. Two images that turned out to belong to a different manuscript entirely (Hopp-slægten) moved to a new, deliberately unregistered preview location instead of a formal deep well, since that source hasn't been received yet. |
 | 1.15 | 2026-08-06 | Correction: the two images moved out in 1.14 were misidentified — the human confirmed both are actually Boe-slægten family photos (Hanne Boe/Knud Erik Jakobsen; a 1995 family group), not Hopp-slægten. Moved back; media status now 47 of 48 filed, only the confirmed duplicate (image18) unstored. |
+| 1.16 | 2026-08-06 | Registered and stored a second deep well: `ejerslev-1970-religios-bevaegelse-i-jorsby`, a 1970 journal article on "Kyssesekten" that the Boe-slægten manuscript's own bibliography already cited but this project never had in hand. The human found and uploaded it directly, then confirmed storage per the cornerstone rule despite it being a borderline case (small, single-topic, technically re-fetchable). Used to answer a direct question about the Boe bloodline's connection to the sect. |
