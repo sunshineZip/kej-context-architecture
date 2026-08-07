@@ -1,6 +1,6 @@
 # Context Architecture — System Design
 
-Version 1.9 | 2026-08-06 | Production
+Version 1.10 | 2026-08-07 | Production
 
 ---
 
@@ -93,6 +93,8 @@ The session log only ever grows — no entries are deleted or edited after the f
     queue.md                          ← Open discoveries/connections/inconsistencies/gaps, not yet reviewed
     log.md                            ← Append-only history of what was sent and how KEJ responded
 
+  research-queue.md                   ← Fork-specific — open questions grouped by external resource, see §3
+
   projects/                           ← One folder per project
     system/                           ← Pre-created — tracks all structural changes to this system
       session-log.md                  ← Audit log of architecture decisions and changes
@@ -168,6 +170,10 @@ The promotion path this layer feeds is stricter than ordinary knowledge promotio
 
 Both files in this layer are written in Danish, unlike the rest of this repo — KEJ's English is limited and the research itself is Danish, so translating at send-time would risk losing nuance on every cycle. Each file's own top-of-file note explains this; the `## Version History` section of each is the one part that stays in the repo's standard English convention, so `scripts/validate.ps1` keeps recognizing it.
 
+### External-resource research queue — fork-specific: `research-queue.md`
+
+This fork adds `research-queue.md`, a single top-level file — not part of the generic template. It exists to solve a cost-batching problem distinct from `grandfather-review/`'s: some open questions can't be resolved by KEJ, the family, or anything already in this repo — they need an external resource that costs money or travel to reach (a paid subscription site like MyHeritage, a physical archive visit). Rather than paying or traveling once per question as each one turns up, this file groups open questions **by which resource would resolve them**, so the cost gets spent once against an accumulated batch. Written in English, unlike `grandfather-review/`, since it isn't addressed to KEJ.
+
 ---
 
 ## 4. Dynamic Routing
@@ -240,3 +246,4 @@ To fork this template for a new initiative:
 | 1.7 | 2026-08-05 | §3 prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference — including the `[VERIFIED: KEJ, YYYY-MM-DD]` signal value. The `grandfather-review/` folder name and the `[FLAG FOR GRANDFATHER REVIEW]` tag are kept as-is — stable structural identifiers, not prose. |
 | 1.8 | 2026-08-06 | Fork-specific addition: created the actual `family-tree/tree.ged` (GEDCOM) and `family-tree/possible-duplicates.md`, previously only sketched in `projects/archive-digitization/context/data-structure-proposal.md` — human confirmed the "wait for real data" threshold was passed once two full generations of Boe-slægten data were in hand. §2 file structure diagram and new §3 subsection "Cross-*slægt* structural data — fork-specific: `family-tree/`" added. |
 | 1.9 | 2026-08-06 | Fork-specific addition: created `incoming/`, a tracked (non-gitignored) landing zone for untriaged raw files, after the Boe-slægten manuscript's original `.docx` repeatedly hit a Google Drive connector's 10 MB download cap plus this environment's network policy blocking direct Drive access — pulling large files through an AI tool connector was becoming unsustainable, so the human now pushes them into the repo directly instead. §2 file structure diagram and new §3 subsection "Untriaged file intake — fork-specific: `incoming/`" added; explicitly distinguished from `temp/`, which is gitignored and for transient material only. |
+| 1.10 | 2026-08-07 | Fork-specific addition: created `research-queue.md`, a single top-level file grouping open research questions by which external resource (paid subscription site, physical archive trip) would resolve them — prompted by a paywalled MyHeritage lead on an American emigrant ancestor, to batch subscription/travel cost against an accumulated pile of questions rather than spending it per question. §2 file structure diagram and new §3 subsection "External-resource research queue — fork-specific: `research-queue.md`" added. Distinct from `grandfather-review/` (questions only KEJ can answer) and `family-tree/possible-duplicates.md` (routine ambiguity resolved by evidence already in hand). |
