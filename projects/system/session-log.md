@@ -329,3 +329,26 @@ STATUS: CHECKPOINT
 Completed: `authoring-guidelines.md` §9.5 now defines two refined citation formats — `familieidentifikation` requires who + confidence, `ai-research` requires a real traceable citation file, not a bare label — closing a real provenance gap the human caught. Retrofitted across all existing usage in `tree.ged`, not just applied going forward.
 Next: None specific — mechanism is live going forward for future AI-researched background and future family-testimony citations.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 13 | 2026-08-07
+
+Same session, continued. Human found a promising MyHeritage SuperSearch lead on Jens Christian Christensen (the American emigrant, `family-tree/tree.ged#I29`) and uploaded the search-results page HTML, but everything on MyHeritage is paywalled — only collection names and field labels are visible without a subscription, actual values are blurred. Human's broader point: rather than subscribing (or making a physical archive trip, for the anticipated future Hopp-slægten Dutch-records case) to resolve one question at a time, questions that depend on a specific costly external resource should be piled up by source and resolved in one batch once the pile justifies the cost.
+
+Extracted what's actually readable from the uploaded HTML (mostly paywall chrome; the file itself was too large to read directly, so grepped for visible content): several FamilySearch/Filae family-tree hits and 1930 Danish census hits with blurred fields, plus one partially-visible newspaper snippet ("SANTA MONICA, Sept. 1 — Jens Christian Christensen, a seaman on the...", from an OldNews.com California/Hawaii/Alaska/Puerto Rico/US Virgin Islands newspaper collection) — flagged with the same caution as the earlier FamilySearch false-positive (2026-08-06): "Jens Christian Christensen" is a very common name, a name match alone isn't a person match.
+
+**Built:** a new top-level `research-queue.md` — not part of the generic template, distinct in both purpose and audience from `grandfather-review/` (questions only KEJ can answer) and `family-tree/possible-duplicates.md` (routine ambiguity resolvable from evidence already in hand). Groups open questions by which external resource (paid subscription, paid record request, physical archive trip) would resolve them, so cost gets spent once against an accumulated batch rather than repeatedly. Seeded with the MyHeritage lead (full context: what's known about I29, the search URL, what's visible vs. paywalled, the name-commonality caution) and an empty placeholder section for the anticipated future Dutch-archive Hopp-slægten case the human named as the other motivating example.
+
+Documented as a proper structural addition, same treatment as `incoming/` and `grandfather-review/` got: `Architecture.md` (1.9 → 1.10) gained the file in its §2 diagram and a new §3 subsection; `ROUTING.md` (1.15 → 1.16) gained a matching Quick Task Guide entry.
+
+### Session close
+
+Knowledge candidates: None — structural/tooling addition, not a domain fact.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: New top-level `research-queue.md` groups open genealogical questions by which paid/travel external resource would resolve them, seeded with a real MyHeritage lead on the American emigrant ancestor. Documented in `Architecture.md` and `ROUTING.md` to the same standard as prior fork-specific structural additions.
+Next: None specific — mechanism is live going forward. Revisit MyHeritage once its pile of open questions justifies a subscription.
+Waiting for: Nothing further this turn — pushing now.

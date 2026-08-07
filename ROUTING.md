@@ -1,6 +1,6 @@
 # Routing
 
-Version 1.15 | 2026-08-06 | Production
+Version 1.16 | 2026-08-07 | Production
 
 ---
 
@@ -150,6 +150,10 @@ Apply these in every session regardless of project type or how you entered the s
 → Raise `[FLAG FOR GRANDFATHER REVIEW]` (format in `knowledge/flow/operating-principles.md` §5) and append it to `grandfather-review/queue.md` **in Danish** — see that file's own language note
 → The human reviews and sends the queue to KEJ on his own schedule (no fixed cadence enforced by this repo) — when his response comes back, record it in `grandfather-review/log.md` and, only for confirmed items, promote the finding into the relevant domain with `[VERIFIED: KEJ, YYYY-MM-DD]`
 
+**I found a lead that needs a paid subscription, a paid record request, or a physical trip to resolve**
+→ Don't act on it immediately unless the human explicitly wants to pay/travel now — add it to `research-queue.md` under the relevant source, with enough context to act on later without re-deriving it
+→ When a source's pile of open questions is big enough to justify the cost, the human spends it once and works through everything queued for that source in one sitting
+
 **I want to retire a domain or project**
 → Confirm with the human first — this is a structural decision, not a routine edit
 → Domain: see `knowledge/domains/index.md` § Retiring a Domain for the full steps
@@ -206,3 +210,4 @@ The real *slægt* (family line) list can't be known until the source material �
 | 1.13 | 2026-08-05 | Quick Task Guide's grandfather-review entry now notes that queue entries must be written in Danish. |
 | 1.14 | 2026-08-05 | Prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference — including the `[VERIFIED: KEJ, YYYY-MM-DD]` signal value. The `grandfather-review/` folder name and `[FLAG FOR GRANDFATHER REVIEW]` tag are kept as-is — stable structural identifiers, not prose. |
 | 1.15 | 2026-08-06 | Added a Quick Task Guide entry for the new `incoming/` folder — pushing a raw file directly into the repo is now the preferred path over an AI tool connector fetch, especially for large files, after the Boe-slægten manuscript repeatedly hit a Google Drive connector's 10 MB cap plus this environment's network policy blocking direct Drive access. See `Architecture.md` §3 and `incoming/README.md`. |
+| 1.16 | 2026-08-07 | Added a Quick Task Guide entry for the new `research-queue.md` — leads that need a paid subscription, paid record request, or physical trip get queued by source rather than acted on immediately, so the cost is spent once against an accumulated batch. See `Architecture.md` §3. |
