@@ -17,6 +17,7 @@
 1 FAMS @F1@
 1 NOTE Generation "02" i Aneoversigten. Først fundne bærer af tilnavnet Boe, Jørsby kirkebog 1771. Boe-navnets oprindelse er eksplicit ukendt ifølge KEJ selv. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
 1 NOTE Anetavlernes "Boe-slægter"-afsnit (p.86-91) styrker snarere end løser denne usikkerhed: KEJ har selv aktivt undersøgt og konkluderet IMOD en forbindelse til den bedst dokumenterede anden Boe-slægt (den fynske, "Boernes Slægtsbog" 1960) — "Det må derimod anses for usandsynligt" — og finder kun en spekulativ, ubekræftet mulig forbindelse til Boe-slægten i Himmerland/Thy via et fælles gods (Sivert Brockenhuus). Ingen forbindelse fundet til Boe-familier på Ålborgegnen, i Sønderjylland eller ved Nyord/Møn. Navnets egen foreslåede oprindelse: "manden i Boen" eller "bonde." [VERIFIED: boe-slaegten-fra-mors-og-fur, Boe-slægter p.86-91]
+1 NOTE Sandsynlig identifikation (ikke sikker): en samtidig kilde om "Kyssesekten" (Ejerslev 1970, se nedenfor) nævner en "Peder Boe," Ammitsbølls fæster i Jørsby, hvis gård en religiøs forsamling blev holdt i og siden ransaget af proprietæren og sognefogeden — samme navn, sted og periode som Peder Christensen Boe selv. Ved ransagningen var bl.a. hans egen hustru Sidsel (I2) og Karen Skærbæk til stede, "som begge havde fået barn med Peder Lassen" (se I7). Hvis identifikationen er korrekt, var Peder Christensen Boe ikke blot en mand hvis hustru havde en affære før deres ægteskab, men selv vært for sektens forsamlinger. Ikke krydstjekket mod en primærkilde ud over selve artiklen; en "Jens Boe" nævnt samme sted er uidentificeret, se grandfather-review/queue.md #16. [VERIFIED: ejerslev-1970-religios-bevaegelse-i-jorsby, s.427]
 0 @I2@ INDI
 1 NAME Sidsel (Zidsel) Lauridsdatter /Toft/
 1 SEX F
@@ -31,6 +32,7 @@
 1 FAMS @F2@
 1 NOTE Datter af Laurids Nielsen Toft (d.1797). Konfirmeret 1765. Indblandet i "Kyssesekten" (Peder Lassen Grud) — søn Mads avlet udenfor ægteskab, se I6. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
 1 NOTE Kapitel 2 (Boe-slægten, Jørsby) genbesøger hende fra Toft-familiens egen side, uden nyt om hendes egen linje ud over fadderskabslister allerede dækket — men bekræfter faderens navn, tilføjer moderens navn (Kirsten Jensdatter, I246) og giver et fuldt kirkebogscitat om Mads' faderskabssag (se I6's note). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
+1 NOTE En samtidig kilde om "Kyssesekten" (Ejerslev 1970) navngiver hende direkte som til stede ved en ransaget forsamling hos "Peder Boe" (se I1's note) sammen med Karen Skærbæk, "som begge havde fået barn med Peder Lassen" — dette var før hendes 1776-ægteskab med Peder Christensen Boe (F1), samtidig med hendes forhold til Peder Lassen (F2). [VERIFIED: ejerslev-1970-religios-bevaegelse-i-jorsby, s.427]
 0 @I3@ INDI
 1 NAME Anna Pedersdatter /Boe/
 1 SEX F
@@ -67,6 +69,9 @@
 0 @I6@ INDI
 1 NAME Mads Pedersen /Boe/
 1 SEX M
+1 BIRT
+2 DATE 8 MAY 1773
+2 PLAC Jørsby, Mors, Danmark
 1 DEAT
 2 DATE 10 NOV 1847
 2 PLAC Sdr. Dråby, Mors, Danmark
@@ -74,7 +79,8 @@
 1 FAMC @F2@
 1 FAMS @F3@
 1 FAMS @F4@
-1 NOTE Fødselsår internt uoverensstemmende i manuskriptet (1774 ét sted, 8.5.1773 et andet, 1771-1773 implicit af tre alderangivelser) — ikke løst her, se grandfather-review/queue.md #4. Tog navnet "Boe" efter stedfar Peder Christensen Boe. Efterkommere bar stadig navnet Boe pr. 2019 ifølge manuskriptet. [CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal — grandfather-review/queue.md #4]
+1 NOTE Fødselsår internt uoverensstemmende i manuskriptet (1774 ét sted, 8.5.1773 et andet, 1771-1773 implicit af tre alderangivelser) — ikke fuldt løst her, se grandfather-review/queue.md #4. Tog navnet "Boe" efter stedfar Peder Christensen Boe. Efterkommere bar stadig navnet Boe pr. 2019 ifølge manuskriptet. [CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal — grandfather-review/queue.md #4]
+1 NOTE En uafhængig samtidig kilde (Ejerslev 1970, om "Kyssesekten") bekræfter "i maj 1773" som fødselsmåned — stemmer overens med manuskriptets "8.5.1773" og understøtter dette som bedst begrundet, men afgør ikke definitivt de øvrige angivelser (1774; 1771-1772 implicit). BIRT ovenfor sat til 8.5.1773 på dette grundlag; stadig ikke behandlet som endeligt afgjort, kun KEJ kan bekræfte. [VERIFIED: ejerslev-1970-religios-bevaegelse-i-jorsby, s.427]
 1 NOTE Kapitel 2 citerer kirkebogen langt fyldigere end Kapitel 1's egen omtale: "Zidsel Larsdatter Toft hendes uægte Barn... Nat Bene. Peder Lassen, Self Ejer i Jørsbye blef udlagt til Baene Fader" — og afslører, at Peder Lassen samtidig nægtede faderskab til to ANDRE anførte børn (Zidsels og en Else Pedersdatter af Sundbyes), hvilket antyder flere sager end dokumenteret i denne slægtsbog. Han havde desuden endnu et barn med sin husholderske Maren Andersdatter, halvbroderen Jens (I301, se F100). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.55-65]
 0 @I7@ INDI
 1 NAME Peder Lassen /Grud/
@@ -82,6 +88,7 @@
 1 FAMS @F2@
 1 FAMS @F100@
 1 NOTE Leder af "Kyssesekten" i Jørsby (bogstavelig fortolkning af "hils hinanden med et helligt kys"). Fik børn med mindst 4 kvinder, dømt til fæstningsarbejde i København (senere formildet), ~2 års afsoning, vendte tilbage og fortsatte sekten nogle år. Biologisk far til Mads Pedersen (I6), erklæret "Barne Fader" i kirkebogen. Kilder ifølge manuskriptet: "Historisk Årbog for Thy og Mors" 1968-70, Steen Busck "En alternativ bevægelse i 1700-årene". [VERIFIED: boe-slaegten-fra-mors-og-fur, p.5-8]
+1 NOTE Manuskriptets kilde "Historisk Årbog for Thy og Mors 1968-70" er nu selv i arkivet: M. P. Ejerslev, "En religiøs bevægelse i Jørsby," Historisk Årbog for Thy og Mors 1970, s.425-442. Født 1744 på gården Grud, Sem by, Hvidbjerg sogn, Thyholm (heraf tilnavnet); konfirmeret af pastor Thura. Dømt 26.4.1775 (ikke "efter afsoning" som antydet af manuskriptets sammendrag — dommen selv lød på 4 års fæstningsarbejde plus 364 rdl. i sagsomkostninger og bøder). Gift senere med husholdersken Maren Andersdatter (d.1793); efter hendes død fik han 6 børn mere med sin anden kone Margrethe Oledatter Bojer. Døde i Jørsby 1812, begravet 12.4., 69 år gammel. [VERIFIED: ejerslev-1970-religios-bevaegelse-i-jorsby, s.426-442]
 0 @I8@ INDI
 1 NAME Karen Pedersdatter /Krøll/
 1 SEX F
