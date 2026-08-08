@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.14 | 2026-08-06 | Active
+Version 1.16 | 2026-08-08 | Active
 
 ---
 
@@ -40,31 +40,22 @@ Løbende liste over opdagelser, foreslåede forbindelser, tilsyneladende uoveren
 **Grundlag:** Sammenligning af to navne/årstal fra to forskellige kilder; ingen primærkilde tjekket.
 **Status:** Foreslået — endnu ikke gennemgået. Spørg KEJ, om det bekræftet er to forskellige mænd.
 
-### 4. Mads Pedersen (Boe)'s fødselsår — intern uoverensstemmelse i manuskriptet
+### 4. [Besvaret 2026-08-08 — se log.md]
 
-**Kategori:** Uoverensstemmelse
-**Kilde:** Projekt Arkivdigitalisering, "Boe-slægten fra Mors og Fur", Kapitel 1, afsnit 02 (2026-08-06) — se `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`
-**Fund:** Samme manuskript angiver flere forskellige fødselsår for Mads Pedersen (Boe), søn af Zidsel Lauridsdatter Toft (og, ifølge teksten, Peder Lassen Grud): eksplicit "1774" ét sted, eksplicit "8.5.1773" et andet sted, og implicit 1772, 1773 eller 1771 ud fra tre forskellige alderangivelser (29 år i 1801, 61 år i 1834, 76 år ved død i 1847). Desuden: en senere passage omtaler "Peder Christensen Boe (= 03)" med facts identiske til "02" (samme fødselsår o.1731, samme dødsdato 17.8.1810) — formodentlig en skrivefejl (skulle være "= 02"?), nævnes her som et mindre spørgsmål sammen med hovedfundet.
-**Opdatering (2026-08-06):** en uafhængig samtidig kilde fundet — M. P. Ejerslev, "En religiøs bevægelse i Jørsby" (Historisk Årbog for Thy og Mors 1970, s.427), selve den kilde manuskriptet allerede citerer ("Historisk Årbog for Thy og Mors 1968-70") men som nu er i arkivet. Den skriver direkte: "I 1773 i maj føder Sidsel Larsdatter Toft en søn, som Peder Lassen er fader til" — stemmer overens med manuskriptets "8.5.1773" og understøtter dette som bedst begrundet. `family-tree/tree.ged` er opdateret til at bruge 8.5.1773 som BIRT, men de øvrige angivelser (1774; 1771-1772 implicit) er stadig ikke forklaret, og dette behandles ikke som endeligt afgjort.
-**Grundlag:** Sammenligning af flere angivelser inden for samme dokument, nu suppleret med én uafhængig ekstern primærkilde (ikke blot en sammenligning internt i manuskriptet længere).
-**Status:** Foreslået — endnu ikke gennemgået. Kan du bekræfte 8.5.1773 som det korrekte fødselsår for Mads Pedersen, og forklare, hvor "1774" og de øvrige alderangivelser i manuskriptet kommer fra? Og er "(= 03)" for Peder Christensen Boe en skrivefejl for "(= 02)"?
+Mads Pedersens fødselsår er bekræftet af KEJ som 8.5.1773.
 
-### 5. Else Marie Christensens dødsår — intern uoverensstemmelse i manuskriptet
+### 5. [Besvaret 2026-08-08 — se log.md]
 
-**Kategori:** Uoverensstemmelse
-**Kilde:** Projekt Arkivdigitalisering, "Boe-slægten fra Mors og Fur", Kapitel 1, afsnit 05 (2026-08-06) — se `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`
-**Fund:** Manuskriptets egen Aneoversigt-oversigt over generation 05's børn angiver Else Marie Christensen (barn "i.") som født 1892 og død 1894 — et spædbarnsdød. Men i afsnittet om familiens kongelige navnebevilling (1904/05) skriver manuskriptet direkte: "Søsteren Else Marie (= i.) døde o.1900" — hvilket antyder, at hun levede til omkring 8 års alderen og først døde kort før 1905-bevillingen, ikke som spædbarn i 1894. Passagens egen regnestykke (9 børn, 2 udelukket af andre grunde, "tilbage er 6 søskende" der fik navnet) stemmer kun, hvis Else Marie var i live indtil kort før 1905 — hvilket understøtter "o.1900" frem for "1894", men ingen af de to angivelser er rettet eller udeladt her.
-**Opdatering (2026-08-06):** en tredje kilde fundet — Else Maries egen individuelle indførsel i Efterslægten (umiddelbart efter barn "h."s afsnit) angiver "Født 6.3.1892... Død 4.6.1894 Bakkerne på Fur, 2 år" — en præcis dato, der stemmer overens med Aneoversigt-tabellens "1894". To af tre kilder (og den mest specifikke) peger nu på 1894 frem for o.1900. `family-tree/tree.ged` er opdateret til at bruge 4.6.1894 som bedst understøttet, men dette er stadig ikke behandlet som endeligt afgjort — kun KEJ kan bekræfte, om "o.1900"-passagen er en fejl, eller om der er en anden forklaring (f.eks. en anden person, en fejlhukommelse hos den citerede kilde).
-**Grundlag:** Sammenligning af tre angivelser inden for samme manuskript (Aneoversigt-tabellen, Efterslægtens egen indførsel, og narrativet om navnebevillingen) — ikke en sammenligning mod en ekstern kilde.
-**Status:** Foreslået — endnu ikke gennemgået. Hvilket dødsår er korrekt for Else Marie — 1894 (spædbarn, understøttet af to kilder inkl. en præcis dato) eller o.1900 (omkring 8 år, én kilde)?
+Else Marie Christensens dødsår er bekræftet af KEJ som 4.6.1894.
 
 ### 6. Laurids Christensen Boe og Ottine Boline Marie Pedersens vielsesdato — intern uoverensstemmelse
 
 **Kategori:** Uoverensstemmelse
 **Kilde:** Projekt Arkivdigitalisering, "Boe-slægten fra Mors og Fur", Kapitel 1, Efterslægten, branch g (2026-08-06) — se `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`
-**Fund:** Afsnittets egen indledning om Laurids Christensen Boe angiver, at han blev gift med Ottine Boline Marie Pedersen "27.2.1915 i Brøndum kirke i Salling". Men en tilføjelse til datteren Else Margrethes egen fødselsindførsel (hun blev født 1911, altså før forældrenes ægteskab, og faderskabet blev tilsyneladende først anerkendt af Laurids i 1914) angiver: "Viede 27/3.1914" samt en henvisning til "Skrivelse fra Durup 8-3-14 angaaende Navnets Rettelse og Vielsen". De to angivelser er forskellige i dag, måned OG år (27.2.1915 mod 27.3.1914).
-**Grundlag:** Sammenligning af to angivelser inden for samme manuskript (afsnittets egen indledning vs. en tilføjelse til et af børnenes fødselsindførsler) — ikke en sammenligning mod en ekstern kilde.
-**Status:** Foreslået — endnu ikke gennemgået. Hvilken dato er korrekt for Laurids og Ottines vielse — 27.2.1915 eller 27.3.1914? Eller dækker de to datoer muligvis over to forskellige begivenheder (f.eks. en borgerlig/administrativ anerkendelse af faderskabet i 1914, adskilt fra selve kirkebrylluppet i 1915)?
+**Fund:** Afsnittets egen indledning om Laurids Christensen Boe angiver, at han blev gift med Ottine Boline Marie Pedersen "27.2.1915 i Brøndum kirke i Salling". Men en tilføjelse til datteren Else Margrethes egen fødselsindførsel (hun blev født 1911, altså før forældrenes ægteskab, og faderskabet blev tilsyneladende først anerkendt af Laurids i 1914) angav (i denne sessions tidligere transskription): "Viede 27/3.1914".
+**Delvist afklaret (2026-08-08):** KEJ har læst fødselsindførslen direkte og bekræfter "Viede 27.2.1914" — altså SAMME dag og måned som afsnittets indledning (27.2.), ikke 27.3. som tidligere transskriberet her. Kun ÅRET er stadig uafklaret: 1914 (fødselsindførslens tilføjelse) mod 1915 (afsnittets indledning).
+**Grundlag:** Sammenligning af to angivelser inden for samme manuskript (afsnittets egen indledning vs. en tilføjelse til et af børnenes fødselsindførsler), nu læst direkte af KEJ.
+**Status:** Foreslået — endnu ikke gennemgået. Hvilket ÅR er korrekt for Laurids og Ottines vielse — 1914 eller 1915? Dag og måned (27.2.) er nu enslydende i begge kilder.
 
 ### 7. Gentagne fejlmærkede søskende-henvisninger (romertal) i branch g
 
@@ -78,22 +69,13 @@ Alle tre findes ved fadderlister ved dåb af Laurids' børnebørn — mønsteret
 **Grundlag:** Sammenligning af flere angivelser af samme personers romertal/slægtsbetegnelser inden for samme manuskript. Ikke en sammenligning mod en ekstern kilde.
 **Status:** Foreslået — endnu ikke gennemgået. Er dette blot skrivefejl i de originale fadderlister (letforklarligt, da flere børn skulle holdes styr på), eller er der en systematisk forveksling et sted i din egen nummerering af branch g's børn, som er værd at tjekke igennem, inden vi læser resten af branch g (fire børn tilbage: "II.", "III.", "VIII.", "X.")?
 
-### 8. Margit Baks dødsdato — kronologisk umulig
+### 8. [Besvaret 2026-08-08 — se log.md]
 
-**Kategori:** Uoverensstemmelse
-**Kilde:** Projekt Arkivdigitalisering, "Boe-slægten fra Mors og Fur", Kapitel 1, Efterslægten, branch g (2026-08-06) — se `family-tree/possible-duplicates.md` sub-pattern E
-**Fund:** Margit Bak, født 1.10.1951 og gift 6.1.1971 med Svend Erik Poulsen, har ifølge manuskriptet dødsdatoen "Død 24.1.1916." Dette er ikke blot usandsynligt, men kronologisk umuligt: 1916 ligger 35 år FØR hendes egen fødsel i 1951. Der er ingen anden dødsdato angivet noget andet sted i manuskriptet for hende. `family-tree/tree.ged` er bevidst efterladt uden et DEAT-felt for hende, med en NOTE der henviser hertil.
-**Grundlag:** Intern sammenligning mellem Margit Baks egen fødselsdato og den angivne dødsdato, begge inden for samme manuskript — ikke en sammenligning mod en ekstern kilde.
-**Status:** Foreslået — endnu ikke gennemgået. Er "1916" en fejlskrivning af et andet årstal (f.eks. en fejllæsning eller -indtastning af et 19xx-tal, i familie med sub-mønster A's øvrige tilfælde), eller mangler der reelt en dødsdato for Margit Bak, som "24.1.1916" ikke burde stå i stedet for? Er hun i live på nuværende tidspunkt?
+Margit Baks dødsdato er bekræftet af KEJ som 24.1.2016 (ikke 1916 — encifret transskriptionsfejl).
 
-### 9. Christen Pedersen Boe og Mette Jensdatters vielsesår — 1808 eller 1810
+### 9. [Besvaret 2026-08-08 — se log.md]
 
-**Kategori:** Uoverensstemmelse
-**Kilde:** Projekt Arkivdigitalisering, "Boe-slægten fra Mors og Fur", Kapitel 1 (generation "03") og Kapitel 3 (Boe-slægten, Vester Vandet — Mette Jensdatters egen slægt) (2026-08-06)
-**Fund:** Kapitel 1's egen indførsel for Christen Pedersen Boe og Mette Jensdatters vielse angiver "Trolovet 8.9., viet 19.10." 1808. Men Kapitel 3's afsnit om Mette Jensdatters egen familie (Møller-slægten fra Vester Vandet) angiver eksplicit "Gift 19.10.1810 i Jørsby kirke med Christen Pedersen Boe" — samme dag og måned (19. oktober), men to år forskel (1808 mod 1810). Et beslægtet fund i samme passage: Mette havde en søn uden for ægteskab, Jens Thomasen, hvis dåbsdato (9.7.1810) og begravelsesdato (14.7.1809) i kilden også er indbyrdes modstridende (en begravelse kan ikke ligge før dåben) — muligvis et tegn på, at flere datoer omkring denne periode i Mettes liv er forvekslet i kilden.
-**Opdatering (2026-08-06):** en tredje kilde fundet — KEJ's eget håndskrevne stamtræsoverblik, der spænder over alle fire kapitler i ét diagram (`image37.png`), viser også "19.10.1810 JØRSBY" for denne vielse. To af tre kilder (inkl. det, der ligner KEJ's eget primære arbejdsdokument, hvorfra manuskriptets prosa formentlig er udarbejdet) peger nu på 1810 frem for 1808. `family-tree/tree.ged` er opdateret til at bruge 19.10.1810 som bedst understøttet, men dette behandles stadig ikke som endeligt afgjort.
-**Grundlag:** Sammenligning af tre angivelser inden for samme manuskript (Kapitel 1's egen indledning til generation "03", Kapitel 3's selvstændige omtale af samme vielse, og KEJ's eget håndskrevne stamtræsdiagram) — ikke en sammenligning mod en ekstern kilde.
-**Status:** Foreslået — endnu ikke gennemgået. To af tre kilder peger nu på 1810 — er Kapitel 1's "1808" en fejl i selve prosateksten? Og hænger det sammen med de indbyrdes modstridende datoer for Jens Thomasens dåb/begravelse (9.7.1810 vs. 14.7.1809)?
+Christen Pedersen Boe og Mette Jensdatters vielsesår er bekræftet af KEJ som 1810 (trolovet 8.9.1810, copuleret 19.10.1810), direkte fra kirkebogen.
 
 ### 10. [Flyttet til restricted-modulet, 2026-08-08]
 
@@ -174,3 +156,5 @@ Dette punkt vedrørte et familieforhold, som KEJ efterfølgende har bedt om aldr
 | 1.12 | 2026-08-06 | Added item 13: `image28.jpeg`, an unidentified young man with round glasses — unlike item 11, no anchor (baby, wedding, dated event) in the photo to narrow down candidates, so queued as a flat open ID request rather than a reasoned hypothesis. |
 | 1.13 | 2026-08-06 | Added items 14 and 15: `image29.jpeg` (unknown couple, family suggests "Laurids" — no clean match found, and this item's own write-up corrects an earlier overconfident "1960s style" dating claim the human rightly pushed back on) and `image30.jpeg` (unknown couple, family suggests "Gyda" — a genuine name match to Anna Gyda Boll exists, but no marriage date is recorded anywhere in the source to check it against). |
 | 1.14 | 2026-08-06 | Updated item 4 with a new independent primary source (Ejerslev 1970, on "Kyssesekten") confirming Mads Pedersen's birth as May 1773, narrowing but not fully resolving the birth-year question. Added item 16: whether "Peder Boe," named in that same source as a tenant farmer whose Jørsby farm hosted the sect's gatherings, is Peder Christensen Boe himself — and who "Jens Boe," also present at one such gathering, might be. Both prompted by the human's direct question about the Boe bloodline's connection to the sect. |
+| 1.15 | 2026-08-08 | Item 10 answered by KEJ directly; content moved to `restricted/` per his explicit instruction not to publish it. Public item replaced with a pointer stub, numbering preserved. |
+| 1.16 | 2026-08-08 | KEJ answered items 4, 5, 8, and 9 in full (replaced with pointer stubs to `log.md`) and partially answered item 6 (day/month now confirmed matching, year still open). Item 7 not directly answered, but item 3 of his reply supplied a confirmed full sibling list for branch g (`family-tree/tree.ged#F14`) used as supporting context in `family-tree/possible-duplicates.md`. |

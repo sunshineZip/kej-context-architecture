@@ -453,3 +453,31 @@ STATUS: CHECKPOINT
 Completed: Retroactively closed a real gap — sensitive material that predated `restricted/`'s existence and was still publicly exposed after the fact. Second placeholder category (`Withheld`) built and validator-guarded to the same standard as the first.
 Next: Process items 2-7 of KEJ's reply (routine corrections), logged separately.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 18 | 2026-08-08
+
+Same session, continued. Processed the remaining, non-restricted items of KEJ's reply — routine corrections and confirmations against `grandfather-review/queue.md`'s open items:
+
+- **#8 (Margit Bak's death date):** confirmed 24.1.2016, not 1916 — single-digit transcription error. `family-tree/tree.ged#I151` now has a `DEAT` field.
+- **#9 (Christen Pedersen Boe/Mette Jensdatter's marriage year):** confirmed 1810 directly from the kirkebog (trolovet 8.9.1810, copuleret 19.10.1810) — Chapter 1's "1808" was the manuscript's own error. `#F5` updated.
+- **#5 (Else Marie Christensen's death year):** confirmed 4.6.1894; the manuscript's "o.1900" mention was the error. `#I40` updated. Same reply also confirmed Christen Christensen Boe's branch-letter "h." (`#I39`), already correct here.
+- **#4 (Mads Pedersen's birth year):** confirmed 8.5.1773, matching what was already set from the independent Ejerslev 1970 source. KEJ doesn't know the origin of the manuscript's other figures (1774; 1771-72 implicit) either — left unexplained, but the birth date itself is now settled.
+- **#6 (Laurids/Ottine's marriage date), partial:** KEJ read the birth-entry addendum directly and confirmed "27.2.1914" — day and month now agree with the section's own "27.2.1915," where this session's earlier transcription had it as "27/3.1914" (a month-reading error). Only the year (1914 vs. 1915) is still open. `#I107` and `#F14` updated.
+- **#7 (mislabeled fadder roman numerals), not directly answered:** but KEJ's own item 3 supplied the full confirmed sibling list for branch g (`#F14`, I.-XI. with names/years/numerals) plus a list of page-level cross-reference corrections in his manuscript copy (s.33-54) — added to `family-tree/possible-duplicates.md` sub-pattern D as supporting context, since it doesn't resolve the specific three fadder-list instances #7 is actually about (a different baptism).
+
+All citations use `[VERIFIED: familieidentifikation — Knud Erik Jakobsen, sikker, 2026-08-08]` — the refined citation format from Turn 12, with KEJ himself as the named identifier rather than the human relaying his email.
+
+`grandfather-review/queue.md` items 4, 5, 8, 9 replaced with pointer stubs to `log.md` (their full resolutions recorded there, per the file's own append-only discipline for closed items); item 6 updated in place, still open; item 7 left untouched. `log.md` got a new dated entry recording KEJ's full reply (minus the restricted item 1, which only gets a pointer here per Turn 17) and a Version History row.
+
+### Session close
+
+Knowledge candidates: None — these are `[VERIFIED]` corrections to existing `tree.ged` facts, not new domain knowledge requiring a `knowledge.md` entry.
+Open flags: `queue.md` #6 (marriage year 1914 vs 1915) and #7 (three fadder mislabels) remain open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: 6 of KEJ's 7 reply items processed (the 7th, paternity, was Turn 17's restricted-tier work) — 4 items fully resolved and closed, 1 partially resolved, 1 received supporting context without resolving the queued question itself. `possible-duplicates.md` and both `grandfather-review/` files updated to match.
+Next: None specific — session waiting on the human's review, or further material from KEJ.
+Waiting for: Nothing further this turn — pushing now.

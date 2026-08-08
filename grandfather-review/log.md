@@ -1,6 +1,6 @@
 # KEJs Gennemgangslog
 
-Version 1.3 | 2026-08-06 | Active
+Version 1.4 | 2026-08-08 | Active
 
 ---
 
@@ -42,7 +42,25 @@ Bedste hilsner,
 Nikolaj
 ```
 
-*Afventer KEJs svar — tilføjes her, punkt for punkt, når det kommer (se skabelonen i Dokumentets Formål ovenfor).*
+## 2026-08-08 — Svar modtaget
+
+KEJ svarede punkt for punkt, nummereret 1-7 i sit eget svar (dette svarer ikke 1-til-1 til `queue.md`s numre — hans punkt 1 dækkede det udeladte spørgsmål ovenfor, se note; øvrige punkter er krydsrefereret nedenfor).
+
+**Punkt 1 i KEJs svar** — dækkede det ovenfor udeladte spørgsmål. Besvaret, men indholdet må hverken med i slægtsbogen eller offentliggøres, efter KEJs egen eksplicitte instruks. Fuld tekst og bekræftelse: `restricted/tree-sensitive.ged#I164` og `restricted/grandfather-review-queue.md` (kræver adgang til den private modul-repo).
+
+**queue.md #8 (Margit Baks dødsdato):** Rettet til 24.1.2016 — encifret transskriptionsfejl (19 for 20). `family-tree/tree.ged#I151` opdateret med DEAT-felt.
+
+**queue.md #7-kontekst (faddere for Hanne + søskende-liste, ikke selve #7's tre instanser):** KEJ bekræftede den fulde søskende-liste for gren g (`family-tree/tree.ged#F14`, I.-XI. med fødeår og romertal) samt en liste over sidehenvisningsfejl i sin egen manuskriptkopi (s.33, 35, 37, 41-44, 50, 54) — se `family-tree/possible-duplicates.md` sub-mønster D's note. De tre specifikke fadderliste-instanser i selve #7 (Mona Schmidt Boes dåb) er stadig ikke direkte besvaret.
+
+**queue.md #6 (Laurids/Ottines vielsesdato), delvist:** Bekræftede "Viede 27.2.1914" (dag/måned nu enslydende med afsnittets 27.2.1915 — tidligere transskriberet forkert som "27/3.1914" her). Kun ÅRET (1914 vs. 1915) er stadig uafklaret. `family-tree/tree.ged#I107` og `#F14` opdateret.
+
+**queue.md #9 (Christen Pedersen Boe/Mette Jensdatters vielsesår):** Bekræftet 1810 direkte fra kirkebogen — trolovet 8.9.1810, copuleret 19.10.1810. `family-tree/tree.ged#F5` opdateret.
+
+**queue.md #5 (Else Marie Christensens dødsår), fra selvstændig bekræftelse af "s.54"-rettelser:** Bekræftet 4.6.1894 (spædbarnsdød), "o.1900" var fejlen. `family-tree/tree.ged#I40` opdateret. Samme svar bekræftede også Christen Christensen Boes bogstavbetegnelse "h." (`#I39`, allerede korrekt her).
+
+**queue.md #4 (Mads Pedersens fødselsår):** Bekræftet 8.5.1773, samme dato allerede sat i `tree.ged` på grundlag af Ejerslev 1970. KEJ kender ikke selv oprindelsen til de øvrige angivelser i manuskriptet (1774; 1771-1772 implicit) — fortsat uforklaret. `family-tree/tree.ged#I6` opdateret.
+
+**Ubesvaret/ikke direkte adresseret i denne runde:** queue.md #6's årstal (1914/1915); #7's tre specifikke fadderliste-instanser; "(= 03)"-skrivefejlsspørgsmålet nævnt i #4's oprindelige formulering.
 
 ---
 
@@ -54,3 +72,4 @@ Nikolaj
 | 1.1 | 2026-08-05 | Translated into Danish per the human's request, matching `queue.md` — same rationale, same English exceptions (Version History heading, header status line) for `scripts/validate.ps1` compatibility. |
 | 1.2 | 2026-08-05 | Danish body text now refers to him as "KEJ" (Knud Erik Jakobsen) rather than "bedstefar," per the human's preference, matching `queue.md`. |
 | 1.3 | 2026-08-06 | First real entry: recorded the 2026-08-06 outreach to KEJ covering `queue.md` items 4-10 (a prioritized "Tier 1-2" subset — internal manuscript inconsistencies plus the Hanne-paternity and Margit-Bak-date questions), including the exact message text as sent by Nikolaj. Items 1-3 and 11-15 deliberately held back for a later, lower-priority round. |
+| 1.4 | 2026-08-08 | Recorded KEJ's reply. Items 4, 5, 8, 9 answered and closed; item 6 partially answered (day/month resolved, year still open); item 7 not directly answered but received useful supporting context; the outbound question corresponding to item 10 was answered but the answer's content is restricted per KEJ's explicit instruction and lives in `restricted/` instead — see the note left in place of the original outbound question above. |
