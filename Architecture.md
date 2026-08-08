@@ -1,6 +1,6 @@
 # Context Architecture — System Design
 
-Version 1.11 | 2026-08-08 | Production
+Version 1.12 | 2026-08-08 | Production
 
 ---
 
@@ -187,6 +187,12 @@ That access boundary only protects against people (or sessions) without access t
 
 As of 2026-08-08, access to `kej-restricted-context-architecture` is Nikolaj Boe only — deliberately narrower than this repo's own collaborator list, and not extended by default when new collaborators are added here.
 
+**Two redaction categories, not one.** `family-tree/tree.ged` placeholders use two distinct `NAME` markers, and they mean different things:
+- **`Living /<surname>/`** — individual has no death date on record, so is treated as presumed living by default (§ Standing Rules). Birth year is kept; full record lives at `restricted/tree-sensitive.ged`.
+- **`Withheld /?/`** — individual is very likely deceased, but KEJ has explicitly instructed that this specific content never be published, regardless of vital status (e.g. a disputed-paternity matter with no bearing on anyone's current-day privacy, but real reputational stakes). Surname is also withheld, since here it's the *content*, not the *person's current safety*, being protected. First instance: `@I164@`, added 2026-08-08.
+
+Both categories point to `restricted/tree-sensitive.ged`, and both are covered by the `scripts/validate.ps1` placeholder-regression guard. `restricted/grandfather-review-queue.md` is the same idea applied to the `grandfather-review/` mechanism: when an open question itself turns out to be `Withheld`-tier, the public `queue.md`/`log.md` entries become neutral stubs and the full question-and-answer moves here instead of being deleted outright.
+
 ---
 
 ## 4. Dynamic Routing
@@ -261,3 +267,4 @@ To fork this template for a new initiative:
 | 1.9 | 2026-08-06 | Fork-specific addition: created `incoming/`, a tracked (non-gitignored) landing zone for untriaged raw files, after the Boe-slægten manuscript's original `.docx` repeatedly hit a Google Drive connector's 10 MB download cap plus this environment's network policy blocking direct Drive access — pulling large files through an AI tool connector was becoming unsustainable, so the human now pushes them into the repo directly instead. §2 file structure diagram and new §3 subsection "Untriaged file intake — fork-specific: `incoming/`" added; explicitly distinguished from `temp/`, which is gitignored and for transient material only. |
 | 1.10 | 2026-08-07 | Fork-specific addition: created `research-queue.md`, a single top-level file grouping open research questions by which external resource (paid subscription site, physical archive trip) would resolve them — prompted by a paywalled MyHeritage lead on an American emigrant ancestor, to batch subscription/travel cost against an accumulated pile of questions rather than spending it per question. §2 file structure diagram and new §3 subsection "External-resource research queue — fork-specific: `research-queue.md`" added. Distinct from `grandfather-review/` (questions only KEJ can answer) and `family-tree/possible-duplicates.md` (routine ambiguity resolved by evidence already in hand). |
 | 1.11 | 2026-08-08 | Fork-specific addition: created `restricted/`, a git submodule mounting a separate, more restricted private repo (`kej-restricted-context-architecture`) for a confidentiality tier above `[SENSITIVE]` — findings KEJ wants kept within the research foundation but not shared or publicized without review and disclaimers. Prompted by realizing `[SENSITIVE]` is a prose convention, not an access boundary, and that GitHub access control is repo-wide rather than per-folder. §2 file structure diagram and new §3 subsection "Restricted companion repo — fork-specific: `restricted/`" added; matching `ROUTING.md` Hard Constraint added so a session with the submodule initialized doesn't surface it unprompted. |
+| 1.12 | 2026-08-08 | Added a second `family-tree/tree.ged` redaction category, `Withheld /?/`, distinct from the existing `Living /<surname>/` — for content KEJ explicitly instructed never be published regardless of whether the person is alive (first case: a disputed-paternity matter, `@I164@`). Also added `restricted/grandfather-review-queue.md`, mirroring `grandfather-review/queue.md` and `log.md` for cases where an open question itself turns out to be `Withheld`-tier — the public files get a neutral stub, full content moves to the restricted mirror rather than being deleted. Prompted by KEJ's first substantive reply since `restricted/` was built, which contained exactly this kind of material, some of which had already been sitting in the public repo (added before `restricted/` existed) and had to be retroactively pulled. |
