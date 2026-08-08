@@ -481,3 +481,26 @@ STATUS: CHECKPOINT
 Completed: 6 of KEJ's 7 reply items processed (the 7th, paternity, was Turn 17's restricted-tier work) — 4 items fully resolved and closed, 1 partially resolved, 1 received supporting context without resolving the queued question itself. `possible-duplicates.md` and both `grandfather-review/` files updated to match.
 Next: None specific — session waiting on the human's review, or further material from KEJ.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 19 | 2026-08-08
+
+Same session, continued. Human corrected Turn 17's redaction scope: Gunnar Vilhelm Carlsen's identity and the manuscript's own "udlagt barnefader" claim were never actually restricted-tier — they were already public and non-sensitive, sourced from the manuscript itself. Only KEJ's own further account (his correspondence and a 2005 visit with the declared father, the man's denial and counter-theory, and a third party's wartime political affiliation) needed restricting.
+
+Narrowed accordingly: `family-tree/tree.ged#I164` restored to a full public record (real name, dates, occupation, the "udlagt barnefader" note); `#I167`'s note restored to include the paternity clause and name-history, with the 1984-vs-2005 reclaim-date discrepancy folded in as an unescalated note rather than a new `grandfather-review/queue.md` item (per the human's separate instruction, see below); `grandfather-review/queue.md` item 10 and its changelog restored to original content, with only the Status line updated to reflect KEJ's (restricted) further reply; `log.md`'s outbound question and append-only-exception annotations reverted; the extraction-context summary restored. The `Withheld /?/` placeholder category stays defined (documented in `Architecture.md`) but currently has zero instances — `@I164@` didn't actually need it; the restricted content narrowed to an ordinary `NOTE` in `restricted/tree-sensitive.ged` instead of a redacted individual. Each file's own Version History got an append-only correction row rather than editing the entries made in error.
+
+Human also asked to stop sending KEJ small-detail follow-up questions (exact years, minor discrepancies) for now — "big blockers are still okay" — and accumulate them instead. Noted this as working policy going forward: `grandfather-review/queue.md` items get raised with KEJ in batches at his pace, not as they're found, unless something is actually blocking. The 1984/2005 discrepancy above is the first item held under this policy rather than queued.
+
+Human separately shared a draft reply to KEJ (not a repo file — personal correspondence) and asked for feedback plus whether anything specific should be asked now. Reviewed and replied inline in conversation, not written to any file.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: `queue.md` #6 (marriage year) and #7 (fadder mislabels) still open, now explicitly low-priority per the new accumulate-don't-spam policy. The 1984-vs-2005 Hanne name-reclaim discrepancy noted inline in `tree.ged#I167` but not queued.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Corrected an overcautious redaction from Turn 17 — the general lesson (confirmed with the human, not assumed) is that KEJ's "don't publish" instructions can be narrower than the item they're attached to, and scope should be checked rather than blanket-applied to everything nearby.
+Next: Hold accumulated small questions for a future batch; review the email's two attachments once the human has sent his reply.
+Waiting for: Nothing further this turn — pushing now.
