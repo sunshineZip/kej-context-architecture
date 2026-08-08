@@ -1,6 +1,6 @@
 # Hopp-slægten — Kapitel 1 Extraction Notes
 
-Version 1.0 | 2026-08-08 | Active
+Version 1.1 | 2026-08-08 | Active
 
 ---
 
@@ -39,8 +39,23 @@ Also from "01"'s prose (not the table): the Hopp surname's likely German/Dutch o
 
 ---
 
+## Checkpoint 2 — Dorthe Nielsdatter Hopp's child "I." (Anne Cathrine Nicolaisdatter Hjardemaal), full line (2026-08-08)
+
+Per the human's explicit choice (full depth, every generation, no cutoff), read Dorthe Nielsdatter Hopp's (`#I388`) first child's — Anne Cathrine Nicolaisdatter Hjardemaal (`#I398`) — *entire* descendant line, all the way to its leaves. This single sub-branch produced **230 individuals and 75 families** (`#I398`-`#I627`, `#F133`-`#F207`) — nearly 7x Checkpoint 1's size, and roughly a third of 01C's total paragraph count, confirming the scope correction above is, if anything, an understatement.
+
+The line runs continuously from 1740 to the present day: seven children, dozens of grandchildren spread across Denmark and one emigrant branch to the US (1870, Mankato), and several living descendants born as late as the 1990s (e.g. Louise and Jannie Kousgaard Hansen, b.1990/1993 — not modeled individually since the source itself doesn't name a corresponding sub-branch reaching that far on every line, but comparable recency appears elsewhere). **60 of the 230 individuals are presumed-living** (no death date, plausible age) and were redacted to `Living /<surname>/` placeholders per the standing rule, full records moved to `restricted/tree-sensitive.ged`.
+
+Two source-transcription problems noted inline, not queued (per the human's standing preference): a death year "1737" for someone born 1835 (impossible — read as a slip for 1837) and a marriage year "1876" between two people who couldn't have been born yet (read as an unresolved slip, not corrected to a specific guess). One structural ambiguity also noted inline: two individuals (Niels Christian Hansen Ginnerup, Mathilde Hansen Ginnerup) appear in the source immediately after a numbered list without a clear parent statement — modeled as standalone individuals with the ambiguity flagged rather than guessed into a specific family.
+
+Extraction notes are deliberately more compact than Checkpoint 1's style for this checkpoint — core vitals, marriages, and genuinely distinctive facts (an 1828 paternity court case quoted at length, an 1848-50 war record, an 1870 emigration) kept; routine "confirmed with grade X" and duplicate cross-reference mentions trimmed. This was a deliberate pacing choice given the volume, not a change in citation rigor — every claim still carries `[VERIFIED: hopp-slaegten, 01C]`.
+
+**Remaining scope for 01C**, now that Checkpoint 2 gives a real data point: Dorthe Nielsdatter Hopp has 4 more children (II.-V.) not yet touched, at least one of which (IV.) spans roughly as many source paragraphs as child I. did. Niels Jørgen Knudsen Hopp's other children with documented descendants (c. Knud Nielsen Hopp, 10 children; d. — wait, this is Berthe Nielsdatter Hopp per Checkpoint 1's lettering, 6 children across two marriages) are also untouched. Extrapolating from Checkpoint 2's density, 01C alone likely contains somewhere in the range of 800-1500+ individuals at full depth — see `projects/system/session-log.md` Turn 25 for the fuller assessment.
+
+---
+
 ## Version History
 
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-08 | Initial creation. Checkpoint 1: root chain from "01"'s overview table (6-generation direct line + branches with named children) and Niels Jørgen Knudsen Hopp's own generation (himself, wife, 6 children) from "01C." 34 individuals, 12 families. Scope correction recorded: 01C alone is comparable in size to the entire Boe-slægten manuscript, not a single chapter — revised to a multi-checkpoint plan. |
+| 1.1 | 2026-08-08 | Checkpoint 2: Dorthe Nielsdatter Hopp's child "I." (Anne Cathrine Nicolaisdatter Hjardemaal), read to full depth per the human's explicit choice — 230 individuals, 75 families, 60 living (redacted). Confirms and sharpens the scope correction: this single sub-branch alone is nearly 7x Checkpoint 1's size. |
