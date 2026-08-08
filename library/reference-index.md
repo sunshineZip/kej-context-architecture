@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.21 | 2026-08-08 | Production
+Version 1.23 | 2026-08-08 | Production
 
 ---
 
@@ -72,10 +72,10 @@ Add one heading per work, following this template (see `knowledge/domains/author
 - **Format:** .docx (original, stored)
 - **Stored:** yes — attached directly to KEJ's 2026-08-08 email reply, landed in `incoming/` and triaged the same day.
 - **Location:** library/deep-wells/forskellige-boe-slaegter-2026.docx (see `library/deep-wells/forskellige-boe-slaegter-2026-manifest.md` for the full history and text extraction log)
-- **Referenced by domains:** None yet — not read.
+- **Referenced by domains:** None yet — Phase 3 (domain buildout) has not started.
 - **Cornerstone status:** Yes — personal, unpublished, not reacquirable except from KEJ; covers several distinct Boe lineages (per its own table of contents) substantial enough to likely need mining across more than one session, the same reasoning as `boe-slaegten-fra-mors-og-fur`.
 - **Extraction log:**
-  - *Empty — not yet read.* Covers Bomand/Boe (1500-tallet), Boe på Mors, Boe på Ålborgegnen, Boe i Himmerland/Thy, Boe i Sønderjylland og Slesvig, Fyn-slægten Boe, and Boe på Nyord — KEJ's own framing describes these as separate, likely-unconnected families sharing only the surname, not assumed to connect to the Mors/Fur line already in `tree.ged`.
+  - 2026-08-08: Fully read (7 sections, 746 paragraphs) as reference prose, not modeled as `tree.ged` individuals — same pattern as the original manuscript's own "Boe-slægter" comparative appendix. Nykøbing Mors hypothesis conclusively ruled out (named children, probate citation). Himmerland/Thy hypothesis now has a named, dated, still-unconfirmed candidate connecting individual (Anders Pedersen Boe i Vorring, Nors sogn, probate 1759) — the one genuinely open lead. Sønderjylland/Slesvig, Fyn-slægten, and Nyord (a new, large section not in the original manuscript) all confirmed unconnected. Enriched `NOTE` added to `family-tree/tree.ged#I1`. Full notes: `projects/archive-digitization/context/forskellige-boe-slaegter-extraction.md`.
 
 ---
 
@@ -103,6 +103,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
 - **Extraction log:**
   - 2026-08-08: Checkpoint 1 — root chain (01's overview table, 6 generations) and Niels Jørgen Knudsen Hopp's own generation (01C: himself, wife, 6 children) → `family-tree/tree.ged#I364`-`#I397`. See `hopp-slaegten-manifest.md`'s Phased Reading Plan — 01C turned out comparable in size to the entire Boe-slægten manuscript, so this is one checkpoint of an ongoing multi-checkpoint read, not the whole file. 01F (91 pages) still deferred to its own session.
   - 2026-08-08: Checkpoint 2 — Dorthe Nielsdatter Hopp's child "I." (Anne Cathrine Nicolaisdatter Hjardemaal), full depth per the human's choice → `family-tree/tree.ged#I398`-`#I627`, 230 individuals, 75 families, 60 living. Confirms 01C alone likely holds 800-1500+ individuals at this depth setting.
+  - 2026-08-08: "Our line" depth policy adopted (side branches capped, direct-line chapters stay full depth). Checkpoints 3-4 — Dorthe's remaining children II.-V. (25 individuals) and Berthe's children + Knud Nielsen Hopp's children I.-III. of 10 (10 individuals; IV.-X. not yet read) → `family-tree/tree.ged#I628`-`#I662`, `#F208`-`#F217`. See `hopp-slaegten-manifest.md` and `projects/archive-digitization/context/hopp-slaegten-kapitel1-extraction.md`.
 
 ---
 
@@ -132,3 +133,5 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.19 | 2026-08-08 | Registered and stored `hopp-slaegten`, the first Hopp material actually in hand (items 01, 01C, 01F) — structured as a growing folder (`library/deep-wells/hopp-slaegten/`) rather than a single file, since KEJ distributes this line as many separate per-chapter files instead of one combined manuscript. Human confirmed storage per the cornerstone rule; not yet read — see `hopp-slaegten-manifest.md`'s Phased Reading Plan. |
 | 1.20 | 2026-08-08 | `hopp-slaegten`'s extraction log updated: Checkpoint 1 done (root chain + Niels Jørgen Knudsen Hopp's generation, 34 individuals). 01C turned out comparable in size to the entire Boe-slægten manuscript — reading it is now a multi-checkpoint effort, not a single pass. |
 | 1.21 | 2026-08-08 | Checkpoint 2 done: one full child-line, 230 individuals (60 living). Real data point now supports an estimate of 800-1500+ individuals for 01C alone at the human's chosen full-depth setting. |
+| 1.22 | 2026-08-08 | `hopp-slaegten` extraction log updated with the "our line" depth policy and Checkpoints 3-4 (35 more individuals), closing a gap left after the policy was adopted mid-session. |
+| 1.23 | 2026-08-08 | `forskellige-boe-slaegter` fully read — extraction log updated. Nykøbing Mors hypothesis conclusively ruled out; Himmerland/Thy hypothesis now has a named, still-unconfirmed candidate link; Sønderjylland/Slesvig, Fyn, and Nyord all confirmed unconnected. See `projects/archive-digitization/context/forskellige-boe-slaegter-extraction.md`. |

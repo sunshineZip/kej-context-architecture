@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.17 | 2026-08-08 | Active
+Version 1.18 | 2026-08-08 | Active
 
 ---
 
@@ -139,6 +139,14 @@ Christen Pedersen Boe og Mette Jensdatters vielsesår er bekræftet af KEJ som 1
 **Grundlag:** Navne-, steds- og tidssammenfald mellem artiklens "Peder Boe" og `tree.ged`s Peder Christensen Boe — stærkt, men ikke et 100% sikkert match (efternavnet "Boe" var i forvejen sjældent og nyligt optaget i Jørsby ifølge manuskriptets egen note på I1, hvilket styrker sandsynligheden). Ingen primærkilde ud over selve artiklen tjekket.
 **Status:** Foreslået — endnu ikke gennemgået. Er "Peder Boe," Ammitsbølls fæster i artiklen, den samme som Peder Christensen Boe? Og kender du en "Jens Boe" fra samme periode og sted, der kunne være en slægtning?
 
+### 17. Himmerland/Thy-hypotesen — mulig forbindelse via Anders Pedersen Boe i Vorring, Nors sogn
+
+**Kategori:** Forbindelse
+**Kilde:** Projekt Arkivdigitalisering, "Forskellige Boe-slægter" (august 2026), afsnittet "Boe i Himmerland/Thy," s.6 — se `projects/archive-digitization/context/forskellige-boe-slaegter-extraction.md`
+**Fund:** KEJs eget manuskript (både den oprindelige Anetavler-note fra maj 2026 og denne uddybede august 2026-version) rejser en mulig forbindelse mellem Mors-linjen (`family-tree/tree.ged#I1`, hvis far `#I4` var gårdfæster under netop Ullerup gods, Jørsby) og en fiskerfamilie ved navn Boe omkring Sebbersund/Nibe i Himmerland — begrundet i, at Sivert Brockenhuus til Ullerup på Mors i 1667 også arvede Sebberkloster ved Sebbersund, hvilket historisk kunne have flyttet en fæstebondeslægt mellem godsets besiddelser i to landsdele. August-versionen navngiver nu et konkret muligt bindeled: **Anders Pedersen Boe i Vorring, Nors sogn** (skifte 28.9.1759, Dueholm, Ørum og Vestervig amters skifteprotokol 1749-1759) — altså en Boe bosat på selve Thy/Mors-siden omkring det rette tidspunkt.
+**Grundlag:** KEJs egen formulering er udtrykkeligt spekulativ ("Et evt. bindeled... kunne gå over...") — ikke en påvist forbindelse, kun en foreslået forskningsvej. Delt godsejerskab er i sig selv ikke bevis for en flytning af den enkelte familie. Ingen primærkilde ud over selve skifteprotokol-henvisningen er tjekket her.
+**Status:** Foreslået — endnu ikke gennemgået. Har du selv undersøgt denne Anders Pedersen Boe i Vorring nærmere, eller kender du andre spor, der kunne bekræfte eller afkræfte et slægtskab mellem Mors-linjen og Sebbersund/Nibe-familien?
+
 ---
 
 ## Version History
@@ -163,3 +171,4 @@ Christen Pedersen Boe og Mette Jensdatters vielsesår er bekræftet af KEJ som 1
 | 1.15 | 2026-08-08 | Item 10 answered by KEJ directly; content moved to `restricted/` per his explicit instruction not to publish it. Public item replaced with a pointer stub, numbering preserved. |
 | 1.16 | 2026-08-08 | KEJ answered items 4, 5, 8, and 9 in full (replaced with pointer stubs to `log.md`) and partially answered item 6 (day/month now confirmed matching, year still open). Item 7 not directly answered, but item 3 of his reply supplied a confirmed full sibling list for branch g (`family-tree/tree.ged#F14`) used as supporting context in `family-tree/possible-duplicates.md`. |
 | 1.17 | 2026-08-08 | Correction to 1.15: item 10's underlying question (family tradition vs. the manuscript's own "udlagt barnefader" claim, naming Gunnar Vilhelm Carlsen) was not itself restricted-tier — that fact was already in the manuscript and public before `restricted/` existed. Restored to full public content. Only KEJ's own follow-up account (his correspondence and visit, the declared father's denial and counter-theory, and a third party's wartime political affiliation) is restricted, per his explicit instruction — narrowed accordingly in `family-tree/tree.ged#I164` and `#I167` and here. |
+| 1.18 | 2026-08-08 | Added item 17: the Himmerland/Thy hypothesis (a possible connection between the Mors line and a Sebbersund/Nibe-area Boe fishing family, via shared Ullerup/Sebberkloster estate ownership) now has a named, dated candidate connecting individual — Anders Pedersen Boe i Vorring, Nors sogn, probate 1759 — per KEJ's own expanded "Forskellige Boe-slægter" (august 2026). Still explicitly speculative in his own words; the one genuinely open lead found while reading that document. |
