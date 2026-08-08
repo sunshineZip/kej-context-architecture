@@ -1,6 +1,6 @@
 # Incoming
 
-Version 1.1 | 2026-08-06 | Production
+Version 1.2 | 2026-08-08 | Production
 
 ---
 
@@ -17,7 +17,7 @@ Landing zone for raw, unprocessed files (from KEJ or elsewhere) that haven't bee
 **Triage (a subsequent working session, not the upload step):** for each file found here —
 1. Check it against `projects/archive-digitization/context/intake-manifest.md` and update that item's status.
 2. Decide its permanent home per the existing rules: `library/deep-wells/` if it clears the cornerstone bar (`knowledge/domains/authoring-guidelines.md` §9.2-9.3, human confirmation required for physical storage), `knowledge/domains/[name]/sources/` if it's a small evidentiary source and that domain exists, or stays registry-only (`library/reference-index.md`, `Stored: no`) if neither applies yet.
-3. Move the file to that home and remove it from `incoming/` — this folder is a waiting room, not permanent storage. A file that has been triaged and given a real home should not still be sitting here.
+3. Move the file to that home and remove it from `incoming/` — this folder is a waiting room, not permanent storage. A file that has been triaged and given a real home should not still be sitting here. This is part of finishing triage, not a separate later cleanup step — see `ROUTING.md` Standing Rules. `scripts/validate.ps1` warns if any file is left here, as a per-commit reminder rather than a periodic sweep. Removing a file here is not destructive even in the registry-only (discard) case: this repo has never rewritten git history, so anything ever committed to `incoming/` stays recoverable via `git log`/`git show`.
 
 **What does not belong here:** anything already triaged (goes to its real home per above), and transient handoff scratch material (`temp/` is for that — and is gitignored, unlike this folder).
 
@@ -35,3 +35,4 @@ Landing zone for raw, unprocessed files (from KEJ or elsewhere) that haven't bee
 |---|---|---|
 | 1.0 | 2026-08-06 | Initial creation, in response to the Google Drive connector's 10 MB download cap plus this environment's network policy blocking direct Drive access — both made pulling large files through an AI tool connector unsustainable. This folder lets the human push files directly into the repo instead, bypassing both. |
 | 1.1 | 2026-08-06 | First real use recorded: the Boe-slægten original `.docx` (46.1 MB), pushed via GitHub Desktop after GitHub's website upload UI turned out to have its own separate 25 MB cap — worth knowing that git/GitHub Desktop doesn't share that limit, only the website's drag-and-drop uploader does. Triaged out the same day. |
+| 1.2 | 2026-08-08 | Clarified that removing a triaged file is part of finishing triage itself, not a deferred cleanup step, and that doing so immediately is not risky — git history keeps everything regardless. Cross-referenced the new `ROUTING.md` Standing Rule and `scripts/validate.ps1` non-empty-directory warning. |
