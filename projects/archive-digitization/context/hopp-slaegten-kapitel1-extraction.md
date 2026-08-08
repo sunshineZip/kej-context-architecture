@@ -1,6 +1,6 @@
 # Hopp-slægten — Kapitel 1 Extraction Notes
 
-Version 1.1 | 2026-08-08 | Active
+Version 1.2 | 2026-08-08 | Active
 
 ---
 
@@ -53,9 +53,36 @@ Extraction notes are deliberately more compact than Checkpoint 1's style for thi
 
 ---
 
+## The "our line" depth policy (2026-08-08, from Turn 26 onward)
+
+After Checkpoint 2, the human asked why KEJ would document a branch this extensively if it doesn't connect back to the family's own descent. The chapter numbering itself answers this: the direct chain toward KEJ runs 01 → 02 ("01-**a**") → 03 ("02-**a**") → ... → 07 "Lauritz **Jacobsen**" — always continuing through child letter "a," and landing on the surname KEJ himself carries (Jakobsen). `01C` is "01-**c**" and `01F` is "01-**f**" — both side branches off that chain, not part of it. The working theory, given KEJ's independently-documented pattern of writing up unconnected Boe families, local mills, and archive holdings: he researches and publishes complete, well-sourced families as a local historian (he worked for the local archive/museum most of his life), not narrowly his own bloodline.
+
+Human's decision: keep full depth on the actual direct-line chapters (02 onward, whenever received — that's the real "our line" content) but apply a capped depth to side branches within files like `01C`. Already-built Checkpoint 2 (Anne Cathrine's 230-person line) stays as-is rather than being trimmed back — per the human, KEJ's complete body of work is likely to get absorbed eventually regardless of which line it's on, so nothing already extracted is wasted.
+
+**The cap, as applied from Checkpoint 3 onward:** relative to the file's own subject (here, Niels Jørgen Knudsen Hopp) — his children (already modeled in Checkpoint 1) and *their* children (grandchildren) get full vitals + marriages modeled individually. Beyond that (great-grandchildren and later), individuals are only modeled if the branch is short and simple; otherwise the branch head's `NOTE` field records the shape of what's not modeled (rough count, notable facts, where the source visibly continues or points to a separate published genealogy) rather than expanding every leaf. This preserves genuinely interesting finds (a Danish West Indies plantation-owning branch reaching into Sweden, a branch pointed to a dedicated 1968 published genealogy) as documented facts without the effort of individually modeling hundreds of tangential descendants.
+
+---
+
+## Checkpoint 3 — Dorthe Nielsdatter Hopp's remaining children II.-V., capped depth (2026-08-08)
+
+Applied the "our line" cap for the first time. Dorthe's other 4 children — II. Inger Rosenberg Nicolaisdatter Hjardemaal, III. Pejter Severin Hjardemaal, IV. Niels Jørgen Nicolaisen Hjardemaal, V. Christian Nicolai Hjardemaal — modeled with their own children (one more generation), but not further. **25 individuals, 9 families** (`#I628`-`#I652`, `#F208`-`#F216`), 0 living (all 18th-century).
+
+Notable finds preserved as summary notes rather than fully modeled: IV.'s son Nicolai Severin Nielsen Hjardemaal emigrated to the Danish West Indies (d.1846, Sct. Thomas), with a line continuing through Sweden to a professor of botany (Herman Georg Simmons, 1866-1943) and multiple chemists, one of whom (b.1943) is noted in the source as himself "working on the Hjardemaal genealogy." IV.'s son Søren Nielsen Hjardemaal married a Norwegian woman in Kongsberg (1809) and the source notes "efterslægt tilsyneladende i England." V. Christian Nicolai Hjardemaal has an unusually well-documented scandal: accused of counterfeiting, arson, and adultery in 1780, fled Hjerk in disgrace, later a merchant in Horsens — described by a 1926 local historian as "en forfulgt Degn" (a persecuted parish clerk); kept in full given how well-sourced and specific it is.
+
+## Checkpoint 4 — Berthe Nielsdatter Hopp's children + Knud Nielsen Hopp's children I.-III. (2026-08-08)
+
+Berthe Nielsdatter Hopp's (Niels Jørgen Knudsen Hopp's child "c.") 6 children modeled with vitals only — 5 of 6 died young or are noted simply "død" in the source; only "III." (Herluf Christensen/Wilstrup, a Selde smith) has documented descendants, pointed to a dedicated 1968 published genealogy ("Slægten Herlufsen fra Selde") rather than modeled here.
+
+Knud Nielsen Hopp's (child "d.") first 3 of 10 children modeled — **this session did not reach children IV.-X.** Honest gap, not silently dropped: the source names 5 of the 10 as testament heirs (II., III., VI., IX., X.), so IV., V., VII., VIII. are known to exist and have birth records but weren't read this session.
+
+Both together: **10 individuals, 1 new family** (`#I653`-`#I662`, `#F217`).
+
+---
+
 ## Version History
 
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-08 | Initial creation. Checkpoint 1: root chain from "01"'s overview table (6-generation direct line + branches with named children) and Niels Jørgen Knudsen Hopp's own generation (himself, wife, 6 children) from "01C." 34 individuals, 12 families. Scope correction recorded: 01C alone is comparable in size to the entire Boe-slægten manuscript, not a single chapter — revised to a multi-checkpoint plan. |
 | 1.1 | 2026-08-08 | Checkpoint 2: Dorthe Nielsdatter Hopp's child "I." (Anne Cathrine Nicolaisdatter Hjardemaal), read to full depth per the human's explicit choice — 230 individuals, 75 families, 60 living (redacted). Confirms and sharpens the scope correction: this single sub-branch alone is nearly 7x Checkpoint 1's size. |
+| 1.2 | 2026-08-08 | Adopted the "our line" depth policy after the human asked why KEJ would document a clearly-unconnected branch this deeply — the chapter numbering itself shows 01C/01F are side branches, not the chain toward KEJ. Applied it in Checkpoints 3 (Dorthe's remaining children II.-V., 25 individuals) and 4 (Berthe's children + Knud Nielsen Hopp's children I.-III., 10 individuals). Checkpoint 2 left as-is per the human's instruction. Knud Nielsen Hopp's children IV.-X. remain unread — honest gap, not dropped. |

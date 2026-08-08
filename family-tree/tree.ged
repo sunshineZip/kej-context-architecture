@@ -4118,7 +4118,11 @@
 2 DATE 10 JUN 1739
 2 PLAC Harre, Danmark
 1 CHIL @I398@
-1 NOTE Trolovet 20.3.1739. Forlovere: Hr. Raun, Hr. Jens i Junget, Hr. Thomas Grønbek af Roslev m.fl. 5 børn i alt ("I."-"V.") — kun "I." (Anne Cathrine, I398) er modelleret indtil videre; de øvrige fire følger i senere checkpoints. [VERIFIED: hopp-slaegten, 01C]
+1 CHIL @I628@
+1 CHIL @I631@
+1 CHIL @I635@
+1 CHIL @I646@
+1 NOTE Trolovet 20.3.1739. Forlovere: Hr. Raun, Hr. Jens i Junget, Hr. Thomas Grønbek af Roslev m.fl. 5 børn i alt ("I."-"V."), alle nu modelleret: I. Anne Cathrine (I398, fuld dybde), II. Inger Rosenberg (I628), III. Pejter Severin (I631), IV. Niels Jørgen Nicolaisen (I635), V. Christian Nicolai (I646) — II.-V. modelleret efter "vores-linje"-dybdepolitikken (barnebørn navngivet med data, oldebørn+ kun opsummeret), se session-log 2026-08-08. [VERIFIED: hopp-slaegten, 01C]
 0 @I390@ INDI
 1 NAME Ove Nielsen /Hopp/
 1 SEX M
@@ -4157,7 +4161,12 @@
 1 MARR
 2 DATE ABT 1750
 2 PLAC Selde, Danmark
-1 NOTE Berthe Nielsdatter Hopps 1. ægteskab. [VERIFIED: hopp-slaegten, 01C]
+1 CHIL @I653@
+1 CHIL @I654@
+1 CHIL @I655@
+1 CHIL @I656@
+1 CHIL @I657@
+1 NOTE Berthe Nielsdatter Hopps 1. ægteskab. 5 børn ("I."-"V."). [VERIFIED: hopp-slaegten, 01C]
 0 @I393@ INDI
 1 NAME Anders Lauritzen /Væver/
 1 SEX M
@@ -4167,7 +4176,8 @@
 0 @F131@ FAM
 1 HUSB @I393@
 1 WIFE @I391@
-1 NOTE Berthe Nielsdatter Hopps 2. ægteskab. Dato ikke angivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+1 CHIL @I658@
+1 NOTE Berthe Nielsdatter Hopps 2. ægteskab. Dato ikke angivet i kilden. 1 barn ("VI."). [VERIFIED: hopp-slaegten, 01C]
 0 @I394@ INDI
 1 NAME Knud Nielsen /Hopp/
 1 SEX M
@@ -4179,7 +4189,7 @@
 1 OCCU Degn i Oddense-Otting fra 1749
 1 FAMC @F128@
 1 FAMS @F132@
-1 NOTE Barn "d." Døbt 7.5.1724 i Hjerk. Fik 10 børn ("I."-"X."), ikke modelleret her. [VERIFIED: hopp-slaegten, 01C]
+1 NOTE Barn "d." Døbt 7.5.1724 i Hjerk. Fik 10 børn ("I."-"X."); kun "I."-"III." er modelleret indtil videre (denne session nåede ikke længere) — "IV."-"X." mangler stadig, se `projects/archive-digitization/context/hopp-slaegten-kapitel1-extraction.md`. [VERIFIED: hopp-slaegten, 01C]
 0 @I395@ INDI
 1 NAME Anne /Nielsdatter/
 1 SEX F
@@ -4190,7 +4200,10 @@
 1 MARR
 2 DATE 1754
 2 PLAC Selde, Danmark
-1 NOTE [VERIFIED: hopp-slaegten, 01C]
+1 CHIL @I659@
+1 CHIL @I660@
+1 CHIL @I661@
+1 NOTE Kun "I."-"III." af 10 børn modelleret indtil videre. [VERIFIED: hopp-slaegten, 01C]
 0 @I396@ INDI
 1 NAME Anne Nielsdatter /Hopp/
 1 SEX F
@@ -6852,4 +6865,394 @@
 1 WIFE @I622@
 1 MARR
 2 DATE DEC 1922
+0 @I628@ INDI
+1 NAME Inger Rosenberg /Nicolaisdatter Hjardemaal/
+1 SEX F
+1 FAMC @F129@
+1 BIRT
+2 DATE 1741
+2 PLAC Thorum, Danmark
+1 DEAT
+2 DATE 11 MAR 1815
+2 PLAC Skive, Danmark
+1 NOTE Barn "II." Døbt 27.9.1741. Konfirmeret 1758 Hjerk. Ugift, men fik 1774 en datter uden for ægteskab (barnefader Stie Laursen af Brøndum, f.1748, ikke selvstændigt modelleret her). Døde som "Fattiglem i Skive, 75 Aar" hos svigersønnen. [VERIFIED: hopp-slaegten, 01C]
+0 @I629@ INDI
+1 NAME Anne Dorthe /Hjardemaal/
+1 SEX F
+1 BIRT
+2 DATE 1774
+1 FAMS @F208@
+1 NOTE Barn "1.", født uden for ægteskab. [VERIFIED: hopp-slaegten, 01C]
+0 @I630@ INDI
+1 NAME Peder Christian /Ludvigsen/
+1 SEX M
+1 BIRT
+2 DATE 30 AUG 1778
+2 PLAC Viborg Sdr. sogn, Danmark
+1 DEAT
+2 DATE 4 JUL 1858
+2 PLAC Viborg Domsogn, Danmark
+1 OCCU Gjørtler (metalstøber) i Skive, senere Viborg
+1 FAMS @F208@
+1 NOTE Søn af handelsmand, handskemager Ludvig Friederichsen Ørum og Cathrine Hansdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I631@ INDI
+1 NAME Pejter Severin /Hjardemaal/
+1 SEX M
+1 FAMC @F129@
+1 BIRT
+2 DATE 1743
+2 PLAC Thorum, Danmark
+1 OCCU Landvæsenskommissær; ejer af "Bubbel" (gods)
+1 FAMS @F209@
+1 NOTE Barn "III." Døbt 6.2.1743. 1744 forlover for broderen Christian Nicolai Hjardemaal (=V.). [VERIFIED: hopp-slaegten, 01C]
+0 @I632@ INDI
+1 NAME Magdalene /Brorson/
+1 SEX F
+1 BIRT
+2 DATE 1752
+1 DEAT
+2 DATE 28 APR 1837
+1 FAMS @F209@
+0 @I633@ INDI
+1 NAME Ole Adolph Brorson /Hjardemaal/
+1 SEX M
+1 BIRT
+2 DATE 20 JUL 1789
+1 DEAT
+2 DATE 1871
+1 OCCU "Til Bubbel," kammerråd
+1 FAMC @F209@
+1 NOTE Barn "1." Gift 3 gange (Ane Christine Bentzen d.1813; Maren Teglbrænder d.1836; Sara Louise Bernth d.1876). 5 børn ("a/"-"e/") kendt, spændende bl.a. en købmand i Viborg og en sagfører i København — ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01C]
+0 @I634@ INDI
+1 NAME Mette Marie /Hjardemaal/
+1 SEX F
+1 BIRT
+2 DATE 20 OCT 1790
+1 FAMC @F209@
+1 NOTE Barn "2." Gift med Jørgen Peder Carstensen, præst i Raarup. 3 sønner og 2 døtre, ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I635@ INDI
+1 NAME Niels Jørgen Nicolaisen /Hjardemaal/
+1 SEX M
+1 FAMC @F129@
+1 BIRT
+2 DATE 1745
+2 PLAC Thorum, Danmark
+1 DEAT
+2 DATE 23 DEC 1815
+2 PLAC Pjedsted sogn, Danmark
+1 OCCU Skrædder i Nykøbing Mors fra 1777 (borgerskab 25.10.1777); senere husmand og skrædder i Selde; til sidst "consumptionsbetjent" (lavtlønnet toldbetjent) i Ålborg
+1 FAMS @F210@
+1 NOTE Barn "IV." Døbt 14.3.1745. Trolovet 16.3.1774, viet 17.4.1774 i Selde. Justitsprotokollen for Nykøbing Mors 1765-96 gengiver hans borgerskabs-edsaflæggelse 25.10.1777 in extenso. Død 72 år gammel. [VERIFIED: hopp-slaegten, 01C]
+0 @I636@ INDI
+1 NAME Christine Margrethe /Sørensdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1753
+1 FAMS @F210@
+1 NOTE Tjente på Kjeldgaard før ægteskabet. [VERIFIED: hopp-slaegten, 01C]
+0 @I637@ INDI
+1 NAME Nicolai Severin Nielsen /Hjardemaal/
+1 SEX M
+1 BIRT
+2 DATE 1774
+2 PLAC Nykøbing Mors, Danmark
+1 DEAT
+2 DATE 1846
+2 PLAC Sct. Thomas, Dansk Vestindien
+1 FAMC @F210@
+1 FAMS @F211@
+1 NOTE Barn "1." Udvandrede til Dansk Vestindien. 5 børn ("a/"-"e/") kendt, hvoraf én linje via barnebarnet Julie Adele Nicoline Margrethe Hjardemaal (gift med en Simmons-familie) fortsætter over flere generationer i Sverige — bl.a. en professor i botanik (Herman Georg Simmons, 1866-1943) og flere kemikere — dokumenteret i kilden helt frem til en efterkommer født 1943, der selv "arbejder med slægten Hjardemaal." Ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken — bemærkelsesværdigt som fund, men uden for denne sessions fokus. [VERIFIED: hopp-slaegten, 01C]
+0 @I638@ INDI
+1 NAME Anne Margrethe /Berner/
+1 SEX F
+1 BIRT
+2 DATE 1784
+1 DEAT
+2 DATE 1836
+1 FAMS @F211@
+0 @I639@ INDI
+1 NAME Anne Dorthe Nielsdatter /Hjardemaal/
+1 SEX F
+1 BIRT
+2 DATE 1776
+2 PLAC Nykøbing Mors, Danmark
+1 DEAT
+2 DATE 17 MAR 1834
+2 PLAC Ålborg, Danmark
+1 FAMC @F210@
+1 FAMS @F212@
+1 NOTE Barn "2." [VERIFIED: hopp-slaegten, 01C]
+0 @I640@ INDI
+1 NAME Rasmus /Friis/
+1 SEX M
+1 OCCU Snedkermester i Ålborg
+1 FAMS @F212@
+0 @I641@ INDI
+1 NAME Helle Nielsdatter /Hjardemaal/
+1 SEX F
+1 BIRT
+2 DATE 1780
+2 PLAC Nykøbing Mors, Danmark
+1 FAMC @F210@
+1 NOTE Barn "3." Ingen yderligere oplysninger fundet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I642@ INDI
+1 NAME Anne Margrethe Nielsdatter /Hjardemaal/
+1 SEX F
+1 BIRT
+2 DATE 1783
+2 PLAC Selde, Danmark
+1 FAMC @F210@
+1 FAMS @F213@
+1 NOTE Barn "4." [VERIFIED: hopp-slaegten, 01C]
+0 @I643@ INDI
+1 NAME Lauritz /Bolvig/
+1 SEX M
+1 BIRT
+2 DATE 1784
+1 DEAT
+2 DATE BET 1843 AND 1844
+1 OCCU Proprietær, Pjedsted, senere hovedgården Kjærgaard ved Ribe
+1 FAMS @F213@
+1 NOTE Søn af Jens Christopher Bolvig og Charlotte Amalie Bisch. [VERIFIED: hopp-slaegten, 01C]
+0 @I644@ INDI
+1 NAME Søren Nielsen /Hjardemaal/
+1 SEX M
+1 BIRT
+2 DATE 1787
+2 PLAC Selde, Danmark
+1 OCCU Møller i Trinitatis sogn, Fredericia; senere købmand
+1 FAMC @F210@
+1 FAMS @F214@
+1 NOTE Barn "5." Hjemmedøbt 12.3. En familietradition om, at han var gift med en norsk dame, bekræftes af Kongsberg-kirkebøgerne. Familien flyttede 1818 til Fredericia, siden til Flensborg. 6 børn ("a/"-"f/") kendt (4 sønner, 1 datter ifølge en tidligere opsummering i kilden — antallet stemmer ikke helt overens med bogstavrækken a-f, ikke afklaret her), "efterslægt tilsyneladende i England" ifølge kildens egen bemærkning — ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01C]
+0 @I645@ INDI
+1 NAME Hedevig Cathrine /Teisner/
+1 SEX F
+1 OCCU Fra Kongsberg, Norge
+1 FAMS @F214@
+0 @I646@ INDI
+1 NAME Christian Nicolai /Hjardemaal/
+1 SEX M
+1 FAMC @F129@
+1 BIRT
+2 DATE 1748
+2 PLAC Thorum degnebolig, Danmark
+1 OCCU Hjælpedegn og omgangslærer i Krejbjerg 1764-70; degn og skoleholder i Hjerk-Harre fra 17.3.1770 (efterfulgte morfaderen Niels Jørgen Knudsen Hopp); senere købmand i Horsens
+1 FAMS @F215@
+1 FAMS @F216@
+1 NOTE Barn "V." Døbt 25.2.1748. Gift 1. gang 29.4.1770 Balling med Maren Jensdatter af Ballinggård; gift 2. gang 1774 i Harre med Karen Skow af Harregård. **"En forfulgt Degn":** 29.7.1780 anklaget af herredsfoged Ole Selmer for falskmøntneri (samme forseelse som en fjern slægtning, Mogens Knudsen Hopp, degn i Jebjerg, var dømt for i 1767 — "Ære, Haand og Bosted"), samt for brandstiftelse (degneboligen var brændt o.1780), utroskab og gældsstiftelse. Nægtede alt undtagen gældsstiftelsen (ikke strafbart). Fire pålidelige vidner fra Hjerk forsvarede ham. Udlæg i boet 27.10.1781; flygtede i hemmelighed fra Hjerk 1781/82. Omtalt af Jeppe Aakjær i Skivebogen 1926 som "En forfulgt Degn." [VERIFIED: hopp-slaegten, 01C]
+0 @I647@ INDI
+1 NAME Maren /Jensdatter/
+1 SEX F
+1 FAMS @F215@
+1 NOTE Af Ballinggård. Christian Nicolai Hjardemaals 1. hustru. [VERIFIED: hopp-slaegten, 01C]
+0 @I648@ INDI
+1 NAME Karen /Skow/
+1 SEX F
+1 FAMS @F216@
+1 NOTE Af Harregård. Christian Nicolai Hjardemaals 2. hustru. [VERIFIED: hopp-slaegten, 01C]
+0 @I649@ INDI
+1 NAME Niels Christian /(Christensen Hjardemaal)/
+1 SEX M
+1 BIRT
+2 DATE 14 MAY 1775
+2 PLAC Hjerk-Harre, Danmark
+1 FAMC @F216@
+1 NOTE Barn "1." [VERIFIED: hopp-slaegten, 01C]
+0 @I650@ INDI
+1 NAME Anne /(Christensdatter Hjardemaal)/
+1 SEX F
+1 BIRT
+2 DATE 26 DEC 1777
+2 PLAC Hjerk-Harre, Danmark
+1 FAMC @F216@
+1 NOTE Barn "2." [VERIFIED: hopp-slaegten, 01C]
+0 @I651@ INDI
+1 NAME Niels (Christensen Hjardemaal) /Høyer/
+1 SEX M
+1 BIRT
+2 DATE 27 MAR 1780
+2 PLAC Hjerk-Harre, Danmark
+1 OCCU Præst i Helnæs fra 1811, senere Femløse
+1 FAMC @F216@
+1 NOTE Barn "3." Kaldte sig "N.H. Høyer." Ugift. [VERIFIED: hopp-slaegten, 01C]
+0 @I652@ INDI
+1 NAME [dødfødt datter]
+1 SEX F
+1 BIRT
+2 DATE 1781
+1 DEAT
+2 DATE 1781
+2 PLAC Hjerk, Danmark
+1 FAMC @F216@
+1 NOTE Barn "4." Begravet i Hjerk 1781, "efter degnens bortrejse." [VERIFIED: hopp-slaegten, 01C]
+0 @F208@ FAM
+1 HUSB @I630@
+1 WIFE @I629@
+1 MARR
+2 DATE 20 MAY 1802
+2 PLAC Viborg, Danmark
+1 NOTE 8 børn ("a/"-"h/"), efternavn varierende Ludvigsen/Pedersen/Hjardemaal — spænder fra en signetstikker i Viborg til en gjørtler-slægt, der siden 1800-tallet fik efterkommere dokumenteret helt til København og Herlev i det 20. århundrede (bl.a. en arrestforvarer, en søn født 1917 gift med en civilingeniør) — ikke modelleret enkeltvis her, kun denne generation, per "vores-linje"-dybdepolitikken (se session-log 2026-08-08). [VERIFIED: hopp-slaegten, 01C]
+0 @F209@ FAM
+1 HUSB @I631@
+1 WIFE @I632@
+1 MARR
+2 DATE 18 OCT 1785
+1 CHIL @I633@
+1 CHIL @I634@
+1 NOTE 2 børn ("1."-"2."). [VERIFIED: hopp-slaegten, 01C]
+0 @F210@ FAM
+1 HUSB @I635@
+1 WIFE @I636@
+1 MARR
+2 DATE 17 APR 1774
+2 PLAC Selde, Danmark
+1 CHIL @I637@
+1 CHIL @I639@
+1 CHIL @I641@
+1 CHIL @I642@
+1 CHIL @I644@
+1 NOTE 6 børn ifølge kilden ("1."-"6."), heraf 5 sikkert identificeret i denne gennemgang. [VERIFIED: hopp-slaegten, 01C]
+0 @F211@ FAM
+1 HUSB @I637@
+1 WIFE @I638@
+0 @F212@ FAM
+1 HUSB @I640@
+1 WIFE @I639@
+0 @F213@ FAM
+1 HUSB @I643@
+1 WIFE @I642@
+1 NOTE 2 børn ("a/"-"b/"), hvoraf linjen via Jens Christopher Bolwig fortsætter flere generationer (bl.a. en møllebygger/købmand udvandret til det vestlige USA) — ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01C]
+0 @F214@ FAM
+1 HUSB @I644@
+1 WIFE @I645@
+1 MARR
+2 DATE 11 JAN 1809
+2 PLAC Kongsberg, Norge
+1 NOTE Søren Hjardemaal omtales fra 1809 som "Kiøbmand Hiardemaal" i Kongsberg. [VERIFIED: hopp-slaegten, 01C]
+0 @F215@ FAM
+1 HUSB @I646@
+1 WIFE @I647@
+1 MARR
+2 DATE 29 APR 1770
+2 PLAC Balling, Danmark
+0 @F216@ FAM
+1 HUSB @I646@
+1 WIFE @I648@
+1 MARR
+2 DATE 1774
+2 PLAC Harre, Danmark
+1 CHIL @I649@
+1 CHIL @I650@
+1 CHIL @I651@
+1 CHIL @I652@
+1 NOTE Uden lysning, efter kgl. bevilling. 4 børn ("1."-"4."). [VERIFIED: hopp-slaegten, 01C]
+0 @I653@ INDI
+1 NAME Dorthe Christensdatter /(Wilstrup)/
+1 SEX F
+1 FAMC @F130@
+1 BIRT
+2 DATE 18 OCT 1750
+2 PLAC Selde, Danmark
+1 DEAT
+2 DATE 11 JAN 1756
+2 PLAC Selde, Danmark
+1 NOTE Barn "I.", tvilling til "II." Død som barn, 5 år 2 mdr 2 uger 4 dage. [VERIFIED: hopp-slaegten, 01C]
+0 @I654@ INDI
+1 NAME Helle Christensdatter /(Wilstrup)/
+1 SEX F
+1 FAMC @F130@
+1 BIRT
+2 DATE 18 OCT 1750
+2 PLAC Selde, Danmark
+1 DEAT
+2 DATE 1 NOV 1750
+2 PLAC Selde, Danmark
+1 NOTE Barn "II.", tvilling til "I." Død som spæd, 17 dage. [VERIFIED: hopp-slaegten, 01C]
+0 @I655@ INDI
+1 NAME Herluf /Christensen (Wilstrup)/
+1 SEX M
+1 FAMC @F130@
+1 BIRT
+2 DATE 19 MAR 1752
+2 PLAC Selde, Danmark
+1 OCCU Smed i Selde ("Herluf Smed"), fæstede 1775 et boelsted efter Niels Christensen Iversgaard
+1 NOTE Barn "III." — den eneste af Berthes 6 børn med kendt efterslægt ("NB: Kun III. har efterslægt" i kilden). Gift 3 gange (1775 Ane Jensdatter, ingen børn; 1797 Ane Jepsdatter i Lendum, 2 børn; 1815 Ane Kathrine Knudsdatter, ingen børn). Hans egen efterslægt (mindst 4 dokumenterede generationer, ned til en gren beskrevet i "Slægten Herlufsen fra Selde" — A/S Nordisk Slægtsforskning, Skals, 1968, 78 s. — inkl. dødsfald så sent som 1944 og 1960) er ikke modelleret her, per "vores-linje"-dybdepolitikken; kilden selv henviser videre til denne separate udgivelse frem for at gengive det hele. [VERIFIED: hopp-slaegten, 01C]
+0 @I656@ INDI
+1 NAME Marie /Christensen Wilstrup/
+1 SEX F
+1 FAMC @F130@
+1 BIRT
+2 DATE 6 MAY 1753
+2 PLAC Selde, Danmark
+1 NOTE Barn "IV." Kildens egen anmærkning: "død" — intet dødsår angivet. [VERIFIED: hopp-slaegten, 01C]
+0 @I657@ INDI
+1 NAME Niels Jørgen /Christensen Wilstrup/
+1 SEX M
+1 FAMC @F130@
+1 BIRT
+2 DATE 10 AUG 1755
+2 PLAC Selde, Danmark
+1 DEAT
+2 DATE 1 JAN 1756
+2 PLAC Selde, Danmark
+1 NOTE Barn "V." Død som spæd, 20 uger 4 dage. [VERIFIED: hopp-slaegten, 01C]
+0 @I658@ INDI
+1 NAME Christen /Christensen Væver/
+1 SEX M
+1 FAMC @F131@
+1 BIRT
+2 DATE 16 SEP 1759
+2 PLAC Selde, Danmark
+1 NOTE Barn "VI.", af Berthes 2. ægteskab (med Anders Lauritzen Væver). Kildens egen anmærkning: "død." [VERIFIED: hopp-slaegten, 01C]
+0 @I659@ INDI
+1 NAME Niels /Knudsen (Hopp)/
+1 SEX M
+1 FAMC @F132@
+1 BIRT
+2 DATE 22 MAR 1755
+2 PLAC Oddense, Danmark
+1 DEAT
+2 DATE 25 JUN 1755
+2 PLAC Oddense, Danmark
+1 NOTE Barn "I." Død som spæd, 2 mdr 2 uger. [VERIFIED: hopp-slaegten, 01C]
+0 @I660@ INDI
+1 NAME Bodil Knudsdatter /Hopp/
+1 SEX F
+1 FAMC @F132@
+1 BIRT
+2 DATE 2 JUL 1756
+2 PLAC Oddense, Danmark
+1 DEAT
+2 DATE 6 MAR 1844
+2 PLAC Harre, Danmark
+1 FAMS @F217@
+1 NOTE Barn "II." Én af 5 børn nævnt som arvinger i morbroderen Hr. Thorums testamente (1796), sammen med III., VI., IX. og X. Gift 1794 med Thøger Olesen i Harregård (hans 3. ægteskab, hendes 1.). 1 søn ("I/", Knud Thøgersen "Haldbak"), hvis egen efterslægt (flere generationer, bl.a. en lærer/højskolestifter død 1944) ikke er modelleret her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01C]
+0 @I661@ INDI
+1 NAME Niels Jørgen Knudsen /Hopp/ (Hoppe)
+1 SEX M
+1 FAMC @F132@
+1 BIRT
+2 DATE 9 MAY 1758
+2 PLAC Oddense, Danmark
+1 OCCU Fuldmægtig, senere prokurator (sagfører) i København, hos højesteretsadvokat Smidt
+1 NOTE Barn "III." Én af de 5 arvinger i Hr. Thorums testamente (1796) — oprindelig tillagt 1000 rdr, siden forhøjet til 3500 rdr efter testators egen revision 1795, en betydelig arv for tiden. Kildens egen vurdering: "efterlader sig tilsyneladende ikke efterslægt." [VERIFIED: hopp-slaegten, 01C]
+0 @I662@ INDI
+1 NAME Thøger /Olesen/
+1 SEX M
+1 BIRT
+2 DATE 1732
+2 PLAC Harre, Danmark
+1 DEAT
+2 DATE 12 DEC 1809
+2 PLAC Harregård, Danmark
+1 OCCU Selvejerbonde, Over Harregård
+1 FAMS @F217@
+1 NOTE Søn af fæstegårdmand Ole Jacobsen og Bodil Christensdatter. Bodil Knudsdatter Hopps ægtemand var hans 3. hustru — han var tidligere gift 2 gange. [VERIFIED: hopp-slaegten, 01C]
+0 @F217@ FAM
+1 HUSB @I662@
+1 WIFE @I660@
+1 MARR
+2 DATE 1794
+2 PLAC Harre kirke, Danmark
+1 NOTE Uden forudgående forlovelse/lysning, efter kongelig bevilling. 1 søn, Knud Thøgersen "Haldbak," hvis linje ikke er modelleret her. [VERIFIED: hopp-slaegten, 01C]
 0 TRLR

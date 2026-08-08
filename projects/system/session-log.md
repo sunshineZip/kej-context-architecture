@@ -659,3 +659,32 @@ STATUS: CHECKPOINT
 Completed: Checkpoint 2 — one full child-line of 01C, 230 individuals, first real data point on the true scale of full-depth Hopp-slægten extraction (800-1500+ individuals estimated for 01C alone).
 Next: Continue with Dorthe Nielsdatter Hopp's remaining 4 children (II.-V.), then Niels Jørgen Knudsen Hopp's other documented children (Berthe/"c.", Knud Nielsen Hopp/"d."), then eventually Phase 2 (01F).
 Waiting for: Human's direction on whether to keep going now or pace differently given the real scale.
+
+---
+
+## [Claude] — Turn 26 | 2026-08-08
+
+Same session, continued. Human pushed back gently on Turn 25's full-depth finding: didn't understand why KEJ would document a 230-person branch this deeply if it doesn't somehow connect to the family's own line.
+
+Looked at the evidence already in hand rather than guessing: the chapter numbering (01 → 02 "01-**a**" → 03 "02-**a**" → ... → 07 "Lauritz **Jacobsen**") is itself the direct ancestral chain, always continuing through child letter "a," and it lands on KEJ's own surname (Jakobsen). `01C` ("01-**c**") and `01F` ("01-**f**") are both side branches off that chain, not part of it — so the 230 people in Checkpoint 2 are almost certainly not on the path to KEJ. Shared this concretely rather than just asserting it. Best working explanation: KEJ's demonstrated pattern (unconnected Boe families, local mill histories, Sundsøre archive material) of documenting complete, well-sourced families as a local historian — the human confirmed he'd worked for the local archive/museum most of his career, which fits.
+
+Human's decision: apply an "our line" depth policy going forward (full depth on the real direct-line chapters, capped depth on side branches), but leave the already-built Checkpoint 2 as-is rather than trim it back — reasoning that KEJ's whole body of work will likely get absorbed eventually regardless of which line it's technically on.
+
+Defined the cap concretely: relative to a file's own subject (here, Niels Jørgen Knudsen Hopp), his children and grandchildren get modeled individually with full vitals; beyond that, only short/simple branches get modeled — everything else gets summarized in a `NOTE` on the branch head (rough shape, notable facts, pointers to where the source continues or to a separate published genealogy) rather than expanded leaf by leaf.
+
+Applied it immediately:
+- **Checkpoint 3**: Dorthe Nielsdatter Hopp's remaining children (II.-V.) — 25 individuals, 9 families, capped. Preserved as summary notes rather than full trees: a Danish West Indies plantation-owning branch (Nicolai Severin Nielsen Hjardemaal, d.1846 Sct. Thomas) continuing through Sweden to a professor of botany and multiple chemists, one of whom the source notes is himself "working on the Hjardemaal genealogy"; a Norway/Kongsberg marriage with descendants "apparently in England"; and Christian Nicolai Hjardemaal's own well-documented 1780 scandal (accused of counterfeiting, arson, and adultery; fled Hjerk; described by a 1926 local historian as "en forfulgt Degn") — kept in full given how specific and well-sourced it is.
+- **Checkpoint 4**: Berthe Nielsdatter Hopp's 6 children (vitals only — 5 died young or unmarried; the 6th, Herluf Christensen/Wilstrup, has a documented but uncaptured descendant line pointed to a separate 1968 published genealogy) plus Knud Nielsen Hopp's first 3 of 10 children. **Honest gap, flagged rather than hidden:** Knud Nielsen Hopp's children IV.-X. weren't reached this session — the source itself names 5 of the 10 as testament heirs (II., III., VI., IX., X.), so several are known to exist with birth records but aren't in `tree.ged` yet.
+
+**Built/updated:** `hopp-slaegten-kapitel1-extraction.md` (policy statement + Checkpoints 3-4), `hopp-slaegten-manifest.md`, `TODO.md` — all reflecting the policy change and its immediate application.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None escalated to `grandfather-review/queue.md`.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: "Our line" depth policy adopted and applied — 35 more individuals across Checkpoints 3-4, all at capped depth. Total `tree.ged` now 662 individuals, 215 families.
+Next: Knud Nielsen Hopp's children IV.-X. (capped depth, whenever picked back up), then eventually Phase 2 (01F — also a side branch, "01-f", so capped depth applies there too, not full).
+Waiting for: Human's direction on whether to continue now.
