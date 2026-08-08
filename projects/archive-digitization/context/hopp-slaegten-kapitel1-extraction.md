@@ -1,6 +1,6 @@
 # Hopp-slægten — Kapitel 1 Extraction Notes
 
-Version 1.2 | 2026-08-08 | Active
+Version 1.3 | 2026-08-08 | Active
 
 ---
 
@@ -77,6 +77,16 @@ Knud Nielsen Hopp's (child "d.") first 3 of 10 children modeled — **this sessi
 
 Both together: **10 individuals, 1 new family** (`#I653`-`#I662`, `#F217`).
 
+## Checkpoint 5 — Knud Nielsen Hopp's remaining children IV.-X., capped depth (2026-08-08)
+
+Closes the gap left after Checkpoint 4: all 10 of Knud Nielsen Hopp and Anne Nielsdatter's children are now modeled. Four died as infants (IV. Niels Knudsen, V. Anna Cathrine Knudsdatter, VII. Magdalene Sybille Knudsdatter — all a few months old; VIII. Jesper Knudsen, presumed dead before the 1792/95 testament since he isn't among its 5 named heirs, no exact date found). The 3 newly-modeled testament heirs:
+
+- **VI. Anna Catharine Knudsdatter Hopp** (`#I665`) married Christen Christensen "Kock"/"Hvam" (`#I666`), a selvejergårdmand in Nr. Hvam bought partly on money borrowed from her own uncle. 6 children capped per policy — but one, smed Knud Christensen in Arup sogn, has documented descendants as late as a named 2007 contact (Ketty Thisemann, Aalborg), worth a pointer even though not modeled. The couple also fostered Mette Kirstine Jacobsdatter, IX.'s own illegitimate daughter.
+- **IX. Jacob Henrich Knudsen Hopp** (`#I669`) — the most eventful of the three: a Napoleonic-era Aalborg merchant who owned a small privateering fleet (3 named ships, 1808-1811), married twice (Else Marie Sanne `#I670`, then Petronella Marie Seip `#I671`), and had 9 children across both marriages plus one before the first — capped per policy, except a note that Mette Kirstine's own line (the illegitimate daughter, raised by aunt VI.) is documented into the 1880s. The genuinely striking fact, preserved in full rather than summarized away: despite inheriting a substantial fortune from the same uncle (Hr. Thorum) in 1796 and holding real merchant status for decades, Jacob Hopp died in 1841 as a registered pauper ("fattiglem"), on poorhouse relief since 1838 — the probate record quotes the almshouse administrator directly.
+- **X. Helena Knudsdatter Hopp** (`#I672`) married Willads Jacobsen (`#I673`) of Nors; she received the single largest of the four nieces'/nephews' inheritance shares (3917 rdr) from the same uncle, "for having served him in his own household." 8 children capped per policy, one (Else Marie, b.1808) pointed to a documented descendant contact rather than modeled.
+
+**11 individuals, 4 new families** (`#I663`-`#I673`, `#F218`-`#F221`). `#F132` (Knud Nielsen Hopp x Anne Nielsdatter) updated to list all 10 children and note the testament-heir pattern explicitly. **This closes Phase 1 of the Hopp-slægten reading plan** — 01's overview and 01C are both now fully read at the depth the "our line" policy calls for. Only Phase 2 (01F, deferred, its own session) remains open in Hopp-slægten.
+
 ---
 
 ## Version History
@@ -86,3 +96,4 @@ Both together: **10 individuals, 1 new family** (`#I653`-`#I662`, `#F217`).
 | 1.0 | 2026-08-08 | Initial creation. Checkpoint 1: root chain from "01"'s overview table (6-generation direct line + branches with named children) and Niels Jørgen Knudsen Hopp's own generation (himself, wife, 6 children) from "01C." 34 individuals, 12 families. Scope correction recorded: 01C alone is comparable in size to the entire Boe-slægten manuscript, not a single chapter — revised to a multi-checkpoint plan. |
 | 1.1 | 2026-08-08 | Checkpoint 2: Dorthe Nielsdatter Hopp's child "I." (Anne Cathrine Nicolaisdatter Hjardemaal), read to full depth per the human's explicit choice — 230 individuals, 75 families, 60 living (redacted). Confirms and sharpens the scope correction: this single sub-branch alone is nearly 7x Checkpoint 1's size. |
 | 1.2 | 2026-08-08 | Adopted the "our line" depth policy after the human asked why KEJ would document a clearly-unconnected branch this deeply — the chapter numbering itself shows 01C/01F are side branches, not the chain toward KEJ. Applied it in Checkpoints 3 (Dorthe's remaining children II.-V., 25 individuals) and 4 (Berthe's children + Knud Nielsen Hopp's children I.-III., 10 individuals). Checkpoint 2 left as-is per the human's instruction. Knud Nielsen Hopp's children IV.-X. remain unread — honest gap, not dropped. |
+| 1.3 | 2026-08-08 | Checkpoint 5: Knud Nielsen Hopp's remaining children IV.-X. (11 individuals, 4 families), capped per policy. Closes the honest gap from 1.2 and completes Phase 1 (01 + 01C) in full. Only Phase 2 (01F) remains open. |

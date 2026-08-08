@@ -719,3 +719,28 @@ STATUS: CHECKPOINT
 Completed: "Forskellige Boe-slægter" fully read. Nykøbing Mors hypothesis ruled out with primary-source detail; Himmerland/Thy hypothesis now has a named candidate (queued for KEJ). No `tree.ged` individuals added — reference prose only, per established comparative-research handling.
 Next: Open — Knud Nielsen Hopp's children IV.-X. (Hopp-slægten 01C, capped depth) and Phase 2 (01F, capped depth) both remain, whenever picked back up. No other in-hand item is unread.
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 28 | 2026-08-08
+
+Same session, continued. Human asked to continue with whatever seemed most relevant, without naming a specific next step. Checked `incoming/` first per the standing session-start habit — empty, nothing new to triage. Of the two open Hopp-slægten items, picked the smaller, well-scoped one: finishing Knud Nielsen Hopp's remaining children (IV.-X.) in 01C, since it closes out Phase 1 entirely, rather than cold-starting the 91-page Phase 2 (01F).
+
+Read the source from where Checkpoint 4 left off (child "III." Niels Jørgen Knudsen Hopp) through to the end of child "X." (Helena). Built **Checkpoint 5**: 4 infant deaths (IV., V., VII., VIII. — none reached adulthood, consistent with them being absent from the 1792/95 testament's 5 named heirs) plus the 3 remaining testament heirs modeled with their own spouses — VI. Anna Catharine Knudsdatter Hopp (married a Nr. Hvam selvejergårdmand, 6 children capped), IX. Jacob Henrich Knudsen Hopp, and X. Helena Knudsdatter Hopp (married into Nors, 8 children capped). Their own children (great-grandchildren of the file's subject, Niels Jørgen Knudsen Hopp) were summarized in `NOTE`s rather than modeled individually, per the "our line" cap — except pointers to two real documented-descendant leads (a smed's line traced to a named 2007 contact; an 1808-born daughter's line to another named contact) worth preserving even unmodeled.
+
+One fact kept in full rather than summarized: IX. Jacob Henrich Knudsen Hopp was a genuinely well-off Napoleonic-era Aalborg merchant — owned a 3-ship privateering fleet (1808-1811), inherited a substantial fortune from his uncle in 1796 — yet died in 1841 as a registered poorhouse pauper, on relief since 1838. The probate record itself is quoted directly. Worth the extra length given how sharp the contrast is.
+
+**11 individuals, 4 new families** (`#I663`-`#I673`, `#F218`-`#F221`). `#F132` updated to list all 10 children and note the testament-heir pattern (5 of 10 survived to be named heirs; the other 5 all died young). This closes Phase 1 of the Hopp-slægten reading plan in full — only Phase 2 (01F) remains open in the whole Hopp-slægten line.
+
+**Built/updated:** `hopp-slaegten-kapitel1-extraction.md` (Checkpoint 5 section), `hopp-slaegten-manifest.md`, `reference-index.md`, `intake-manifest.md`, `TODO.md`.
+
+### Session close
+
+Knowledge candidates: None — no Hopp domain exists yet.
+Open flags: None escalated to `grandfather-review/queue.md`.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Checkpoint 5 — Knud Nielsen Hopp's remaining children IV.-X., capped depth. **Phase 1 (01 + 01C) of Hopp-slægten is now fully read.**
+Next: Phase 2 (01F, Knud Knudsen Hopp d.1762, 91 pages, capped depth per policy) — the only remaining unread in-hand item across the whole project. Own session recommended given its size.
+Waiting for: Human's direction on whether to start Phase 2 now or another time.
