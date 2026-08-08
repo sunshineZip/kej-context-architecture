@@ -1,6 +1,6 @@
 # Hopp-slægten — Deep Well Manifest
 
-Version 1.3 | 2026-08-08 | Production
+Version 1.4 | 2026-08-08 | Production
 
 ---
 
@@ -30,6 +30,7 @@ Per the human's direction: absorb the two smaller files first (01, 01c), defer t
 
 - **Phase 1 — 01 + 01c, Checkpoint 1 (done, 2026-08-08):** root chain from 01's overview table (6-generation direct line + named branches) and Niels Jørgen Knudsen Hopp's own generation (himself, wife, 6 children) from 01c. 34 individuals, 12 families. See `projects/archive-digitization/context/hopp-slaegten-kapitel1-extraction.md`.
 - **Scope correction:** 01c alone turned out to be comparable in total size to the *entire* Boe-slægten manuscript, not a single chapter of it — each of Niels Jørgen Knudsen Hopp's 6 children has their own children documented in full ("I.", "II." etc.), and so on further still. Phase 1 is now itself a multi-checkpoint effort, not a single pass. Checkpoint 1 above covers only the first generation; each child's own descendants are separate checkpoints going forward.
+- **Phase 1 is now complete (2026-08-08):** Checkpoint 5 modeled Knud Nielsen Hopp's remaining children IV.-X., closing the gap left after Checkpoint 4. 01's overview table and all of 01C's content are read at the "our line" policy's depth. Only Phase 2 remains.
 - **Phase 2 — 01f:** read the full 91 pages (Knud Knudsen Hopp, d.1762) — the largest single file received so far. Deferred, own session, not started. A stopgap stub sourced from an external secondary source is already in `tree.ged` (`#I384`, `#I385`) pending this.
 - **Not scoped yet:** whether/how to model the overview table's forward references to chapters not yet received (02, 03, 04...) — working assumption is the same one used for Boe-slægten's own cross-chapter references: model what's confirmed, leave a `NOTE` pointer for what isn't yet in hand.
 - **Scale, now measured (2026-08-08):** Checkpoint 2 read exactly one of Niels Jørgen Knudsen Hopp's 6 children's descendant lines to full depth — 230 individuals on its own, ~34% of 01C's total paragraph count. That prompted a real question from the human (why would KEJ document a clearly-unconnected branch this deeply?) and a policy change: **"our line" depth** — full depth stays reserved for the direct-line chapters (the chain toward KEJ himself, which the chapter numbering 01→02→...→07 traces via child "a" each generation, landing on his own surname). `01C`/`01F` are side branches off that chain ("01-c", "01-f"), so from Checkpoint 3 onward they're capped: children and grandchildren of the file's own subject get modeled individually, deeper generations are only modeled if short/simple, otherwise summarized in a `NOTE`. Checkpoint 2 itself stays as full-depth (not trimmed back) per the human's call.
@@ -43,6 +44,7 @@ Per the human's direction: absorb the two smaller files first (01, 01c), defer t
 | 2026-08-08 | Checkpoint 1: root chain (01's overview table) + Niels Jørgen Knudsen Hopp's generation (01c) — 34 individuals, 12 families | → `family-tree/tree.ged#I364`-`#I397`, `#F121`-`#F132`; notes in `projects/archive-digitization/context/hopp-slaegten-kapitel1-extraction.md` |
 | 2026-08-08 | Checkpoint 2: Dorthe Nielsdatter Hopp's child "I." (Anne Cathrine Nicolaisdatter Hjardemaal), full depth — 230 individuals, 75 families, 60 living (redacted, full records in `restricted/tree-sensitive.ged`) | → `family-tree/tree.ged#I398`-`#I627`, `#F133`-`#F207`; notes in `hopp-slaegten-kapitel1-extraction.md` |
 | 2026-08-08 | "Our line" depth policy adopted (side branches capped, direct-line chapters stay full depth — see `hopp-slaegten-kapitel1-extraction.md`). Checkpoint 3: Dorthe's remaining children II.-V., capped — 25 individuals. Checkpoint 4: Berthe's children + Knud Nielsen Hopp's children I.-III. of 10 (IV.-X. not yet read) — 10 individuals | → `family-tree/tree.ged#I628`-`#I662`, `#F208`-`#F217` |
+| 2026-08-08 | Checkpoint 5: Knud Nielsen Hopp's remaining children IV.-X. (7 children — 4 infant deaths, plus testament heirs VI., IX., X. with their own spouses), capped — 11 individuals, 4 families. **Phase 1 (01 + 01C) now fully read.** | → `family-tree/tree.ged#I663`-`#I673`, `#F218`-`#F221` |
 
 ---
 
@@ -54,3 +56,4 @@ Per the human's direction: absorb the two smaller files first (01, 01c), defer t
 | 1.1 | 2026-08-08 | Checkpoint 1 of Phase 1 done. Recorded a real scope correction: 01c is comparable in size to the entire Boe-slægten manuscript, not one chapter — Phase 1 is now itself multi-checkpoint. |
 | 1.2 | 2026-08-08 | Checkpoint 2 done: one full child-line (230 individuals) confirms 01c likely holds 800-1500+ individuals total at the human's chosen full-depth setting — several times the entire Boe-slægten manuscript's size. |
 | 1.3 | 2026-08-08 | Adopted "our line" depth policy — full depth reserved for the actual direct-line chapters (toward KEJ), side branches within files like 01c capped from here on. Checkpoints 3-4 applied it (35 more individuals). Checkpoint 2 left as full-depth, not retroactively trimmed. |
+| 1.4 | 2026-08-08 | Checkpoint 5 closes the honest gap from 1.2/1.3: Knud Nielsen Hopp's children IV.-X. now modeled (11 individuals, 4 families). **Phase 1 complete** — only Phase 2 (01f) remains open. |

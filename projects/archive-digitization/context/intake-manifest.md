@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.15 | 2026-08-08 | Active
+Version 1.16 | 2026-08-08 | Active
 
 ---
 
@@ -60,7 +60,7 @@ Kapitel 1 (three sub-items) sending next; kapitel 2–16 to follow later.
 | Item | Version | Status |
 |---|---|---|
 | 01 Knud Danielsen Hopp o.1640-1723 | oktober 2015 | **In progress (2026-08-08)** — overview table fully extracted into `family-tree/tree.ged#I364` onward. Confirms KEJ's own worry: metadata claims 5 pages / 422 words against the catalog's expected 33 + 3 maps — only the Kapitel 1 overview index survived, no individual biographical entry for Knud Danielsen Hopp himself. Accepted as a gap for now per the human (2026-08-08): "we can always swap them later if my grandfather manages to find the complete documents." |
-| 01C Niels Jørgen Knudsen Hopp 1685-1770 | januar 2016 / januar 2025 | **In progress (2026-08-08)** — Checkpoint 1: Niels Jørgen Knudsen Hopp's own generation (himself, wife, 6 children). Checkpoint 2: one full child-line to full depth (230 individuals, 60 living). Real scale estimate now available: 800-1500+ individuals total at full depth, several times the entire Boe-slægten manuscript. See `library/deep-wells/hopp-slaegten-manifest.md`. |
+| 01C Niels Jørgen Knudsen Hopp 1685-1770 | januar 2016 / januar 2025 | **Fully read at "our line" depth (2026-08-08)** — Checkpoint 1: Niels Jørgen Knudsen Hopp's own generation. Checkpoint 2: one full child-line to full depth (230 individuals, 60 living, per the human's explicit choice, left as-is). Checkpoints 3-5: all remaining children of Dorthe, Berthe, and Knud Nielsen Hopp, capped per the "our line" policy. See `library/deep-wells/hopp-slaegten-manifest.md`. |
 | 01F Knud Knudsen Hopp død 1762 | januar 2016 / januar 2025 | **Triaged (2026-08-08)** — stored at `library/deep-wells/hopp-slaegten/`. Flyover: 91 pages, matching the catalog almost exactly; looks complete, genuine sourced content. A stopgap stub (external secondary source) is in `tree.ged#I384` pending this. Reading planned as Phase 2 (own session, largest file received so far). |
 | 02 Daniel Knudsen Hopp o.1681-1730/31 | sept. 2015 | Not yet received |
 | 03 Niels Danielsen Hopp 1707-1775 | oktober 2015 | Not yet received |
@@ -204,3 +204,4 @@ New section (2026-08-08) — three items found in KEJ's master catalog that aren
 | 1.13 | 2026-08-08 | Checkpoint 2: one full child-line of 01C read to full depth (human's explicit choice) — 230 individuals, 60 living/redacted. Gives a real scale estimate for 01C: 800-1500+ individuals total. |
 | 1.14 | 2026-08-08 | "Our line" depth policy adopted; Checkpoints 3-4 of 01C read (Dorthe's remaining children, Berthe's children, Knud Nielsen Hopp's children I.-III. of 10) — 35 more individuals. Gap-closing entry, policy itself was adopted mid-session. |
 | 1.15 | 2026-08-08 | "Forskellige Boe-slægter" (§2) fully read — status updated from "Triaged" to "Fully read." No individuals-level connection to the Mors/Fur line found; Nykøbing Mors hypothesis ruled out, Himmerland/Thy hypothesis now has a named but unconfirmed candidate link. |
+| 1.16 | 2026-08-08 | Checkpoint 5 of 01C read: Knud Nielsen Hopp's remaining children IV.-X. — 11 individuals, 4 families. 01C (§3) status updated from "In progress" to "Fully read at 'our line' depth." |

@@ -4204,7 +4204,14 @@
 1 CHIL @I659@
 1 CHIL @I660@
 1 CHIL @I661@
-1 NOTE Kun "I."-"III." af 10 børn modelleret indtil videre. [VERIFIED: hopp-slaegten, 01C]
+1 CHIL @I663@
+1 CHIL @I664@
+1 CHIL @I665@
+1 CHIL @I667@
+1 CHIL @I668@
+1 CHIL @I669@
+1 CHIL @I672@
+1 NOTE Alle 10 børn ("I."-"X.") nu modelleret. Kun 5 (II., III., VI., IX., X.) nævnes som arvinger i morbroderen Hr. Thorums testamente (1796/1795) — de øvrige 5 (I., IV., V., VII., VIII.) døde alle som spæde eller var formentlig døde inden testamentets affattelse. [VERIFIED: hopp-slaegten, 01C]
 0 @I396@ INDI
 1 NAME Anne Nielsdatter /Hopp/
 1 SEX F
@@ -7256,4 +7263,144 @@
 2 DATE 1794
 2 PLAC Harre kirke, Danmark
 1 NOTE Uden forudgående forlovelse/lysning, efter kongelig bevilling. 1 søn, Knud Thøgersen "Haldbak," hvis linje ikke er modelleret her. [VERIFIED: hopp-slaegten, 01C]
+0 @I663@ INDI
+1 NAME Niels /Knudsen (Hopp)/
+1 SEX M
+1 FAMC @F132@
+1 BIRT
+2 DATE 19 AUG 1759
+2 PLAC Oddense, Danmark
+1 DEAT
+2 DATE 14 OCT 1759
+2 PLAC Oddense, Danmark
+1 NOTE Barn "IV." Død som spæd, 2 mdr. Ikke nævnt blandt de 5 arvinger i morbroderen Hr. Thorums testamente (1796) — sammen med "I.", "V.", "VII." og "VIII." formentlig fordi død ung. [VERIFIED: hopp-slaegten, 01C]
+0 @I664@ INDI
+1 NAME Anna Cathrine /Knudsdatter (Hopp)/
+1 SEX F
+1 FAMC @F132@
+1 BIRT
+2 DATE 13 SEP 1760
+2 PLAC Oddense, Danmark
+1 DEAT
+2 DATE 1 MAR 1761
+2 PLAC Oddense, Danmark
+1 NOTE Barn "V." Død som spæd, ca. 5½ måned gl. [VERIFIED: hopp-slaegten, 01C]
+0 @I665@ INDI
+1 NAME Anna Catharine Knudsdatter /Hopp/
+1 SEX F
+1 FAMC @F132@
+1 BIRT
+2 DATE 13 DEC 1761
+2 PLAC Oddense, Danmark
+1 DEAT
+2 DATE 26 NOV 1840
+2 PLAC Vesløs, Danmark
+1 FAMS @F218@
+1 NOTE Barn "VI." Én af 5 børn nævnt som arvinger i morbroderen Hr. Thorums testamente (1796) — arvepart 2238 rdr 2 mk 8 sk plus jordegods, delvist modregnet i ægtefællens gæld til samme morbror. Tjenestepige hos sognepræsten i Lem 1787, gift 1791 med Christen Christensen (Kock/Hvam). 6 børn kendt ("1."-"6."), født 1792-1805 i Ryde, Borbjerg og Øsløs sogne — ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken, men værd at nævne: sønnen Knud Christensen ("3.") blev smed i Arup sogn med dokumenteret efterslægt hos Ketty Thisemann, Aalborg (2007); en plejedatter, Mette Kirstine Jacobsdatter (bror IX.'s uægte datter), voksede op i husstanden. [VERIFIED: hopp-slaegten, 01C]
+0 @I666@ INDI
+1 NAME Christen /Christensen (Kock, Hvam)/
+1 SEX M
+1 BIRT
+2 DATE ABT 1753
+1 DEAT
+2 DATE 1818
+2 PLAC Øsløs, Danmark
+1 FAMS @F218@
+1 NOTE Også kaldet Christen Kok, senere Christen Hvam. Selvejergårdmand i Nr. Hvam, købt 1795 for lånte midler (1800 rdr) fra hustruens morbror, Peder Thorum. [VERIFIED: hopp-slaegten, 01C]
+0 @F218@ FAM
+1 HUSB @I666@
+1 WIFE @I665@
+1 MARR
+2 DATE 17 NOV 1791
+2 PLAC Lem, Danmark
+1 NOTE 6 børn kendt, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01C]
+0 @I667@ INDI
+1 NAME Magdalene Sybille /Knudsdatter (Hopp)/
+1 SEX F
+1 FAMC @F132@
+1 BIRT
+2 DATE 11 FEB 1763
+2 PLAC Oddense, Danmark
+1 DEAT
+2 DATE 6 JUN 1763
+2 PLAC Oddense, Danmark
+1 NOTE Barn "VII." Død som spæd, 4 mdr. [VERIFIED: hopp-slaegten, 01C]
+0 @I668@ INDI
+1 NAME Jesper /Knudsen (Hopp)/
+1 SEX M
+1 FAMC @F132@
+1 BIRT
+2 DATE 7 MAY 1765
+2 PLAC Oddense, Danmark
+1 NOTE Barn "VIII." Tjente 1784 hos morbroderen, forpagter Hr. Thorum, på Kjølbygaard i Thy. Nævnes ikke blandt de 5 arvinger i Hr. Thorums testamente 1792/95, og anses derfor for død inden da — intet dødsdato fundet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I669@ INDI
+1 NAME Jacob Henrich Knudsen /Hopp/ (Hoppe)
+1 SEX M
+1 FAMC @F132@
+1 BIRT
+2 DATE 11 FEB 1767
+2 PLAC Oddense, Danmark
+1 DEAT
+2 DATE 24 NOV 1841
+2 PLAC Aalborg, Danmark
+1 OCCU Købmand i Aalborg fra 1800 (borgerskab); kaper-flådeejer under Napoleonskrigen (skibene "Agtpaagivenheden" 1808, "Biskop Absalon" 1810, "Falken" 1811)
+1 FAMS @F219@
+1 FAMS @F220@
+1 NOTE Barn "IX." Én af 5 arvinger i Hr. Thorums testamente (1796) — arvepart 2882 rdr 8 4/5 sk plus jordegods, en betydelig formue. Lærling hos en Ålborg-købmand 1784, skriverdreng på Vorgaard 1787. Købte morbroderens stervbosted i Østerild 1796, videresolgt 1799 til svogeren Willads Jacobsen (gift med søsteren "X."). Fik silhuetklip af sig selv og 1. hustru o.1800. Endte, trods den tidligere velstand, som fattiglem fra 1838 til sin død 1841 — ifølge skifteprotokollen "Han havde været fattiglem siden 18. juni 1838 og oppebaaret 3-4 skilling ugentlig almisse." 9 børn kendt på tværs af en uægte datter og to ægteskaber (Mette Kirstine, uægte, f.1790, med dokumenteret efterslægt til 1887; 5 børn i 1. ægteskab, hvoraf de fleste døde unge eller forblev ugifte; 2 børn i 2. ægteskab) — ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01C]
+0 @I670@ INDI
+1 NAME Else Marie /Sanne/
+1 SEX F
+1 BIRT
+2 DATE 26 JUL 1769
+2 PLAC Århus Domsogn, Danmark
+1 DEAT
+2 DATE 15 OCT 1807
+2 PLAC Aalborg Budolfi, Danmark
+1 FAMS @F219@
+1 NOTE Datter af købmand Ole Sanne og hustru Petronelle Marie Selmer. [VERIFIED: hopp-slaegten, 01C]
+0 @F219@ FAM
+1 HUSB @I669@
+1 WIFE @I670@
+1 MARR
+2 DATE 11 NOV 1796
+2 PLAC Aalborg Frue sogn, Danmark
+1 NOTE 5 børn kendt (heraf 1 død som spæd), ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01C]
+0 @I671@ INDI
+1 NAME Petronella Marie /Seip/
+1 SEX F
+1 BIRT
+2 DATE 4 JUN 1779
+1 DEAT
+2 DATE 14 NOV 1845
+2 PLAC Aalborg, Danmark
+1 FAMS @F220@
+1 NOTE Datter af landinspektør i Ålborg, Johan Christian Seip, og hustru Marie Nielsdatter Illum. [VERIFIED: hopp-slaegten, 01C]
+0 @F220@ FAM
+1 HUSB @I669@
+1 WIFE @I671@
+1 MARR
+2 DATE 25 MAY 1808
+2 PLAC Aalborg Vor Frue sogn, Danmark
+1 NOTE 2 børn kendt, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01C]
+0 @I672@ INDI
+1 NAME Helena Knudsdatter /Hopp/ (Hoppe)
+1 SEX F
+1 FAMC @F132@
+1 BIRT
+2 DATE 1769
+2 PLAC Oddense, Danmark
+1 FAMS @F221@
+1 NOTE Barn "X." Muligvis født i december 1769 (kilden selv usikker). Fik den største af de 4 arveparter efter morbroderen Hr. Thorum (1796) — 3917 rdr 2 mk 9/10 sk, samt (sammen med søsteren "II.") Østerild kongetiende og morbroderens stervbosted, begrundet i kildens egen formulering: "som tjente mig i mit iboende sted." Gift 1798 med Willads Jacobsen fra Nors; parret overtog siden stervbostedet fra broderen "IX." via videresalg 1799. 8 børn kendt, født 1799-1814 i Østerild — de fleste døde unge eller uden yderligere oplysning; datteren Else Marie (f.1808) har dokumenteret efterslægt hos Peter Norre Christensen, Sennels — ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01C]
+0 @I673@ INDI
+1 NAME Willads /Jacobsen/
+1 SEX M
+1 FAMS @F221@
+1 NOTE Fra Nors sogn. Gårdmand i Østerild fra 1806; familien flyttede siden til Ballum, Tved sogn. [VERIFIED: hopp-slaegten, 01C]
+0 @F221@ FAM
+1 HUSB @I673@
+1 WIFE @I672@
+1 MARR
+2 DATE 19 OCT 1798
+2 PLAC Oddense, Danmark
+1 NOTE Ved kongelig bevilling, uden forudgående trolovelse. 8 børn kendt, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01C]
 0 TRLR
