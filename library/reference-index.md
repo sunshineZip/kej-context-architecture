@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.17 | 2026-08-08 | Production
+Version 1.18 | 2026-08-08 | Production
 
 ---
 
@@ -66,6 +66,32 @@ Add one heading per work, following this template (see `knowledge/domains/author
 
 ---
 
+## forskellige-boe-slaegter
+
+- **Title:** "Forskellige Boe-slægter" — Knud Erik Jakobsen (KEJ), unpublished compilation, august 2026
+- **Format:** .docx (original, stored)
+- **Stored:** yes — attached directly to KEJ's 2026-08-08 email reply, landed in `incoming/` and triaged the same day.
+- **Location:** library/deep-wells/forskellige-boe-slaegter-2026.docx (see `library/deep-wells/forskellige-boe-slaegter-2026-manifest.md` for the full history and text extraction log)
+- **Referenced by domains:** None yet — not read.
+- **Cornerstone status:** Yes — personal, unpublished, not reacquirable except from KEJ; covers several distinct Boe lineages (per its own table of contents) substantial enough to likely need mining across more than one session, the same reasoning as `boe-slaegten-fra-mors-og-fur`.
+- **Extraction log:**
+  - *Empty — not yet read.* Covers Bomand/Boe (1500-tallet), Boe på Mors, Boe på Ålborgegnen, Boe i Himmerland/Thy, Boe i Sønderjylland og Slesvig, Fyn-slægten Boe, and Boe på Nyord — KEJ's own framing describes these as separate, likely-unconnected families sharing only the surname, not assumed to connect to the Mors/Fur line already in `tree.ged`.
+
+---
+
+## kej-slaegtshistorie-og-lokalhistorie-2026-katalog
+
+- **Title:** "2026 KEJ Slægtshistorie og lokalhistorie" — Knud Erik Jakobsen (KEJ), personal catalog, 2026
+- **Format:** .docx (original, stored)
+- **Stored:** yes — attached directly to KEJ's 2026-08-08 email reply, landed in `incoming/` and triaged the same day.
+- **Location:** library/deep-wells/kej-slaegtshistorie-og-lokalhistorie-2026.docx
+- **Referenced by domains:** None — not a genealogical source, see below.
+- **Cornerstone status:** N/A — this isn't narrative content to mine for facts, it's KEJ's own dated index of every *slægt*/local-history item he's written (title, page count, version date). Registered here anyway (rather than as a `projects/archive-digitization/context/` note) because it's a raw external file, matching where every other raw file in this repo physically lives; stored because it's non-reacquirable and directly useful for diffing against future updates from KEJ, not because it clears the usual mined-incrementally bar.
+- **Extraction log:**
+  - 2026-08-08: Used in full to refresh `projects/archive-digitization/context/intake-manifest.md` — added two items missing from the manifest's original relayed-email source (Slægt I under Svend Åge Pedersens Slægter, Sæbygårds Mølle og Nørremølle under the mills), refreshed roughly two dozen version/date fields, and added a new §10 for three personal-memoir items with no existing category. Not itself expected to need further mining — its value was in the comparison, already done.
+
+---
+
 ## Version History
 
 | Version | Date | Summary |
@@ -88,3 +114,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.15 | 2026-08-06 | Correction: the two images moved out in 1.14 were misidentified — the human confirmed both are actually Boe-slægten family photos (Hanne Boe/Knud Erik Jakobsen; a 1995 family group), not Hopp-slægten. Moved back; media status now 47 of 48 filed, only the confirmed duplicate (image18) unstored. |
 | 1.16 | 2026-08-06 | Registered and stored a second deep well: `ejerslev-1970-religios-bevaegelse-i-jorsby`, a 1970 journal article on "Kyssesekten" that the Boe-slægten manuscript's own bibliography already cited but this project never had in hand. The human found and uploaded it directly, then confirmed storage per the cornerstone rule despite it being a borderline case (small, single-topic, technically re-fetchable). Used to answer a direct question about the Boe bloodline's connection to the sect. |
 | 1.17 | 2026-08-08 | Boe-slægten deep well's Media field updated: 26 of 47 stored images (any confirmed/plausible living individual, plus everything not yet fully identified) moved to `restricted/media/`, a private companion repo, per the human's rule that even one living person present — or an unanalysed image at all — defaults to restricted. 21 confirmed-safe images remain in the public folder. |
+| 1.18 | 2026-08-08 | Registered and stored two new deep wells, both attached to KEJ's 2026-08-08 email reply: `forskellige-boe-slaegter` (several separate, likely-unconnected Boe lineages elsewhere in Denmark — cornerstone, same reasoning as `boe-slaegten-fra-mors-og-fur`; not yet read) and `kej-slaegtshistorie-og-lokalhistorie-2026-katalog` (KEJ's own dated catalog of everything he's written — not mined for facts, already used in full to refresh `intake-manifest.md`; registered here rather than as a project note because it's a raw external file, matching where every other raw file lives). Human confirmed physical storage for both per the cornerstone rule before either was written here. |

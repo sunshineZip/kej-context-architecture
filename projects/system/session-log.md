@@ -551,3 +551,26 @@ STATUS: CHECKPOINT
 Completed: `intake-manifest.md` substantially refreshed and two new items' worth of content received; the manifest itself is more accurate now than at any point since its 2026-08-05 creation.
 Next: Await the human's answer on physical storage for both new files, then triage them out of `incoming/` accordingly. "Forskellige Boe-slægter" is a real read-through task once storage is settled — comparable in scope to a mid-size Boe-slægten chapter.
 Waiting for: Human's storage decision.
+
+---
+
+## [Claude] — Turn 22 | 2026-08-08
+
+Same session, continued. Human confirmed storage for both files pending from Turn 21.
+
+**"Forskellige Boe-slægter"** — stored as its own deep well: `library/deep-wells/forskellige-boe-slaegter-2026.docx` plus a manifest (`...-manifest.md`, mirroring `boe-slaegten-fra-mors-og-fur`'s pattern) and a `reference-index.md` entry. Not yet read — that's real follow-on work, not done this turn.
+
+**The master catalog** — stored too, but placement needed a correction from what was proposed last turn: `projects/archive-digitization/context/` turns out to hold only markdown notes/extraction-writeups, never raw source files — every raw file in this repo lives in `library/deep-wells/` regardless of genre. Put it there instead (`kej-slaegtshistorie-og-lokalhistorie-2026.docx`) and registered it in `reference-index.md` with an explicit "Cornerstone status: N/A" — it's not mined-for-facts content, its whole value (refreshing `intake-manifest.md`) is already realized, registered mainly so a future version from KEJ can be diffed against this one.
+
+`intake-manifest.md` updated to reflect both items' Triaged status; both removed from `incoming/` — `scripts/validate.ps1`'s non-empty-directory warning from Turn 20 confirmed clean afterward, first real use of that check.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None new.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Both files from KEJ's reply are fully triaged — stored, registered, `incoming/` empty again. Two deep wells now registered from this single email (three, counting the master catalog's non-standard registration).
+Next: Read "Forskellige Boe-slægter" — a genuine multi-lineage extraction task, likely multi-session like the original manuscript. Not started.
+Waiting for: Nothing further this turn — pushing now.
