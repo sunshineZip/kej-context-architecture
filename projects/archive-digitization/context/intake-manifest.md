@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.7 | 2026-08-08 | Active
+Version 1.8 | 2026-08-08 | Active
 
 ---
 
@@ -8,7 +8,7 @@ Version 1.7 | 2026-08-08 | Active
 
 Checklist of every item KEJ's email (2026-08-05) named — either sent already or planned to send later — transcribed verbatim from his own listing (Danish preserved as given). Tracks receipt and rough-triage status per item. This is a working intake tracker, not domain knowledge — nothing here has been ingested into `knowledge/domains/` yet.
 
-**Second source (2026-08-08):** KEJ sent two attached files with his reply — an overview of other, likely-unconnected Boe lineages (§2), and his own master catalog of everything he's written ("2026 KEJ Slægtshistorie og lokalhistorie.docx"), with page counts and version dates for every item. The catalog is more authoritative than the original relayed-email transcription this file started from, so it's used below to refresh version/date fields and catch items the original list missed — noted item by item only where the correction is non-trivial; routine date refinements aren't called out individually (see the human's 2026-08-08 instruction to stop escalating small-detail discrepancies).
+**Second source (2026-08-08):** KEJ sent two attached files with his reply — an overview of other, likely-unconnected Boe lineages (§2, now stored as its own deep well, `library/reference-index.md#forskellige-boe-slaegter`), and his own master catalog of everything he's written ("2026 KEJ Slægtshistorie og lokalhistorie.docx", stored per `library/reference-index.md#kej-slaegtshistorie-og-lokalhistorie-2026-katalog`), with page counts and version dates for every item. The catalog is more authoritative than the original relayed-email transcription this file started from, so it's used below to refresh version/date fields and catch items the original list missed — noted item by item only where the correction is non-trivial; routine date refinements aren't called out individually (see the human's 2026-08-08 instruction to stop escalating small-detail discrepancies).
 
 ---
 
@@ -47,7 +47,7 @@ Mors/Fur line. First batch — KEJ said he'd send this to begin with.
 | Item | Version | Status |
 |---|---|---|
 | Boe-slægten fra Mors og Fur, Kapitel 1-4 (file: "2024 Boe-slægen fra Mors og Fur.docx") | maj 2026 | **Fully read (2026-08-06)** — original .docx stored (`library/reference-index.md#boe-slaegten-fra-mors-og-fur`); all four chapters, the Anetavler appendices, and Kilder extracted into `family-tree/tree.ged` (361 individuals) via five chapter-specific extraction notes files in `projects/archive-digitization/context/`. Not yet promoted into `knowledge/domains/` (Phase 3 not started). |
-| Forskellige Boe-slægter — 22 sider samlet i 1 bind: Bomand/Boe (1500-tallet, om navnets oprindelse), Boe på Mors (Christen Nielsen Boe 1690-1786), Boe på Ålborgegnen, Boe i Himmerland/Thy (Peder Andersen Boe), Boe i Sønderjylland og Slesvig, Fyn-slægten Boe (se "Boernes Slægtsbog," 1960), Boe på Nyord ved Stege på Møn (file: "2026 Boeslægter samlet.docx") | august 2026 | **Received (2026-08-08)** — landed in `incoming/`, not yet triaged or read. KEJ's own framing: these are separate, likely-unconnected Boe lineages elsewhere in Denmark, distinct from the Mors/Fur line above — worth reading for possible cross-connections, but not assumed connected. |
+| Forskellige Boe-slægter — 22 sider samlet i 1 bind: Bomand/Boe (1500-tallet, om navnets oprindelse), Boe på Mors (Christen Nielsen Boe 1690-1786), Boe på Ålborgegnen, Boe i Himmerland/Thy (Peder Andersen Boe), Boe i Sønderjylland og Slesvig, Fyn-slægten Boe (se "Boernes Slægtsbog," 1960), Boe på Nyord ved Stege på Møn (file: "2026 Boeslægter samlet.docx") | august 2026 | **Triaged (2026-08-08)** — stored as its own deep well, `library/reference-index.md#forskellige-boe-slaegter`. Not yet read. KEJ's own framing: these are separate, likely-unconnected Boe lineages elsewhere in Denmark, distinct from the Mors/Fur line above — worth reading for possible cross-connections, but not assumed connected. |
 
 ---
 
@@ -196,3 +196,4 @@ New section (2026-08-08) — three items found in KEJ's master catalog that aren
 | 1.5 | 2026-08-06 | Noted two Hopp-slægten preview images found embedded in the (unrelated) Boe-slægten `.docx`, now preserved at `library/deep-wells/hopp-slaegten-preview-images/`. Doesn't change this item's own "Not yet received" status — still awaiting the real manuscript. |
 | 1.6 | 2026-08-06 | Correction: the two images from 1.5 turned out to be Boe-slægten family photos, not Hopp-slægten material — the human identified both directly. Moved to the Boe-slægten deep well's own media folder; this item's status is unchanged, still "Not yet received." |
 | 1.7 | 2026-08-08 | KEJ sent two files with his reply: "Forskellige Boe-slægter" (added to §2, Received) and his own master catalog of every item he's written, with page counts and version dates ("2026 KEJ Slægtshistorie og lokalhistorie.docx") — more authoritative than this file's original relayed-email source. Used the catalog to refresh version/date fields throughout §3-9, add items the original list missed entirely (Slægt I in §4, Sæbygårds Mølle og Nørremølle in §8), and add new §10 for three personal-memoir items that don't fit any existing *slægt* category. Both new files landed in `incoming/`, not yet triaged into a permanent home — see the human's confirmation still pending on physical storage. |
+| 1.8 | 2026-08-08 | Human confirmed physical storage for both files from 1.7. "Forskellige Boe-slægter" stored as its own deep well (§2 row updated to Triaged); the master catalog stored too, registered in `library/reference-index.md` but not as a mined-for-facts deep well — its value (refreshing this file) is already fully realized. Both removed from `incoming/`. |
