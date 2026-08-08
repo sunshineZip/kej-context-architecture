@@ -628,3 +628,34 @@ STATUS: CHECKPOINT
 Completed: Phase 1, Checkpoint 1 of Hopp-slægten reading — 34 individuals from the root chain and Niels Jørgen Knudsen Hopp's generation. Real scope correction surfaced and recorded rather than either glossed over or allowed to balloon this turn indefinitely.
 Next: Further checkpoints through 01C's 6 children's own descendants (comparable remaining scope to a full Boe-slægten chapter each, roughly), then Phase 2 (01F, 91 pages, own session).
 Waiting for: Human's direction on whether to continue immediately into the next checkpoint or pause here for review.
+
+---
+
+## [Claude] — Turn 25 | 2026-08-08
+
+Same session, continued. Human approved continuing to break Phase 1 into chunks and said to proceed.
+
+Before writing anything new, read ahead into 01C's child "a." (Dorthe Nielsdatter Hopp) branch to scope it properly, rather than discovering the size mid-checkpoint again. Found it goes far deeper than expected: Dorthe's first child alone (Anne Cathrine Nicolaisdatter Hjardemaal) branches into 7 children, one of whom has 8 children of her own, each with further children and grandchildren running continuously to people born in 1905 — full vital records, an 1828 paternity court case, 1848-50 war service, an 1870 emigration to the US. Stopped and asked the human directly how deep to go, rather than assuming: full depth every generation, cap at grandchildren, or direct-line-only. Human chose full depth, every generation.
+
+Built **Checkpoint 2**: Dorthe Nielsdatter Hopp's child "I." (Anne Cathrine Nicolaisdatter Hjardemaal, `#I398`), read to its complete end — **230 individuals, 75 families** (`#I398`-`#I627`, `#F133`-`#F207`). This is nearly 7x Checkpoint 1's size, from *one* of Niels Jørgen Knudsen Hopp's 6 children's *one* child out of 5. The line runs continuously from 1740 to the present, including an emigrant branch to Mankato, Minnesota (1870) and living descendants born into the 1990s.
+
+**Living-person redaction applied for the first time in Hopp-slægten material**: 60 of the 230 individuals have no death date and a plausible age to still be alive — redacted to `Living /<surname>/` per the standing rule from the Boe-slægten split, full records written to `restricted/tree-sensitive.ged` (now 216 individuals total there, up from 155). This is a new dimension for Hopp extraction that Checkpoint 1's 17th-19th-century-only content never touched.
+
+Deliberately used more compact extraction notes than Checkpoint 1's style for this pass — core vitals and genuinely distinctive facts kept, routine cross-reference mentions trimmed — a pacing choice given the volume, not a citation-rigor change; every claim still carries `[VERIFIED: hopp-slaegten, 01C]`. Two source-transcription problems (an impossible death year, an impossible marriage year) noted inline rather than queued, consistent with the human's standing preference. One structural ambiguity (two individuals with no clear parent statement in the source) also flagged inline rather than guessed into a family.
+
+Caught one bug while building: my own newly-added note on `F129` referenced `@I398@` with literal `@` signs, which `scripts/validate.ps1` correctly flagged as an unescaped cross-reference — fixed to bare `I398` before committing.
+
+**Real scale finding, worth being direct about:** extrapolating from Checkpoint 2's density (this one child-line was ~34% of 01C's total paragraph count), 01C alone likely holds **800-1500+ individuals** at full depth — several times the size of the entire Boe-slægten manuscript, and this is only one of Hopp-slægten's 16+ expected chapter files. This isn't a course-correction to act on unilaterally (the human already chose full depth with this general shape of outcome implied), but it's new, concrete information they should have: this is a multi-session undertaking, not something remaining Hopp-slægten work will wrap up soon.
+
+**Built/updated:** `hopp-slaegten-kapitel1-extraction.md` (Checkpoint 2 section), `hopp-slaegten-manifest.md`, `reference-index.md`, `intake-manifest.md` — all reflecting the real numbers now in hand rather than the earlier estimate.
+
+### Session close
+
+Knowledge candidates: None — no Hopp domain exists yet.
+Open flags: None escalated to `grandfather-review/queue.md` — the two data problems and one structural ambiguity found were all resolved/flagged inline, consistent with the human's standing preference.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Checkpoint 2 — one full child-line of 01C, 230 individuals, first real data point on the true scale of full-depth Hopp-slægten extraction (800-1500+ individuals estimated for 01C alone).
+Next: Continue with Dorthe Nielsdatter Hopp's remaining 4 children (II.-V.), then Niels Jørgen Knudsen Hopp's other documented children (Berthe/"c.", Knud Nielsen Hopp/"d."), then eventually Phase 2 (01F).
+Waiting for: Human's direction on whether to keep going now or pace differently given the real scale.

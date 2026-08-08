@@ -4117,7 +4117,8 @@
 1 MARR
 2 DATE 10 JUN 1739
 2 PLAC Harre, Danmark
-1 NOTE Trolovet 20.3.1739. Forlovere: Hr. Raun, Hr. Jens i Junget, Hr. Thomas Grønbek af Roslev m.fl. [VERIFIED: hopp-slaegten, 01C]
+1 CHIL @I398@
+1 NOTE Trolovet 20.3.1739. Forlovere: Hr. Raun, Hr. Jens i Junget, Hr. Thomas Grønbek af Roslev m.fl. 5 børn i alt ("I."-"V.") — kun "I." (Anne Cathrine, I398) er modelleret indtil videre; de øvrige fire følger i senere checkpoints. [VERIFIED: hopp-slaegten, 01C]
 0 @I390@ INDI
 1 NAME Ove Nielsen /Hopp/
 1 SEX M
@@ -4212,4 +4213,2643 @@
 2 PLAC Harregård, Danmark
 1 FAMC @F128@
 1 NOTE Barn "f." Døbt 3.9.1727 i Hjerk. Ugift ved sin død. [VERIFIED: hopp-slaegten, 01C]
+0 @I398@ INDI
+1 NAME Anne Cathrine /Nicolaisdatter Hjardemaal/
+1 SEX F
+1 FAMC @F129@
+1 BIRT
+2 DATE 1740
+2 PLAC Thorum, Danmark
+1 DEAT
+2 DATE 22 FEB 1813
+2 PLAC Viborg Sdr. Sogn, Danmark
+1 FAMS @F133@
+1 NOTE Barn "I." af Dorthe Nielsdatter Hopp (I388) og Nicolaj Pedersen Hjardemaal (I389) — se F129, hvor dette barn nu er tilføjet som CHIL. Døbt 18.3.1740 i Thorum. Faddere: Hr Erich Brunov i Breum, Peder Knudsen fra Grinderslevkloster (=01-b.), Knud Knudsen degn i Thise (=01-f.), degnens kone i Selde, og Magdalene Hiardemaal fra Viborg (formodentlig faderens søster, gift 1744 med Knud Danielsen Hopp =02-c.). Konfirmeret 1756 i Hjerk. Jordemoder i Viborg. Begravet 2.3.1813, 74 år gammel. [VERIFIED: hopp-slaegten, 01C]
+0 @I399@ INDI
+1 NAME Hans Christensen /Bloch/
+1 SEX M
+1 BIRT
+2 DATE ABT 1737
+2 PLAC Kjærsgårdsholm gods, Danmark
+1 DEAT
+2 DATE 27 MAR 1824
+2 PLAC Løvelbro, Danmark
+1 OCCU Daglejer; fik 10.10.1769 borgerskab i Viborg på "husnæring"
+1 FAMS @F133@
+1 NOTE Boede 1787/1801 til leje i Viborg. Død hos svigersønnen Peder Ginnerup. [VERIFIED: hopp-slaegten, 01C]
+0 @I400@ INDI
+1 NAME Anne Hansdatter /Block/
+1 SEX F
+1 BIRT
+2 DATE 1769
+2 PLAC Viborg Sdr. sogn, Danmark
+1 DEAT
+2 DATE 1 JUL 1861
+2 PLAC Løvel sogn, Danmark
+1 FAMC @F133@
+1 NOTE Barn "1." Døbt 22.1.1769. Konfirmeret 1784. Død som "almisselem" (fattiglem). [VERIFIED: hopp-slaegten, 01C]
+0 @I401@ INDI
+1 NAME Dorthe Hansdatter /Block/
+1 SEX F
+1 BIRT
+2 DATE 1770
+2 PLAC Viborg Sdr. sogn, Danmark
+1 DEAT
+2 DATE 7 MAR 1858
+2 PLAC Bøvling sogn, Danmark
+1 FAMC @F133@
+1 FAMS @F134@
+1 NOTE Barn "2." Døbt 7.10.1770. [VERIFIED: hopp-slaegten, 01C]
+0 @I402@ INDI
+1 NAME Niels /Henningsen/
+1 SEX M
+1 BIRT
+2 DATE 1754
+2 PLAC Lyngkrog, Vejrum sogn, Danmark
+1 DEAT
+2 DATE 25 MAY 1836
+2 PLAC Borbjerg, Danmark
+1 OCCU Forpagtede 1796 Hagebro Kro (Fly sogn); købte 1804 "Holmgaard" i Dommerby, senere Sevel Kro; gik fallit ved statsbankerotten 1814
+1 FAMS @F134@
+1 NOTE Søn af Niels Nielsen (Salling) Henningsen og Else Mogensdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I403@ INDI
+1 NAME Hans Nikolaj Nielsen /(Henningsen)/
+1 SEX M
+1 BIRT
+2 DATE 13 JAN 1798
+2 PLAC Hagebro Kro, Vridsted sogn, Danmark
+1 DEAT
+2 DATE 5 MAR 1885
+2 PLAC Nr. Villensgård, Bøvling sogn, Danmark
+1 OCCU Forskellige landbrugstjenester, senere "kræmmer"; 1832 overtog Madsdals Hus i Borbjerg; 1844 mageskiftede Flyndersø Mølle for "Kjøldige" i Bøvling; 1875 udhuggede døbefonden til Bøvling Valgmenighedskirke
+1 FAMC @F134@
+1 FAMS @F135@
+1 NOTE Barn "a/". Konfirmeret 1813 Borbjerg. [VERIFIED: hopp-slaegten, 01C]
+0 @I404@ INDI
+1 NAME Ane /Sørensdatter/
+1 SEX F
+1 BIRT
+2 DATE 1798
+2 PLAC Volstrup Mark, Ø.Hornum sogn, Danmark
+1 DEAT
+2 DATE 8 MAR 1874
+2 PLAC Nr. Villensgaard, Bøvling sogn, Danmark
+1 FAMS @F135@
+1 NOTE Datter af Søren Nielsen Møller og Ane Nielsdatter. Ejede Flyndersø Mølle (enke fra 1829, gift igen 1830, enke igen 1837 før dette ægteskab). [VERIFIED: hopp-slaegten, 01C]
+0 @I405@ INDI
+1 NAME Dorthea Hansdatter Nicoline /Henningsen/
+1 SEX F
+1 BIRT
+2 DATE 2 SEP 1839
+2 PLAC Flynder Mølle, Estvad sogn, Danmark
+1 DEAT
+2 DATE 5 APR 1917
+2 PLAC Bøvling sogn, Danmark
+1 FAMS @F136@
+1 NOTE Barn "1/". Konfirmeret 1854 Bøvling. [VERIFIED: hopp-slaegten, 01C]
+0 @I406@ INDI
+1 NAME Jens Christian /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 29 DEC 1834
+2 PLAC Bøvling sogn, Danmark
+1 DEAT
+2 DATE 16 JAN 1918
+2 PLAC Bøvling sogn, Danmark
+1 OCCU Gårdejer i "Nr. Villensgård," Bøvling sogn (gården fra 1595)
+1 FAMS @F136@
+0 @I407@ INDI
+1 NAME Julie Karoline Amalie (Hansdatter) /Henningsen/
+1 SEX F
+1 BIRT
+2 DATE 1 JUL 1841
+2 PLAC Flyndersø Mølle, Estvad sogn, Danmark
+1 DEAT
+2 DATE 1 JAN 1861
+2 PLAC Dybe sogn, Danmark
+1 FAMS @F137@
+1 NOTE Barn "2/". Død "af Brystsyge" (lungesygdom, formodentlig tuberkulose). [VERIFIED: hopp-slaegten, 01C]
+0 @I408@ INDI
+1 NAME Gravers /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 12 FEB 1827
+2 PLAC Vandborg sogn, Danmark
+1 OCCU Stort husmand og skrædder i Dybe, senere bosat i Ramme
+1 FAMS @F137@
+1 NOTE Søn af Christen Jensen og Inger Graversdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I409@ INDI
+1 NAME Christen /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 13 JUL 1859
+2 PLAC Arbjerghuset, Dybe sogn, Danmark
+1 DEAT
+2 DATE 3 SEP 1860
+2 PLAC Dybe sogn, Danmark
+1 FAMC @F137@
+1 NOTE [VERIFIED: hopp-slaegten, 01C]
+0 @I410@ INDI
+1 NAME Else Katrine Nielsdatter /Henningsen/
+1 SEX F
+1 BIRT
+2 DATE 24 MAY 1800
+2 PLAC Hagebro kro, Vridsted sogn, Danmark
+1 FAMC @F134@
+1 FAMS @F138@
+1 NOTE Barn "b/". Hjemmedøbt 24.5.1800. Konfirmeret 1816 Borbjerg. Udvandrede til USA 21.7.1870 fra Kragelund sogn (ifl. Udvandrerarkivet), til Mankato; levede der endnu 1874. Intet dødsår fundet i kilden — ingen redaktion som "Living" anvendt her, da en fødsel i 1800 gør et liv i 2026 (226 år) åbenlyst umuligt; behandlet som afdød på alderen alene, samme praksis som andre steder i dette arkiv. [VERIFIED: hopp-slaegten, 01C]
+0 @I411@ INDI
+1 NAME Jens Andersen /Harlev/
+1 SEX M
+1 BIRT
+2 DATE 1786
+2 PLAC Harlev sogn, Århus amt, Danmark
+1 DEAT
+2 DATE 20 JAN 1848
+2 PLAC Vium, Danmark
+1 OCCU Lærer og kirkesanger, fra 1820 i Hinge, senere Vium; pensioneret 1845
+1 FAMS @F138@
+0 @I412@ INDI
+1 NAME Juliane Dorthea /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 3 JUL 1824
+2 PLAC Vium skole, Vium sogn, Danmark
+1 FAMS @F139@
+1 NOTE Barn "1/". Konfirmeret 1839. [VERIFIED: hopp-slaegten, 01C]
+0 @I413@ INDI
+1 NAME Peder Christensen /Bøilund/
+1 SEX M
+1 BIRT
+2 DATE FEB 1822
+2 PLAC Thorning sogn, Danmark
+1 FAMS @F139@
+0 @I414@ INDI
+1 NAME Niels Henning /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 8 APR 1826
+2 PLAC Vium skole, Vium sogn, Danmark
+1 DEAT
+2 DATE 1 SEP 1919
+2 PLAC Hesselskov, Kragelund sogn, Danmark
+1 OCCU Deltog i Treårskrigen 1848-50 som stillingsmand; modtog erindringsmedaljen og hædersgaven
+1 FAMS @F140@
+1 FAMS @F141@
+1 NOTE Barn "2/". Konfirmeret 1841 med karakteren "godt". Ved folketællingen 1845 i Flyndersø mølle. [VERIFIED: hopp-slaegten, 01C]
+0 @I415@ INDI
+1 NAME Hylleborg /Jacobsdatter/
+1 SEX F
+1 BIRT
+2 DATE 1831
+2 PLAC Thorning sogn, Danmark
+1 DEAT
+2 DATE 20 JAN 1857
+2 PLAC Hauge, Vinderslev sogn, Danmark
+1 FAMS @F140@
+0 @I416@ INDI
+1 NAME Mette Marie /Pedersdatter/
+1 SEX F
+1 BIRT
+2 DATE 21 FEB 1834
+2 PLAC Mausing, Vinderslev sogn, Danmark
+1 DEAT
+2 DATE 31 DEC 1918
+2 PLAC Hesselskov, Kragelund sogn, Danmark
+1 FAMS @F141@
+1 NOTE Datter af Peder Jensen Ravnsvad og Maren Christensdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I417@ INDI
+1 NAME Anders Bærent /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 10 JUN 1828
+2 PLAC Vium skole, Vium sogn, Danmark
+1 FAMS @F142@
+1 NOTE Barn "3/". [VERIFIED: hopp-slaegten, 01C]
+0 @I418@ INDI
+1 NAME Karen Marie /Jacobsen/
+1 SEX F
+1 BIRT
+2 DATE 28 OCT 1827
+2 PLAC Steenberghus, Thorning sogn, Danmark
+1 DEAT
+2 DATE 13 APR 1884
+2 PLAC Vinderslev sogn, Danmark
+1 FAMS @F142@
+0 @I419@ INDI
+1 NAME Christiane Marie /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 23 MAR 1831
+2 PLAC Vium skole, Vium sogn, Danmark
+1 FAMS @F143@
+1 NOTE Barn "4/". Konfirmeret 1845. Ved folketællingen 1850 tjente hun hos enkemand, kirkesanger og skolelærer Peder Nicolai Friis i Sjørslev. [VERIFIED: hopp-slaegten, 01C]
+0 @I420@ INDI
+1 NAME Peder Christian /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE 5 JUN 1827
+2 PLAC Sjørslev sogn, Danmark
+1 FAMS @F143@
+1 NOTE Søn af Niels Christensen og Karen Pedersdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I421@ INDI
+1 NAME Friderich Christian /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 16 JUN 1835
+2 PLAC Vium skole, Vium sogn, Danmark
+1 OCCU Daglejer i Vildbjerg (1880); tilhørte den religiøse retning "Separatisterne" — børnene hjemmedøbt af ham selv
+1 FAMS @F144@
+1 NOTE Barn "5/". Konfirmeret 1849 med karaktererne "godt/godt". [VERIFIED: hopp-slaegten, 01C]
+0 @I422@ INDI
+1 NAME Else /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 3 MAY 1833
+2 PLAC Egvad sogn, Danmark
+1 DEAT
+2 DATE AFT 1919
+1 FAMS @F144@
+0 @I423@ INDI
+1 NAME Nicolai Severin Vilhelm Jensen /Harlev/
+1 SEX M
+1 BIRT
+2 DATE 23 SEP 1837
+2 PLAC Vium skole, Vium sogn, Danmark
+1 NOTE Barn "6/". Ved folketællingen 1850 i Ravnholt, Sevel sogn, hvor han tjente hos sin morbror. [VERIFIED: hopp-slaegten, 01C]
+0 @I424@ INDI
+1 NAME Jens Peter Jensen /Harlev/
+1 SEX M
+1 BIRT
+2 DATE 31 MAR 1840
+2 PLAC Vium skole, Vium sogn, Danmark
+1 FAMS @F145@
+1 NOTE Barn "7/". Konfirmeret 1854 Almind kirke. [VERIFIED: hopp-slaegten, 01C]
+0 @I425@ INDI
+1 NAME Thora /Harlev/
+1 SEX F
+1 BIRT
+2 DATE 4 APR 1869
+2 PLAC Frederiksmose, Kragelund sogn, Danmark
+1 FAMC @F145@
+1 NOTE Datter af Jens Peter Jensen Harlev, mor ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I426@ INDI
+1 NAME Otte Valentin /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 15 FEB 1842
+2 PLAC Vium skole, Vium sogn, Danmark
+1 DEAT
+2 DATE 14 APR 1848
+2 PLAC Vium skole, Vium sogn, Danmark
+1 NOTE Barn "8/". [VERIFIED: hopp-slaegten, 01C]
+0 @I427@ INDI
+1 NAME Ane Charlotte Mathilde /Harlev/
+1 SEX F
+1 BIRT
+2 DATE 27 AUG 1844
+2 PLAC Vium skole, Vium sogn, Danmark
+1 FAMS @F146@
+1 NOTE Barn "9/". Konfirmeret 3.10.1858 Almind kirke. Fik 11.1.1863 i Vium en søn uden for ægteskab, udlagt barnefader Andreas Jensen (ikke selvstændigt navngivet/modelleret her). [VERIFIED: hopp-slaegten, 01C]
+0 @I428@ INDI
+1 NAME Hans Christian /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 26 APR 1838
+2 PLAC Løgagerskov, Them sogn, Danmark
+1 FAMS @F146@
+1 NOTE Søn af Hans Hansen og Ane Rasmusdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I429@ INDI
+1 NAME Charlotte Amalie /Nielsdatter/
+1 SEX F
+1 BIRT
+2 DATE 12 OCT 1802
+2 PLAC Hagebro kro, Vridsted sogn, Danmark
+1 DEAT
+2 DATE 16 JAN 1889
+2 PLAC Bisgårds Mark, Borbjerg sogn, Danmark
+1 FAMC @F134@
+1 FAMS @F147@
+1 FAMS @F148@
+1 NOTE Barn "c/". Hjemmedøbt 12.10.1802. Konfirmeret 1819 Borbjerg ("kundskaber maadelig, opførsel god"). 1822 tjenestepige i Mejrup. [VERIFIED: hopp-slaegten, 01C]
+0 @I430@ INDI
+1 NAME Niels /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE 25 JUN 1798
+2 PLAC Neder Feldborg, Hjerm sogn, Danmark
+1 DEAT
+2 DATE 22 JUN 1855
+2 PLAC Holstebro sogn, Danmark
+1 OCCU Gårdskarl i Lægård Mølle
+1 FAMS @F147@
+0 @I431@ INDI
+1 NAME Hans Peter Wilhelm /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE 27 MAR 1828
+2 PLAC Madsdalshus, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 20 JUL 1915
+2 PLAC Viborgvej, Holstebro sogn, Danmark
+1 OCCU Tømrer. Deltog i Treårskrigen 1848-50 (indkaldt 5.1.1850, deltog i slaget ved Isted 25.7., fik tyfus, hjemsendt juni 1851). Modtog 1876 erindringsmedaljen, fra 1891 100 kr/år som krigsveteran
+1 FAMC @F147@
+1 FAMS @F152@
+1 NOTE Konfirmeret 23.4.1843 Borbjerg. [VERIFIED: hopp-slaegten, 01C]
+0 @I432@ INDI
+1 NAME Jens /Christensen (Bisgaard)/
+1 SEX M
+1 BIRT
+2 DATE 23 JUN 1782
+2 PLAC Borbjerg, Danmark
+1 DEAT
+2 DATE 12 OCT 1855
+2 PLAC Bisgård, Borbjerg sogn, Danmark
+1 OCCU Gårdmand i "Vester Bisgaard," Borbjerg
+1 FAMS @F148@
+1 NOTE Søn af Christen Pedersen og Sofie Marie Jensdatter. Enkemand ved dette (Charlotte Amalies) ægteskab, 51 år gammel. [VERIFIED: hopp-slaegten, 01C]
+0 @I433@ INDI
+1 NAME Niels /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 9 JAN 1835
+2 PLAC Vester Bisgård, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 24 JUL 1737
+2 PLAC Vester Bisgård, Borbjerg sogn, Danmark
+1 FAMC @F148@
+1 NOTE Barn "2/". Dødsåret "1737" i kilden er kronologisk umuligt (før hans egen fødsel 1835) — formodet skrivefejl for 1837, ikke rettet uden videre bekræftelse. [VERIFIED: hopp-slaegten, 01C]
+0 @I434@ INDI
+1 NAME Christen /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 30 JUN 1837
+2 PLAC Vester Bisgård, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 11 DEC 1838
+2 PLAC Vester Bisgård, Borbjerg sogn, Danmark
+1 FAMC @F148@
+1 NOTE Barn "3/". [VERIFIED: hopp-slaegten, 01C]
+0 @I435@ INDI
+1 NAME Dorthe Katrine /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 21 NOV 1840
+2 PLAC Vester Bisgård, Borbjerg sogn, Danmark
+1 FAMC @F148@
+1 FAMS @F149@
+1 NOTE Barn "4/". Hjemmedøbt. Enke fra 1884, ved folketællingen 1890 husholderske i Hesselå by. 4 børn, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I436@ INDI
+1 NAME Lauge Christian /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 1 NOV 1845
+2 PLAC Vejby i Salling, Danmark
+1 DEAT
+2 DATE 18 AUG 1884
+2 PLAC Vester Bisgård, Borbjerg sogn, Danmark
+1 FAMS @F149@
+1 NOTE Søn af ugift Christen Laugesen og Mette Christensdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I437@ INDI
+1 NAME Ane /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 11 AUG 1843
+2 PLAC Vester Bisgård, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 20 SEP 1928
+2 PLAC Fredbo, Mejrup sogn, Danmark
+1 FAMC @F148@
+1 FAMS @F150@
+1 NOTE Barn "5/". 1875 til Mejrup fra Måbjerg. 2 børn, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I438@ INDI
+1 NAME Jens Pedersen /(Hattens)/
+1 SEX M
+1 BIRT
+2 DATE 8 JUN 1842
+2 PLAC Klovborg, Sir sogn, Danmark
+1 DEAT
+2 DATE 14 NOV 1902
+2 PLAC S. Hatten, Mejrup sogn, Danmark
+1 FAMS @F150@
+1 NOTE Søn af Peder Jensen og Ane Kirstine Henriksdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I439@ INDI
+1 NAME Karen /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 26 JUL 1846
+2 PLAC Vester Bisgård, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 11 JUN 1926
+2 PLAC Holstebro, Danmark
+1 FAMC @F148@
+1 FAMS @F151@
+1 NOTE Barn "6/". 8 børn, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I440@ INDI
+1 NAME Niels /Sørensen/
+1 SEX M
+1 BIRT
+2 DATE 1 NOV 1852
+2 PLAC Hummelmosehus, Hjerm sogn, Danmark
+1 DEAT
+2 DATE 30 SEP 1937
+2 PLAC Amtssygehuset, Holstebro, Danmark
+1 FAMS @F151@
+1 NOTE Søn af Søren Nielsen og Maren Christensdatter. Boede sidst Viborgvej 9, Holstebro. [VERIFIED: hopp-slaegten, 01C]
+0 @I441@ INDI
+1 NAME Anne Storbjerg /Madsen/
+1 SEX F
+1 BIRT
+2 DATE 5 OCT 1838
+2 PLAC Sandemandsgård, Bøvling sogn, Danmark
+1 DEAT
+2 DATE 23 DEC 1914
+2 PLAC Grønkærhus, Bøvling sogn, Danmark
+1 FAMS @F152@
+1 NOTE Datter af Mads Thorsen og Mette Marie Jensdatter. Dette var hendes 2. ægteskab — havde datteren Marie fra 1. ægteskab. [VERIFIED: hopp-slaegten, 01C]
+0 @I442@ INDI
+1 NAME Caroline Magrete /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 28 JAN 1868
+2 PLAC Kjær, Bøvling sogn, Danmark
+1 DEAT
+2 DATE 8 AUG 1936
+2 PLAC Staby (bopæl Sandvad, Ulfborg sogn), Danmark
+1 FAMC @F152@
+1 FAMS @F153@
+1 NOTE Barn "I/". [VERIFIED: hopp-slaegten, 01C]
+0 @I443@ INDI
+1 NAME Henrik Povlsgaard /Christensen/
+1 SEX M
+1 BIRT
+2 DATE 23 SEP 1856
+2 PLAC Skodborg, Ulfborg sogn, Danmark
+1 DEAT
+2 DATE 19 JAN 1927
+2 PLAC Sandvad, Ulfborg sogn, Danmark
+1 OCCU Stort husmand i Sandvad, Ulfborg
+1 FAMS @F153@
+1 NOTE Søn af Christen Madsen Sandvad og Kirsten Marie Gilsgaard. [VERIFIED: hopp-slaegten, 01C]
+0 @I444@ INDI
+1 NAME Charlotte Amalie /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 9 JUN 1870
+2 PLAC Nørtofthus, Bøvling sogn, Danmark
+1 DEAT
+2 DATE 1951
+2 PLAC Ødis, Danmark
+1 FAMC @F152@
+1 FAMS @F154@
+1 NOTE Barn "II/". [VERIFIED: hopp-slaegten, 01C]
+0 @I445@ INDI
+1 NAME Henrik /Lauenborg/
+1 SEX M
+1 DEAT
+2 DATE 1935
+2 PLAC Ødis, Danmark
+1 OCCU Musiker i Ødis
+1 FAMS @F154@
+0 @I446@ INDI
+1 NAME Harald /Lauenborg/
+1 SEX M
+1 BIRT
+2 DATE 18 OCT 1905
+1 DEAT
+2 DATE 1982
+2 PLAC Århus(?), Danmark
+1 OCCU Købmand i Århus
+1 FAMC @F154@
+1 FAMS @F155@
+0 @I447@ INDI
+1 NAME Gerda /Nielsen/
+1 SEX F
+1 BIRT
+2 DATE 22 MAR 1910
+2 PLAC Nr. Aaby, Danmark
+1 FAMS @F155@
+0 @I448@ INDI
+1 NAME Erik /Lauenborg/
+1 SEX M
+1 BIRT
+2 DATE 15 SEP 1934
+2 PLAC Århus, Danmark
+1 OCCU Salgskonsulent, Riisskov ved Århus
+1 FAMC @F155@
+1 FAMS @F156@
+1 NOTE Gift med "Annelise" (efternavn ikke angivet i kilden). [VERIFIED: hopp-slaegten, 01C]
+0 @I449@ INDI
+1 NAME Henning /Lauenborg/
+1 SEX M
+1 BIRT
+2 DATE 29 OCT 1939
+2 PLAC Århus, Danmark
+1 OCCU Købmand ved Århus
+1 FAMC @F155@
+1 FAMS @F157@
+1 NOTE Gift med "Litha" (efternavn ikke angivet i kilden). [VERIFIED: hopp-slaegten, 01C]
+0 @I450@ INDI
+1 NAME Living /Lauenborg/
+1 SEX M
+1 BIRT
+2 DATE 1960
+1 FAMC @F156@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I450 (kraever adgang til den private modul-repo).
+0 @I451@ INDI
+1 NAME Living /Lauenborg/
+1 SEX F
+1 BIRT
+2 DATE 1963
+1 FAMC @F156@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I451 (kraever adgang til den private modul-repo).
+0 @I452@ INDI
+1 NAME Living /Lauenborg/
+1 SEX M
+1 BIRT
+2 DATE 1964
+1 FAMC @F157@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I452 (kraever adgang til den private modul-repo).
+0 @I453@ INDI
+1 NAME Living /Lauenborg/
+1 SEX M
+1 BIRT
+2 DATE 1973
+1 FAMC @F157@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I453 (kraever adgang til den private modul-repo).
+0 @I454@ INDI
+1 NAME Living /Lauenborg/
+1 SEX F
+1 BIRT
+2 DATE 1973
+1 FAMC @F157@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I454 (kraever adgang til den private modul-repo).
+0 @I455@ INDI
+1 NAME Niels Henningsen Theodor /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 27 JAN 1873
+2 PLAC Kjær, Bøvling sogn, Danmark
+1 DEAT
+2 DATE 27 MAR 1946
+2 PLAC Bøvling, Danmark
+1 OCCU Malermester i Bøvling fra 1903
+1 FAMC @F152@
+1 FAMS @F158@
+1 NOTE Barn "III/". [VERIFIED: hopp-slaegten, 01C]
+0 @I456@ INDI
+1 NAME Johanne Skov /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 17 MAR 1887
+1 DEAT
+2 DATE 13 APR 1965
+1 FAMS @F158@
+1 NOTE Datter af Peder Skov Jensen og Marie Pedersen i Bøvling. [VERIFIED: hopp-slaegten, 01C]
+0 @I457@ INDI
+1 NAME Ingrid /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 27 AUG 1910
+2 PLAC Bøvling, Danmark
+1 FAMC @F158@
+1 FAMS @F159@
+1 NOTE Barn "A/". [VERIFIED: hopp-slaegten, 01C]
+0 @I458@ INDI
+1 NAME Niels Sigurd /Halkjær/
+1 SEX M
+1 BIRT
+2 DATE 7 MAY 1906
+2 PLAC Madum, Danmark
+1 DEAT
+2 DATE 29 MAY 1980
+1 OCCU Tømrer, fra 1934 i Husby
+1 FAMS @F159@
+1 NOTE Søn af gdr. Jens Halkjær og Agnes Pedersen. [VERIFIED: hopp-slaegten, 01C]
+0 @I459@ INDI
+1 NAME Sigurd /Halkjær/
+1 SEX M
+1 BIRT
+2 DATE 12 FEB 1936
+2 PLAC Husby, Danmark
+1 OCCU Tømrermester
+1 FAMC @F159@
+1 FAMS @F160@
+1 NOTE Barn "AA." [VERIFIED: hopp-slaegten, 01C]
+0 @I460@ INDI
+1 NAME Elsie /Pedersen/
+1 SEX F
+1 BIRT
+2 DATE 12 MAY 1943
+2 PLAC Flynder, Danmark
+1 FAMS @F160@
+1 NOTE Datter af gdr. Alfred Sigurd Pedersen og Martha Kristensen. [VERIFIED: hopp-slaegten, 01C]
+0 @I461@ INDI
+1 NAME Living /Halkjær/
+1 SEX F
+1 BIRT
+2 DATE 1963
+1 FAMC @F160@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I461 (kraever adgang til den private modul-repo).
+0 @I462@ INDI
+1 NAME Living /Halkjær/
+1 SEX M
+1 BIRT
+2 DATE 1966
+1 FAMC @F160@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I462 (kraever adgang til den private modul-repo).
+0 @I463@ INDI
+1 NAME Living /Halkjær/
+1 SEX F
+1 BIRT
+2 DATE 1971
+1 FAMC @F160@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I463 (kraever adgang til den private modul-repo).
+0 @I464@ INDI
+1 NAME Grethe /Halkjær/
+1 SEX F
+1 BIRT
+2 DATE 1 FEB 1940
+2 PLAC Husby, Danmark
+1 FAMC @F159@
+1 FAMS @F161@
+1 NOTE Barn "AB." [VERIFIED: hopp-slaegten, 01C]
+0 @I465@ INDI
+1 NAME Karl /Jacobsen/
+1 SEX M
+1 BIRT
+2 DATE 1937
+2 PLAC Staby, Danmark
+1 OCCU Bagersvend
+1 FAMS @F161@
+1 NOTE Søn af arbm. Valdemar Jakobsen og Asta Trustrup. [VERIFIED: hopp-slaegten, 01C]
+0 @I466@ INDI
+1 NAME Living /Jacobsen/
+1 SEX M
+1 BIRT
+2 DATE 1961
+1 FAMC @F161@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I466 (kraever adgang til den private modul-repo).
+0 @I467@ INDI
+1 NAME Living /Jacobsen/
+1 SEX F
+1 BIRT
+2 DATE 1966
+1 FAMC @F161@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I467 (kraever adgang til den private modul-repo).
+0 @I468@ INDI
+1 NAME Living /Jacobsen/
+1 SEX M
+1 FAMC @F161@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I468 (kraever adgang til den private modul-repo).
+0 @I469@ INDI
+1 NAME Aage Skov /Halkjær/
+1 SEX M
+1 BIRT
+2 DATE 18 JAN 1944
+2 PLAC Husby, Danmark
+1 OCCU Tømrer, Haslev
+1 FAMC @F159@
+1 FAMS @F162@
+1 NOTE Barn "AC." [VERIFIED: hopp-slaegten, 01C]
+0 @I470@ INDI
+1 NAME Mette /Pedersen/
+1 SEX F
+1 BIRT
+2 DATE 20 APR 1955
+2 PLAC Roskilde, Danmark
+1 FAMS @F162@
+1 NOTE Datter af arbm. Hans Christian Robert Viggo Nielsen og Vibeke Jenny Christensen; børn af 1. ægteskab. [VERIFIED: hopp-slaegten, 01C]
+0 @I471@ INDI
+1 NAME Svend /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 10 JUN 1912
+2 PLAC Bøvling, Danmark
+1 DEAT
+2 DATE 4 MAY 1981
+2 PLAC Holstebro Sygehus, Danmark
+1 OCCU Tømrer, Bøvlingbjerg
+1 FAMC @F158@
+1 FAMS @F163@
+1 NOTE Barn "B/". Indsamlede selv oplysninger om slægten (kildehenvisning "61)" i 01C gælder ofte hans opsamling). Begravet Bøvling Valgmenighed. [VERIFIED: hopp-slaegten, 01C]
+0 @I472@ INDI
+1 NAME Agnete /Jørgensen/
+1 SEX F
+1 BIRT
+2 DATE 10 APR 1915
+2 PLAC "S. Raunsbæk," Lomborg, Danmark
+1 FAMS @F163@
+1 NOTE Datter af gdr. Anders Peder Jørgensen og Else Marie Kristensen. [VERIFIED: hopp-slaegten, 01C]
+0 @I473@ INDI
+1 NAME Living /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 1944
+1 FAMC @F163@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I473 (kraever adgang til den private modul-repo).
+0 @I474@ INDI
+1 NAME Living /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 1946
+1 FAMC @F163@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I474 (kraever adgang til den private modul-repo).
+0 @I475@ INDI
+1 NAME Living /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 1947
+1 FAMC @F163@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I475 (kraever adgang til den private modul-repo).
+0 @I476@ INDI
+1 NAME Living /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 1949
+1 FAMC @F163@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I476 (kraever adgang til den private modul-repo).
+0 @I477@ INDI
+1 NAME Bodil /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 16 SEP 1950
+1 DEAT
+2 DATE 29 OCT 1950
+2 PLAC Bøvling, Danmark
+1 FAMC @F163@
+1 NOTE Barn "BE." Død som spæd. [VERIFIED: hopp-slaegten, 01C]
+0 @I478@ INDI
+1 NAME Living /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 1953
+1 FAMC @F163@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I478 (kraever adgang til den private modul-repo).
+0 @I479@ INDI
+1 NAME Living /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 1954
+1 FAMC @F163@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I479 (kraever adgang til den private modul-repo).
+0 @I480@ INDI
+1 NAME Living /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 1926
+1 FAMC @F158@
+1 FAMS @F165@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I480 (kraever adgang til den private modul-repo).
+0 @I481@ INDI
+1 NAME Living /Christensen/
+1 SEX F
+1 BIRT
+2 DATE 1931
+1 FAMS @F165@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I481 (kraever adgang til den private modul-repo).
+0 @I482@ INDI
+1 NAME Living /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 1954
+1 FAMC @F165@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I482 (kraever adgang til den private modul-repo).
+0 @I483@ INDI
+1 NAME Living /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 1957
+1 FAMC @F165@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I483 (kraever adgang til den private modul-repo).
+0 @I484@ INDI
+1 NAME Living /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 1958
+1 FAMC @F165@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I484 (kraever adgang til den private modul-repo).
+0 @I485@ INDI
+1 NAME Living /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 1963
+1 FAMC @F165@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I485 (kraever adgang til den private modul-repo).
+0 @I486@ INDI
+1 NAME Mads /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 19 JAN 1876
+2 PLAC Kjær, Bøvling sogn, Danmark
+1 DEAT
+2 DATE 1948
+2 PLAC Nyborg, Danmark
+1 OCCU Murer
+1 FAMC @F152@
+1 FAMS @F166@
+1 NOTE Barn "IV/". [VERIFIED: hopp-slaegten, 01C]
+0 @I487@ INDI
+1 NAME Thyra Søndberg /Larsen/
+1 SEX F
+1 BIRT
+2 DATE 13 MAR 1884
+2 PLAC Lomborg, Danmark
+1 DEAT
+2 DATE 18 FEB 1977
+2 PLAC Nyborg, Danmark
+1 FAMS @F166@
+1 NOTE Datter af lærer Kristen Søndberg og Else Skov. [VERIFIED: hopp-slaegten, 01C]
+0 @I488@ INDI
+1 NAME Per /Søndberg/
+1 SEX M
+1 BIRT
+2 DATE 22 MAR 1909
+2 PLAC Nyborg, Danmark
+1 OCCU Socialinspektør
+1 FAMC @F166@
+1 FAMS @F167@
+1 NOTE Barn "A." [VERIFIED: hopp-slaegten, 01C]
+0 @I489@ INDI
+1 NAME Hedevig Tonni /Søndberg/
+1 SEX F
+1 BIRT
+2 DATE 19 AUG 1910
+2 PLAC Frederiksberg, Danmark
+1 FAMS @F167@
+0 @I490@ INDI
+1 NAME Living /Søndberg/
+1 SEX F
+1 BIRT
+2 DATE 1938
+1 FAMC @F167@
+1 FAMS @F168@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I490 (kraever adgang til den private modul-repo).
+0 @I491@ INDI
+1 NAME Living /Søgaard/
+1 SEX M
+1 FAMS @F168@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I491 (kraever adgang til den private modul-repo).
+0 @I492@ INDI
+1 NAME Living /Søgaard/
+1 SEX M
+1 BIRT
+2 DATE 1981
+1 FAMC @F168@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I492 (kraever adgang til den private modul-repo).
+0 @I493@ INDI
+1 NAME Vagn /Søndberg/
+1 SEX M
+1 BIRT
+2 DATE 21 MAR 1914
+2 PLAC Nyborg, Danmark
+1 DEAT
+2 DATE 2 DEC 1974
+1 OCCU Ingeniør i Nyborg Kommune
+1 FAMC @F166@
+1 FAMS @F169@
+1 NOTE Barn "B." [VERIFIED: hopp-slaegten, 01C]
+0 @I494@ INDI
+1 NAME Living /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 1923
+1 FAMS @F169@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I494 (kraever adgang til den private modul-repo).
+0 @I495@ INDI
+1 NAME Living /Søndberg/
+1 SEX F
+1 BIRT
+2 DATE 1957
+1 FAMC @F169@
+1 FAMS @F170@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I495 (kraever adgang til den private modul-repo).
+0 @I496@ INDI
+1 NAME Living /Søndberg/
+1 SEX M
+1 BIRT
+2 DATE 1957
+1 FAMC @F169@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I496 (kraever adgang til den private modul-repo).
+0 @I497@ INDI
+1 NAME Living /Nielsen/
+1 SEX M
+1 FAMS @F170@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I497 (kraever adgang til den private modul-repo).
+0 @I498@ INDI
+1 NAME Living /Søndberg/
+1 SEX M
+1 BIRT
+2 DATE 1984
+1 FAMC @F170@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I498 (kraever adgang til den private modul-repo).
+0 @I499@ INDI
+1 NAME Andreas /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 22 AUG 1879
+2 PLAC Bøvling sogn, Danmark
+1 DEAT
+2 DATE 10 SEP 1960
+2 PLAC Holstebro, Danmark
+1 OCCU Malermester i Hjermind, senere Hovedgård; flyttede til Holstebro som sælger m.m.
+1 FAMC @F152@
+1 FAMS @F171@
+1 NOTE Barn "V/". [VERIFIED: hopp-slaegten, 01C]
+0 @I500@ INDI
+1 NAME Katrine Nørgaard /Laugesen/
+1 SEX F
+1 BIRT
+2 DATE 4 OCT 1887
+1 DEAT
+2 DATE 3 MAY 1973
+2 PLAC Holstebro, Danmark
+1 FAMS @F171@
+0 @I501@ INDI
+1 NAME Eli Nørgaard /Hansen/
+1 SEX F
+1 BIRT
+2 DATE 1 APR 1912
+2 PLAC Hjermind, Danmark
+1 FAMC @F171@
+1 FAMS @F172@
+1 NOTE Barn "A." [VERIFIED: hopp-slaegten, 01C]
+0 @I502@ INDI
+1 NAME Kresten /Aaberg/
+1 SEX M
+1 OCCU Gårdejer
+1 FAMS @F172@
+0 @I503@ INDI
+1 NAME Jens /Aaberg/
+1 SEX M
+1 BIRT
+2 DATE 29 JAN 1941
+2 PLAC Naur, Danmark
+1 OCCU Lærer, Dronninglund
+1 FAMC @F172@
+1 FAMS @F173@
+1 NOTE Barn "AA." Har selv udarbejdet en selvstændig efterslægtsoversigt for Dorthe Hansdatter (Block) (=a.-2.), som KEJ's egen tekst her delvist er baseret på. [VERIFIED: hopp-slaegten, 01C]
+0 @I504@ INDI
+1 NAME Living /Jensen/
+1 SEX F
+1 FAMS @F173@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I504 (kraever adgang til den private modul-repo).
+0 @I505@ INDI
+1 NAME Living /Aaberg/
+1 SEX F
+1 BIRT
+2 DATE 1973
+1 FAMC @F173@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I505 (kraever adgang til den private modul-repo).
+0 @I506@ INDI
+1 NAME Living /Aaberg/
+1 SEX M
+1 BIRT
+2 DATE 1976
+1 FAMC @F173@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I506 (kraever adgang til den private modul-repo).
+0 @I507@ INDI
+1 NAME Living /Aaberg/
+1 SEX M
+1 BIRT
+2 DATE 1954
+1 FAMC @F172@
+1 FAMS @F174@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I507 (kraever adgang til den private modul-repo).
+0 @I508@ INDI
+1 NAME Living /Stubbe-Teglberg/
+1 SEX F
+1 FAMS @F174@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I508 (kraever adgang til den private modul-repo).
+0 @I509@ INDI
+1 NAME Living /Aaberg/
+1 SEX F
+1 BIRT
+2 DATE 1976
+1 FAMC @F174@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I509 (kraever adgang til den private modul-repo).
+0 @I510@ INDI
+1 NAME Living /Aaberg/
+1 SEX F
+1 BIRT
+2 DATE 1979
+1 FAMC @F174@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I510 (kraever adgang til den private modul-repo).
+0 @I511@ INDI
+1 NAME Living /Aaberg/
+1 SEX M
+1 BIRT
+2 DATE 1984
+1 FAMC @F174@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I511 (kraever adgang til den private modul-repo).
+0 @I512@ INDI
+1 NAME Living /Aaberg/
+1 SEX M
+1 BIRT
+2 DATE 1945
+1 FAMC @F172@
+1 FAMS @F175@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I512 (kraever adgang til den private modul-repo).
+0 @I513@ INDI
+1 NAME Living /Søvndal/
+1 SEX F
+1 FAMS @F175@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I513 (kraever adgang til den private modul-repo).
+0 @I514@ INDI
+1 NAME Living /Aaberg/
+1 SEX M
+1 BIRT
+2 DATE 1975
+1 FAMC @F175@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I514 (kraever adgang til den private modul-repo).
+0 @I515@ INDI
+1 NAME Living /Aaberg/
+1 SEX F
+1 BIRT
+2 DATE 1977
+1 FAMC @F175@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I515 (kraever adgang til den private modul-repo).
+0 @I516@ INDI
+1 NAME Living /Aaberg/
+1 SEX F
+1 BIRT
+2 DATE 1980
+1 FAMC @F175@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I516 (kraever adgang til den private modul-repo).
+0 @I517@ INDI
+1 NAME Living /Aaberg/
+1 SEX F
+1 BIRT
+2 DATE 1983
+1 FAMC @F175@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I517 (kraever adgang til den private modul-repo).
+0 @I518@ INDI
+1 NAME Living /Aaberg/
+1 SEX F
+1 BIRT
+2 DATE 1947
+1 FAMC @F172@
+1 FAMS @F176@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I518 (kraever adgang til den private modul-repo).
+0 @I519@ INDI
+1 NAME Living /Villumsen/
+1 SEX M
+1 FAMS @F176@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I519 (kraever adgang til den private modul-repo).
+0 @I520@ INDI
+1 NAME Living /Villumsen/
+1 SEX M
+1 BIRT
+2 DATE 1973
+1 FAMC @F176@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I520 (kraever adgang til den private modul-repo).
+0 @I521@ INDI
+1 NAME Living /Villumsen/
+1 SEX F
+1 BIRT
+2 DATE 1976
+1 FAMC @F176@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I521 (kraever adgang til den private modul-repo).
+0 @I522@ INDI
+1 NAME Living /Aaberg/
+1 SEX M
+1 BIRT
+2 DATE 1948
+1 FAMC @F172@
+1 FAMS @F177@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I522 (kraever adgang til den private modul-repo).
+0 @I523@ INDI
+1 NAME Living /Hansen/
+1 SEX F
+1 FAMS @F177@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I523 (kraever adgang til den private modul-repo).
+0 @I524@ INDI
+1 NAME Living /Aaberg/
+1 SEX F
+1 BIRT
+2 DATE 1978
+1 FAMC @F177@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I524 (kraever adgang til den private modul-repo).
+0 @I525@ INDI
+1 NAME Living /Aaberg/
+1 SEX F
+1 BIRT
+2 DATE 1981
+1 FAMC @F177@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I525 (kraever adgang til den private modul-repo).
+0 @I526@ INDI
+1 NAME Anna Nørgaard /Westlund/
+1 SEX F
+1 BIRT
+2 DATE 29 APR 1914
+2 PLAC Holstebro, Danmark
+1 OCCU Sygeplejerske
+1 FAMC @F171@
+1 FAMS @F178@
+1 NOTE Barn "B." [VERIFIED: hopp-slaegten, 01C]
+0 @I527@ INDI
+1 NAME Hasse (Esse) Conny /Westlund/
+1 SEX M
+1 BIRT
+2 DATE 7 MAY 1912
+2 PLAC Sverige
+1 OCCU Skrædder, bopæl Göteborg
+1 FAMS @F178@
+0 @I528@ INDI
+1 NAME Living /Westlund/
+1 SEX F
+1 BIRT
+2 DATE 1952
+1 FAMC @F178@
+1 FAMS @F179@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I528 (kraever adgang til den private modul-repo).
+0 @I529@ INDI
+1 NAME Living /Johansson/
+1 SEX M
+1 FAMS @F179@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I529 (kraever adgang til den private modul-repo).
+0 @I530@ INDI
+1 NAME Living /Johansson/
+1 SEX M
+1 BIRT
+2 DATE 1981
+1 FAMC @F179@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I530 (kraever adgang til den private modul-repo).
+0 @I531@ INDI
+1 NAME Living /Johansson/
+1 SEX M
+1 BIRT
+2 DATE 1989
+1 FAMC @F179@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I531 (kraever adgang til den private modul-repo).
+0 @I532@ INDI
+1 NAME Living /Westlund/
+1 SEX M
+1 BIRT
+2 DATE 1954
+1 FAMC @F178@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I532 (kraever adgang til den private modul-repo).
+0 @I533@ INDI
+1 NAME Peter Severin Hjardemaal /Henningsen/
+1 SEX M
+1 BIRT
+2 DATE 10 NOV 1805
+2 PLAC Holmgaard, Dommerby sogn, Danmark
+1 DEAT
+2 DATE 14 JUL 1863
+2 PLAC Borup mark, Svostrup sogn, Danmark
+1 FAMC @F134@
+1 FAMS @F180@
+1 NOTE Barn "d/". Døbt (hjemmedøbt-lignende note: "døbt"). 1.1.1823 fremviste han skudsmålsbog for præsten i Vejrum — havde allerede tjent et år på Ausumgård. [VERIFIED: hopp-slaegten, 01C]
+0 @I534@ INDI
+1 NAME Bodil Marie /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE 22 DEC 1802
+2 PLAC Iller, Grønbæk sogn, Danmark
+1 DEAT
+2 DATE 5 FEB 1880
+2 PLAC Borup, Svostrup sogn, Danmark
+1 FAMS @F180@
+1 NOTE Datter af Kresten Andersen og Kirsten Rasmusdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I535@ INDI
+1 NAME Dorthea Kirstine /Pedersdatter/
+1 SEX F
+1 BIRT
+2 DATE 7 DEC 1833
+2 PLAC Roe by, Grønbæk sogn, Danmark
+1 FAMC @F180@
+1 FAMS @F181@
+1 NOTE Barn "1/". [VERIFIED: hopp-slaegten, 01C]
+0 @I536@ INDI
+1 NAME Jacob /Poulsen/
+1 SEX M
+1 BIRT
+2 DATE 30 MAY 1833
+1 DEAT
+2 DATE 16 DEC 1912
+2 PLAC Borup, Svostrup sogn, Danmark
+1 FAMS @F181@
+1 NOTE Søn af Poul Sørensen og Gjertrud Pedersdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I537@ INDI
+1 NAME Juliane Mathilde /Henningsen/
+1 SEX F
+1 BIRT
+2 DATE 1807
+2 PLAC Skave kro, Borbjerg sogn, Danmark
+1 FAMC @F134@
+1 NOTE Barn "e/". Kilden angiver både fødselsåret 1807 og en dåbsdato 12.12.1809 — uafklaret om det er samme eller to forskellige datoer, ikke rettet her. Var nærmest livløs ved fødslen, men blev bragt til live af jordemoderen Anne Toft. [VERIFIED: hopp-slaegten, 01C]
+0 @I538@ INDI
+1 NAME [dødfødt dreng]
+1 SEX M
+1 BIRT
+2 DATE 20 JUN 1809
+2 PLAC Skave, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 20 JUN 1809
+2 PLAC Skave, Borbjerg sogn, Danmark
+1 FAMC @F134@
+1 NOTE Barn "f/", ikke navngivet (dødfødt). Kirkebogen beskriver en 12 timer lang, men naturlig fødsel; jordemoderen Ane Toft konstaterede barnet levende halvanden time før fødslen, men det kvaltes i fødselsøjeblikket. Jordemoderens indsats med varmt vand og indblæsning var forgæves. Kirkebogens egen bemærkning, med moderens egenhændige underskrift: "Ingen Klage over Gjordemoderen, det tilstaaes af Barnemoderen Dorothe Bloch." [VERIFIED: hopp-slaegten, 01C]
+0 @I539@ INDI
+1 NAME Carl Wilhelm Nielsen /(Henningsen)/
+1 SEX M
+1 BIRT
+2 DATE 30 JUL 1810
+2 PLAC Skave, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 15 JUN 1886
+2 PLAC Sevel, Danmark
+1 OCCU Snedkersvend (1840); senere gårdmand
+1 FAMC @F134@
+1 FAMS @F182@
+1 FAMS @F183@
+1 NOTE Barn "g/". 1841 udlagt som barnefader til et barn med Mariane Jensdatter — sin brors (Hans Nikolaj Nielsen Henningsens) steddatter (se I. Ane Jensine Henningsen nedenfor). [VERIFIED: hopp-slaegten, 01C]
+0 @I540@ INDI
+1 NAME Ane /Andersdatter/
+1 SEX F
+1 BIRT
+2 DATE 17 MAY 1817
+2 PLAC Bisgaard, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 25 MAR 1896
+2 PLAC Ravnsholt, Sevel sogn, Danmark
+1 FAMS @F182@
+1 NOTE Datter af Anders Christensen og Ane Graversdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I541@ INDI
+1 NAME Mariane /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 21 DEC 1822
+2 PLAC Øster Hornum sogn, Danmark
+1 FAMS @F183@
+1 NOTE Datter af Jens Madsen og Ane Sørensdatter; steddatter af Hans Nikolaj Nielsen Henningsen (a/). [VERIFIED: hopp-slaegten, 01C]
+0 @I542@ INDI
+1 NAME Ane Jensine /Henningsen/
+1 SEX F
+1 BIRT
+2 DATE 22 OCT 1841
+2 PLAC Flyndersø Mølle, Estvad sogn, Danmark
+1 DEAT
+2 DATE 3 DEC 1918
+2 PLAC Havnebanestien, Lemvig, Danmark
+1 FAMC @F183@
+1 FAMS @F184@
+1 NOTE Barn "1/", datter af Mariane Jensdatter og udlagt barnefader Carl Wilhelm Nielsen (Henningsen), hendes stedfars bror. [VERIFIED: hopp-slaegten, 01C]
+0 @I543@ INDI
+1 NAME Marius Ingefred /Pedersen/
+1 SEX M
+1 BIRT
+2 DATE 26 OCT 1839
+2 PLAC Grydholt, Ast sogn, Danmark
+1 DEAT
+2 DATE 23 APR 1896
+2 PLAC Lemvig sogn, Danmark
+1 FAMS @F184@
+1 NOTE Søn af Peder Christensen og Ane Kirstine Danielsdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I544@ INDI
+1 NAME Ane Dorthe /Henningsen/
+1 SEX F
+1 BIRT
+2 DATE 11 SEP 1844
+2 PLAC Øster Bisgaard, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 5 MAY 1845
+2 PLAC Sevel sogn, Danmark
+1 FAMC @F182@
+1 NOTE Barn "2/". Død som spæd. [VERIFIED: hopp-slaegten, 01C]
+0 @I545@ INDI
+1 NAME Niels Christian /Carlsen/
+1 SEX M
+1 BIRT
+2 DATE 10 NOV 1846
+2 PLAC Ravnsholt, Sevel sogn, Danmark
+1 DEAT
+2 DATE 27 AUG 1918
+2 PLAC Sdr. Hvam, Borbjerg sogn, Danmark
+1 OCCU Overtog faderens gård Ravnholt i Sevel; flyttede 1891-1900 til Sdr. Hvam
+1 FAMC @F182@
+1 FAMS @F185@
+1 NOTE Barn "3/". [VERIFIED: hopp-slaegten, 01C]
+0 @I546@ INDI
+1 NAME Karen /Johansen/
+1 SEX F
+1 BIRT
+2 DATE 1855
+2 PLAC Kirkebyen, Ryde sogn, Danmark
+1 FAMS @F185@
+1 NOTE Datter af Johan Jensen og Kirsten Laursdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I547@ INDI
+1 NAME Anders Christian /Carlsen/
+1 SEX M
+1 BIRT
+2 DATE 15 OCT 1848
+2 PLAC Ravnsholt, Sevel sogn, Danmark
+1 FAMC @F182@
+1 NOTE Barn "4/". Konfirmeret 12.4.1863 Sevel kirke. 1890 tjenestekarl i Hasselholtgård, Sahl sogn. 1911 tjener hos landbruger og købmand Jens Bæk i Sevel, stadig ugift. [VERIFIED: hopp-slaegten, 01C]
+0 @I548@ INDI
+1 NAME Juliane Mathilde /Henningsen/
+1 SEX F
+1 BIRT
+2 DATE 28 MAR 1815
+2 PLAC Borbjerg sogn, Danmark
+1 FAMC @F134@
+1 FAMS @F186@
+1 FAMS @F187@
+1 NOTE Barn "h/" — samme navn som barn "e/" ovenfor, formodentlig fordi "e/" døde som spæd (navnegenbrug var almindelig dansk praksis). Dødsdato ikke fundet i Sevel kirkebog. [VERIFIED: hopp-slaegten, 01C]
+0 @I549@ INDI
+1 NAME Niels Sørensen /Hougaard/
+1 SEX M
+1 BIRT
+2 DATE 1806
+2 PLAC Sdr. Hougård, Svenstrup i Sahl sogn, Danmark
+1 DEAT
+2 DATE 24 FEB 1861
+2 PLAC Borbjerg sogn, Danmark
+1 OCCU Stort husmand i Nørre Hvam, Borbjerg sogn; fra 1855 Hvidbjerghus ved Kjeldsmark
+1 FAMS @F186@
+0 @I550@ INDI
+1 NAME Christen /Pedersen/
+1 SEX M
+1 BIRT
+2 DATE 4 MAR 1822
+2 PLAC Yllebjerg, Hodager sogn, Danmark
+1 DEAT
+2 DATE 4 JUL 1891
+2 PLAC Jattrup, Sevel sogn, Danmark
+1 FAMS @F187@
+0 @I551@ INDI
+1 NAME Søren Christian Nielsen /Hougaard/
+1 SEX M
+1 BIRT
+2 DATE 16 MAR 1841
+2 PLAC Nr. Hvam, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 1893
+2 PLAC Nr. Godrum, Sahl sogn, Danmark
+1 OCCU Udlært maler
+1 FAMC @F186@
+1 FAMS @F188@
+1 NOTE Barn "1/". [VERIFIED: hopp-slaegten, 01C]
+0 @I552@ INDI
+1 NAME Margrethe Catrine /Eriksen/
+1 SEX F
+1 BIRT
+2 DATE 7 MAR 1843
+2 PLAC Nr. Godrum, Sahl sogn, Danmark
+1 FAMS @F188@
+0 @I553@ INDI
+1 NAME Ane Dorthe /Nielsen/
+1 SEX F
+1 BIRT
+2 DATE 21 MAR 1848
+2 PLAC Nr. Hvam, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 12 MAY 1857
+2 PLAC Nr. Hvam, Borbjerg sogn, Danmark
+1 FAMC @F186@
+1 NOTE Barn "2/". Død af hjernebetændelse. [VERIFIED: hopp-slaegten, 01C]
+0 @I554@ INDI
+1 NAME Niels Henning /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE 14 JAN 1853
+2 PLAC Nr. Hvam, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 11 APR 1920
+2 PLAC Bøvling, Danmark
+1 OCCU Udlært maler 1873 (hos broderen "1/"), derefter maler i Bøvling
+1 FAMC @F186@
+1 FAMS @F189@
+1 NOTE Barn "3/" — tvilling til "4/". Fik navnebevis 30.9.1905 på navnet "Niels Henningsen." Købte 1879 "Kjøldige Søndermark" i Bøvling. [VERIFIED: hopp-slaegten, 01C]
+0 @I555@ INDI
+1 NAME Else Marie /Kristensen/
+1 SEX F
+1 BIRT
+2 DATE 6 SEP 1856
+2 PLAC Skalstrup, Nees sogn, Danmark
+1 DEAT
+2 DATE 11 SEP 1927
+2 PLAC Søndermark, Bøvling sogn, Danmark
+1 FAMS @F189@
+1 NOTE Datter af Christen Brændgård Jensen og Maren Nielsdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I556@ INDI
+1 NAME Mariane /Nielsen/
+1 SEX F
+1 BIRT
+2 DATE 14 JAN 1853
+2 PLAC Nr. Hvam, Borbjerg sogn, Danmark
+1 DEAT
+2 DATE 6 APR 1853
+2 PLAC Nr. Hvam, Borbjerg sogn, Danmark
+1 FAMC @F186@
+1 NOTE Barn "4/" — tvilling til "3/". Død som spæd. [VERIFIED: hopp-slaegten, 01C]
+0 @I557@ INDI
+1 NAME Marinus /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE 3 MAY 1855
+2 PLAC Borbjerg sogn, Danmark
+1 FAMC @F186@
+1 FAMS @F190@
+1 FAMS @F191@
+1 NOTE Barn "5/". Fik navnebevis 25.7.1905 på navnet "Marinus Hougaard." Fra 1879 fast ophold hos moderen og stedfaderen i Jattrup. [VERIFIED: hopp-slaegten, 01C]
+0 @I558@ INDI
+1 NAME Mariane /Christensen/
+1 SEX F
+1 BIRT
+2 DATE 25 NOV 1858
+2 PLAC Nees sogn, Danmark
+1 DEAT
+2 DATE 19 FEB 1903
+2 PLAC Jattrup, Sevel sogn, Danmark
+1 FAMS @F190@
+1 NOTE Datter af Christen Brændgård Jensen og Maren Nielsdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I559@ INDI
+1 NAME Johanne Margrethe /Christensen/
+1 SEX F
+1 BIRT
+2 DATE 4 MAR 1867
+2 PLAC Jattrup, Sevel sogn, Danmark
+1 FAMS @F191@
+1 NOTE Datter af Jens Christensen og Ane Sophie Nielsdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I560@ INDI
+1 NAME Anne Marie Hansdatter /Block/
+1 SEX F
+1 BIRT
+2 DATE 1773
+2 PLAC Viborg Sdr. sogn, Danmark
+1 FAMC @F133@
+1 NOTE Barn "3." Døbt 31.10.1773. Konfirmeret 1789. Ingen yderligere oplysninger (ægteskab/død) fundet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I561@ INDI
+1 NAME Nille Christine Hansdatter /Block/ (Blok)
+1 SEX F
+1 BIRT
+2 DATE 1775
+2 PLAC Viborg Sdr. sogn, Danmark
+1 FAMC @F133@
+1 FAMS @F192@
+1 NOTE Barn "4." Døbt 25.5.1775. Uddannet jordemoder — se "Den Viborg Samler" 1813, hvor hun averterer sig selv efter flytning. Død som "entlediget jordemoder." [VERIFIED: hopp-slaegten, 01C]
+0 @I562@ INDI
+1 NAME Ingebricht /Rosenberg/
+1 SEX M
+1 BIRT
+2 DATE 1776
+2 PLAC Korup sogn, Danmark
+1 DEAT
+2 DATE 10 FEB 1829
+2 PLAC Sejlgaard, Funder sogn, Danmark
+1 FAMS @F192@
+1 NOTE Søn af Tosten Rosenberg og Anne Kirstine Jensdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I563@ INDI
+1 NAME Anne Kirstine /Rosenberg/
+1 SEX F
+1 BIRT
+2 DATE 15 JUN 1794
+2 PLAC Viborg Sdr. sogn, Danmark
+1 DEAT
+2 DATE MAY 1801
+2 PLAC Viborg Sdr. sogn, Danmark
+1 FAMC @F192@
+1 NOTE Barn "a/". Begravet 25.8.1801. [VERIFIED: hopp-slaegten, 01C]
+0 @I564@ INDI
+1 NAME Hans /Rosenberg/
+1 SEX M
+1 BIRT
+2 DATE 15 DEC 1797
+2 PLAC Viborg Sdr. sogn, Danmark
+1 FAMC @F192@
+1 NOTE Barn "b/". Ved folketællingen 1801 hos moderen og bedsteforældrene i Viborg. Ingen yderligere oplysninger fundet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I565@ INDI
+1 NAME Eva Hansdatter /Block/
+1 SEX F
+1 BIRT
+2 DATE 1777
+2 PLAC Viborg Sdr. sogn, Danmark
+1 DEAT
+2 DATE 11 JAN 1843
+2 PLAC Mølholm Mark, Langskov sogn, Danmark
+1 FAMC @F133@
+1 NOTE Barn "5." Døbt 3.8.1777. I kirkebøgerne er faderen først opgivet som "Hans Braems," senere rettet til "Christen Block" — formodet skrivefejl/forveksling i kilden selv. Konfirmeret 1793. 1801 stuepige på Aunsbjerg gods. Død som ugift "almisselem" hos fæstegårdmand Michel Sørensen. [VERIFIED: hopp-slaegten, 01C]
+0 @I566@ INDI
+1 NAME Nicolai Hansen /Block/
+1 SEX M
+1 BIRT
+2 DATE 1780
+2 PLAC Viborg Sdr. sogn, Danmark
+1 FAMC @F133@
+1 NOTE Barn "6." Døbt 27.3.1780 (Viborg Katedralskoles egne arkiver angiver fødslen som 26.2.1779 — en dags/års-uoverensstemmelse mellem de to kilder, ikke afgjort her). Ankom Viborg Katedralskole april 1791. Formodentlig identisk med en student af samme navn i København, men ikke sikkert bekræftet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I567@ INDI
+1 NAME Mathilde Hansdatter /Block/
+1 SEX F
+1 BIRT
+2 DATE 1787
+2 PLAC Viborg Sdr. sogn, Danmark
+1 DEAT
+2 DATE 8 OCT 1823
+2 PLAC Løvelbrohuse, Pederstrup sogn, Danmark
+1 FAMC @F133@
+1 FAMS @F193@
+1 NOTE Barn "7." Døbt 3.6.1787. Konfirmeret 25.4.1802. Død i sin 9. barselseng, fra 6 umyndige børn. Skifte: Sødal skifteprotokol 1819-24, s.93-98. [VERIFIED: hopp-slaegten, 01C]
+0 @I568@ INDI
+1 NAME Peder Nielsen /Ginnerup/
+1 SEX M
+1 BIRT
+2 DATE 6 FEB 1780
+2 PLAC Krejbjerg, Danmark
+1 OCCU Landværns- og handelsmand; fik 23.3.1813 borgerskab som købmand og jordbruger i Viborg; senere kro-/gårdmand i Løvelbro/Løvel Mark
+1 FAMS @F193@
+1 NOTE Søn af landsoldat Niels Christensen Søe og Karen Christensdatter Bach. Gift 2. gang (ikke modelleret her, ikke KEJ's egen linje) med Ane Kirstine Andersdatter Sundstrup, 3 børn af dette ægteskab (Anne Marie, Jens Anders, Peder — ikke modelleret). Døde 15.4.1845 af brystsvaghed hos datteren Hansine og svigersønnen i Løvel. [VERIFIED: hopp-slaegten, 01C]
+0 @I569@ INDI
+1 NAME Anna Cathrine /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 18 OCT 1810
+2 PLAC Viborg Sdr. sogn, Danmark
+1 FAMC @F193@
+1 FAMS @F194@
+1 NOTE Barn "a/". Hjemmedøbt/døbt. [VERIFIED: hopp-slaegten, 01C]
+0 @I570@ INDI
+1 NAME Jens Christian /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1802
+1 FAMS @F194@
+0 @I571@ INDI
+1 NAME Maren /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 19 DEC 1831
+2 PLAC Vammen sogn, Danmark
+1 FAMC @F194@
+1 FAMS @F195@
+1 NOTE Barn "1/". [VERIFIED: hopp-slaegten, 01C]
+0 @I572@ INDI
+1 NAME Jens Christian Jacobsen /Thorsager/
+1 SEX M
+1 BIRT
+2 DATE ABT 1834
+1 FAMS @F195@
+1 NOTE Søn af Jacob Christensen og Dorthe Margrethe Jensdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I573@ INDI
+1 NAME Mathilde /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 9 JUL 1833
+2 PLAC Vammen sogn, Danmark
+1 FAMC @F194@
+1 NOTE Barn "2/". [VERIFIED: hopp-slaegten, 01C]
+0 @I574@ INDI
+1 NAME Nicoline /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 25 JUN 1835
+2 PLAC Vammen sogn, Danmark
+1 FAMC @F194@
+1 NOTE Barn "3/". [VERIFIED: hopp-slaegten, 01C]
+0 @I575@ INDI
+1 NAME Anders /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 10 FEB 1838
+2 PLAC Vammen sogn, Danmark
+1 FAMC @F194@
+1 FAMS @F196@
+1 NOTE Barn "4/". [VERIFIED: hopp-slaegten, 01C]
+0 @I576@ INDI
+1 NAME Ane Sofie /Mortensdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1836
+1 FAMS @F196@
+1 NOTE Datter af Morten Larsen og Else Pedersdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I577@ INDI
+1 NAME [dødfødt dreng]
+1 SEX M
+1 BIRT
+2 DATE 24 APR 1869
+2 PLAC Lægtagaarden, Vammen sogn, Danmark
+1 DEAT
+2 DATE 24 APR 1869
+2 PLAC Lægtagaarden, Vammen sogn, Danmark
+1 FAMC @F196@
+1 NOTE Dødfødt. [VERIFIED: hopp-slaegten, 01C]
+0 @I578@ INDI
+1 NAME Christiane /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 4 FEB 1840
+2 PLAC Vammen sogn, Danmark
+1 FAMC @F194@
+1 NOTE Barn "5/". Blandt fadderne Niels Ginnerup af Løvelbro (=e/, hendes morbror). [VERIFIED: hopp-slaegten, 01C]
+0 @I579@ INDI
+1 NAME Birgitte /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 21 APR 1843
+2 PLAC Vammen sogn, Danmark
+1 DEAT
+2 DATE 24 MAY 1843
+2 PLAC Vammen sogn, Danmark
+1 FAMC @F194@
+1 NOTE Barn "6/". Død som spæd. [VERIFIED: hopp-slaegten, 01C]
+0 @I580@ INDI
+1 NAME Karen /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 13 FEB 1812
+2 PLAC Viborg Sdr. sogn, Danmark
+1 FAMC @F193@
+1 FAMS @F197@
+1 NOTE Barn "b/". Ved folketællingen 1834 hjemme i Pederstrup. 2 børn ("1/"-"2/"), ingen far/ægteskab angivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I581@ INDI
+1 NAME Petrine /Christensen/
+1 SEX F
+1 BIRT
+2 DATE ABT 1839
+2 PLAC Vammen sogn, Danmark
+1 FAMC @F197@
+1 NOTE Barn "1/". [VERIFIED: hopp-slaegten, 01C]
+0 @I582@ INDI
+1 NAME Peder Christian /Nielsen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1844
+2 PLAC Rødding sogn, Nørlyng herred, Danmark
+1 FAMC @F197@
+1 NOTE Barn "2/". [VERIFIED: hopp-slaegten, 01C]
+0 @I583@ INDI
+1 NAME Nicoline (Line?) /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 1813
+2 PLAC Viborg Sdr. sogn, Danmark
+1 FAMC @F193@
+1 FAMS @F198@
+1 NOTE Barn "c/". Hjemmedøbt 23.2. Ved folketællingen 1834 hjemme i Pederstrup. 1845 separeret, senere skilt. [VERIFIED: hopp-slaegten, 01C]
+0 @I584@ INDI
+1 NAME Jens Christian /Sørensen/
+1 SEX M
+1 BIRT
+2 DATE ABT 1813
+1 FAMS @F198@
+0 @I585@ INDI
+1 NAME Søren /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 2 JUN 1844
+2 PLAC Løvel sogn, Danmark
+1 DEAT
+2 DATE 7 AUG 1845
+2 PLAC Løvel sogn, Danmark
+1 FAMC @F198@
+1 NOTE Barn "1/". Død som spæd. [VERIFIED: hopp-slaegten, 01C]
+0 @I586@ INDI
+1 NAME Hansine (Sine) /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 4 JUN 1815
+2 PLAC Viborg Sdr. sogn, Danmark
+1 DEAT
+2 DATE 16 DEC 1897
+2 PLAC Viborg Sdr. sogn, Danmark
+1 FAMC @F193@
+1 FAMS @F199@
+1 NOTE Barn "d/". Kaldt "Sine." Ved folketællingen 1834 hjemme i Pederstrup. [VERIFIED: hopp-slaegten, 01C]
+0 @I587@ INDI
+1 NAME Jens Jensen /Kirkebæk/
+1 SEX M
+1 BIRT
+2 DATE ABT 1812
+2 PLAC Fiskbæk sogn, Danmark
+1 DEAT
+2 DATE 4 APR 1895
+2 PLAC Løvel by, Løvel sogn, Danmark
+1 OCCU Stort husmand, senere husmand og daglejer i Løvel
+1 FAMS @F199@
+0 @I588@ INDI
+1 NAME Ane Christine /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 14 DEC 1836
+2 PLAC Løvel sogn, Danmark
+1 FAMC @F199@
+1 NOTE Barn "1/". Konfirmeret 26.4.1840 Rødding kirke. [VERIFIED: hopp-slaegten, 01C]
+0 @I589@ INDI
+1 NAME Ane Kirstine /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 18 JUN 1840
+2 PLAC Løvel sogn, Danmark
+1 DEAT
+2 DATE 16 OCT 1840
+2 PLAC Løvel sogn, Danmark
+1 FAMC @F199@
+1 NOTE Barn "2/". Død som spæd. [VERIFIED: hopp-slaegten, 01C]
+0 @I590@ INDI
+1 NAME Henriette Kirstine /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 8 NOV 1841
+2 PLAC Løvel sogn, Danmark
+1 FAMC @F199@
+1 NOTE Barn "3/". [VERIFIED: hopp-slaegten, 01C]
+0 @I591@ INDI
+1 NAME Mathilde /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 21 NOV 1871
+2 PLAC Løvel sogn, Danmark
+1 FAMC @F199@
+1 FAMS @F200@
+1 NOTE Barn "4/". Fødselsåret "1871" i kilden er sandsynligvis en fejl (konfirmeret 1861, gift 1871 — fødsel bør snarere være o.1845), ikke rettet her. Konfirmeret 30.3.1861. [VERIFIED: hopp-slaegten, 01C]
+0 @I592@ INDI
+1 NAME Peder Christian /Hall/
+1 SEX M
+1 BIRT
+2 DATE ABT 1861
+1 FAMS @F200@
+0 @I593@ INDI
+1 NAME Niels Peter /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 25 FEB 1849
+2 PLAC Løvel sogn, Danmark
+1 FAMC @F199@
+1 NOTE Barn "5/". Konfirmeret 3.4.1864 Løvel kirke. [VERIFIED: hopp-slaegten, 01C]
+0 @I594@ INDI
+1 NAME Nicoline /Jensen/
+1 SEX F
+1 BIRT
+2 DATE ABT 1852
+2 PLAC Løvel sogn, Danmark
+1 FAMC @F199@
+1 NOTE Barn "6/". [VERIFIED: hopp-slaegten, 01C]
+0 @I595@ INDI
+1 NAME Anders /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 28 OCT 1855
+2 PLAC Løvel sogn, Danmark
+1 FAMC @F199@
+1 NOTE Barn "7/". [VERIFIED: hopp-slaegten, 01C]
+0 @I596@ INDI
+1 NAME Inger Kirstine /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 20 OCT 1859
+2 PLAC Løvel sogn, Danmark
+1 FAMC @F199@
+1 FAMS @F201@
+1 NOTE Barn "8/". [VERIFIED: hopp-slaegten, 01C]
+0 @I597@ INDI
+1 NAME Jens Peder /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 7 MAR 1858
+2 PLAC Norup, Vammen sogn, Danmark
+1 FAMS @F201@
+1 NOTE Søn af Jens Andersen og Ane Kirstine Andersdatter. [VERIFIED: hopp-slaegten, 01C]
+0 @I598@ INDI
+1 NAME Jens Norup /Jensen/
+1 SEX M
+1 BIRT
+2 DATE 10 NOV 1881
+2 PLAC Løvel sogn, Danmark
+1 FAMC @F201@
+1 NOTE Barn "I/". [VERIFIED: hopp-slaegten, 01C]
+0 @I599@ INDI
+1 NAME Niels Christian /Ginnerup/
+1 SEX M
+1 BIRT
+2 DATE 3 OCT 1817
+2 PLAC Viborg Sdr. sogn, Danmark
+1 DEAT
+2 DATE ABT 1843
+1 FAMC @F193@
+1 NOTE Barn "e/". Ved folketællingerne 1834 og 1840 hjemme i Pederstrup. 1840 fadder "af Løvelbro" hos søsteren Anna Cathrine i Vammen. Dødsår usikkert ("o.1843 ?" i kilden). [VERIFIED: hopp-slaegten, 01C]
+0 @I600@ INDI
+1 NAME Hans Pedersen /Ginnerup/
+1 SEX M
+1 BIRT
+2 DATE 21 APR 1819
+2 PLAC Viborg Sdr. sogn, Danmark
+1 OCCU Smedesvend i Vester Tostrup sogn (1840)
+1 FAMC @F193@
+1 FAMS @F202@
+1 NOTE Barn "f/". [VERIFIED: hopp-slaegten, 01C]
+0 @I601@ INDI
+1 NAME Ane Marie /Jokumsdatter/
+1 SEX F
+1 BIRT
+2 DATE 12 OCT 1824
+2 PLAC Skringstrup, Danmark
+1 DEAT
+2 DATE 4 DEC 1911
+1 FAMS @F202@
+1 NOTE Datter af gårdmand Jochum Jensen af Skringstrup. [VERIFIED: hopp-slaegten, 01C]
+0 @I602@ INDI
+1 NAME Peder Ginnerup /Hansen/
+1 SEX M
+1 BIRT
+2 DATE 26 JAN 1850
+2 PLAC Bysted, Gedsted sogn, Danmark
+1 DEAT
+2 DATE 18 JUN 1933
+2 PLAC Gedsted, Danmark
+1 OCCU Gårdejer i Vestergård; sognefoged i 39 år i Gedsted
+1 FAMC @F202@
+1 FAMS @F203@
+1 NOTE Barn "1/". Konfirmeret 18.4.1864 Gedsted. [VERIFIED: hopp-slaegten, 01C]
+0 @I603@ INDI
+1 NAME Kirsten /Villumsdatter/
+1 SEX F
+1 FAMS @F203@
+1 NOTE Datter af Villum Laustsen i Gedsted og Kirsten Marie Sørensen. [VERIFIED: hopp-slaegten, 01C]
+0 @I604@ INDI
+1 NAME Kirsten Marie /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 21 AUG 1881
+2 PLAC Gedsted, Danmark
+1 FAMC @F203@
+1 NOTE Barn "I/". [VERIFIED: hopp-slaegten, 01C]
+0 @I605@ INDI
+1 NAME Hans Pedersen /Ginnerup/
+1 SEX M
+1 BIRT
+2 DATE 21 AUG 1883
+2 PLAC Gedsted, Danmark
+1 FAMC @F203@
+1 FAMS @F204@
+1 NOTE Barn "II/." [VERIFIED: hopp-slaegten, 01C]
+0 @I606@ INDI
+1 NAME Margrethe /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 4 JAN 1889
+1 FAMS @F204@
+1 NOTE Datter af lærer Jens Kristian Jensen i Bysted og Antomine. [VERIFIED: hopp-slaegten, 01C]
+0 @I607@ INDI
+1 NAME Emma /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 12 OCT 1907
+1 FAMC @F204@
+1 NOTE Barn "A." [VERIFIED: hopp-slaegten, 01C]
+0 @I608@ INDI
+1 NAME Peder /Ginnerup/
+1 SEX M
+1 BIRT
+2 DATE 9 MAY 1909
+1 FAMC @F204@
+1 NOTE Barn "B." [VERIFIED: hopp-slaegten, 01C]
+0 @I609@ INDI
+1 NAME Jens /Ginnerup/
+1 SEX M
+1 BIRT
+2 DATE 16 JUL 1910
+1 FAMC @F204@
+1 NOTE Barn "C." [VERIFIED: hopp-slaegten, 01C]
+0 @I610@ INDI
+1 NAME Kirsten /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 1 AUG 1914
+1 FAMC @F204@
+1 NOTE Barn "D." [VERIFIED: hopp-slaegten, 01C]
+0 @I611@ INDI
+1 NAME Iver /Ginnerup/
+1 SEX M
+1 BIRT
+2 DATE 13 SEP 1917
+1 FAMC @F204@
+1 NOTE Barn "E." [VERIFIED: hopp-slaegten, 01C]
+0 @I612@ INDI
+1 NAME Living /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 1923
+1 FAMC @F204@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I612 (kraever adgang til den private modul-repo).
+0 @I613@ INDI
+1 NAME Living /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 1925
+1 FAMC @F204@
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I613 (kraever adgang til den private modul-repo).
+0 @I614@ INDI
+1 NAME Willum /Ginnerup/
+1 SEX M
+1 BIRT
+2 DATE 24 JUN 1886
+2 PLAC Gedsted, Danmark
+1 DEAT
+2 DATE 1 FEB 1961
+2 PLAC Gedsted, Danmark
+1 FAMC @F203@
+1 FAMS @F205@
+1 NOTE Barn "III/." [VERIFIED: hopp-slaegten, 01C]
+0 @I615@ INDI
+1 NAME Ane Sørine /Sørensen/
+1 SEX F
+1 FAMS @F205@
+0 @I616@ INDI
+1 NAME Esther /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 1920
+2 PLAC Gedsted, Danmark
+1 FAMC @F205@
+1 NOTE Barn "C." [VERIFIED: hopp-slaegten, 01C]
+0 @I617@ INDI
+1 NAME Jokum Hansen /Ginnerup/
+1 SEX M
+1 BIRT
+2 DATE 31 AUG 1856
+2 PLAC Bysted, Gedsted sogn, Danmark
+1 DEAT
+2 DATE 26 NOV 1936
+2 PLAC Gedsted, Danmark
+1 FAMC @F202@
+1 FAMS @F206@
+1 NOTE Barn "2/". [VERIFIED: hopp-slaegten, 01C]
+0 @I618@ INDI
+1 NAME Anne Marie /Jensen/
+1 SEX F
+1 BIRT
+2 DATE 17 NOV 1858
+1 FAMS @F206@
+0 @I619@ INDI
+1 NAME Ane Marie /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 7 FEB 1883
+1 FAMC @F206@
+1 NOTE Barn "I/". Gift 1904 med smed J. Jensen. 5 børn, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I620@ INDI
+1 NAME Petrine /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 31 MAR 1887
+1 FAMC @F206@
+1 NOTE Barn "II/." Gift med Anders Andersen, Svenstrup. [VERIFIED: hopp-slaegten, 01C]
+0 @I621@ INDI
+1 NAME Jens Overgård /Ginnerup/
+1 SEX M
+1 BIRT
+2 DATE 6 APR 1894
+1 OCCU Uddeler i Staun ved Sebbersund
+1 FAMC @F206@
+1 FAMS @F207@
+1 NOTE Barn "III/." [VERIFIED: hopp-slaegten, 01C]
+0 @I622@ INDI
+1 NAME Anna /Sørensdatter/
+1 SEX F
+1 FAMS @F207@
+0 @I623@ INDI
+1 NAME Mette Marie /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 14 APR 1862
+2 PLAC Bystrup(Bysted?), Gedsted sogn, Danmark
+1 DEAT
+2 DATE 3 MAR 1891
+2 PLAC Gedsted, Danmark
+1 FAMC @F202@
+1 NOTE Barn "3/". [VERIFIED: hopp-slaegten, 01C]
+0 @I624@ INDI
+1 NAME Niels Christian Hansen /Ginnerup/
+1 SEX M
+1 BIRT
+2 DATE 12 SEP 1854
+2 PLAC Bysted, Gedsted sogn, Danmark
+1 DEAT
+2 DATE 20 JAN 1906
+2 PLAC Gedsted, Danmark
+1 NOTE Ikke barn af Hans Pedersen Ginnerup (f/) — nævnt i kilden umiddelbart efter uden klar forældreangivelse (formodentlig barn "4." af Peder Ginnerup Hansen (c7f1) selv, mønsteret er uklart i kildens egen struktur her, ikke afklaret). [VERIFIED: hopp-slaegten, 01C]
+0 @I625@ INDI
+1 NAME Mathilde Hansen /Ginnerup/
+1 SEX F
+1 BIRT
+2 DATE 20 AUG 1869
+2 PLAC Bysted, Gedsted sogn, Danmark
+1 DEAT
+2 DATE 23 MAY 1939
+2 PLAC Gedsted, Danmark
+1 NOTE Samme uklarhed som forrige individ — formodentlig barn "5." i samme uafklarede gruppe. [VERIFIED: hopp-slaegten, 01C]
+0 @I626@ INDI
+1 NAME Peder Pedersen /Ginnerup/
+1 SEX M
+1 BIRT
+2 DATE 22 SEP 1821
+2 PLAC Løvelbro, Pederstrup sogn, Danmark
+1 FAMC @F193@
+1 NOTE Barn "g/". Ingen yderligere oplysninger fundet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I627@ INDI
+1 NAME [dødfødt dreng]
+1 SEX M
+1 BIRT
+2 DATE 8 MAR 1823
+2 PLAC Løvelbro, Pederstrup sogn, Danmark
+1 DEAT
+2 DATE 8 MAR 1823
+2 PLAC Løvelbro, Pederstrup sogn, Danmark
+1 FAMC @F193@
+1 NOTE Barn "h/", ikke navngivet (dødfødt). Moderen Mathilde Ginnerup (c7) døde samme dag ifølge kilden — muligvis en fejlskrift for 1823 (kilden skriver "1923" for moderens dødsår ét sted, hvilket modsiger hendes egen dødsdato 8.10.1823 angivet tidligere; læst som skrivefejl, ikke rettet). [VERIFIED: hopp-slaegten, 01C]
+0 @F133@ FAM
+1 HUSB @I399@
+1 WIFE @I398@
+1 MARR
+2 DATE BEF 1769
+1 CHIL @I400@
+1 CHIL @I401@
+1 CHIL @I560@
+1 CHIL @I561@
+1 CHIL @I565@
+1 CHIL @I566@
+1 CHIL @I567@
+1 NOTE 8 (rettelig 7) børn ("1."-"7."). [VERIFIED: hopp-slaegten, 01C]
+0 @F134@ FAM
+1 HUSB @I402@
+1 WIFE @I401@
+1 MARR
+2 DATE 4 MAY 1796
+2 PLAC Holstebro, Danmark
+1 CHIL @I403@
+1 CHIL @I410@
+1 CHIL @I429@
+1 CHIL @I533@
+1 CHIL @I537@
+1 CHIL @I538@
+1 CHIL @I539@
+1 CHIL @I548@
+1 NOTE Forlovere: landsdommer Lautrup og byfoged Tranberg. 8 børn ("a/"-"h/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F135@ FAM
+1 HUSB @I403@
+1 WIFE @I404@
+1 MARR
+2 DATE 17 AUG 1838
+2 PLAC Estvad kirke, Danmark
+1 NOTE 2 børn ("1/"-"2/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F136@ FAM
+1 HUSB @I406@
+1 WIFE @I405@
+1 MARR
+2 DATE 29 MAY 1860
+2 PLAC Bøvling, Danmark
+1 NOTE 2 børn, ikke navngivet i kilden — kun "efterslægt" nævnt. [VERIFIED: hopp-slaegten, 01C]
+0 @F137@ FAM
+1 HUSB @I408@
+1 WIFE @I407@
+1 MARR
+2 DATE 11 MAR 1859
+2 PLAC Bøvling kirke, Danmark
+1 CHIL @I409@
+0 @F138@ FAM
+1 HUSB @I411@
+1 WIFE @I410@
+1 MARR
+2 DATE 26 JAN 1824
+2 PLAC Hinge kirke, Danmark
+1 NOTE 9 børn ("1/"-"9/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F139@ FAM
+1 HUSB @I413@
+1 WIFE @I412@
+1 MARR
+2 DATE 13 NOV 1849
+2 PLAC Thorning kirke, Danmark
+1 NOTE 6 børn, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F140@ FAM
+1 HUSB @I414@
+1 WIFE @I415@
+1 MARR
+2 DATE 8 DEC 1855
+2 PLAC Thorning kirke, Danmark
+1 NOTE Niels Henning Jensens 1. ægteskab. 1 datter. [VERIFIED: hopp-slaegten, 01C]
+0 @F141@ FAM
+1 HUSB @I414@
+1 WIFE @I416@
+1 NOTE Niels Henning Jensens 2. ægteskab. 3 børn. [VERIFIED: hopp-slaegten, 01C]
+0 @F142@ FAM
+1 HUSB @I417@
+1 WIFE @I418@
+1 NOTE 6 børn, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F143@ FAM
+1 HUSB @I420@
+1 WIFE @I419@
+1 MARR
+2 DATE 24 DEC 1854
+2 PLAC Vium kirke, Danmark
+1 NOTE 7 børn, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F144@ FAM
+1 HUSB @I421@
+1 WIFE @I422@
+1 MARR
+2 DATE ABT 1857
+1 NOTE 9 børn, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F145@ FAM
+1 HUSB @I424@
+1 CHIL @I425@
+1 NOTE Datter ikke angivet som født i ægteskab. [VERIFIED: hopp-slaegten, 01C]
+0 @F146@ FAM
+1 HUSB @I428@
+1 WIFE @I427@
+1 MARR
+2 DATE 24 FEB 1865
+2 PLAC Vium kirke, Danmark
+1 NOTE Familien udvandrede 1870 til USA. 2 børn i ægteskabet, ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F147@ FAM
+1 HUSB @I430@
+1 WIFE @I429@
+1 CHIL @I431@
+1 NOTE Ikke et ægteskab. Faderskabet til Hans Peter Wilhelm Nielsen (næste individ) blev fastslået ved politiret 14.5.1828 på Hjerm-Ginding Herreders Kontor i Holstebro — et konkret retsforlig, gengivet i kilden med farfaderens (N. Henningsens) egen ansøgning om alimentationsbidrag og selve retsforliget citeret ordret. Niels Nielsen betalte 6 rd. sølv årligt til barnets 10. år. [VERIFIED: hopp-slaegten, 01C]
+0 @F148@ FAM
+1 HUSB @I432@
+1 WIFE @I429@
+1 MARR
+2 DATE 11 APR 1834
+2 PLAC Borbjerg, Danmark
+1 CHIL @I433@
+1 CHIL @I434@
+1 CHIL @I435@
+1 CHIL @I437@
+1 CHIL @I439@
+1 NOTE Forlovere: gmd. Anders Kristensen og husm. Peder Kristensen. 5 børn i ægteskabet ("2/"-"6/"), foruden barnet uden for ægteskab ovenfor ("1/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F149@ FAM
+1 HUSB @I436@
+1 WIFE @I435@
+1 MARR
+2 DATE 1 DEC 1871
+2 PLAC Borbjerg sogn, Danmark
+0 @F150@ FAM
+1 HUSB @I438@
+1 WIFE @I437@
+1 MARR
+2 DATE 9 NOV 1875
+2 PLAC Mejrup, Danmark
+0 @F151@ FAM
+1 HUSB @I440@
+1 WIFE @I439@
+1 MARR
+2 DATE 29 OCT 1875
+2 PLAC Hjerm sogn, Danmark
+0 @F152@ FAM
+1 HUSB @I431@
+1 WIFE @I441@
+1 MARR
+2 DATE 4 OCT 1867
+2 PLAC Bøvling, Danmark
+1 CHIL @I442@
+1 CHIL @I444@
+1 CHIL @I455@
+1 CHIL @I486@
+1 CHIL @I499@
+1 NOTE 5 børn ("I/"-"V/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F153@ FAM
+1 HUSB @I443@
+1 WIFE @I442@
+1 MARR
+2 DATE 30 OCT 1903
+2 PLAC Ulfborg kirke, Danmark
+0 @F154@ FAM
+1 HUSB @I445@
+1 WIFE @I444@
+1 CHIL @I446@
+1 NOTE Dato ikke angivet i kilden. Søn kendt: Harald Lauenborg. [VERIFIED: hopp-slaegten, 01C]
+0 @F155@ FAM
+1 HUSB @I446@
+1 WIFE @I447@
+1 MARR
+2 DATE 24 AUG 1933
+2 PLAC Nr. Aaby, Danmark
+1 CHIL @I448@
+1 CHIL @I449@
+1 NOTE 2 børn. [VERIFIED: hopp-slaegten, 01C]
+0 @F156@ FAM
+1 HUSB @I448@
+1 CHIL @I450@
+1 CHIL @I451@
+1 NOTE Hustru "Annelise," efternavn ikke angivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F157@ FAM
+1 HUSB @I449@
+1 CHIL @I452@
+1 CHIL @I453@
+1 CHIL @I454@
+1 NOTE Hustru "Litha," efternavn ikke angivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F158@ FAM
+1 HUSB @I455@
+1 WIFE @I456@
+1 MARR
+2 DATE 15 SEP 1909
+2 PLAC Bøvling, Danmark
+1 CHIL @I457@
+1 CHIL @I471@
+1 CHIL @I480@
+1 NOTE 3 børn ("A/"-"C/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F159@ FAM
+1 HUSB @I458@
+1 WIFE @I457@
+1 MARR
+2 DATE 25 APR 1935
+2 PLAC Bøvling Valgmenighed, Danmark
+1 CHIL @I459@
+1 CHIL @I464@
+1 CHIL @I469@
+1 NOTE 3 børn ("AA."-"AC."). [VERIFIED: hopp-slaegten, 01C]
+0 @F160@ FAM
+1 HUSB @I459@
+1 WIFE @I460@
+1 MARR
+2 DATE 23 JUN 1962
+2 PLAC Flynder, Danmark
+1 CHIL @I461@
+1 CHIL @I462@
+1 CHIL @I463@
+1 NOTE 3 børn, alle formodet i live — se restricted/. [VERIFIED: hopp-slaegten, 01C]
+0 @F161@ FAM
+1 HUSB @I465@
+1 WIFE @I464@
+1 MARR
+2 DATE 20 JUN 1959
+1 CHIL @I466@
+1 CHIL @I467@
+1 CHIL @I468@
+1 NOTE 3 børn, alle formodet i live — se restricted/. [VERIFIED: hopp-slaegten, 01C]
+0 @F162@ FAM
+1 HUSB @I469@
+1 WIFE @I470@
+1 MARR
+2 DATE 11 DEC 1976
+0 @F163@ FAM
+1 HUSB @I471@
+1 WIFE @I472@
+1 MARR
+2 DATE 16 JUL 1943
+2 PLAC Mariekirken, Bøvling, Danmark
+1 CHIL @I473@
+1 CHIL @I474@
+1 CHIL @I475@
+1 CHIL @I476@
+1 CHIL @I477@
+1 CHIL @I478@
+1 CHIL @I479@
+1 NOTE 7 børn ("BA"-"BG"), født 1944-1954, alle formodet i live eller nyligt afdøde — se restricted/. [VERIFIED: hopp-slaegten, 01C]
+0 @F164@ FAM
+0 @F165@ FAM
+1 HUSB @I480@
+1 WIFE @I481@
+1 MARR
+2 DATE 30 MAY 1953
+2 PLAC Ilskov, Danmark
+1 CHIL @I482@
+1 CHIL @I483@
+1 CHIL @I484@
+1 CHIL @I485@
+1 NOTE 4 børn, alle formodet i live — se restricted/. [VERIFIED: hopp-slaegten, 01C]
+0 @F166@ FAM
+1 HUSB @I486@
+1 WIFE @I487@
+1 MARR
+2 DATE 9 MAY 1908
+2 PLAC Dybe, Danmark
+1 CHIL @I488@
+1 CHIL @I493@
+1 NOTE 2 børn ("A."-"B."), fik bevilling til navnet "Søndberg." [VERIFIED: hopp-slaegten, 01C]
+0 @F167@ FAM
+1 HUSB @I488@
+1 WIFE @I489@
+1 MARR
+2 DATE 23 SEP 1934
+2 PLAC Nyborg, Danmark
+1 CHIL @I490@
+0 @F168@ FAM
+1 HUSB @I491@
+1 WIFE @I490@
+1 MARR
+2 DATE 1 AUG 1970
+2 PLAC Århus, Danmark
+1 CHIL @I492@
+0 @F169@ FAM
+1 HUSB @I493@
+1 WIFE @I494@
+1 MARR
+2 DATE 25 MAR 1948
+2 PLAC Nyborg, Danmark
+1 CHIL @I495@
+1 CHIL @I496@
+1 NOTE 2 børn. [VERIFIED: hopp-slaegten, 01C]
+0 @F170@ FAM
+1 HUSB @I497@
+1 WIFE @I495@
+1 CHIL @I498@
+0 @F171@ FAM
+1 HUSB @I499@
+1 WIFE @I500@
+1 MARR
+2 DATE 2 MAY 1911
+2 PLAC Aulum, Danmark
+1 CHIL @I501@
+1 CHIL @I526@
+1 NOTE 2 børn ("A."-"B."). [VERIFIED: hopp-slaegten, 01C]
+0 @F172@ FAM
+1 HUSB @I502@
+1 WIFE @I501@
+1 MARR
+2 DATE 11 NOV 1939
+2 PLAC Holstebro, Danmark
+1 CHIL @I503@
+1 CHIL @I507@
+1 CHIL @I512@
+1 CHIL @I518@
+1 CHIL @I522@
+1 NOTE 5 børn ("AA"-"AE"). [VERIFIED: hopp-slaegten, 01C]
+0 @F173@ FAM
+1 HUSB @I503@
+1 WIFE @I504@
+1 MARR
+2 DATE 16 JUL 1966
+1 CHIL @I505@
+1 CHIL @I506@
+1 NOTE 2 børn, alle formodet i live — se restricted/. [VERIFIED: hopp-slaegten, 01C]
+0 @F174@ FAM
+1 HUSB @I507@
+1 WIFE @I508@
+1 MARR
+2 DATE 1 MAR 1975
+1 CHIL @I509@
+1 CHIL @I510@
+1 CHIL @I511@
+1 NOTE 3 børn, alle formodet i live — se restricted/. [VERIFIED: hopp-slaegten, 01C]
+0 @F175@ FAM
+1 HUSB @I512@
+1 WIFE @I513@
+1 MARR
+2 DATE 17 MAY 1973
+1 CHIL @I514@
+1 CHIL @I515@
+1 CHIL @I516@
+1 CHIL @I517@
+1 NOTE 4 børn, alle formodet i live — se restricted/. [VERIFIED: hopp-slaegten, 01C]
+0 @F176@ FAM
+1 HUSB @I519@
+1 WIFE @I518@
+1 MARR
+2 DATE 3 AUG 1968
+1 CHIL @I520@
+1 CHIL @I521@
+1 NOTE 2 børn, alle formodet i live — se restricted/. [VERIFIED: hopp-slaegten, 01C]
+0 @F177@ FAM
+1 HUSB @I522@
+1 WIFE @I523@
+1 MARR
+2 DATE 21 AUG 1876
+1 CHIL @I524@
+1 CHIL @I525@
+1 NOTE Vielsesåret "1876" i kilden er kronologisk umuligt (før begge parters fødsel) — formodet skrivefejl, ikke rettet uden videre bekræftelse. 2 børn, alle formodet i live — se restricted/. [VERIFIED: hopp-slaegten, 01C]
+0 @F178@ FAM
+1 HUSB @I527@
+1 WIFE @I526@
+1 MARR
+2 DATE 24 MAR 1951
+2 PLAC Sct. Markus Kirken, København, Danmark
+1 CHIL @I528@
+1 CHIL @I532@
+1 NOTE 2 børn ("BA"-"BB"). [VERIFIED: hopp-slaegten, 01C]
+0 @F179@ FAM
+1 HUSB @I529@
+1 WIFE @I528@
+1 MARR
+2 DATE 15 JUL 1978
+1 CHIL @I530@
+1 CHIL @I531@
+1 NOTE 2 børn, alle formodet i live — se restricted/. [VERIFIED: hopp-slaegten, 01C]
+0 @F180@ FAM
+1 HUSB @I533@
+1 WIFE @I534@
+1 MARR
+2 DATE 9 JUL 1833
+2 PLAC Grønbæk kirke, Danmark
+1 CHIL @I535@
+1 NOTE 1 barn ("1/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F181@ FAM
+1 HUSB @I536@
+1 WIFE @I535@
+1 MARR
+2 DATE 24 JUL 1855
+2 PLAC Svostrup sogn, Danmark
+1 NOTE Efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F182@ FAM
+1 HUSB @I539@
+1 WIFE @I540@
+1 MARR
+2 DATE 28 DEC 1841
+2 PLAC Borbjerg sogn, Danmark
+1 CHIL @I544@
+1 CHIL @I545@
+1 CHIL @I547@
+1 NOTE 3 børn i ægteskabet ("2/"-"4/"), foruden barnet uden for ægteskab ("1/", se nedenfor under Mariane Jensdatter). [VERIFIED: hopp-slaegten, 01C]
+0 @F183@ FAM
+1 HUSB @I539@
+1 WIFE @I541@
+1 CHIL @I542@
+1 NOTE Ikke et ægteskab. Carl Wilhelm Nielsen (Henningsen) udlagt barnefader til Ane Jensine Henningsen (nedenfor), 1841. [VERIFIED: hopp-slaegten, 01C]
+0 @F184@ FAM
+1 HUSB @I543@
+1 WIFE @I542@
+1 MARR
+2 DATE 21 DEC 1860
+2 PLAC Bøvling, Danmark
+1 NOTE Efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F185@ FAM
+1 HUSB @I545@
+1 WIFE @I546@
+1 MARR
+2 DATE 23 APR 1885
+2 PLAC Ryde sogn, Danmark
+1 NOTE 4 børn, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F186@ FAM
+1 HUSB @I549@
+1 WIFE @I548@
+1 MARR
+2 DATE 12 JUN 1840
+2 PLAC Borbjerg kirke, Danmark
+1 CHIL @I551@
+1 CHIL @I553@
+1 CHIL @I554@
+1 CHIL @I556@
+1 CHIL @I557@
+1 NOTE Juliane Mathildes 1. ægteskab. 5 børn ("1/"-"5/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F187@ FAM
+1 HUSB @I550@
+1 WIFE @I548@
+1 MARR
+2 DATE 3 DEC 1861
+2 PLAC Borbjerg sogn, Danmark
+1 NOTE Juliane Mathildes 2. ægteskab. [VERIFIED: hopp-slaegten, 01C]
+0 @F188@ FAM
+1 HUSB @I551@
+1 WIFE @I552@
+1 MARR
+2 DATE 30 JUN 1870
+2 PLAC Sahl sogn, Danmark
+1 NOTE 7 børn, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F189@ FAM
+1 HUSB @I554@
+1 WIFE @I555@
+1 MARR
+2 DATE 11 APR 1879
+1 NOTE 11 børn, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F190@ FAM
+1 HUSB @I557@
+1 WIFE @I558@
+1 MARR
+2 DATE 1881
+1 NOTE Marinus Nielsens 1. ægteskab. 9 børn, alle af dette ægteskab, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F191@ FAM
+1 HUSB @I557@
+1 WIFE @I559@
+1 MARR
+2 DATE 2 NOV 1905
+2 PLAC Sevel sogn, Danmark
+1 NOTE Marinus Nielsens 2. ægteskab, ingen børn angivet. [VERIFIED: hopp-slaegten, 01C]
+0 @F192@ FAM
+1 HUSB @I562@
+1 WIFE @I561@
+1 MARR
+2 DATE 10 JAN 1794
+2 PLAC Viborg Sdr. sogn, Danmark
+1 CHIL @I563@
+1 CHIL @I564@
+1 NOTE 2 børn ("a/"-"b/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F193@ FAM
+1 HUSB @I568@
+1 WIFE @I567@
+1 MARR
+2 DATE 10 FEB 1809
+2 PLAC Viborg, Danmark
+1 CHIL @I569@
+1 CHIL @I580@
+1 CHIL @I583@
+1 CHIL @I586@
+1 CHIL @I599@
+1 CHIL @I600@
+1 CHIL @I626@
+1 CHIL @I627@
+1 NOTE 8 børn ("a/"-"h/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F194@ FAM
+1 HUSB @I570@
+1 WIFE @I569@
+1 CHIL @I571@
+1 CHIL @I573@
+1 CHIL @I574@
+1 CHIL @I575@
+1 CHIL @I578@
+1 CHIL @I579@
+1 NOTE 6 børn ("1/"-"6/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F195@ FAM
+1 HUSB @I572@
+1 WIFE @I571@
+1 MARR
+2 DATE 30 NOV 1860
+2 PLAC Vammen, Danmark
+1 NOTE 2 børn, efterslægt ikke navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F196@ FAM
+1 HUSB @I575@
+1 WIFE @I576@
+1 MARR
+2 DATE 27 FEB 1866
+2 PLAC Vammen, Danmark
+1 CHIL @I577@
+0 @F197@ FAM
+1 WIFE @I580@
+1 CHIL @I581@
+1 CHIL @I582@
+1 NOTE Ingen far angivet i kilden for disse 2 børn. [VERIFIED: hopp-slaegten, 01C]
+0 @F198@ FAM
+1 HUSB @I584@
+1 WIFE @I583@
+1 MARR
+2 DATE 22 MAY 1840
+2 PLAC Løvel kirke, Danmark
+1 CHIL @I585@
+1 NOTE 1 søn. [VERIFIED: hopp-slaegten, 01C]
+0 @F199@ FAM
+1 HUSB @I587@
+1 WIFE @I586@
+1 MARR
+2 DATE ABT 1835
+2 PLAC Løvel(?), Danmark
+1 CHIL @I588@
+1 CHIL @I589@
+1 CHIL @I590@
+1 CHIL @I591@
+1 CHIL @I593@
+1 CHIL @I594@
+1 CHIL @I595@
+1 CHIL @I596@
+1 NOTE 8 børn ("1/"-"8/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F200@ FAM
+1 HUSB @I592@
+1 WIFE @I591@
+1 MARR
+2 DATE 4 MAY 1871
+2 PLAC Løvel kirke, Danmark
+0 @F201@ FAM
+1 HUSB @I597@
+1 WIFE @I596@
+1 MARR
+2 DATE 15 NOV 1879
+2 PLAC Løvel, Danmark
+1 CHIL @I598@
+1 NOTE 1 søn. [VERIFIED: hopp-slaegten, 01C]
+0 @F202@ FAM
+1 HUSB @I600@
+1 WIFE @I601@
+1 MARR
+2 DATE 14 OCT 1849
+2 PLAC Skals kirke, Danmark
+1 CHIL @I602@
+1 CHIL @I617@
+1 CHIL @I623@
+1 NOTE 5 børn ("1/"-"5/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F203@ FAM
+1 HUSB @I602@
+1 WIFE @I603@
+1 MARR
+2 DATE 26 NOV 1880
+1 CHIL @I604@
+1 CHIL @I605@
+1 CHIL @I614@
+1 NOTE 3 børn ("I/"-"III/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F204@ FAM
+1 HUSB @I605@
+1 WIFE @I606@
+1 CHIL @I607@
+1 CHIL @I608@
+1 CHIL @I609@
+1 CHIL @I610@
+1 CHIL @I611@
+1 CHIL @I612@
+1 CHIL @I613@
+1 NOTE 1908-11 boelsmand i Bysted, 1911-12 foderstofuddeler, 1912-46 gårdejer i "Lilleagergård," Gl. Ullits, senere Ullits stationsby og Foulum. Sognerådsformand. Død 3.12.1974. 7 børn ("A."-"G."). [VERIFIED: hopp-slaegten, 01C]
+0 @F205@ FAM
+1 HUSB @I614@
+1 WIFE @I615@
+1 CHIL @I616@
+1 NOTE 3 børn ("A."-"C."), kun "C." navngivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @F206@ FAM
+1 HUSB @I617@
+1 WIFE @I618@
+1 MARR
+2 DATE 8 DEC 1882
+1 CHIL @I619@
+1 CHIL @I620@
+1 CHIL @I621@
+1 NOTE 3 børn ("I/"-"III/"). [VERIFIED: hopp-slaegten, 01C]
+0 @F207@ FAM
+1 HUSB @I621@
+1 WIFE @I622@
+1 MARR
+2 DATE DEC 1922
 0 TRLR
