@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.11 | 2026-08-08 | Active
+Version 1.12 | 2026-08-08 | Active
 
 ---
 
@@ -59,9 +59,9 @@ Kapitel 1 (three sub-items) sending next; kapitel 2–16 to follow later.
 
 | Item | Version | Status |
 |---|---|---|
-| 01 Knud Danielsen Hopp o.1640-1723 | oktober 2015 | **Triaged (2026-08-08)** — stored at `library/deep-wells/hopp-slaegten/`, `library/reference-index.md#hopp-slaegten`. Flyover confirms KEJ's own worry: metadata claims 5 pages / 422 words against the catalog's expected 33 + 3 maps — only the Kapitel 1 overview index survived, no individual biographical entry. Accepted as a gap for now per the human (2026-08-08): "we can always swap them later if my grandfather manages to find the complete documents." Reading planned as Phase 1 (with 01C), for the surviving overview table specifically. |
-| 01C Niels Jørgen Knudsen Hopp 1685-1770 | januar 2016 / januar 2025 | **Triaged (2026-08-08)** — stored at `library/deep-wells/hopp-slaegten/`. Flyover: 88 pages, matching the catalog exactly; looks complete. Reading planned as Phase 1. |
-| 01F Knud Knudsen Hopp død 1762 | januar 2016 / januar 2025 | **Triaged (2026-08-08)** — stored at `library/deep-wells/hopp-slaegten/`. Flyover: 91 pages, matching the catalog almost exactly; looks complete, genuine sourced content. Reading planned as Phase 2 (own session, largest file received so far). |
+| 01 Knud Danielsen Hopp o.1640-1723 | oktober 2015 | **In progress (2026-08-08)** — overview table fully extracted into `family-tree/tree.ged#I364` onward. Confirms KEJ's own worry: metadata claims 5 pages / 422 words against the catalog's expected 33 + 3 maps — only the Kapitel 1 overview index survived, no individual biographical entry for Knud Danielsen Hopp himself. Accepted as a gap for now per the human (2026-08-08): "we can always swap them later if my grandfather manages to find the complete documents." |
+| 01C Niels Jørgen Knudsen Hopp 1685-1770 | januar 2016 / januar 2025 | **In progress (2026-08-08)** — Checkpoint 1 done: Niels Jørgen Knudsen Hopp's own generation (himself, wife, 6 children) extracted. His children's own children (and further generations) are not yet read — this turned out comparable in scope to the entire Boe-slægten manuscript, not one chapter. See `library/deep-wells/hopp-slaegten-manifest.md`. |
+| 01F Knud Knudsen Hopp død 1762 | januar 2016 / januar 2025 | **Triaged (2026-08-08)** — stored at `library/deep-wells/hopp-slaegten/`. Flyover: 91 pages, matching the catalog almost exactly; looks complete, genuine sourced content. A stopgap stub (external secondary source) is in `tree.ged#I384` pending this. Reading planned as Phase 2 (own session, largest file received so far). |
 | 02 Daniel Knudsen Hopp o.1681-1730/31 | sept. 2015 | Not yet received |
 | 03 Niels Danielsen Hopp 1707-1775 | oktober 2015 | Not yet received |
 | 04 Daniel Nielsen Hopp o.1732-1800 | oktober 2015 | Not yet received |
@@ -200,3 +200,4 @@ New section (2026-08-08) — three items found in KEJ's master catalog that aren
 | 1.9 | 2026-08-08 | KEJ began sending Hopp-slægten material (§3: items 01, 01C, 01F) and flagged problems with each in the same message — updated their status to "Incoming" with his own description of the issues (01's content apparently deleted, 01C/01F missing their 2 maps each, 01F's openability in question). No file actually attached to this round yet. |
 | 1.10 | 2026-08-08 | All three files received and given a flyover pass (metadata, page/word counts, whether they open) ahead of any actual reading. Confirms item 01's content really is mostly missing — ~460 words / 5 pages against an expected 33 + 3 maps, just the family-overview index, no individual biography. 01C and 01F both look content-complete against the catalog's page counts (88 and 91 respectively). Both .doc files (01, 01F) fail to open in LibreOffice but read cleanly via `antiword` — not corrupted, just an old binary format one tool doesn't handle. |
 | 1.11 | 2026-08-08 | Human confirmed physical storage for all three Hopp-slægten files — stored as a new deep well, `library/deep-wells/hopp-slaegten/` (a growing folder, not a single file, since KEJ distributes this line per-chapter). Phased reading plan set: 01 + 01C first (both status "Triaged"), 01F deferred to its own session — see `library/deep-wells/hopp-slaegten-manifest.md` and `projects/archive-digitization/TODO.md`. |
+| 1.12 | 2026-08-08 | Checkpoint 1 of Phase 1 read: 01's overview table (root chain) and 01C's own generation (Niels Jørgen Knudsen Hopp, wife, 6 children) — 34 individuals into `tree.ged`. Both items' status updated to "In progress" — 01C in particular is far from finished, having turned out comparable in size to the entire Boe-slægten manuscript. |

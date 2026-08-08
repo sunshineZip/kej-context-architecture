@@ -601,3 +601,30 @@ STATUS: CHECKPOINT
 Completed: Hopp-slægten's first three chapters stored, registered, and flyover'd; a concrete phased plan exists rather than an open-ended "read it eventually."
 Next: Phase 1 — read 01's overview table and 01C's 88 pages into `family-tree/tree.ged`. Not started; awaiting the human's go-ahead to begin actual extraction.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 24 | 2026-08-08
+
+Same session, continued. Human gave the go-ahead on Phase 1. Extracted full text from both files (01 via `antiword`, already installed for the flyover; 01C via the same docx-paragraph script used earlier on the Boe-slægten attachments) and started reading.
+
+01's surviving content turned out to include a bit more than the flyover glimpse showed: past the family-overview index table, a short passage on the Hopp surname's likely German/Dutch origin (from "Hopfen"/hops, a "Hoppener" family in Flensburg/Slesvig 1377-1452) — genuine manuscript prose, not just the index. Two `[pic]` markers in the antiword output confirm at least some images survived in this file despite the missing text.
+
+01C, once actually read, turned out **much larger than scoped** — comparable to the *entire* Boe-slægten manuscript, not a single chapter of it. Niels Jørgen Knudsen Hopp's own generation is only the first: each of his 6 children has their own children documented in full biographical depth ("I.", "II." etc.), and the document goes at least one further generation beyond that for some branches (spot-checked one: "8 børn: a/-h/," "efterslægten omskrevet... efter Jens Aabergs slægtsoversigt"). Recalibrated rather than pushing through blindly: built a solid **Checkpoint 1** — the root chain from 01's overview (6 generations, `#I364`-`#I385`) and Niels Jørgen Knudsen Hopp's own generation from 01C (himself, wife, their 6 children, `#I386`-`#I397`) — 34 individuals, 12 families, `[VERIFIED: hopp-slaegten, ...]` cited throughout. Phase 1 is now itself a multi-checkpoint effort; each child's own descendants are separate future checkpoints.
+
+One genuine data problem, resolved inline rather than queued (per the human's standing preference to accumulate small discrepancies): Berthe Nielsdatter Hopp's (`#I391`) birth year is given as "1770" in one place in the source, chronologically impossible given her own children's dates — read as a transcription artifact against her own stated baptism date, "1.1.1721," which `tree.ged` uses instead.
+
+Added a stopgap stub for Knud Knudsen Hopp (`#I384`, 01F — deferred to Phase 2) sourced from the existing external secondary source (`external-source-hopp-herredsfoged.md`), explicitly `[UNVERIFIED]`, to be superseded once 01F is actually read.
+
+**Built:** `projects/archive-digitization/context/hopp-slaegten-kapitel1-extraction.md` (new, mirrors the Boe-slægten chapter-extraction-notes pattern). Updated `hopp-slaegten-manifest.md`, `reference-index.md`, `intake-manifest.md` (01 and 01C now "In progress," not "Triaged"), and `TODO.md` to record the scope correction and the revised multi-checkpoint plan.
+
+### Session close
+
+Knowledge candidates: None yet — no Hopp domain exists (Phase 3 not started), same as Boe-slægten's own status.
+Open flags: None escalated to `grandfather-review/queue.md` this turn — the one data problem found was resolved inline, consistent with the human's request to hold small discrepancies rather than raise them individually.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Phase 1, Checkpoint 1 of Hopp-slægten reading — 34 individuals from the root chain and Niels Jørgen Knudsen Hopp's generation. Real scope correction surfaced and recorded rather than either glossed over or allowed to balloon this turn indefinitely.
+Next: Further checkpoints through 01C's 6 children's own descendants (comparable remaining scope to a full Boe-slægten chapter each, roughly), then Phase 2 (01F, 91 pages, own session).
+Waiting for: Human's direction on whether to continue immediately into the next checkpoint or pause here for review.

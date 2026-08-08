@@ -1,6 +1,6 @@
 # Hopp-slægten — Deep Well Manifest
 
-Version 1.0 | 2026-08-08 | Production
+Version 1.1 | 2026-08-08 | Production
 
 ---
 
@@ -24,19 +24,22 @@ Unlike `boe-slaegten-fra-mors-og-fur` (one manuscript, four chapters, all in a s
 
 ---
 
-## Phased Reading Plan (2026-08-08)
+## Phased Reading Plan (2026-08-08, revised same day after Checkpoint 1)
 
 Per the human's direction: absorb the two smaller files first (01, 01c), defer the largest (01f) to its own session.
 
-- **Phase 1 — 01 + 01c:** read 01's surviving overview/index table (short, but valuable — it's effectively the Hopp-slægten equivalent of `boe-slaegten-fra-mors-og-fur`'s "Aneoversigt," giving the whole lineage's top-level skeleton before any chapter detail) and read 01c's full 88 pages (Niels Jørgen Knudsen Hopp, 1685-1770) into `family-tree/tree.ged`. Not started.
-- **Phase 2 — 01f:** read the full 91 pages (Knud Knudsen Hopp, d.1762) — the largest single chapter received so far, comparable in scope to a full Boe-slægten chapter. Deferred, own session.
+- **Phase 1 — 01 + 01c, Checkpoint 1 (done, 2026-08-08):** root chain from 01's overview table (6-generation direct line + named branches) and Niels Jørgen Knudsen Hopp's own generation (himself, wife, 6 children) from 01c. 34 individuals, 12 families. See `projects/archive-digitization/context/hopp-slaegten-kapitel1-extraction.md`.
+- **Scope correction:** 01c alone turned out to be comparable in total size to the *entire* Boe-slægten manuscript, not a single chapter of it — each of Niels Jørgen Knudsen Hopp's 6 children has their own children documented in full ("I.", "II." etc.), and so on further still. Phase 1 is now itself a multi-checkpoint effort, not a single pass. Checkpoint 1 above covers only the first generation; each child's own descendants are separate checkpoints going forward.
+- **Phase 2 — 01f:** read the full 91 pages (Knud Knudsen Hopp, d.1762) — the largest single file received so far. Deferred, own session, not started. A stopgap stub sourced from an external secondary source is already in `tree.ged` (`#I384`, `#I385`) pending this.
 - **Not scoped yet:** whether/how to model the overview table's forward references to chapters not yet received (02, 03, 04...) — working assumption is the same one used for Boe-slægten's own cross-chapter references: model what's confirmed, leave a `NOTE` pointer for what isn't yet in hand.
 
 ---
 
 ## Extraction Log
 
-*Empty — no chapter has been read into `family-tree/tree.ged` yet. See Phased Reading Plan above.*
+| Date | What was mined | Result |
+|---|---|---|
+| 2026-08-08 | Checkpoint 1: root chain (01's overview table) + Niels Jørgen Knudsen Hopp's generation (01c) — 34 individuals, 12 families | → `family-tree/tree.ged#I364`-`#I397`, `#F121`-`#F132`; notes in `projects/archive-digitization/context/hopp-slaegten-kapitel1-extraction.md` |
 
 ---
 
@@ -45,3 +48,4 @@ Per the human's direction: absorb the two smaller files first (01, 01c), defer t
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-08 | Initial creation. Three files (01, 01c, 01f) triaged out of `incoming/` into permanent storage per human confirmation (cornerstone rule, `authoring-guidelines.md` §9.3). Flyover findings recorded per file. Phased reading plan set: 01+01c first, 01f deferred. None read yet. |
+| 1.1 | 2026-08-08 | Checkpoint 1 of Phase 1 done. Recorded a real scope correction: 01c is comparable in size to the entire Boe-slægten manuscript, not one chapter — Phase 1 is now itself multi-checkpoint. |
