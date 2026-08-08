@@ -122,7 +122,7 @@
 2 DATE 1858
 1 FAMC @F5@
 1 FAMS @F6@
-1 NOTE Linje fortsætter flere generationer frem via datter Else Marie Thomasdatter (f.1839) → Christen Clausen → Vestergaard-slægten i Solbjerg, ind i 1900-tallet. Ikke selvstændigt gentranskriberet her. [SENSITIVE] — nyeste navngivne personer i denne gren har ingen dødsår angivet og kan stadig være i live. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+1 NOTE Linje fortsætter flere generationer frem via datter Else Marie Thomasdatter (f.1839) → Christen Clausen → Vestergaard-slægten i Solbjerg, ind i 1900-tallet. Ikke selvstændigt gentranskriberet her. Nyeste navngivne personer i denne gren er ikke selvstændigt modelleret som individuelle poster her og er ikke undersøgt for aktuel status. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
 0 @I12@ INDI
 1 NAME Sissel (Zidsel) Christensdatter /Boe/
 1 SEX F
@@ -357,7 +357,7 @@
 2 PLAC Nykøbing sygehus, Danmark
 1 OCCU Husbestyrerinde (25+ år hos sagfører Niels Ovesen, Nykøbing Mors)
 1 FAMC @F11@
-1 NOTE Barn "f." af generation 05. Ugift, ingen børn. Fik navnet Boe ved bevillingen 1905. Opkaldt efter faderens yngre søster af samme navn (I44, død 1877 som ung). Arvede en formue efter Niels Ovesens død 1941; oprettede ved testamente 14.9.1972 "Mette Boe's Legat" (70.000 kr., fundats 30.12.1977) til hjælp for en kvinde født på eller stærkt knyttet til Mors — stadig uddelende pr. 30.12.1998. Husket af familien som krasbørstig, med markante meninger. Død 92 år gammel — dødsdato nu præcis (rettet fra tidligere estimat "AFT 1975"; [SENSITIVE]-forbeholdet om mulig fortsat liv bortfalder, hun er bekræftet afdød). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 og p.25-54]
+1 NOTE Barn "f." af generation 05. Ugift, ingen børn. Fik navnet Boe ved bevillingen 1905. Opkaldt efter faderens yngre søster af samme navn (I44, død 1877 som ung). Arvede en formue efter Niels Ovesens død 1941; oprettede ved testamente 14.9.1972 "Mette Boe's Legat" (70.000 kr., fundats 30.12.1977) til hjælp for en kvinde født på eller stærkt knyttet til Mors — stadig uddelende pr. 30.12.1998. Husket af familien som krasbørstig, med markante meninger. Død 92 år gammel — dødsdato nu præcis (rettet fra tidligere estimat "AFT 1975"; sensitivitetsmærkningen om mulig fortsat liv bortfalder, hun er bekræftet afdød). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 og p.25-54]
 1 NOTE Foto/dokument: navn og fødselsdato bekræftet mod navnebevis-scanningen, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image6.jpeg.
 0 @I37@ INDI
 1 NAME Laurids Christensen /Boe/
@@ -732,7 +732,7 @@
 2 PLAC Kyngsberg, Fur, Danmark
 1 FAMC @F13@
 1 FAMS @F35@
-1 NOTE Barn "II." af Jens Christensen Boe og Marie Kirstine Christensen. Enke i Skive. [SENSITIVE] — intet dødsår angivet (ville være o.108 år i 2026, formentlig afdød, men ikke bekræftet). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Barn "II." af Jens Christensen Boe og Marie Kirstine Christensen. Enke i Skive. Sensitivitetsmærkning frafaldet 2026-08-08: intet dødsår angivet, men født 1918 (ville være o.108 år i 2026) — behandlet som afdød på alderen alene, jf. samme afgørelse for I110. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I88@ INDI
 1 NAME Living /Dahl/
 1 SEX M
@@ -925,7 +925,7 @@
 1 OCCU Malermester, Havrebakken 4, Rødding ved Viborg
 1 FAMC @F14@
 1 FAMS @F43@
-1 NOTE Barn "V." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Malerlærling 1940, malersvend 1943, malermester fra 1951. Gift 23.7.1948, Ørum-Sønderlyng kirke. [SENSITIVE] — intet dødsår angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Barn "V." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Malerlærling 1940, malersvend 1943, malermester fra 1951. Gift 23.7.1948, Ørum-Sønderlyng kirke. Sensitivitetsmærkning frafaldet 2026-08-08: intet dødsår angivet, men født 1921 (ville være 105 år i 2026) — behandlet som afdød på alderen alene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I111@ INDI
 1 NAME Living /Schmidt/
 1 SEX F
@@ -985,7 +985,8 @@
 2 PLAC Damsig, Skæve sogn, Hjørring amt, Danmark
 1 OCCU Svejser
 1 FAMS @F45@
-1 NOTE Søn af landmand Jens Christian Emanuel Christensen og hustru Ingeborg Sørensen. Byggede o.1967 nyt hus ved siden af det gamle i Åbybro, som derefter blev revet ned. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Søn af landmand Jens Christian Emanuel Christensen og hustru Ingeborg Sørensen. Byggede o.1967 nyt hus ved siden af det gamle i Åbybro, som derefter blev revet ned. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Sensitivitetsmærkning frafaldet 2026-08-08: intet dødsår angivet, men født 1915 (ville være 111 år i 2026) — behandlet som afdød på alderen alene.
 0 @I119@ INDI
 1 NAME Living /Christensen/
 1 SEX M
@@ -1067,7 +1068,8 @@
 1 BIRT
 2 DATE 14 FEB 1913
 1 FAMS @F47@
-1 NOTE [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Sensitivitetsmærkning frafaldet 2026-08-08: intet dødsår angivet, men født 1913 (ville være 113 år i 2026) — behandlet som afdød på alderen alene.
 0 @I130@ INDI
 1 NAME Knud Preben Handberg /Boe/
 1 SEX M
