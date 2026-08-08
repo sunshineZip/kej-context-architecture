@@ -398,3 +398,31 @@ STATUS: CHECKPOINT
 Completed: `session-start.sh` now attempts to initialize the `restricted/` submodule automatically where the environment allows it, without breaking the rest of session start where it can't.
 Next: None specific.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 16 | 2026-08-08
+
+Same session, continued. Human asked whether `[SENSITIVE]` content should actually move to `restricted/` wholesale — presented a plan first (per `ROUTING.md`'s plan-first rule for large tasks) covering `tree.ged`, media, a merge script, new validator guards, and bidirectional cross-references. Human confirmed, with one addition after discussion: for the image25-style dilemma (a photo with mostly-deceased subjects but one living infant), settled on a strict hard rule — one or more living persons present, or the image simply hasn't been fully analysed yet, both send it to `restricted/`.
+
+**`tree.ged` split** (363 individuals, 118 families, shape fully preserved): wrote a one-off Python parser (not committed — scratchpad tooling) to redact every `[SENSITIVE]` individual's `NAME`/exact dates/`OCCU`/`NOTE` to a `Living /<surname>/` + birth-year-only placeholder, `FAMC`/`FAMS` untouched, full original record moved to the new `restricted/tree-sensitive.ged` (same `@I@` ids). Initial pass caught **161** individuals — before committing anything, checked for false positives and found 6: two genuine bugs (one `[SENSITIVE]` tag was actually about an unnamed *descendant*, not the tagged person, who died in 1858; another's own note already said the concern was resolved, but the literal string survived in the prose and a naive text-match caught it anyway), and four people with no recorded death date but implausible ages (105–142 today) — real data gaps, not real uncertainty, same class as the `I110` precedent from earlier this session. All six restored to full public visibility with corrected notes phrased so the literal tag string can't cause the same false match again. **Final count: 155 redacted.**
+
+**Media split**: cross-checked every image's identified individuals against the corrected 155-person list. 4 images confirmed to depict a living person (`image25`, `image26`, `image27`, `image31`) plus 22 not yet fully identified (everything in the manuscript's own "Unmatched/Unclassified" batch, plus every "plausible but unconfirmed" guess) — 26 of 47 stored images total — moved to `restricted/media/`, with a new `restricted/media-manifest.md` preserving all prior analysis verbatim. The public `boe-slaegten-fra-mors-og-fur-2024-media/manifest.md` now only lists the 21 confirmed-safe images (documents, maps, and photos of only long-deceased people). Retired in-place `[SENSITIVE]` flagging on individual images in favor of the actual access boundary.
+
+**Built:**
+
+- `scripts/merge-restricted.ps1` — new script, overlays `restricted/tree-sensitive.ged`'s full records onto a copy of the public tree by matching `@I@` ids, reconstructing a complete private tree for the human's own use without needing this session's help each time. Output goes to `temp/` (gitignored), never committed. Tested directly: 363/118 record counts preserved, zero remaining placeholder strings, no duplicate record headers after fixing one found during testing.
+- `scripts/validate.ps1` — two new checks: a regression guard (errors if a `Living /.../` placeholder record gains any line that doesn't match the expected placeholder shape) and a bidirectional completeness check between the public placeholders and `restricted/tree-sensitive.ged` (skips cleanly when `restricted/` isn't initialized). Both had real bugs caught by deliberately testing against injected failures before trusting them: the regression guard only validated on non-INDI record boundaries, silently skipping every INDI-to-INDI transition (the common case); the completeness check used `$pid` as a loop variable, which is PowerShell's read-only process-id automatic variable — assignment failed silently every iteration. Both fixed and reverified against the same injected-failure tests.
+- `ROUTING.md` (1.17 → 1.18) — new Standing Rule: media now defaults to `restricted/media/`, promoted to public only once confirmed to depict no presumed-living person.
+- `library/reference-index.md` (1.16 → 1.17) and the deep-well's own media manifest — updated to describe the split.
+
+### Session close
+
+Knowledge candidates: None — access-control/data-hygiene work, not new domain facts.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: All `[SENSITIVE]` content (155 individuals, 26 media files) now lives in `restricted/`, with the public repo carrying only placeholders/pointers and a fully-preserved tree shape. A real false-positive bug (6 individuals, including 2 outright tagging errors) was caught and fixed before it reached a commit. Two new validator guards protect against regression, both verified against deliberately injected failures rather than assumed correct. A merge script lets the human reconstruct a complete private tree without further help each time.
+Next: None specific — mechanism is live. Human may want to review the 6 corrected false-positive individuals and the "strict" image25-style rule's downstream effects once they've had time to look at what actually moved.
+Waiting for: Nothing further this turn — pushing now.

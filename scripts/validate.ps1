@@ -782,6 +782,94 @@ if (Test-Path $treeGedPath) {
     }
 }
 
+# --- family-tree/tree.ged — redacted-placeholder regression guard ---
+# Since 2026-08-08, any individual presumed living has their real name,
+# exact birth date, occupation, and notes stripped from the public tree and
+# replaced with a "Living /<surname>/" placeholder + birth year only (full
+# record kept in restricted/tree-sensitive.ged, see Architecture.md §3).
+# This check catches the placeholder silently regaining real content later
+# — e.g. someone pastes a fuller record back in without redacting it again.
+if (Test-Path $treeGedPath) {
+    $gedLines2 = Get-Content -Path $treeGedPath
+    $currentId2 = $null
+    $isPlaceholder = $false
+    $placeholderLines = @()
+
+    function Test-PlaceholderLine {
+        param([string]$Line)
+        if ($Line -match '^0 @I\d+@ INDI\s*$') { return $true }
+        if ($Line -match '^1 NAME Living /.*/\s*$') { return $true }
+        if ($Line -match '^1 SEX [MFU]\s*$') { return $true }
+        if ($Line -match '^1 BIRT\s*$') { return $true }
+        if ($Line -match '^2 DATE \d{4}\s*$') { return $true }
+        if ($Line -match '^1 FAM[CS] @F\d+@\s*$') { return $true }
+        if ($Line -match '^1 NOTE Fulde oplysninger \(navn, dato, noter\): restricted/tree-sensitive\.ged#I\d+') { return $true }
+        return $false
+    }
+
+    function Confirm-PlaceholderBlock {
+        if ($script:isPlaceholder) {
+            foreach ($pl in $script:placeholderLines) {
+                if (-not (Test-PlaceholderLine -Line $pl)) {
+                    Add-ValidationError "family-tree/tree.ged — @$script:currentId2@ looks like a redacted placeholder (NAME 'Living /.../') but also has a non-placeholder line: '$pl' — real data may have regressed back into the public tree"
+                }
+            }
+        }
+    }
+
+    foreach ($gedLine2 in $gedLines2) {
+        if ($gedLine2 -match '^0 ') {
+            # Flush/validate whatever record was just accumulated, whether
+            # this new 0-level line starts another INDI, a FAM, or TRLR.
+            Confirm-PlaceholderBlock
+            $isPlaceholder = $false
+            $placeholderLines = @()
+            $m3 = [regex]::Match($gedLine2, '^0 @(I\d+)@ INDI\s*$')
+            if ($m3.Success) {
+                $currentId2 = $m3.Groups[1].Value
+                $placeholderLines = @($gedLine2)
+            } else {
+                $currentId2 = $null
+            }
+            continue
+        }
+        if ($currentId2) {
+            $placeholderLines += $gedLine2
+            if ($gedLine2 -match '^1 NAME Living /') { $isPlaceholder = $true }
+        }
+    }
+    # Flush the final record in the file (the line loop never sees a
+    # trailing 0-level boundary after it, since TRLR itself already flushed
+    # whatever preceded it).
+    Confirm-PlaceholderBlock
+}
+
+# --- family-tree/tree.ged vs restricted/tree-sensitive.ged — bidirectional
+#     completeness. Only runs when the restricted/ submodule is actually
+#     initialized (most sessions correctly have no access — that's not an
+#     error, just skip silently). ---
+$restrictedTreePath = Join-Path $repoRoot "restricted\tree-sensitive.ged"
+if ((Test-Path $treeGedPath) -and (Test-Path $restrictedTreePath)) {
+    $publicPlaceholderIds = [regex]::Matches((Get-Content -Path $treeGedPath -Raw), '0 @(I\d+)@ INDI\r?\n1 NAME Living /') |
+        ForEach-Object { $_.Groups[1].Value }
+    $restrictedText = Get-Content -Path $restrictedTreePath -Raw
+    $restrictedIds = [regex]::Matches($restrictedText, '(?m)^0 @(I\d+)@ INDI\s*$') | ForEach-Object { $_.Groups[1].Value }
+
+    $publicSet = [System.Collections.Generic.HashSet[string]]::new([string[]]$publicPlaceholderIds)
+    $restrictedSet = [System.Collections.Generic.HashSet[string]]::new([string[]]$restrictedIds)
+
+    foreach ($pubId in $publicPlaceholderIds) {
+        if (-not $restrictedSet.Contains($pubId)) {
+            Add-ValidationError "family-tree/tree.ged — @$pubId@ is a redacted placeholder but has no matching full record in restricted/tree-sensitive.ged"
+        }
+    }
+    foreach ($rid in $restrictedIds) {
+        if (-not $publicSet.Contains($rid)) {
+            Add-ValidationWarning "restricted/tree-sensitive.ged — @$rid@ has a full record here but the public tree.ged does not have a matching 'Living /.../' placeholder for it (may be stale, or the public individual was un-redacted without removing it here)"
+        }
+    }
+}
+
 # --- Summary ---
 Write-Host ""
 Write-Host "Active projects: $($activeProjects.Count)"

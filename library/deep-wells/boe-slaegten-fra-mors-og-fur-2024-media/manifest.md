@@ -1,12 +1,14 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.12 | 2026-08-06 | Production
+Version 1.13 | 2026-08-08 | Production
 
 ---
 
 ## Document Purpose
 
-Inventory of images extracted from `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx` and stored in this folder — photographs, scanned documents, and maps embedded in KEJ's manuscript, previously untouched by the text-only extraction. Companion to `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-manifest.md`, which covers the manuscript's *text* extraction log. Built incrementally, in step with the text read-through from now on — see that manifest's Extraction Log and `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`'s Progress checklist for what's been read.
+Inventory of images extracted from `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx` and stored in this folder — photographs, scanned documents, and maps embedded in KEJ's manuscript, previously untouched by the text-only extraction. Companion to `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-manifest.md`, which covers the manuscript's *text* extraction log.
+
+**As of 2026-08-08, this manifest only covers images confirmed to depict no living person** — everyone shown either died decades ago, or the image is a document/map/chart with no people in it at all. Every image confirmed or plausible to show a presumed-living person, and every image not yet fully identified, lives instead in `restricted/media/` (a private companion repo, see `Architecture.md` §3) with its own manifest, `restricted/media-manifest.md`. That split is deliberate, not a gap: an unidentified image could turn out to show anyone, so it defaults to the restricted side until it's actually been resolved one way or the other.
 
 ---
 
@@ -26,10 +28,10 @@ The source `.docx` is a zip container; its 62 embedded media files (48 real imag
 |---|---|---|---|
 | image1.jpeg | Boe A3_NEW.jpg | Aneoversigt / general chapter context | Map |
 | image2.jpeg | 1732 Chresten Boe, skifte_NEW.jpg | Generation "03" | Scanned primary document |
-| image3.jpeg | Boe A15_NEW.jpg | Generation "04" or "05" (unconfirmed) | Photo, 2 people |
-| image4.jpeg | Boe kap 9 02_NEW.jpg | Generation "05" (Mette Jensen's ancestry) | Photo, 1 person |
 | image5.jpeg | Boe A17_NEW.jpg | Generation "05" | Photo, gravestone |
 | image6.jpeg | Navnebevis.jpg | Generation "05" | Scanned primary document |
+
+**Moved to `restricted/media/` (unconfirmed identity, default-private):** `image3.jpeg`, `image4.jpeg` — see `restricted/media-manifest.md`.
 
 ### image1.jpeg — Map
 
@@ -39,54 +41,19 @@ A period map of northeastern Mors, showing Jørsby, Sdr. Dråby, Nørre Dråby, 
 
 Handwritten probate-record page, opening "Aar 1832 d. 13d. April..." — matches the skifte already summarized in `boe-slaegten-chapter1-extraction.md` §03 (Ullerup gods skifteprotokol, proceedings 13 April/15 December/22 December 1832). Confirmed as the right document by its opening line, not by a full transcription of the handwriting, which is not attempted here. **Note on KEJ's own filename:** he named this file "1732 Chresten Boe, skifte" — but the skifte is dated 1832, not 1732. Likely a typo in his own filename (not the document itself, which clearly reads "1832"), logged here rather than silently corrected. Same underlying document also appears later in the manuscript as a second insertion (`image18.jpeg`, filename "1732 Chresten Boe, skifte.jpg" — same apparent typo, consistent with it being the same source file re-inserted, not a second independent document). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17 — image content matches the already-extracted skifte summary] Individual: `@I4@` (Christen Pedersen Boe, generation "03").
 
-### image3.jpeg — Unidentified couple portrait
-
-Studio portrait, one seated man (beard, dark formal coat) and one standing woman (bonnet, full skirt, Victorian-era dress) — clothing style consistent with roughly 1870s-1900s. **Not confirmed which individuals these are.** Photography of this kind only becomes plausible from generation "04" onward (generations "02"/"03" predate practical portrait photography in rural Denmark); its position in KEJ's own numbered sequence (immediately before image5, confirmed generation "05") makes generation "05" — Christen Pedersen Boe (`@I27@`) and Mette Jensen (`@I28@`) — the better-supported guess over generation "04," but this is a guess, not a finding. Worth asking KEJ directly rather than resolving here. `[UNVERIFIED: AI visual description, identity unconfirmed]`
-
-### image4.jpeg — Unidentified man, likely Kapitel 9 (Mette Jensen's ancestry)
-
-Studio portrait, one seated man, round glasses, bowler-style hat, heavy dark coat — damaged/degraded print. KEJ's own filename ("Boe kap 9 02") ties it to Kapitel 9, cross-referenced from generation "05"'s own marriage entry ("Mette Jensen... datter af Jens Christian Thorsen og hustru Margrethe Jensdatter... Se KAPITEL 9") but Kapitel 9 itself has not been read yet — so while this image plausibly depicts someone from Mette Jensen's own family line (perhaps her father Jens Christian Thorsen), that identification is not confirmed and shouldn't be treated as settled until Kapitel 9 is actually read. `[UNVERIFIED: AI visual description, identity pending Kapitel 9]`
-
 ### image5.jpeg — Chr. P. Boe's family gravestone
 
 Color photograph of a granite memorial stone reading "CHR. P. BOES FAMILIEGRAVSTED / FRED" ("Chr. P. Boe's Family Gravesite / Peace"), with an engraved cross. Directly matches `boe-slaegten-chapter1-extraction.md` §05: "På Fur kirkegård findes endnu (1980) 'Chr. P. Boes Familiegravsted'" — the manuscript's own 1980 date for this note is consistent with the photo's evident era (color print, not a modern digital photo). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 — direct visual match to a specific already-extracted claim] Individual: `@I27@` (Christen Pedersen Boe, generation "05").
 
 ### image6.jpeg — 1905 royal name-grant certificate (Navnebevis)
 
-Scanned certificate opening "Vi Christian den Niende, af Guds Naade Konge til Danmark..." — the royal bevilling granting the "Boe" surname, matching the narrative already extracted in `boe-slaegten-chapter1-extraction.md` §05. Unlike the older skifte handwriting, this document's cursive is legible enough that the six listed names and birthdates were spot-checked directly against `family-tree/tree.ged`: Maria/Marie Christensen (16.11.1874) with son Esper Marinus Christensen (23.5.1897, Grinderslev sogn); Boel/Bodil Kirstine Christensen (22.7.1880); Jens Christensen (1.11.1882); Mette Christensen (30.12.1884); Laurids Christensen (1.3.1887); Christen(s) Christensen (8.2.1889) — **all six names and dates match exactly**, a genuine independent fidelity check of the earlier text extraction, not merely a description. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 — cross-checked against the certificate image itself, not just the manuscript's prose account] Individuals: `@I27@` (father, as applicant), `@I30@`, `@I33@`, `@I34@`, `@I36@`, `@I37@`, `@I39@` (the six children named).
+Scanned certificate opening "Vi Christian den Niende, af Guds Naade Konge til Danmark..." — the royal bevilling granting the "Boe" surname, matching the narrative already extracted in `boe-slaegten-chapter1-extraction.md` §05. Unlike the older skifte handwriting, this document's cursive is legible enough that the six listed names and birthdates were spot-checked directly against `family-tree/tree.ged`: Maria/Marie Christensen (16.11.1874) with son Esper Marinus Christensen (23.5.1897, Grinderslev sogn); Boel/Bodil Kirstine Christensen (22.7.1880); Jens Christensen (1.11.1882); Mette Christensen (30.12.1884); Laurids Christensen (1.3.1887); Christen(s) Christensen (8.2.1889) — **all six names and dates match exactly**, a genuine independent fidelity check of the earlier text extraction, not merely a description. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 — cross-checked against the certificate image itself, not just the manuscript's prose account] Individuals: `@I27@` (father, as applicant), `@I30@`, `@I33@`, `@I34@`, `@I36@`, `@I37@`, `@I39@` (the six children named) — all confirmed not `[SENSITIVE]` as of 2026-08-08 (one, `@I36@`, was briefly miscaught by an overbroad text match despite having a recorded death date; corrected the same day, see `family-tree/tree.ged` Version History via `projects/system/session-log.md`).
 
 ---
 
-## Images: Efterslægt Branch b (Marie Christensen Boe)
+## Images: Efterslægt Branches b and e — Moved to Restricted
 
-| File | KEJ's filename | Position | Type |
-|---|---|---|---|
-| image8.jpeg | Boe A19_NEW.jpg | Branch b (unconfirmed) | Photo, wedding portrait |
-| image9.jpeg | Boe A26_NEW.jpg | Unclassified | Photo, 2 people |
-
-### image8.jpeg — Wedding portrait
-
-Studio wedding portrait: bride in dark dress with a long veil, groom in formal double-breasted coat holding a top hat. Clothing style consistent with roughly 1900-1915. **Not confirmed**, but the date range fits Marie Christensen Boe and Niels Jensen's 9.8.1910 marriage (Tøndering) plausibly enough to record the guess — should not be treated as settled without KEJ's confirmation. `[UNVERIFIED: AI visual description, identity unconfirmed]`
-
-### image9.jpeg — Unidentified older couple
-
-Close studio portrait, older man and woman, clothing/hairstyle consistent with roughly 1930s-1950s. Checked against branch b (Esper Marinus Christensen Boe and Katrine, who would have been in that age range during this period) but nothing ties it specifically to them over any other Efterslægt couple of similar age — left unclassified rather than guessed. `[UNVERIFIED: AI visual description, identity unconfirmed]`
-
-**Also checked and explicitly ruled out for branches a/c/d/f/h/i and b:** `image7.jpeg` ("Boe B2") — a c.1920s-1930s outdoor photo of a young couple. Not stored here since it doesn't belong to any section read so far; will be pulled again once whichever branch (likely b, e, or g) it belongs to is reached.
-
----
-
-## Images: Efterslægt Branch e (Jens Christensen Boe)
-
-| File | KEJ's filename | Position | Type |
-|---|---|---|---|
-| image11.jpeg | Boe A36_NEW.jpg | Branch e (plausible) | Photo, family group |
-
-### image11.jpeg — Family portrait
-
-Studio family portrait: father, mother, and three young children (a toddler boy, a girl, and a baby), clothing/style consistent with roughly 1918-1922. **Not confirmed**, but the timing fits well: Jens Christensen Boe (`@I34@`) and Marie Kirstine Christensen (`@I35@`) married 1916, and had three children by 1920 (K.K.K. Boe b.1917, Anna b.1918, Thomas Manfred b.1920) before a fourth (Hans Christian, b.1923) — matching this photo's apparent three-children composition better than any other Efterslægt family at this stage. Worth confirming with KEJ rather than treating as settled. `[UNVERIFIED: AI visual description, identity unconfirmed]`
-
-**Also checked and deferred:** `image10.jpeg` ("Boe A37") — a streetscape of brick townhouses, no people. Possibly tied to branch g instead — Laurids Boe's murer work is credited with a street in Durup informally called "Boegade" until the early 1970s — but branch g hasn't been read yet, so this is a guess for later, not stored here.
+`image8.jpeg`, `image9.jpeg` (branch b), `image7.jpeg`, `image10.jpeg`, `image11.jpeg` (branch e) — none confirmed, all moved to `restricted/media/` under the default-private-until-analysed rule. See `restricted/media-manifest.md`.
 
 ---
 
@@ -96,29 +63,22 @@ Studio family portrait: father, mother, and three young children (a toddler boy,
 |---|---|---|---|
 | image14.jpg | (Word auto-alt-text, no KEJ filename) | Branch g child "I" (confirmed) | Photo of a photographed manuscript page — two period photos plus a caption |
 | image16.jpeg | Boe B14_NEW.jpg | Branch g child "I" (confirmed) | Photo, house/garage with truck |
-| image15.jpeg | Boe A42_NEW.jpg | Branch g, unconfirmed | Photo, couple at a dinner table |
+
+**Moved to `restricted/media/` (unconfirmed):** `image15.jpeg`, `image17.jpeg` — see `restricted/media-manifest.md`.
 
 ### image14.jpg — Confirmed: manuscript page 33, Frederik Lund at Brunshåb Teglværk
 
-Unlike the other images, this one is a photograph *of a printed manuscript page* (page number "33" visible), not a clean scan — likely taken with a phone camera during compilation. It shows two source photos plus a partially-visible caption reading "...v. Frederik Lund, Brunshåb Teglv[ærk]" — this is a **direct, legible match** to a caption transcribed from the surrounding text ("Tv. Frederik Lund, Brunshåb Teglværk"). Main photo: two brickworks laborers with a handcart of bricks — Frederik Lund (`@I108@`, Else Margrethe Boe's husband) on the left per the caption. A second, partial photo in the top-left corner (cropped, cut off) appears to be a wedding portrait — plausibly Else Margrethe and Frederik's own 1933 wedding, though the crop makes this less certain than the main photo's match. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption text directly legible and matches the extracted transcription] Individual: `@I108@` (confirmed for the main photo), `@I107@` possibly (the cropped wedding photo, less certain).
+Unlike the other images, this one is a photograph *of a printed manuscript page* (page number "33" visible), not a clean scan — likely taken with a phone camera during compilation. It shows two source photos plus a partially-visible caption reading "...v. Frederik Lund, Brunshåb Teglv[ærk]" — this is a **direct, legible match** to a caption transcribed from the surrounding text ("Tv. Frederik Lund, Brunshåb Teglværk"). Main photo: two brickworks laborers with a handcart of bricks — Frederik Lund (`@I108@`, Else Margrethe Boe's husband) on the left per the caption. A second, partial photo in the top-left corner (cropped, cut off) appears to be a wedding portrait — plausibly Else Margrethe and Frederik's own 1933 wedding, though the crop makes this less certain than the main photo's match. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption text directly legible and matches the extracted transcription] Individual: `@I108@` (confirmed for the main photo), `@I107@` possibly (the cropped wedding photo, less certain). Neither individual is `[SENSITIVE]`.
 
 ### image16.jpeg — Confirmed: Else Margrethe and Frederik Lund's house
 
-A house with an attached garage, a truck visible through the open garage door. **Direct match** to the caption "Hus og garage med lastbil" ("House and garage with truck") found in the same passage as `image14.jpg`'s captions — Frederik Lund worked as a vognmand (haulier) after his brickworks years, explaining the truck. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption match] Individuals: `@I107@`, `@I108@` (their property, though neither appears in the photo itself).
-
-### image15.jpeg — Unconfirmed: couple at a dinner table
-
-A 1960s-1970s-style photo of a middle-aged/older couple in conversation at a dinner table. No caption match found. Plausible but unconfirmed candidates from this checkpoint include Krista (`@I117@`) and Martin (`@I118@`), whose marriage (1954) and era would fit, but nothing distinguishes them from several other Efterslægt couples of similar age. Left unconfirmed rather than guessed. `[UNVERIFIED: AI visual description, identity unconfirmed]`
-
-**Also checked and deferred:** `image17.jpeg` ("Boe A50") — a young man's formal portrait, 1920s-1930s style. No caption or contextual match found in this checkpoint; left unfiled.
+A house with an attached garage, a truck visible through the open garage door. **Direct match** to the caption "Hus og garage med lastbil" ("House and garage with truck") found in the same passage as `image14.jpg`'s captions — Frederik Lund worked as a vognmand (haulier) after his brickworks years, explaining the truck. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption match] Individuals: `@I107@`, `@I108@` (their property, though neither appears in the photo itself). Neither is `[SENSITIVE]`.
 
 ---
 
-## Images: Efterslægt Branch g, Checkpoint 3 (Children II, X)
+## Images: Efterslægt Branch g, Checkpoint 3 (Children II, X) — No Public Images
 
-No images stored from this checkpoint — both checked candidates were left unfiled.
-
-**Checked and deferred:** `image19.png` — a family living-room scene, an accordion player performing for what reads as an informal domestic audience, bearing a "PRØVE" (proof/sample) watermark from the scanning service. `image20.jpeg` — apparently the same young man, alone with his accordion, same watermark. Neither carries a caption or other content match to children "II." (Ernst Kristian Jørgen Kristensen Boe) or "X." (Ane Margrethe "Anna" Christensen Boe) or their own children as read in this checkpoint — no musician occupation or hobby is mentioned for anyone in either line. Left unfiled rather than guessed; may belong to branch g's remaining children ("III.," "VIII.") or elsewhere.
+Both images checked during this checkpoint (`image19.png`, `image20.jpeg`) were unmatched and are held in `restricted/media/` under the default-private-until-analysed rule.
 
 ---
 
@@ -127,53 +87,12 @@ No images stored from this checkpoint — both checked candidates were left unfi
 | File | KEJ's filename | Position | Type |
 |---|---|---|---|
 | image24.jpeg | Boe A65_NEW.jpg | Branch g child "III" (confirmed) | Photo, two children in a garden |
-| image25.jpeg | Boe B38_NEW.jpg | Branch g child "III" (confirmed) | Photo, four generations |
-| image22.jpeg | Boe B29B_NEW.jpg | Branch g child "III" (plausible) | Photo, young woman portrait |
-| image23.jpeg | Boe B23_NEW.jpg | Branch g child "III" (plausible) | Photo, wedding portrait |
-| image26.jpeg | (embedded under a Hopp-slægter folder path — see note) | Branch g child "III" (confirmed by family) | Photo, Hanne Boe and Knud Erik Jakobsen |
-| image27.png | (embedded under a Hopp-slægter folder path — see note) | Branch g child "III" (confirmed by family) | Photo, family group, August 1995 |
+
+**Moved to `restricted/media/`:** `image21.jpeg`, `image22.jpeg`, `image23.jpeg`, `image25.jpeg`, `image26.jpeg`, `image27.png`, `image28.jpeg`, `image29.jpeg`, `image30.jpeg` — confirmed or plausible living individuals, or unconfirmed identity. See `restricted/media-manifest.md`.
 
 ### image24.jpeg — Confirmed: Hanne and Carlo in the garden at Brunshåb
 
-A girl and a younger boy holding hands, standing in a garden in front of a brick wall — clothing and print style consistent with the mid-1950s. **Direct match** to the manuscript's own caption, "Hanne og Carlo i haven i Brunshåb" ("Hanne and Carlo in the garden in Brunshåb"), and the apparent ages (girl roughly 10-11, boy roughly 7-8) fit Hanne (b.1944) and Carlo (b.1947) well for a c.1954-55 photo, taken at the Brunshåb property where Meta and Peter Severin Nielsen lived. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption match] Individuals: `@I167@` (Hanne), `@I185@` (Carlo).
-
-### image25.jpeg — Confirmed: Four generations, Ottine/Meta/Hanne/Lotta
-
-A color photograph (faded to a magenta tone typical of 1960s-70s prints) of three women of clearly different generations — elderly, middle-aged, and young adult — the youngest holding a newborn. **Direct match** to the caption "4 generationer: Ottine, Meta og Hanne med Lotta" ("4 generations: Ottine, Meta, and Hanne with Lotta"). Ottine Boline Marie Pedersen (`@I38@`, b.1887) would have been ~79; Meta (`@I163@`, b.1918) ~48; Hanne (`@I167@`, b.1944) ~22, consistent with holding her newborn daughter Lotta Ann (`@I169@`, b.1966). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption match] Individuals: `@I38@`, `@I163@`, `@I167@`, `@I169@`.
-
-### image22.jpeg — Plausible: young Meta Kristine Kristensen Boe
-
-A close studio portrait of a young woman, 1930s hairstyle and collar. **Not confirmed**, but the era fits Meta's own young adulthood (she trained as a damefrisør, a profession with an obvious reason to keep a well-groomed portrait of herself) better than any other individual read in this checkpoint. `[UNVERIFIED: AI visual description, identity unconfirmed]`
-
-### image23.jpeg — Plausible: Meta and Peter Severin Nielsen's wedding
-
-A formal couple portrait: an older, balding groom in a dark suit with a boutonnière, and a younger bride in a dark dress (not white) holding a bouquet — a style consistent with a more modest 1940s wartime/postwar wedding, and with the bride not being a first-time teenage bride. Peter Severin Nielsen was a 48-year-old widower when he married the 28-year-old Meta in 1946; the apparent age gap and era fit this description well. **Not confirmed.** `[UNVERIFIED: AI visual description, identity unconfirmed]`
-
-### image29.jpeg — Unmatched: unknown couple, family suggests "Laurids"
-
-A wedding portrait: bride with upswept hair and a high-necked dress (not a traditional veil-and-crown), holding a large rose bouquet; groom in a dark suit with boutonnière and pocket square, visibly receding hairline and greying temples. **This entry originally stated the style as "1960s" — that was an unverified stylistic guess, not a documented date, and the human rightly pushed back on it (2026-08-06); no caption or date exists in the source to pin down the decade.** Checked and ruled out against Hanne (`@I167@`) and KEJ's (`@I168@`) own 1966 wedding — KEJ was 21 at the time, which doesn't fit the groom's apparent age here regardless of the exact decade. The human's mother has since suggested the groom might be "Laurids" — checked against all six Laurids/Laurits-named individuals in `tree.ged`; none fit well (see `grandfather-review/queue.md` item 14 for the full reasoning). `[UNVERIFIED: AI visual description, identity unconfirmed]`
-
-### image30.jpeg — Unmatched: unknown couple, family suggests "Gyda"
-
-A traditional wedding portrait: young groom in a dark suit with a boutonnière; bride in a full white gown with veil and floral crown, holding a long cascading bouquet. **This entry originally stated the style as "1940s" — also an unverified stylistic guess; white veil-and-crown weddings remained traditional in Denmark well into the 1970s, so style alone doesn't pin a decade.** The human's mother has suggested the bride might be "Gyda" — there is a genuine name match, **Anna Gyda Boll** (`@I208@`, b. 13 Aug 1952), whom the manuscript itself informally calls "Gyda," married to **Kaj Godsk Pedersen** (`@I209@`), tagdækker. No marriage date is recorded anywhere in the source for them, so the match can't be checked chronologically. See `grandfather-review/queue.md` item 15. `[UNVERIFIED: AI visual description + family name suggestion, identity unconfirmed]` Individuals (candidates, not confirmed): `@I208@`, `@I209@`.
-
-### image21.jpeg — Plausible (revised): Hans Kristian Kristensen Boe with baby sister Edith
-
-A sepia studio portrait of a boy of roughly 9-10 in a white shirt and tie, seated with a baby girl of roughly 1 in a patterned dress with a lace collar and a small cross pendant, both on the same chair. **Originally checked against Hanne (`@I167@`, b.1944) and Carlo (`@I185@`, b.1947) and ruled out** — their real age gap is 3 years, not the ~8-9 apparent here, and (on direct visual inspection, 2026-08-06) the sepia tone and dress/hairstyle read as early-1930s, a decade before either was born.
-
-**Revised hypothesis, human-prompted (2026-08-06):** Laurids Christensen Boe and Ottine Boline Marie Pedersen (`@F14@`) had 11 children born 1911-1930, not just Meta. The youngest, **Edith Kristensen Boe** (`@I122@`, b. 8 Aug 1930), fits the baby's apparent age and the photo's era far better. Candidate older brothers, by how closely their age at Edith's infancy (c. 1931) matches "9-10 years old":
-- **Hans Kristian Kristensen Boe** (`@I110@`, b. 11 Aug 1921) — would turn almost exactly 10 right around Edith's first birthday. Best fit.
-- **Karl Alfred Christensen Boe** (`@I102@`, b. 2 Feb 1920) — would be about 10-11 at the same time. Close second.
-
-**Still not confirmed** — birth-year math and visual style, no caption or direct source match. Queued in `grandfather-review/queue.md` item 11 for KEJ to confirm or rule out. `[UNVERIFIED: AI visual description + birth-year inference, identity unconfirmed]` Individuals (candidates, not confirmed): `@I110@`, `@I102@`, `@I122@`.
-
-### image26.jpeg — Confirmed by family: Hanne Boe and Knud Erik Jakobsen (KEJ)
-
-A photo of Hanne Boe (`@I167@`) and Knud Erik Jakobsen (`@I168@`) together — the manuscript's own author, and his former wife. **Not identified by this project's own visual inspection or the manuscript's captions** — this image was initially mis-sorted as belonging to KEJ's separate Hopp-slægten project, based solely on its embedded original file path ("...Hopp-slægter\Hopp A kapitel 1\...\07-d-IX-1 3.jpg"), and briefly stored outside this deep well as a result. The human corrected this directly (2026-08-06) and identified both people by name. The mismatch between the embedded folder path and the actual photo content is unexplained — possibly an incidental mixing of personal and project photos during KEJ's own scanning/filing — but the human's direct identification is authoritative here, over both the file metadata and any AI visual read. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06] Individuals: `@I167@`, `@I168@`. `[SENSITIVE]` — Knud Erik Jakobsen has no death date on record (manuscript's own author, presumed living).
-
-### image27.png — Confirmed by family: group photo, August 1995
-
-Seven people: Bruno Dølby (`@I170@`, standing), Gitte Boe (`@I174@`), Tommy Krogh (`@I175@`), Lotta Ann (`@I169@`), Cecilie Boe (`@I181@`, toddler), Nikolaj Boe (`@I177@`, young boy, standing), and Astrid Kirk (seated on the ground) — identified directly by the human (2026-08-06). Same original mis-sorting as `image26.jpeg` above, for the same reason (embedded Hopp-slægter folder path), corrected the same way. **Astrid Kirk is not currently modeled as an individual in `family-tree/tree.ged`** — her name is known but her relationship to the family (if any — she may be a friend rather than a relative) has not been confirmed, so no `FAMC`/`FAMS` link has been guessed. [VERIFIED: familieidentifikation, 2026-08-06] Individuals: `@I169@`, `@I170@`, `@I174@`, `@I175@`, `@I177@`, `@I181@`. `[SENSITIVE]` — all six identified Boe/Krogh/Dølby individuals are presumed living; treat this image accordingly if it's ever used outside this repo.
+A girl and a younger boy holding hands, standing in a garden in front of a brick wall — clothing and print style consistent with the mid-1950s. **Direct match** to the manuscript's own caption, "Hanne og Carlo i haven i Brunshåb" ("Hanne and Carlo in the garden in Brunshåb"), and the apparent ages (girl roughly 10-11, boy roughly 7-8) fit Hanne (b.1944) and Carlo (b.1947) well for a c.1954-55 photo, taken at the Brunshåb property where Meta and Peter Severin Nielsen lived. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption match] Individuals: `@I167@` (Hanne, d.2005), `@I185@` (Carlo, d.1962). Both confirmed deceased — stays public.
 
 ---
 
@@ -191,9 +110,11 @@ Checked `image35.jpeg` and `image36.png` while reading Chapter 2, expecting a J�
 | image36.png | (Word auto-alt-text, no KEJ filename) | Chapter 3 (confirmed) | Hand-drawn cadastral map, Vestermølle |
 | image37.png | (Word auto-alt-text, no KEJ filename) | Cross-chapter (confirmed, spans Kap.1-4 + Søgaard-slægten) | KEJ's own handwritten master pedigree chart |
 
+No people depicted in any of the three — maps and a hand-drawn chart. Stay public.
+
 ### image35.jpeg — Klitmøller / Vester Vandet map
 
-A period engraved map of the coastal area around Klitmøller, Øster Vandet, Vester Vandet, and Nors Sø — directly matching Chapter 3's own title and setting. No people depicted. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73 — direct place-name match] 
+A period engraved map of the coastal area around Klitmøller, Øster Vandet, Vester Vandet, and Nors Sø — directly matching Chapter 3's own title and setting. No people depicted. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.66-73 — direct place-name match]
 
 ### image36.png — Vestermølle cadastral map
 
@@ -215,7 +136,7 @@ A single hand-drawn wall-chart, "BOE-SLÆGTEN MORS/FUR," laying out four columns
 | image45.png | (Word auto-alt-text, no KEJ filename) | Degn-slægten Frammerslev/Fur (confirmed) | Hand-drawn pedigree chart |
 | image48.jpeg | (Word auto-alt-text, no KEJ filename) | Boe-slægter / Fyn-slægten Boe (confirmed) | Photo, commemorative stone |
 
-A significant discovery, documented in full in `projects/archive-digitization/context/boe-slaegten-anetavler-kilder-extraction.md`: the Søgaard-slægten, Lundgaard-slægten/Fur-slægter, and Degn-slægten Frammerslev/Fur appendices exist **only** as these hand-drawn pedigree charts — the plain-text extraction has no prose content for them at all. `image38`/`image39` gave Bodil Kirstine Iversdatter's (`@I26@`) previously-placeholder ancestry; `image40` and `image45` together gave Mette Jensen's (`@I28@`) previously cross-referenced-but-unread ancestry, closing a loop that had been open since Chapter 1.
+No people depicted in any of these — hand-drawn ancestor charts and a monument. Stay public. A significant discovery, documented in full in `projects/archive-digitization/context/boe-slaegten-anetavler-kilder-extraction.md`: the Søgaard-slægten, Lundgaard-slægten/Fur-slægter, and Degn-slægten Frammerslev/Fur appendices exist **only** as these hand-drawn pedigree charts — the plain-text extraction has no prose content for them at all. `image38`/`image39` gave Bodil Kirstine Iversdatter's (`@I26@`) previously-placeholder ancestry; `image40` and `image45` together gave Mette Jensen's (`@I28@`) previously cross-referenced-but-unread ancestry, closing a loop that had been open since Chapter 1.
 
 ### image38.png / image39.png — Søgaard-slægten i Åsted
 
@@ -223,57 +144,27 @@ Two pages of the same hand-drawn ahnentafel-style chart, directly confirmed by n
 
 ### image40.png — Lundgaard-slægten Fur (direct-line page)
 
-A multi-column hand-drawn chart; only the direct line to Margrethe Jensdatter (`@I350@`) and Jens Christian Thorsen (`@I351@`) was mined — the chart's other columns (labeled KAP1A-KAP4B) extend several more 17th-century generations back and are not individually filed here, per the scope decision documented in the extraction notes. Three further pages of the same chart (`image41`-`image44`, viewed but not stored) confirmed this is a large, well-organized ahnentafel going back to a "Gravers Thomasen," documented from 1590.
+A multi-column hand-drawn chart; only the direct line to Margrethe Jensdatter (`@I350@`) and Jens Christian Thorsen (`@I351@`) was mined — the chart's other columns (labeled KAP1A-KAP4B) extend several more 17th-century generations back and are not individually filed here, per the scope decision documented in the extraction notes. Three further pages of the same chart (`image41`-`image44`, see below) confirmed this is a large, well-organized ahnentafel going back to a "Gravers Thomasen," documented from 1590.
 
 ### image45.png — Degn-slægten Frammerslev/Fur (direct-line page)
 
-The cleanest of the deep pedigree charts — directly closes the loop from Jens Christian Thorsen back through four more generations to "Anders Sørensen (Degn)," and forward again to Mette Jensen and Christen Pedersen Boe, already in the tree. Two further pages (`image46`, `image47`, viewed but not stored) extend two side-branches back to the 1620s-1630s, same scope decision.
+The cleanest of the deep pedigree charts — directly closes the loop from Jens Christian Thorsen back through four more generations to "Anders Sørensen (Degn)," and forward again to Mette Jensen and Christen Pedersen Boe, already in the tree. Two further pages (`image46`, `image47`, see below) extend two side-branches back to the 1620s-1630s, same scope decision.
 
 ### image48.jpeg — Helnæs commemorative stone (Fyn-slægten Boe)
 
 A photograph of a granite stone reading "FRA DENNE GAARD UDGIK DEN VESTFYENSKE BOE-SLÆGT" ("From this farm emerged the West Funen Boe family"), tied to the manuscript's own "Fyn-slægten Boe" comparative section — an explicitly *unconnected* Boe family (per KEJ's own conclusion) that this project does not model in `tree.ged`. Stored as illustrative context for that discussion. [VERIFIED: boe-slaegten-fra-mors-og-fur, Boe-slægter p.89 — direct content match to the section's own subject]
 
-**Not stored, confirmed relevant but out of scope:** `image41.png`-`image44.png` and `image46.png`-`image47.png` — further pages of the Lundgaard-slægten and Degn-slægten charts, extending several more generations of 17th-century ancestors not modeled in `tree.ged` (see scope decision above). All 48 real embedded images in the manuscript have now been checked at least once.
-
 ---
 
-## Images: Efterslægt Branch g, Checkpoint 5 (Child VIII — Karen Kristensen Boe / the Boll family)
+## Images: Efterslægt Branch g, Checkpoint 5 (Child VIII — Karen Kristensen Boe / the Boll family) — Moved to Restricted
 
-| File | KEJ's filename | Position | Type |
-|---|---|---|---|
-| image31.jpeg | Boe A100_NEW.jpg | Branch g child "VIII" (confirmed) | Photo, six children group portrait |
-
-### image31.jpeg — Confirmed: the six eldest Boll children, c.1962
-
-A studio portrait of six children, ranging from a toddler of roughly 2-3 to a teenager of roughly 14, wearing formal 1960s clothing (bow ties, suspenders, a pearl necklace). **Direct match** to the manuscript's own caption, "o. 1962 Siddende fra venstre: Birgit, Henrik, Jan og Tage. Stående fra venstre: Gyda og Karsten" ("c.1962, seated left to right: Birgit, Henrik, Jan, and Tage. Standing left to right: Gyda and Karsten"). The six named children — Svend Tage (b.1948), Birgit (b.1949), Anna Gyda (b.1952), Karsten (b.1955), Anders Henrik (b.1957), Jan Laurids (b.1959) — span exactly the age range visible in the photo; the seventh and youngest sibling, John Harald, wasn't born until 1965 and is absent, consistent with the c.1962 date. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption match] Individuals: `@I188@`, `@I197@`, `@I208@`, `@I224@`, `@I227@`, `@I232@`.
-
-**Checked when this checkpoint was read; now stored below rather than left unfiled** — see "Unmatched / Unclassified Images," further down: `image32.jpeg` — a 1950s studio portrait of a young woman with glasses, no specific textual tie found to this checkpoint. `image33.jpeg` — a boy of about 5-6 holding an infant on a couch; plausibly two Boll siblings, but no confident pairing could be made among several possible sibling combinations. `image34.png` — a formal dinner-party group photo, no caption or contextual match found.
-
----
-
-## Unmatched / Unclassified Images — Extracted and Stored for Future Analysis
-
-**Added 2026-08-06, after the manuscript's own read-through was complete.** Every image checked during this project was described in this manifest at the time, but the ones that never matched a specific person or section had — until now — only that text description; the image data itself stayed inside the original `.docx`, reachable only by re-extracting it. That's a real gap against this project's own stated future use for these images (a visual presentation of the research, and eventually more advanced analysis of the photos themselves) — a photo nobody can see isn't useful for either. All fourteen images previously left unfiled are now extracted and stored here instead, so they're directly accessible without redoing the extraction. None of these are matched to a specific individual; none carry `[VERIFIED]` identification claims. Cross-referenced by their original checkpoint sections above.
-
-| File | First checked during | Description |
-|---|---|---|
-| `image7.jpeg` | Efterslægt branches a/c/d/f/h/i and b | c.1920s-30s outdoor photo of a young couple. No match found in any branch read so far. |
-| `image10.jpeg` | Efterslægt branch e | A streetscape of brick townhouses, no people. Guessed at tying to branch g's "Boegade" but never confirmed once branch g was actually read. |
-| `image12.jpeg` | Branch g checkpoint 1 | Indoor domestic scene. No match among children IV/VI/VII. |
-| `image13.jpeg` | Branch g checkpoint 1 | Period wedding portrait, 1920s style. No match among children IV/VI/VII. |
-| `image17.jpeg` | Branch g checkpoint 2 | Young man's formal portrait, 1920s-30s style. No caption or contextual match found. |
-| `image19.png` | Branch g checkpoint 3 | Family living-room scene, accordion player, "PRØVE" watermark. No match among children II/X. |
-| `image20.jpeg` | Branch g checkpoint 3 | The same young man, solo, with his accordion. Same watermark, same non-match. |
-| `image28.jpeg` | Branch g checkpoint 4 | Young man, round glasses, 1930s-40s style. No specific tie found. |
-| `image32.jpeg` | Branch g checkpoint 5 | 1950s studio portrait, young woman with glasses. No specific tie found. |
-| `image33.jpeg` | Branch g checkpoint 5 | Boy of ~5-6 holding an infant on a couch. Plausibly two Boll siblings, no confident pairing made. |
-| `image34.png` | Branch g checkpoint 5 | Formal dinner-party group photo. No caption or contextual match found. |
+`image31.jpeg` (five of six depicted children are presumed living) plus three unmatched images (`image32.jpeg`, `image33.jpeg`, `image34.png`) — all in `restricted/media/`. See `restricted/media-manifest.md`.
 
 ---
 
 ## Anetavler Deep-Chart Pages — Extracted and Stored, Not Individually Mined
 
-**Added 2026-08-06.** Six further pages of the Lundgaard-slægten/Fur-slægter and Degn-slægten Frammerslev/Fur pedigree charts, confirmed relevant to those appendices but deliberately not transcribed into `family-tree/tree.ged` — see the scope decision in `projects/archive-digitization/context/boe-slaegten-anetavler-kilder-extraction.md`. Extracting them now makes "available for future deeper mining" actually true, rather than only true if someone remembers to re-open the `.docx`.
+**Added 2026-08-06.** Six further pages of the Lundgaard-slægten/Fur-slægter and Degn-slægten Frammerslev/Fur pedigree charts, confirmed relevant to those appendices but deliberately not transcribed into `family-tree/tree.ged` — see the scope decision in `projects/archive-digitization/context/boe-slaegten-anetavler-kilder-extraction.md`. No people depicted — hand-drawn ancestor charts only. Stay public.
 
 | File | Appendix | Content |
 |---|---|---|
@@ -288,11 +179,7 @@ A studio portrait of six children, ranging from a toddler of roughly 2-3 to a te
 
 ## Sensitivity
 
-The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` flag — everyone in them died well over 70 years ago. That changes starting with Efterslægt: `image8`/`image9` above don't currently need the flag either (no confirmed identity, and if image8's guess is right, a 1910 marriage is not recent), but per the branch-b text extraction, several individuals in this branch (Poul and Henning Christensen Boe and their families) have no death dates and are treated as potentially living — any future image confirmed to depict them would need `[SENSITIVE]`. `image24`/`image25` (branch g checkpoint 4) depict Hanne (d.2005) and, in image25, Meta and Ottine (both long deceased) plus baby Lotta — Lotta Ann (Jakobsen) Boe is presumed living, but as an infant in the photo is not identifiable as an adult from it, so no flag needed on the image itself; her own `tree.ged` record carries `[SENSITIVE]`.
-
-**On the "Unmatched / Unclassified" batch (added 2026-08-06):** none of these fourteen images carry a `[SENSITIVE]` flag today because none carry a confirmed identity — that's a statement about certainty, not about safety. Several were checked precisely because their style/era placed them in the same checkpoints as branch g's undated, presumed-living descendants (`image17`, `image19`-`image20`, `image28`-`image30`, `image32`-`image34` all come from checkpoints 2-5, where `[SENSITIVE]` is the default in the text). If any of these is later matched to a specific person — whether by a human, or by any future automated method — that match should get the same `[SENSITIVE]` treatment as every other living-descendant fact in this repo before being used or shared further.
-
-`image21.jpeg` (revised above, 2026-08-06) is the one exception with named candidates rather than no identity at all. Karl Alfred Christensen Boe and Edith Kristensen Boe both carry a confirmed (if undated) `DEAT` in `tree.ged`. Hans Kristian Kristensen Boe has no `DEAT` tag at all — but he was born 1921, making him 105 in 2026, so treated as certainly deceased on age alone rather than `[SENSITIVE]`; this is a deliberate exception to the "no DEAT tag defaults to potentially living" convention used elsewhere in this repo, not an oversight.
+As of 2026-08-08, this manifest only lists images confirmed to depict no presumed-living person — 21 of the 47 stored images. The other 26 (any confirmed or plausible living individual, plus everything not yet fully identified) live in `restricted/media/`, a private companion repo — see `Architecture.md` §3 and `restricted/media-manifest.md`. This replaces the earlier approach of flagging individual images `[SENSITIVE]` in place; that convention is retired for media specifically now that there's an actual access boundary to move the content behind instead. `family-tree/tree.ged` still uses `[SENSITIVE]` for individual records, per `ROUTING.md`.
 
 ---
 
@@ -313,3 +200,4 @@ The six images tied to Aneoversigt/generations "02"-"05" need no `[SENSITIVE]` f
 | 1.10 | 2026-08-06 | **Correction:** image26/image27 do NOT belong to Hopp-slægten — the human identified both directly: image26 shows Hanne Boe and Knud Erik Jakobsen (the manuscript's own author) together; image27 is a family group photo, August 1995, with Bruno Dølby, Gitte Boe, Tommy Krogh, Lotta Ann, Cecilie Boe, Nikolaj Boe, and Astrid Kirk (not yet linked in `tree.ged`). Both moved back into this deep well's own media folder; the Hopp-slægten preview folder created for them has been removed. 47 of 48 images now physically stored — only the confirmed duplicate, image18, remains unstored. |
 | 1.11 | 2026-08-06 | Revised `image21.jpeg`'s entry after direct visual inspection (prompted by the human questioning the original age-gap reasoning): moved out of the "unmatched" batch table into its own write-up. Original guess (Hanne + Carlo) ruled out on both age gap and visual era (photo reads as early-1930s). New hypothesis, human-prompted: one of Meta's older brothers (Hans Kristian or Karl Alfred Christensen Boe) holding baby sister Edith Kristensen Boe (b. Aug 1930), based on birth-year fit. Still unconfirmed — queued in `grandfather-review/queue.md` item 11 for KEJ. |
 | 1.12 | 2026-08-06 | Revised `image29.jpeg` and `image30.jpeg`'s entries, moved out of the "unmatched" batch table into their own write-ups. Corrected an overconfident dating claim on both (the "1960s"/"1940s" style labels were unverified guesses, not documented facts — the human rightly pushed back on the image29 one). Recorded two family-suggested name candidates: "Laurids" for image29 (checked against all Laurids/Laurits individuals in `tree.ged`, no good fit found) and "Gyda" for image30 (a genuine name match, Anna Gyda Boll, but no marriage date exists anywhere in the source to verify against). Both queued in `grandfather-review/queue.md` items 14-15. |
+| 1.13 | 2026-08-08 | **Major split:** 26 of 47 images (any confirmed/plausible living individual, plus everything not yet fully identified) moved to `restricted/media/` — a private companion repo — per the human's rule that even one living person present, or any unanalysed image, defaults to restricted. Full analysis preserved in the new `restricted/media-manifest.md`, not lost. This manifest now only lists the 21 images confirmed safe to be fully public. Retired per-image `[SENSITIVE]` flagging in favor of the actual access boundary. |
