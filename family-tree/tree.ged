@@ -3798,4 +3798,418 @@
 1 WIFE @I362@
 1 CHIL @I363@
 1 NOTE Ikke omtalt i manuskriptet selv — Astrid Kirks eksistens og forbindelse til familien er oplyst direkte af familien (2026-08-06), ikke fundet i boe-slaegten-fra-mors-og-fur. Forholdet mellem I168 og I362 opstod efter skilsmissen fra Hanne Boe (F64), ikke sideløbende med ægteskabet — bekræftet direkte 2026-08-08. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-08]
+0 @I364@ INDI
+1 NAME Knud Danielsen /Hopp/
+1 SEX M
+1 BIRT
+2 DATE ABT 1640
+1 DEAT
+2 DATE 1723
+2 PLAC Stouby, Grinderslev sogn, Danmark
+1 OCCU Herredsfoged i Salling Nørre Herred 1673-87; herredsskriver samme sted 1687-1723
+1 FAMS @F121@
+1 NOTE Generation "01" i Hopp-slægtens Kapitel 1-oversigt. Humleskjoldet og Hopp-navnet peger ifølge KEJ's egen manuskripttekst på tysk eller nederlandsk afstamning — "Hopp"/"Hoppen" er den mellem-/nedertyske form for "Hopfen" (humle). Slægtsnavnet Hoppener kendes i Danmark 1377-1452 i Flensborg/Slesvig. [VERIFIED: hopp-slaegten, 01-oversigt]
+1 NOTE Kun de børn, der er navngivet i det materiale, denne session har i hånden, er modelleret her: Daniel (=01-a.), Peder (=01-b.), Niels Jørgen (=01-c.), Knud (=01-f.). Et fuldstændigt børneoverblik er ikke fundet i hverken fil "01" eller "01C"'s egen gengivelse af oversigten — børn "d." og "e." (og evt. flere) er ikke bekræftet at eksistere eller ej. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I365@ INDI
+1 NAME Birthe /Pedersdatter/
+1 SEX F
+1 DEAT
+2 DATE AFT 1725
+1 FAMS @F121@
+1 NOTE Ingen fødselsdato angivet i det modtagne materiale. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @F121@ FAM
+1 HUSB @I364@
+1 WIFE @I365@
+1 MARR
+2 DATE ABT 1680
+1 CHIL @I366@
+1 CHIL @I368@
+1 CHIL @I386@
+1 CHIL @I384@
+1 NOTE Kun de børn, der har egne afsnit eller nævnes ved navn i det modtagne materiale, er medtaget — se note på I364. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I366@ INDI
+1 NAME Daniel Knudsen /Hopp/
+1 SEX M
+1 BIRT
+2 DATE ABT 1681
+1 DEAT
+2 DATE BET 1730 AND 1731
+1 OCCU Ridefoged på Astrup m.m.
+1 FAMC @F121@
+1 FAMS @F122@
+1 NOTE Generation "02" (= 01-a.) i Kapitel 1-oversigten. Kun kort nævnt her — egen detaljeret biografi ikke i hånden endnu (ville formentlig være i et separat afsnit, ikke modtaget). [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I367@ INDI
+1 NAME Bodil /Nielsdatter/
+1 SEX F
+1 BIRT
+2 DATE 1676
+1 DEAT
+2 DATE AFT 1731
+1 FAMS @F122@
+0 @F122@ FAM
+1 HUSB @I366@
+1 WIFE @I367@
+1 MARR
+2 DATE 1708
+2 PLAC Sevel, Danmark
+1 CHIL @I369@
+1 NOTE [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I368@ INDI
+1 NAME Peder /Knudsen/
+1 SEX M
+1 FAMC @F121@
+1 NOTE Generation "01-b." Kun nævnt i forbifarten i 01C's tekst ("Peder Knudsen fra Grinderslevkloster"), ingen datoer fundet i det modtagne materiale. [VERIFIED: hopp-slaegten, 01C]
+0 @I369@ INDI
+1 NAME Niels Danielsen /Hopp/
+1 SEX M
+1 BIRT
+2 DATE 1707
+1 DEAT
+2 DATE 1775
+1 OCCU Degn i Vedersø 1733-1775
+1 FAMC @F122@
+1 FAMS @F123@
+1 NOTE Generation "03" (= 02-a.) i Kapitel 1-oversigten. Egen detaljeret biografi ikke i hånden endnu. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I370@ INDI
+1 NAME Christence /Thøgersdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1702
+1 FAMS @F123@
+1 NOTE Tilnavn "(KUSK)" angivet i kilden ved siden af navnet — betydning ikke afklaret her (evt. familietilnavn), ikke undersøgt nærmere. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @F123@ FAM
+1 HUSB @I369@
+1 WIFE @I370@
+1 MARR
+2 DATE 1732
+2 PLAC Estvad, Danmark
+1 CHIL @I371@
+1 NOTE [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I371@ INDI
+1 NAME Daniel Nielsen /Hopp/
+1 SEX M
+1 BIRT
+2 DATE 1732
+1 DEAT
+2 DATE 1800
+1 OCCU Degn i Vedersø 1775-1800
+1 FAMC @F123@
+1 FAMS @F124@
+1 NOTE Generation "04" (= 03-a.) i Kapitel 1-oversigten. Egen detaljeret biografi ikke i hånden endnu. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I372@ INDI
+1 NAME Mette Nielsdatter /Bjerg/
+1 SEX F
+1 BIRT
+2 DATE ABT 1753
+1 DEAT
+2 DATE 1793
+1 FAMS @F124@
+0 @F124@ FAM
+1 HUSB @I371@
+1 WIFE @I372@
+1 MARR
+2 DATE 1776
+2 PLAC Bøvling, Danmark
+1 CHIL @I373@
+1 NOTE [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I373@ INDI
+1 NAME Nicolai Danielsen /Hopp/
+1 SEX M
+1 BIRT
+2 DATE 1780
+1 DEAT
+2 DATE 1837
+1 OCCU Husmand m.m. i Selde
+1 FAMC @F124@
+1 FAMS @F125@
+1 NOTE Generation "05" (= 04-c.) i Kapitel 1-oversigten. Egen detaljeret biografi ikke i hånden endnu. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I374@ INDI
+1 NAME Anne /Christensdatter/
+1 SEX F
+1 BIRT
+2 DATE 1786
+1 DEAT
+2 DATE 1837
+1 FAMS @F125@
+0 @F125@ FAM
+1 HUSB @I373@
+1 WIFE @I374@
+1 MARR
+2 DATE 1809
+2 PLAC Thorum, Danmark
+1 CHIL @I375@
+1 NOTE [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I375@ INDI
+1 NAME Jacob Daniel Nicolaisen /Hopp/
+1 SEX M
+1 BIRT
+2 DATE 1818
+1 DEAT
+2 DATE 1870
+1 OCCU Husmand m.m. i Otting
+1 FAMC @F125@
+1 FAMS @F126@
+1 NOTE Generation "06" (= 05-d.) i Kapitel 1-oversigten. Egen detaljeret biografi ikke i hånden endnu — kilden henviser videre til "Vistislægten" (ikke undersøgt). [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I376@ INDI
+1 NAME Kirstine /Sørensdatter/
+1 SEX F
+1 BIRT
+2 DATE 1821
+1 DEAT
+2 DATE 1910
+1 FAMS @F126@
+0 @F126@ FAM
+1 HUSB @I375@
+1 WIFE @I376@
+1 MARR
+2 DATE 1839
+2 PLAC Otting, Danmark
+1 CHIL @I377@
+1 CHIL @I378@
+1 CHIL @I379@
+1 CHIL @I380@
+1 CHIL @I381@
+1 CHIL @I382@
+1 CHIL @I383@
+1 NOTE 13 børn i alt ifølge kilden, heraf kun 7 med kendt efterslægt ("06-b." til "06-l.", spring i bogstavrækken) — de resterende 6 er ikke navngivet i det modtagne materiale og derfor ikke modelleret her. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I377@ INDI
+1 NAME Lauritz /Jacobsen/
+1 SEX M
+1 BIRT
+2 DATE 1841
+1 DEAT
+2 DATE 1920
+1 FAMC @F126@
+1 NOTE Generation "07" (= 06-b.), kaldet "(Salling)". Har sit eget afsnit i Hopp-slægten (kapitel-item "07" i intake-manifest.md §3) — ikke modtaget endnu, kun denne oversigtslinje i hånden. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I378@ INDI
+1 NAME Andreas /Jacobsen/
+1 SEX M
+1 BIRT
+2 DATE 1844
+1 DEAT
+2 DATE ABT 1938
+1 FAMC @F126@
+1 NOTE Generation "08" (= 06-c.). Egen fil ikke modtaget endnu. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I379@ INDI
+1 NAME Johannes /Jacobsen/
+1 SEX M
+1 BIRT
+2 DATE 1848
+1 DEAT
+2 DATE 1932
+1 FAMC @F126@
+1 NOTE Generation "09" (= 06-e.). Egen fil ikke modtaget endnu. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I380@ INDI
+1 NAME Ane Kirstine /Jakobsen/
+1 SEX F
+1 BIRT
+2 DATE 1851
+1 FAMC @F126@
+1 NOTE Generation "10" (= 06-g.). Dødsår kilden angiver som "1916/17" — ikke entydigt, DEAT-feltet bevidst udeladt frem for at gætte. Egen fil ikke modtaget endnu. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I381@ INDI
+1 NAME Søren /Jacobsen/
+1 SEX M
+1 BIRT
+2 DATE 1854
+1 FAMC @F126@
+1 NOTE Generation "11" (= 06-h.). Intet dødsår angivet i kilden. Egen fil ikke modtaget endnu. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I382@ INDI
+1 NAME Jens Christian /Jacobsen/
+1 SEX M
+1 BIRT
+2 DATE 1857
+1 DEAT
+2 DATE 1945
+1 FAMC @F126@
+1 NOTE Generation "12" (= 06-j.). Egen fil ikke modtaget endnu. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I383@ INDI
+1 NAME Niels Berndt /Jacobsen/
+1 SEX M
+1 BIRT
+2 DATE 1862
+1 DEAT
+2 DATE 1927
+1 FAMC @F126@
+1 NOTE Generation "13" (= 06-l.). Egen fil ikke modtaget endnu. [VERIFIED: hopp-slaegten, 01-oversigt]
+0 @I384@ INDI
+1 NAME Knud Knudsen /Hopp/
+1 SEX M
+1 BIRT
+2 DATE 1687
+1 DEAT
+2 DATE 1762
+1 OCCU Sognedegn i Thise 1726-1762
+1 FAMC @F121@
+1 FAMS @F127@
+1 NOTE Generation "01-f." KEJ's egen fil "01F" (91 sider) er allerede modtaget og gemt (`library/deep-wells/hopp-slaegten/01f-knud-knudsen-hopp-d1762.doc`), men bevidst ikke læst endnu — planlagt som Fase 2 (se `projects/archive-digitization/TODO.md`). Oplysningerne her stammer i stedet fra en ekstern sekundærkilde som stopgab, IKKE fra KEJ's egen primærkilde — skal bekræftes/erstattes, når 01F læses. [UNVERIFIED: ekstern-sekundærkilde — se projects/archive-digitization/context/external-source-hopp-herredsfoged.md, afventer 01F]
+0 @I385@ INDI
+1 NAME Else /Pedersdatter/
+1 SEX F
+1 DEAT
+2 DATE 1769
+1 FAMS @F127@
+1 NOTE Fra samme eksterne sekundærkilde som I384 — ikke bekræftet af KEJ's egen fil endnu. [UNVERIFIED: ekstern-sekundærkilde — se projects/archive-digitization/context/external-source-hopp-herredsfoged.md, afventer 01F]
+0 @F127@ FAM
+1 HUSB @I384@
+1 WIFE @I385@
+1 NOTE 6 børn ifølge den eksterne sekundærkilde, ikke navngivet dér — afventer Fase 2 (01F selv). [UNVERIFIED: ekstern-sekundærkilde — se projects/archive-digitization/context/external-source-hopp-herredsfoged.md, afventer 01F]
+0 @I386@ INDI
+1 NAME Niels Jørgen Knudsen /Hopp/
+1 SEX M
+1 BIRT
+2 DATE 1685
+1 DEAT
+2 DATE 8 JAN 1770
+2 PLAC Hjerk, Danmark
+1 OCCU Sognedegn i Hjerk-Harre 1710-1770 (60 år)
+1 FAMC @F121@
+1 FAMS @F128@
+1 NOTE Generation "01-c." Begravet 17.1.1770 i Hjerk, angivet som 85 år gammel ved døden. Afløstes af dattersønnen Christian Nicolai Hjardemaal som degn og skoleholder i Hjerk-Harre 17.3.1770. Havde ingen degnebolig, boede i fæstehus i Hjerk, fik o.1724 én tønde hartkorn i fæste i Harre; en degnebolig blev opført 1740 efter fundats af 21.7.1740 (Ole von Lassen til Bustrup og ritmester Raun, Harregaard). Ofte pengemangel — 1743 svarede han kun halv kopskat pga. fattigdom; skifte 1770 viser formue og gæld gik lige op, intet at arve til de 5 efterlevende børn. [VERIFIED: hopp-slaegten, 01C]
+1 NOTE Degnens navnetræk fandtes tidligere i Hjerk kirkes kordør: "NJKH d 16 Juny 1711". [VERIFIED: hopp-slaegten, 01C]
+0 @I387@ INDI
+1 NAME Helle /Iversdatter/
+1 SEX F
+1 DEAT
+2 DATE 28 OCT 1771
+2 PLAC Hjerk, Danmark
+1 FAMS @F128@
+1 NOTE Trolovet med Niels Jørgen Knudsen Hopp 27.6.1713 i hendes moders hus i Hjerk, i overværelse af hans far Knud Danielsen (=01) og bror Daniel Knudsen (=01-a.) med hustruer. Hendes mor Dorthe blev begravet 25.3.1727, angivet "83 aar gl." [VERIFIED: hopp-slaegten, 01C]
+0 @F128@ FAM
+1 HUSB @I386@
+1 WIFE @I387@
+1 MARR
+2 DATE 30 JUL 1713
+2 PLAC Hjerk, Danmark
+1 CHIL @I388@
+1 CHIL @I390@
+1 CHIL @I391@
+1 CHIL @I394@
+1 CHIL @I396@
+1 CHIL @I397@
+1 NOTE 6 børn ("a."-"f."). Kun generation "a."-"f." selv er modelleret her — deres egne børn (angivet med romertal I., II. osv. i kilden) er IKKE modelleret i denne omgang; kilden går videre i dybden for hver af de 6 (mindst én generation mere, muligvis flere), et omfang på linje med hele Boe-slægten-manuskriptet. Se session-log for den reviderede fase-plan. [VERIFIED: hopp-slaegten, 01C]
+0 @I388@ INDI
+1 NAME Dorthe Nielsdatter /Hopp/
+1 SEX F
+1 BIRT
+2 DATE 1715
+2 PLAC Hjerk, Danmark
+1 DEAT
+2 DATE AFT 1780
+1 FAMC @F128@
+1 FAMS @F129@
+1 NOTE Barn "a." Døbt 8.9.1715 i Hjerk. Faddere ved dåben: farfar Knud Danielsen (=01), farbrødre Daniel Knudsen (=01-a.) og Peder Knudsen (=01-b.) samt deres koner. [VERIFIED: hopp-slaegten, 01C]
+1 NOTE Trolovet 20.3.1739, viet 10.6.1739 i Harre. Boede 1756 i Bajlum, 1780 hos sønnen i Hjerk. Fik 5 børn ("I."-"V."), ikke modelleret her — se note på F128. [VERIFIED: hopp-slaegten, 01C]
+0 @I389@ INDI
+1 NAME Nicolaj Pedersen /Hjardemaal/
+1 SEX M
+1 BIRT
+2 DATE 26 DEC 1702
+2 PLAC Vrå, Danmark
+1 DEAT
+2 DATE 3 NOV 1749
+2 PLAC Thorum, Danmark
+1 OCCU Degn i Thorum 1738-49 (kaldet af grev Holch Schach Vittinghoff til Vrå og Jungetgård)
+1 FAMS @F129@
+1 NOTE Søn af sognepræst Peder Christensen Hjardemaal og Ane Catrine Junge (1671-1709); faderen gift 2. gang med Maren Olufsdatter (1672-1743). Bror til Christian Pedersen Hjardemaal, degn i Selde 1742-56. Var 1723 "studiosus" på latinskole i København. Skifte forseglet 27.10.1749, registreret 24.11. — efterlod 5 børn. [VERIFIED: hopp-slaegten, 01C]
+0 @F129@ FAM
+1 HUSB @I389@
+1 WIFE @I388@
+1 MARR
+2 DATE 10 JUN 1739
+2 PLAC Harre, Danmark
+1 NOTE Trolovet 20.3.1739. Forlovere: Hr. Raun, Hr. Jens i Junget, Hr. Thomas Grønbek af Roslev m.fl. [VERIFIED: hopp-slaegten, 01C]
+0 @I390@ INDI
+1 NAME Ove Nielsen /Hopp/
+1 SEX M
+1 BIRT
+2 DATE 1717
+2 PLAC Hjerk, Danmark
+1 FAMC @F128@
+1 NOTE Barn "b." Døbt 1.11.1717 i Hjerk. 1748 fadder hos søsteren "a." i Thorum. Boede 1770 i København. "Efterslægt p.t. ukendt" — ingen kendte børn i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I391@ INDI
+1 NAME Berthe Nielsdatter /Hopp/
+1 SEX F
+1 BIRT
+2 DATE ABT 1721
+2 PLAC Hjerk, Danmark
+1 DEAT
+2 DATE 1798
+2 PLAC Selde, Danmark
+1 FAMC @F128@
+1 FAMS @F130@
+1 FAMS @F131@
+1 NOTE Barn "c." Døbt 1.1.1721 i Hjerk — kildens egen tekst har fødselsåret "1770" ét sted, hvilket er kronologisk umuligt (efter hendes egne børns fødsel) og læses her som en oplagt skrivefejl for dåbsåret 1721 (samme slags encifret/tocifret transskriptionsartefakt som andre steder i dette arkiv), ikke som en reel uoverensstemmelse i selve kilden. [VERIFIED: hopp-slaegten, 01C]
+1 NOTE Gift 1. gang o.1750 i Selde med Christen Christensen Wilstrup, ladefoged på Kjeldgård (død 1758 i Selde). Gift 2. gang med Anders Lauritzen Væver. Fik i alt 6 børn ("I."-"VI.") på tværs af de to ægteskaber, ikke modelleret her. Død 1798 i Selde, 80 år gammel. [VERIFIED: hopp-slaegten, 01C]
+0 @I392@ INDI
+1 NAME Christen Christensen /Wilstrup/
+1 SEX M
+1 BIRT
+2 DATE ABT 1700
+1 DEAT
+2 DATE 1758
+2 PLAC Selde, Danmark
+1 OCCU Ladefoged på Kjeldgård
+1 FAMS @F130@
+0 @F130@ FAM
+1 HUSB @I392@
+1 WIFE @I391@
+1 MARR
+2 DATE ABT 1750
+2 PLAC Selde, Danmark
+1 NOTE Berthe Nielsdatter Hopps 1. ægteskab. [VERIFIED: hopp-slaegten, 01C]
+0 @I393@ INDI
+1 NAME Anders Lauritzen /Væver/
+1 SEX M
+1 BIRT
+2 DATE ABT 1708
+1 FAMS @F131@
+0 @F131@ FAM
+1 HUSB @I393@
+1 WIFE @I391@
+1 NOTE Berthe Nielsdatter Hopps 2. ægteskab. Dato ikke angivet i kilden. [VERIFIED: hopp-slaegten, 01C]
+0 @I394@ INDI
+1 NAME Knud Nielsen /Hopp/
+1 SEX M
+1 BIRT
+2 DATE 1724
+2 PLAC Hjerk, Danmark
+1 DEAT
+2 DATE 31 JUL 1781
+1 OCCU Degn i Oddense-Otting fra 1749
+1 FAMC @F128@
+1 FAMS @F132@
+1 NOTE Barn "d." Døbt 7.5.1724 i Hjerk. Fik 10 børn ("I."-"X."), ikke modelleret her. [VERIFIED: hopp-slaegten, 01C]
+0 @I395@ INDI
+1 NAME Anne /Nielsdatter/
+1 SEX F
+1 FAMS @F132@
+0 @F132@ FAM
+1 HUSB @I394@
+1 WIFE @I395@
+1 MARR
+2 DATE 1754
+2 PLAC Selde, Danmark
+1 NOTE [VERIFIED: hopp-slaegten, 01C]
+0 @I396@ INDI
+1 NAME Anne Nielsdatter /Hopp/
+1 SEX F
+1 BIRT
+2 DATE 1726
+2 PLAC Hjerk, Danmark
+1 DEAT
+2 DATE 1726
+2 PLAC Harre, Danmark
+1 FAMC @F128@
+1 NOTE Barn "e." Døbt 25.3.1726 i Hjerk. Død samme år som spæd, begravet i Harre "Fest 2. Pentecost" — 10 uger gammel. [VERIFIED: hopp-slaegten, 01C]
+0 @I397@ INDI
+1 NAME Maren Norup Nielsdatter /Hopp/
+1 SEX F
+1 BIRT
+2 DATE 1727
+2 PLAC Hjerk, Danmark
+1 DEAT
+2 DATE 28 MAR 1813
+2 PLAC Harregård, Danmark
+1 FAMC @F128@
+1 NOTE Barn "f." Døbt 3.9.1727 i Hjerk. Ugift ved sin død. [VERIFIED: hopp-slaegten, 01C]
 0 TRLR

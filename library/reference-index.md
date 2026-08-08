@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.19 | 2026-08-08 | Production
+Version 1.20 | 2026-08-08 | Production
 
 ---
 
@@ -101,7 +101,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
 - **Referenced by domains:** None yet — not read.
 - **Cornerstone status:** Yes — personal, unpublished, not reacquirable except from KEJ; distributed as many separate per-chapter files (16+ expected per `intake-manifest.md` §3) that will accumulate here over an extended period, the strongest form of the "mined incrementally over months" criterion.
 - **Extraction log:**
-  - *Empty — not yet read.* See `hopp-slaegten-manifest.md`'s own Phased Reading Plan: 01 (thin — mostly missing, KEJ is looking for a complete copy) + 01C (88 pages, looks complete) first; 01F (91 pages, looks complete) deferred to its own session.
+  - 2026-08-08: Checkpoint 1 — root chain (01's overview table, 6 generations) and Niels Jørgen Knudsen Hopp's own generation (01C: himself, wife, 6 children) → `family-tree/tree.ged#I364`-`#I397`. See `hopp-slaegten-manifest.md`'s Phased Reading Plan — 01C turned out comparable in size to the entire Boe-slægten manuscript, so this is one checkpoint of an ongoing multi-checkpoint read, not the whole file. 01F (91 pages) still deferred to its own session.
 
 ---
 
@@ -129,3 +129,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.17 | 2026-08-08 | Boe-slægten deep well's Media field updated: 26 of 47 stored images (any confirmed/plausible living individual, plus everything not yet fully identified) moved to `restricted/media/`, a private companion repo, per the human's rule that even one living person present — or an unanalysed image at all — defaults to restricted. 21 confirmed-safe images remain in the public folder. |
 | 1.18 | 2026-08-08 | Registered and stored two new deep wells, both attached to KEJ's 2026-08-08 email reply: `forskellige-boe-slaegter` (several separate, likely-unconnected Boe lineages elsewhere in Denmark — cornerstone, same reasoning as `boe-slaegten-fra-mors-og-fur`; not yet read) and `kej-slaegtshistorie-og-lokalhistorie-2026-katalog` (KEJ's own dated catalog of everything he's written — not mined for facts, already used in full to refresh `intake-manifest.md`; registered here rather than as a project note because it's a raw external file, matching where every other raw file lives). Human confirmed physical storage for both per the cornerstone rule before either was written here. |
 | 1.19 | 2026-08-08 | Registered and stored `hopp-slaegten`, the first Hopp material actually in hand (items 01, 01C, 01F) — structured as a growing folder (`library/deep-wells/hopp-slaegten/`) rather than a single file, since KEJ distributes this line as many separate per-chapter files instead of one combined manuscript. Human confirmed storage per the cornerstone rule; not yet read — see `hopp-slaegten-manifest.md`'s Phased Reading Plan. |
+| 1.20 | 2026-08-08 | `hopp-slaegten`'s extraction log updated: Checkpoint 1 done (root chain + Niels Jørgen Knudsen Hopp's generation, 34 individuals). 01C turned out comparable in size to the entire Boe-slægten manuscript — reading it is now a multi-checkpoint effort, not a single pass. |
