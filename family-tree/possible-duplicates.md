@@ -54,12 +54,14 @@ Values in the extracted text that don't reconcile with other stated facts, judge
 | D2 | Christian Christensen Boe, branch g child "VII." (`@I104@`) | Branch-letter, as niece Mona Schmidt Boe's fadder | "(VI.)" | "(VII.)" — his own section, and every other cross-reference to him, consistently use "VII." | `boe-slaegten-fra-mors-og-fur`, p.25-54 | **Queued — grandfather-review/queue.md #7** |
 | D3 | Poul Kristensen Boe, branch g child "VI." (`@I103@`) | Branch-letter, same fadder list as D2 | "(V.)" | "(VI.)" — his own section, and every other cross-reference to him (at least 5 separate mentions elsewhere), consistently use "VI." | `boe-slaegten-fra-mors-og-fur`, p.25-54 | **Queued — grandfather-review/queue.md #7** |
 
+**Note (2026-08-08):** KEJ's reply confirmed the full branch-g sibling list and roman numerals (I.-XI., see `family-tree/tree.ged#F14`) and separately supplied a list of page-level roman-numeral corrections in his own manuscript copy (s.33 XI=X., s.35 I=II., s.37 II=III., s.41 III=IV./IV=V., s.42 V=VI., s.43 VI=VII., s.44 VII=VIII., s.50 VIII=X., s.54 f=h/g=f) — these are cross-page reference slips in the source document itself, not the same specific fadder-list occurrences as D1-D3, which remain open (they're about the Mona Schmidt Boe baptism specifically, not addressed in this reply). Recorded here for completeness rather than folded into D1-D3.
+
 **Sub-pattern E — a full date is given, but yields an implausible age or timeline (new, Efterslægt branch e):**
 
 | # | Individual | Field | Manuscript shows | Expected (from context) | Source | Status |
 |---|---|---|---|---|---|---|
 | E1 | Marie Kirstine Goul Boe (`@I98@`) | Marriage date | "Gift febr. 1967" | Almost certainly 1977 — as given, she'd be not yet 9 years old (b.8.3.1957); 1977 gives a plausible ~19-20 | `boe-slaegten-fra-mors-og-fur`, p.25-54 | Not queued — first instance of this shape; a single-digit decade error, not the same mechanism as sub-pattern A's century-digit swap |
-| E2 | Margit Bak (`@I151@`) | Death date | "Død 24.1.1916." | Unknown — but 1916 predates her own birth (1.10.1951) by 35 years, an outright impossibility, not just an implausible age | `boe-slaegten-fra-mors-og-fur`, p.25-54 | **Queued — grandfather-review/queue.md #8** — second instance of sub-pattern E, hitting this pattern's own reassessment trigger, and the worst individual case yet (not just implausible, actually impossible) |
+| E2 | Margit Bak (`@I151@`) | Death date | "Død 24.1.1916." | **Resolved 2026-08-08**, confirmed by KEJ: 24.1.2016 — single-digit transcription error (19 for 20), not a real chronological impossibility in the source itself | `boe-slaegten-fra-mors-og-fur`, p.25-54 | Resolved — see `family-tree/tree.ged#I151` |
 
 **Sub-pattern F — a year value appears concatenated directly onto a hospital/place name with no separator, sometimes matching the stated birth year and sometimes not (new, branch g child "V."):**
 
