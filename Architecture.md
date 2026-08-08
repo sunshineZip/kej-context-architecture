@@ -1,6 +1,6 @@
 # Context Architecture — System Design
 
-Version 1.10 | 2026-08-07 | Production
+Version 1.11 | 2026-08-08 | Production
 
 ---
 
@@ -95,6 +95,9 @@ The session log only ever grows — no entries are deleted or edited after the f
 
   research-queue.md                   ← Fork-specific — open questions grouped by external resource, see §3
 
+  restricted/                         ← Fork-specific — git submodule, separate private repo, see §3
+    README.md                         ← Purpose, access list, the Hard Constraint governing this path
+
   projects/                           ← One folder per project
     system/                           ← Pre-created — tracks all structural changes to this system
       session-log.md                  ← Audit log of architecture decisions and changes
@@ -174,6 +177,16 @@ Both files in this layer are written in Danish, unlike the rest of this repo —
 
 This fork adds `research-queue.md`, a single top-level file — not part of the generic template. It exists to solve a cost-batching problem distinct from `grandfather-review/`'s: some open questions can't be resolved by KEJ, the family, or anything already in this repo — they need an external resource that costs money or travel to reach (a paid subscription site like MyHeritage, a physical archive visit). Rather than paying or traveling once per question as each one turns up, this file groups open questions **by which resource would resolve them**, so the cost gets spent once against an accumulated batch. Written in English, unlike `grandfather-review/`, since it isn't addressed to KEJ.
 
+### Restricted companion repo — fork-specific: `restricted/`
+
+This fork adds `restricted/`, a **git submodule**, not a plain folder — not part of the generic template. It exists for a confidentiality tier above `[SENSITIVE]`: findings KEJ is fine keeping within the research foundation but does not want shared or publicized without careful review and attached disclaimers. `[SENSITIVE]` (§ Standing Rules, `ROUTING.md`) flags facts about presumed-living people, but it's a prose convention — content tagged `[SENSITIVE]` is exactly as visible as anything else in the repo to anyone who can read the repo at all. This tier needs an actual access boundary, not just a label.
+
+GitHub access control is repo-wide, not per-folder — there is no way to grant someone read access to this repo while withholding one specific folder from them. `restricted/` solves this by being mounted from a genuinely separate, more restricted private repo (`kej-restricted-context-architecture`), pinned via `.gitmodules`. Someone with access to this repo but not to that one sees `restricted/` as an empty, uninitialized directory — a real boundary, not a convention. A `.gitattributes` `export-ignore` entry is defense-in-depth on top of that for archive/ZIP exports.
+
+That access boundary only protects against people (or sessions) without access to the underlying repo. Inside a session where the submodule *is* initialized, `restricted/`'s content is just files on disk, reachable the same way anything else is — so a second, behavioral safeguard exists alongside the technical one: a `ROUTING.md` Hard Constraint that this path is never opened, searched, quoted, or referenced in any output unless the human explicitly names the specific file, by path, in that same turn. The submodule repo's own `README.md` restates this rule for any LLM session operating on it directly, independent of whether this repo's own `ROUTING.md` was loaded first.
+
+As of 2026-08-08, access to `kej-restricted-context-architecture` is Nikolaj Boe only — deliberately narrower than this repo's own collaborator list, and not extended by default when new collaborators are added here.
+
 ---
 
 ## 4. Dynamic Routing
@@ -247,3 +260,4 @@ To fork this template for a new initiative:
 | 1.8 | 2026-08-06 | Fork-specific addition: created the actual `family-tree/tree.ged` (GEDCOM) and `family-tree/possible-duplicates.md`, previously only sketched in `projects/archive-digitization/context/data-structure-proposal.md` — human confirmed the "wait for real data" threshold was passed once two full generations of Boe-slægten data were in hand. §2 file structure diagram and new §3 subsection "Cross-*slægt* structural data — fork-specific: `family-tree/`" added. |
 | 1.9 | 2026-08-06 | Fork-specific addition: created `incoming/`, a tracked (non-gitignored) landing zone for untriaged raw files, after the Boe-slægten manuscript's original `.docx` repeatedly hit a Google Drive connector's 10 MB download cap plus this environment's network policy blocking direct Drive access — pulling large files through an AI tool connector was becoming unsustainable, so the human now pushes them into the repo directly instead. §2 file structure diagram and new §3 subsection "Untriaged file intake — fork-specific: `incoming/`" added; explicitly distinguished from `temp/`, which is gitignored and for transient material only. |
 | 1.10 | 2026-08-07 | Fork-specific addition: created `research-queue.md`, a single top-level file grouping open research questions by which external resource (paid subscription site, physical archive trip) would resolve them — prompted by a paywalled MyHeritage lead on an American emigrant ancestor, to batch subscription/travel cost against an accumulated pile of questions rather than spending it per question. §2 file structure diagram and new §3 subsection "External-resource research queue — fork-specific: `research-queue.md`" added. Distinct from `grandfather-review/` (questions only KEJ can answer) and `family-tree/possible-duplicates.md` (routine ambiguity resolved by evidence already in hand). |
+| 1.11 | 2026-08-08 | Fork-specific addition: created `restricted/`, a git submodule mounting a separate, more restricted private repo (`kej-restricted-context-architecture`) for a confidentiality tier above `[SENSITIVE]` — findings KEJ wants kept within the research foundation but not shared or publicized without review and disclaimers. Prompted by realizing `[SENSITIVE]` is a prose convention, not an access boundary, and that GitHub access control is repo-wide rather than per-folder. §2 file structure diagram and new §3 subsection "Restricted companion repo — fork-specific: `restricted/`" added; matching `ROUTING.md` Hard Constraint added so a session with the submodule initialized doesn't surface it unprompted. |

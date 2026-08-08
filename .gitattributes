@@ -1,0 +1,7 @@
+# restricted/ is a git submodule pointing at a separate, more restricted
+# private repo (see Architecture.md §3, "Restricted companion repo").
+# export-ignore is defense-in-depth on top of the access-control boundary
+# the submodule itself already provides: even a plain `git archive` or
+# GitHub "Download ZIP" (which don't include submodule content anyway)
+# won't surface anything for this path.
+restricted export-ignore

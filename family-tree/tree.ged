@@ -3908,14 +3908,15 @@
 1 SEX F
 1 FAMS @F120@
 1 NOTE Astrid Kirks mor, en anden kvinde end Hanne Boe (I167). Hverken navn eller yderligere detaljer kendt endnu. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
+1 NOTE Forholdet til KEJ (I168) opstod efter hans skilsmisse fra Hanne Boe (1983, se F64) — ikke sideløbende med ægteskabet. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-08]
 0 @I363@ INDI
 1 NAME Astrid /Kirk/
 1 SEX F
 1 FAMC @F120@
-1 NOTE Knud Erik Jakobsens (I168) datter med en anden kvinde end Hanne Boe — halvsøster til Lotta Ann (I169) og Gitte (I174). Fødenavn ukendt; går i dag under efternavnet "Kirk." Ses sammen med den øvrige familie på gruppebilledet fra august 1995, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png (siddende på jorden). [SENSITIVE] — ingen dødsdato angivet, formodet i live. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
+1 NOTE Knud Erik Jakobsens (I168) datter fra et forhold efter hans skilsmisse fra Hanne Boe (1983, se F64) — halvsøster til Lotta Ann (I169) og Gitte (I174). Fødenavn ukendt; går i dag under efternavnet "Kirk." Ses sammen med den øvrige familie på gruppebilledet fra august 1995, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png (siddende på jorden). [SENSITIVE] — ingen dødsdato angivet, formodet i live. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
 0 @F120@ FAM
 1 HUSB @I168@
 1 WIFE @I362@
 1 CHIL @I363@
-1 NOTE Ikke omtalt i manuskriptet selv — Astrid Kirks eksistens og forbindelse til familien er oplyst direkte af familien (2026-08-06), ikke fundet i boe-slaegten-fra-mors-og-fur.
+1 NOTE Ikke omtalt i manuskriptet selv — Astrid Kirks eksistens og forbindelse til familien er oplyst direkte af familien (2026-08-06), ikke fundet i boe-slaegten-fra-mors-og-fur. Forholdet mellem I168 og I362 opstod efter skilsmissen fra Hanne Boe (F64), ikke sideløbende med ægteskabet — bekræftet direkte 2026-08-08. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-08]
 0 TRLR
