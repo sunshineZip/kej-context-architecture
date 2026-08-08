@@ -688,3 +688,34 @@ STATUS: CHECKPOINT
 Completed: "Our line" depth policy adopted and applied — 35 more individuals across Checkpoints 3-4, all at capped depth. Total `tree.ged` now 662 individuals, 215 families.
 Next: Knud Nielsen Hopp's children IV.-X. (capped depth, whenever picked back up), then eventually Phase 2 (01F — also a side branch, "01-f", so capped depth applies there too, not full).
 Waiting for: Human's direction on whether to continue now.
+
+---
+
+## [Claude] — Turn 27 | 2026-08-08
+
+Same session, continued. Human asked a direct factual question about Checkpoint 2's West Indies branch (Nicolai Severin Nielsen Hjardemaal, plantation owner, d.1846 Sct. Thomas) — is that a real blood connection? Answered directly: not a direct ancestor, but a genuine blood relative via the shared ancestor Dorthe Nielsdatter Hopp (a great-great-... aunt's line, not a hypothetical or a name-coincidence).
+
+Then asked what's next with the received material generally. Gave a status rundown across all in-hand items and recommended reading `library/deep-wells/forskellige-boe-slaegter-2026.docx` next — stored but never opened, and KEJ's own framing when he sent it ("nogle er også i hæftet") suggested it might have more to say about the Mors/Fur line's own open surname-origin question than a purely-comparative document normally would. Human agreed: "Good suggestion, let's start there."
+
+Read the entire document (7 sections, 746 paragraphs, one embedded image — a 2016 photo of the "Boe-stenen" memorial at Helnæs, not a person). Recognized partway through that this isn't novel content in kind: `tree.ged#I1` already carries a note from the *original* manuscript's own Anetavler "Boe-slægter" appendix (p.86-91) covering the same comparative question in brief. This document is KEJ's own later, more detailed re-treatment (dated "2023 / August 2026" vs. the original's "maj 2026") — same conclusions, more specifics. Handled it as an enrichment of the existing `#I1` note rather than a duplicate.
+
+Two findings worth being direct about:
+- **Nykøbing Mors hypothesis (Christen Nielsen Boe, 1690-1786) — now conclusively ruled out.** The original manuscript only asserted no connection; this document supplies the probate record itself, naming his only two children (neither named Jens nor Peder), closing the question with primary evidence rather than assertion. KEJ's own words, quoted directly in the extraction notes: "Et eventuelt slægtsforhold... kan p.t. ikke påvises."
+- **Himmerland/Thy hypothesis — now has a named, dated candidate, still unconfirmed.** A possible connecting individual: Anders Pedersen Boe i Vorring, Nors sogn, probate 28.9.1759. KEJ's own framing stays explicitly speculative ("kunne gå over"). This is a substantive open lead, not a small transcription detail, so — unlike the routine "accumulate small stuff" instruction that governs most of this project's findings — escalated it to `grandfather-review/queue.md` as item 17, matching the "big blockers are still okay to raise directly" exception the human has previously confirmed.
+
+The document's largest section by far (14 of 22 pages) — Boe på Nyord ved Stege på Møn, a fishing/piloting family — was newly covered here (not in the original manuscript at all) and is confirmed unconnected: KEJ's own words, "Ingen 'Boe' eller 'Bo' er fundet nævnt i kirkebog eller folketællinger på Nyord efter 1869!" The Sønderjylland/Slesvig and Fyn-slægten sections repeat the original manuscript's own already-settled conclusions (the latter explicitly ruled unlikely) with more supporting detail, nothing new to act on.
+
+**No individuals added to `tree.ged`** — same handling as the original manuscript's own comparative appendix: explicitly unconnected/unconfirmed families are documented as reference prose, not modeled with fabricated `FAMC`/`FAMS` links. One `NOTE` added to `#I1`, cited to a new extraction-notes file.
+
+**Built/updated:** `projects/archive-digitization/context/forskellige-boe-slaegter-extraction.md` (new), `library/deep-wells/forskellige-boe-slaegter-2026-manifest.md`, `library/reference-index.md` (also closed a small gap: Hopp-slægten's own extraction log there hadn't been updated for Checkpoints 3-4 yet), `projects/archive-digitization/context/intake-manifest.md`, `projects/archive-digitization/TODO.md`, `grandfather-review/queue.md` (item 17).
+
+### Session close
+
+Knowledge candidates: None yet — no Boe-comparative or Hopp domain exists (Phase 3 not started).
+Open flags: One escalated — `grandfather-review/queue.md` item 17 (Himmerland/Thy candidate link, Anders Pedersen Boe i Vorring).
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: "Forskellige Boe-slægter" fully read. Nykøbing Mors hypothesis ruled out with primary-source detail; Himmerland/Thy hypothesis now has a named candidate (queued for KEJ). No `tree.ged` individuals added — reference prose only, per established comparative-research handling.
+Next: Open — Knud Nielsen Hopp's children IV.-X. (Hopp-slægten 01C, capped depth) and Phase 2 (01F, capped depth) both remain, whenever picked back up. No other in-hand item is unread.
+Waiting for: Human's direction on what to work on next.

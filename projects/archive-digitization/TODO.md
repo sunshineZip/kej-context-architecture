@@ -5,7 +5,7 @@ project: archive-digitization
 
 # Archive Digitization — TODO
 
-Version 1.7 | 2026-08-08 | Active
+Version 1.8 | 2026-08-08 | Active
 
 > **Routing check:** This is a task tracking file, not a work queue. Do not start work on any item here unless you have completed ROUTING.md routing and received explicit human confirmation for this session.
 
@@ -38,6 +38,7 @@ Human confirmed (2026-08-05) that absorbing the material matters more right now 
 
 ## Done
 
+- [x] **"Forskellige Boe-slægter" read in full (2026-08-08):** KEJ's own comparative-surname compilation (7 sections, 746 paragraphs) — same "explicitly unconnected families, reference prose not `tree.ged` individuals" pattern as the original manuscript's own comparative appendix. Nykøbing Mors hypothesis conclusively ruled out (named children, probate citation); Himmerland/Thy hypothesis now has a named, dated, still-unconfirmed candidate connecting individual (Anders Pedersen Boe i Vorring, Nors sogn, probate 1759) — the one open lead; Sønderjylland/Slesvig, Fyn-slægten, and a new Nyord section all confirmed unconnected. Enriched `NOTE` added to `family-tree/tree.ged#I1`. Full notes: `projects/archive-digitization/context/forskellige-boe-slaegter-extraction.md`.
 - [x] Project opened (2026-08-05)
 - [x] Full intake manifest transcribed from KEJ's email (2026-08-05) — see `context/intake-manifest.md`
 - [x] Original Boe-slægten `.docx` stored (2026-08-06): human pushed it into `incoming/` via GitHub Desktop, first real use of that mechanism; triaged into `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx` after verifying zip/docx integrity. Supersedes the earlier text-only interim measure — see `library/reference-index.md#boe-slaegten-fra-mors-og-fur`.

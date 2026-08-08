@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.13 | 2026-08-08 | Active
+Version 1.15 | 2026-08-08 | Active
 
 ---
 
@@ -47,7 +47,7 @@ Mors/Fur line. First batch — KEJ said he'd send this to begin with.
 | Item | Version | Status |
 |---|---|---|
 | Boe-slægten fra Mors og Fur, Kapitel 1-4 (file: "2024 Boe-slægen fra Mors og Fur.docx") | maj 2026 | **Fully read (2026-08-06)** — original .docx stored (`library/reference-index.md#boe-slaegten-fra-mors-og-fur`); all four chapters, the Anetavler appendices, and Kilder extracted into `family-tree/tree.ged` (361 individuals) via five chapter-specific extraction notes files in `projects/archive-digitization/context/`. Not yet promoted into `knowledge/domains/` (Phase 3 not started). |
-| Forskellige Boe-slægter — 22 sider samlet i 1 bind: Bomand/Boe (1500-tallet, om navnets oprindelse), Boe på Mors (Christen Nielsen Boe 1690-1786), Boe på Ålborgegnen, Boe i Himmerland/Thy (Peder Andersen Boe), Boe i Sønderjylland og Slesvig, Fyn-slægten Boe (se "Boernes Slægtsbog," 1960), Boe på Nyord ved Stege på Møn (file: "2026 Boeslægter samlet.docx") | august 2026 | **Triaged (2026-08-08)** — stored as its own deep well, `library/reference-index.md#forskellige-boe-slaegter`. Not yet read. KEJ's own framing: these are separate, likely-unconnected Boe lineages elsewhere in Denmark, distinct from the Mors/Fur line above — worth reading for possible cross-connections, but not assumed connected. |
+| Forskellige Boe-slægter — 22 sider samlet i 1 bind: Bomand/Boe (1500-tallet, om navnets oprindelse), Boe på Mors (Christen Nielsen Boe 1690-1786), Boe på Ålborgegnen, Boe i Himmerland/Thy (Peder Andersen Boe), Boe i Sønderjylland og Slesvig, Fyn-slægten Boe (se "Boernes Slægtsbog," 1960), Boe på Nyord ved Stege på Møn (file: "2026 Boeslægter samlet.docx") | august 2026 | **Fully read (2026-08-08)** — `library/reference-index.md#forskellige-boe-slaegter`. No individuals-level connection to the Mors/Fur line found; Nykøbing Mors hypothesis ruled out, Himmerland/Thy hypothesis now has a named but unconfirmed candidate link. Full notes: `projects/archive-digitization/context/forskellige-boe-slaegter-extraction.md`. |
 
 ---
 
@@ -202,3 +202,5 @@ New section (2026-08-08) — three items found in KEJ's master catalog that aren
 | 1.11 | 2026-08-08 | Human confirmed physical storage for all three Hopp-slægten files — stored as a new deep well, `library/deep-wells/hopp-slaegten/` (a growing folder, not a single file, since KEJ distributes this line per-chapter). Phased reading plan set: 01 + 01C first (both status "Triaged"), 01F deferred to its own session — see `library/deep-wells/hopp-slaegten-manifest.md` and `projects/archive-digitization/TODO.md`. |
 | 1.12 | 2026-08-08 | Checkpoint 1 of Phase 1 read: 01's overview table (root chain) and 01C's own generation (Niels Jørgen Knudsen Hopp, wife, 6 children) — 34 individuals into `tree.ged`. Both items' status updated to "In progress" — 01C in particular is far from finished, having turned out comparable in size to the entire Boe-slægten manuscript. |
 | 1.13 | 2026-08-08 | Checkpoint 2: one full child-line of 01C read to full depth (human's explicit choice) — 230 individuals, 60 living/redacted. Gives a real scale estimate for 01C: 800-1500+ individuals total. |
+| 1.14 | 2026-08-08 | "Our line" depth policy adopted; Checkpoints 3-4 of 01C read (Dorthe's remaining children, Berthe's children, Knud Nielsen Hopp's children I.-III. of 10) — 35 more individuals. Gap-closing entry, policy itself was adopted mid-session. |
+| 1.15 | 2026-08-08 | "Forskellige Boe-slægter" (§2) fully read — status updated from "Triaged" to "Fully read." No individuals-level connection to the Mors/Fur line found; Nykøbing Mors hypothesis ruled out, Himmerland/Thy hypothesis now has a named but unconfirmed candidate link. |
