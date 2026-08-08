@@ -122,7 +122,7 @@
 2 DATE 1858
 1 FAMC @F5@
 1 FAMS @F6@
-1 NOTE Linje fortsætter flere generationer frem via datter Else Marie Thomasdatter (f.1839) → Christen Clausen → Vestergaard-slægten i Solbjerg, ind i 1900-tallet. Ikke selvstændigt gentranskriberet her. [SENSITIVE] — nyeste navngivne personer i denne gren har ingen dødsår angivet og kan stadig være i live. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
+1 NOTE Linje fortsætter flere generationer frem via datter Else Marie Thomasdatter (f.1839) → Christen Clausen → Vestergaard-slægten i Solbjerg, ind i 1900-tallet. Ikke selvstændigt gentranskriberet her. Nyeste navngivne personer i denne gren er ikke selvstændigt modelleret som individuelle poster her og er ikke undersøgt for aktuel status. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.9-17]
 0 @I12@ INDI
 1 NAME Sissel (Zidsel) Christensdatter /Boe/
 1 SEX F
@@ -357,7 +357,7 @@
 2 PLAC Nykøbing sygehus, Danmark
 1 OCCU Husbestyrerinde (25+ år hos sagfører Niels Ovesen, Nykøbing Mors)
 1 FAMC @F11@
-1 NOTE Barn "f." af generation 05. Ugift, ingen børn. Fik navnet Boe ved bevillingen 1905. Opkaldt efter faderens yngre søster af samme navn (I44, død 1877 som ung). Arvede en formue efter Niels Ovesens død 1941; oprettede ved testamente 14.9.1972 "Mette Boe's Legat" (70.000 kr., fundats 30.12.1977) til hjælp for en kvinde født på eller stærkt knyttet til Mors — stadig uddelende pr. 30.12.1998. Husket af familien som krasbørstig, med markante meninger. Død 92 år gammel — dødsdato nu præcis (rettet fra tidligere estimat "AFT 1975"; [SENSITIVE]-forbeholdet om mulig fortsat liv bortfalder, hun er bekræftet afdød). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 og p.25-54]
+1 NOTE Barn "f." af generation 05. Ugift, ingen børn. Fik navnet Boe ved bevillingen 1905. Opkaldt efter faderens yngre søster af samme navn (I44, død 1877 som ung). Arvede en formue efter Niels Ovesens død 1941; oprettede ved testamente 14.9.1972 "Mette Boe's Legat" (70.000 kr., fundats 30.12.1977) til hjælp for en kvinde født på eller stærkt knyttet til Mors — stadig uddelende pr. 30.12.1998. Husket af familien som krasbørstig, med markante meninger. Død 92 år gammel — dødsdato nu præcis (rettet fra tidligere estimat "AFT 1975"; sensitivitetsmærkningen om mulig fortsat liv bortfalder, hun er bekræftet afdød). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.21-24 og p.25-54]
 1 NOTE Foto/dokument: navn og fødselsdato bekræftet mod navnebevis-scanningen, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image6.jpeg.
 0 @I37@ INDI
 1 NAME Laurids Christensen /Boe/
@@ -475,67 +475,63 @@
 1 FAMS @F18@
 1 NOTE Efternavn ikke angivet i det læste afsnit. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I48@ INDI
-1 NAME Poul Christensen /Boe/
+1 NAME Living /Boe/
 1 SEX M
 1 BIRT
-2 DATE 29 AUG 1935
-2 PLAC Fur, Danmark
-1 OCCU Murer, Vinderup
+2 DATE 1935
 1 FAMC @F18@
 1 FAMS @F19@
-1 NOTE Barn "1." af Esper Marinus og Katrine. [SENSITIVE] — intet dødsår angivet, muligvis i live. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I48 (kraever adgang til den private modul-repo).
 0 @I49@ INDI
-1 NAME Elly /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMS @F19@
-1 NOTE Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I49 (kraever adgang til den private modul-repo).
 0 @I50@ INDI
-1 NAME Bruno /Boe/
+1 NAME Living /Boe/
 1 SEX M
 1 BIRT
-2 DATE ABT 1960
+2 DATE 1960
 1 FAMC @F19@
 1 FAMS @F20@
-1 NOTE Adoptivsøn af Poul Christensen Boe og Elly. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I50 (kraever adgang til den private modul-repo).
 0 @I51@ INDI
-1 NAME Jonna /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE ABT 1962
+2 DATE 1962
 1 FAMC @F20@
 1 FAMS @F21@
-1 NOTE Formodentlig datter af Bruno Boe (I50) — rækkefølgen i manuskriptet ("a/" lige efter Brunos indførsel) antyder dette, men er ikke eksplicit bekræftet; kunne alternativt være endnu et barn af Poul og Elly. [SENSITIVE] [UNVERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — relationship inferred from document order]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I51 (kraever adgang til den private modul-repo).
 0 @I52@ INDI
-1 NAME Niels /Jørgen/
+1 NAME Living /Jørgen/
 1 SEX M
 1 FAMS @F21@
-1 NOTE Efternavn muligvis "Jørgen" er fornavn nr. 2, ikke efternavn — uklart i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I52 (kraever adgang til den private modul-repo).
 0 @I53@ INDI
-1 NAME Henning Ingvard Christensen /Boe/
+1 NAME Living /Boe/
 1 SEX M
 1 BIRT
-2 DATE 2 MAY 1937
-2 PLAC Fur, Danmark
-1 OCCU Tømrer, Skive
+2 DATE 1937
 1 FAMC @F18@
 1 FAMS @F22@
 1 FAMS @F23@
-1 NOTE Barn "2." af Esper Marinus og Katrine. [SENSITIVE] — intet dødsår angivet, muligvis i live. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I53 (kraever adgang til den private modul-repo).
 0 @I54@ INDI
-1 NAME Gerda /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMS @F22@
-1 NOTE Henning Ingvard Christensen Boes første hustru; ægteskabet opløst, ingen børn. Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I54 (kraever adgang til den private modul-repo).
 0 @I55@ INDI
-1 NAME Lydia /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMS @F23@
-1 NOTE Født i Tyskland. Havde 2 børn fra tidligere ægteskab (ikke navngivet i det læste afsnit), som fik navnet Boe — ingen individuelle @I@-poster oprettet for dem. Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I55 (kraever adgang til den private modul-repo).
 0 @I56@ INDI
-1 NAME Katharina /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMC @F23@
-1 NOTE Adoptivdatter af Henning Ingvard Christensen Boe og Lydia. Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I56 (kraever adgang til den private modul-repo).
 0 @I57@ INDI
 1 NAME Johanne Marie /Jensen/
 1 SEX F
@@ -554,16 +550,15 @@
 1 FAMS @F25@
 1 NOTE Barn "III." af Niels Jensen og Marie Christensen Boe. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I59@ INDI
-1 NAME Svend Åge /Storegård/
+1 NAME Living /Storegård/
 1 SEX M
-1 OCCU Maskinist, Tolstrup ved Skive
 1 FAMS @F25@
-1 NOTE [SENSITIVE] — ingen datoer angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I59 (kraever adgang til den private modul-repo).
 0 @I60@ INDI
-1 NAME Mogens /Storegård/
+1 NAME Living /Storegård/
 1 SEX M
 1 FAMC @F25@
-1 NOTE Et af 3 børn ("1.-3.") af Svend Åge Storegård og Maren Jensen — kun han er navngivet i det læste afsnit ("bl.a. søn Mogens"); de to øvrige børn ikke navngivet, ingen @I@-poster oprettet for dem. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I60 (kraever adgang til den private modul-repo).
 0 @I61@ INDI
 1 NAME Jens Kristian /Jensen/
 1 SEX M
@@ -594,149 +589,141 @@
 1 FAMS @F27@
 1 NOTE Datter af gårdejer Mads Peder Madsen og hustru Maren Jensen. Husbestyrerinde ved giftermålet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I64@ INDI
-1 NAME Egon Kristensen /Boe/
+1 NAME Living /Boe/
 1 SEX M
 1 BIRT
-2 DATE 13 OCT 1941
-2 PLAC Byrum sogn, Læsø, Danmark
-1 OCCU Landmand, Søndergårde på Fur
+2 DATE 1941
 1 FAMC @F27@
 1 FAMS @F28@
-1 NOTE Barn "1." af K.K.K. Boe. Konfirmeret 1943, Lemvig. [SENSITIVE] — intet dødsår angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I64 (kraever adgang til den private modul-repo).
 0 @I65@ INDI
-1 NAME Ulla /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMS @F28@
-1 NOTE Efternavn ikke angivet. Flyttede 1983 fra Hammerum til Fur; havde 3 børn fra tidligere ægteskab (ikke navngivet, ingen @I@-poster). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I65 (kraever adgang til den private modul-repo).
 0 @I66@ INDI
-1 NAME Thilde Kristensen /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 2 APR 1945
-2 PLAC Byrum sogn, Læsø, Danmark
+2 DATE 1945
 1 FAMC @F27@
 1 FAMS @F29@
-1 NOTE Barn "2." af K.K.K. Boe — tvilling med Birgit Kristine (I72, samme fødselsdato). Konfirmeret 1959, Lemvig. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I66 (kraever adgang til den private modul-repo).
 0 @I67@ INDI
-1 NAME N.N. /Madsen/
+1 NAME Living /Madsen/
 1 SEX M
 1 FAMS @F29@
-1 NOTE Fornavn ikke angivet, kun "Gift Madsen, Langå". [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I67 (kraever adgang til den private modul-repo).
 0 @I68@ INDI
-1 NAME Sten Boe /Madsen/
+1 NAME Living /Madsen/
 1 SEX M
 1 FAMC @F29@
-1 NOTE Barn "a/" af Thilde og N.N. Madsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I68 (kraever adgang til den private modul-repo).
 0 @I69@ INDI
-1 NAME Susanne Boe /Madsen/
+1 NAME Living /Madsen/
 1 SEX F
 1 FAMC @F29@
-1 NOTE Barn "b/" af Thilde og N.N. Madsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I69 (kraever adgang til den private modul-repo).
 0 @I70@ INDI
-1 NAME Marianne Boe /Madsen/
+1 NAME Living /Madsen/
 1 SEX F
 1 FAMC @F29@
-1 NOTE Barn "c/" af Thilde og N.N. Madsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I70 (kraever adgang til den private modul-repo).
 0 @I71@ INDI
-1 NAME Brian Boe /Madsen/
+1 NAME Living /Madsen/
 1 SEX M
 1 FAMC @F29@
-1 NOTE Barn "d/" af Thilde og N.N. Madsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I71 (kraever adgang til den private modul-repo).
 0 @I72@ INDI
-1 NAME Birgit Kristine /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 2 APR 1945
-2 PLAC Byrum sogn, Læsø, Danmark
+2 DATE 1945
 1 FAMC @F27@
 1 FAMS @F30@
-1 NOTE Barn "3." af K.K.K. Boe — tvilling med Thilde (I66). Konfirmeret 4.10.1959, Lemvig. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I72 (kraever adgang til den private modul-repo).
 0 @I73@ INDI
-1 NAME N.N. /Hornsgård/
+1 NAME Living /Hornsgård/
 1 SEX M
 1 FAMS @F30@
-1 NOTE Fornavn ikke angivet, kun "Gift Hornsgård, Ikast". [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I73 (kraever adgang til den private modul-repo).
 0 @I74@ INDI
-1 NAME Lars Boe /Hornsgård/
+1 NAME Living /Hornsgård/
 1 SEX M
 1 FAMC @F30@
-1 NOTE Barn "a/" af Birgit Kristine og N.N. Hornsgård. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I74 (kraever adgang til den private modul-repo).
 0 @I75@ INDI
-1 NAME Jens Boe /Hornsgård/
+1 NAME Living /Hornsgård/
 1 SEX M
 1 FAMC @F30@
-1 NOTE Barn "b/" af Birgit Kristine og N.N. Hornsgård. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I75 (kraever adgang til den private modul-repo).
 0 @I76@ INDI
-1 NAME Irma /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 14 SEP 1946
-2 PLAC Byrum sogn, Læsø, Danmark
+2 DATE 1946
 1 FAMC @F27@
 1 FAMS @F31@
-1 NOTE Barn "4." af K.K.K. Boe. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I76 (kraever adgang til den private modul-repo).
 0 @I77@ INDI
-1 NAME N.N. /Pedersen/
+1 NAME Living /Pedersen/
 1 SEX M
 1 FAMS @F31@
-1 NOTE Fornavn ikke angivet, kun "Gift Pedersen, Hald". [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I77 (kraever adgang til den private modul-repo).
 0 @I78@ INDI
-1 NAME Karen Boe /Pedersen/
+1 NAME Living /Pedersen/
 1 SEX F
 1 FAMC @F31@
-1 NOTE Barn "a/" af Irma og N.N. Pedersen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I78 (kraever adgang til den private modul-repo).
 0 @I79@ INDI
-1 NAME Gorm Boe /Pedersen/
+1 NAME Living /Pedersen/
 1 SEX M
 1 FAMC @F31@
-1 NOTE Barn "b/" af Irma og N.N. Pedersen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I79 (kraever adgang til den private modul-repo).
 0 @I80@ INDI
-1 NAME Ingrid (Kristensen) /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 27 APR 1949
-2 PLAC Lemvig, Danmark
+2 DATE 1949
 1 FAMC @F27@
 1 FAMS @F32@
-1 NOTE Barn "5." af K.K.K. Boe. Navneændring til "Ingrid Boe" ved navnebevis 3.4.1970. Ingen børn nævnt i det læste afsnit. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I80 (kraever adgang til den private modul-repo).
 0 @I81@ INDI
-1 NAME N.N. /Jensen/
+1 NAME Living /Jensen/
 1 SEX M
 1 FAMS @F32@
-1 NOTE Fornavn ikke angivet, kun "Gift Jensen, Ølby". Bemærk: identisk "Jensen, Ølby"-angivelse for søsteren Lis (I86's ægtefælle) — muligvis to søstre gift med samme families mænd, muligvis en gentagelsesfejl i kilden, ikke undersøgt nærmere. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I81 (kraever adgang til den private modul-repo).
 0 @I82@ INDI
-1 NAME Britta (Kristensen) /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 3 MAR 1951
-2 PLAC Lemvig, Danmark
+2 DATE 1951
 1 FAMC @F27@
 1 FAMS @F33@
-1 NOTE Barn "6." af K.K.K. Boe. Navneændring til "Britta Boe" ved navnebevis 3.4.1970. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I82 (kraever adgang til den private modul-repo).
 0 @I83@ INDI
-1 NAME N.N. /Krarup/
+1 NAME Living /Krarup/
 1 SEX M
 1 FAMS @F33@
-1 NOTE Fornavn ikke angivet, kun "Gift Krarup, Herning". [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I83 (kraever adgang til den private modul-repo).
 0 @I84@ INDI
-1 NAME Stig Boe /Krarup/
+1 NAME Living /Krarup/
 1 SEX M
 1 FAMC @F33@
-1 NOTE Barn "a/" af Britta og N.N. Krarup. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I84 (kraever adgang til den private modul-repo).
 0 @I85@ INDI
-1 NAME Lis /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 27 APR 1954
-2 PLAC Lemvig, Danmark
+2 DATE 1954
 1 FAMC @F27@
 1 FAMS @F34@
-1 NOTE Barn "7." af K.K.K. Boe. Udtrådt af Folkekirken 4.1.1974; Skive Seminarium 1976. Ingen børn nævnt i det læste afsnit. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I85 (kraever adgang til den private modul-repo).
 0 @I86@ INDI
-1 NAME N.N. /Jensen/
+1 NAME Living /Jensen/
 1 SEX M
 1 FAMS @F34@
-1 NOTE Fornavn ikke angivet, kun "Gift Jensen, Ølby" — se I81's NOTE om den identiske angivelse for søsteren Ingrids ægtefælle. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I86 (kraever adgang til den private modul-repo).
 0 @I87@ INDI
 1 NAME Anna Nielsine Petrea Christensen /Boe/
 1 SEX F
@@ -745,27 +732,27 @@
 2 PLAC Kyngsberg, Fur, Danmark
 1 FAMC @F13@
 1 FAMS @F35@
-1 NOTE Barn "II." af Jens Christensen Boe og Marie Kirstine Christensen. Enke i Skive. [SENSITIVE] — intet dødsår angivet (ville være o.108 år i 2026, formentlig afdød, men ikke bekræftet). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Barn "II." af Jens Christensen Boe og Marie Kirstine Christensen. Enke i Skive. Sensitivitetsmærkning frafaldet 2026-08-08: intet dødsår angivet, men født 1918 (ville være o.108 år i 2026) — behandlet som afdød på alderen alene, jf. samme afgørelse for I110. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I88@ INDI
-1 NAME N.N. /Dahl/
+1 NAME Living /Dahl/
 1 SEX M
 1 FAMS @F35@
-1 NOTE Fornavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I88 (kraever adgang til den private modul-repo).
 0 @I89@ INDI
-1 NAME Jens Boe /Dahl/
+1 NAME Living /Dahl/
 1 SEX M
 1 FAMC @F35@
-1 NOTE Barn "1." af Anna og N.N. Dahl. Skive. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I89 (kraever adgang til den private modul-repo).
 0 @I90@ INDI
-1 NAME Vagn Boe /Dahl/
+1 NAME Living /Dahl/
 1 SEX M
 1 FAMC @F35@
-1 NOTE Barn "2." af Anna og N.N. Dahl. Ikast. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I90 (kraever adgang til den private modul-repo).
 0 @I91@ INDI
-1 NAME Else Boe /Dahl/
+1 NAME Living /Dahl/
 1 SEX F
 1 FAMC @F35@
-1 NOTE Barn "3." af Anna og N.N. Dahl. Gift, Skive — ægtefælle slet ikke navngivet i kilden (end ikke efternavn), ingen @I@-post oprettet for ham/hende. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I91 (kraever adgang til den private modul-repo).
 0 @I92@ INDI
 1 NAME Thomas Manfred Christensen /Boe/
 1 SEX M
@@ -791,15 +778,13 @@
 1 FAMS @F37@
 1 NOTE Barn "IV." af Jens Christensen Boe og Marie Kirstine Christensen. Gift 13.3.1955, Hjerk kirke. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I94@ INDI
-1 NAME Grete Ladefoged /Goul/
+1 NAME Living /Goul/
 1 SEX F
 1 BIRT
-2 DATE 1 SEP 1933
-2 PLAC Grundvad, Rødding sogn, Danmark
-1 OCCU Husassistent (ved giftermålet)
+2 DATE 1933
 1 FAMC @F38@
 1 FAMS @F37@
-1 NOTE Af Yttrup, Rybjerg sogn, ved giftermålet. [SENSITIVE] — intet dødsår angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I94 (kraever adgang til den private modul-repo).
 0 @I95@ INDI
 1 NAME Søren Sørensen /Goul/
 1 SEX M
@@ -823,19 +808,18 @@
 1 FAMC @F37@
 1 NOTE Barn "1." af Hans Christian og Grete. Død samme dag som født (1 dag gammel). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I98@ INDI
-1 NAME Marie Kirstine Goul /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 8 MAR 1957
-2 PLAC Tøndering, Danmark
+2 DATE 1957
 1 FAMC @F37@
 1 FAMS @F39@
-1 NOTE Barn "2." af Hans Christian og Grete. Manuskriptet angiver "Gift febr. 1967" — hvis korrekt ville hun kun have været 9 år gammel; formodet cifferfejl (nok "1977", hvilket ville give en alder på knap 20 år), men ikke rettet her — se Open Items og family-tree/possible-duplicates.md sub-pattern E. [SENSITIVE] [UNVERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — implausible date as given]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I98 (kraever adgang til den private modul-repo).
 0 @I99@ INDI
-1 NAME Harry Hejgaard /Jensen/
+1 NAME Living /Jensen/
 1 SEX M
 1 FAMS @F39@
-1 NOTE Skive. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I99 (kraever adgang til den private modul-repo).
 0 @I100@ INDI
 1 NAME Søren Goul /Boe/
 1 SEX M
@@ -849,10 +833,10 @@
 1 FAMS @F40@
 1 NOTE Barn "3." af Hans Christian og Grete. Navn genbrugt efter I97's død som spæd. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I101@ INDI
-1 NAME Hanne /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMS @F40@
-1 NOTE Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I101 (kraever adgang til den private modul-repo).
 0 @I102@ INDI
 1 NAME Karl Alfred Christensen /Boe/
 1 SEX M
@@ -877,26 +861,23 @@
 1 NOTE Barn "VI." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Ugift. Optræder hyppigt som fadder hos søskendes børn (1944, 1949, 1955, 1957, 1959) — boede tilsyneladende lokalt hele livet. En fadder ved hans egen dåb var "ungkarl Espen Marinus Boe" — fætteren Esper Marinus Christensen Boe fra branch b (I46), en fin krydsreference mellem grene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Fejlmærket "(V.)" i stedet for "(VI.)" ved en fadderliste i søsterdatteren Monas dåbsindførsel (I115) — se family-tree/possible-duplicates.md sub-pattern D, instans D3.
 0 @I104@ INDI
-1 NAME Christian Christensen /Boe/
+1 NAME Living /Boe/
 1 SEX M
 1 BIRT
-2 DATE 19 MAY 1924
-2 PLAC Durup, Danmark
-1 OCCU Gartner (Island, Lyby, Århus)
+2 DATE 1924
 1 FAMC @F14@
 1 FAMS @F41@
-1 NOTE Barn "VII." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Medhjælper i Toustrup 1940. Gartnerelev i Odense 1944, senere arbejdede på Island. [SENSITIVE] — intet dødsår angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-1 NOTE Fejlmærket "(VI.)" i stedet for "(VII.)" ved samme fadderliste som I103 — se family-tree/possible-duplicates.md sub-pattern D, instans D2.
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I104 (kraever adgang til den private modul-repo).
 0 @I105@ INDI
-1 NAME Lisbeth /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMS @F41@
-1 NOTE Efternavn ikke angivet. Havde børn fra tidligere ægteskab (John, Norma, Brian, Lasse, Peter — ikke Boe-slægtens biologiske linje, ingen @I@-poster oprettet for dem). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I105 (kraever adgang til den private modul-repo).
 0 @I106@ INDI
-1 NAME Ernst Christian /Boe/
+1 NAME Living /Boe/
 1 SEX M
 1 FAMC @F41@
-1 NOTE Fælles søn ("1.") af Christian Christensen Boe og Lisbeth. Ingen yderligere detaljer angivet i det læste afsnit. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I106 (kraever adgang til den private modul-repo).
 0 @F41@ FAM
 1 HUSB @I104@
 1 WIFE @I105@
@@ -944,52 +925,48 @@
 1 OCCU Malermester, Havrebakken 4, Rødding ved Viborg
 1 FAMC @F14@
 1 FAMS @F43@
-1 NOTE Barn "V." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Malerlærling 1940, malersvend 1943, malermester fra 1951. Gift 23.7.1948, Ørum-Sønderlyng kirke. [SENSITIVE] — intet dødsår angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Barn "V." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Malerlærling 1940, malersvend 1943, malermester fra 1951. Gift 23.7.1948, Ørum-Sønderlyng kirke. Sensitivitetsmærkning frafaldet 2026-08-08: intet dødsår angivet, men født 1921 (ville være 105 år i 2026) — behandlet som afdød på alderen alene. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I111@ INDI
-1 NAME Elna Kristensen /Schmidt/
+1 NAME Living /Schmidt/
 1 SEX F
 1 BIRT
-2 DATE 24 DEC 1927
-2 PLAC Velds Huse, Ørum sogn, Danmark
+2 DATE 1927
 1 FAMS @F43@
-1 NOTE Datter af statshusmand Anders Christian Sørensen Schmidt og hustru Agnes. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I111 (kraever adgang til den private modul-repo).
 0 @I112@ INDI
-1 NAME Lena Schmidt /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 9 FEB 1950
-2 PLAC Viborg sygehus, Danmark
+2 DATE 1950
 1 FAMC @F43@
 1 FAMS @F44@
-1 NOTE Barn "1." af Hans Kristian og Elna. Bopæl Huginsvej, Viborg. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I112 (kraever adgang til den private modul-repo).
 0 @I113@ INDI
-1 NAME Poul Erik /Broberg/
+1 NAME Living /Broberg/
 1 SEX M
 1 FAMS @F44@
-1 NOTE [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I113 (kraever adgang til den private modul-repo).
 0 @I114@ INDI
-1 NAME Helle /Broberg/
+1 NAME Living /Broberg/
 1 SEX F
 1 BIRT
 2 DATE 1974
 1 FAMC @F44@
-1 NOTE Barn "a/" af Lena og Poul Erik Broberg. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I114 (kraever adgang til den private modul-repo).
 0 @I115@ INDI
-1 NAME Mona Schmidt /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 8 FEB 1950
-2 PLAC Viborg sygehus, Danmark
+2 DATE 1950
 1 FAMC @F43@
-1 NOTE Barn "2." af Hans Kristian og Elna. Kilden viser "Født 8.2.1950, Viborg sygehus 1955" — et yderligere "1955" umiddelbart efter sygehusnavnet, uden forklaring. BIRT-året sat til 1950 (stemmer med søsteren Lenas nærliggende fødsel), men "1955" er ikke bare forkastet — se family-tree/possible-duplicates.md sub-pattern F. [SENSITIVE] [UNVERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — trailing year unexplained]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I115 (kraever adgang til den private modul-repo).
 0 @I116@ INDI
-1 NAME Thorkil Schmidt /Boe/
+1 NAME Living /Boe/
 1 SEX M
 1 BIRT
-2 DATE 21 OCT 1958
-2 PLAC Viborg sygehus, Danmark
+2 DATE 1958
 1 FAMC @F43@
-1 NOTE Barn "3." af Hans Kristian og Elna. Kilden viser "Viborg sygehus1958" — samme mønster som søsteren Monas indførsel (et årstal sammenklistret med sygehusnavnet), men her stemmer det faktisk med fødselsåret. Se family-tree/possible-duplicates.md sub-pattern F. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I116 (kraever adgang til den private modul-repo).
 0 @I117@ INDI
 1 NAME Krista Marie Kristensen /Boe/
 1 SEX F
@@ -1008,23 +985,22 @@
 2 PLAC Damsig, Skæve sogn, Hjørring amt, Danmark
 1 OCCU Svejser
 1 FAMS @F45@
-1 NOTE Søn af landmand Jens Christian Emanuel Christensen og hustru Ingeborg Sørensen. Byggede o.1967 nyt hus ved siden af det gamle i Åbybro, som derefter blev revet ned. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Søn af landmand Jens Christian Emanuel Christensen og hustru Ingeborg Sørensen. Byggede o.1967 nyt hus ved siden af det gamle i Åbybro, som derefter blev revet ned. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Sensitivitetsmærkning frafaldet 2026-08-08: intet dødsår angivet, men født 1915 (ville være 111 år i 2026) — behandlet som afdød på alderen alene.
 0 @I119@ INDI
-1 NAME Erik /Christensen/
+1 NAME Living /Christensen/
 1 SEX M
 1 BIRT
-2 DATE 7 MAR 1955
-2 PLAC Sct. Pauli sogn, Malmø, Sverige
-1 OCCU Skibsingeniør, bosat på Fyn
+2 DATE 1955
 1 FAMC @F45@
-1 NOTE Barn "1." af Krista og Martin. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I119 (kraever adgang til den private modul-repo).
 0 @I120@ INDI
-1 NAME Jørgen /Christensen/
+1 NAME Living /Christensen/
 1 SEX M
 1 BIRT
-2 DATE 25 FEB 1960
+2 DATE 1960
 1 FAMC @F45@
-1 NOTE Barn "2." af Krista og Martin. Børn ikke angivet i kilden ("Børn ?"). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I120 (kraever adgang til den private modul-repo).
 0 @I121@ INDI
 1 NAME Kaj /Christensen/
 1 SEX M
@@ -1034,52 +1010,48 @@
 1 FAMC @F45@
 1 NOTE Barn "3." af Krista og Martin. Bekræftet afdød, intet dødsår angivet. Børn ikke angivet i kilden ("Børn ?"). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I122@ INDI
-1 NAME Edith Kristensen /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 8 AUG 1930
-2 PLAC Skive Sygehus, Danmark
+2 DATE 1930
 1 FAMC @F14@
 1 FAMS @F46@
-1 NOTE Barn "XI." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. Husbestyrerinde, Søby Marg. Gift 10.8.1957, Durup kirke. [SENSITIVE] — intet dødsår angivet. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I122 (kraever adgang til den private modul-repo).
 0 @I123@ INDI
-1 NAME Jens Sinding /Thomsen/
+1 NAME Living /Thomsen/
 1 SEX M
 1 BIRT
-2 DATE 17 FEB 1925
-2 PLAC Kjeldbjerg, Danmark
-1 OCCU Boelsmand
+2 DATE 1925
 1 FAMS @F46@
-1 NOTE Søn af gårdmand Ingvard Thomsen og hustru Mette f. Thomsen, Vrou. Manuskriptet henviser til en ekstern slægtsbog: "Slægtsbog for efterkommere efter Mogens Nielsen, gdr. i Tastum, Kobberup sogn f. 1820," nr. II-A-8 — mulig fremtidig deep-well-kandidat, ikke undersøgt nærmere nu. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I123 (kraever adgang til den private modul-repo).
 0 @I124@ INDI
-1 NAME Kurt Engberg /Thomsen/
+1 NAME Living /Thomsen/
 1 SEX M
 1 BIRT
-2 DATE 26 AUG 1960
+2 DATE 1960
 1 FAMC @F46@
-1 NOTE Barn "1." af Edith og Jens Sinding Thomsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I124 (kraever adgang til den private modul-repo).
 0 @I125@ INDI
-1 NAME Lisbeth Margrethe Sinding /Thomsen/
+1 NAME Living /Thomsen/
 1 SEX F
 1 BIRT
-2 DATE 13 OCT 1960
+2 DATE 1960
 1 FAMC @F46@
-1 NOTE Barn "2." af Edith og Jens Sinding Thomsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I125 (kraever adgang til den private modul-repo).
 0 @I126@ INDI
-1 NAME Uffe /Thomsen/
+1 NAME Living /Thomsen/
 1 SEX M
 1 BIRT
-2 DATE 12 FEB 1965
+2 DATE 1965
 1 FAMC @F46@
-1 OCCU Områdechef, Teknisk Skole i Skive
-1 NOTE Barn "3." af Edith og Jens Sinding Thomsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I126 (kraever adgang til den private modul-repo).
 0 @I127@ INDI
-1 NAME Benny /Thomsen/
+1 NAME Living /Thomsen/
 1 SEX M
 1 BIRT
-2 DATE 6 MAR 1967
+2 DATE 1967
 1 FAMC @F46@
-1 NOTE Barn "4." af Edith og Jens Sinding Thomsen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I127 (kraever adgang til den private modul-repo).
 0 @I128@ INDI
 1 NAME Ernst Kristian Jørgen Kristensen /Boe/
 1 SEX M
@@ -1096,7 +1068,8 @@
 1 BIRT
 2 DATE 14 FEB 1913
 1 FAMS @F47@
-1 NOTE [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Sensitivitetsmærkning frafaldet 2026-08-08: intet dødsår angivet, men født 1913 (ville være 113 år i 2026) — behandlet som afdød på alderen alene.
 0 @I130@ INDI
 1 NAME Knud Preben Handberg /Boe/
 1 SEX M
@@ -1110,22 +1083,22 @@
 1 FAMS @F48@
 1 NOTE Barn "1." af Ernst og Inger Kjerstine. Faddere ved hans dåb (1940) omfattede korrekt mærkede onkler: "Malerlærling Hans Boe i Durup (farbror = V.)" og "Tjenestekarl Karl Boe i Dølby (farbror = IV.)". [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I131@ INDI
-1 NAME Ilse /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMS @F48@
-1 NOTE Efternavn ikke angivet. Ægteskabet med Knud Preben opløst. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I131 (kraever adgang til den private modul-repo).
 0 @I132@ INDI
-1 NAME Berit Carola Handberg /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 30 MAY 1966
+2 DATE 1966
 1 FAMC @F48@
-1 NOTE Barn "a/" af Knud Preben og Ilse. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I132 (kraever adgang til den private modul-repo).
 0 @I133@ INDI
-1 NAME Steffen Handberg /Boe/
+1 NAME Living /Boe/
 1 SEX M
 1 FAMC @F48@
-1 NOTE Barn "b/" af Knud Preben og Ilse. Ingen fødselsdato angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I133 (kraever adgang til den private modul-repo).
 0 @I134@ INDI
 1 NAME Kurt Handberg /Boe/
 1 SEX M
@@ -1138,26 +1111,23 @@
 1 FAMC @F47@
 1 NOTE Barn "2." af Ernst og Inger Kjerstine. Død på sygehuset i Skive, 5 år gl., begravet 21.6.1949 i Durup. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I135@ INDI
-1 NAME Annie Handberg /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 10 SEP 1951
-2 PLAC Tøndering, Danmark
-1 OCCU Laborant, bl.a. Skive sygehus
+2 DATE 1951
 1 FAMC @F47@
 1 FAMS @F49@
-1 NOTE Barn "3." af Ernst og Inger Kjerstine. Bosat Svansømosegård ved Skive (forældrenes ejendom). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I135 (kraever adgang til den private modul-repo).
 0 @I136@ INDI
-1 NAME Henning /Gade/
+1 NAME Living /Gade/
 1 SEX M
-1 OCCU Murer
 1 FAMS @F49@
-1 NOTE [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I136 (kraever adgang til den private modul-repo).
 0 @I137@ INDI
-1 NAME Jacob /Gade/
+1 NAME Living /Gade/
 1 SEX M
 1 FAMC @F49@
-1 NOTE Barn "a/" af Annie og Henning Gade. Endnu et barn ("b/") nævnt, men ikke navngivet ("?") i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I137 (kraever adgang til den private modul-repo).
 0 @I138@ INDI
 1 NAME Ane Margrethe Christensen /Boe/
 1 SEX F
@@ -1182,11 +1152,10 @@
 1 FAMS @F50@
 1 NOTE Søn af ugift Knudsine Auguste Jeppesen Bak — født udenfor ægteskab, ingen far angivet. Manuskriptet henviser til en ekstern slægtsbog: "En slægt Bak fra Sæby sogn, Harre Herred," Nordisk Slægtsforskning i Skals, 1983 — mulig fremtidig deep-well-kandidat, ikke undersøgt nærmere nu. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I140@ INDI
-1 NAME Harry /Kjeldsen/
+1 NAME Living /Kjeldsen/
 1 SEX M
-1 OCCU Landmand, Grynnerup
 1 FAMS @F51@
-1 NOTE Annas anden ægtefælle, gift 1967. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I140 (kraever adgang til den private modul-repo).
 0 @I141@ INDI
 1 NAME Grethe /Bak/
 1 SEX F
@@ -1199,71 +1168,64 @@
 1 FAMS @F52@
 1 NOTE Barn "1." af Anna og Gunnar Bak (1. ægteskab). Gårdejer "Engholm," Grynnerupvej 38, Grynderup, Sæby sogn. Død 60 år gl. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I142@ INDI
-1 NAME Jørgen Henrik Jensen /Futtrup/
+1 NAME Living /Futtrup/
 1 SEX M
 1 BIRT
-2 DATE 20 MAY 1946
-2 PLAC Outrup, Mors, Danmark
+2 DATE 1946
 1 FAMS @F52@
-1 NOTE Søn af gårdejer Mads Johan Futtrup og hustru Thora Jensen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I142 (kraever adgang til den private modul-repo).
 0 @I143@ INDI
-1 NAME Karin Bak /Futtrup/
+1 NAME Living /Futtrup/
 1 SEX F
 1 BIRT
-2 DATE 14 MAR 1969
-2 PLAC Skive, Danmark
+2 DATE 1969
 1 FAMC @F52@
 1 FAMS @F53@
-1 NOTE Barn "a/" af Grethe og Jørgen Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I143 (kraever adgang til den private modul-repo).
 0 @I144@ INDI
-1 NAME Jesper /?/
+1 NAME Living /?/
 1 SEX M
 1 FAMS @F53@
-1 NOTE Efternavn ikke angivet ("G. Jesper"). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I144 (kraever adgang til den private modul-repo).
 0 @I145@ INDI
-1 NAME Jan Bak /Futtrup/
+1 NAME Living /Futtrup/
 1 SEX M
 1 BIRT
-2 DATE 24 FEB 1970
-2 PLAC Skive, Danmark
+2 DATE 1970
 1 FAMC @F52@
 1 FAMS @F54@
-1 NOTE Barn "b/" af Grethe og Jørgen Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I145 (kraever adgang til den private modul-repo).
 0 @I146@ INDI
-1 NAME Conny /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMS @F54@
-1 NOTE Efternavn ikke angivet ("G. Conny"). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I146 (kraever adgang til den private modul-repo).
 0 @I147@ INDI
-1 NAME Gitte Bak /Futtrup/
+1 NAME Living /Futtrup/
 1 SEX F
 1 BIRT
-2 DATE 12 MAR 1973
-2 PLAC Skive, Danmark
-1 OCCU Sygeplejerske
+2 DATE 1973
 1 FAMC @F52@
 1 FAMS @F55@
-1 NOTE Barn "c/" af Grethe og Jørgen Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I147 (kraever adgang til den private modul-repo).
 0 @I148@ INDI
-1 NAME Lars /?/
+1 NAME Living /?/
 1 SEX M
 1 FAMS @F55@
-1 NOTE Efternavn ikke angivet ("G. Lars"). Søn af en købmand i Sæby, Salling. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I148 (kraever adgang til den private modul-repo).
 0 @I149@ INDI
-1 NAME Jette Bak /Futtrup/
+1 NAME Living /Futtrup/
 1 SEX F
 1 BIRT
-2 DATE 12 DEC 1978
-2 PLAC Sæby, Danmark
-1 OCCU Sygeplejerske
+2 DATE 1978
 1 FAMC @F52@
 1 FAMS @F56@
-1 NOTE Barn "d/" af Grethe og Jørgen Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I149 (kraever adgang til den private modul-repo).
 0 @I150@ INDI
-1 NAME Nicolaj /?/
+1 NAME Living /?/
 1 SEX M
 1 FAMS @F56@
-1 NOTE Efternavn ikke angivet ("G. Nicolaj"). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I150 (kraever adgang til den private modul-repo).
 0 @I151@ INDI
 1 NAME Margit /Bak/
 1 SEX F
@@ -1274,92 +1236,81 @@
 1 FAMS @F57@
 1 NOTE Barn "2." af Anna og Gunnar Bak (1. ægteskab). En fadder var "Laurits Boe i Durup (morfar)" — korrekt mærket (generation g's Laurids, I37, hendes egen morfar). Bopæl Sallingsundvej ved Roslev. **Kronologisk umulig dødsdato i kilden:** "Død 24.1.1916." — dette er FØR hendes egen fødsel (1951), en åbenlys fejl, men ingen rettelse forsøgt her. Ikke afgjort — se grandfather-review/queue.md #8. DEAT-feltet bevidst udeladt. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54][CONTRADICTS: boe-slaegten-fra-mors-og-fur, internal (dødsdato før fødselsdato) — grandfather-review/queue.md #8]
 0 @I152@ INDI
-1 NAME Svend Erik /Poulsen/
+1 NAME Living /Poulsen/
 1 SEX M
 1 BIRT
-2 DATE 22 FEB 1949
-2 PLAC Tøndering, Danmark
-1 OCCU Frisør, senere slagteriarbejder, Skive
+2 DATE 1949
 1 FAMS @F57@
-1 NOTE Søn af hjemmeslagter Alfred Poulsen og hustru Vita Jensen. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I152 (kraever adgang til den private modul-repo).
 0 @I153@ INDI
-1 NAME Charlotte Bak /Poulsen/
+1 NAME Living /Poulsen/
 1 SEX F
 1 BIRT
-2 DATE 24 JUL 1972
-2 PLAC Skive, Danmark
+2 DATE 1972
 1 FAMC @F57@
-1 NOTE Barn "a/" af Margit og Svend Erik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I153 (kraever adgang til den private modul-repo).
 0 @I154@ INDI
-1 NAME Kim Gunnar Bak /Poulsen/
+1 NAME Living /Poulsen/
 1 SEX M
 1 BIRT
-2 DATE 16 AUG 1974
-2 PLAC Skive, Danmark
+2 DATE 1974
 1 FAMC @F57@
-1 NOTE Barn "b/" af Margit og Svend Erik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I154 (kraever adgang til den private modul-repo).
 0 @I155@ INDI
-1 NAME Mik Bak /Poulsen/
+1 NAME Living /Poulsen/
 1 SEX M
 1 BIRT
-2 DATE 29 MAR 1979
-2 PLAC Skive, Danmark
+2 DATE 1979
 1 FAMC @F57@
-1 NOTE Barn "c/" af Margit og Svend Erik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I155 (kraever adgang til den private modul-repo).
 0 @I156@ INDI
-1 NAME Poul Viggo /Bach/
+1 NAME Living /Bach/
 1 SEX M
 1 BIRT
-2 DATE 13 APR 1955
-2 PLAC Grynnerup, Danmark
-1 OCCU Fisker m.m.
+2 DATE 1955
 1 FAMC @F50@
 1 FAMS @F58@
-1 NOTE Barn "3." af Anna og Gunnar Bak (1. ægteskab) — efternavn stavet "Bach" i modsætning til familiens ellers "Bak" (muligvis opkaldt efter fadderen "industriarbejder Viggo Bach i Glyngøre", som deler samme stavning). Bopæl Durupvej 24, Glyngøre. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I156 (kraever adgang til den private modul-repo).
 0 @I157@ INDI
-1 NAME Birgit Winther /Andersen/
+1 NAME Living /Andersen/
 1 SEX F
 1 BIRT
 2 DATE 1947
-2 PLAC Harre, Danmark
 1 FAMS @F58@
-1 NOTE Havde 2 børn fra tidligere ægteskab (Janni og René — ikke Boe-slægtens biologiske linje, ingen @I@-poster oprettet for dem). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I157 (kraever adgang til den private modul-repo).
 0 @I158@ INDI
-1 NAME Pia /Bak/
+1 NAME Living /Bak/
 1 SEX F
 1 BIRT
-2 DATE 4 FEB 1983
-2 PLAC Thisted, Danmark
+2 DATE 1983
 1 FAMC @F58@
-1 NOTE Fælles barn ("a/") af Poul Viggo og Birgit. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I158 (kraever adgang til den private modul-repo).
 0 @I159@ INDI
-1 NAME Knud Erik /Bak/
+1 NAME Living /Bak/
 1 SEX M
 1 BIRT
-2 DATE 23 APR 1959
-2 PLAC Grynnerup, Danmark
-1 OCCU Landbrugsmedhjælper m.m.
+2 DATE 1959
 1 FAMC @F50@
 1 FAMS @F59@
-1 NOTE Barn "4." af Anna og Gunnar Bak (1. ægteskab). Børn ikke angivet i kilden ("Børn ?"). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I159 (kraever adgang til den private modul-repo).
 0 @I160@ INDI
-1 NAME Betina /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMS @F59@
-1 NOTE Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I160 (kraever adgang til den private modul-repo).
 0 @I161@ INDI
-1 NAME Søren Kjeldsen /Bak/
+1 NAME Living /Bak/
 1 SEX M
 1 BIRT
-2 DATE 4 OCT 1971
+2 DATE 1971
 1 FAMC @F51@
 1 FAMS @F60@
-1 NOTE Barn "5." af Anna og Harry Kjeldsen (2. ægteskab) — hybrid-efternavnet "Kjeldsen Bak" afspejler formentlig begge forældre. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I161 (kraever adgang til den private modul-repo).
 0 @I162@ INDI
-1 NAME Chanette /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMS @F60@
-1 NOTE Efternavn ikke angivet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I162 (kraever adgang til den private modul-repo).
 0 @F47@ FAM
 1 HUSB @I128@
 1 WIFE @I129@
@@ -1469,11 +1420,10 @@
 1 FAMS @F62@
 1 NOTE Søn af husmand Peder Nielsen og hustru Severine Sørensen. Enkemand ved giftermålet med Meta — tidligere gift med Hansine Marie Kirkegaard (død 20.12.1945); hun er ikke selvstændigt oprettet her, da hun ikke har nogen kendt forbindelse til Boe-slægten. Parret solgte huset i Brunshåb og boede en tid på Overlund Alderdomshjem, hvor Peter døde 1968. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I166@ INDI
-1 NAME Peder N. /Pedersen/
+1 NAME Living /Pedersen/
 1 SEX M
-1 OCCU Plejer
 1 FAMS @F63@
-1 NOTE Metas 2. ægtefælle. Parret boede Ll. Skt. Pedersstræde (by ikke angivet i kilden, formentlig Viborg) indtil Peders død. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I166 (kraever adgang til den private modul-repo).
 0 @I167@ INDI
 1 NAME Hanne /Boe/
 1 SEX F
@@ -1489,165 +1439,131 @@
 1 NOTE Barn "1." af Meta Kristine Kristensen Boe, født uden for ægteskab (far: Gunnar Vilhelm Carlsen, I164). Fik ved fødslen navnet Hanne Boe; navnet ændret til Hanne Nielsen ved moderens giftermål 1946 (Peter Severin Nielsen var ikke hendes far). Faddere ved hendes dåb, alle korrekt mærkede: mormoder Ottine Boline Marie Pedersen (bar barnet); moster Else Margrethe Boe og hendes mand Frederik Lund (moderens søster = I.); morbrødrene Poul Kristensen Boe (= VI.) og Christian Kristensen Boe (= VII.) — fire flere positive modeksempler til fejlmærkningsmønstret i grandfather-review/queue.md #7. Genantog 18.4.1984 sit fødenavn Hanne Boe. Begravet på Asmild kirkegård ved Viborg. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Foto/dokument: sammen med Knud Erik Jakobsen (I168), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image26.jpeg — identificeret direkte af familien (2026-08-06), ikke fundet via manuskriptets egen billedtekst. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
 0 @I168@ INDI
-1 NAME Knud Erik /Jakobsen/
+1 NAME Living /Jakobsen/
 1 SEX M
 1 BIRT
-2 DATE 26 AUG 1945
-2 PLAC Viborg, Danmark
-1 OCCU Lærer (Thorum 1970, Selde 1976); arkivleder, slægtsforsker m.m.
+2 DATE 1945
 1 FAMS @F64@
 1 FAMS @F120@
-1 NOTE **Dette er manuskriptets egen forfatter, Knud Erik Jakobsen (KEJ)** — se dette dokuments kildeangivelse. Gift med Hanne Boe/Nielsen (I167) 1966; parret boede i Åbybro under hans uddannelse på Ålborg seminarium (1966-70), senere i Åsted, fra 1973 på Risumvej 3. Ægteskabet opløst 1983. Manuskriptet henviser videre til "Salling-slægten Hopp" m.fl. — KEJ's egne øvrige slægtsforskningsprojekter, ikke undersøgt nærmere her. [SENSITIVE] — ingen dødsdato angivet (manuskriptets forfatter, i live pr. 2026). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-1 NOTE Foto/dokument: sammen med Hanne Boe (I167), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image26.jpeg. Billedet lå oprindelig fysisk indlejret blandt filer fra KEJ's egen "Hopp-slægter"-mappestruktur i .docx-filen (deraf det oprindelige, misvisende filnavn) — men billedets faktiske indhold er Boe-slægten, ikke Hopp-slægten; korrigeret 2026-08-06 efter direkte familieidentifikation. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
-1 NOTE KEJ har en tredje datter, Astrid Kirk (I363), med en anden kvinde end Hanne Boe — oplyst direkte af familien (2026-08-06), ikke omtalt i manuskriptet. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I168 (kraever adgang til den private modul-repo).
 0 @I169@ INDI
-1 NAME Lotta Ann (Jakobsen) /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 12 OCT 1966
-2 PLAC Ansgar sogn, Ålborg, Danmark
-1 OCCU Ingeniør (1990, Horsens); ansat ved Skanderborg Kommune, fra 2017 Vejle Kommune
+2 DATE 1966
 1 FAMC @F64@
 1 FAMS @F65@
-1 NOTE Barn "a/" af Hanne og Knud Erik Jakobsen. Navneændring 1984 til Lotta Ann Jakobsen Boe. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-1 NOTE Foto/dokument: gruppebillede, august 1995, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png — sammen med Bruno Dølby (I170), Gitte Boe (I174), Tommy Krogh (I175), Cecilie Boe (I181, spæd/lille barn), Nikolaj Boe (I177, dreng), samt Astrid Kirk (I363). Identificeret direkte af familien (2026-08-06). [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I169 (kraever adgang til den private modul-repo).
 0 @I170@ INDI
-1 NAME Bruno /Dølby/
+1 NAME Living /Dølby/
 1 SEX M
 1 BIRT
-2 DATE 10 SEP 1964
-2 PLAC Durup, Danmark
-1 OCCU Udlært maskinsnedker (Horsens); senere lager-/pladsmand hos Brdr. Plagborg
+2 DATE 1964
 1 FAMS @F65@
-1 NOTE Manuskriptet henviser til en ekstern slægtsbog for hans egen linje: "Hopp-Slægten kap. 1, Afsnit 13 a-2-d/" — ikke undersøgt nærmere her. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-1 NOTE Foto/dokument: gruppebillede, august 1995 (stående), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png — sammen med Lotta Ann (I169), Gitte Boe (I174), Tommy Krogh (I175), Cecilie Boe (I181), Nikolaj Boe (I177), samt Astrid Kirk (I363). Identificeret direkte af familien (2026-08-06). [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I170 (kraever adgang til den private modul-repo).
 0 @I171@ INDI
-1 NAME Frederikke /Dølby/
+1 NAME Living /Dølby/
 1 SEX F
 1 BIRT
-2 DATE 26 SEP 2000
-2 PLAC Horsens sygehus, Danmark
-1 OCCU Studerende, Odense (2026: socialrådgiver)
+2 DATE 2000
 1 FAMC @F65@
 1 FAMS @F66@
-1 NOTE Barn "1/" af Lotta Ann og Bruno. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I171 (kraever adgang til den private modul-repo).
 0 @I172@ INDI
-1 NAME Martin /Buchwald/
+1 NAME Living /Buchwald/
 1 SEX M
 1 BIRT
-2 DATE 9 JUL 1997
-2 PLAC Sludstrup, Danmark
-1 OCCU Uddannet mekaniker
+2 DATE 1997
 1 FAMS @F66@
-1 NOTE Frederikkes kæreste (ikke gift). Kildens egen fødselsdato-notation ("f. 9.71997") mangler tilsyneladende et skilletegn — tolket her som 9.7.1997; ikke behandlet som en uoverensstemmelse af samme art som sub-mønster A/E, da den sandsynlige læsning er entydig. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I172 (kraever adgang til den private modul-repo).
 0 @I173@ INDI
-1 NAME Mathias /Dølby/
+1 NAME Living /Dølby/
 1 SEX M
 1 BIRT
-2 DATE 11 JUN 2003
-2 PLAC Horsens sygehus, Danmark
-1 OCCU Praktikant, Polar Park (Nordnorge); ved læsning i kilden p.t. Givskud Zoo
+2 DATE 2003
 1 FAMC @F65@
-1 NOTE Barn "2/" af Lotta Ann og Bruno. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I173 (kraever adgang til den private modul-repo).
 0 @I174@ INDI
-1 NAME Gitte (Jakobsen) /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 17 SEP 1970
-2 PLAC Skive, Danmark
-1 OCCU Montrice ved Oticon, Thisted
+2 DATE 1970
 1 FAMC @F64@
 1 FAMS @F67@
 1 FAMS @F68@
-1 NOTE Barn "b/" af Hanne og Knud Erik Jakobsen. Navneændring 1984 til Gitte Jakobsen Boe (samtidig med søsteren Lotta Ann). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-1 NOTE Foto/dokument: gruppebillede, august 1995 (med Cecilie), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png — sammen med Bruno Dølby (I170), Tommy Krogh (I175), Lotta Ann (I169), Cecilie Boe (I181), Nikolaj Boe (I177), samt Astrid Kirk (I363). Identificeret direkte af familien (2026-08-06). [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I174 (kraever adgang til den private modul-repo).
 0 @I175@ INDI
-1 NAME Tommy Høgedal /Krogh/
+1 NAME Living /Krogh/
 1 SEX M
 1 BIRT
-2 DATE 23 MAR 1964
-1 OCCU Elektromekaniker; salgschef hos Skov A/S i Glyngøre
+2 DATE 1964
 1 FAMS @F67@
-1 NOTE Gittes kæreste (ikke gift), parforholdet senere opløst. Boede ca. ½ år i Saskatoon, Canada, med Gitte, før bosættelse i Nykøbing Mors/Nordmors. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-1 NOTE Foto/dokument: gruppebillede, august 1995 (med Nikolaj), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png — sammen med Bruno Dølby (I170), Gitte Boe (I174), Lotta Ann (I169), Cecilie Boe (I181), Nikolaj Boe (I177), samt Astrid Kirk (I363). Identificeret direkte af familien (2026-08-06). [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I175 (kraever adgang til den private modul-repo).
 0 @I176@ INDI
-1 NAME Jens /Munk/
+1 NAME Living /Munk/
 1 SEX M
 1 BIRT
-2 DATE 25 JUN 1964
-2 PLAC Vester Hassing, Danmark
-1 OCCU Gårdejer, Vester Hassing
+2 DATE 1964
 1 FAMS @F68@
-1 NOTE To børn fra tidligere forhold (Cathrine, f.2004, og Christian, f.2006) — ikke Boe-slægtens biologiske linje, ingen @I@-poster oprettet for dem. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I176 (kraever adgang til den private modul-repo).
 0 @I177@ INDI
-1 NAME Nikolaj Høgedal /Boe/
+1 NAME Living /Boe/
 1 SEX M
 1 BIRT
-2 DATE 31 JAN 1992
-2 PLAC Skive, Danmark
-1 OCCU Sergent; læser (2016) statskundskab, Københavns Universitet; senere IT, Region Hovedstaden, fra 2022 Deloitte København
+2 DATE 1992
 1 FAMC @F67@
 1 FAMS @F69@
-1 NOTE Barn "1/" af Gitte og Tommy Høgedal Krogh. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-1 NOTE Foto/dokument: gruppebillede, august 1995 (som lille dreng, stående), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png — sammen med Bruno Dølby (I170), Gitte Boe (I174), Tommy Krogh (I175), Lotta Ann (I169), Cecilie Boe (I181), samt Astrid Kirk (I363). Identificeret direkte af familien (2026-08-06). [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I177 (kraever adgang til den private modul-repo).
 0 @I178@ INDI
-1 NAME Tatiana "Tanja" /Kormanowa/
+1 NAME Living /Kormanowa/
 1 SEX F
 1 BIRT
-2 DATE 7 SEP 1997
-2 PLAC Slovakiet
+2 DATE 1997
 1 FAMS @F69@
-1 NOTE [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I178 (kraever adgang til den private modul-repo).
 0 @I179@ INDI
-1 NAME Hanna /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 25 SEP 2023
-2 PLAC Hvidovre Hospital, Danmark
+2 DATE 2023
 1 FAMC @F69@
-1 NOTE Barn "I/" af Nikolaj og Tatiana. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I179 (kraever adgang til den private modul-repo).
 0 @I180@ INDI
-1 NAME Henry /Boe/
+1 NAME Living /Boe/
 1 SEX M
 1 BIRT
-2 DATE 2 NOV 2024
-2 PLAC Hvidovre Hospital, Danmark
+2 DATE 2024
 1 FAMC @F69@
-1 NOTE Barn "II/" af Nikolaj og Tatiana. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I180 (kraever adgang til den private modul-repo).
 0 @I181@ INDI
-1 NAME Cecilie Høgedal /Boe/
+1 NAME Living /Boe/
 1 SEX F
 1 BIRT
-2 DATE 10 SEP 1994
-2 PLAC Skive, Danmark
-1 OCCU Pædagogassistent (2016); operatør ved Arla, Holstebro Mejeri
+2 DATE 1994
 1 FAMC @F67@
 1 FAMS @F70@
-1 NOTE Barn "2/" af Gitte og Tommy Høgedal Krogh. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
-1 NOTE Foto/dokument: gruppebillede, august 1995 (som spæd/lille barn), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png — sammen med Bruno Dølby (I170), Gitte Boe (I174), Tommy Krogh (I175), Lotta Ann (I169), Nikolaj Boe (I177), samt Astrid Kirk (I363). Identificeret direkte af familien (2026-08-06). [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I181 (kraever adgang til den private modul-repo).
 0 @I182@ INDI
-1 NAME Morten /Frederiksen/
+1 NAME Living /Frederiksen/
 1 SEX M
 1 BIRT
-2 DATE 9 JUL 1992
+2 DATE 1992
 1 FAMS @F70@
-1 NOTE Cecilies kæreste (ikke gift). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I182 (kraever adgang til den private modul-repo).
 0 @I183@ INDI
-1 NAME Freja Hegaard /Frederiksen/
+1 NAME Living /Frederiksen/
 1 SEX F
 1 BIRT
-2 DATE 3 JUL 2021
-2 PLAC Holstebro, Danmark
+2 DATE 2021
 1 FAMC @F70@
-1 NOTE Barn "I/" af Cecilie og Morten. Efternavnet staves "Frederisen" ét sted i kilden (mod "Frederiksen" ellers) — behandlet som en stavefejl, ikke en separat person. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I183 (kraever adgang til den private modul-repo).
 0 @I184@ INDI
-1 NAME Emil Hegaard /Frederiksen/
+1 NAME Living /Frederiksen/
 1 SEX M
 1 BIRT
-2 DATE 28 JUL 2025
-2 PLAC Gødstrup, Danmark
+2 DATE 2025
 1 FAMC @F70@
-1 NOTE Barn "II/" af Cecilie og Morten. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I184 (kraever adgang til den private modul-repo).
 0 @I185@ INDI
 1 NAME Carlo Boe /Nielsen/
 1 SEX M
@@ -1746,65 +1662,59 @@
 1 FAMS @F71@
 1 NOTE Søn af gårdejer Aage Boll og hustru Else Thomine Marie Frandsen. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I188@ INDI
-1 NAME Svend Tage /Boll/
+1 NAME Living /Boll/
 1 SEX M
 1 BIRT
-2 DATE 9 APR 1948
-2 PLAC Tøndering, Danmark
-1 OCCU Murer; ophold i bl.a. Australien og Afrika; bopæl Jegindø gl. præstegård
+2 DATE 1948
 1 FAMC @F71@
 1 FAMS @F72@
-1 NOTE Barn "1." af Karen og Arne. Faddere, korrekt mærkede: forældrene; landmand Harald Boll i Åsted sogn (farbror); gartner Kristian Boe i Tøndering (morbror = VII.); landmand Viggo Boll i Åsted sogn (farbror) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I188 (kraever adgang til den private modul-repo).
 0 @I189@ INDI
-1 NAME Grethe /Sørensen/
+1 NAME Living /Sørensen/
 1 SEX F
-1 OCCU Lærer
 1 FAMS @F72@
-1 NOTE Svend Tages hustru, gift 1974. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I189 (kraever adgang til den private modul-repo).
 0 @I190@ INDI
-1 NAME Thomas /Boll/
+1 NAME Living /Boll/
 1 SEX M
 1 BIRT
 2 DATE 1977
-1 OCCU Lærer ved Hornum Ungdomsskole
 1 FAMC @F72@
 1 FAMS @F73@
-1 NOTE Barn "a/" af Svend Tage og Grethe. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I190 (kraever adgang til den private modul-repo).
 0 @I191@ INDI
-1 NAME Ane /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMS @F73@
-1 NOTE Efternavn ikke angivet. Thomas' hustru. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I191 (kraever adgang til den private modul-repo).
 0 @I192@ INDI
-1 NAME Ea /Boll/
+1 NAME Living /Boll/
 1 SEX F
 1 FAMC @F73@
-1 NOTE Barn "A" af Thomas og Ane. To yderligere søskende ("B", "C") nævnt i kilden uden navn, den yngste født 2018 — ingen selvstændige @I@-poster oprettet for dem. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I192 (kraever adgang til den private modul-repo).
 0 @I193@ INDI
-1 NAME Esther /Boll/
+1 NAME Living /Boll/
 1 SEX F
 1 BIRT
-2 DATE 29 NOV 1978
-1 OCCU Bioanalytiker
+2 DATE 1978
 1 FAMC @F72@
 1 FAMS @F74@
-1 NOTE Barn "b/" af Svend Tage og Grethe. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I193 (kraever adgang til den private modul-repo).
 0 @I194@ INDI
-1 NAME Lars /?/
+1 NAME Living /?/
 1 SEX M
-1 OCCU Kommunaldirektør, Holstebro
 1 FAMS @F74@
-1 NOTE Efternavn ikke angivet. Esthers ægtefælle. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I194 (kraever adgang til den private modul-repo).
 0 @I195@ INDI
-1 NAME Georg /?/
+1 NAME Living /?/
 1 SEX M
 1 FAMC @F74@
-1 NOTE Barn "A" af Esther og Lars. Efternavn ikke angivet (faderens efternavn er ukendt i kilden). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I195 (kraever adgang til den private modul-repo).
 0 @I196@ INDI
-1 NAME Knud /?/
+1 NAME Living /?/
 1 SEX M
 1 FAMC @F74@
-1 NOTE Barn "B" af Esther og Lars. Et tredje barn ("C") nævnt uden navn, født 2018 — ingen selvstændig @I@-post oprettet. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I196 (kraever adgang til den private modul-repo).
 0 @I197@ INDI
 1 NAME Birgit /Boll/
 1 SEX F
@@ -1819,65 +1729,59 @@
 1 FAMS @F75@
 1 NOTE Barn "2." af Karen og Arne. Faddere, korrekt mærkede: forældrene; landmand Harald Boll i Nøreng (farbror); landmand Anders Boll i Nøreng (farbror); kontorassistent Krista Boe, Aagade i Skive (moster = IX.) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I198@ INDI
-1 NAME Erik /Vestergård/
+1 NAME Living /Vestergård/
 1 SEX M
 1 BIRT
 2 DATE 1947
-1 OCCU Fabrikschef, Hammel
 1 FAMS @F75@
-1 NOTE Gift med Birgit 1973; ægteskabet opløst 2000. Giftede sig igen (2. ægteskab, kildens egen dato "1016" er næsten sikkert en fejlskrivning for 2016) med Birthe Andersen (f.1956) — hun er ikke selvstændigt oprettet her, ingen kendt forbindelse til Boe-slægten. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I198 (kraever adgang til den private modul-repo).
 0 @I199@ INDI
-1 NAME Linda Boll /Vestergård/
+1 NAME Living /Vestergård/
 1 SEX F
 1 BIRT
 2 DATE 1976
-2 PLAC Roslev, Danmark
 1 FAMC @F75@
 1 FAMS @F76@
-1 NOTE Barn "a/" af Birgit og Erik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I199 (kraever adgang til den private modul-repo).
 0 @I200@ INDI
-1 NAME Henrik /Damsgaard/
+1 NAME Living /Damsgaard/
 1 SEX M
 1 FAMS @F76@
-1 NOTE Lindas ægtefælle, gift 2007, opløst 2016. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I200 (kraever adgang til den private modul-repo).
 0 @I201@ INDI
-1 NAME Rebecca Vestergaard /Damsgaard/
+1 NAME Living /Damsgaard/
 1 SEX F
 1 BIRT
 2 DATE 2005
-2 PLAC Vamdrup, Danmark
 1 FAMC @F76@
-1 NOTE Barn "A" af Linda og Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I201 (kraever adgang til den private modul-repo).
 0 @I202@ INDI
-1 NAME Sebastian Vestergaard /Damsgaard/
+1 NAME Living /Damsgaard/
 1 SEX M
 1 BIRT
 2 DATE 2010
-2 PLAC Vamdrup, Danmark
 1 FAMC @F76@
-1 NOTE Barn "B" af Linda og Henrik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I202 (kraever adgang til den private modul-repo).
 0 @I203@ INDI
-1 NAME Lars Boll /Vestergård/
+1 NAME Living /Vestergård/
 1 SEX M
 1 BIRT
 2 DATE 1979
-2 PLAC Roslev, Danmark
 1 FAMC @F75@
 1 FAMS @F77@
-1 NOTE Barn "b/" af Birgit og Erik. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I203 (kraever adgang til den private modul-repo).
 0 @I204@ INDI
-1 NAME Mette /Lydiger/
+1 NAME Living /Lydiger/
 1 SEX F
 1 FAMS @F77@
-1 NOTE Lars' kæreste (ikke gift), sammen fra 2018. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I204 (kraever adgang til den private modul-repo).
 0 @I205@ INDI
-1 NAME Esther Annie Lydiger /Vestergaard/
+1 NAME Living /Vestergaard/
 1 SEX F
 1 BIRT
 2 DATE 2018
-2 PLAC Horsens, Danmark
 1 FAMC @F77@
-1 NOTE Datter af Lars og Mette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I205 (kraever adgang til den private modul-repo).
 0 @I206@ INDI
 1 NAME Marie Boll /Vestergaard/
 1 SEX F
@@ -1901,237 +1805,210 @@
 1 FAMC @F75@
 1 NOTE Barn "d/" af Birgit og Erik. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I208@ INDI
-1 NAME Anna Gyda /Boll/
+1 NAME Living /Boll/
 1 SEX F
 1 BIRT
-2 DATE 13 AUG 1952
-2 PLAC Tøndering, Danmark
-1 OCCU Dagplejer, Selde
+2 DATE 1952
 1 FAMC @F71@
 1 FAMS @F78@
-1 NOTE Barn "3." af Karen og Arne. Faddere, korrekt mærkede: forældrene; boelsmand Harald Boll i Nøreng, Åsted sogn (farbror); murermester Laurits Boe i Durup (morfar) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I208 (kraever adgang til den private modul-repo).
 0 @I209@ INDI
-1 NAME Kaj Godsk /Pedersen/
+1 NAME Living /Pedersen/
 1 SEX M
-1 OCCU Tagdækker
 1 FAMS @F78@
-1 NOTE Anna Gydas ægtefælle. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I209 (kraever adgang til den private modul-repo).
 0 @I210@ INDI
-1 NAME Lone Boll /Pedersen/
+1 NAME Living /Pedersen/
 1 SEX F
 1 BIRT
-2 DATE 12 MAY 1975
-2 PLAC Selde, Danmark
-1 OCCU Social- og sundhedsassistent
+2 DATE 1975
 1 FAMC @F78@
 1 FAMS @F79@
-1 NOTE Barn "a/" af Anna Gyda og Kaj. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I210 (kraever adgang til den private modul-repo).
 0 @I211@ INDI
-1 NAME Ole /Rasmussen/
+1 NAME Living /Rasmussen/
 1 SEX M
-1 OCCU Maskinsnedker
 1 FAMS @F79@
-1 NOTE Lones ægtefælle. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I211 (kraever adgang til den private modul-repo).
 0 @I212@ INDI
-1 NAME Malene Boll /Rasmussen/
+1 NAME Living /Rasmussen/
 1 SEX F
 1 BIRT
-2 DATE 3 SEP 1998
+2 DATE 1998
 1 FAMC @F79@
-1 NOTE Barn "A" af Lone og Ole. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I212 (kraever adgang til den private modul-repo).
 0 @I213@ INDI
-1 NAME Rikke Boll /Rasmussen/
+1 NAME Living /Rasmussen/
 1 SEX F
 1 BIRT
-2 DATE 3 APR 2000
+2 DATE 2000
 1 FAMC @F79@
-1 NOTE Barn "B" af Lone og Ole. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I213 (kraever adgang til den private modul-repo).
 0 @I214@ INDI
-1 NAME Jakob Boll /Rasmussen/
+1 NAME Living /Rasmussen/
 1 SEX M
 1 BIRT
-2 DATE 19 MAY 2006
+2 DATE 2006
 1 FAMC @F79@
-1 NOTE Barn "C" af Lone og Ole. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I214 (kraever adgang til den private modul-repo).
 0 @I215@ INDI
-1 NAME Helle Boll /Pedersen/
+1 NAME Living /Pedersen/
 1 SEX F
 1 BIRT
-2 DATE 23 SEP 1976
-2 PLAC Selde, Danmark
-1 OCCU Sygeplejerske
+2 DATE 1976
 1 FAMC @F78@
 1 FAMS @F80@
-1 NOTE Barn "b/" af Anna Gyda og Kaj. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I215 (kraever adgang til den private modul-repo).
 0 @I216@ INDI
-1 NAME Flemming /Tingholm/
+1 NAME Living /Tingholm/
 1 SEX M
-1 OCCU Skorstensfejer
 1 FAMS @F80@
-1 NOTE Helles ægtefælle, gift 16.8.2003. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I216 (kraever adgang til den private modul-repo).
 0 @I217@ INDI
-1 NAME Iben /?/
+1 NAME Living /?/
 1 SEX F
 1 BIRT
-2 DATE 15 APR 2004
+2 DATE 2004
 1 FAMC @F80@
-1 NOTE Barn "A" af Helle og Flemming. Efternavn ikke angivet i kilden (i modsætning til fætrene/kusinerne i denne gren, som alle vises med bindestregs-efternavne). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I217 (kraever adgang til den private modul-repo).
 0 @I218@ INDI
-1 NAME Lisa /?/
+1 NAME Living /?/
 1 SEX F
 1 BIRT
-2 DATE 2 OCT 2005
+2 DATE 2005
 1 FAMC @F80@
-1 NOTE Barn "B" af Helle og Flemming. Efternavn ikke angivet i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I218 (kraever adgang til den private modul-repo).
 0 @I219@ INDI
-1 NAME Diana /?/
+1 NAME Living /?/
 1 SEX F
 1 BIRT
-2 DATE 4 JAN 2008
+2 DATE 2008
 1 FAMC @F80@
-1 NOTE Barn "C" af Helle og Flemming. Efternavn ikke angivet i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I219 (kraever adgang til den private modul-repo).
 0 @I220@ INDI
-1 NAME Ole Boll /Pedersen/
+1 NAME Living /Pedersen/
 1 SEX M
 1 BIRT
-2 DATE 21 DEC 1982
-2 PLAC Selde, Danmark
-1 OCCU Maler
+2 DATE 1982
 1 FAMC @F78@
 1 FAMS @F81@
-1 NOTE Barn "c/" af Anna Gyda og Kaj. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I220 (kraever adgang til den private modul-repo).
 0 @I221@ INDI
-1 NAME Sara /Korntved/
+1 NAME Living /Korntved/
 1 SEX F
-1 OCCU Sygeplejerske
 1 FAMS @F81@
-1 NOTE Oles hustru, gift 31.5.2014. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I221 (kraever adgang til den private modul-repo).
 0 @I222@ INDI
-1 NAME Adam /?/
+1 NAME Living /?/
 1 SEX M
 1 BIRT
-2 DATE 22 JAN 2014
+2 DATE 2014
 1 FAMC @F81@
-1 NOTE Barn "A" af Ole og Sara. Efternavn ikke angivet i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I222 (kraever adgang til den private modul-repo).
 0 @I223@ INDI
-1 NAME Elias /?/
+1 NAME Living /?/
 1 SEX M
 1 BIRT
-2 DATE 5 OCT 2016
+2 DATE 2016
 1 FAMC @F81@
-1 NOTE Barn "B" af Ole og Sara. Efternavn ikke angivet i kilden. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I223 (kraever adgang til den private modul-repo).
 0 @I224@ INDI
-1 NAME Karsten /Boll/
+1 NAME Living /Boll/
 1 SEX M
 1 BIRT
-2 DATE 18 JUL 1955
-2 PLAC Tøndering, Danmark
-1 OCCU Lærer i Ringe; senere Luxembourg, Billund, Selde
+2 DATE 1955
 1 FAMC @F71@
 1 FAMS @F82@
-1 NOTE Barn "4." af Karen og Arne. Faddere: forældrene; sygeplejerske Martha Boll, Amtssygehuset i Gentofte (faster; kildens egen stavning "Getofte" læst som en åbenlys trykfejl); tilsynshavende Ellen Boll, Amtssygehuset i Gentofte; gartner Poul Boe i Durup (morbror = VI. — korrekt mærket, endnu et positivt modeksempel til grandfather-review/queue.md #7). [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I224 (kraever adgang til den private modul-repo).
 0 @I225@ INDI
-1 NAME Aase Færk /Jørgensen/
+1 NAME Living /Jørgensen/
 1 SEX F
 1 FAMS @F82@
-1 NOTE Karstens hustru, gift 4.10.1980. Datter af Tinna og Aage Jørgensen i Roslev. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I225 (kraever adgang til den private modul-repo).
 0 @I226@ INDI
-1 NAME Anna /Boll/
+1 NAME Living /Boll/
 1 SEX F
 1 FAMC @F82@
-1 NOTE Datter "A" af Karsten og Aase. Bor i København. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I226 (kraever adgang til den private modul-repo).
 0 @I227@ INDI
-1 NAME Anders Henrik /Boll/
+1 NAME Living /Boll/
 1 SEX M
 1 BIRT
-2 DATE 27 APR 1957
-2 PLAC Tøndering, Danmark
-1 OCCU Pædagog i Snedsted
+2 DATE 1957
 1 FAMC @F71@
 1 FAMS @F83@
-1 NOTE Barn "5." af Karen og Arne. Faddere, korrekt mærkede: forældrene; boelsmand Harald Boll i Nøreng, Åsted sogn (farbror); gartner Poul Boe i Durup (morbror = VI.) — endnu et positivt modeksempel til grandfather-review/queue.md #7. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I227 (kraever adgang til den private modul-repo).
 0 @I228@ INDI
-1 NAME Anette /?/
+1 NAME Living /?/
 1 SEX F
 1 FAMS @F83@
-1 NOTE Efternavn ikke angivet. Anders Henriks hustru. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I228 (kraever adgang til den private modul-repo).
 0 @I229@ INDI
-1 NAME Maja /Boll/
+1 NAME Living /Boll/
 1 SEX F
-1 OCCU Sygeplejerske
 1 FAMC @F83@
-1 NOTE Barn "A" af Anders Henrik og Anette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I229 (kraever adgang til den private modul-repo).
 0 @I230@ INDI
-1 NAME Emil /Boll/
+1 NAME Living /Boll/
 1 SEX M
-1 OCCU Murer
 1 FAMC @F83@
-1 NOTE Barn "B" af Anders Henrik og Anette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I230 (kraever adgang til den private modul-repo).
 0 @I231@ INDI
-1 NAME Liva /Boll/
+1 NAME Living /Boll/
 1 SEX F
 1 FAMC @F83@
-1 NOTE Barn "C" af Anders Henrik og Anette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I231 (kraever adgang til den private modul-repo).
 0 @I232@ INDI
-1 NAME Jan Laurids /Boll/
+1 NAME Living /Boll/
 1 SEX M
 1 BIRT
-2 DATE 17 SEP 1959
-2 PLAC Tøndering, Danmark
-1 OCCU Tømrer, pedel på Skive Seminarium
+2 DATE 1959
 1 FAMC @F71@
 1 FAMS @F84@
-1 NOTE Barn "6." af Karen og Arne. Faddere: forældrene; gårdejer Harald Boll i Nøreng pr. Durup; gårdejer Viggo Boll i Hvidbjerg pr. Skive (farbror); "gartner Poul Boll i Durup (morbror = VI.)" — romertallet er korrekt, men efternavnet er forvekslet: personen er entydigt Poul **Kristensen Boe** (I103), samme gartner-onkel korrekt navngivet "Poul Boe" i søskendes egne fadderlister ovenfor. Ny, hidtil ubeskrevet fejltype — logget som sub-mønster G i `family-tree/possible-duplicates.md`, første forekomst. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I232 (kraever adgang til den private modul-repo).
 0 @I233@ INDI
-1 NAME Kirsten Høj /Jørgensen/
+1 NAME Living /Jørgensen/
 1 SEX F
-1 OCCU Pædagog ved Skivehus Skole
 1 FAMS @F84@
-1 NOTE Jan Lauridsʼ hustru. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I233 (kraever adgang til den private modul-repo).
 0 @I234@ INDI
-1 NAME Mette /Boll/
+1 NAME Living /Boll/
 1 SEX F
-1 OCCU Skolelærer i Odder
 1 FAMC @F84@
-1 NOTE Barn "A" af Jan Laurids og Kirsten. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I234 (kraever adgang til den private modul-repo).
 0 @I235@ INDI
-1 NAME Jens /Boll/
+1 NAME Living /Boll/
 1 SEX M
-1 OCCU Skolelærer
 1 FAMC @F84@
-1 NOTE Barn "B" af Jan Laurids og Kirsten. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I235 (kraever adgang til den private modul-repo).
 0 @I236@ INDI
-1 NAME John Harald /Boll/
+1 NAME Living /Boll/
 1 SEX M
 1 BIRT
-2 DATE 10 OCT 1965
-2 PLAC Tøndering, Danmark
-1 OCCU Maskinsmed, pedel på Durup skole
+2 DATE 1965
 1 FAMC @F71@
 1 FAMS @F85@
-1 NOTE Barn "7." af Karen og Arne, yngst — født for sent (1965) til at være med på det ovenfor nævnte gruppefoto fra o.1962. Overtog forældrenes tidligere ejendom, Hegnetvej 7 i Tøndering. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I236 (kraever adgang til den private modul-repo).
 0 @I237@ INDI
-1 NAME Mette G. /Bodilsen/
+1 NAME Living /Bodilsen/
 1 SEX F
-1 OCCU Kontoruddannet
 1 FAMS @F85@
-1 NOTE John Haralds hustru. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I237 (kraever adgang til den private modul-repo).
 0 @I238@ INDI
-1 NAME Line /Boll/
+1 NAME Living /Boll/
 1 SEX F
-1 OCCU Politiet i Holstebro
 1 FAMC @F85@
-1 NOTE Barn "A" af John Harald og Mette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I238 (kraever adgang til den private modul-repo).
 0 @I239@ INDI
-1 NAME Mathias /Boll/
+1 NAME Living /Boll/
 1 SEX M
 1 FAMC @F85@
-1 NOTE Barn "B" af John Harald og Mette. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I239 (kraever adgang til den private modul-repo).
 0 @I240@ INDI
-1 NAME Emma /Boll/
+1 NAME Living /Boll/
 1 SEX F
 1 FAMC @F85@
-1 NOTE Barn "C" af John Harald og Mette. Kildens egen tekst slutter blot "født." uden dato — en ægte mangel, ikke en uoverensstemmelse. [SENSITIVE] [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I240 (kraever adgang til den private modul-repo).
 0 @F71@ FAM
 1 HUSB @I187@
 1 WIFE @I186@
@@ -3910,10 +3787,10 @@
 1 NOTE Astrid Kirks mor, en anden kvinde end Hanne Boe (I167). Hverken navn eller yderligere detaljer kendt endnu. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
 1 NOTE Forholdet til KEJ (I168) opstod efter hans skilsmisse fra Hanne Boe (1983, se F64) — ikke sideløbende med ægteskabet. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-08]
 0 @I363@ INDI
-1 NAME Astrid /Kirk/
+1 NAME Living /Kirk/
 1 SEX F
 1 FAMC @F120@
-1 NOTE Knud Erik Jakobsens (I168) datter fra et forhold efter hans skilsmisse fra Hanne Boe (1983, se F64) — halvsøster til Lotta Ann (I169) og Gitte (I174). Fødenavn ukendt; går i dag under efternavnet "Kirk." Ses sammen med den øvrige familie på gruppebilledet fra august 1995, library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image27.png (siddende på jorden). [SENSITIVE] — ingen dødsdato angivet, formodet i live. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I363 (kraever adgang til den private modul-repo).
 0 @F120@ FAM
 1 HUSB @I168@
 1 WIFE @I362@
