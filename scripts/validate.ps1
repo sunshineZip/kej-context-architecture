@@ -588,8 +588,13 @@ function Get-VersionHistoryRows {
     return $rows
 }
 
+# restricted/ is a git submodule with its own separate commit history — this
+# script's git-diffing helpers (Get-GitHeadContent, Test-LinesAppendOnly)
+# assume everything they check is part of *this* repo's history, which does
+# not hold across a submodule boundary. Excluded here rather than let those
+# checks misbehave; not a statement that its content matters less.
 $allMdFiles = Get-ChildItem -Path $repoRoot -Recurse -Filter "*.md" -File -ErrorAction SilentlyContinue |
-    Where-Object { $_.FullName -notmatch '[\\/]temp[\\/]' -and $_.FullName -notmatch '[\\/]\.git[\\/]' }
+    Where-Object { $_.FullName -notmatch '[\\/]temp[\\/]' -and $_.FullName -notmatch '[\\/]\.git[\\/]' -and $_.FullName -notmatch '[\\/]restricted[\\/]' }
 
 foreach ($mdFile in $allMdFiles) {
     $rawText = Get-Content -Path $mdFile.FullName -Raw

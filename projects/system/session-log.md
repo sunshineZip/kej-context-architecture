@@ -352,3 +352,32 @@ STATUS: CHECKPOINT
 Completed: New top-level `research-queue.md` groups open genealogical questions by which paid/travel external resource would resolve them, seeded with a real MyHeritage lead on the American emigrant ancestor. Documented in `Architecture.md` and `ROUTING.md` to the same standard as prior fork-specific structural additions.
 Next: None specific — mechanism is live going forward. Revisit MyHeritage once its pile of open questions justifies a subscription.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 14 | 2026-08-08
+
+Same session, continued. Human asked, ahead of sharing a new finding from KEJ, how this repo handles confidentiality beyond `[SENSITIVE]` — specifically, material KEJ is fine keeping within the research foundation but does not want shared or publicized without careful review and disclaimers. Checked rather than assumed: `[SENSITIVE]` is a prose convention with no access-control teeth, and confirmed via the GitHub API that the repo itself was public (not private, contrary to what an earlier turn's advice would have produced) — surfaced that immediately as its own, more urgent issue, independent of the new confidentiality tier being discussed.
+
+Explained GitHub's access model is repo-wide, not per-folder — a plain `restricted/` folder inside this repo would have exactly this repo's own access list, no real boundary. Proposed a git submodule instead: a separate, more restricted private repo mounted at `restricted/`, giving an actual access boundary (only accounts granted access to the underlying repo can see anything there) plus a `ROUTING.md` Hard Constraint for sessions that do have access initialized (never opened/searched/quoted/referenced unless the human names the specific file by path, that turn). Human agreed, created `sunshineZip/kej-restricted-context-architecture` (private, access: Nikolaj only for now), and separately made the main repo public again — confirmed this was a deliberate choice, not an oversight (the `[SENSITIVE]` tier is being treated as acceptable to have public; only the new, more sensitive tier needs the harder boundary).
+
+**Built:**
+
+- Cloned `kej-restricted-context-architecture` (empty), bootstrapped it with a `README.md` stating its purpose, current access list, and the same Hard Constraint restated for any LLM session operating on it directly — committed and pushed.
+- Added it as a git submodule at `restricted/` in the main repo (`.gitmodules` created).
+- `.gitattributes` — new file, `export-ignore` on `restricted/` as defense-in-depth for archive/ZIP exports, on top of the submodule boundary itself.
+- `ROUTING.md` (1.16 → 1.17) — new Hard Constraint for `restricted/`, alongside the existing grandfather-review and knowledge-layer ones.
+- `Architecture.md` (1.10 → 1.11) — §2 diagram gained `restricted/`; new §3 subsection "Restricted companion repo — fork-specific: `restricted/`" explains the access-boundary reasoning in full.
+- `scripts/validate.ps1` — excluded `restricted/` from the repo-wide Version History scan; its git-diffing helpers assume one repo's history, which doesn't hold across a submodule boundary. Not a statement that its content matters less, just that this script's specific mechanisms don't apply across the boundary.
+- `family-tree/tree.ged` — separately, human clarified Astrid Kirk's mother was a relationship KEJ had *after* his 1983 divorce from Hanne Boe, not concurrent with the marriage — corrected the three notes (`I362`, `I363`, `F120`) that had left this ambiguous. Human also noted Astrid's existence isn't really sensitive in the sense that mattered here — she's still `[SENSITIVE]`-tagged as a presumed-living person (that tag is about privacy, not about whether a fact is reputationally awkward), but the correction was made regardless since it was a real factual gap.
+
+### Session close
+
+Knowledge candidates: None — structural addition plus one factual correction, not new domain knowledge.
+Open flags: **Open** — main repo's public/private status was confirmed as the human's deliberate choice this turn, but worth a plain re-check next session rather than assuming it stays that way, since it's now diverged from what an earlier turn recommended.
+Push status: Pending — will push both repos after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: `restricted/` is live as a git submodule pointing at a separate, more restricted private repo — a real access boundary, not just a convention, backed by a matching `ROUTING.md` Hard Constraint for sessions with access. Documented in `Architecture.md` to the same standard as prior structural additions. Astrid Kirk's `tree.ged` notes corrected for timing relative to KEJ's divorce.
+Next: Human to share the actual restricted finding now that the mechanism exists. Revisit whether main-repo public/private status should change again once more is known about what's being kept in `restricted/`.
+Waiting for: Nothing further this turn — pushing now.
