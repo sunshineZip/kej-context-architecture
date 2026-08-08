@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.8 | 2026-08-08 | Active
+Version 1.9 | 2026-08-08 | Active
 
 ---
 
@@ -59,9 +59,9 @@ Kapitel 1 (three sub-items) sending next; kapitel 2–16 to follow later.
 
 | Item | Version | Status |
 |---|---|---|
-| 01 Knud Danielsen Hopp o.1640-1723 | oktober 2015 | Not yet received |
-| 01C Niels Jørgen Knudsen Hopp 1685-1770 | januar 2016 / januar 2025 | Not yet received |
-| 01F Knud Knudsen Hopp død 1762 | januar 2016 / januar 2025 | Not yet received |
+| 01 Knud Danielsen Hopp o.1640-1723 | oktober 2015 | **Incoming** — KEJ says most of the content appears deleted; he's looking for it. Not yet received here. |
+| 01C Niels Jørgen Knudsen Hopp 1685-1770 | januar 2016 / januar 2025 | **Incoming** — KEJ says the 2 maps aren't copied in yet. Not yet received here. |
+| 01F Knud Knudsen Hopp død 1762 | januar 2016 / januar 2025 | **Incoming** — file: "01F Knud Knudsen Hopp 2002.doc" (note: this version-date "2002" doesn't match the catalog's "1994/2026"-style dating for other items — unclear if it's a different, older revision or a typo; not chased further per the human's standing preference to accumulate small discrepancies). KEJ says it opens in "Webapp" but the 2 maps aren't copied; asked whether it can be opened on this end. Mentioned in the human's message but not yet attached — not yet received here. |
 | 02 Daniel Knudsen Hopp o.1681-1730/31 | sept. 2015 | Not yet received |
 | 03 Niels Danielsen Hopp 1707-1775 | oktober 2015 | Not yet received |
 | 04 Daniel Nielsen Hopp o.1732-1800 | oktober 2015 | Not yet received |
@@ -197,3 +197,4 @@ New section (2026-08-08) — three items found in KEJ's master catalog that aren
 | 1.6 | 2026-08-06 | Correction: the two images from 1.5 turned out to be Boe-slægten family photos, not Hopp-slægten material — the human identified both directly. Moved to the Boe-slægten deep well's own media folder; this item's status is unchanged, still "Not yet received." |
 | 1.7 | 2026-08-08 | KEJ sent two files with his reply: "Forskellige Boe-slægter" (added to §2, Received) and his own master catalog of every item he's written, with page counts and version dates ("2026 KEJ Slægtshistorie og lokalhistorie.docx") — more authoritative than this file's original relayed-email source. Used the catalog to refresh version/date fields throughout §3-9, add items the original list missed entirely (Slægt I in §4, Sæbygårds Mølle og Nørremølle in §8), and add new §10 for three personal-memoir items that don't fit any existing *slægt* category. Both new files landed in `incoming/`, not yet triaged into a permanent home — see the human's confirmation still pending on physical storage. |
 | 1.8 | 2026-08-08 | Human confirmed physical storage for both files from 1.7. "Forskellige Boe-slægter" stored as its own deep well (§2 row updated to Triaged); the master catalog stored too, registered in `library/reference-index.md` but not as a mined-for-facts deep well — its value (refreshing this file) is already fully realized. Both removed from `incoming/`. |
+| 1.9 | 2026-08-08 | KEJ began sending Hopp-slægten material (§3: items 01, 01C, 01F) and flagged problems with each in the same message — updated their status to "Incoming" with his own description of the issues (01's content apparently deleted, 01C/01F missing their 2 maps each, 01F's openability in question). No file actually attached to this round yet. |
