@@ -5,7 +5,7 @@ project: archive-digitization
 
 # Archive Digitization — TODO
 
-Version 1.4 | 2026-08-06 | Active
+Version 1.5 | 2026-08-08 | Active
 
 > **Routing check:** This is a task tracking file, not a work queue. Do not start work on any item here unless you have completed ROUTING.md routing and received explicit human confirmation for this session.
 
@@ -13,6 +13,7 @@ Version 1.4 | 2026-08-06 | Active
 
 ## Open
 
+- [ ] **Hopp-slægten reading, phased (2026-08-08):** first three chapter files in hand (01, 01C, 01F — see `library/deep-wells/hopp-slaegten-manifest.md`), per the human's proposal to absorb the two smaller files first. **Phase 1:** 01's surviving overview/index table (short but valuable — the Hopp-slægten equivalent of Boe-slægten's "Aneoversigt," a top-level skeleton for the whole line) plus 01C's full 88 pages (Niels Jørgen Knudsen Hopp, 1685-1770) — into `family-tree/tree.ged`. **Phase 2** (own session, largest file received so far): 01F's full 91 pages (Knud Knudsen Hopp, d.1762). 01's own detailed biographical content beyond the overview table is missing from what KEJ sent (confirmed by flyover) — not blocking either phase; `projects/archive-digitization/context/external-source-hopp-herredsfoged.md` has a secondary-source account of Knud Danielsen Hopp as a stopgap if useful during Phase 1.
 - [ ] **Image extraction now proceeds alongside text extraction, not as a separate pass (decided 2026-08-06):** the Boe-slægten `.docx` has 48 embedded images (photos, scanned documents, maps) that the text-only extraction had ignored entirely. First batch (6 images tied to Aneoversigt/generations "02"-"05", the sections already read) is done — see `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`. Going forward: when reading a new section of the manuscript, pull and process its images in the same working session, not deferred to a later catch-up pass. Efterslægt in particular will need this — its images will very likely depict living or recently-living people, so expect `[SENSITIVE]` handling to become the default there, not the exception.
 - [ ] **Check `incoming/` for new files at the start of each working session** (2026-08-06): the human now pushes raw files directly into `incoming/` via git/GitHub instead of an AI tool connector fetch (see `incoming/README.md`), specifically to avoid connector size caps. Anything found there needs the same triage as any other manifest item: update `context/intake-manifest.md`, decide its real home, move it out of `incoming/`. First real use (2026-08-06): the Boe-slægten original `.docx`, see Done below.
 - [ ] Decide an approach to handwriting transcription for older Danish church records (possibly Gothic/Kurrent script) — manual transcription, a specialized OCR tool, or the family's own knowledge of the handwriting

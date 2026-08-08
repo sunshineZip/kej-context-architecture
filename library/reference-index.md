@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.18 | 2026-08-08 | Production
+Version 1.19 | 2026-08-08 | Production
 
 ---
 
@@ -92,6 +92,19 @@ Add one heading per work, following this template (see `knowledge/domains/author
 
 ---
 
+## hopp-slaegten
+
+- **Title:** "Hopp-slægten," Kapitel 1 (items 01, 01C, 01F so far, more expected) — Knud Erik Jakobsen (KEJ), unpublished, per-chapter files
+- **Format:** mixed — legacy `.doc` and modern `.docx`, per file (see manifest)
+- **Stored:** yes — attached to KEJ's 2026-08-08 email (relayed via the human), landed in `incoming/`, triaged same day.
+- **Location:** library/deep-wells/hopp-slaegten/ (growing folder, one file per chapter — see `library/deep-wells/hopp-slaegten-manifest.md` for the full history, per-file flyover findings, and extraction log)
+- **Referenced by domains:** None yet — not read.
+- **Cornerstone status:** Yes — personal, unpublished, not reacquirable except from KEJ; distributed as many separate per-chapter files (16+ expected per `intake-manifest.md` §3) that will accumulate here over an extended period, the strongest form of the "mined incrementally over months" criterion.
+- **Extraction log:**
+  - *Empty — not yet read.* See `hopp-slaegten-manifest.md`'s own Phased Reading Plan: 01 (thin — mostly missing, KEJ is looking for a complete copy) + 01C (88 pages, looks complete) first; 01F (91 pages, looks complete) deferred to its own session.
+
+---
+
 ## Version History
 
 | Version | Date | Summary |
@@ -115,3 +128,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.16 | 2026-08-06 | Registered and stored a second deep well: `ejerslev-1970-religios-bevaegelse-i-jorsby`, a 1970 journal article on "Kyssesekten" that the Boe-slægten manuscript's own bibliography already cited but this project never had in hand. The human found and uploaded it directly, then confirmed storage per the cornerstone rule despite it being a borderline case (small, single-topic, technically re-fetchable). Used to answer a direct question about the Boe bloodline's connection to the sect. |
 | 1.17 | 2026-08-08 | Boe-slægten deep well's Media field updated: 26 of 47 stored images (any confirmed/plausible living individual, plus everything not yet fully identified) moved to `restricted/media/`, a private companion repo, per the human's rule that even one living person present — or an unanalysed image at all — defaults to restricted. 21 confirmed-safe images remain in the public folder. |
 | 1.18 | 2026-08-08 | Registered and stored two new deep wells, both attached to KEJ's 2026-08-08 email reply: `forskellige-boe-slaegter` (several separate, likely-unconnected Boe lineages elsewhere in Denmark — cornerstone, same reasoning as `boe-slaegten-fra-mors-og-fur`; not yet read) and `kej-slaegtshistorie-og-lokalhistorie-2026-katalog` (KEJ's own dated catalog of everything he's written — not mined for facts, already used in full to refresh `intake-manifest.md`; registered here rather than as a project note because it's a raw external file, matching where every other raw file lives). Human confirmed physical storage for both per the cornerstone rule before either was written here. |
+| 1.19 | 2026-08-08 | Registered and stored `hopp-slaegten`, the first Hopp material actually in hand (items 01, 01C, 01F) — structured as a growing folder (`library/deep-wells/hopp-slaegten/`) rather than a single file, since KEJ distributes this line as many separate per-chapter files instead of one combined manuscript. Human confirmed storage per the cornerstone rule; not yet read — see `hopp-slaegten-manifest.md`'s Phased Reading Plan. |

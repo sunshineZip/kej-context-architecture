@@ -574,3 +574,30 @@ STATUS: CHECKPOINT
 Completed: Both files from KEJ's reply are fully triaged — stored, registered, `incoming/` empty again. Two deep wells now registered from this single email (three, counting the master catalog's non-standard registration).
 Next: Read "Forskellige Boe-slægter" — a genuine multi-lineage extraction task, likely multi-session like the original manuscript. Not started.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 23 | 2026-08-08
+
+Same session, continued. Human asked to verify the original Boe-slægten `.docx` was safely absorbed before it was removed from `incoming/` (predates this session, worth double-checking given the new cleanup discipline). Confirmed: removed 2026-08-06, well before today — original binary preserved at `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx` (48,375,813 bytes, valid zip container), 363 individuals extracted into `tree.ged`, manifest status "Fully read." Safe.
+
+Human relayed a second email from KEJ: he's starting to send Hopp-slægten material (items 01, 01C, 01F) and flagged problems with each in the same message (01's content apparently deleted, 01C/01F both missing 2 maps, asked whether 01F can even be opened). No file attached yet — logged what he described in `intake-manifest.md` as "Incoming" and asked the human to attach the actual files when ready.
+
+Human then attached all three files directly. Did a flyover pass (not a real read) per the human's explicit request — metadata, page/word counts, whether each file opens — before touching any content:
+- Both `.doc` files (01, 01F) fail to load in LibreOffice ("source file could not be loaded") but read cleanly via `antiword` (installed for this purpose) — not corrupted, an old binary-format compatibility gap in one tool, not the file itself. Directly answers KEJ's "kan du åbne det?"
+- **01**: confirms his own worry — metadata claims 5 pages / 422 words against the catalog's expected 33 + 3 maps; actual content is just the Kapitel 1 overview/index table, no individual biography.
+- **01C**: 88 pages, exact match to the catalog. Looks complete.
+- **01F**: 91 pages, near-exact match. ~26,000 words, genuine sourced content (quotes an original 1725 lease document). Looks complete.
+
+Human confirmed storage (cornerstone rule) and proposed absorbing the two smaller files first. Stored all three as a new deep well, `library/deep-wells/hopp-slaegten/` — structured as a growing folder rather than a single file, since KEJ distributes this line per-chapter (16+ chapters expected) rather than as one combined manuscript, unlike Boe-slægten. Wrote a phased reading plan into `hopp-slaegten-manifest.md` and `projects/archive-digitization/TODO.md`: Phase 1 = 01's surviving overview table + 01C's full 88 pages; Phase 2 (own session) = 01F's 91 pages, the largest file received so far. Noted `external-source-hopp-herredsfoged.md` (an existing secondary source, already in the repo) as a possible stopgap for 01's missing biographical content, not a substitute for KEJ's own primary account.
+
+### Session close
+
+Knowledge candidates: None — storage/triage/planning, no facts extracted into `tree.ged` yet.
+Open flags: None new. `intake-manifest.md`'s Hopp items 01/01C/01F are "Triaged," not yet read.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Hopp-slægten's first three chapters stored, registered, and flyover'd; a concrete phased plan exists rather than an open-ended "read it eventually."
+Next: Phase 1 — read 01's overview table and 01C's 88 pages into `family-tree/tree.ged`. Not started; awaiting the human's go-ahead to begin actual extraction.
+Waiting for: Nothing further this turn — pushing now.
