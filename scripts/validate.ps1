@@ -787,6 +787,9 @@ if (Test-Path $treeGedPath) {
 # exact birth date, occupation, and notes stripped from the public tree and
 # replaced with a "Living /<surname>/" placeholder + birth year only (full
 # record kept in restricted/tree-sensitive.ged, see Architecture.md §3).
+# A second category, "Withheld /?/", covers content KEJ explicitly
+# instructed never be published regardless of vital status — same
+# mechanics, different reason, see Architecture.md §3.
 # This check catches the placeholder silently regaining real content later
 # — e.g. someone pastes a fuller record back in without redacting it again.
 if (Test-Path $treeGedPath) {
@@ -798,12 +801,13 @@ if (Test-Path $treeGedPath) {
     function Test-PlaceholderLine {
         param([string]$Line)
         if ($Line -match '^0 @I\d+@ INDI\s*$') { return $true }
-        if ($Line -match '^1 NAME Living /.*/\s*$') { return $true }
+        if ($Line -match '^1 NAME (Living|Withheld) /.*/\s*$') { return $true }
         if ($Line -match '^1 SEX [MFU]\s*$') { return $true }
         if ($Line -match '^1 BIRT\s*$') { return $true }
         if ($Line -match '^2 DATE \d{4}\s*$') { return $true }
         if ($Line -match '^1 FAM[CS] @F\d+@\s*$') { return $true }
         if ($Line -match '^1 NOTE Fulde oplysninger \(navn, dato, noter\): restricted/tree-sensitive\.ged#I\d+') { return $true }
+        if ($Line -match '^1 NOTE Ikke offentliggjort efter direkte instruks fra KEJ') { return $true }
         return $false
     }
 
@@ -811,7 +815,7 @@ if (Test-Path $treeGedPath) {
         if ($script:isPlaceholder) {
             foreach ($pl in $script:placeholderLines) {
                 if (-not (Test-PlaceholderLine -Line $pl)) {
-                    Add-ValidationError "family-tree/tree.ged — @$script:currentId2@ looks like a redacted placeholder (NAME 'Living /.../') but also has a non-placeholder line: '$pl' — real data may have regressed back into the public tree"
+                    Add-ValidationError "family-tree/tree.ged — @$script:currentId2@ looks like a redacted placeholder (NAME 'Living/Withheld /.../') but also has a non-placeholder line: '$pl' — real data may have regressed back into the public tree"
                 }
             }
         }
@@ -835,7 +839,7 @@ if (Test-Path $treeGedPath) {
         }
         if ($currentId2) {
             $placeholderLines += $gedLine2
-            if ($gedLine2 -match '^1 NAME Living /') { $isPlaceholder = $true }
+            if ($gedLine2 -match '^1 NAME (Living|Withheld) /') { $isPlaceholder = $true }
         }
     }
     # Flush the final record in the file (the line loop never sees a
@@ -850,7 +854,7 @@ if (Test-Path $treeGedPath) {
 #     error, just skip silently). ---
 $restrictedTreePath = Join-Path $repoRoot "restricted\tree-sensitive.ged"
 if ((Test-Path $treeGedPath) -and (Test-Path $restrictedTreePath)) {
-    $publicPlaceholderIds = [regex]::Matches((Get-Content -Path $treeGedPath -Raw), '0 @(I\d+)@ INDI\r?\n1 NAME Living /') |
+    $publicPlaceholderIds = [regex]::Matches((Get-Content -Path $treeGedPath -Raw), '0 @(I\d+)@ INDI\r?\n1 NAME (?:Living|Withheld) /') |
         ForEach-Object { $_.Groups[1].Value }
     $restrictedText = Get-Content -Path $restrictedTreePath -Raw
     $restrictedIds = [regex]::Matches($restrictedText, '(?m)^0 @(I\d+)@ INDI\s*$') | ForEach-Object { $_.Groups[1].Value }

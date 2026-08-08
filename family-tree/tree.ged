@@ -1400,14 +1400,13 @@
 1 FAMS @F63@
 1 NOTE Barn "III." af Laurids Christensen Boe og Ottine Boline Marie Pedersen. En fadder ved hendes dåb var boelsmand Niels Jensen, Vilholm (05-b, dvs. faster Marie Christensen Boes ægtefælle) — endnu et krydsreferencet fadderskab mellem grene. Husbestyrerinde hos Peder Alfred Plejdrup i Toustrup (1940); uddannet damefrisør. Fik uden for ægteskab datteren Hanne (1944) — se F61. Gift 1. gang 18.8.1946, Durup kirke; gift 2. gang (år ikke angivet) med plejer Peder N. Pedersen. Boede sidst i Skt. Mathiasgade i Viborg til sin død 1982 (kun årstal angivet i kilden, ingen præcis dato). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 0 @I164@ INDI
-1 NAME Gunnar Vilhelm /Carlsen/
+1 NAME Withheld /?/
 1 SEX M
 1 BIRT
-2 DATE 19 NOV 1918
-2 PLAC Silkeborg, Danmark
-1 OCCU Arbejdsmand, Silkeborg
+2 DATE 1918
 1 FAMS @F61@
-1 NOTE Udlagt barnefader (erklæret, ikke gift) til Hanne Boe/Nielsen (I167). [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Ikke offentliggjort efter direkte instruks fra KEJ (2026-08-08).
+1 NOTE Fulde oplysninger (navn, dato, noter): restricted/tree-sensitive.ged#I164 (kraever adgang til den private modul-repo).
 0 @I165@ INDI
 1 NAME Peter Severin /Nielsen/
 1 SEX M
@@ -1436,7 +1435,7 @@
 1 OCCU Kontorassistent, senere bogholder hos Skov A/S i Glyngøre
 1 FAMC @F61@
 1 FAMS @F64@
-1 NOTE Barn "1." af Meta Kristine Kristensen Boe, født uden for ægteskab (far: Gunnar Vilhelm Carlsen, I164). Fik ved fødslen navnet Hanne Boe; navnet ændret til Hanne Nielsen ved moderens giftermål 1946 (Peter Severin Nielsen var ikke hendes far). Faddere ved hendes dåb, alle korrekt mærkede: mormoder Ottine Boline Marie Pedersen (bar barnet); moster Else Margrethe Boe og hendes mand Frederik Lund (moderens søster = I.); morbrødrene Poul Kristensen Boe (= VI.) og Christian Kristensen Boe (= VII.) — fire flere positive modeksempler til fejlmærkningsmønstret i grandfather-review/queue.md #7. Genantog 18.4.1984 sit fødenavn Hanne Boe. Begravet på Asmild kirkegård ved Viborg. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
+1 NOTE Barn "1." af Meta Kristine Kristensen Boe, født uden for ægteskab. Faddere ved hendes dåb, alle korrekt mærkede: mormoder Ottine Boline Marie Pedersen (bar barnet); moster Else Margrethe Boe og hendes mand Frederik Lund (moderens søster = I.); morbrødrene Poul Kristensen Boe (= VI.) og Christian Kristensen Boe (= VII.) — fire flere positive modeksempler til fejlmærkningsmønstret i grandfather-review/queue.md #7. Begravet på Asmild kirkegård ved Viborg. Yderligere baggrund om familieforhold omkring hendes fødsel og navnehistorik er udeladt her efter direkte instruks fra KEJ (2026-08-08) — se restricted/tree-sensitive.ged#I164. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54]
 1 NOTE Foto/dokument: sammen med Knud Erik Jakobsen (I168), library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/image26.jpeg — identificeret direkte af familien (2026-08-06), ikke fundet via manuskriptets egen billedtekst. [VERIFIED: familieidentifikation — Nikolaj Boe, sikker, 2026-08-06]
 0 @I168@ INDI
 1 NAME Living /Jakobsen/

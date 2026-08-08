@@ -426,3 +426,30 @@ STATUS: CHECKPOINT
 Completed: All `[SENSITIVE]` content (155 individuals, 26 media files) now lives in `restricted/`, with the public repo carrying only placeholders/pointers and a fully-preserved tree shape. A real false-positive bug (6 individuals, including 2 outright tagging errors) was caught and fixed before it reached a commit. Two new validator guards protect against regression, both verified against deliberately injected failures rather than assumed correct. A merge script lets the human reconstruct a complete private tree without further help each time.
 Next: None specific — mechanism is live. Human may want to review the 6 corrected false-positive individuals and the "strict" image25-style rule's downstream effects once they've had time to look at what actually moved.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 17 | 2026-08-08
+
+Same session, continued. Human questioned whether 155 individuals really being "presumed living" was plausible. Checked: 70 of 155 have no birth year at all (correctly conservative — no data to judge from); of the 85 with a birth year, only 6 are 90+ (oldest: 102). Confirmed the redaction rule is "no death date on record," not "confirmed alive" — a privacy floor, not a genealogical claim — and offered to queue the 90+ group for KEJ's confirmation. Human deferred: wait and see what further material KEJ sends first.
+
+KEJ then sent his first substantive reply since `restricted/` was built, answering 7 numbered questions from `grandfather-review/log.md`'s 2026-08-06 outbound round. Item 1 answered a question about Hanne Boe's (`@I167@`) biological father with a full account — court-established paternity, KEJ's own 1980s correspondence and a 2005 visit to the declared father, the man's denial and an alternative "German soldier" claim, and a mention of a second man's wartime political-party membership — headed by KEJ's own explicit instruction: "OBS: Dette skal ikke med i slægtsbogen - eller offentliggøres!"
+
+Checked whether any of this topic was already exposed in the public repo, since it predates `restricted/` (created 2026-08-08, same day but after this material had been sitting in the repo since 2026-08-06's Q&A round) — found it was, in five places: `family-tree/tree.ged` (`@I164@`'s full record, `@I167@`'s note), `grandfather-review/queue.md` (item 10) and its own changelog row, `grandfather-review/log.md` (the outbound question that prompted the answer), and `projects/archive-digitization/context/boe-slaegten-chapter1-extraction.md`'s extraction summary. All five redacted; full content (including KEJ's new account) moved to `restricted/tree-sensitive.ged#I164` and a new `restricted/grandfather-review-queue.md`, mirroring the public queue mechanism for cases where the *question itself* is restricted-tier, not just an individual's data.
+
+This didn't fit the existing `Living /<surname>/` placeholder cleanly — Gunnar Vilhelm Carlsen (`@I164@`, b.1918) is almost certainly deceased; the reason for withholding is KEJ's explicit instruction, not presumed-living privacy. Added a second placeholder category, `Withheld /?/` (surname withheld too, since the content itself is the concern here, not the person's current safety), documented in `Architecture.md` §3 alongside the existing one. `scripts/validate.ps1`'s placeholder-regression guard and bidirectional-completeness check both extended to recognize `Withheld` as well as `Living`.
+
+One deliberate exception: `grandfather-review/log.md` states it is "never edited or pruned, only appended to," and `queue.md`'s Version History rows are enforced immutable by `scripts/validate.ps1` once committed — both were edited anyway to remove the exposed content, since leaving it in place would defeat the redaction. Each edit is annotated in place explaining the exception and citing KEJ's instruction as the reason; `validate.ps1`'s row-immutability check only compares against the *last commit*, so it self-resolves once this turn's commit lands.
+
+Items 2–7 of KEJ's reply (routine corrections: a death-date fix, sibling-list/roman-numeral confirmation, a marriage-date transcription-artifact fix, a marriage-year resolution, two page-lettering confirmations, and a birth-date confirmation) are being processed next, not restricted-tier — ordinary `grandfather-review/queue.md` resolutions.
+
+### Session close
+
+Knowledge candidates: None yet — items 2-7 (next turn) will produce `[VERIFIED: familieidentifikation — Knud Erik Jakobsen, ...]` corrections to existing individuals, not new domain facts.
+Open flags: None new.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Retroactively closed a real gap — sensitive material that predated `restricted/`'s existence and was still publicly exposed after the fact. Second placeholder category (`Withheld`) built and validator-guarded to the same standard as the first.
+Next: Process items 2-7 of KEJ's reply (routine corrections), logged separately.
+Waiting for: Nothing further this turn — pushing now.
