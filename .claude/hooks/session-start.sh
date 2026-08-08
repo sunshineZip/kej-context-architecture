@@ -10,6 +10,20 @@ if [ -n "$REPO_ROOT" ] && [ -d "$REPO_ROOT/.githooks" ]; then
   git -C "$REPO_ROOT" config core.hooksPath .githooks
 fi
 
+# restricted/ is a git submodule pointing at a separate, more restricted
+# private repo (Architecture.md §3) — deliberately not everyone's to see.
+# Best-effort init only: on a local clone with real git credentials for
+# that repo, this just works. In this environment's remote sessions, the
+# git proxy scopes access per-repo via the add_repo tool, so this will
+# typically no-op even for a session that legitimately has GitHub access —
+# that session still needs an explicit add_repo call for the restricted
+# repo, same as for this one. Never let failure here abort the rest of
+# this hook (session-start.sh), since "no access" is the expected, correct
+# outcome for most sessions, not an error.
+if [ -n "$REPO_ROOT" ] && [ -f "$REPO_ROOT/.gitmodules" ]; then
+  git -C "$REPO_ROOT" submodule update --init restricted >/dev/null 2>&1 || true
+fi
+
 # PowerShell is only missing in Claude Code on the web / remote sessions.
 # Local VS Code + Copilot sessions run on Windows, where PowerShell is
 # already native — nothing to do there.

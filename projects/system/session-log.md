@@ -381,3 +381,20 @@ STATUS: CHECKPOINT
 Completed: `restricted/` is live as a git submodule pointing at a separate, more restricted private repo — a real access boundary, not just a convention, backed by a matching `ROUTING.md` Hard Constraint for sessions with access. Documented in `Architecture.md` to the same standard as prior structural additions. Astrid Kirk's `tree.ged` notes corrected for timing relative to KEJ's divorce.
 Next: Human to share the actual restricted finding now that the mechanism exists. Revisit whether main-repo public/private status should change again once more is known about what's being kept in `restricted/`.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 15 | 2026-08-08
+
+Same session, small addendum to Turn 14 caught after that turn was already committed and pushed (append-only, so recorded as its own turn rather than folded back in). Added a best-effort `git submodule update --init restricted` to `.claude/hooks/session-start.sh`, non-fatal on failure — a local clone with real git credentials for the restricted repo just works; in this environment's remote sessions, the git proxy scopes access per-repo via the `add_repo` tool, so this will typically no-op even for a session with legitimate GitHub access to the restricted repo, which still needs its own explicit `add_repo` call. Documented that limitation in the script's own comment rather than overclaiming full automation.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None new — see Turn 14's.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: `session-start.sh` now attempts to initialize the `restricted/` submodule automatically where the environment allows it, without breaking the rest of session start where it can't.
+Next: None specific.
+Waiting for: Nothing further this turn — pushing now.
