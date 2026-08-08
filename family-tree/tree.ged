@@ -4036,24 +4036,32 @@
 1 NAME Knud Knudsen /Hopp/
 1 SEX M
 1 BIRT
-2 DATE 1687
+2 PLAC Stouby, Grinderslev sogn, Danmark
 1 DEAT
 2 DATE 1762
-1 OCCU Sognedegn i Thise 1726-1762
+2 PLAC Thise, Danmark
+1 OCCU Fæstebonde i Stouby (arvet fæste 1725); sognedegn i Thise 1726-1762
 1 FAMC @F121@
 1 FAMS @F127@
-1 NOTE Generation "01-f." KEJ's egen fil "01F" (91 sider) er allerede modtaget og gemt (`library/deep-wells/hopp-slaegten/01f-knud-knudsen-hopp-d1762.doc`), men bevidst ikke læst endnu — planlagt som Fase 2 (se `projects/archive-digitization/TODO.md`). Oplysningerne her stammer i stedet fra en ekstern sekundærkilde som stopgab, IKKE fra KEJ's egen primærkilde — skal bekræftes/erstattes, når 01F læses. [UNVERIFIED: ekstern-sekundærkilde — se projects/archive-digitization/context/external-source-hopp-herredsfoged.md, afventer 01F]
+1 NOTE Generation "01-f." Overtog 29.12.1725 forældrenes fæste (et boel, hartkorn 2-0-2-2, plus del af Eskjærs hovedgårdstakst) efter faderens død 1723 — fæstebrevet fra Johan Parsberg til Eskjær og Skivehus citeret i fuldt ordlyd i kilden. Kaldet 20.11.1726 af Jørgen Bille til Jungetgård til det lille degneembede i Thise. 1743 klagede han til biskoppen over sine kår, citeret direkte: "...jeg sidder ved et lidet fattigt brød med 6 små uopfødte, nøgne børn i stor borg og gield..." — samtidens præsteindberetning roste ham dog: "kan dog i gudfrygt, troskab og flittighed lignes med de bedste degne i den egn." Efterfulgtes som degn af sønnen af samme navn (b.), der fra 1752 allerede supplerede faderen med skoletjenesten. [VERIFIED: hopp-slaegten, 01F]
 0 @I385@ INDI
 1 NAME Else /Pedersdatter/
 1 SEX F
 1 DEAT
-2 DATE 1769
+2 DATE 1768
+2 PLAC Thise, Danmark
 1 FAMS @F127@
-1 NOTE Fra samme eksterne sekundærkilde som I384 — ikke bekræftet af KEJ's egen fil endnu. [UNVERIFIED: ekstern-sekundærkilde — se projects/archive-digitization/context/external-source-hopp-herredsfoged.md, afventer 01F]
+1 NOTE Boede til sin død hos sønnen Knud (b.) i degneboligen, forsørget af ham i alderdommen. Skiftet efter hende (afholdt 19.9.1769, sluttet 13.11.1769) er usædvanligt fyldigt citeret i kilden: sønnen Knud forsvarede sig ved skiftet mod en stiltiende bebrejdelse fra sine søskende og redegjorde for, hvordan han alene havde båret både farens gæld (20 rdr. 5 mk. 10 sk.), genopbygningen af den forfaldne degnebolig og morens forsørgelse, "uden at mine Søskende har givet et ringeste dertil." Brødrene Peder, Daniel og Hans gav skriftligt afkald på arv (citeret i kilden under "No. 1-3"); søsteren Else og den forsvundne bror Mogens udeblev. Skiftet kaldes gennemgående "dette fattige Skifte." [VERIFIED: hopp-slaegten, 01F]
 0 @F127@ FAM
 1 HUSB @I384@
 1 WIFE @I385@
-1 NOTE 6 børn ifølge den eksterne sekundærkilde, ikke navngivet dér — afventer Fase 2 (01F selv). [UNVERIFIED: ekstern-sekundærkilde — se projects/archive-digitization/context/external-source-hopp-herredsfoged.md, afventer 01F]
+1 CHIL @I674@
+1 CHIL @I676@
+1 CHIL @I678@
+1 CHIL @I680@
+1 CHIL @I682@
+1 CHIL @I685@
+1 NOTE Vielsesdato ikke fundet i kilden. 6 børn ("a."-"f."), alle navngivet og modelleret. Sognets kirkebøger ældre end 1813 er brændt — børnenes fødselsår er derfor omtrentlige, hvor kilden selv angiver dem sådan. [VERIFIED: hopp-slaegten, 01F]
 0 @I386@ INDI
 1 NAME Niels Jørgen Knudsen /Hopp/
 1 SEX M
@@ -7403,4 +7411,295 @@
 2 DATE 19 OCT 1798
 2 PLAC Oddense, Danmark
 1 NOTE Ved kongelig bevilling, uden forudgående trolovelse. 8 børn kendt, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01C]
+0 @I674@ INDI
+1 NAME Mogens Knudsen /Hopp/
+1 SEX M
+1 FAMC @F127@
+1 BIRT
+2 DATE ABT 1730
+2 PLAC Thise, Danmark
+1 DEAT
+2 DATE 28 JUL 1765
+2 PLAC Rennerlund, Hedensted sogn, Danmark
+1 OCCU Skoleholder på Fur 1754-1757; sognedegn i Jebjerg-Lyby 1758-1765
+1 FAMS @F222@
+1 NOTE Barn "a." Sognedegn i Jebjerg-Lyby fra 25.10.1758 (svigerfaderens embede). 6.5.1765 anklaget, sammen med en omløber ved navn Nicolai Høeg, for at have fremstillet og udgivet falske "kroner" — amtmanden beordrede degneboet vurderet (i alt kun 2 rdr. 5 sk.) med henblik på beslaglæggelse; degnen og Høeg var da allerede flygtet. Landstingsdommen 11.2.1767 fandt Mogens Hopp skyldig ("bør have forbrudt ære, haand og boes-loed, om hand antræffes og er i live") og frikendte Høeg. Sagens egen slutning er usædvanlig: en fattig omløbende mand døde 28.7.1765 i Rennerlund, Hedensted sogn — ledsaget af en dreng på "en halv snees år" som gav sig ud for at være sønnen Peder (= II.); søgning bekræftede signalementet, og retten lagde det til grund som bevis for degnens død, selvom liget aldrig blev formelt identificeret. 8 børn kendt ("I."-"VIII." per kildens egen oversigt, delvis uoverensstemmende nummereret i den senere detaljerede gennemgang), hvoraf kun 3 nåede voksenalderen (II. Peder, IV. Christiane Sophia, og en "Else" nævnt levende 1798) — modelleret med egne data her, deres egen efterslægt (flere generationer dyb, ind i 1900-tallet) ikke modelleret, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01F]
+0 @I675@ INDI
+1 NAME Ellen Kierstine /Farstrup/
+1 SEX F
+1 FAMS @F222@
+1 NOTE Datter af den forrige sognedegn i Jebjerg-Lyby, Niels Albertsen Farstrup (f.1694), som Mogens efterfulgte i embedet. Hendes egen dybere aner (en gejstlig/gårdmandsslægt fra Farstrup-Ajstrup og Østergård i Åsted) er ikke modelleret her — tangentielt, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01F]
+0 @F222@ FAM
+1 HUSB @I674@
+1 WIFE @I675@
+1 MARR
+2 DATE 1751
+2 PLAC Lyby, Danmark
+1 CHIL @I686@
+1 CHIL @I687@
+1 CHIL @I691@
+1 CHIL @I692@
+1 CHIL @I694@
+1 CHIL @I695@
+1 CHIL @I696@
+1 CHIL @I697@
+1 NOTE 8 børn kendt, alle navngivet og modelleret; kun 3 nåede voksenalderen. [VERIFIED: hopp-slaegten, 01F]
+0 @I686@ INDI
+1 NAME N.N. /(Mogensdatter eller -søn) Hopp/
+1 SEX U
+1 FAMC @F222@
+1 BIRT
+2 DATE 1752
+2 PLAC Lyby, Danmark
+1 DEAT
+2 DATE 9 JUL 1752
+2 PLAC Lyby, Danmark
+1 NOTE Barn "I." Navnløst, døde spæd. Kildens egen ordlyd fra kirkebogen: "den 9 Julii blev skoleholderen Mogens Hoppis navnløse barn begraven." [VERIFIED: hopp-slaegten, 01F]
+0 @I687@ INDI
+1 NAME Peder Mogensen /Hopp/ (Degn)
+1 SEX M
+1 FAMC @F222@
+1 BIRT
+2 DATE 24 OCT 1753
+2 PLAC Jebjerg, Danmark
+1 DEAT
+2 DATE 3 OCT 1823
+2 PLAC Bostrup, Lyby sogn, Danmark
+1 OCCU Husmand og snedker i Lille Ramsing; senere boelsmand, siden selvejerhusmand i Bostrup
+1 FAMS @F228@
+1 FAMS @F229@
+1 FAMS @F230@
+1 NOTE Barn "II." Flygtede 1765, 11 år gammel, sammen med faderen — det var ham der, sammen med moderen, bragte meddelelsen om farens død ved Hedensted tilbage til Salling (se note på I674). Konfirmeret 1772 i Lyby: "vel oplyst." Gift 3 gange: 1) før 1784 med Zidsel Jensdatter (f. o.1755, d. 16.4.1816, Bostrup); 2) 14.11.1816 i Lyby med Ane Nielsdatter (d. 22.5.1821); 3) 14.12.1821 i Lyby med Kirsten Sørensdatter. 6 børn kendt på tværs af de to første ægteskaber, ingen i det tredje — egen efterslægt (adskillige generationer, dokumenteret ind i 1900-tallet, bl.a. en bevaret gårddagbog 1891-1919 ført af sønnesønnen Mogens Pedersen) ikke modelleret her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01F]
+0 @I688@ INDI
+1 NAME Zidsel /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE ABT 1755
+1 DEAT
+2 DATE 16 APR 1816
+2 PLAC Bostrup, Lyby sogn, Danmark
+1 FAMS @F228@
+1 NOTE 1. hustru. [VERIFIED: hopp-slaegten, 01F]
+0 @F228@ FAM
+1 HUSB @I687@
+1 WIFE @I688@
+1 NOTE Vielsesdato ikke fundet, før 1784. 4 børn kendt, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01F]
+0 @I689@ INDI
+1 NAME Ane /Nielsdatter/
+1 SEX F
+1 DEAT
+2 DATE 22 MAY 1821
+2 PLAC Lyby, Danmark
+1 FAMS @F229@
+1 NOTE 2. hustru, 40 år gl. ved vielsen. [VERIFIED: hopp-slaegten, 01F]
+0 @F229@ FAM
+1 HUSB @I687@
+1 WIFE @I689@
+1 MARR
+2 DATE 14 NOV 1816
+2 PLAC Lyby, Danmark
+1 NOTE 2 børn kendt, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01F]
+0 @I690@ INDI
+1 NAME Kirsten /Sørensdatter/
+1 SEX F
+1 FAMS @F230@
+1 NOTE 3. hustru, 53 år gl. ved vielsen. Giftede sig 2. gang 3.10.1828 i Lyby med Anders Poulsen. [VERIFIED: hopp-slaegten, 01F]
+0 @F230@ FAM
+1 HUSB @I687@
+1 WIFE @I690@
+1 MARR
+2 DATE 14 DEC 1821
+2 PLAC Lyby, Danmark
+1 NOTE Barnløst ægteskab. [VERIFIED: hopp-slaegten, 01F]
+0 @I691@ INDI
+1 NAME Niels Mogensen /Hopp/
+1 SEX M
+1 FAMC @F222@
+1 BIRT
+2 DATE 30 MAR 1757
+2 PLAC Vester Lyby, Danmark
+1 DEAT
+2 DATE 1774
+2 PLAC Jebjerg, Danmark
+1 NOTE Barn "III." Død 16 år gl., begravet i Jebjerg som "Niels Hopp, gl. 16 Aar." [VERIFIED: hopp-slaegten, 01F]
+0 @I692@ INDI
+1 NAME Christiane Sophia Mogensdatter /Hopp/
+1 SEX F
+1 FAMC @F222@
+1 BIRT
+2 DATE 13 JAN 1760
+2 PLAC Vester Lyby, Danmark
+1 FAMS @F231@
+1 NOTE Barn "IV." Gift 9.7.1780 i Lyby med Niels Mortensen (hans 2. ægteskab). Boede 1782-94 i Bostrup, siden i Knudgaard, Daubjerg sogn — hendes eget opholdssted var ukendt for skifteretten ved farbroderen Knud Knudsen Hopps skifte 1797/98. Boede 1794 hos sin mor, Ellen Kierstine Farstrup, indtil moderens død 1794. 9 børn kendt, ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01F]
+0 @I693@ INDI
+1 NAME Niels /Mortensen/
+1 SEX M
+1 FAMS @F231@
+1 NOTE Bonde og gårdbeboer. [VERIFIED: hopp-slaegten, 01F]
+0 @F231@ FAM
+1 HUSB @I693@
+1 WIFE @I692@
+1 MARR
+2 DATE 9 JUL 1780
+2 PLAC Lyby, Danmark
+1 NOTE 9 børn kendt, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01F]
+0 @I694@ INDI
+1 NAME Else Kierstine Mogensdatter /Hopp/
+1 SEX F
+1 FAMC @F222@
+1 BIRT
+2 DATE 1761
+2 PLAC Lyby, Danmark
+1 DEAT
+2 DATE 5 JUL 1761
+2 PLAC Lyby, Danmark
+1 NOTE Barn "V." Død 3 uger gl. [VERIFIED: hopp-slaegten, 01F]
+0 @I695@ INDI
+1 NAME Else Kierstine Mogensdatter /Hopp/
+1 SEX F
+1 FAMC @F222@
+1 BIRT
+2 DATE 1762
+2 PLAC Lyby, Danmark
+1 DEAT
+2 DATE 24 OCT 1762
+2 PLAC Lyby, Danmark
+1 NOTE Barn "VI." Samme navn genbrugt efter søsteren V.'s død året før. Død 5 uger gl. [VERIFIED: hopp-slaegten, 01F]
+0 @I696@ INDI
+1 NAME Johanne Helvig Mogensdatter /Hopp/
+1 SEX F
+1 FAMC @F222@
+1 BIRT
+2 DATE 1763
+2 PLAC Lyby, Danmark
+1 NOTE Barn "VII." Ikke fundet i kilden efter dåben og formentlig død inden 1797, da hun ikke er blandt de arvinger, der nævnes ved farbroderens skifte det år. Kildens egen usikkerhed: en "Helvig Mogensdatter," død 1770 og begravet 18 år gl. i Lyby, kunne være hende — men alderen passer ikke (skulle være o. 7 år), og kilden foreslår selv en mulig skrivefejl. [VERIFIED: hopp-slaegten, 01F]
+0 @I697@ INDI
+1 NAME Else Mogensdatter /Hopp/
+1 SEX F
+1 FAMC @F222@
+1 NOTE Barn "VIII" per kildens egen oversigtstabel — "lever 1798." Én af kun 3 børn, der overlevede til voksenalderen (sammen med II. og IV.), nævnt som arving ved farbroderens skifte 1797/98. Ingen yderligere data fundet i kilden; muligvis identisk med "VII." (Johanne Helvig) givet den uafklarede nummerering mellem kildens to gennemgange — ikke afgjort her. [VERIFIED: hopp-slaegten, 01F]
+0 @I676@ INDI
+1 NAME Knud Knudsen /Hopp/
+1 SEX M
+1 FAMC @F127@
+1 BIRT
+2 DATE 1731
+2 PLAC Thise, Danmark
+1 DEAT
+2 DATE 19 AUG 1797
+2 PLAC Thise, Danmark
+1 OCCU Skoleholder fra 1747; faderens "successor" som skoleholder 16.9.1758; sognedegn i Thise 1762-1797
+1 FAMS @F223@
+1 NOTE Barn "b." Navnebror til faderen — kildens egen forkortelse for ham i skifteteksten er "Sr. Knud Hopp" eller blot "Degnen paa Stedet." Overtog 4.12.1763 farens fæste i S.Thise. Ved moderens skifte 1769 forsvarede han sig mod søskendes stiltiende bebrejdelse (se note på I385) — han havde alene båret farens gæld, genopbygget degneboligen og forsørget moderen, mens søskende intet bidrog. Roste 1789 direkte af provsten som "en af flid og duelighed udmærket degn" ved biskoppens visitats. Ingen børn — enken Dorthe sad i uskiftet bo efter gensidigt testamente (18.4.1778) til sin egen død 3.8.1798, plejet i sygdommen af broderdatteren Else Pedersdatter (c.-I.). Arven ved hendes død delte de 4 da levende søskende samt Mogens' (a.) to overlevende børn og en søstersøn af Dorthes egen søster i Lihme. Sognepræsten i Thise i hans embedstid, J.H.D.T. Hopp (d.1791), bar samme efternavn — kilden selv bemærker at et slægtskab mellem de to Hopp-slægter "ikke p.t. er lykkedes at påvise." [VERIFIED: hopp-slaegten, 01F]
+0 @I677@ INDI
+1 NAME Dorthe /Knudsdatter (Liime)/
+1 SEX F
+1 BIRT
+2 DATE 27 NOV 1719
+2 PLAC Lime, Danmark
+1 DEAT
+2 DATE 3 AUG 1798
+2 PLAC Thise, Danmark
+1 FAMS @F223@
+1 NOTE Datter af Knud Nielsen. Stuepige i Selde Præstegård ved vielsen. [VERIFIED: hopp-slaegten, 01F]
+0 @F223@ FAM
+1 HUSB @I676@
+1 WIFE @I677@
+1 MARR
+2 DATE 25 JUL 1765
+2 PLAC Selde, Danmark
+1 NOTE Trolovet 31.5.1765. Barnløst ægteskab. [VERIFIED: hopp-slaegten, 01F]
+0 @I678@ INDI
+1 NAME Peder Knudsen /Hopp/
+1 SEX M
+1 FAMC @F127@
+1 FAMS @F224@
+1 NOTE Barn "c." Boede i Thise, Skive (1769) og siden Brøndum (1798). Fik 24.3.1763 fæste på et boelshus i S.Thise fra Jungetgård — mod bl.a. årlig levering af "3 fuldkomne retter fisk" — opgivet 1769. Var 1754, som 18-årig medhjælper hos degnen i Hjerk (farbroderen Niels Jørgen Knudsen Hopp, 01C), vidne i en provsteretssag mod den voldelige og drikfældige degn i Junget, Andreas Holgersen Møller — greb ifølge broderen Daniels vidneudsagn fysisk ind for at forhindre vold mod degnekonen. Ved moderens skifte 1769 gav han skriftligt afkald på arv fra Skive, 24.7.1769, citeret i kilden ("No. 1"): erkendte at broderen Knud havde forsørget moderen "baade med Føde og Klæde, samt fornøden Pleye," og at han selv intet havde til gode. 1 barn kendt ("I."), modelleret. [VERIFIED: hopp-slaegten, 01F]
+0 @I679@ INDI
+1 NAME Inger /Christensdatter/
+1 SEX F
+1 FAMS @F224@
+1 NOTE Fra Næstild, Oddense sogn. Enke ved vielsen. [VERIFIED: hopp-slaegten, 01F]
+0 @F224@ FAM
+1 HUSB @I678@
+1 WIFE @I679@
+1 MARR
+2 DATE 9 OCT 1763
+2 PLAC Oddense, Danmark
+1 CHIL @I698@
+1 NOTE Trolovet 3.8.1763. 1 barn kendt, modelleret. [VERIFIED: hopp-slaegten, 01F]
+0 @I698@ INDI
+1 NAME Else /Pedersdatter/
+1 SEX F
+1 FAMC @F224@
+1 FAMS @F232@
+1 NOTE Barn "I." Passede sin farbrors (b.) enke, degneenken Dorthe Knudsdatter Liime, "og under hendes Sygdom gaaet hende til Haande," ifølge skiftet efter hende 3.8.1798. [VERIFIED: hopp-slaegten, 01F]
+0 @I699@ INDI
+1 NAME Morten /Pedersen/
+1 SEX M
+1 FAMS @F232@
+1 NOTE Bosat i Brøndum. [VERIFIED: hopp-slaegten, 01F]
+0 @F232@ FAM
+1 HUSB @I699@
+1 WIFE @I698@
+1 NOTE Vielsesdato ikke fundet i kilden. [VERIFIED: hopp-slaegten, 01F]
+0 @I680@ INDI
+1 NAME Daniel Knudsen /Hopp/
+1 SEX M
+1 FAMC @F127@
+1 BIRT
+2 DATE FEB 1736
+1 OCCU Sognedegn i Vindum fra 1762
+1 FAMS @F225@
+1 NOTE Barn "d." 1753-54, som 18-årig, medhjælper hos farbroderen Niels Jørgen Knudsen Hopp, degn i Hjerk (01C), og samtidig skoleholder hos degnen i Junget — hvor han 18.3.1754 vidnede i en provsteretssag mod den drikfældige og voldelige degn Andreas Holgersen Møller, og beskrev bl.a. hvordan broderen Peder (c.) fysisk greb ind for at stoppe vold mod degnekonen. Kaldet til degn i Vindum 5.3.1762. Ved moderens skifte 1769 gav han skriftligt afkald på arv fra Vindum, 17.7.1769, citeret i kilden ("No. 2"). Hans egne breve til broderen Knud (citeret i kilden, juli og november 1769) er usædvanligt varme i tonen — takker for broderens deltagelse i eget bryllup og kalder ham "Højstærede Kiære Broder." Han fungerede desuden som mellemmand for søsteren Else's eget afkald. 11 børn kendt ("I."-"XI."), den største børneflok blandt de 6 søskende — ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01F]
+0 @I681@ INDI
+1 NAME Maren /Knudsdatter/
+1 SEX F
+1 FAMS @F225@
+1 NOTE [VERIFIED: hopp-slaegten, 01F]
+0 @F225@ FAM
+1 HUSB @I680@
+1 WIFE @I681@
+1 MARR
+2 DATE 1763
+2 PLAC Vindum, Danmark
+1 NOTE 11 børn kendt, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01F]
+0 @I682@ INDI
+1 NAME Hans Christian Knudsen /Hopp/
+1 SEX M
+1 FAMC @F127@
+1 BIRT
+2 DATE 1742
+1 OCCU Sognedegn i V. Hornum, Hyllebjerg og Flesborg sogne fra 1769
+1 FAMS @F226@
+1 FAMS @F227@
+1 NOTE Barn "e." Ved moderens skifte 1769 gav han skriftligt afkald på arv fra Vester Hornum degnebolig, 15.7.1769, citeret i kilden ("No. 3") — undertegnet "H.K. Hopp." 2 børn kendt ("I."-"II." på tværs af begge ægteskaber), ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01F]
+0 @I683@ INDI
+1 NAME Johanne Marie /Kreiberg/
+1 SEX F
+1 FAMS @F226@
+1 NOTE 1. hustru. [VERIFIED: hopp-slaegten, 01F]
+0 @F226@ FAM
+1 HUSB @I682@
+1 WIFE @I683@
+1 MARR
+2 DATE 1769
+2 PLAC V. Hornum, Danmark
+1 NOTE [VERIFIED: hopp-slaegten, 01F]
+0 @I684@ INDI
+1 NAME Inger Cathrine /Nielsdatter/
+1 SEX F
+1 FAMS @F227@
+1 NOTE 2. hustru. [VERIFIED: hopp-slaegten, 01F]
+0 @F227@ FAM
+1 HUSB @I682@
+1 WIFE @I684@
+1 MARR
+2 DATE BET 1784 AND 1787
+1 NOTE 2 børn kendt på tværs af begge ægteskaber, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01F]
+0 @I685@ INDI
+1 NAME Else Knudsdatter /Hopp/
+1 SEX F
+1 FAMC @F127@
+1 NOTE Barn "f." Ugift. Nævnes 1760 i Thise, 1769 i Viborg (hvor hun boede ved moderens skifte samme år, og hvortil broderen Knud sendte skiftereferat) og 1798 i Brandstrup ved Viborg. Ved moderens skifte gav hun, ligesom brødrene Peder og Daniel, afkald på arv — formidlet gennem broderen Daniel's brev, der afviste en påstået uenighed om en dyne som "noget Fabel-tale." [VERIFIED: hopp-slaegten, 01F]
 0 TRLR

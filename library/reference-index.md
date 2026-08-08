@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.24 | 2026-08-08 | Production
+Version 1.25 | 2026-08-08 | Production
 
 ---
 
@@ -105,6 +105,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
   - 2026-08-08: Checkpoint 2 — Dorthe Nielsdatter Hopp's child "I." (Anne Cathrine Nicolaisdatter Hjardemaal), full depth per the human's choice → `family-tree/tree.ged#I398`-`#I627`, 230 individuals, 75 families, 60 living. Confirms 01C alone likely holds 800-1500+ individuals at this depth setting.
   - 2026-08-08: "Our line" depth policy adopted (side branches capped, direct-line chapters stay full depth). Checkpoints 3-4 — Dorthe's remaining children II.-V. (25 individuals) and Berthe's children + Knud Nielsen Hopp's children I.-III. of 10 (10 individuals; IV.-X. not yet read) → `family-tree/tree.ged#I628`-`#I662`, `#F208`-`#F217`. See `hopp-slaegten-manifest.md` and `projects/archive-digitization/context/hopp-slaegten-kapitel1-extraction.md`.
   - 2026-08-08: Checkpoint 5 — Knud Nielsen Hopp's remaining children IV.-X., capped (11 individuals, 4 families) → `family-tree/tree.ged#I663`-`#I673`, `#F218`-`#F221`. **Phase 1 (01 + 01C) now fully read** — only Phase 2 (01F, deferred) remains open.
+  - 2026-08-08: Phase 2 (01F) started — Knud Knudsen Hopp himself, his wife, and 3 of 6 children's branches ("a." Mogens's counterfeiting scandal, "b.," "c.") read, replacing the earlier stopgap stub (26 individuals, 11 families). Branches "d." (11 children) and "e." (2 children) remain. See `projects/archive-digitization/context/hopp-slaegten-01f-extraction.md`.
 
 ---
 
@@ -137,3 +138,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.22 | 2026-08-08 | `hopp-slaegten` extraction log updated with the "our line" depth policy and Checkpoints 3-4 (35 more individuals), closing a gap left after the policy was adopted mid-session. |
 | 1.23 | 2026-08-08 | `forskellige-boe-slaegter` fully read — extraction log updated. Nykøbing Mors hypothesis conclusively ruled out; Himmerland/Thy hypothesis now has a named, still-unconfirmed candidate link; Sønderjylland/Slesvig, Fyn, and Nyord all confirmed unconnected. See `projects/archive-digitization/context/forskellige-boe-slaegter-extraction.md`. |
 | 1.24 | 2026-08-08 | `hopp-slaegten` Checkpoint 5: Knud Nielsen Hopp's remaining children IV.-X. modeled (11 individuals, 4 families), closing the gap left after Checkpoint 4. **Phase 1 (01 + 01C) now fully read.** |
+| 1.25 | 2026-08-08 | `hopp-slaegten` Phase 2 (01F) started — Knud Knudsen Hopp's own biography plus 3 of 6 children's branches read (26 individuals, 11 families), replacing the earlier stopgap stub. Branches "d." and "e." remain. |

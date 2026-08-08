@@ -744,3 +744,34 @@ STATUS: CHECKPOINT
 Completed: Checkpoint 5 — Knud Nielsen Hopp's remaining children IV.-X., capped depth. **Phase 1 (01 + 01C) of Hopp-slægten is now fully read.**
 Next: Phase 2 (01F, Knud Knudsen Hopp d.1762, 91 pages, capped depth per policy) — the only remaining unread in-hand item across the whole project. Own session recommended given its size.
 Waiting for: Human's direction on whether to start Phase 2 now or another time.
+
+---
+
+## [Claude] — Turn 29 | 2026-08-08
+
+Same session, continued. Human asked two direct questions about Jacob Henrich Knudsen Hopp from the previous checkpoint — whether he was a direct ancestor (no; he's several generations removed via the "01-c" side branch, same shape as the earlier West Indies question) and for the almshouse probate quote (given in full, Danish and English). Then: "Let's continue with phase 2."
+
+Extracted the full text of file "01F" (antiword, same approach as before — LibreOffice fails on this legacy `.doc`, antiword reads it cleanly). 91 pages, ~26,261 words, matching the earlier flyover estimate exactly.
+
+This time the "our line" depth cap was applied from the very start, rather than adopted partway through as it was for 01C — no repeat of that earlier course correction needed.
+
+**Checkpoint 1:** replaced the Phase-1-era stopgap stub (`#I384`, `#I385`, sourced from an external secondary genealogy site) with Knud Knudsen Hopp's own primary-source biography — his 1725 fæste (fæstebrev quoted in full), 1726 degn appointment, a directly-quoted 1743 complaint to the bishop about supporting "6 små uopfødte, nøgne børn," and an unusually rich 1769 probate after his wife's death where their son (the successor degn) gave pointed testimony about shouldering his parents' debts and care entirely alone while his siblings contributed nothing — three of whom sent in quoted written renunciations of any inheritance claim, and a fourth (Mogens) couldn't even be located. All 6 children modeled with vitals from the overview table.
+
+**Checkpoint 2:** branch "a." — Mogens Knudsen Hopp, the family's most dramatic figure. Became degn in Jebjerg-Lyby by marrying into the post in 1751, then in 1765 was accused (with an itinerant stranger) of manufacturing counterfeit coins, fled before officials arrived, and was tried and convicted in absentia in 1767. The case has a genuinely unusual close: a destitute wanderer died in Hedensted with a boy who identified himself as the fugitive's son, and the court accepted this as proof of death without ever formally identifying the body. All 8 children modeled with vitals; Mogens's eldest son Peder's own multi-generation descendant line (documented into the 20th century via a preserved 1891-1919 farm diary, named individuals born as late as 1979) capped per policy rather than modeled — clearly into living-person territory this deep.
+
+**Checkpoint 3:** branches "b." (the successor degn, no children, praised directly in a 1789 bishop's visitation report) and "c." (one child, who cared for her aunt in her final illness) — both short, closed in full in the same pass, per the overview's own indication.
+
+**26 individuals, 11 families total** (`#I384`-`#I385` updated; `#I674`-`#I699`, `#F127`, `#F222`-`#F232` new). `tree.ged` now 699 individuals, 230 families. Branches "d." (Daniel, 11 children — the largest remaining) and "e." (Hans Christian, 2 children) still open.
+
+**Built/updated:** `projects/archive-digitization/context/hopp-slaegten-01f-extraction.md` (new), `hopp-slaegten-manifest.md`, `reference-index.md`, `intake-manifest.md`, `TODO.md`.
+
+### Session close
+
+Knowledge candidates: None — no Hopp domain exists yet.
+Open flags: None escalated to `grandfather-review/queue.md` this turn.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Phase 2 (01F) started — Checkpoints 1-3 done (Knud Knudsen Hopp's own biography + branches "a.," "b.," "c." of 6).
+Next: Branches "d." (11 children) and "e." (2 children) remain to finish 01F. No other in-hand item is unread once those close.
+Waiting for: Human's direction on whether to continue now or another time.
