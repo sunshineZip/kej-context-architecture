@@ -528,3 +528,26 @@ STATUS: CHECKPOINT
 Completed: `incoming/`'s existing "don't leave triaged files here" principle is now an enforced Standing Rule with a per-commit validator nudge, not just README prose.
 Next: Human to add the two email attachments (or hand them over directly, given their likely small size) for triage.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 21 | 2026-08-08
+
+Same session, continued. Human handed over the two email attachments directly (small enough to skip `incoming/`'s size-cap use case, per last turn's offer). Landed both in `incoming/` anyway via a normal commit, to have a durable record while triage happens.
+
+**"2026 Boeslægter samlet.docx"** (746 paragraphs) — turned out to be exactly what KEJ's original email described: an overview of several separate, likely-unconnected Boe lineages elsewhere in Denmark (Mors, Ålborgegnen, Himmerland/Thy, Sønderjylland/Slesvig, Fyn, Nyord) — distinct from the Mors/Fur line this repo's `tree.ged` is built from. Not yet read section-by-section.
+
+**"2026 KEJ Slægtshistorie og lokalhistorie.docx"** (81 paragraphs) — turned out to be KEJ's own master catalog of literally everything he's written, with page counts and version/revision dates per item. Cross-referenced against `intake-manifest.md` (built back on 2026-08-05 from a relayed email, not this direct list) and used it as a refresh source: added "Forskellige Boe-slægter" as a new tracked item, added an entirely-missing "Slægt I" under Svend Åge Pedersens Slægter and an entirely-missing "Sæbygårds Mølle og Nørremølle" under the mills section, refreshed roughly two dozen version/date fields (several were plainly wrong, not just imprecise — e.g. one item's year was off by a decade), and added a new §10 "Personlige Erindringer" for three personal-memoir items that don't fit any existing *slægt* category. None of these date corrections were escalated to KEJ individually — routine manifest bookkeeping from a more authoritative source, not a genealogical dispute needing his confirmation, consistent with his own stated preference (this same session, earlier) to stop being asked about small discrepancies.
+
+Per `authoring-guidelines.md` §9.3 (the cornerstone rule — physical storage into `library/deep-wells/` is never decided unilaterally), both files are landed in `incoming/` but not yet triaged into a permanent home. Surfaced the storage question to the human rather than deciding it; response pending as this turn closes.
+
+### Session close
+
+Knowledge candidates: None — manifest bookkeeping, not domain facts.
+Open flags: Storage decision pending for both new files (cornerstone question asked, not yet answered).
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: `intake-manifest.md` substantially refreshed and two new items' worth of content received; the manifest itself is more accurate now than at any point since its 2026-08-05 creation.
+Next: Await the human's answer on physical storage for both new files, then triage them out of `incoming/` accordingly. "Forskellige Boe-slægter" is a real read-through task once storage is settled — comparable in scope to a mid-size Boe-slægten chapter.
+Waiting for: Human's storage decision.
