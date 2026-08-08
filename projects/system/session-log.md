@@ -504,3 +504,27 @@ STATUS: CHECKPOINT
 Completed: Corrected an overcautious redaction from Turn 17 — the general lesson (confirmed with the human, not assumed) is that KEJ's "don't publish" instructions can be narrower than the item they're attached to, and scope should be checked rather than blanket-applied to everything nearby.
 Next: Hold accumulated small questions for a future batch; review the email's two attachments once the human has sent his reply.
 Waiting for: Nothing further this turn — pushing now.
+
+---
+
+## [Claude] — Turn 20 | 2026-08-08
+
+Same session, continued. Before adding two new attachments to `incoming/`, human asked what the folder is actually for — shouldn't files there just get absorbed or discarded, and what happens once triage is done? Explained the existing (already-documented but under-enforced) lifecycle: `incoming/` is a waiting room decoupling "get a large file into the repo" from "decide its home," not an alternative to absorbing/discarding — triage does exactly that, and the file should leave `incoming/` the moment triage finishes.
+
+Human then asked whether to formalize immediate deletion-on-triage as a rule, or whether periodic cleanup would be "safer." Recommended immediate deletion, explicitly against periodic cleanup: "deletion" from `incoming/` is essentially never real data loss (files with a real home get `git mv`'d, not deleted; registry-only discards remain recoverable via git history, which this repo has never rewritten) — so periodic cleanup adds a deferred check that only lets lingering files sit longer, working against `incoming/README.md`'s own existing principle. Human agreed.
+
+**Built:**
+- `ROUTING.md` (1.18 → 1.19) — new Standing Rule: removing a file from `incoming/` is part of finishing triage, not a separate cleanup step.
+- `scripts/validate.ps1` — new warning (not error) if `incoming/` contains any file besides `README.md`, naming them. Deliberately does not try to match files against `intake-manifest.md` entries — filenames won't reliably map to named items, so a real match would be brittle for little benefit. Tested directly: fires on an injected test file, silent once removed.
+- `incoming/README.md` (1.1 → 1.2) — cross-referenced the new Standing Rule and validator warning, and made explicit that removal here isn't risky given git history.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None new.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: `incoming/`'s existing "don't leave triaged files here" principle is now an enforced Standing Rule with a per-commit validator nudge, not just README prose.
+Next: Human to add the two email attachments (or hand them over directly, given their likely small size) for triage.
+Waiting for: Nothing further this turn — pushing now.

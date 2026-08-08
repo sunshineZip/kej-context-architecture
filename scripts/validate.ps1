@@ -874,6 +874,21 @@ if ((Test-Path $treeGedPath) -and (Test-Path $restrictedTreePath)) {
     }
 }
 
+# --- incoming/ — non-empty nudge ---
+# incoming/ is a waiting room for untriaged raw files (Architecture.md §3,
+# ROUTING.md Standing Rules), not permanent storage. This doesn't try to
+# match individual files against intake-manifest.md (filenames won't
+# reliably map to named items) — it's a per-commit reminder to check
+# whether triage is overdue, not a claim that any specific file is stale.
+$incomingPath = Join-Path $repoRoot "incoming"
+if (Test-Path $incomingPath) {
+    $incomingFiles = Get-ChildItem -Path $incomingPath -File | Where-Object { $_.Name -ne "README.md" }
+    if ($incomingFiles.Count -gt 0) {
+        $incomingNames = ($incomingFiles | ForEach-Object { $_.Name }) -join ", "
+        Add-ValidationWarning "incoming/ has $($incomingFiles.Count) untriaged file(s) still present: $incomingNames — triage per incoming/README.md, then remove them (moved to their real home, or discarded if registry-only)"
+    }
+}
+
 # --- Summary ---
 Write-Host ""
 Write-Host "Active projects: $($activeProjects.Count)"
