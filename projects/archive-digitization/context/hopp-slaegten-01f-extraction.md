@@ -1,6 +1,6 @@
 # Hopp-slægten 01F (Knud Knudsen Hopp, d.1762) — Extraction Notes
 
-Version 1.0 | 2026-08-08 | Active
+Version 1.1 | 2026-08-08 | Active
 
 ---
 
@@ -21,9 +21,12 @@ This replaces the stopgap external-secondary-source stub that had stood in for K
 - [x] Branch "a." (Mogens Knudsen Hopp) — full story, including the counterfeiting scandal, plus his 8 children with vitals
 - [x] Branch "b." (Knud Knudsen Hopp, successor degn) — full detail, no children
 - [x] Branch "c." (Peder Knudsen Hopp) — full detail, 1 child with vitals
-- [ ] Branch "d." (Daniel Knudsen Hopp) — own vitals done; 11 children not yet read (the largest remaining branch)
-- [ ] Branch "e." (Hans Christian Knudsen Hopp) — own vitals done; 2 children not yet read
+- [x] Branch "d." (Daniel Knudsen Hopp) — full detail, all 11 children with vitals
+- [x] Branch "e." (Hans Christian Knudsen Hopp) — full detail, both children with vitals
 - [x] Branch "f." (Else Knudsdatter Hopp) — unmarried, no descendants
+- [x] Kilder (source list, items 1-81) — checked in full, confirmed bibliography only, no further narrative content or individuals
+
+**01F is now fully read at "our line" depth.** Every generation from the file's subject (Knud Knudsen Hopp) down through his grandchildren is modeled; every branch beyond that (great-grandchildren and later) is capped per policy — confirmed correct by the Kilder list itself, which cites dozens of further parishes, several more generations, a New Zealand emigration record, and a Danish State Railways stationmaster, none of it pursued further here.
 
 ---
 
@@ -61,13 +64,24 @@ Both closed out in the same pass as Checkpoint 2, since the overview had already
 
 ---
 
-## What's left in 01F
+## Checkpoint 4 — Branches "d." and "e.," completing 01F (2026-08-08)
 
-- **Branch "d." Daniel Knudsen Hopp** (`#I680`) — degn i Vindum from 1762, 11 children ("I."-"XI."), the largest remaining branch. Own vitals already captured; children not yet read.
-- **Branch "e." Hans Christian Knudsen Hopp** (`#I682`) — degn i V. Hornum/Hyllebjerg/Flesborg from 1769, 2 marriages, 2 children total. Own vitals already captured; children not yet read.
-- **Branch "f." Else Knudsdatter Hopp** (`#I685`) — unmarried, no descendants. Already complete.
+**Branch "d." Daniel Knudsen Hopp** (`#I680`) — degn i Vindum from 5.3.1762 until his death in 1799. As an 18-year-old (1753-54) he was a medhjælper for his uncle, the degn in Hjerk, and separately testified in a provosty court case describing his brother Peder physically intervening to stop domestic violence by another, drunken degn — the same case documented under branch "c." Married Maren Knudsdatter (`#I681`, b.1741, daughter of a Faarup carpenter) 1763. **11 children, the largest branch of the file, all modeled:**
+- I.-III., VII., IX. — five infant deaths (one name, "Dorthe Cathrine," reused twice after earlier deaths; "Johanne" reused once).
+- IV., X. — two children with only a baptism record and no further trace in the source.
+- **V. Dorthe Cathrine Danielsdatter Hopp** (`#I704`) — the branch's most eventful figure. Had an illegitimate son (Peder, 1791) who became, per the source's own words, "stamfar til adskillige borgere i Viborg" (progenitor of several Viborg citizens) — his own large further line (12 children, descendants into the 1900s) capped, not modeled. She then married twice, both times to farvere (dyers) in Viborg: first Laurits Schorup (`#I705`), who bought the Viborg farvergård in 1805 for a substantial 4900 rigsdaler (the property's full 1811 fire-insurance description is in the source); then, after his 1807 death, Detlef Jessen (`#I706`), who sold the same property in 1812 for 26,000 rigsdaler courant and later oversaw cloth-dyeing labor by inmates at the Viborg tugthus (workhouse).
+- VI., VIII. — two more daughters, one (Johanne Cathrine) with an illegitimate son who died as an infant (not modeled as a separate individual), the other (Johanne, name reused) confirmed still alive in 1809.
+- **XI. Knud Danielsen Hopp** (`#I712`) — the branch's most colorful figure. A former farversvend who became skoleholder and then degn/skolelærer in Strandby (1811-1849), married twice. The source preserves direct, entertaining oral-history quotations collected around 1890 by the folklorist Evald Tang Kristensen about his drinking — including his own reported response when found stuck in a creek on the way home ("Jeg hopper F. i mig alt hvad jeg kan") — set directly against his own neat, legible handwriting in three surviving census returns he personally recorded, suggesting the drinking never visibly compromised his actual work. 10 children across both marriages, capped rather than modeled.
 
-Once "d." and "e." are read, 01F will be as fully read as 01C is (i.e., at "our line" depth — children and grandchildren of the file's subject modeled, deeper generations capped).
+`#I700`-`#I712`, spouses `#I705`, `#I706`, `#I713`, `#I714` — 11 children + 4 spouses = 15 new individuals, plus `#F233`, `#F234`, `#F235`, `#F236` (4 new families).
+
+**Branch "e." Hans Christian Knudsen Hopp** (`#I682`) — skoleholder på Fur before becoming degn in Hyllebjerg-V.Hornum-Flejborg from 25.11.1768; per the 1771 præsteindberetning, an unstudied degn earning only 30 rdr./year. Married first (1769) the widow of the previous degn, Johanne Marie Kreiberg (`#I683`, 21 years his senior, no children, d.1783); married second (1784-87, exact date not given) Inger Cathrine Nielsdatter (`#I684`), with whom he had a son, **Knud Nicolaj Hansen (Hopp)** (`#I715`, b.1787). One further child, "Maren Pedersdatter" (b.1785), is called his illegitimate daughter in one secondary source cited by KEJ — but KEJ's own analysis doubts this ("alene navnet gør det lidet sandsynligt... måske stedbarn?"), so she was **not** modeled as his child here, consistent with the project's standing rule against fabricating links the source itself casts real doubt on.
+
+`#I715` new; `#F227` updated with the one confirmed child.
+
+**Branch "f." Else Knudsdatter Hopp** (`#I685`) — already fully modeled in Checkpoint 1 (unmarried, no descendants); no further reading needed.
+
+**With this checkpoint, 01F is fully read — Phase 2 of the Hopp-slægten reading plan is complete.** Every currently-received Hopp-slægten file (01, 01C, 01F) is now read at the "our line" depth standard.
 
 ---
 
@@ -76,3 +90,4 @@ Once "d." and "e." are read, 01F will be as fully read as 01C is (i.e., at "our 
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-08 | Initial creation. Checkpoint 1 (Knud Knudsen Hopp + wife + 6-child overview, replacing the Phase 1 stopgap stub), Checkpoint 2 (branch "a." Mogens Knudsen Hopp's counterfeiting scandal + 8 children, capped beyond), Checkpoint 3 (branches "b." and "c.," both short, closed in full). 26 individuals, 11 families total this session. Branches "d." and "e." remain open. |
+| 1.1 | 2026-08-08 | Checkpoint 4: branches "d." (Daniel Knudsen Hopp, 11 children — a Viborg dyer-family saga and a delightfully documented drunk-but-competent schoolteacher) and "e." (Hans Christian Knudsen Hopp, 2 children, one disputed and not modeled). Confirmed via the Kilder list that nothing narrative remains unread. **01F is now fully read — Phase 2 complete.** |

@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.17 | 2026-08-08 | Active
+Version 1.18 | 2026-08-08 | Active
 
 ---
 
@@ -61,7 +61,7 @@ Kapitel 1 (three sub-items) sending next; kapitel 2–16 to follow later.
 |---|---|---|
 | 01 Knud Danielsen Hopp o.1640-1723 | oktober 2015 | **In progress (2026-08-08)** — overview table fully extracted into `family-tree/tree.ged#I364` onward. Confirms KEJ's own worry: metadata claims 5 pages / 422 words against the catalog's expected 33 + 3 maps — only the Kapitel 1 overview index survived, no individual biographical entry for Knud Danielsen Hopp himself. Accepted as a gap for now per the human (2026-08-08): "we can always swap them later if my grandfather manages to find the complete documents." |
 | 01C Niels Jørgen Knudsen Hopp 1685-1770 | januar 2016 / januar 2025 | **Fully read at "our line" depth (2026-08-08)** — Checkpoint 1: Niels Jørgen Knudsen Hopp's own generation. Checkpoint 2: one full child-line to full depth (230 individuals, 60 living, per the human's explicit choice, left as-is). Checkpoints 3-5: all remaining children of Dorthe, Berthe, and Knud Nielsen Hopp, capped per the "our line" policy. See `library/deep-wells/hopp-slaegten-manifest.md`. |
-| 01F Knud Knudsen Hopp død 1762 | januar 2016 / januar 2025 | **In progress (2026-08-08)** — Phase 2 started. Knud Knudsen Hopp's own biography, wife, and 3 of 6 children's branches ("a." Mogens's counterfeiting scandal, "b.," "c.") read, replacing the earlier stopgap stub. Branches "d." (11 children) and "e." (2 children) remain. See `projects/archive-digitization/context/hopp-slaegten-01f-extraction.md`. |
+| 01F Knud Knudsen Hopp død 1762 | januar 2016 / januar 2025 | **Fully read at "our line" depth (2026-08-08)** — all 6 children's branches read ("a." Mogens's counterfeiting scandal, "b.," "c.," "d." — the largest, a Viborg dyer-family saga, "e.," "f."), replacing the earlier stopgap stub. See `projects/archive-digitization/context/hopp-slaegten-01f-extraction.md`. |
 | 02 Daniel Knudsen Hopp o.1681-1730/31 | sept. 2015 | Not yet received |
 | 03 Niels Danielsen Hopp 1707-1775 | oktober 2015 | Not yet received |
 | 04 Daniel Nielsen Hopp o.1732-1800 | oktober 2015 | Not yet received |
@@ -206,3 +206,4 @@ New section (2026-08-08) — three items found in KEJ's master catalog that aren
 | 1.15 | 2026-08-08 | "Forskellige Boe-slægter" (§2) fully read — status updated from "Triaged" to "Fully read." No individuals-level connection to the Mors/Fur line found; Nykøbing Mors hypothesis ruled out, Himmerland/Thy hypothesis now has a named but unconfirmed candidate link. |
 | 1.16 | 2026-08-08 | Checkpoint 5 of 01C read: Knud Nielsen Hopp's remaining children IV.-X. — 11 individuals, 4 families. 01C (§3) status updated from "In progress" to "Fully read at 'our line' depth." |
 | 1.17 | 2026-08-08 | Phase 2 (01F) started — Knud Knudsen Hopp's own biography plus 3 of 6 children's branches read, replacing the stopgap stub. 01F (§3) status updated from "Triaged" to "In progress." |
+| 1.18 | 2026-08-08 | Phase 2 (01F) completed — branches "d." and "e." read. 01F (§3) status updated to "Fully read at 'our line' depth." All three Hopp-slægten files currently in hand (01, 01C, 01F) are now fully read. |

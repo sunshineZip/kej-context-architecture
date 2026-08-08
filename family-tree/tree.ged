@@ -7649,46 +7649,65 @@
 1 FAMC @F127@
 1 BIRT
 2 DATE FEB 1736
-1 OCCU Sognedegn i Vindum fra 1762
+1 DEAT
+2 DATE 20 FEB 1799
+2 PLAC Vindum, Danmark
+1 OCCU Sognedegn i Vindum fra 5.3.1762
 1 FAMS @F225@
-1 NOTE Barn "d." 1753-54, som 18-årig, medhjælper hos farbroderen Niels Jørgen Knudsen Hopp, degn i Hjerk (01C), og samtidig skoleholder hos degnen i Junget — hvor han 18.3.1754 vidnede i en provsteretssag mod den drikfældige og voldelige degn Andreas Holgersen Møller, og beskrev bl.a. hvordan broderen Peder (c.) fysisk greb ind for at stoppe vold mod degnekonen. Kaldet til degn i Vindum 5.3.1762. Ved moderens skifte 1769 gav han skriftligt afkald på arv fra Vindum, 17.7.1769, citeret i kilden ("No. 2"). Hans egne breve til broderen Knud (citeret i kilden, juli og november 1769) er usædvanligt varme i tonen — takker for broderens deltagelse i eget bryllup og kalder ham "Højstærede Kiære Broder." Han fungerede desuden som mellemmand for søsteren Else's eget afkald. 11 børn kendt ("I."-"XI."), den største børneflok blandt de 6 søskende — ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01F]
+1 NOTE Barn "d." 1753-54, som 18-årig, medhjælper hos farbroderen Niels Jørgen Knudsen Hopp, degn i Hjerk (01C), og samtidig skoleholder hos degnen i Junget — hvor han 18.3.1754 vidnede i en provsteretssag mod den drikfældige og voldelige degn Andreas Holgersen Møller, og beskrev bl.a. hvordan broderen Peder (c.) fysisk greb ind for at stoppe vold mod degnekonen. Ved moderens skifte 1769 gav han skriftligt afkald på arv fra Vindum, 17.7.1769, citeret i kilden ("No. 2"). Hans egne breve til broderen Knud (citeret i kilden, juli og november 1769) er usædvanligt varme i tonen — takker for broderens deltagelse i eget bryllup og kalder ham "Højstærede Kiære Broder." Han fungerede desuden som mellemmand for søsteren Else's eget afkald. Efterfulgtes i embedet af Hans Christian Schalz, sognets sidste sædedegn (1799-1841). 11 børn ("I."-"XI."), den største børneflok blandt de 6 søskende, alle navngivet og modelleret — deres egen efterslægt (adskillige generationer dyb i flere linjer) ikke modelleret, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01F]
 0 @I681@ INDI
 1 NAME Maren /Knudsdatter/
 1 SEX F
+1 BIRT
+2 DATE 2 JUL 1741
+2 PLAC Vindum, Danmark
 1 FAMS @F225@
-1 NOTE [VERIFIED: hopp-slaegten, 01F]
+1 NOTE Datter af Knud Pedersen, tømmermand i Faarup. [VERIFIED: hopp-slaegten, 01F]
 0 @F225@ FAM
 1 HUSB @I680@
 1 WIFE @I681@
 1 MARR
-2 DATE 1763
+2 DATE 10 AUG 1763
 2 PLAC Vindum, Danmark
-1 NOTE 11 børn kendt, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01F]
+1 CHIL @I700@
+1 CHIL @I701@
+1 CHIL @I702@
+1 CHIL @I703@
+1 CHIL @I704@
+1 CHIL @I707@
+1 CHIL @I708@
+1 CHIL @I709@
+1 CHIL @I710@
+1 CHIL @I711@
+1 CHIL @I712@
+1 NOTE 11 børn, alle navngivet og modelleret. [VERIFIED: hopp-slaegten, 01F]
 0 @I682@ INDI
 1 NAME Hans Christian Knudsen /Hopp/
 1 SEX M
 1 FAMC @F127@
 1 BIRT
 2 DATE 1742
-1 OCCU Sognedegn i V. Hornum, Hyllebjerg og Flesborg sogne fra 1769
+1 OCCU Skoleholder på Fur (Debel) o.1761; sognedegn i Hyllebjerg-V.Hornum-Flejborg fra 25.11.1768
 1 FAMS @F226@
 1 FAMS @F227@
-1 NOTE Barn "e." Ved moderens skifte 1769 gav han skriftligt afkald på arv fra Vester Hornum degnebolig, 15.7.1769, citeret i kilden ("No. 3") — undertegnet "H.K. Hopp." 2 børn kendt ("I."-"II." på tværs af begge ægteskaber), ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01F]
+1 NOTE Barn "e." Ved moderens skifte 1769 gav han skriftligt afkald på arv fra Vester Hornum degnebolig, 15.7.1769, citeret i kilden ("No. 3") — undertegnet "H.K. Hopp." Ifølge præsteindberetningen 1771 var degnekaldets indkomst kun 30 rdr. årligt, og han "ej Studiosus." 2 børn kendt ("(I.)"-"II."), modelleret. [VERIFIED: hopp-slaegten, 01F]
 0 @I683@ INDI
 1 NAME Johanne Marie /Kreiberg/
 1 SEX F
 1 FAMS @F226@
-1 NOTE 1. hustru. [VERIFIED: hopp-slaegten, 01F]
+1 NOTE 1. hustru — enke efter den forrige degn, Hans Jensen (begravet 1.9.1768). Var 48 år ved vielsen (han 27). Datter af hendes eget 1. ægteskab: Mette Marie, f. 1755 (ikke modelleret her, tangentielt). Død 1783, 62 år gl. [VERIFIED: hopp-slaegten, 01F]
 0 @F226@ FAM
 1 HUSB @I682@
 1 WIFE @I683@
 1 MARR
-2 DATE 1769
+2 DATE 24 MAY 1769
 2 PLAC V. Hornum, Danmark
-1 NOTE [VERIFIED: hopp-slaegten, 01F]
+1 NOTE Trolovet 7.4.1769. Barnløst ægteskab. [VERIFIED: hopp-slaegten, 01F]
 0 @I684@ INDI
 1 NAME Inger Cathrine /Nielsdatter/
 1 SEX F
+1 BIRT
+2 DATE ABT 1757
 1 FAMS @F227@
 1 NOTE 2. hustru. [VERIFIED: hopp-slaegten, 01F]
 0 @F227@ FAM
@@ -7696,7 +7715,197 @@
 1 WIFE @I684@
 1 MARR
 2 DATE BET 1784 AND 1787
-1 NOTE 2 børn kendt på tværs af begge ægteskaber, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01F]
+1 CHIL @I715@
+1 NOTE Én søn, Knud Nicolaj (II.), modelleret. Kilden nævner desuden en "Maren Pedersdatter" (b.1785), kaldt "hans uægte barn" i "Viborg amts degne- og skolehistorie" — men KEJ's egen vurdering tvivler på dette: "alene navnet gør det lidet sandsynligt, at der er tale om hans barn. Måske stedbarn?" Ikke modelleret som barn af dette ægteskab, given den udtrykte tvivl. [VERIFIED: hopp-slaegten, 01F]
+0 @I700@ INDI
+1 NAME Anne Elisabeth /Danielsdatter/
+1 SEX F
+1 FAMC @F225@
+1 BIRT
+2 DATE 13 MAY 1764
+2 PLAC Vindum, Danmark
+1 DEAT
+2 DATE 20 MAY 1764
+2 PLAC Vindum, Danmark
+1 NOTE Barn "I." Død 10 dage gl. [VERIFIED: hopp-slaegten, 01F]
+0 @I701@ INDI
+1 NAME Dorthe Cathrine /Danielsdatter/
+1 SEX F
+1 FAMC @F225@
+1 BIRT
+2 DATE 16 DEC 1765
+2 PLAC Vindum, Danmark
+1 DEAT
+2 DATE 25 JAN 1766
+2 PLAC Vindum, Danmark
+1 NOTE Barn "II." Også kaldet Elisabeth Cathrine. Død som spæd. [VERIFIED: hopp-slaegten, 01F]
+0 @I702@ INDI
+1 NAME Dorthe Cathrine /Danielsdatter/
+1 SEX F
+1 FAMC @F225@
+1 BIRT
+2 DATE 6 JAN 1767
+2 PLAC Vindum, Danmark
+1 DEAT
+2 DATE 17 APR 1768
+2 PLAC Vindum, Danmark
+1 NOTE Barn "III." Samme navn genbrugt efter søsteren II.'s død. Død som spæd. [VERIFIED: hopp-slaegten, 01F]
+0 @I703@ INDI
+1 NAME Else /Danielsdatter/
+1 SEX F
+1 FAMC @F225@
+1 BIRT
+2 DATE 14 FEB 1768
+2 PLAC Vindum, Danmark
+1 NOTE Barn "IV." Ingen yderligere oplysninger fundet i kilden. [VERIFIED: hopp-slaegten, 01F]
+0 @I704@ INDI
+1 NAME Dorthe Cathrine Danielsdatter /Hopp/
+1 SEX F
+1 FAMC @F225@
+1 BIRT
+2 DATE 1769
+2 PLAC Vindum, Danmark
+1 DEAT
+2 DATE 12 JUN 1816
+2 PLAC Viborg Sdr. sogn, Danmark
+1 FAMS @F233@
+1 FAMS @F234@
+1 NOTE Barn "V." Fik 1791 udenfor ægteskab sønnen Peder (barnefader udlagt Ebbe Broegaard på Randrup), der siden — som Peder Hopp/Schourup — blev "stamfar til adskillige borgere i Viborg" ifølge kilden; hans egen store efterslægt (bl.a. 12 børn og talrige børnebørn, ind i 1900-tallet) ikke modelleret her, per "vores-linje"-dybdepolitikken. Gift 1. gang 9.10.1799 med farver Laurits Schorup i Viborg, der 1805 købte farvergården på Sct. Mikkelsgade for den betydelige sum 4900 rigsdaler — boets fulde brandtaxationsbeskrivelse fra 1811 er gengivet i kilden. Han døde 1807. Gift 2. gang 2.9.1808 med farver Detlef Jessen, der solgte farvergården 1812 for 26.000 rigsdaler courant og senere var opsynsmand ved Viborg tugthus, hvor fangerne blev beskæftiget med klædefarvning. [VERIFIED: hopp-slaegten, 01F]
+0 @I705@ INDI
+1 NAME Laurits /Schorup (Schourup)/
+1 SEX M
+1 BIRT
+2 DATE 29 DEC 1765
+2 PLAC Hjarup, Danmark
+1 DEAT
+2 DATE 1 JUL 1807
+2 PLAC Viborg Sdr. sogn, Danmark
+1 OCCU Farver i Viborg (borgerskab 24.3.1801)
+1 FAMS @F233@
+1 NOTE Søn af sognedegn Peder Skorup og Mette Jensdatter Bæstrup i Hjarup. [VERIFIED: hopp-slaegten, 01F]
+0 @F233@ FAM
+1 HUSB @I705@
+1 WIFE @I704@
+1 MARR
+2 DATE 9 OCT 1799
+2 PLAC Danmark
+1 NOTE Børn i ægteskabet ikke modelleret her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01F]
+0 @I706@ INDI
+1 NAME Detlef (Ditlev) /Jessen/
+1 SEX M
+1 OCCU Farver i Viborg (borgerskab 30.8.1808); opsynsmand ved Viborg tugthus
+1 FAMS @F234@
+1 NOTE [VERIFIED: hopp-slaegten, 01F]
+0 @F234@ FAM
+1 HUSB @I706@
+1 WIFE @I704@
+1 MARR
+2 DATE 2 SEP 1808
+2 PLAC Viborg Sdr. sogn, Danmark
+1 NOTE 1 barn i ægteskabet, ikke modelleret her. [VERIFIED: hopp-slaegten, 01F]
+0 @I707@ INDI
+1 NAME Johanne Cathrine /Danielsdatter (Hopp)/
+1 SEX F
+1 FAMC @F225@
+1 BIRT
+2 DATE 12 AUG 1770
+2 PLAC Vindum, Danmark
+1 NOTE Barn "VI." Fik 1803 udenfor ægteskab sønnen Laurids Hop, der døde spæd samme år (8 uger, "opnaaede ikke kirkedaaben") — barnefader udlagt en formskærer ved navn Berg. Ikke modelleret som selvstændigt individ. [VERIFIED: hopp-slaegten, 01F]
+0 @I708@ INDI
+1 NAME Johanne /Danielsdatter/
+1 SEX F
+1 FAMC @F225@
+1 BIRT
+2 DATE 1772
+2 PLAC Vindum, Danmark
+1 DEAT
+2 DATE 23 FEB 1772
+2 PLAC Vindum, Danmark
+1 NOTE Barn "VII." Død som spæd. [VERIFIED: hopp-slaegten, 01F]
+0 @I709@ INDI
+1 NAME Johanne /Danielsdatter/
+1 SEX F
+1 FAMC @F225@
+1 BIRT
+2 DATE 14 NOV 1773
+2 PLAC Vindum, Danmark
+1 NOTE Barn "VIII." Samme navn genbrugt efter søsteren VII.'s død. Stadig i live 1809, hvor hun var fadder for søsteren V. i Viborg. [VERIFIED: hopp-slaegten, 01F]
+0 @I710@ INDI
+1 NAME Anne /Danielsdatter/
+1 SEX F
+1 FAMC @F225@
+1 BIRT
+2 DATE 12 MAR 1775
+2 PLAC Vindum, Danmark
+1 DEAT
+2 DATE 27 AUG 1775
+2 PLAC Vindum, Danmark
+1 NOTE Barn "IX." Død som spæd. [VERIFIED: hopp-slaegten, 01F]
+0 @I711@ INDI
+1 NAME Ane /Danielsdatter/
+1 SEX F
+1 FAMC @F225@
+1 BIRT
+2 DATE 6 JUL 1777
+2 PLAC Vindum, Danmark
+1 NOTE Barn "X." Ingen yderligere oplysninger fundet i kilden. [VERIFIED: hopp-slaegten, 01F]
+0 @I712@ INDI
+1 NAME Knud Danielsen /Hopp/
+1 SEX M
+1 FAMC @F225@
+1 BIRT
+2 DATE 1780
+2 PLAC Vindum, Danmark
+1 DEAT
+2 DATE 22 MAY 1863
+2 PLAC Strandby, Danmark
+1 OCCU Farversvend; skoleholder i Thostrup 1808; sognedegn/skolelærer i Strandby 23.9.1811-1849
+1 FAMS @F235@
+1 FAMS @F236@
+1 NOTE Barn "XI." Farversvend i Viborg tidligt i livet — svogeren til søsteren V.'s 1. mand, farver Laurits Schorup. Degn i Strandby fra 1811, afgået 1849; kaldes ved sin død "Entlediget Skolelærer." Kildens egen dokumentation her er usædvanligt farverig: folkemindesamleren Evald Tang Kristensen optegnede o.1890 lokale historier om hans drikfældighed fra en efterfølgende lærer i Strandby — bl.a. at han engang sad fast i en bæk på hjemvejen og svarede sine ledsageres tilråb "Hopp, Hopp!" med "Jeg hopper F. i mig alt hvad jeg kan," og at han kunne komme fuld i skolen og slå i bordet: "Er det ikke sørgeligt, når et menneske bliver så forfalden. Jo, Fanden i mig er det så." Samtidig viser hans egne indførte folketællinger (1834, 1840, 1845) en "let læselig og ordentlig" hånd — embedsudførelsen led tilsyneladende ikke synligt under drikkeriet. 10 børn kendt på tværs af to ægteskaber (8 i det første, 2 i det andet) — ikke modelleret enkeltvis her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 01F]
+0 @I713@ INDI
+1 NAME Jytte Helene /Bastrup/
+1 SEX F
+1 BIRT
+2 DATE 1783
+1 DEAT
+2 DATE 30 DEC 1828
+2 PLAC Strandby, Danmark
+1 FAMS @F235@
+1 NOTE 1. hustru. [VERIFIED: hopp-slaegten, 01F]
+0 @F235@ FAM
+1 HUSB @I712@
+1 WIFE @I713@
+1 MARR
+2 DATE 13 DEC 1805
+2 PLAC Viborg, Danmark
+1 NOTE 8 børn kendt, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01F]
+0 @I714@ INDI
+1 NAME Anne Cathrine /Jacobsdatter/
+1 SEX F
+1 BIRT
+2 DATE 26 DEC 1800
+2 PLAC Strandby, Danmark
+1 DEAT
+2 DATE 30 SEP 1875
+2 PLAC Strandby, Danmark
+1 FAMS @F236@
+1 NOTE 2. hustru. Datter af husmand Jacob Madsen i Riisgaard og Karen Nielsdatter. [VERIFIED: hopp-slaegten, 01F]
+0 @F236@ FAM
+1 HUSB @I712@
+1 WIFE @I714@
+1 MARR
+2 DATE 10 DEC 1830
+2 PLAC Strandby, Danmark
+1 NOTE Trolovet 6.11.1830. 2 børn kendt, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 01F]
+0 @I715@ INDI
+1 NAME Knud Nicolaj Hansen /(Hopp)/
+1 SEX M
+1 FAMC @F227@
+1 BIRT
+2 DATE 11 APR 1787
+2 PLAC V. Hornum, Danmark
+1 NOTE Barn "II." [VERIFIED: hopp-slaegten, 01F]
 0 @I685@ INDI
 1 NAME Else Knudsdatter /Hopp/
 1 SEX F

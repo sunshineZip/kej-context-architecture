@@ -775,3 +775,36 @@ STATUS: CHECKPOINT
 Completed: Phase 2 (01F) started — Checkpoints 1-3 done (Knud Knudsen Hopp's own biography + branches "a.," "b.," "c." of 6).
 Next: Branches "d." (11 children) and "e." (2 children) remain to finish 01F. No other in-hand item is unread once those close.
 Waiting for: Human's direction on whether to continue now or another time.
+
+---
+
+## [Claude] — Turn 30 | 2026-08-08
+
+Same session, continued. Human asked whether Knud Knudsen Hopp (01F's own subject) was a direct ancestor — a good chance to catch a real misunderstanding before it spread: no, he's a sibling of the actual direct-line child (lettered "a") at that generation, same relationship shape as everyone else covered in Hopp-slægten so far. Gave his own biography in more depth (the 1725 fæstebrev, the quoted 1743 poverty complaint, the 1769 probate).
+
+A genuinely fun detour followed: the human's mother apparently claims KEJ traced the family to Harald Blåtand, in a context of some real family friction ("beefs") between her and KEJ. Answered directly and honestly rather than hedging: nothing in any material read so far comes close (the deepest documented point in any branch is roughly 1546-1614, several hundred years short of Harald Blåtand's death o.985), Danish parish records don't reach back that far at all, and this is almost certainly the well-known "everyone of European descent is mathematically a descendant of Charlemagne/royalty many times over" fact getting mistaken for an actual documented genealogy — likely KEJ's own joke, now being held against him. The human landed on "farmers and clerks... sounds noble in another sense" — echoed back with specific supporting material already in `tree.ged` (the family's generational pattern of being locally *entrusted* — degne administering probate, serving as vitterlighedsvidne, the quietly dutiful 1769 probate testimony). The human then said this "entrusted" framing resonates personally and asked to hold onto it — treated as a personal reflection, not a task; noted it's already preserved in this log, left open whether it gets a dedicated home later, no repo action taken.
+
+Then: "Ready to continue mining?" — resumed Phase 2, reading branches "d." and "e." to close out 01F entirely.
+
+**Branch "d." Daniel Knudsen Hopp** — the largest branch, 11 children. Five infant deaths, two bare baptism records with no further trace, and four genuinely substantial figures: **V. Dorthe Cathrine Danielsdatter Hopp**, whose illegitimate son (before her own marriage) became "stamfar til adskillige borgere i Viborg," and who herself married two successive farvere (dyers) in Viborg — the first bought the town's farvergård in 1805 for 4900 rigsdaler, the second sold it in 1812 for 26,000 and later ran cloth-dyeing labor by workhouse inmates; and **XI. Knud Danielsen Hopp**, a farversvend turned schoolteacher/degn in Strandby whose drinking was preserved in vivid, quoted oral-history testimony collected by folklorist Evald Tang Kristensen o.1890 ("Jeg hopper F. i mig alt hvad jeg kan") — set directly against his own neatly-kept census returns, a nice honest juxtaposition rather than a flattened caricature. Both figures' own further descendants (12+ children/grandchildren apiece, running into the 1900s per the source's own citation list — one emigration record to New Zealand, one DSB stationmaster) capped per policy, not modeled.
+
+**Branch "e." Hans Christian Knudsen Hopp** — two marriages, one confirmed son. A second child ("Maren Pedersdatter") is called his illegitimate daughter in one secondary source KEJ cites, but KEJ's own analysis doubts the claim ("alene navnet gør det lidet sandsynligt... måske stedbarn?") — **not modeled** as his child, consistent with the standing rule against fabricating links a source itself questions.
+
+Checked the file's own Kilder (source list, items 21-81) to confirm nothing narrative remained — confirmed pure bibliography, closing 01F.
+
+Caught and fixed two ID-numbering gaps while building (skipped `I716`→renumbered to `I715` when a disputed child wasn't modeled; skipped `F237`→renumbered to `F236` for the same reason) — kept the append-only sequence clean rather than leaving holes with an explanatory note, since closing the gap was just as cheap.
+
+**16 individuals, 4 families this checkpoint** (`#I700`-`#I715`, `#F233`-`#F236`). `tree.ged` now 715 individuals, 234 families. **This completes 01F — Phase 2 is done, and every currently-received Hopp-slægten file (01, 01C, 01F) is now fully read** at "our line" depth.
+
+**Built/updated:** `hopp-slaegten-01f-extraction.md`, `hopp-slaegten-manifest.md`, `reference-index.md`, `intake-manifest.md`, `TODO.md` (moved the whole Hopp-slægten reading item from Open to Done).
+
+### Session close
+
+Knowledge candidates: None — no Hopp domain exists yet (Phase 3 of the project overall hasn't started).
+Open flags: None escalated to `grandfather-review/queue.md` this turn — the one genuine ambiguity found (Hans Christian's disputed daughter) was already resolved by KEJ's own stated doubt, not left open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Hopp-slægten Phase 2 (01F) finished — all 6 children's branches read. Every currently-received Hopp-slægten file is now fully read.
+Next: No unread in-hand material remains anywhere in the project. Open items are all either deferred by the human's own choice (Andre Hopp-slægter, Svend Åge Pedersen's slægter, mill histories) or waiting on KEJ to send more (Hopp-slægten chapters 02-16+, the 3 missing map scans for 01C/01F, his 1978/1991 articles).
+Waiting for: Human's direction — nothing left to mine from what's currently in hand.
