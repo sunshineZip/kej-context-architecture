@@ -1075,3 +1075,32 @@ STATUS: CHECKPOINT
 Completed: `[FLAG FOR KNOWLEDGE UPDATE]` from Turn 38 approved and committed — `authoring-guidelines.md` §9.6 now documents the media-extraction tooling and caption-tracing method for future sessions.
 Next: No specific next step queued.
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 40 | 2026-08-09
+
+Same session, continued. Human asked for a summary of KEJ's three most recent emails — what was received, what's outstanding. Answered from `intake-manifest.md`/prior session-log history without checking for new upstream commits first, then the human asked directly: "did you pull before replying?" Answer was no — a real miss, especially right after being told new material was about to be pushed for exactly this kind of check. Pulled immediately after being asked; confirmed the local checkout had been one commit behind.
+
+The pull brought in 6 raw `.eml` files pushed to `incoming/`, not 3 as assumed — parsed all six directly (Python's `email` module, extracting headers/body/attachment metadata without dumping raw base64 into context). Corrected the earlier summary on several points:
+
+- **Six emails, not three:** 2026-08-05 ("Slægter"), 2026-08-06 ("Sv: Slægter" — a reply, previously undocumented anywhere in this repo), 2026-08-08×2 ("Slægtshistorie" at 14:03, "Hopp-slægter" at 18:59 — two separate emails, not the "same message" `intake-manifest.md`'s history had implied), 2026-08-09×2 ("Hopp 01F" at 10:08, "Hopp-slægter 02, 03, 04" at 10:16).
+- **The 2026-08-06 email** ("Sv: Slægter") is KEJ reporting he couldn't attach files ("Vedhæft i kopi" gave an error) and could only send via "Webapp" at that point — this is why the Boe-slægten `.docx` ended up reaching the repo via a GitHub Desktop push instead of an email attachment, a detail the repo's history had never actually explained. **The quoted thread includes the human's home address** (in his own prior reply, quoted back by KEJ) — not written anywhere in this repo and not reproduced here either.
+- **Cross-checked the substantive content of the 2026-08-08T14:03 "Slægtshistorie" email** (KEJ answering 7 numbered genealogical questions, including a paternity disclosure about Hanne Boe explicitly marked "skal ikke med i slægtsbogen — eller offentliggøres") against what's actually stored in `tree.ged`/`restricted/`. **All seven items were already correctly captured** in earlier session work, including the sensitive item — handled exactly per KEJ's instruction, with the public/restricted split refined per the human's own 2026-08-08 clarification of what specifically counts as sensitive. This confirms the earlier worry (that repo history might reflect drifted paraphrase-of-paraphrase) did not hold for the genealogical content itself — only the email-count/grouping framing was off.
+
+Human's follow-up instructions: (1) log the 2026-08-06 email into the historical record — this turn does that; (2) extract just the correspondence text from all 6 `.eml` files, with a log of which document files were attached to each, then remove the `.eml` files from `incoming/` — **held pending** a related architecture question raised in the same message.
+
+**Architecture question raised:** given personal/sensitive content keeps landing in `incoming/` incidentally (a home address in the 08-06 thread, a family secret in the 08-08 thread — neither in the *attached documents*, both in the *correspondence text* itself), should `incoming/` and intake routing move to `restricted/`? Recommended against the full move — it would put routine, mostly-harmless document triage behind the same narrow, deliberate-access gate `restricted/` is designed to keep rare, and would dilute what that gate actually protects. Proposed instead: split by content type — a new `restricted/incoming/` for raw correspondence specifically (where the actual risk has concentrated so far), the existing `incoming/` unchanged for document attachments (where the size-cap-workaround rationale actually applies). Flagged that this requires an explicit, documented carve-out to `restricted/README.md`'s "never opened unless the file is named that turn" Hard Constraint, since routine correspondence-checking would need to become a standing exception, not a one-off. **Awaiting the human's decision before implementing.**
+
+**Built/updated:** `projects/system/session-log.md` (this turn), `projects/archive-digitization/context/intake-manifest.md` (version history correction).
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None escalated to `grandfather-review/queue.md` — nothing new surfaced that KEJ hasn't already answered.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: WAITING FOR HUMAN: architecture decision on `restricted/incoming/` before extracting correspondence text and clearing `incoming/`
+Completed: Read all 6 raw emails directly, corrected the email-count/grouping error, confirmed the substantive genealogical corrections (including the sensitive item) were already handled correctly in prior work, logged the previously-undocumented 2026-08-06 email.
+Next: Once the human decides on the `restricted/incoming/` question, extract correspondence text (+ attachment log) to the agreed location and clear the `.eml` files out of `incoming/`.
+Waiting for: Human's decision — full move of `incoming/`+intake routing to `restricted/`, the narrower split proposed above, or leave as-is.

@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.25 | 2026-08-09 | Active
+Version 1.26 | 2026-08-09 | Active
 
 ---
 
@@ -214,3 +214,4 @@ New section (2026-08-08) — three items found in KEJ's master catalog that aren
 | 1.23 | 2026-08-09 | Chapter 04 (§3) Phase 3b Checkpoint 2 done — branches "b.," "e.," "f." read. Only branch "d." remains. Human confirmed: complete text extraction first, image/media extraction is its own deferred follow-up task across all Hopp-slægten files. |
 | 1.24 | 2026-08-09 | Chapter 04 (§3) Phase 3b Checkpoint 3 done — branch "d." read, completing the chapter. Status updated to "Fully read." **Every currently-received Hopp-slægten item in this section (01, 01C, 01F, 02, 03, 04) is now fully read.** |
 | 1.25 | 2026-08-09 | Media pass done across all 6 items in §3 (01, 01C, 01F, 02, 03, 04) — 33 images extracted, 30 public, 3 restricted. Partial resolution of KEJ's own "2 maps missing" worry: 01C's 2 expected maps both found; 01F's 2 expected maps still not accounted for among its 14 extracted images, worth asking him directly. |
+| 1.26 | 2026-08-09 | **Correction, from reading the actual source emails directly for the first time** (the human pushed all 6 raw `.eml` files to `incoming/` for verification, prompted by a summary request this file's prior wording couldn't fully support): item 1.9 above is imprecise — 2026-08-08 was **two separate emails** ("Slægtshistorie" 14:03, "Hopp-slægter" 18:59), not Hopp-slægten material arriving "in the same message" as the Forskellige Boe-slægter/catalog attachments. Similarly, 2026-08-09's chapters arrived across **two emails** ("Hopp 01F" 10:08, in which 01F succeeded but 02/03/04 failed; "Hopp-slægter 02, 03, 04" 10:16, the successful retry) rather than one email sent twice. A previously undocumented **2026-08-06 email** ("Sv: Slægter") also exists — KEJ reporting an attachment failure ("Vedhæft i kopi" error), explaining why the Boe-slægten `.docx` reached this repo via a GitHub Desktop push rather than an email attachment. Everything else in this file's §3-9 content — the actual item statuses, dates, and corrections — was cross-checked against the real email bodies and confirmed accurate; only the email-count/grouping framing was off. |
