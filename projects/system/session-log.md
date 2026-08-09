@@ -1208,3 +1208,28 @@ STATUS: CHECKPOINT
 Completed: Phase 2 (public repo git history rewrite) executed, verified, and pushed. All four phases of `restricted/remediation-plan-2026-08-09.md` now resolved (Phase 0 declined by the human; 1, 2, 4 complete).
 Next: Correspondence-text extraction from the 6 emails (outstanding since before this whole remediation detour). The `[FLAG FOR KNOWLEDGE UPDATE]` from Turn 42 still needs a decision. Optionally, the GitHub cache-purge support request.
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 44 | 2026-08-09
+
+Same session, continued. Human called the GitHub cache-purge follow-up overkill given the repo's early stage ("a few names and birthdates are not that sensitive in reality") — treating that item as closed, not pursuing it further unless re-raised. Then asked to finish the 6 emails.
+
+Finished the correspondence-text extraction that had been outstanding since Turn 40 (originally requested: "Just the correspondence text with a log of which files were attached"). Read all 6 raw `.eml` files directly (already parsed in Turn 41 via Python's `email` module) and wrote `restricted/correspondence-log.md`: each email's From/To, an attachment log (filename, size, MIME type — no attachment content, since that was already triaged separately into the main repo's deep wells across earlier turns), and the body text in Danish, preserved verbatim as a blockquote. Kept one technical note on the 2026-08-08 "Slægtshistorie" email reconciling its "trolovet 8.9.1910" text against the already-resolved 1810 date in `tree.ged#F5` (a KEJ typo already caught and corrected earlier this project, not a new finding).
+
+Removed the 6 raw `.eml` files from `restricted/incoming/` now that their content is captured durably — completing this folder's first real triage cycle since the Turn 41 move. Updated `restricted/incoming/README.md`'s "Currently Waiting" section to reflect the folder being empty again, and corrected a claim in its triage-discipline step that no longer held: it used to say neither repo's git history had ever been rewritten, which stopped being true of the main repo after Turn 43's Phase 2 rewrite. Ran `scripts/validate.ps1` clean (200 warnings, expected baseline, no errors, no `incoming/` complaints) before committing.
+
+Committed and pushed to the restricted repo (`dd52ef8`). Synced the main repo's submodule pointer to match.
+
+**Built/updated:** `restricted/correspondence-log.md` (new), `restricted/incoming/README.md`, `restricted` submodule gitlink in the main repo.
+
+### Session close
+
+Knowledge candidates: None new this turn.
+Open flags: `[FLAG FOR KNOWLEDGE UPDATE]` from Turn 42, still awaiting human review — unchanged this turn.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Correspondence-text extraction and attachment log for all 6 emails, `restricted/incoming/` triaged back to empty. This closes out the last piece of unfinished work from before the remediation detour (Turns 41-43).
+Next: The `[FLAG FOR KNOWLEDGE UPDATE]` from Turn 42 still needs a decision. Otherwise, no outstanding work from this session — open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md`, `research-queue.md`).
+Waiting for: Human's direction on what to work on next.
