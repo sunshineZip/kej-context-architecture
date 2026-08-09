@@ -3833,28 +3833,34 @@
 1 SEX M
 1 BIRT
 2 DATE ABT 1681
+2 PLAC Stouby, Grinderslev sogn, Danmark
 1 DEAT
-2 DATE BET 1730 AND 1731
-1 OCCU Ridefoged på Astrup m.m.
+2 DATE BET 31 MAY 1730 AND 24 FEB 1731
+2 PLAC Vester Grønning, Danmark
+1 OCCU Fuldmægtig og ridefoged på Astrup (fra 1711/1714) under kaptajn Mogens Friis, siden major/oberstløjtnant Christian Kruse
 1 FAMC @F121@
 1 FAMS @F122@
-1 NOTE Generation "02" (= 01-a.) i Kapitel 1-oversigten. Kun kort nævnt her — egen detaljeret biografi ikke i hånden endnu (ville formentlig være i et separat afsnit, ikke modtaget). [VERIFIED: hopp-slaegten, 01-oversigt]
+1 NOTE Generation "02" (= 01-a.), den ældste søn — direkte led i "vores linje." Formodet ældste barn af herredsfoged Knud Danielsen Hopp (01). 1711 fuldmægtig på Astrup, fra 1714 ridefoged. Købte 1716 en gård i Vium, Hjerk sogn for 210 rdl. og solgte den allerede året efter for 300 rdl. — skødet af 15.4.1716 fra amtsforvalter Julius Henrich Kejl og videresalget 14.4.1717 til Frue Mariane Grove til Kaas er begge citeret i deres fulde, originale ordlyd i kilden. Mistede sin position på Astrup, da godsets ejer, major Christian Kruse, efter en retssag og landsretsdom (14.5.1725) måtte afstå godset på tvangsauktion til Christiane Barbara Rantzau — Kruses egen økonomi havde længe været i uorden (usædvanligt: han havde pantsat selve hovedbygningen og 130 stude som 1. prioritet for et lån). Herefter kun nævnt som "Daniel Hop i Gamstrup" under Nørgaard gods (1724), og fra 1728 stadig aktiv som vitterlighedsvidne på skøder i lokalområdet. Døde fattigt i et lille hus i Vester Grønning mellem 31.5.1730 (sidste kendte underskrift) og 24.2.1731 (hvor han i et fæstebrev omtales som "Salig Daniel Knudsen"). [VERIFIED: hopp-slaegten, 02]
 0 @I367@ INDI
 1 NAME Bodil /Nielsdatter/
 1 SEX F
 1 BIRT
-2 DATE 1676
+2 DATE 12 MAR 1676
+2 PLAC Estvad, Danmark
 1 DEAT
 2 DATE AFT 1731
 1 FAMS @F122@
+1 NOTE Datter af orgelmester Niels Nielsen og Anne Sørensdatter i Estvad. Inden sit ægteskab var hun, sammen med en anden pige ved navn Martha, tjenestepige hos den forarmede adelsjomfru Anna Cathrine Akeleye på Stubbergård (et tidligere nonnekloster i Sevel sogn) — jomfru Akeleye måtte efter dårlige høstår forlade gården i 1705 og døde fattig i Norge o.1707. Bodil blev derefter viet til Daniel Knudsen Hopp i juni 1708. Boede efter mandens død fortsat i huset i Vester Grønning, hvor hun havde livsret til det halve af huset ifølge fæstebrevet til den nye fæster, Laurids Madsen Muurmester (24.2.1731). [VERIFIED: hopp-slaegten, 02]
 0 @F122@ FAM
 1 HUSB @I366@
 1 WIFE @I367@
 1 MARR
-2 DATE 1708
+2 DATE 17 JUN 1708
 2 PLAC Sevel, Danmark
 1 CHIL @I369@
-1 NOTE [VERIFIED: hopp-slaegten, 01-oversigt]
+1 CHIL @I716@
+1 CHIL @I717@
+1 NOTE Trolovet 11.12.1707. 3 børn, alle navngivet og modelleret. [VERIFIED: hopp-slaegten, 02]
 0 @I368@ INDI
 1 NAME Peder /Knudsen/
 1 SEX M
@@ -3865,38 +3871,44 @@
 1 SEX M
 1 BIRT
 2 DATE 1707
+2 PLAC Rybjerg, Danmark
 1 DEAT
-2 DATE 1775
-1 OCCU Degn i Vedersø 1733-1775
+2 DATE 10 JAN 1775
+2 PLAC Vedersø, Danmark
+1 OCCU Vitterlighedsvidne på Astrup gods som ung (1728-30); skifteforvalter for Åberg gods (1732-61); sognedegn i Vedersø 1733-1775
 1 FAMC @F122@
 1 FAMS @F123@
-1 NOTE Generation "03" (= 02-a.) i Kapitel 1-oversigten. Egen detaljeret biografi ikke i hånden endnu. [VERIFIED: hopp-slaegten, 01-oversigt]
+1 NOTE Generation "03" (= 02-a.), direkte led i "vores linje." Kildens egen dåbsindførsel giver 6.10.1709 i Rybjerg som dåbsdato — en uforklaret uoverensstemmelse med "1707," som er det årstal, både Kapitel 1-oversigten og kildens egen overskrift for dette afsnit selv angiver; ikke forsøgt afgjort her. Tjente som ung på Astrup, hvor faderen havde været ridefoged, og underskrev flere gange som vitterlighedsvidne på fæstebreve dér (1728-1730). Fra 1732 i tjeneste hos Christen Linde på herregården Åberg i Ringkøbing amt — forvaltede fra samme år de fleste af godsets skifter og førte selve skifteprotokollen frem til 1761, sideløbende med degneembedet. Kaldet til degn i Vedersø 1733 efter Christen Nielsen (1701-33); varetog embedet i 42 år under 4 forskellige præster, uden nogensinde at være "studiosus" (universitetsuddannet) — en af kun 1 ud af 12 degne/skoleholdere i den samlede Hopp-slægt dengang, der var det. Efterfulgtes direkte af sønnen Daniel (= 04). Vedersø sogns kirkebøger er brændt indtil 1813, så børnenes egne dåbsdata kendes ikke direkte — deres eksistens og antal kendes i stedet fra broderen Knud Danielsen Hopps (02-c.) skifte i Viborg 1777, der oplyser at degnen efterlod sig "een søn og 2 døtre." [VERIFIED: hopp-slaegten, 03]
 0 @I370@ INDI
 1 NAME Christence /Thøgersdatter/
 1 SEX F
 1 BIRT
-2 DATE ABT 1702
+2 DATE 29 FEB 1702
+2 PLAC Estvad, Danmark
 1 FAMS @F123@
-1 NOTE Tilnavn "(KUSK)" angivet i kilden ved siden af navnet — betydning ikke afklaret her (evt. familietilnavn), ikke undersøgt nærmere. [VERIFIED: hopp-slaegten, 01-oversigt]
+1 NOTE Datter af Thøger Thomsen "Kusk" og Johanne Pedersdatter. Tjente 1727-32 i huset på Estvadgård hos sekretær Benzon, hvor hun boede endnu i 1733 da parrets ældste barn blev døbt. Kildens egen datoangivelse for dåben (29.2.1702) er kalendarisk umulig — 1702 var ikke et skudår — men gengivet præcis som angivet i kilden, ikke rettet her. [VERIFIED: hopp-slaegten, 03]
 0 @F123@ FAM
 1 HUSB @I369@
 1 WIFE @I370@
 1 MARR
-2 DATE 1732
+2 DATE 16 NOV 1732
 2 PLAC Estvad, Danmark
 1 CHIL @I371@
-1 NOTE [VERIFIED: hopp-slaegten, 01-oversigt]
+1 CHIL @I719@
+1 CHIL @I720@
+1 NOTE Trolovet 24.10.1732. 3 børn kendt (via broderen Knud Danielsen Hopps skifte 1777, se note på I369) — "een søn og 2 døtre." Alle tre navngivet/omtalt så vidt kilden tillader, og modelleret. [VERIFIED: hopp-slaegten, 03]
 0 @I371@ INDI
 1 NAME Daniel Nielsen /Hopp/
 1 SEX M
 1 BIRT
-2 DATE 1732
+2 DATE 30 NOV 1732
+2 PLAC Estvad, Danmark
 1 DEAT
 2 DATE 1800
 1 OCCU Degn i Vedersø 1775-1800
 1 FAMC @F123@
 1 FAMS @F124@
-1 NOTE Generation "04" (= 03-a.) i Kapitel 1-oversigten. Egen detaljeret biografi ikke i hånden endnu. [VERIFIED: hopp-slaegten, 01-oversigt]
+1 NOTE Generation "04" (= 03-a.), direkte led i "vores linje." Barn "a." af Niels Danielsen Hopp og Christence Thøgersdatter — hjemmedøbt af sin mormoder, Johanne Pedersdatter, båret til kirke i Estvad 30.11.1732. Efterfulgte faderen direkte som degn i Vedersø. Egen detaljeret biografi (kapitel "04," 59 sider) er nu modtaget og gemt, men endnu ikke læst — planlagt som "Fase 3b" (se `projects/archive-digitization/TODO.md`). [VERIFIED: hopp-slaegten, 03]
 0 @I372@ INDI
 1 NAME Mette Nielsdatter /Bjerg/
 1 SEX F
@@ -7911,4 +7923,53 @@
 1 SEX F
 1 FAMC @F127@
 1 NOTE Barn "f." Ugift. Nævnes 1760 i Thise, 1769 i Viborg (hvor hun boede ved moderens skifte samme år, og hvortil broderen Knud sendte skiftereferat) og 1798 i Brandstrup ved Viborg. Ved moderens skifte gav hun, ligesom brødrene Peder og Daniel, afkald på arv — formidlet gennem broderen Daniel's brev, der afviste en påstået uenighed om en dyne som "noget Fabel-tale." [VERIFIED: hopp-slaegten, 01F]
+0 @I716@ INDI
+1 NAME Anne Berthe Danielsdatter /Hopp/
+1 SEX F
+1 FAMC @F122@
+1 BIRT
+2 DATE 12 JUL 1711
+2 PLAC Roslev-Rybjerg, Danmark
+1 DEAT
+2 DATE 2 SEP 1759
+2 PLAC Vedersø, Danmark
+1 NOTE Barn "b." Boede hos broderen Niels (= 03) i Vedersø degnebolig, hvor hun døde 48 år gammel, formentlig ugift — kildens egen formulering. [VERIFIED: hopp-slaegten, 02]
+0 @I717@ INDI
+1 NAME Knud Danielsen /Hopp/
+1 SEX M
+1 FAMC @F122@
+1 BIRT
+2 DATE 27 AUG 1713
+2 PLAC Roslev-Rybjerg, Danmark
+1 DEAT
+2 DATE 20 JUN 1777
+2 PLAC Viborg Søndre sogn, Danmark
+1 OCCU Værtshusholder i Viborg (borgerskab 12.3.1765); tillige politibetjent
+1 FAMS @F237@
+1 NOTE Barn "c." Gift 5.5.1744 i Viborg Domsogn med Magdalene Hjardemaal, formentlig søster til degnen Nicolai Hjardemaal i Thorum, der selv var gift med en Hopp-kusine (Dorthe Nielsdatter Hopp, = 01C-a.) — endnu en krydsforbindelse mellem de to slægter. Blev værtshusholder i Viborg 1765, en branche byen dengang var kendt for ("det navnkundige Snaps-Ting"); tillige politibetjent — kildens egen kommentar: "meget passende!" Døde barnløs ("ingen livsarvinger") 1777; det usædvanligt detaljerede skifte efter ham (registrerings- og vurderingsforretning, fuldt gengivet i kilden) oplyser samtidig, at hans allerede afdøde bror, degnen Niels Danielsen Hopp i Vedersø (= 03), efterlod sig "een søn 2de Døttre" — den eneste kilde til antallet af Niels' børn, da Vedersø kirkebog er brændt. [VERIFIED: hopp-slaegten, 02]
+0 @I718@ INDI
+1 NAME Magdalene /Hjardemaal/
+1 SEX F
+1 DEAT
+2 DATE 5 NOV 1781
+2 PLAC Viborg Gråbrødre sogn, Danmark
+1 FAMS @F237@
+1 NOTE Begravet som "Knud Hoppes Enke af Hospitalet," angivet 68 år gl. — hvilket ville give fødselsår o.1713, men kilden har ikke kunnet finde nogen Magdalene Hjardemaal født det år; kun en mulig kandidat født 1701 i Vrå, datter af præsten i Vrå/senere Onsild, Peder Christensen Hjardemaal, og Maren Olufsdatter. Ikke afklaret i kilden. [VERIFIED: hopp-slaegten, 02]
+0 @F237@ FAM
+1 HUSB @I717@
+1 WIFE @I718@
+1 MARR
+2 DATE 5 MAY 1744
+2 PLAC Viborg Domsogn, Danmark
+1 NOTE Barnløst ægteskab. [VERIFIED: hopp-slaegten, 02]
+0 @I719@ INDI
+1 NAME Karen Nielsdatter /Hopp/
+1 SEX F
+1 FAMC @F123@
+1 NOTE Barn "b." Ingen fødsels- eller dødsdata fundet (Vedersø kirkebog brændt). Kendt kun fra en tilfældig detalje i skiftet efter broderen Daniels (= 04) 1. hustru (død 3.7.1793): en grønmalet kiste, som Daniels datter Karen Christence (04-e.) havde fået foræret af "sin faster, Karen Hopp, som ved døden var afgået" — dvs. Karen Nielsdatter Hopp var da allerede død. Formentlig ugift, da intet ægteskab er nævnt. [VERIFIED: hopp-slaegten, 03]
+0 @I720@ INDI
+1 NAME N.N. /Nielsdatter (Hopp)/
+1 SEX F
+1 FAMC @F123@
+1 NOTE Barn "c." Niels Danielsen Hopps anden datter — intet vides om hende overhovedet, end ikke navnet. Kildens egen formodning: opkaldt efter farmoderen (Bodil) eller mormoderen (Johanne), og sikkert ældre end søsteren Karen (= "b."), men dette er gæt, ikke dokumentation. [VERIFIED: hopp-slaegten, 03]
 0 TRLR

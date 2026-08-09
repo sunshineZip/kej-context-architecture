@@ -808,3 +808,38 @@ STATUS: CHECKPOINT
 Completed: Hopp-slægten Phase 2 (01F) finished — all 6 children's branches read. Every currently-received Hopp-slægten file is now fully read.
 Next: No unread in-hand material remains anywhere in the project. Open items are all either deferred by the human's own choice (Andre Hopp-slægter, Svend Åge Pedersen's slægter, mill histories) or waiting on KEJ to send more (Hopp-slægten chapters 02-16+, the 3 missing map scans for 01C/01F, his 1978/1991 articles).
 Waiting for: Human's direction — nothing left to mine from what's currently in hand.
+
+---
+
+## [Claude] — Turn 31 | 2026-08-09
+
+New day, same project. Human asked two clarifying questions first — whether Knud Knudsen Hopp ("b.," the successor degn discussed last turn) was on the direct line (no — he's the son of the "01F" side-branch figure, so off the chain like everyone else in that file), and what a "degn" actually is (answered in full: parish clerk + village schoolteacher + the one reliably literate person in a poor rural parish, usually poorly paid, usually unstudied). While answering the first question, traced a claim back to its actual source and found a real gap: the "entrusted" detail (probate administration, lavværge, vitterlighedsvidne roles) had been relayed accurately in conversation but never actually written into `#I676`'s own `tree.ged` note — fixed that immediately rather than let the tree be thinner than what was said about it.
+
+Then the human shared two screenshots of new emails from KEJ — one with three broken links (02, 03, 04) plus a duplicate 01F attachment, a second 8 minutes later as KEJ's own successful retry with real attachments. Checked `incoming/` first: empty, nothing had landed yet despite the emails. Explained clearly what each email actually contained and flagged the significance directly — chapters 02, 03, 04 are the first **direct-line** Hopp material ("01-a," "02-a," "03-a" per the chapter-numbering chain established while reading 01F), not another side branch.
+
+While logging this, the human pushed all four files (02, 03, 04, plus the stale 01F resend) straight to `incoming/` via GitHub — a genuine race with my own commit-and-push of the intake-manifest update, caught cleanly by `git push` rejecting and a `git pull --no-rebase` merge, no conflicts.
+
+Did the flyover before touching anything, per the standing practice: all three new chapters open fine via `antiword` (same LibreOffice-fails situation as before) and are content-complete against the catalog — no gap like file "01" had. The re-sent 01F turned out to be a stale duplicate — an older "September 2023" draft missing one small detail (already in already-capped territory) that the stored "Januar 2025" version already has; diffed the two directly rather than assuming. Reported all this back and asked for explicit confirmation before storing (cornerstone rule) and before discarding the stale duplicate — human confirmed both.
+
+Moved 02, 03, 04 into `library/deep-wells/hopp-slaegten/`, discarded the stale 01F resend, and updated the manifest/intake tracking before touching `tree.ged`. Then: "Let's make a phased plan for absorb the documents and get to work."
+
+Read chapters 02 and 03 in full (Phase 3a — planned as the small chunk, chapter 04 held back as its own multi-checkpoint effort given its size, comparable to 01C/01F). Both chapters turned out to replace **thin placeholder stubs** already sitting in `tree.ged` since the very first Hopp-slægten checkpoint (the "01"-overview table had already stubbed in the whole 02→07 chain with bare vitals and a note that "egen detaljeret biografi ikke i hånden endnu") — this session's job was enriching those stubs with real content, not creating fresh records.
+
+**Chapter 02 — Daniel Knudsen Hopp**, the actual direct-line ancestor at that generation: a real rise-and-fall story. Estate agent then steward at Astrup, personally flipped a farm for a tidy profit in 1716-17 (both deeds quoted in full in the source), then lost his position when his employer's own finances collapsed (a genuinely reckless pledge of the manor house itself plus 130 oxen as loan collateral) and died poor in a rented house. His wife, Bodil Nielsdatter, has her own quietly sad backstory — servant to an impoverished noblewoman who lost her own manor to bad harvests and died in exile in Norway. Of their 3 children, only one (Anne Berthe) needed a bare vitals entry; the other side child, Knud Danielsen Hopp ("02-c."), became a Viborg innkeeper/police officer and — via his own unusually detailed 1777 probate — is the *only* surviving source for how many children his brother Niels (the actual direct-line degn) had, since Vedersø's own parish register burned.
+
+**Chapter 03 — Niels Danielsen Hopp**, the continuation: 42 years as degn in Vedersø, administered a neighboring estate's probate protocol for three decades on the side, succeeded directly by his own son. Caught and flagged, not silently resolved, a real internal inconsistency: both the overview table and this chapter's own title say he was born 1707, but the chapter's body text cites a specific baptismal record of 1709. His 3 children (known only secondhand via his brother's 1777 probate, since Vedersø's register is gone) split into the direct continuation (Daniel, chapter 04) and two daughters with almost nothing recorded — one identified only by a stray probate mention of an inherited chest, the other not even named, with KEJ's own text explicitly flagging its own guess about her identity as a guess.
+
+Both subjects' non-continuing children turned out to be short, closed branches with no further descendants — no repeat of 01C's explosive side-branch growth. **11 individuals touched (5 new, 6 enriched from stubs), 1 new family.** `tree.ged` now 720 individuals, 235 families. **Phase 3a complete — only chapter 04 (Phase 3b) remains** to finish all currently-received Hopp-slægten material.
+
+**Built/updated:** `hopp-slaegten-02-03-extraction.md` (new), `hopp-slaegten-manifest.md`, `reference-index.md`, `intake-manifest.md`, `TODO.md`.
+
+### Session close
+
+Knowledge candidates: None — no Hopp domain exists yet.
+Open flags: None escalated to `grandfather-review/queue.md` this turn.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Chapters 02 and 03 stored and fully read (Phase 3a). First direct-line Hopp material, replacing years-old placeholder stubs with real biographies.
+Next: Chapter 04 (Daniel Nielsen Hopp, 59 pages, Phase 3b) — the last currently-received Hopp-slægten material, comparable in scale to 01C/01F, likely its own multi-checkpoint effort.
+Waiting for: Human's direction on whether to continue into Phase 3b now or another time.
