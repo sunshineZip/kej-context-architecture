@@ -1104,3 +1104,32 @@ STATUS: WAITING FOR HUMAN: architecture decision on `restricted/incoming/` befor
 Completed: Read all 6 raw emails directly, corrected the email-count/grouping error, confirmed the substantive genealogical corrections (including the sensitive item) were already handled correctly in prior work, logged the previously-undocumented 2026-08-06 email.
 Next: Once the human decides on the `restricted/incoming/` question, extract correspondence text (+ attachment log) to the agreed location and clear the `.eml` files out of `incoming/`.
 Waiting for: Human's decision — full move of `incoming/`+intake routing to `restricted/`, the narrower split proposed above, or leave as-is.
+
+---
+
+## [Claude] — Turn 41 | 2026-08-09
+
+Same session, continued. Human pushed back on the narrower split proposed last turn: this session's own media-extraction work had already shown KEJ doesn't reliably recognize embedded photos of living people as sensitive — a risk that lives in *document* attachments, not just correspondence text — so treating documents as low-risk by default (as the narrower proposal did) had the same blind spot the correspondence-only framing was meant to fix. Agreed this was right and updated the recommendation: both correspondence and document attachments should land somewhere gated until independently assessed, since "unassessed" turned out to be the real risk category, not content type. Human then confirmed: move `incoming/` and the whole intake feature to `restricted/`, with routing/instructions/references amended accordingly.
+
+**Structural implementation, both repos:**
+
+**Restricted repo (`kej-restricted-context-architecture`):** created `restricted/incoming/`, moved all 6 `.eml` files there from the main repo's `incoming/`. New `restricted/incoming/README.md` (adapted from the main repo's, covering both the mechanical size-cap rationale and the confidentiality rationale). `restricted/README.md` gained a Structure section (previously just a placeholder — also documented `media/`, `tree-sensitive.ged`, `grandfather-review-queue.md`, which existed but were never listed) and one explicit, scoped exception to its own Hard Constraint: `incoming/` is checked routinely at session start, everything else in the repo stays gated behind naming a file that turn. Committed and pushed (`4aa2ea0`).
+
+**Main repo:** `incoming/README.md` reduced to a one-line pointer at the new location (kept, rather than deleting the folder outright, so anyone who doesn't know about the move still finds their way). `Architecture.md` (1.13 → 1.14): §2 diagram updated, §3's intake subsection rewritten with the two-problem framing (mechanical + confidentiality) that drove the move, "Restricted companion repo" section gained the new subfolder + Hard Constraint exception. `ROUTING.md` (1.19 → 1.20): the restricted-repo Hard Constraint, the `incoming/`-triage Standing Rule, and the Quick Task Guide's raw-file entry all updated to the new path and reasoning. `scripts/validate.ps1`: the untriaged-file nudge now checks `restricted/incoming/`; kept a lightweight habit-guard warning on the old `incoming/` path in case anyone (human or session) drops a file there out of habit. `projects/archive-digitization/TODO.md` (1.18 → 1.19): the "check at session start" item updated to the new path and reasoning.
+
+**One real mistake caught and fixed along the way:** the initial `git mv` of one file crossed the submodule boundary incorrectly, staging it as a regular tracked blob inside `restricted/` in the main repo's index instead of respecting `restricted/` as a gitlink — would have broken the submodule pointer if committed as-is. Caught via `git ls-files -s restricted` showing a `100644` blob entry where only a `160000` commit gitlink should exist; fixed with `git rm --cached` on the bad entry and re-adding `restricted` cleanly. No data was at risk — the restricted repo's own commit was already pushed independently — this was purely a main-repo bookkeeping error. Separately, `scripts/validate.ps1`'s Version History immutability check caught a genuine slip: rewriting `incoming/README.md` as a pointer had accidentally changed one word ("lets" → "let") in an existing, already-committed history row. Fixed before committing — exactly the kind of error that check exists to catch.
+
+**Still open:** the 6 raw `.eml` files now sit in `restricted/incoming/`, not yet triaged — extracting their correspondence text (+ an attachment log) and removing the `.eml` files is the next piece of work, per the human's earlier instruction, now that the destination is settled.
+
+**Built/updated:** `restricted/incoming/README.md` (new), `restricted/README.md`, `Architecture.md`, `ROUTING.md`, `scripts/validate.ps1`, `incoming/README.md`, `projects/archive-digitization/TODO.md`.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None escalated to `grandfather-review/queue.md`.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: `incoming/` and the intake feature moved to `restricted/incoming/` in both repos, with routing, Hard Constraints, Standing Rules, the Quick Task Guide, and the validator all updated to match. A submodule-boundary index error and a Version-History wording slip were both caught and fixed before commit.
+Next: Extract the 6 emails' correspondence text (+ attachment log) into `restricted/incoming/` (or wherever fits the now-settled structure) and clear the raw `.eml` files out, per the standing instruction from two turns ago.
+Waiting for: Nothing — proceeding directly to the correspondence extraction.

@@ -5,7 +5,7 @@ project: archive-digitization
 
 # Archive Digitization — TODO
 
-Version 1.18 | 2026-08-09 | Active
+Version 1.19 | 2026-08-09 | Active
 
 > **Routing check:** This is a task tracking file, not a work queue. Do not start work on any item here unless you have completed ROUTING.md routing and received explicit human confirmation for this session.
 
@@ -14,7 +14,7 @@ Version 1.18 | 2026-08-09 | Active
 ## Open
 
 - [ ] **Image extraction now proceeds alongside text extraction, not as a separate pass (decided 2026-08-06):** the Boe-slægten `.docx` has 48 embedded images (photos, scanned documents, maps) that the text-only extraction had ignored entirely. First batch (6 images tied to Aneoversigt/generations "02"-"05", the sections already read) is done — see `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md`. Going forward: when reading a new section of the manuscript, pull and process its images in the same working session, not deferred to a later catch-up pass. Efterslægt in particular will need this — its images will very likely depict living or recently-living people, so expect `[SENSITIVE]` handling to become the default there, not the exception.
-- [ ] **Check `incoming/` for new files at the start of each working session** (2026-08-06): the human now pushes raw files directly into `incoming/` via git/GitHub instead of an AI tool connector fetch (see `incoming/README.md`), specifically to avoid connector size caps. Anything found there needs the same triage as any other manifest item: update `context/intake-manifest.md`, decide its real home, move it out of `incoming/`. First real use (2026-08-06): the Boe-slægten original `.docx`, see Done below.
+- [ ] **Check `restricted/incoming/` for new files at the start of each working session** (2026-08-06, path moved 2026-08-09): the human pushes raw files directly into `restricted/incoming/` via git/GitHub instead of an AI tool connector fetch (see `restricted/incoming/README.md`) — originally to avoid connector size caps, now also because raw material needs an independent sensitivity check before anything is public (see `Architecture.md` §3). Anything found there needs the same triage as any other manifest item: update `context/intake-manifest.md`, assess for living-person content (including embedded media, independent of whether KEJ flagged anything), decide its real home, move it out of `restricted/incoming/`. First real use (2026-08-06, in the old location): the Boe-slægten original `.docx`, see Done below.
 - [ ] Decide an approach to handwriting transcription for older Danish church records (possibly Gothic/Kurrent script) — manual transcription, a specialized OCR tool, or the family's own knowledge of the handwriting
 - [ ] As each item in `context/intake-manifest.md` arrives: mark it received, do a rough triage pass (slægt/category, source type) using the working assumptions below, update its status
 - [ ] Ask KEJ if he has copies of his own published articles "Om den sidste herredsfoged i Salling Nørre herred" (1978, *Skiveegnens Jul*) and "Degnekår om slægten Hop" (1991) — referenced by an external source (see `context/external-source-hopp-herredsfoged.md`) as the primary source for the Hopp-slægt's herredsfoged history; would be excellent evidentiary sources if he has them

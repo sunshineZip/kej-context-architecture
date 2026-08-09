@@ -874,18 +874,32 @@ if ((Test-Path $treeGedPath) -and (Test-Path $restrictedTreePath)) {
     }
 }
 
-# --- incoming/ — non-empty nudge ---
-# incoming/ is a waiting room for untriaged raw files (Architecture.md §3,
-# ROUTING.md Standing Rules), not permanent storage. This doesn't try to
-# match individual files against intake-manifest.md (filenames won't
-# reliably map to named items) — it's a per-commit reminder to check
-# whether triage is overdue, not a claim that any specific file is stale.
-$incomingPath = Join-Path $repoRoot "incoming"
-if (Test-Path $incomingPath) {
-    $incomingFiles = Get-ChildItem -Path $incomingPath -File | Where-Object { $_.Name -ne "README.md" }
+# --- restricted/incoming/ — non-empty nudge ---
+# restricted/incoming/ is a waiting room for untriaged raw files (Architecture.md §3,
+# ROUTING.md Standing Rules), not permanent storage. Moved here from a main-repo
+# top-level incoming/ on 2026-08-09 — raw material needs an independent sensitivity
+# check before anything is public. This doesn't try to match individual files against
+# intake-manifest.md (filenames won't reliably map to named items) — it's a per-commit
+# reminder to check whether triage is overdue, not a claim that any specific file is stale.
+# Silently skipped if the restricted/ submodule isn't initialized in this checkout.
+$restrictedIncomingPath = Join-Path $repoRoot "restricted/incoming"
+if (Test-Path $restrictedIncomingPath) {
+    $incomingFiles = Get-ChildItem -Path $restrictedIncomingPath -File | Where-Object { $_.Name -ne "README.md" }
     if ($incomingFiles.Count -gt 0) {
         $incomingNames = ($incomingFiles | ForEach-Object { $_.Name }) -join ", "
-        Add-ValidationWarning "incoming/ has $($incomingFiles.Count) untriaged file(s) still present: $incomingNames — triage per incoming/README.md, then remove them (moved to their real home, or discarded if registry-only)"
+        Add-ValidationWarning "restricted/incoming/ has $($incomingFiles.Count) untriaged file(s) still present: $incomingNames — triage per restricted/incoming/README.md, then remove them (moved to their real home, or discarded if registry-only)"
+    }
+}
+
+# --- old incoming/ — habit guard ---
+# incoming/ moved to restricted/incoming/ on 2026-08-09 (see Architecture.md §3).
+# This just catches anyone still dropping files in the old spot out of habit.
+$oldIncomingPath = Join-Path $repoRoot "incoming"
+if (Test-Path $oldIncomingPath) {
+    $oldIncomingFiles = Get-ChildItem -Path $oldIncomingPath -File | Where-Object { $_.Name -ne "README.md" }
+    if ($oldIncomingFiles.Count -gt 0) {
+        $oldIncomingNames = ($oldIncomingFiles | ForEach-Object { $_.Name }) -join ", "
+        Add-ValidationWarning "incoming/ (old location) has $($oldIncomingFiles.Count) file(s): $oldIncomingNames — this folder moved to restricted/incoming/ on 2026-08-09; move these there instead"
     }
 }
 

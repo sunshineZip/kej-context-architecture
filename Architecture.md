@@ -1,6 +1,6 @@
 # Context Architecture — System Design
 
-Version 1.13 | 2026-08-08 | Production
+Version 1.14 | 2026-08-09 | Production
 
 ---
 
@@ -78,8 +78,8 @@ The session log only ever grows — no entries are deleted or edited after the f
         sources/                      ← Evidentiary source files — only if this domain has any
           manifest.md                 ← Registry of the raw files in this folder
 
-  incoming/                           ← Fork-specific — untriaged raw file landing zone, see §3
-    README.md                         ← How to drop files here and how they get triaged out
+  incoming/                           ← Fork-specific — pointer only, see §3 (moved to restricted/incoming/, 2026-08-09)
+    README.md                         ← Redirects to restricted/incoming/README.md
 
   library/                            ← Cross-domain deep-well registry — see authoring-guidelines.md §9.2
     reference-index.md                ← Registry of every deep well ever touched, stored or not
@@ -97,6 +97,8 @@ The session log only ever grows — no entries are deleted or edited after the f
 
   restricted/                         ← Fork-specific — git submodule, separate private repo, see §3
     README.md                         ← Purpose, access list, the Hard Constraint governing this path
+    incoming/                         ← Untriaged raw file landing zone — moved here 2026-08-09, see §3
+      README.md                       ← How to drop files here and how they get triaged out
 
   projects/                           ← One folder per project
     system/                           ← Pre-created — tracks all structural changes to this system
@@ -151,11 +153,14 @@ When something discovered during a project should update the knowledge layer —
 
 This gate exists because the knowledge layer is loaded by every future session. An incorrect or premature update propagates everywhere. The same gate applies, with one addition, to promoting a deep well from registry-only to physically stored in `library/deep-wells/` — the cornerstone rule (`knowledge/domains/authoring-guidelines.md` §9.3) requires explicit human confirmation before the file is stored.
 
-### Untriaged file intake — fork-specific: `incoming/`
+### Untriaged file intake — fork-specific: `restricted/incoming/` (moved 2026-08-09, formerly `incoming/`)
 
-This fork adds `incoming/`, a top-level landing zone for raw files that haven't been triaged yet — not part of the generic template. It exists to solve a specific, recurring friction: pulling a large file from an external source (e.g. Google Drive) through an AI tool connector can hit that connector's own size caps and this environment's network policy, independent of anything about the file itself. Pushing the file directly into `incoming/` via a normal git commit — the human's own upload, not a tool fetch — sidesteps both, up to GitHub's own per-file limit (~100 MB without Git LFS).
+This fork adds an untriaged-file landing zone for raw files that haven't been triaged yet — not part of the generic template. It exists to solve two distinct problems:
 
-`incoming/` is tracked in git and durable, unlike `temp/` (§2), which is gitignored and for transient handoff material only — the two must not be confused. A file in `incoming/` is a to-do, not a permanent home: a working session triages it (checks it against `projects/archive-digitization/context/intake-manifest.md`, decides its real destination per the existing `library/deep-wells/` / `knowledge/domains/[name]/sources/` / registry-only rules) and moves it out. See `incoming/README.md` for the full procedure.
+1. **Mechanical, since 2026-08-06:** pulling a large file from an external source (e.g. Google Drive) through an AI tool connector can hit that connector's own size caps and this environment's network policy, independent of anything about the file itself. Pushing the file directly into the repo via a normal git commit — the human's own upload, not a tool fetch — sidesteps both, up to GitHub's own per-file limit (~100 MB without Git LFS).
+2. **Confidentiality, discovered 2026-08-09:** raw material lands here *before* anyone — including KEJ himself — has assessed it for content involving a living person. This turned out not to be hypothetical: personal correspondence from KEJ carried a home address and an unresolved family matter incidentally, and this same session's media-extraction work across the Hopp-slægten and Boe-slægten deep wells (`library/deep-wells/*-media/manifest.md`) found repeatedly that KEJ does not reliably recognize when an embedded photograph involves a living person — he has never once flagged an image as a concern, despite several turning out to need restriction. Neither risk is caught by `[SENSITIVE]`-tagging or post-hoc triage; both exist the moment a file becomes readable to anyone with access, which starts at landing, not at triage.
+
+Problem 2 is why this landing zone moved from a top-level `incoming/` in this repo to `restricted/incoming/` inside the private companion repo — see "Restricted companion repo," below, for the access-boundary reasoning and the Hard Constraint carve-out the move required. The mechanics are unchanged: it's tracked in git and durable, unlike `temp/` (§2), which is gitignored and for transient handoff material only. A file here is a to-do, not a permanent home — triage checks it against `projects/archive-digitization/context/intake-manifest.md`, assesses it (including any embedded media, per `knowledge/domains/authoring-guidelines.md` §9.6) independent of whether KEJ flagged anything, and moves it to its real destination: a public `library/deep-wells/`/`knowledge/domains/[name]/sources/` home once confirmed safe, or permanent `restricted/` storage if it needs to stay there. See `restricted/incoming/README.md` for the full procedure. The old `incoming/README.md` is now a one-line pointer to that file.
 
 ### Cross-*slægt* structural data — fork-specific: `family-tree/`
 
@@ -186,6 +191,8 @@ GitHub access control is repo-wide, not per-folder — there is no way to grant 
 That access boundary only protects against people (or sessions) without access to the underlying repo. Inside a session where the submodule *is* initialized, `restricted/`'s content is just files on disk, reachable the same way anything else is — so a second, behavioral safeguard exists alongside the technical one: a `ROUTING.md` Hard Constraint that this path is never opened, searched, quoted, or referenced in any output unless the human explicitly names the specific file, by path, in that same turn. The submodule repo's own `README.md` restates this rule for any LLM session operating on it directly, independent of whether this repo's own `ROUTING.md` was loaded first.
 
 As of 2026-08-08, access to `kej-restricted-context-architecture` is Nikolaj Boe only — deliberately narrower than this repo's own collaborator list, and not extended by default when new collaborators are added here.
+
+**`restricted/incoming/` (added 2026-08-09).** The untriaged-file landing zone described in §3 above (formerly a top-level `incoming/` in this repo) now lives here. This required one explicit, narrow exception to the Hard Constraint above, restated in the submodule's own `README.md`: `restricted/incoming/` is checked routinely at the start of every session — the same habit the old main-repo `incoming/` had — rather than only being opened when the human names a specific file that turn. The exception is scoped to that one subfolder; everything else in `restricted/`, including anything `incoming/` triage has already moved into permanent storage here, stays fully gated. This also means intake/triage work now requires access to the restricted repo, not just this one — a narrowing that fits, on reflection: anyone with only main-repo access would only ever need already-cleared material in `knowledge/domains/` and `library/deep-wells/`, never KEJ's raw, unfiltered drops.
 
 **Two redaction categories, not one.** `family-tree/tree.ged` placeholders use two distinct `NAME` markers, and they mean different things:
 - **`Living /<surname>/`** — individual has no death date on record, so is treated as presumed living by default (§ Standing Rules). Birth year is kept; full record lives at `restricted/tree-sensitive.ged`.
@@ -269,3 +276,4 @@ To fork this template for a new initiative:
 | 1.11 | 2026-08-08 | Fork-specific addition: created `restricted/`, a git submodule mounting a separate, more restricted private repo (`kej-restricted-context-architecture`) for a confidentiality tier above `[SENSITIVE]` — findings KEJ wants kept within the research foundation but not shared or publicized without review and disclaimers. Prompted by realizing `[SENSITIVE]` is a prose convention, not an access boundary, and that GitHub access control is repo-wide rather than per-folder. §2 file structure diagram and new §3 subsection "Restricted companion repo — fork-specific: `restricted/`" added; matching `ROUTING.md` Hard Constraint added so a session with the submodule initialized doesn't surface it unprompted. |
 | 1.12 | 2026-08-08 | Added a second `family-tree/tree.ged` redaction category, `Withheld /?/`, distinct from the existing `Living /<surname>/` — for content KEJ explicitly instructed never be published regardless of whether the person is alive (first case: a disputed-paternity matter, `@I164@`). Also added `restricted/grandfather-review-queue.md`, mirroring `grandfather-review/queue.md` and `log.md` for cases where an open question itself turns out to be `Withheld`-tier — the public files get a neutral stub, full content moves to the restricted mirror rather than being deleted. Prompted by KEJ's first substantive reply since `restricted/` was built, which contained exactly this kind of material, some of which had already been sitting in the public repo (added before `restricted/` existed) and had to be retroactively pulled. |
 | 1.13 | 2026-08-08 | Correction to 1.12: the human clarified that `@I164@`'s basic identity wasn't actually restricted-tier — it was already public and non-sensitive (from the manuscript itself); only KEJ's own follow-up narrative around it was. Restored `@I164@` to a full public record; the restricted content narrowed to a `NOTE` in `restricted/tree-sensitive.ged`, not a redacted individual. `Withheld /?/` stays defined for the case it does fit, but currently has zero instances. |
+| 1.14 | 2026-08-09 | **`incoming/` moved to `restricted/incoming/`,** per explicit human decision. Prompted by two incidents in one session: a home address surfaced incidentally in KEJ's own correspondence, and this session's media-extraction work confirmed KEJ doesn't reliably recognize when an embedded photo involves a living person — so landing raw material anywhere world-readable before independent review is a real exposure window, not a formality. §2 diagram updated (old `incoming/` is now a pointer only); §3's subsection rewritten with the two-problem framing (mechanical + confidentiality); "Restricted companion repo" section gained a paragraph on the new subfolder and the one explicit, scoped exception this required to the "never opened unless named that turn" Hard Constraint. Matching updates to `ROUTING.md`, `scripts/validate.ps1`, and `projects/archive-digitization/TODO.md`. |

@@ -1,31 +1,12 @@
-# Incoming
+# Incoming — Moved
 
-Version 1.2 | 2026-08-08 | Production
-
----
-
-## Document Purpose
-
-Landing zone for raw, unprocessed files (from KEJ or elsewhere) that haven't been triaged yet. Solves a real, recurring problem: pulling a large file from an external source (e.g. Google Drive) through an AI tool connector hits that connector's own size caps and this environment's network policy — pushing a file directly into this folder via a normal git commit sidesteps both, since it's just an ordinary file in the repo.
+Version 2.0 | 2026-08-09 | Production
 
 ---
 
-## How To Use This Folder
+This folder moved to `restricted/incoming/` on 2026-08-09. Untriaged raw files — from KEJ or anywhere else — go there now, not here. See `Architecture.md` §3 ("Untriaged file intake") and `restricted/README.md` § Structure for the full reasoning: raw material needs an independent sensitivity check before anything is public, and that check can't happen before the file has even landed if it lands somewhere world-readable to anyone with main-repo access.
 
-**Adding a file:** drop it in, using its original filename, no pre-sorting required. Either push it directly with git, or use GitHub's web "Add file → Upload files" on this repo. No size limit here beyond GitHub's own (~100 MB per file without Git LFS; ask if a future file is bigger than that).
-
-**Triage (a subsequent working session, not the upload step):** for each file found here —
-1. Check it against `projects/archive-digitization/context/intake-manifest.md` and update that item's status.
-2. Decide its permanent home per the existing rules: `library/deep-wells/` if it clears the cornerstone bar (`knowledge/domains/authoring-guidelines.md` §9.2-9.3, human confirmation required for physical storage), `knowledge/domains/[name]/sources/` if it's a small evidentiary source and that domain exists, or stays registry-only (`library/reference-index.md`, `Stored: no`) if neither applies yet.
-3. Move the file to that home and remove it from `incoming/` — this folder is a waiting room, not permanent storage. A file that has been triaged and given a real home should not still be sitting here. This is part of finishing triage, not a separate later cleanup step — see `ROUTING.md` Standing Rules. `scripts/validate.ps1` warns if any file is left here, as a per-commit reminder rather than a periodic sweep. Removing a file here is not destructive even in the registry-only (discard) case: this repo has never rewritten git history, so anything ever committed to `incoming/` stays recoverable via `git log`/`git show`.
-
-**What does not belong here:** anything already triaged (goes to its real home per above), and transient handoff scratch material (`temp/` is for that — and is gitignored, unlike this folder).
-
----
-
-## Currently Waiting
-
-*Empty as of 2026-08-06.* First real use: the Boe-slægten original `.docx`, pushed here via GitHub Desktop and triaged the same day into `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx` (see `projects/archive-digitization/TODO.md` Done list). Confirms the mechanism works end-to-end, including for files well over the connector caps that motivated it.
+**Do not add files here.** If you're looking for the drop-off/triage procedure, it's at `restricted/incoming/README.md`.
 
 ---
 
@@ -36,3 +17,4 @@ Landing zone for raw, unprocessed files (from KEJ or elsewhere) that haven't bee
 | 1.0 | 2026-08-06 | Initial creation, in response to the Google Drive connector's 10 MB download cap plus this environment's network policy blocking direct Drive access — both made pulling large files through an AI tool connector unsustainable. This folder lets the human push files directly into the repo instead, bypassing both. |
 | 1.1 | 2026-08-06 | First real use recorded: the Boe-slægten original `.docx` (46.1 MB), pushed via GitHub Desktop after GitHub's website upload UI turned out to have its own separate 25 MB cap — worth knowing that git/GitHub Desktop doesn't share that limit, only the website's drag-and-drop uploader does. Triaged out the same day. |
 | 1.2 | 2026-08-08 | Clarified that removing a triaged file is part of finishing triage itself, not a deferred cleanup step, and that doing so immediately is not risky — git history keeps everything regardless. Cross-referenced the new `ROUTING.md` Standing Rule and `scripts/validate.ps1` non-empty-directory warning. |
+| 2.0 | 2026-08-09 | **Folder moved to `restricted/incoming/`.** Prompted by two incidents in one working session: a personal home address surfaced incidentally in KEJ's own correspondence, and this session's own media-extraction work confirmed KEJ doesn't reliably recognize when an embedded photograph involves a living person — meaning the exposure risk was never really about the *document* type, it was about landing anywhere world-readable before this repo had assessed it. This file now just points to the new location; the working README lives at `restricted/incoming/README.md`. |
