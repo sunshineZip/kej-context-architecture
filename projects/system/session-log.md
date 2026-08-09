@@ -1254,3 +1254,26 @@ STATUS: CHECKPOINT
 Completed: The last open item from this session — the Turn 42 knowledge-update flag — is now resolved and applied.
 Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md`, `research-queue.md`).
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 46 | 2026-08-09
+
+Same session, continued. Human asked, as an architecture question, whether — now that `restricted/` has effectively become the "research laboratory" holding raw/unaudited material while the public repo holds refined, sensitivity-cleared work — some of the routing/processing structure should move over there too.
+
+Recommended against it, for chat first: `ROUTING.md` has to work as the first thing any session reads, before anything is known about what's sensitive, and `restricted/` access is deliberately narrower (currently the human only) — moving routing logic there would risk leaving a future main-repo-only collaborator with no instructions at all, since the submodule shows up empty without access. The actual processing work already spans both repos within one session regardless of where the routing document physically lives, so centralizing it in the more widely-readable repo costs nothing and avoids that failure mode. Flagged one smaller, genuinely warranted gap instead: `restricted/README.md`'s own Structure section had explicitly noted it would need revisiting once the file count grew past a flat list — it had (8 distinct concerns by now) — and two files existed but were never listed at all (`correspondence-log.md`, plus the pre-existing `media-manifest.md`/`hopp-slaegten-media-manifest.md`).
+
+Human agreed with the recommendation and asked for that smaller fix. Reorganized `restricted/README.md`'s Structure section into three grouped subsections (Intake / Permanent stores / Process & audit records), added the missing file entries, and wrote a short "Why this repo has no `ROUTING.md`" note capturing the reasoning above directly in the file, so the decision doesn't live only in chat history.
+
+**Built/updated:** `restricted/README.md` (Structure reorganized, Version History).
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: `restricted/README.md`'s Structure section reorganized and brought up to date; the "keep routing centralized" architecture decision recorded in the file itself, not just chat.
+Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md`, `research-queue.md`).
+Waiting for: Human's direction on what to work on next.
