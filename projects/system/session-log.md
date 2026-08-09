@@ -962,3 +962,26 @@ STATUS: CHECKPOINT
 Completed: Full Hopp-slægten media pass — all 5 currently-received source files. 33 images extracted, 30 public, 3 restricted. **Every currently-received Hopp-slægten file (text and media alike) is now fully processed.**
 Next: No unprocessed Hopp-slægten material remains in hand. Open items: 01F's 2 expected-but-missing maps (worth asking KEJ), chapter 05 onward (not yet received), and the standing `grandfather-review/queue.md`/`research-queue.md` backlogs.
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 36 | 2026-08-09
+
+Same session, continued. Human asked who's shown in `image24.jpeg` (public Boe-slægten media) and `image34.png` (restricted) — answered from the existing manifests: image24 is Hanne and Carlo in the garden at Brunshåb, confirmed by direct caption match; image34 was logged as an unmatched formal dinner-party group photo, no caption found.
+
+Human pushed back on image34 specifically — believed there had been adjacent caption text in the source document that the original pass missed. Worth taking seriously rather than defending the earlier finding: re-extracted the `.docx` and, instead of relying on `wvHtml`'s HTML-order text proximity (the method used originally), traced the image's actual OOXML relationship (`r:embed="rId42"` → `media/image34.png` via `word/_rels/document.xml.rels`) to its exact position inside `word/document.xml`. The paragraph immediately preceding the image reads "I midten: Edith og Jens" ("In the middle: Edith and Jens"), directly above Edith Kristensen Boe's own biographical entry — which is itself immediately followed by her 10.8.1957 marriage to Jens Sinding Thomsen at Durup kirke. A genuine, direct caption match that the earlier pass simply missed, not a case of no caption existing. Likely their wedding reception photo. Both named individuals (`@I122@`, `@I123@`) confirmed `[SENSITIVE]` — no death date on record for either — so the image correctly stays in `restricted/media/`, just no longer as an unidentified image.
+
+Updated `restricted/media-manifest.md` (moved image34 out of the unmatched batch into its own confirmed write-up), committed and pushed the restricted submodule, and updated the submodule pointer here.
+
+**Built/updated:** `restricted/media-manifest.md`.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None escalated to `grandfather-review/queue.md` — this was a self-contained correction, not something needing KEJ's input.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Corrected image34.png's identification (Edith Kristensen Boe and Jens Sinding Thomsen, likely their 1957 wedding reception), found via a direct OOXML relationship trace rather than the earlier text-proximity method.
+Next: Worth a pass over the other "unmatched" restricted images using this same direct-relationship-trace method rather than assuming the earlier `wvHtml`-based proximity read was reliable — it clearly missed at least one real caption.
+Waiting for: Human's direction on what to work on next.
