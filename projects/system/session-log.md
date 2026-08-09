@@ -1133,3 +1133,47 @@ STATUS: CHECKPOINT
 Completed: `incoming/` and the intake feature moved to `restricted/incoming/` in both repos, with routing, Hard Constraints, Standing Rules, the Quick Task Guide, and the validator all updated to match. A submodule-boundary index error and a Version-History wording slip were both caught and fixed before commit.
 Next: Extract the 6 emails' correspondence text (+ attachment log) into `restricted/incoming/` (or wherever fits the now-settled structure) and clear the raw `.eml` files out, per the standing instruction from two turns ago.
 Waiting for: Nothing — proceeding directly to the correspondence extraction.
+
+---
+
+## [Claude] — Turn 42 | 2026-08-09
+
+Same session, continued. Human asked two pointed questions before the correspondence extraction: whether git history (or a GitHub feature) lets anyone recover restricted/sensitive files, and whether the deep-well source documents count as sensitive too since they carry the media and birthdays of restricted individuals. Investigated rather than guessed on both.
+
+**Full audit, public repo (88 commits):**
+- Repo visibility confirmed via GitHub API: `kej-context-architecture` is **public** (`"private": false`), `kej-restricted-context-architecture` is correctly private. Zero forks/stargazers/watchers — no evidence of external discovery, though a public repo doesn't log anonymous clones.
+- **155 individuals'** full unredacted `tree.ged` records (everyone now `[SENSITIVE]`/`Living /.../`) were public until `543902b` (2026-08-08 15:30 UTC) — the single largest finding, bigger than either question alone suggested.
+- **26 Boe-slægten images** now in `restricted/media/` were public `7f8afbf` → `037d573` (2026-08-06 14:46 → 2026-08-08 15:41, ~2 days).
+- **Gunnar Vilhelm Carlsen's** full name/birthdate/occupation (Hanne's presumed father) was public until `de814eb`/`6a82657`.
+- **The raw source manuscripts themselves** — `boe-slaegten-fra-mors-og-fur-2024.docx` + its plain-text extraction, `forskellige-boe-slaegter-2026.docx`, `kej-slaegtshistorie-og-lokalhistorie-2026.docx`, all 6 Hopp-slægten files — were sitting **unredacted in the live working tree**, not just history. This answers the second question directly: redaction has only ever applied to *derived* content, never to the source itself. Confirmed `restricted/` content has never leaked into the public repo's history in either direction.
+
+Drafted a phased remediation plan (Phase 0: make the public repo private; Phase 1: move live source exposure to `restricted/`; Phase 2: git-history rewrite via `git-filter-repo`, confirmed installable in this environment; Phase 4: process fix). Presented it in chat; per the human's explicit instruction, saved the actual plan document to `restricted/remediation-plan-2026-08-09.md` rather than the public repo, since it itemizes exactly what's exposed and where.
+
+**Human's decisions:** Phase 0 declined — wants to keep the public/restricted dichotomy, accepts the risk of staying public while mitigating. Phase 1 approved, executed this turn. Phase 2 approved in principle, held until the human confirms a backup of both repos exists.
+
+**Phase 1 execution:** moved 4 source files + the `hopp-slaegten/` folder (6 files) from `library/deep-wells/` to `restricted/deep-wells/` (new). Left `ejerslev-1970-religios-bevaegelse-i-jorsby.pdf` public — a published 1970 journal article, categorically different from KEJ's personal materials. Updated `library/reference-index.md` (4 entries' `Location`/`Stored` fields), the 3 affected deep-well manifests (pointer notes, manifests/extraction-logs themselves stay public), `Architecture.md` (§2 diagram, new "Restricted companion repo" paragraph), `ROUTING.md` (Quick Task Guide), and `scripts/validate.ps1` (the Location-existence check now warns instead of hard-erroring for an unresolvable `restricted/` path — expected when that submodule isn't initialized, not a data problem; added a matching orphan-file check for `restricted/deep-wells/`, folder-aware since `hopp-slaegten/` holds many files under one registry entry).
+
+**One item deliberately held back, not applied:** a matching cornerstone-rule addition to `knowledge/domains/authoring-guidelines.md` §9.3 (a raw KEJ source defaults to `restricted/deep-wells/` unless individually cleared) — drafted, then reverted, since `knowledge/` files are gated by their own Hard Constraint ("never edit directly... propose using `[FLAG FOR KNOWLEDGE UPDATE]`") independent of the broader Phase 1 approval. Raising it as a proper flag now rather than folding it into this commit.
+
+[FLAG FOR KNOWLEDGE UPDATE]
+Source: Project system, Turn 42
+File: knowledge/domains/authoring-guidelines.md
+Issue: §9.3 (Cornerstone Rule) has no guidance on where a raw source's *physical file* should live when it hasn't been individually assessed for living-person content — the current text only distinguishes "stored" (`library/deep-wells/`) from "registry-only." Phase 1 of `restricted/remediation-plan-2026-08-09.md` established the actual working rule (unaudited source → `restricted/deep-wells/` by default) in `Architecture.md` and `ROUTING.md`, but not in the file that actually governs this decision.
+Proposed change: append this paragraph after the existing §9.3 text (unchanged otherwise):
+
+```
+**Fork-specific addition (`kej-context-architecture`, 2026-08-09):** a cornerstone work's *source* file (the raw `.doc`/`.docx`/etc. it was extracted from) goes in `restricted/deep-wells/`, not `library/deep-wells/`, unless it has already been individually assessed and confirmed to carry no living-person content — including any embedded media (§9.6). This is the default, not the exception: a freshly received source is unaudited by definition. The *derived* content — the manifest, the extraction log, already-classified public media — still goes in `library/deep-wells/` as described above; only the raw source itself is affected. See `restricted/README.md` § Structure and, for the incident that prompted this, `restricted/remediation-plan-2026-08-09.md`.
+```
+
+**Built/updated:** `restricted/remediation-plan-2026-08-09.md` (new), `restricted/README.md`, `library/reference-index.md`, `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-manifest.md`, `library/deep-wells/forskellige-boe-slaegter-2026-manifest.md`, `library/deep-wells/hopp-slaegten-manifest.md`, `Architecture.md`, `ROUTING.md`, `scripts/validate.ps1`.
+
+### Session close
+
+Knowledge candidates: the flag above.
+Open flags: `[FLAG FOR KNOWLEDGE UPDATE]` above, awaiting human review.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: FLAG RAISED
+Completed: Full exposure audit (git history + live working tree) across the public repo. Remediation plan drafted and saved to `restricted/`. Phase 1 (move live source exposure to `restricted/deep-wells/`) executed, with all cross-references updated. Phase 2 (history rewrite) held pending backup confirmation.
+Next: Await the human's approve/edit/reject on the flag above; separately, await backup confirmation before Phase 2. Correspondence-text extraction (from two turns ago) still outstanding.
+Waiting for: Human review of the flag, and backup confirmation for Phase 2.

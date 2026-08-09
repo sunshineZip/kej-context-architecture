@@ -431,7 +431,15 @@ if (Test-Path $refIndexPath) {
             $storedLocations += $location
             $fullPath = Join-Path $repoRoot $location
             if (-not (Test-Path $fullPath)) {
-                Add-ValidationError "library/reference-index.md entry '$slugLine' points Location at '$location', which does not exist"
+                if ($location -like "restricted/*") {
+                    # restricted/ is a separate submodule (Architecture.md §3) - an
+                    # uninitialized checkout (no access to that repo) legitimately
+                    # can't resolve this path. Not a data-integrity problem, so warn
+                    # rather than error.
+                    Add-ValidationWarning "library/reference-index.md entry '$slugLine' points Location at '$location' (restricted/), which doesn't resolve in this checkout - expected if the restricted/ submodule isn't initialized here"
+                } else {
+                    Add-ValidationError "library/reference-index.md entry '$slugLine' points Location at '$location', which does not exist"
+                }
             }
         }
     }
@@ -444,6 +452,28 @@ if (Test-Path $refIndexPath) {
         foreach ($f in $actualDeepWellFiles) {
             if ($storedLocations -notcontains $f) {
                 Add-ValidationWarning "'$f' exists in library/deep-wells/ but no reference-index.md entry claims it via Location (orphan deep-well file)"
+            }
+        }
+    }
+
+    # restricted/deep-wells/ (added 2026-08-09) - raw KEJ source manuscripts, same
+    # orphan check as library/deep-wells/ above, recursive since this one has
+    # per-slaegt subfolders (e.g. hopp-slaegten/). Silently skipped if the
+    # restricted/ submodule isn't initialized in this checkout.
+    $restrictedDeepWellsPath = Join-Path $repoRoot "restricted/deep-wells"
+    if (Test-Path $restrictedDeepWellsPath) {
+        $actualRestrictedDeepWellFiles = Get-ChildItem -Path $restrictedDeepWellsPath -File -Recurse -ErrorAction SilentlyContinue |
+            Where-Object { $_.Name -notlike "*-manifest.md" } |
+            ForEach-Object { "restricted/deep-wells/" + ($_.FullName.Substring($restrictedDeepWellsPath.Length + 1) -replace '\\', '/') }
+
+        foreach ($f in $actualRestrictedDeepWellFiles) {
+            # A Location ending in "/" (e.g. restricted/deep-wells/hopp-slaegten/)
+            # claims everything under that folder, not just an exact-string match -
+            # hopp-slaegten/ in particular holds many per-chapter files under one
+            # folder-level registry entry.
+            $claimed = $storedLocations | Where-Object { $f -eq $_ -or ($_.EndsWith("/") -and $f.StartsWith($_)) }
+            if (-not $claimed) {
+                Add-ValidationWarning "'$f' exists in restricted/deep-wells/ but no reference-index.md entry claims it via Location (orphan deep-well file)"
             }
         }
     }

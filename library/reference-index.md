@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.33 | 2026-08-09 | Production
+Version 1.34 | 2026-08-09 | Production
 
 ---
 
@@ -35,8 +35,8 @@ Add one heading per work, following this template (see `knowledge/domains/author
 
 - **Title:** "Boe-slægten, Mors/Fur," Kapitel 1-4 — Knud Erik Jakobsen (KEJ), unpublished compiled manuscript, maj 2026
 - **Format:** .docx (original, now stored — see Stored, below), plus a plain-text extraction kept alongside for convenience.
-- **Stored:** yes — the original `.docx` binary, pushed directly into `incoming/` by the human via GitHub Desktop (2026-08-06) and triaged into this folder, bypassing the Google Drive connector's 10 MB cap that blocked the initial fetch attempt entirely.
-- **Location:** library/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx (original — see `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-manifest.md` for the full history and text extraction log; a plain-text extraction also sits alongside it as `boe-slaegten-fra-mors-og-fur-2024-fulltext.txt` — not itself a registered `Location`, since `scripts/validate.ps1` only checks the first `Location` line per entry; this is a known, harmless pre-existing warning, not new to this edit)
+- **Stored:** yes — the original `.docx` binary, pushed directly into `incoming/` by the human via GitHub Desktop (2026-08-06) and triaged into this folder, bypassing the Google Drive connector's 10 MB cap that blocked the initial fetch attempt entirely. **Moved to `restricted/` 2026-08-09** — see Location, below.
+- **Location:** restricted/deep-wells/boe-slaegten-fra-mors-og-fur-2024.docx (original — moved out of the public `library/deep-wells/` on 2026-08-09, per `restricted/remediation-plan-2026-08-09.md`: the source manuscript is unredacted by nature and was found sitting in the public repo's live working tree, not just its history. See `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-manifest.md` for the full history and text extraction log, which stays public — only the raw source moved. A plain-text extraction sits alongside it at `restricted/deep-wells/boe-slaegten-fra-mors-og-fur-2024-fulltext.txt`, equally unredacted, moved for the same reason — not itself a registered `Location`, since `scripts/validate.ps1` only checks the first `Location` line per entry.)
 - **Media:** library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/ (images extracted from the source — own manifest, 48 embedded images found, all 48 checked, 47 filed — only image18, a confirmed exact duplicate, is not stored). **Split 2026-08-08:** 21 of the 47 confirmed to depict no living person stay in this public folder; the other 26 (confirmed/plausible living individuals, or not yet fully identified) moved to `restricted/media/` — a private companion repo, see `Architecture.md` §3 — with its own manifest, `restricted/media-manifest.md`. **2026-08-09:** re-ran a direct OOXML caption trace across the restricted images after catching a missed caption on `image34.png` (in `restricted/media-manifest.md`); found 3 more genuine matches (`image10.jpeg`, `image11.jpeg`, `image15.jpeg`) and moved them here. Public count now 24 of 47.
 - **Referenced by domains:** None yet — Phase 3 (domain buildout) has not started. **The entire manuscript has now been mined**, across five extraction notes files: `boe-slaegten-chapter1-extraction.md` through `...-chapter4-extraction.md`, plus `...-anetavler-kilder-extraction.md` for the pedigree appendices and bibliography.
 - **Cornerstone status:** Yes — multi-chapter (4 chapters plus anetavler appendices, ~148,000 characters), mined in full across generations "02"-"05" of the direct Boe line, the complete Efterslægt, and three further pedigree appendices (Toft, Møller, Søgaard, Lundgaard, Degn families). Chapter 3's own cross-references (Vester Vandet/Møller line) already suggested relevance beyond a single future Boe domain, since confirmed further by the Anetavler.
@@ -70,8 +70,8 @@ Add one heading per work, following this template (see `knowledge/domains/author
 
 - **Title:** "Forskellige Boe-slægter" — Knud Erik Jakobsen (KEJ), unpublished compilation, august 2026
 - **Format:** .docx (original, stored)
-- **Stored:** yes — attached directly to KEJ's 2026-08-08 email reply, landed in `incoming/` and triaged the same day.
-- **Location:** library/deep-wells/forskellige-boe-slaegter-2026.docx (see `library/deep-wells/forskellige-boe-slaegter-2026-manifest.md` for the full history and text extraction log)
+- **Stored:** yes — attached directly to KEJ's 2026-08-08 email reply, landed in `incoming/` and triaged the same day. **Moved to `restricted/` 2026-08-09** — see Location, below.
+- **Location:** restricted/deep-wells/forskellige-boe-slaegter-2026.docx (moved out of the public `library/deep-wells/` on 2026-08-09, per `restricted/remediation-plan-2026-08-09.md` — never went through a media pass, so moved on the same default-until-assessed basis as everything else, not because a specific problem was confirmed. See `library/deep-wells/forskellige-boe-slaegter-2026-manifest.md` for the full history and text extraction log, which stays public.)
 - **Referenced by domains:** None yet — Phase 3 (domain buildout) has not started.
 - **Cornerstone status:** Yes — personal, unpublished, not reacquirable except from KEJ; covers several distinct Boe lineages (per its own table of contents) substantial enough to likely need mining across more than one session, the same reasoning as `boe-slaegten-fra-mors-og-fur`.
 - **Extraction log:**
@@ -83,8 +83,8 @@ Add one heading per work, following this template (see `knowledge/domains/author
 
 - **Title:** "2026 KEJ Slægtshistorie og lokalhistorie" — Knud Erik Jakobsen (KEJ), personal catalog, 2026
 - **Format:** .docx (original, stored)
-- **Stored:** yes — attached directly to KEJ's 2026-08-08 email reply, landed in `incoming/` and triaged the same day.
-- **Location:** library/deep-wells/kej-slaegtshistorie-og-lokalhistorie-2026.docx
+- **Stored:** yes — attached directly to KEJ's 2026-08-08 email reply, landed in `incoming/` and triaged the same day. **Moved to `restricted/` 2026-08-09** — see Location, below.
+- **Location:** restricted/deep-wells/kej-slaegtshistorie-og-lokalhistorie-2026.docx (moved out of the public `library/deep-wells/` on 2026-08-09, per `restricted/remediation-plan-2026-08-09.md` — low probability of sensitive content given it's just KEJ's own title/date catalog, moved anyway for consistency: an unaudited source doesn't get a pass because a problem seems unlikely)
 - **Referenced by domains:** None — not a genealogical source, see below.
 - **Cornerstone status:** N/A — this isn't narrative content to mine for facts, it's KEJ's own dated index of every *slægt*/local-history item he's written (title, page count, version date). Registered here anyway (rather than as a `projects/archive-digitization/context/` note) because it's a raw external file, matching where every other raw file in this repo physically lives; stored because it's non-reacquirable and directly useful for diffing against future updates from KEJ, not because it clears the usual mined-incrementally bar.
 - **Extraction log:**
@@ -96,8 +96,8 @@ Add one heading per work, following this template (see `knowledge/domains/author
 
 - **Title:** "Hopp-slægten" (items 01, 01C, 01F, 02, 03, 04 so far, more expected) — Knud Erik Jakobsen (KEJ), unpublished, per-chapter files
 - **Format:** mixed — legacy `.doc` and modern `.docx`, per file (see manifest)
-- **Stored:** yes — attached to KEJ's 2026-08-08 email (relayed via the human), landed in `incoming/`, triaged same day.
-- **Location:** library/deep-wells/hopp-slaegten/ (growing folder, one file per chapter — see `library/deep-wells/hopp-slaegten-manifest.md` for the full history, per-file flyover findings, and extraction log). Media: `library/deep-wells/hopp-slaegten-media/` (30 public images) plus `restricted/media/` (3 restricted, see `restricted/hopp-slaegten-media-manifest.md`).
+- **Stored:** yes — attached to KEJ's 2026-08-08 email (relayed via the human), landed in `incoming/`, triaged same day. **Moved to `restricted/` 2026-08-09** — see Location, below.
+- **Location:** restricted/deep-wells/hopp-slaegten/ (growing folder, one file per chapter — moved out of the public `library/deep-wells/hopp-slaegten/` on 2026-08-09, per `restricted/remediation-plan-2026-08-09.md`: confirmed sensitive images were already extracted from these files, and the source itself still carries the full unredacted set for every individual, not just the images. See `library/deep-wells/hopp-slaegten-manifest.md` for the full history, per-file flyover findings, and extraction log, which stays public.) Media: `library/deep-wells/hopp-slaegten-media/` (30 public images) plus `restricted/media/` (3 restricted, see `restricted/hopp-slaegten-media-manifest.md`).
 - **Referenced by domains:** None yet — not read.
 - **Cornerstone status:** Yes — personal, unpublished, not reacquirable except from KEJ; distributed as many separate per-chapter files (16+ expected per `intake-manifest.md` §3) that will accumulate here over an extended period, the strongest form of the "mined incrementally over months" criterion.
 - **Extraction log:**
@@ -154,3 +154,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.31 | 2026-08-09 | `hopp-slaegten` Phase 3b Checkpoint 3 — branch "d." read in full (12 individuals, 6 families), completing chapter 04. **Every currently-received Hopp-slægten text is now fully read.** Only the deferred media/image pass remains. |
 | 1.32 | 2026-08-09 | `hopp-slaegten` media/image pass complete — 33 images extracted, 30 stored publicly at `library/deep-wells/hopp-slaegten-media/`, 3 moved to `restricted/media/`. **Every currently-received Hopp-slægten file is now fully processed, text and media.** |
 | 1.33 | 2026-08-09 | `boe-slaegten-fra-mors-og-fur` media re-check: a human-prompted caption catch on `image34.png` (restricted) led to re-running the same direct OOXML trace across all 21 remaining restricted images. 3 more genuine captions found (`image10`, `image11`, `image15`) and moved to public — 24 of 47 images now public. |
+| 1.34 | 2026-08-09 | **Phase 1 of `restricted/remediation-plan-2026-08-09.md`:** moved 4 raw source manuscripts (`boe-slaegten-fra-mors-og-fur-2024.docx` + its fulltext extraction, `forskellige-boe-slaegter-2026.docx`, `kej-slaegtshistorie-og-lokalhistorie-2026.docx`) and the whole `hopp-slaegten/` folder (6 files) from public `library/deep-wells/` to `restricted/deep-wells/`. Prompted by an audit finding these unredacted sources — not just extracted facts — sitting in the public repo's live working tree. `Location`/`Stored` fields updated on all 4 affected entries; their manifests and extraction logs stay public. `ejerslev-1970-religios-bevaegelse-i-jorsby` (a published 1970 journal article, no living-person content) was deliberately not moved. |

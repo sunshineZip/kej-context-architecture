@@ -1,6 +1,6 @@
 # Context Architecture — System Design
 
-Version 1.14 | 2026-08-09 | Production
+Version 1.15 | 2026-08-09 | Production
 
 ---
 
@@ -83,7 +83,7 @@ The session log only ever grows — no entries are deleted or edited after the f
 
   library/                            ← Cross-domain deep-well registry — see authoring-guidelines.md §9.2
     reference-index.md                ← Registry of every deep well ever touched, stored or not
-    deep-wells/                       ← Physical files for cornerstone-status deep wells only
+    deep-wells/                       ← Physical files for cornerstone-status deep wells — except raw KEJ source manuscripts, which go in restricted/deep-wells/ instead (2026-08-09, see §3)
 
   family-tree/                        ← Fork-specific — cross-slægt structural data, see §3
     tree.ged                          ← GEDCOM 5.5.1 individuals (INDI) and families (FAM), built incrementally
@@ -99,6 +99,7 @@ The session log only ever grows — no entries are deleted or edited after the f
     README.md                         ← Purpose, access list, the Hard Constraint governing this path
     incoming/                         ← Untriaged raw file landing zone — moved here 2026-08-09, see §3
       README.md                       ← How to drop files here and how they get triaged out
+    deep-wells/                       ← Raw KEJ source manuscripts — moved here 2026-08-09, see §3
 
   projects/                           ← One folder per project
     system/                           ← Pre-created — tracks all structural changes to this system
@@ -194,6 +195,8 @@ As of 2026-08-08, access to `kej-restricted-context-architecture` is Nikolaj Boe
 
 **`restricted/incoming/` (added 2026-08-09).** The untriaged-file landing zone described in §3 above (formerly a top-level `incoming/` in this repo) now lives here. This required one explicit, narrow exception to the Hard Constraint above, restated in the submodule's own `README.md`: `restricted/incoming/` is checked routinely at the start of every session — the same habit the old main-repo `incoming/` had — rather than only being opened when the human names a specific file that turn. The exception is scoped to that one subfolder; everything else in `restricted/`, including anything `incoming/` triage has already moved into permanent storage here, stays fully gated. This also means intake/triage work now requires access to the restricted repo, not just this one — a narrowing that fits, on reflection: anyone with only main-repo access would only ever need already-cleared material in `knowledge/domains/` and `library/deep-wells/`, never KEJ's raw, unfiltered drops.
 
+**`restricted/deep-wells/` (added 2026-08-09).** Raw KEJ source manuscripts — not their extracted facts or media, which stay public, but the source files themselves (`.doc`/`.docx`). Prompted by an audit (`restricted/remediation-plan-2026-08-09.md`) that found the public repo's git history exposed 155 individuals' unredacted records, 26 sensitive images, and one paternity detail before later redaction, and — separately, and more directly — that the original source manuscripts were sitting unredacted in the public repo's *current* working tree the entire time, since redaction had only ever been applied to content derived from them. Same default as `restricted/incoming/`: a source moves here unless it's already been individually assessed and confirmed to carry no living-person content, not the other way around. See `knowledge/domains/authoring-guidelines.md` §9.2-9.3 for the cornerstone-storage rule this modifies.
+
 **Two redaction categories, not one.** `family-tree/tree.ged` placeholders use two distinct `NAME` markers, and they mean different things:
 - **`Living /<surname>/`** — individual has no death date on record, so is treated as presumed living by default (§ Standing Rules). Birth year is kept; full record lives at `restricted/tree-sensitive.ged`.
 - **`Withheld /?/`** — an *entire individual's* content is restricted by KEJ's explicit instruction, independent of vital status. Not currently used by any individual: the case that prompted it (`@I164@`, a disputed-paternity matter) turned out to need something narrower — his basic identity was already public and non-sensitive, only the surrounding investigative narrative was restricted, which fits as ordinary `NOTE`-level content in `restricted/tree-sensitive.ged` without redacting the person himself. Kept as a category for the case where a whole individual's record genuinely does need this treatment.
@@ -277,3 +280,4 @@ To fork this template for a new initiative:
 | 1.12 | 2026-08-08 | Added a second `family-tree/tree.ged` redaction category, `Withheld /?/`, distinct from the existing `Living /<surname>/` — for content KEJ explicitly instructed never be published regardless of whether the person is alive (first case: a disputed-paternity matter, `@I164@`). Also added `restricted/grandfather-review-queue.md`, mirroring `grandfather-review/queue.md` and `log.md` for cases where an open question itself turns out to be `Withheld`-tier — the public files get a neutral stub, full content moves to the restricted mirror rather than being deleted. Prompted by KEJ's first substantive reply since `restricted/` was built, which contained exactly this kind of material, some of which had already been sitting in the public repo (added before `restricted/` existed) and had to be retroactively pulled. |
 | 1.13 | 2026-08-08 | Correction to 1.12: the human clarified that `@I164@`'s basic identity wasn't actually restricted-tier — it was already public and non-sensitive (from the manuscript itself); only KEJ's own follow-up narrative around it was. Restored `@I164@` to a full public record; the restricted content narrowed to a `NOTE` in `restricted/tree-sensitive.ged`, not a redacted individual. `Withheld /?/` stays defined for the case it does fit, but currently has zero instances. |
 | 1.14 | 2026-08-09 | **`incoming/` moved to `restricted/incoming/`,** per explicit human decision. Prompted by two incidents in one session: a home address surfaced incidentally in KEJ's own correspondence, and this session's media-extraction work confirmed KEJ doesn't reliably recognize when an embedded photo involves a living person — so landing raw material anywhere world-readable before independent review is a real exposure window, not a formality. §2 diagram updated (old `incoming/` is now a pointer only); §3's subsection rewritten with the two-problem framing (mechanical + confidentiality); "Restricted companion repo" section gained a paragraph on the new subfolder and the one explicit, scoped exception this required to the "never opened unless named that turn" Hard Constraint. Matching updates to `ROUTING.md`, `scripts/validate.ps1`, and `projects/archive-digitization/TODO.md`. |
+| 1.15 | 2026-08-09 | **Phase 1 of `restricted/remediation-plan-2026-08-09.md`:** an audit (prompted by the human asking whether git history and the stored source documents were themselves exposure risks) found the public repo's history had carried 155 individuals' unredacted records, 26 sensitive images, and one paternity detail before later redaction — and, separately, that the raw source manuscripts were sitting unredacted in the public repo's *current* working tree the whole time, since redaction only ever applied to derived content. Human declined making the public repo private (accepted that risk deliberately) but approved moving the live sources: all raw KEJ manuscripts moved from `library/deep-wells/` to the new `restricted/deep-wells/`. "Restricted companion repo" section gained a matching paragraph. A git history rewrite (Phase 2) is planned but held pending a confirmed backup. |

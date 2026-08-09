@@ -1,6 +1,6 @@
 # Hopp-slægten — Deep Well Manifest
 
-Version 1.12 | 2026-08-09 | Production
+Version 1.13 | 2026-08-09 | Production
 
 ---
 
@@ -13,6 +13,8 @@ Unlike `boe-slaegten-fra-mors-og-fur` (one manuscript, four chapters, all in a s
 ---
 
 ## What Is Stored Here
+
+**As of 2026-08-09, the whole `hopp-slaegten/` folder below no longer physically lives in `library/deep-wells/`** — moved to `restricted/deep-wells/hopp-slaegten/`, per `restricted/remediation-plan-2026-08-09.md`. Confirmed sensitive images were already extracted from these files during the 2026-08-09 media pass (see `hopp-slaegten-media/manifest.md`); the source files themselves still carry the full unredacted set for every individual, not just the images. Filenames below are unchanged, only the parent path — read `hopp-slaegten/01-...` etc. as `restricted/deep-wells/hopp-slaegten/01-...`. Everything else in this manifest — the extraction log, the flyover findings, the media manifest — stays here and public.
 
 - **`hopp-slaegten/01-knud-danielsen-hopp-o1640-1723.doc`** (4,849,152 bytes) — legacy binary `.doc`. Received attached to KEJ's 2026-08-08 email (relayed via the human), landed in `incoming/`, triaged same day.
   - **Content gap, confirmed by flyover (2026-08-08):** file metadata claims 5 pages / 422 words; catalog (`library/reference-index.md#kej-slaegtshistorie-og-lokalhistorie-2026-katalog`) expects 33 pages + 3 maps. Actual extracted text (~460 words via `antiword` — LibreOffice fails to load this file, "source file could not be loaded") is only the Kapitel 1 family-overview index table, not an individual biographical entry for Knud Danielsen Hopp himself. KEJ's own words: "Det ser ud, som om det meste af indholdet er slettet ?? Jeg prøver at finde det!" ("Looks like most of the content has been deleted — I'll try to find it!"). Treated as an accepted gap for now, not a blocker — per the human, 2026-08-08: "We can always swap them later if my grandfather manages to find the complete documents."
@@ -85,3 +87,4 @@ Per the human's direction: absorb the two smaller files first (01, 01c), defer t
 | 1.10 | 2026-08-09 | Phase 3b Checkpoint 2: branches "b.," "e.," "f." read in full (12 individuals, 5 families). Only branch "d." remains to complete chapter 04. Human confirmed: text-first, image/media extraction deferred as its own later pass. |
 | 1.11 | 2026-08-09 | Phase 3b Checkpoint 3: branch "d." read in full (12 individuals, 6 families), closing chapter 04. **Every currently-received Hopp-slægten text is now fully read.** Only the deferred media/image pass remains as open work on the material currently in hand. |
 | 1.12 | 2026-08-09 | Media pass complete: 33 images extracted across all 5 source files, 30 stored publicly (`library/deep-wells/hopp-slaegten-media/`), 3 moved to `restricted/media/`. **Every currently-received Hopp-slægten file — text and media — is now fully processed.** |
+| 1.13 | 2026-08-09 | **`hopp-slaegten/` folder moved to `restricted/deep-wells/hopp-slaegten/`** (Phase 1, `restricted/remediation-plan-2026-08-09.md`) — the source files still carry every individual's unredacted facts and every image, not just the ones already found and classified. This manifest, the extraction log, and the media manifest stay here and public. |

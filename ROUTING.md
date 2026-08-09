@@ -1,6 +1,6 @@
 # Routing
 
-Version 1.20 | 2026-08-09 | Production
+Version 1.21 | 2026-08-09 | Production
 
 ---
 
@@ -143,7 +143,8 @@ Apply these in every session regardless of project type or how you entered the s
 
 **I want to add a raw reference source or deep well**
 → Evidentiary source (proves one specific claim, small — a church record, a certificate, a letter): store it in `knowledge/domains/[name]/sources/`, add a `manifest.md` row, cite it with a relative link from `knowledge.md`. Use the normal knowledge-update flag.
-→ Deep well (large, possibly cross-*slægt*, mined incrementally — e.g. a scanned parish record book): always add an entry to `library/reference-index.md`. Only store the actual file in `library/deep-wells/` if it clears the cornerstone bar (`knowledge/domains/authoring-guidelines.md` §9.3) — confirm with the human first.
+→ Deep well (large, possibly cross-*slægt*, mined incrementally — e.g. a scanned parish record book): always add an entry to `library/reference-index.md`. Only store the actual file if it clears the cornerstone bar (`knowledge/domains/authoring-guidelines.md` §9.3) — confirm with the human first.
+→ **A raw KEJ source manuscript specifically goes in `restricted/deep-wells/`, not `library/deep-wells/`, by default** (2026-08-09) — unless it's already been individually assessed and confirmed to carry no living-person content, including embedded media. This is the default, not the exception: a freshly received source is unaudited. See `Architecture.md` §3 and `restricted/remediation-plan-2026-08-09.md` for why.
 
 **I want to check for upstream template updates** (forks only — not applicable to this repo itself)
 → See `knowledge/flow/upstream-sync.md` for the full check/apply procedure. Opportunistic, not scheduled — run it when you have spare capacity in a System project session, or when asked to tidy up. The sync marker lives in `projects/system/TODO.md`'s System Maintenance Pass section.
@@ -218,3 +219,4 @@ The real *slægt* (family line) list can't be known until the source material �
 | 1.18 | 2026-08-08 | New media default: newly extracted images now go into `restricted/media/` by default, same as an unconfirmed genealogical fact — promoted to a public deep-well media folder only once confirmed to depict no presumed-living person. Replaces in-place `[SENSITIVE]` flagging on individual images with an actual access boundary. Prompted by splitting `boe-slaegten-fra-mors-og-fur-2024-media/` 26/21 between restricted and public. |
 | 1.19 | 2026-08-08 | Added a Standing Rule making removal from `incoming/` an explicit, non-deferrable part of triage rather than a separate cleanup step — matching `scripts/validate.ps1`'s new non-empty-`incoming/`-directory warning (a per-commit nudge, not a periodic sweep). Prompted by the human asking whether a periodic cleanup pass would be safer; concluded it's the opposite, since a deferred check just lets triaged files linger longer, and deletion here was never actually risky (git history keeps everything, this repo has never rewritten it). |
 | 1.20 | 2026-08-09 | **`incoming/` moved to `restricted/incoming/`,** per explicit human decision — updated the restricted-repo Hard Constraint (one scoped exception: `restricted/incoming/` is checked routinely, not gated behind naming a file that turn), the `incoming/`-triage Standing Rule, and the Quick Task Guide's raw-file entry, all to the new path. Prompted by two incidents in one session: a home address surfaced incidentally in KEJ's own correspondence, and this session's media-extraction work confirmed KEJ doesn't reliably recognize when an embedded photo involves a living person — so exposure risk starts at landing, not triage, for documents as much as correspondence. See `Architecture.md` §3. |
+| 1.21 | 2026-08-09 | **Phase 1 of `restricted/remediation-plan-2026-08-09.md`:** added a Quick Task Guide note that a raw KEJ source manuscript defaults to `restricted/deep-wells/`, not `library/deep-wells/`, unless individually confirmed to carry no living-person content. Prompted by an audit finding the source manuscripts themselves — not just extracted facts — sitting unredacted in the public repo. |
