@@ -1233,3 +1233,24 @@ STATUS: CHECKPOINT
 Completed: Correspondence-text extraction and attachment log for all 6 emails, `restricted/incoming/` triaged back to empty. This closes out the last piece of unfinished work from before the remediation detour (Turns 41-43).
 Next: The `[FLAG FOR KNOWLEDGE UPDATE]` from Turn 42 still needs a decision. Otherwise, no outstanding work from this session — open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md`, `research-queue.md`).
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 45 | 2026-08-09
+
+Same session, continued. Human approved the `[FLAG FOR KNOWLEDGE UPDATE]` from Turn 42 as-is ("Approved, go ahead.").
+
+Applied the approved paragraph to `knowledge/domains/authoring-guidelines.md` §9.3, immediately after the existing Cornerstone Rule text: a cornerstone work's raw source file now defaults to `restricted/deep-wells/`, not `library/deep-wells/`, unless individually assessed and confirmed to carry no living-person content, including embedded media (§9.6). Bumped the file to Version 1.11 and added the corresponding Version History row, citing this flag and `restricted/remediation-plan-2026-08-09.md` for the incident that prompted it.
+
+**Built/updated:** `knowledge/domains/authoring-guidelines.md` (§9.3, Version History).
+
+### Session close
+
+Knowledge candidates: None new this turn — this turn closes the one raised in Turn 42.
+Open flags: None open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: The last open item from this session — the Turn 42 knowledge-update flag — is now resolved and applied.
+Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md`, `research-queue.md`).
+Waiting for: Human's direction on what to work on next.
