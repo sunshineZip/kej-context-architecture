@@ -1277,3 +1277,28 @@ STATUS: CHECKPOINT
 Completed: `restricted/README.md`'s Structure section reorganized and brought up to date; the "keep routing centralized" architecture decision recorded in the file itself, not just chat.
 Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md`, `research-queue.md`).
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 47 | 2026-08-09
+
+Same session, continued. Human asked for a reply to KEJ summarizing materials received and outstanding, structured in three parts: an opening demonstrating comprehension of the lineage depth reached on both sides, a bulleted list of what's been received in workable form, and a bulleted list of what's still outstanding (explicitly including KEJ's own "erindringer").
+
+Verified the two lineage claims directly against `family-tree/tree.ged` rather than restating anything secondhand: traced the direct-line chain from `@I364@` (Knud Danielsen Hopp, b. ABT 1640, herredsfoged i Salling Nørre Herred) through three explicitly-marked "direkte led i 'vores linje'" generations (`@I366@` Daniel Knudsen Hopp, `@I369@` Niels Danielsen Hopp, `@I371@` Daniel Nielsen Hopp) to `@I373@` Nicolai Danielsen Hopp — confirmed as the "05" generation, named but not yet biographically detailed since chapter 05 itself hasn't arrived. Separately traced `@I1@` Peder Christensen Boe (b. ABT 1731) as the earliest individual in the Boe-slægten fra Mors og Fur line, explicitly noted in his own record as "first found bearer of the surname Boe." Also confirmed the family relationship underlying "din linje" / "mormors linje" by tracing `@I168@` (KEJ) + `@I167@` (Hanne Boe, F64) → daughter `@I174@` (b.1970) → son `@I177@` (b.1992) — consistent with KEJ being the human's morfar and Hanne Boe his mormor.
+
+First draft claimed personal close-reading of all material and included an anecdote about a "funny" Knud Danielsen Hopp story — caught before sending that the anecdote actually belonged to a different, later namesake individual (`@I712@`, a nephew several generations on, not the root ancestor), not the person the draft attributed it to; dropped it rather than risk misattribution in a letter to a genealogist. Human then asked for a substantial revision: shorten the opening significantly, remove any insinuation of full personal reading (not truthful, and not yet something the human wants disclosed), and reveal AI involvement only at the level of "helping gather and organize the material" — not that AI is doing the actual reading. Rewrote accordingly; human confirmed the tone was right.
+
+Human sent their own final version (minor edits: "Hej Morfar" instead of "Kære Morfar," added a line reassuring KEJ that confidential material is being looked after, dropped the closing sentence, signed "Bedste hilsner"). Logged the as-sent text as entry 7 in `restricted/correspondence-log.md`, extending that file's Document Purpose to cover outgoing replies (not just KEJ's incoming raw emails) — kept there rather than the main repo, both for the standing raw-correspondence-in-`restricted/` convention and because the entry's own context note references exactly what's being deliberately left undisclosed for now.
+
+**Built/updated:** `restricted/correspondence-log.md` (entry 7, Document Purpose, Version History).
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Reply to KEJ drafted, verified against `tree.ged` and sent by the human; sent version logged for continuity.
+Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md`, `research-queue.md`), plus whatever KEJ sends next in response to this reply.
+Waiting for: Human's direction on what to work on next.
