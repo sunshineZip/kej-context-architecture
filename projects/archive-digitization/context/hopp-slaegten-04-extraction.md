@@ -1,6 +1,6 @@
 # Hopp-slægten 04 (Daniel Nielsen Hopp) — Extraction Notes
 
-Version 1.0 | 2026-08-09 | Active
+Version 1.1 | 2026-08-09 | Active
 
 ---
 
@@ -19,11 +19,11 @@ Working extraction notes for Phase 3b of the Hopp-slægten reading plan: chapter
 - [x] Daniel Nielsen Hopp's own biography, both marriages, both probate records (1793, 1800)
 - [x] Overview of all 6 children ("a."-"f.")
 - [x] Branch "a." (Niels Danielsen Hopp/Hoppe, hattemager) — full detail, both generations (his 6 children, all modeled)
-- [ ] Branch "b." (Karen Christence, died young) — known from the overview, not yet re-confirmed in its own short detailed section
-- [ ] Branch "c." (Nicolai Danielsen Hopp, = chapter 05) — deferred, own future chapter
+- [x] Branch "b." (Karen Christence, died young) — confirmed, died before 1787, no descendants
+- [x] Branch "c." (Nicolai Danielsen Hopp, = chapter 05) — vitals refined (exact birth date), full biography deferred to chapter 05 (not yet received)
 - [ ] Branch "d." (Frederik Danielsen Hopp) — the largest branch by far (~42% of the whole file), not yet read
-- [ ] Branch "e." (Karen Christence, 2nd of that name) — not yet read
-- [ ] Branch "f." (Peder Riis Danielsen Hopp) — not yet read
+- [x] Branch "e." (Karen Christence, 2nd of that name) — full detail, both generations
+- [x] Branch "f." (Peder Riis Danielsen Hopp) — full detail, both generations
 
 ---
 
@@ -44,12 +44,19 @@ Daniel Nielsen Hopp succeeded his father Niels directly as degn in Vedersø in 1
 
 ---
 
-## What's left in chapter 04
+## Checkpoint 2 — Branches "b.," "e.," "f." (and refining "c.") (2026-08-09)
 
-- **Branch "b."** — likely a one-line confirmation, given she died young per the overview.
-- **Branch "d." Frederik Danielsen Hopp** — by far the largest remaining piece of this chapter (roughly 1,500 of the file's ~3,470 lines). Expect this to need its own checkpoint(s), similar in shape to 01C's Anne Cathrine branch or 01F's branch "d."
-- **Branch "e." Karen Christence Danielsdatter Hopp** (2nd of that name) — moderate length.
-- **Branch "f." Peder Riis Danielsen Hopp** — moderate length (~270 lines), a shoemaker in Lemvig.
+**Branch "b." Karen Christence Danielsdatter Hopp** (`#I734`) — confirmed dead before 1787 (absent from that year's census and her own mother's 1793 probate). Her name was reused for a younger sister (branch "e."). No descendants.
+
+**Branch "c." Nicolai Danielsen Hopp** (`#I373`) — the direct-line continuation to chapter 05 (not yet received). This checkpoint only refined his birth date: the source's own overview table and detailed listing had disagreed (10.5.1779 vs. the master chain's "1780"), and the detailed text turns out to give a third, more specific value — 10.12.1780 — which matches the "1780" in the overview table closely enough to be treated as the reliable one. Full biography awaits chapter 05.
+
+**Branch "e." Karen Christence Danielsdatter Hopp** (2nd of that name, `#I735`) — a harder life than her father's other children. Had an illegitimate daughter in 1808 while in domestic service at a Viborg bookseller's house (the father, a ship's mate, is named only as "styrmand Iversen fra Sjælland" — full name never recovered). Her first marriage, to a master carpenter, ended when he was sentenced to hard-labor imprisonment ("Slaveriet"); her second husband, a master hatter, died four years in. Both her children — the 1808 daughter and one from the second marriage — are the "grandchildren" tier and modeled per the cap.
+
+**Branch "f." Peder Riis Danielsen Hopp** (`#I741`) — a shoemaker who, with his wife, ended life as a pauper in Lemvig's fattighus; she died of gangrene, he four years later. Of his two sons, one (Daniel, `#I743`) became a master shoemaker in Varde and died of what the source directly records as "Delirium Tremens" — his own line turned out to be the best-documented of the entire chapter, a shoemaking family business ("Hopps Skomagasin") traceable across four more generations into the 1980s, capped here per policy since it's well past the two-generation line. The other son (Jacob, `#I745`) became a metalworker and died young, apparently unmarried — his death year is given in the source as "1959," an obvious transcription error for 1859, cross-checked and corrected against his own brother's note giving the same year.
+
+`family-tree/tree.ged`: `#I373` refined; `#I734`-`#I745` new (12 individuals); `#F124` updated with 3 more CHIL; `#F245`-`#F249` new (5 families).
+
+**Only branch "d." Frederik Danielsen Hopp remains** to complete chapter 04 — and it alone is roughly 42% of the whole 59-page file, expected to need its own checkpoint(s).
 
 ---
 
@@ -58,3 +65,4 @@ Daniel Nielsen Hopp succeeded his father Niels directly as degn in Vedersø in 1
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-09 | Initial creation. Checkpoint 1: Daniel Nielsen Hopp's own biography (both marriages, both probate records) plus branch "a." in full (both generations per the cap). 13 individuals, 6 families. Branches "b.," "d.," "e.," "f." remain — "d." expected to be the largest remaining piece. |
+| 1.1 | 2026-08-09 | Checkpoint 2: branches "b.," "e.," "f." read in full (both generations each, per the cap), plus a refined birth date for "c." 12 individuals, 5 families. Only branch "d." (the largest, ~42% of the chapter) remains. |

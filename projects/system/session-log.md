@@ -870,3 +870,35 @@ STATUS: CHECKPOINT
 Completed: Phase 3b Checkpoint 1 — Daniel Nielsen Hopp's own biography plus branch "a." in full.
 Next: Branches "b." (quick), "d." (the big one — likely its own multi-checkpoint effort, similar shape to 01C's Anne Cathrine branch), "e.," and "f." remain to finish chapter 04 and, with it, all currently-received Hopp-slægten material.
 Waiting for: Human's direction on whether to continue now or pace differently given "d."'s expected size.
+
+---
+
+## [Claude] — Turn 33 | 2026-08-09
+
+Same session, continued. Human asked two clarifying questions before continuing: whether extraction captures base facts only or full rich stories with citations (both — structured GEDCOM tags for the base facts, a per-person `NOTE` field with real narrative prose plus a `[VERIFIED: source, section]` citation for the story), and where that content physically lives. Answered with a real, unedited example pulled directly from `tree.ged` (Mogens Knudsen Hopp's counterfeiting-scandal note) rather than describing from memory.
+
+Caught and corrected my own mistake in the process: in the previous turn's answer, I'd paraphrased that same note into an English bracket-summary for brevity when quoting it in chat — which, read back, wrongly implied the actual stored note was in English. Verified directly (grepped a broad sample of the ~900 `NOTE` fields in `tree.ged` for stray English) that this was never true — the data itself has been Danish this entire session. Corrected this clearly rather than letting it stand. Explained the real split: `tree.ged` and `grandfather-review/queue.md` are Danish (data and anything meant for KEJ); `TODO.md`, `session-log.md`, `reference-index.md`, manifests, and extraction-notes files are English (project scaffolding, not family-facing). Human asked what I thought about extending Danish to the extraction-notes files too — gave a real recommendation (keep them English, since they're the same genre as TODO/session-log and switching only one file type would cut an odd seam through that layer) rather than just agreeing by default. Human confirmed: keep the current split.
+
+Then a direct question: did this round extract any media/images? Checked rather than assumed — grepped for `antiword`'s `[pic]` placeholder markers (left wherever it hits an embedded image it can't render as text) across every scratchpad Hopp file, and confirmed no Hopp media folder or manifest exists anywhere in the repo. Found real evidence of unpulled images: 2 markers in file "01," 3 in "02," 1 in "04," plus 01C's already-noted-but-never-touched 6 embedded images (a `.docx`, so a much easier case than the legacy `.doc` files). Named this honestly as a real deviation from a standing project policy — the 2026-08-06 decision, made during Boe-slægten reading, that image extraction should happen alongside text, not as a deferred catch-up pass — rather than downplaying it. Gave the human a genuine choice (catch up now vs. finish text first) instead of just picking one. Human chose to finish text extraction, then return for a dedicated media pass across every Hopp-slægten file at once.
+
+Resumed Phase 3b, chapter 04 — Checkpoint 2: branches "b.," "e.," and "f.," plus a refined birth date for "c." (the direct-line continuation, whose own full biography waits on chapter 05).
+
+- **b.** Karen Christence Danielsdatter Hopp — confirmed dead before 1787, no descendants; her name was reused for a later sister.
+- **c.** Nicolai Danielsen Hopp — resolved a three-way date disagreement (overview table, detailed listing, and a third specific value in the text itself) by taking the value that matched the master chain most closely (10.12.1780), not by guessing.
+- **e.** Karen Christence Danielsdatter Hopp (2nd of that name) — a harder life: an illegitimate daughter in 1808 while in domestic service (the father named only as "styrmand Iversen fra Sjælland," no full name ever recovered), then a first marriage that ended when her husband was sentenced to hard labor, then a second husband who died four years in.
+- **f.** Peder Riis Danielsen Hopp — a shoemaker who died a pauper in Lemvig; his wife died of gangrene in the same fattighus four years earlier. One son died of what the source directly records as "Delirium Tremens," but fathered the best-documented line in the entire chapter — a shoemaking business ("Hopps Skomagasin") traceable across four more generations into the 1980s, capped here since it's well past the two-generation rule. Caught another source typo in passing (a death year given as "1959," corrected to 1859 by cross-referencing the same event mentioned in a sibling's own note) rather than reproducing it uncritically.
+
+**12 individuals, 5 families this checkpoint** (`#I373` refined, `#I734`-`#I745` new, `#F124` updated, `#F245`-`#F249` new). `tree.ged` now 745 individuals, 246 families. **Only branch "d." (Frederik Danielsen Hopp, ~42% of the whole 59-page chapter) remains** to finish chapter 04 and, with it, every currently-received Hopp-slægten text.
+
+**Built/updated:** `hopp-slaegten-04-extraction.md`, `hopp-slaegten-manifest.md`, `reference-index.md`, `intake-manifest.md`, `TODO.md` (added an explicit deferred-media-extraction item for Hopp-slægten).
+
+### Session close
+
+Knowledge candidates: None — no Hopp domain exists yet.
+Open flags: None escalated to `grandfather-review/queue.md` this turn.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Phase 3b Checkpoint 2 — branches "b.," "e.," "f." read in full; "c." refined. Confirmed text-first policy for Hopp media extraction (deferred as its own pass).
+Next: Branch "d." (Frederik Danielsen Hopp) — the last piece of chapter 04, expected to be the largest single branch of the whole chapter, likely its own multi-checkpoint effort. After that: the deferred Hopp-slægten media/image pass, starting with 01C's 6 images (the easy `.docx` case).
+Waiting for: Human's direction on whether to continue into branch "d." now or pace differently.

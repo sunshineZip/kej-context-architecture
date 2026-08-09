@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.22 | 2026-08-09 | Active
+Version 1.23 | 2026-08-09 | Active
 
 ---
 
@@ -64,7 +64,7 @@ Kapitel 1 (three sub-items) sending next; kapitel 2–16 to follow later.
 | 01F Knud Knudsen Hopp død 1762 | januar 2016 / januar 2025 | **Fully read at "our line" depth (2026-08-08)** — all 6 children's branches read ("a." Mogens's counterfeiting scandal, "b.," "c.," "d." — the largest, a Viborg dyer-family saga, "e.," "f."), replacing the earlier stopgap stub. See `projects/archive-digitization/context/hopp-slaegten-01f-extraction.md`. |
 | 02 Daniel Knudsen Hopp o.1681-1730/31 | sept. 2015 | **Fully read (2026-08-09)** — stored at `library/deep-wells/hopp-slaegten/02-daniel-knudsen-hopp-o1681-1830.doc`. Direct-line chapter ("01-a"). Read in full as Phase 3a alongside 03 — see `projects/archive-digitization/context/hopp-slaegten-02-03-extraction.md`. |
 | 03 Niels Danielsen Hopp 1707-1775 | oktober 2015 | **Fully read (2026-08-09)** — stored at `library/deep-wells/hopp-slaegten/03-niels-danielsen-hopp-1709-1775.doc`. Direct-line chapter ("02-a"). Read in full as Phase 3a alongside 02 — see `projects/archive-digitization/context/hopp-slaegten-02-03-extraction.md`. |
-| 04 Daniel Nielsen Hopp o.1732-1800 | oktober 2015 | **In progress (2026-08-09)** — stored at `library/deep-wells/hopp-slaegten/04-daniel-nielsen-hopp-1732-1800.doc`. Direct-line chapter ("03-a"), comparable in scale to 01C/01F. Phase 3b Checkpoint 1 done (own biography + branch "a."); branches "b.," "d.," "e.," "f." remain — see `projects/archive-digitization/context/hopp-slaegten-04-extraction.md`. |
+| 04 Daniel Nielsen Hopp o.1732-1800 | oktober 2015 | **In progress (2026-08-09)** — stored at `library/deep-wells/hopp-slaegten/04-daniel-nielsen-hopp-1732-1800.doc`. Direct-line chapter ("03-a"), comparable in scale to 01C/01F. Phase 3b Checkpoints 1-2 done (own biography + branches "a.," "b.," "e.," "f."); only branch "d." (~42% of the chapter) remains — see `projects/archive-digitization/context/hopp-slaegten-04-extraction.md`. |
 | 05 Nicolai Danielsen Hopp 1780-1837 | august 2022 | Not yet received |
 | 06 Jacob Daniel Nicolaisen (Hopp) 1818-1870 | december 2015 | Not yet received |
 | 07 Lauritz Jacobsen (Saling) 1841-1920 | august 2025 | Not yet received |
@@ -211,3 +211,4 @@ New section (2026-08-08) — three items found in KEJ's master catalog that aren
 | 1.20 | 2026-08-09 | Human pushed all four files (02, 03, 04, plus a stale re-sent 01F) directly to `incoming/` via GitHub. Flyover done on all three new chapters — all content-complete, no gap like file "01" had. Human confirmed storage; stale 01F duplicate discarded (older version than what's already stored). All three now Triaged, reading starting. |
 | 1.21 | 2026-08-09 | Chapters 02 and 03 (§3) fully read — Phase 3a complete. Status updated for both. Chapter 04 remains Triaged, planned as Phase 3b. |
 | 1.22 | 2026-08-09 | Chapter 04 (§3) Phase 3b Checkpoint 1 done — own biography plus branch "a." read. Status updated to "In progress." Branches "b.," "d.," "e.," "f." remain. |
+| 1.23 | 2026-08-09 | Chapter 04 (§3) Phase 3b Checkpoint 2 done — branches "b.," "e.," "f." read. Only branch "d." remains. Human confirmed: complete text extraction first, image/media extraction is its own deferred follow-up task across all Hopp-slægten files. |
