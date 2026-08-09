@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.28 | 2026-08-09 | Production
+Version 1.29 | 2026-08-09 | Production
 
 ---
 
@@ -109,6 +109,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
   - 2026-08-08: Branches "d." (Daniel Knudsen Hopp — a Viborg dyer-family saga plus a colorfully-documented drunk-but-competent schoolteacher) and "e." read, closing 01F (16 individuals, 4 families). **Phase 2 complete — every currently-received Hopp-slægten file (01, 01C, 01F) is now fully read.**
   - 2026-08-09: Chapters 02, 03, 04 stored — **the first direct-line material** received (not a side branch). A stale duplicate of 01F (sent by mistake) discarded. Phase 3 planned and starting — see `hopp-slaegten-manifest.md`.
   - 2026-08-09: Phase 3a — chapters 02 (Daniel Knudsen Hopp) and 03 (Niels Danielsen Hopp) read in full, replacing thin overview-table stubs. 11 individuals touched, 1 new family. Only chapter 04 (Phase 3b) remains. See `projects/archive-digitization/context/hopp-slaegten-02-03-extraction.md`.
+  - 2026-08-09: Phase 3b Checkpoint 1 — chapter 04 (Daniel Nielsen Hopp) started, own biography plus branch "a." (Niels Danielsen Hopp/Hoppe) read in full. 13 individuals, 6 families. Branches "b.," "d.," "e.," "f." remain — "d." expected largest. See `projects/archive-digitization/context/hopp-slaegten-04-extraction.md`.
 
 ---
 
@@ -145,3 +146,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.26 | 2026-08-08 | `hopp-slaegten` Phase 2 complete — branches "d." and "e." read (16 individuals, 4 families). **Every currently-received Hopp-slægten file (01, 01C, 01F) is now fully read** at the "our line" depth standard. |
 | 1.27 | 2026-08-09 | `hopp-slaegten` chapters 02, 03, 04 stored — the first direct-line material received. Stale 01F duplicate discarded. Phase 3 reading starting. |
 | 1.28 | 2026-08-09 | `hopp-slaegten` Phase 3a complete — chapters 02 and 03 read in full (11 individuals, 1 family), replacing thin stubs. Only chapter 04 (Phase 3b) remains. |
+| 1.29 | 2026-08-09 | `hopp-slaegten` Phase 3b started — chapter 04 Checkpoint 1 (Daniel Nielsen Hopp + branch "a.," 13 individuals, 6 families). Branches "b.," "d.," "e.," "f." remain. |

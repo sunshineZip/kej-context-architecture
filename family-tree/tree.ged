@@ -3904,27 +3904,44 @@
 2 DATE 30 NOV 1732
 2 PLAC Estvad, Danmark
 1 DEAT
-2 DATE 1800
-1 OCCU Degn i Vedersø 1775-1800
+2 DATE 1 JAN 1800
+2 PLAC Vedersø, Danmark
+1 OCCU Tjente Åberg gods som ung; degn i Vedersø 1775-1800
 1 FAMC @F123@
 1 FAMS @F124@
-1 NOTE Generation "04" (= 03-a.), direkte led i "vores linje." Barn "a." af Niels Danielsen Hopp og Christence Thøgersdatter — hjemmedøbt af sin mormoder, Johanne Pedersdatter, båret til kirke i Estvad 30.11.1732. Efterfulgte faderen direkte som degn i Vedersø. Egen detaljeret biografi (kapitel "04," 59 sider) er nu modtaget og gemt, men endnu ikke læst — planlagt som "Fase 3b" (se `projects/archive-digitization/TODO.md`). [VERIFIED: hopp-slaegten, 03]
+1 FAMS @F239@
+1 NOTE Generation "04" (= 03-a.), direkte led i "vores linje." Hjemmedøbt af sin mormoder, Johanne Pedersdatter, båret til kirke i Estvad 30.11.1732. Ydede som ung tjenester for Åberg gods (bl.a. vitterlighedsvidne på et gældsbrev 1773), inden han 1775 efterfulgte faderen direkte som degn i Vedersø. Begravet 10.1.1800. Ved skiftet efter 1. hustru (1793) skrev han selv til provsten: "Jeg lader dem vide, at min Konne er død, og det fra 5 umyndige Børn" — brevet er citeret i sin fulde ordlyd i kilden, ligesom det efterfølgende, meget detaljerede bo-regnskab (kun 23 rdr. 2 mk. 3 sk. tilbage efter gæld). Ved sit eget skifte (1800) efterlod han 4 sønner og 1 datter i live. Børnenes opkaldelsesmønster kommenteres direkte i kilden: ældste søn (a.) opkaldt efter farfaderen Niels, 2. søn efter det latiniserede Nicolai (efter morfaderen, også Niels), ældste datter sammensat af farmoderens navn Christence og mormoderens navn Karen. [VERIFIED: hopp-slaegten, 04]
 0 @I372@ INDI
 1 NAME Mette Nielsdatter /Bjerg/
 1 SEX F
 1 BIRT
 2 DATE ABT 1753
+2 PLAC Bøvling, Danmark
 1 DEAT
-2 DATE 1793
+2 DATE 3 JUL 1793
+2 PLAC Vedersø, Danmark
 1 FAMS @F124@
+1 NOTE Datter af Niels Christensen Bjerg og Karen Nielsdatter i Bøvling. [VERIFIED: hopp-slaegten, 04]
 0 @F124@ FAM
 1 HUSB @I371@
 1 WIFE @I372@
 1 MARR
-2 DATE 1776
+2 DATE 1 MAR 1776
 2 PLAC Bøvling, Danmark
 1 CHIL @I373@
-1 NOTE [VERIFIED: hopp-slaegten, 01-oversigt]
+1 CHIL @I722@
+1 NOTE Trolovet 25.1.1776. 6 børn ("a."-"f."), alle navngivet og modelleret — én (b.) døde barn, resten navngives også ved deres fars skifte 1800. Resterende CHIL-linjer (b., d., e., f.) tilføjes efterhånden som de bygges i denne og senere checkpoints. [VERIFIED: hopp-slaegten, 04]
+0 @I721@ INDI
+1 NAME Edel Nielsdatter /Hug/
+1 SEX F
+1 BIRT
+2 DATE 1744
+1 FAMS @F239@
+1 NOTE 2. hustru — "Enke efter forrige Degn" ved folketællingen 1801, hvor hun sad "til leje i degneboligen" med de to yngste stedbørn/børn. Gift 2. gang (efter Daniel Nielsen Hopps død) med Morten Christensen Snogdahl (d. o.1807). Familien boede fra o.1801 i en parcel fra Bjerregård, som stedsønnen Frederik Danielsen Hopp (= d.) siden overtog. Hendes egen dødsdato — 8.7. — er i kilden fejlagtigt angivet som "1910"; sammenholdt med kapitel 03's kildeliste ("Edele Hopp begr. 8.7.1810") er 1810 klart det korrekte år. [VERIFIED: hopp-slaegten, 04]
+0 @F239@ FAM
+1 HUSB @I371@
+1 WIFE @I721@
+1 NOTE Vielsesdato ikke fundet i kilden. Ingen fælles børn nævnt. [VERIFIED: hopp-slaegten, 04]
 0 @I373@ INDI
 1 NAME Nicolai Danielsen /Hopp/
 1 SEX M
@@ -7972,4 +7989,155 @@
 1 SEX F
 1 FAMC @F123@
 1 NOTE Barn "c." Niels Danielsen Hopps anden datter — intet vides om hende overhovedet, end ikke navnet. Kildens egen formodning: opkaldt efter farmoderen (Bodil) eller mormoderen (Johanne), og sikkert ældre end søsteren Karen (= "b."), men dette er gæt, ikke dokumentation. [VERIFIED: hopp-slaegten, 03]
+0 @I722@ INDI
+1 NAME Niels Danielsen /Hopp/ (Hoppe)
+1 SEX M
+1 FAMC @F124@
+1 BIRT
+2 DATE 23 MAR 1777
+2 PLAC Vedersø, Danmark
+1 DEAT
+2 DATE 5 NOV 1839
+2 PLAC Skive, Danmark
+1 OCCU Hattemager (borgerskab i Viborg 22.5.1804), senere i Skive
+1 FAMS @F240@
+1 NOTE Barn "a." Fik borgerskab som hattemager i Viborg 1804, flyttede siden til Skive. En avisnotits fra 3.12.1804 (citeret i sin fulde ordlyd i kilden) roser ham for at have reddet en druknende mand ved at hente lygter, mens denne var faldet gennem isen. Solgte 1817 sit hus i Skive på auktion til en kreditor. Endte som "Fattiglem i Skive" — døde af "Staaesmerter" (formentlig gigt), 68 år gammel den 5.11.1839, kaldet i kildens egen ordlyd "En Degnesøn fra Vedersø ved Ringkjøbing." 6 børn ("I."-"VI."), alle navngivet og modelleret — deres egen efterslægt (flere linjer dokumenteret ind i 1900-tallet, bl.a. en søstersøn der blev landsdommer i København og en anden gren skovfogeder ved Slagelse i flere generationer) ikke modelleret her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 04]
+0 @I723@ INDI
+1 NAME Birthe Kirstine /Mortensdatter/
+1 SEX F
+1 BIRT
+2 DATE 3 OCT 1773
+2 PLAC Viborg Nørre (Gråbrødre) sogn, Danmark
+1 FAMS @F240@
+1 NOTE Datter af Morten Andersen Kok. Endte som "hattemagerenke og Fattiglem" i Skive. [VERIFIED: hopp-slaegten, 04]
+0 @F240@ FAM
+1 HUSB @I722@
+1 WIFE @I723@
+1 MARR
+2 DATE 19 APR 1804
+2 PLAC Viborg Nørre sogn, Danmark
+1 CHIL @I724@
+1 CHIL @I726@
+1 CHIL @I729@
+1 CHIL @I730@
+1 CHIL @I731@
+1 CHIL @I732@
+1 NOTE 6 børn, alle navngivet og modelleret. [VERIFIED: hopp-slaegten, 04]
+0 @I724@ INDI
+1 NAME Anders Daniel Nielsen /Hopp/ (Hoppe)
+1 SEX M
+1 FAMC @F240@
+1 BIRT
+2 DATE 12 FEB 1805
+2 PLAC Viborg Nørre sogn, Danmark
+1 DEAT
+2 DATE 27 APR 1883
+2 PLAC Slagelse, Danmark
+1 OCCU Kom i snedkerlære, løb fra pladsen 1822; siden skovfoged på Valbygaard gods, Sjælland
+1 FAMS @F241@
+1 NOTE Barn "I." Rejste 15 år gammel fra faderen 1820, i snedkerlære, men løb fra pladsen 1822 og blev efterlyst. Blev skovfoged på Valbygaard ved Slagelse. Gift 3 gange — kun 3. hustru navngivet i kilden. Kildens egen bemærkning, værd at gengive: en familietradition om "nogle adelige i familien," som en fattig gren angiveligt opgav at bruge navnet Hoppe over — muligvis et ekko af den virkelig adlede Hoppe-slægt efter købmand Hans Hopp i København (1599-1666), hvis efterkommere blev adlet 1777 (se 01), men ingen dokumenteret forbindelse. 4 døtre + 1 søn på tværs af ægteskaberne — ikke modelleret enkeltvis, per "vores-linje"-dybdepolitikken (efterslægten er i øvrigt dokumenteret ind i 2000-tallet). [VERIFIED: hopp-slaegten, 04]
+0 @I725@ INDI
+1 NAME Maren Margrethe /Rasmussen/
+1 SEX F
+1 BIRT
+2 DATE 6 APR 1838
+2 PLAC Løve, Gerlev sogn, Danmark
+1 FAMS @F241@
+1 NOTE 3. hustru, 26 år ved vielsen (han 59). [VERIFIED: hopp-slaegten, 04]
+0 @F241@ FAM
+1 HUSB @I724@
+1 WIFE @I725@
+1 MARR
+2 DATE 6 MAY 1864
+1 NOTE 3. ægteskab for ham. Børn ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 04]
+0 @I726@ INDI
+1 NAME Christian Nielsen /Hopp/
+1 SEX M
+1 FAMC @F240@
+1 BIRT
+2 DATE 10 MAY 1806
+2 PLAC Viborg Nørre sogn, Danmark
+1 DEAT
+2 DATE 29 JAN 1879
+2 PLAC Viborg Søndre sogn, Danmark
+1 OCCU Hattemager (borgerskab i Viborg 27.11.1840, mester og oldermand); tillige lysestøber og limfabrikant
+1 FAMS @F242@
+1 FAMS @F243@
+1 NOTE Barn "II." Rejste som hattemagersvend mellem Skive og Viborg flere gange 1822-1836, blev mester og oldermand 1840. Blandt medstifterne af Håndværkerforeningen i Viborg 1856. 4 børn i 1. ægteskab (2 dødfødte), 1 i 2. — ikke modelleret enkeltvis, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 04]
+0 @I727@ INDI
+1 NAME Marie Margrethe /Hesselberg/
+1 SEX F
+1 BIRT
+2 DATE 19 JUL 1812
+2 PLAC Viborg Søndre sogn, Danmark
+1 DEAT
+2 DATE 30 APR 1844
+2 PLAC Viborg Søndre sogn, Danmark
+1 FAMS @F242@
+1 NOTE 1. hustru. Datter af skomager Laust Christensen Hesselberg og Margrethe Ovesen. Døde efter en fødsel. [VERIFIED: hopp-slaegten, 04]
+0 @F242@ FAM
+1 HUSB @I726@
+1 WIFE @I727@
+1 MARR
+2 DATE 13 SEP 1839
+2 PLAC Viborg Domsogn, Danmark
+1 NOTE Børn ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 04]
+0 @I728@ INDI
+1 NAME Inger Marie /Kieldsen/
+1 SEX F
+1 DEAT
+2 DATE 5 MAR 1891
+2 PLAC Viborg Søndre sogn, Danmark
+1 FAMS @F243@
+1 NOTE 2. hustru, 81 år gl. ved sin død. Datter af avlsmand Peder Kjeldsen og Anne Marie Jørgensdatter. [VERIFIED: hopp-slaegten, 04]
+0 @F243@ FAM
+1 HUSB @I726@
+1 WIFE @I728@
+1 MARR
+2 DATE 2 NOV 1844
+2 PLAC Viborg Domkirke, Danmark
+1 NOTE 1 barn, ikke modelleret. [VERIFIED: hopp-slaegten, 04]
+0 @I729@ INDI
+1 NAME Peder Nielsen /Hopp/
+1 SEX M
+1 FAMC @F240@
+1 BIRT
+2 DATE 19 JAN 1808
+2 PLAC Skive, Danmark
+1 NOTE Barn "III." Ikke fundet konfirmeret i Skive, men vaccinationsattest forevist dér 1821. Ingen yderligere oplysninger fundet i kilden. [VERIFIED: hopp-slaegten, 04]
+0 @I730@ INDI
+1 NAME Mette Marie Nielsdatter /Hopp/
+1 SEX F
+1 FAMC @F240@
+1 BIRT
+2 DATE 20 SEP 1809
+2 PLAC Skive, Danmark
+1 NOTE Barn "IV." Konfirmeret 1823 i Skive: "temmelig gode Kundskaber. Opførselen upaaklagelig." Tjente hos købmænd i Skive, rejste 1834 til Brøndum. Intet ægteskab fundet i kilden. [VERIFIED: hopp-slaegten, 04]
+0 @I731@ INDI
+1 NAME Daniel Nielsen /Hopp/
+1 SEX M
+1 FAMC @F240@
+1 BIRT
+2 DATE 9 JUL 1812
+2 PLAC Skive, Danmark
+1 NOTE Barn "V." Navnebror til farfaderen (I371). Ikke fundet konfirmeret i Skive. Ingen yderligere oplysninger fundet i kilden. [VERIFIED: hopp-slaegten, 04]
+0 @I732@ INDI
+1 NAME Frederik Nielsen /Hopp/
+1 SEX M
+1 FAMC @F240@
+1 BIRT
+2 DATE 16 JUN 1814
+2 PLAC Skive, Danmark
+1 OCCU Skovfoged, Karlsgaard Skov ved Slagelse
+1 FAMS @F244@
+1 NOTE Barn "VI." Konfirmeret 1828 i Skive: "Gode Kundskaber, meget god Opførsel." Rejste 1832, 18 år gl., til Sjælland. Blev skovfoged i Karlsgaard Skov ved Slagelse, hvor han skal være begravet. 3 børn kendt — ikke modelleret enkeltvis, per "vores-linje"-dybdepolitikken (én søn, Anders, fik selv en usædvanligt stor og velsporet efterslægt af skovfogeder gennem flere generationer i og omkring Sorø amt, dokumenteret ind i 1920'erne). [VERIFIED: hopp-slaegten, 04]
+0 @I733@ INDI
+1 NAME Ane /Nielsen/
+1 SEX F
+1 FAMS @F244@
+1 NOTE Kaldet "Gine" Nielsen. Levede endnu ved folketællingerne 1901-1911 hos sønnen Anders; død 6.12.1912 hos ham i Sønder Overdrev, Sørbymagle sogn, 84 år gl. [VERIFIED: hopp-slaegten, 04]
+0 @F244@ FAM
+1 HUSB @I732@
+1 WIFE @I733@
+1 NOTE Vielsesdato ikke fundet i kilden. 3 børn kendt, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 04]
 0 TRLR

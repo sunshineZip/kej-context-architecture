@@ -843,3 +843,30 @@ STATUS: CHECKPOINT
 Completed: Chapters 02 and 03 stored and fully read (Phase 3a). First direct-line Hopp material, replacing years-old placeholder stubs with real biographies.
 Next: Chapter 04 (Daniel Nielsen Hopp, 59 pages, Phase 3b) — the last currently-received Hopp-slægten material, comparable in scale to 01C/01F, likely its own multi-checkpoint effort.
 Waiting for: Human's direction on whether to continue into Phase 3b now or another time.
+
+---
+
+## [Claude] — Turn 32 | 2026-08-09
+
+Same session, continued. Human: "Let's keep going with the necessary checkpoint" — started Phase 3b, chapter 04 (Daniel Nielsen Hopp, "03-a," the direct-line continuation from chapter 03).
+
+Read Daniel Nielsen Hopp's own biography: succeeded his father directly as degn in Vedersø (1775-1800), administered a neighboring estate's probate as a young man just like his father had. His first wife died in 1793 leaving 5 minor children — his own letter to the provost is quoted directly in the source, plain and a little heartbreaking ("Jeg lader dem vide, at min Konne er død, og det fra 5 umyndige Børn"), followed by a fully-transcribed probate inventory down to individual household items. Caught a genuine date error rather than trusting it blindly: his second wife's death is given in this chapter as "8.7.1910" (impossible — she was born 1744), but chapter 03's own Kilder list, read the previous checkpoint, independently gives "8.7.1810" for the same event — cross-referenced and used the correct year rather than either guessing or reproducing the error.
+
+Read all 6 of his children's overview vitals, then went deep on branch "a." — **Niels Danielsen Hopp (Hoppe)**, a hatter who ended his life as a registered pauper in Skive, "En Degnesøn fra Vedersø," per the source's own phrase, having earlier been credited in an 1804 newspaper item (quoted in full) with saving a drowning man. Per the established two-generation cap rule (children of the file's direct-line subject AND their own children both get full vitals), modeled all 6 of Niels's own children too — one became a Sjælland forester whose family carried an unverified oral tradition of noble ancestry that the source treats with open skepticism; another became a master hatter, guild founder, and glue manufacturer in Viborg; two have almost nothing recorded beyond a birth date; one fathered an unusually well-documented, multi-generation line of foresters near Slagelse that runs cleanly into the 1920s — capped at that point, clearly past the two-generation line and into likely-living territory.
+
+Caught and immediately fixed a self-inflicted numbering slip while building: pre-wrote three `CHIL` references (`I740`, `I746`, `I751`) for children not yet built, before realizing I didn't actually know their real IDs yet — reverted those and added the note explaining the remaining CHIL lines get filled in as each child is actually built, rather than guessing ahead.
+
+**13 individuals, 6 families this checkpoint** (`#I371`-`#I372` enriched, `#I721`-`#I733` new, `#F124` enriched, `#F239`-`#F244` new). `tree.ged` now 733 individuals, 241 families. Branches "b." (brief), "d." (Frederik Danielsen Hopp — roughly 42% of the whole 59-page chapter by itself), "e.," and "f." remain.
+
+**Built/updated:** `hopp-slaegten-04-extraction.md` (new), `hopp-slaegten-manifest.md`, `reference-index.md`, `intake-manifest.md`, `TODO.md`.
+
+### Session close
+
+Knowledge candidates: None — no Hopp domain exists yet.
+Open flags: None escalated to `grandfather-review/queue.md` this turn.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Phase 3b Checkpoint 1 — Daniel Nielsen Hopp's own biography plus branch "a." in full.
+Next: Branches "b." (quick), "d." (the big one — likely its own multi-checkpoint effort, similar shape to 01C's Anne Cathrine branch), "e.," and "f." remain to finish chapter 04 and, with it, all currently-received Hopp-slægten material.
+Waiting for: Human's direction on whether to continue now or pace differently given "d."'s expected size.
