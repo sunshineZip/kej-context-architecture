@@ -985,3 +985,28 @@ STATUS: CHECKPOINT
 Completed: Corrected image34.png's identification (Edith Kristensen Boe and Jens Sinding Thomsen, likely their 1957 wedding reception), found via a direct OOXML relationship trace rather than the earlier text-proximity method.
 Next: Worth a pass over the other "unmatched" restricted images using this same direct-relationship-trace method rather than assuming the earlier `wvHtml`-based proximity read was reliable — it clearly missed at least one real caption.
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 37 | 2026-08-09
+
+Same session, continued. Human: "Exactly right, so let's run that method on all the other unmatched/restricted images and update/move files accordingly." Ran the direct OOXML relationship trace (each image's `r:embed="rIdN"` in `word/document.xml`, via `word/_rels/document.xml.rels`) across all 21 remaining restricted Boe-slægten images.
+
+**Found 3 more genuine caption matches**, the same evidentiary strength as `image34.png` — a short, natural-language caption line sitting immediately adjacent in the document flow, not just topical proximity: `image10.jpeg` ("Toustrupvej 8 i Durup (Det hvide hus)" — Laurids and Ottine's house, no people), `image11.jpeg` ("Ottine og Laurids Boe med børnene Ernst, Else og Metha" — a direct family-portrait caption), `image15.jpeg` (the same "Tv. Frederik Lund, Brunshåb Teglværk"/"Else og Frederik" caption pair already confirmed for `image14.jpg`, appearing here a second time against a clean embedded copy). All three moved from `restricted/media/` to the public `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/` — every individual involved was already established safe (deceased or long past any plausible living age), so this is a real reduction in what's held restricted, not just a relabeling.
+
+**For the other 18, ran a self-check before trusting the method further.** A recurring pattern kept turning up — the image sits in the XML immediately before a new person's own "Name / Født date" heading — which looked like it might be equally strong evidence. Tested this against two images *already* confirmed via genuine captions (`image24.jpeg`, `image31.jpeg`) by measuring how far their real captions actually sit from the image tag: 2,750 characters and ~89,000 characters respectively. Both are far outside any reasonable "adjacent text" window, because these are floating (`wp:anchor`) images whose visual position on the page doesn't necessarily track their declaration order in the XML stream. That result meant the "next person's biography starts right here" pattern could not be trusted as confirming evidence, however tempting — so none of the 18 were promoted to public on that basis alone, holding the line on the project's own default-private-until-analysed rule rather than loosening it because a method worked once.
+
+Where the trace turned up a specific, better-fitting candidate anyway (via family relationships and dates matched against `tree.ged`, not proximity), revised the entry to record it — 13 entries updated. Notable finds: `image20.jpeg`'s candidate, Knud Preben Handberg Boe, is confirmed deceased (d.2016) but the image stays restricted on principle since identity itself isn't caption-confirmed; `image21.jpeg` got a materially better-fitting revised hypothesis within the same immediate family (Knud Preben holding baby sister Annie, both siblings of the family already established in this checkpoint) rather than the original cross-branch guess, though Annie's own plausibly-living status keeps it restricted either way; `image29.jpeg`'s "family suggests Laurids" guess got displaced by a stronger candidate, Christian Christensen Boe (b.1924, occupation and 1966-marriage detail both matching the surrounding text), who at 102 in 2026 is close to but not past the ~105+ age this project has otherwise used to drop `[SENSITIVE]` on its own.
+
+**Built/updated:** `restricted/media-manifest.md` (13 revised entries, 3 removed/pointed to public, calibration note added), `library/deep-wells/boe-slaegten-fra-mors-og-fur-2024-media/manifest.md` (new "Re-identified via Direct Caption Trace" section), `reference-index.md`.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None escalated to `grandfather-review/queue.md` this turn — the revised hypotheses are recorded in the media manifests themselves; none crossed the bar for a KEJ-facing queue item on their own.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Direct-caption-trace re-check of all 21 remaining restricted Boe-slægten images. 3 moved to public (image10, image11, image15). 13 entries revised with stronger candidates, none promoted without a genuine caption match. Method's real limits calibrated and documented rather than over-applied.
+Next: No specific next step queued — this was a targeted follow-up to the image34.png catch, not part of a larger open task.
+Waiting for: Human's direction on what to work on next.

@@ -1,6 +1,6 @@
 # Boe-slægten fra Mors og Fur — Media Manifest
 
-Version 1.13 | 2026-08-08 | Production
+Version 1.14 | 2026-08-09 | Production
 
 ---
 
@@ -53,7 +53,7 @@ Scanned certificate opening "Vi Christian den Niende, af Guds Naade Konge til Da
 
 ## Images: Efterslægt Branches b and e — Moved to Restricted
 
-`image8.jpeg`, `image9.jpeg` (branch b), `image7.jpeg`, `image10.jpeg`, `image11.jpeg` (branch e) — none confirmed, all moved to `restricted/media/` under the default-private-until-analysed rule. See `restricted/media-manifest.md`.
+`image8.jpeg`, `image9.jpeg` (branch b), `image7.jpeg` (branch e) — none confirmed, all moved to `restricted/media/` under the default-private-until-analysed rule. See `restricted/media-manifest.md`. **`image10.jpeg` and `image11.jpeg` were reassigned here in 2026-08-06 as branch-e candidates but turned out, on the 2026-08-09 direct-caption re-check, to belong to Laurids and Ottine's own household instead — moved to the "Re-identified via Direct Caption Trace" section below.**
 
 ---
 
@@ -64,7 +64,7 @@ Scanned certificate opening "Vi Christian den Niende, af Guds Naade Konge til Da
 | image14.jpg | (Word auto-alt-text, no KEJ filename) | Branch g child "I" (confirmed) | Photo of a photographed manuscript page — two period photos plus a caption |
 | image16.jpeg | Boe B14_NEW.jpg | Branch g child "I" (confirmed) | Photo, house/garage with truck |
 
-**Moved to `restricted/media/` (unconfirmed):** `image15.jpeg`, `image17.jpeg` — see `restricted/media-manifest.md`.
+**Moved to `restricted/media/` (unconfirmed):** `image17.jpeg` — see `restricted/media-manifest.md`. **`image15.jpeg` was reassigned here in 2026-08-06 as a branch g checkpoint 1 candidate but turned out, on the 2026-08-09 direct-caption re-check, to carry the same "Tv. Frederik Lund, Brunshåb Teglværk" caption pair as `image14.jpg` — moved to the "Re-identified via Direct Caption Trace" section below.**
 
 ### image14.jpg — Confirmed: manuscript page 33, Frederik Lund at Brunshåb Teglværk
 
@@ -73,6 +73,30 @@ Unlike the other images, this one is a photograph *of a printed manuscript page*
 ### image16.jpeg — Confirmed: Else Margrethe and Frederik Lund's house
 
 A house with an attached garage, a truck visible through the open garage door. **Direct match** to the caption "Hus og garage med lastbil" ("House and garage with truck") found in the same passage as `image14.jpg`'s captions — Frederik Lund worked as a vognmand (haulier) after his brickworks years, explaining the truck. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — caption match] Individuals: `@I107@`, `@I108@` (their property, though neither appears in the photo itself). Neither is `[SENSITIVE]`.
+
+---
+
+## Images: Re-identified via Direct Caption Trace (2026-08-09)
+
+**Background:** the human asked whether `image34.png` (restricted) had a caption the original `wvHtml`/text-proximity extraction pass had missed — it did (see `restricted/media-manifest.md`'s v1.1 entry). That prompted re-running the same method — tracing each image's actual OOXML relationship (`r:embed="rIdN"` in `word/document.xml`, via `word/_rels/document.xml.rels`) to its exact position in the source `.docx`, rather than relying on `wvHtml`'s reading-order approximation — across all remaining restricted images. Three more had a genuine, short, standalone caption line sitting immediately adjacent in the document flow, the same pattern that resolved `image34.png`. **A calibration check** (comparing where two already-confirmed images' real captions actually sit) showed this method has real limits: `image24.jpeg`'s caption sits ~2,750 characters after its image tag, and `image31.jpeg`'s ~89,000 characters after — both far outside any reasonable "adjacent text" window, because these are floating (`wp:anchor`) images whose visual position doesn't necessarily track their XML declaration order. So proximity alone is not reliable for this document; the three added below are ones where a natural-language caption sentence sits directly next to the image, the same evidentiary strength as `image14.jpg`/`image34.png`, not mere adjacency to unrelated surrounding text. Several other restricted images sit near a new person's own biographical heading, which looked promising at first pass — but per this calibration, that pattern isn't trustworthy enough on its own, so those were left as they were rather than reclassified. See `restricted/media-manifest.md`'s version 1.2 entry for the full account of what was and wasn't found.
+
+| File | KEJ's filename | Position | Type |
+|---|---|---|---|
+| image10.jpeg | Boe A37_NEW.jpg | Laurids and Ottine's household | Photo, house |
+| image11.jpeg | Boe A36_NEW.jpg | Laurids and Ottine's household | Photo, family portrait |
+| image15.jpeg | Boe A42_NEW.jpg | Branch g child "I" (Else Margrethe/Frederik Lund) | Photo, couple |
+
+### image10.jpeg — Confirmed: Toustrupvej 8, Durup ("Det hvide hus")
+
+A streetscape/house photo. The paragraph immediately following the image's embed tag reads "Toustrupvej 8 i Durup (Det hvide hus)" ("Toustrupvej 8 in Durup (the white house)") — sitting right after a multi-census description of Laurids Christensen Boe's household at that address. No people depicted. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — direct caption match immediately following the image] No individual depicted; associated with `@I37@` (Laurids Christensen Boe) and `@I38@` (Ottine Boline Marie Pedersen)'s household as the family home.
+
+### image11.jpeg — Confirmed: "Ottine og Laurids Boe med børnene Ernst, Else og Metha"
+
+A family portrait. The paragraph immediately following the image's embed tag reads "Ottine og Laurids Boe\nmed børnene Ernst, Else og Metha" ("Ottine and Laurids Boe with the children Ernst, Else and Metha") — a direct, unambiguous caption. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — direct caption match immediately following the image] Individuals: `@I37@` (Laurids Christensen Boe, d.1957), `@I38@` (Ottine Boline Marie Pedersen, b.1887, no death date on record but long past any plausible living age), `@I128@` (Ernst Kristian Jørgen Kristensen Boe, b.1915), `@I107@` (Else Margrethe, b.1911), `@I163@` (Meta/"Metha" Kristine Kristensen Boe, d.1982). None `[SENSITIVE]`.
+
+### image15.jpeg — Confirmed: Else Margrethe and Frederik Lund, second copy of the Brunshåb Teglværk caption pair
+
+The paragraph immediately before the image's embed tag reads "Tv. Frederik Lund, Brunshåb Teglværk" ("Left: Frederik Lund, Brunshåb brickworks") and immediately after reads "Else og Frederik" — the same caption pair already confirmed for `image14.jpg`'s partially-legible photographed-page caption, appearing here a second time as a clean, direct match against a normal embedded image rather than a photographed page. [VERIFIED: boe-slaegten-fra-mors-og-fur, p.25-54 — direct caption match, both immediately before and after the image] Individuals: `@I107@` (Else Margrethe), `@I108@` (Frederik Lund). Neither `[SENSITIVE]`.
 
 ---
 
@@ -201,3 +225,4 @@ As of 2026-08-08, this manifest only lists images confirmed to depict no presume
 | 1.11 | 2026-08-06 | Revised `image21.jpeg`'s entry after direct visual inspection (prompted by the human questioning the original age-gap reasoning): moved out of the "unmatched" batch table into its own write-up. Original guess (Hanne + Carlo) ruled out on both age gap and visual era (photo reads as early-1930s). New hypothesis, human-prompted: one of Meta's older brothers (Hans Kristian or Karl Alfred Christensen Boe) holding baby sister Edith Kristensen Boe (b. Aug 1930), based on birth-year fit. Still unconfirmed — queued in `grandfather-review/queue.md` item 11 for KEJ. |
 | 1.12 | 2026-08-06 | Revised `image29.jpeg` and `image30.jpeg`'s entries, moved out of the "unmatched" batch table into their own write-ups. Corrected an overconfident dating claim on both (the "1960s"/"1940s" style labels were unverified guesses, not documented facts — the human rightly pushed back on the image29 one). Recorded two family-suggested name candidates: "Laurids" for image29 (checked against all Laurids/Laurits individuals in `tree.ged`, no good fit found) and "Gyda" for image30 (a genuine name match, Anna Gyda Boll, but no marriage date exists anywhere in the source to verify against). Both queued in `grandfather-review/queue.md` items 14-15. |
 | 1.13 | 2026-08-08 | **Major split:** 26 of 47 images (any confirmed/plausible living individual, plus everything not yet fully identified) moved to `restricted/media/` — a private companion repo — per the human's rule that even one living person present, or any unanalysed image, defaults to restricted. Full analysis preserved in the new `restricted/media-manifest.md`, not lost. This manifest now only lists the 21 images confirmed safe to be fully public. Retired per-image `[SENSITIVE]` flagging in favor of the actual access boundary. |
+| 1.14 | 2026-08-09 | Human prompted a re-check of `image34.png` (restricted) for a missed caption; found one via direct OOXML relationship tracing rather than the earlier proximity method. Re-ran the same method across all remaining restricted images: found genuine additional caption matches for `image10.jpeg` (a house, "Toustrupvej 8 i Durup"), `image11.jpeg` ("Ottine og Laurids Boe med børnene Ernst, Else og Metha"), and `image15.jpeg` (the same "Tv. Frederik Lund..."/"Else og Frederik" pair already confirmed for `image14.jpg`) — all three moved here from `restricted/media/`. A calibration check against two already-confirmed images showed real captions for floating (`wp:anchor`) images can sit tens of thousands of characters away from the image tag, so a promising-looking "next person's biography starts right after this image" pattern seen on several other restricted images was deliberately NOT treated as confirming evidence — see the new "Re-identified via Direct Caption Trace" section for the full reasoning. Public image count: 21 → 24. |
