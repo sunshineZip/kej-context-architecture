@@ -1,6 +1,6 @@
 # Hopp-slægten 04 (Daniel Nielsen Hopp) — Extraction Notes
 
-Version 1.1 | 2026-08-09 | Active
+Version 1.2 | 2026-08-09 | Active
 
 ---
 
@@ -21,7 +21,7 @@ Working extraction notes for Phase 3b of the Hopp-slægten reading plan: chapter
 - [x] Branch "a." (Niels Danielsen Hopp/Hoppe, hattemager) — full detail, both generations (his 6 children, all modeled)
 - [x] Branch "b." (Karen Christence, died young) — confirmed, died before 1787, no descendants
 - [x] Branch "c." (Nicolai Danielsen Hopp, = chapter 05) — vitals refined (exact birth date), full biography deferred to chapter 05 (not yet received)
-- [ ] Branch "d." (Frederik Danielsen Hopp) — the largest branch by far (~42% of the whole file), not yet read
+- [x] Branch "d." (Frederik Danielsen Hopp) — full detail, both generations
 - [x] Branch "e." (Karen Christence, 2nd of that name) — full detail, both generations
 - [x] Branch "f." (Peder Riis Danielsen Hopp) — full detail, both generations
 
@@ -56,7 +56,24 @@ Daniel Nielsen Hopp succeeded his father Niels directly as degn in Vedersø in 1
 
 `family-tree/tree.ged`: `#I373` refined; `#I734`-`#I745` new (12 individuals); `#F124` updated with 3 more CHIL; `#F245`-`#F249` new (5 families).
 
-**Only branch "d." Frederik Danielsen Hopp remains** to complete chapter 04 — and it alone is roughly 42% of the whole 59-page file, expected to need its own checkpoint(s).
+---
+
+## Checkpoint 3 — Branch "d." Frederik Danielsen Hopp, completing chapter 04 (2026-08-09)
+
+The largest branch of the chapter, by a wide margin — roughly 1,467 of the file's ~3,470 lines. Frederik Danielsen Hopp (`#I746`) inherited the family's husmandssted in Bjerregård after his stepmother Edel's 1810 death, and moved between several holdings within Vedersø sogn over his life before ending his days on aftægt (a retirement arrangement) with one of his own children, dying at 85½.
+
+**All 5 of his own children modeled with full vitals, per the two-generation cap:**
+
+- **I. Daniel Frederiksen** — died as a small child (1809-1811).
+- **II. and III. — both named "Anders Frederichsen Hop."** A genuine, striking case worth stating plainly rather than smoothing over: two full brothers, born 1812 and 1814, carrying the identical given name and patronym, apparently both alive into old age simultaneously (II. died 1885; III.'s own death isn't given directly in what was read, though his wife's death in 1901 implies he lived at least that long). This isn't a transcription artifact suspected elsewhere in this project — the source treats them as two distinct, fully separate people throughout, with different marriages, different lives (II. moved away to Hunderup sogn near Ribe and became a smith, then a husmand/høker; III. stayed near Vedersø as a husmand and daylaborer, briefly worked in Slesvig/Holsten right after his wedding). Both are modeled as separate individuals accordingly.
+- **IV. Daniel Kristian Frederiksen** — married the same day as his brother III. (a double wedding, 22 May 1842 in Vedersø). Became a master mason in Stadil sogn, died young (35) of what the source calls "hjernebetændelse" (brain inflammation/meningitis). Cross-references a mix-up already flagged when chapter 03 was read: an external secondary source (Hardsyssel Degnehistorie) mistakenly lists him as a *son* of Daniel Nielsen Hopp (`#I371`) rather than a grandson — now resolved on both records.
+- **V. Mette Katrine Frederiksdatter** — married into the Bjerregård parcel her own father worked, taking over the holding and supporting him in retirement.
+
+All 5 children's own descendants are capped per policy — one line in particular (through III.) is unusually well-documented, formally adopted the surname "Halkjær" via a 1905 navnebevis (name-grant), and is traceable in the source into the 1950s; clearly well past the two-generation line and into likely-living territory, so deliberately not pursued further here.
+
+`family-tree/tree.ged`: `#I746`-`#I757` new (12 individuals); `#F124` given its final CHIL entry; `#F250`-`#F255` new (6 families).
+
+**With this checkpoint, chapter 04 is fully read — Phase 3b is complete, and every currently-received Hopp-slægten text (01, 01C, 01F, 02, 03, 04) has now been read cover to cover.** Only chapter 05 (Nicolai Danielsen Hopp, the next direct-line link) and further chapters (06-16+) remain, none yet received. The one deliberately deferred task across all of Hopp-slægten is image/media extraction — see `library/deep-wells/hopp-slaegten-manifest.md` and `projects/archive-digitization/TODO.md`.
 
 ---
 
@@ -66,3 +83,4 @@ Daniel Nielsen Hopp succeeded his father Niels directly as degn in Vedersø in 1
 |---|---|---|
 | 1.0 | 2026-08-09 | Initial creation. Checkpoint 1: Daniel Nielsen Hopp's own biography (both marriages, both probate records) plus branch "a." in full (both generations per the cap). 13 individuals, 6 families. Branches "b.," "d.," "e.," "f." remain — "d." expected to be the largest remaining piece. |
 | 1.1 | 2026-08-09 | Checkpoint 2: branches "b.," "e.," "f." read in full (both generations each, per the cap), plus a refined birth date for "c." 12 individuals, 5 families. Only branch "d." (the largest, ~42% of the chapter) remains. |
+| 1.2 | 2026-08-09 | Checkpoint 3: branch "d." read in full, including a genuine same-name-siblings case (two brothers both named "Anders Frederichsen Hop," not a transcription error). 12 individuals, 6 families. **Chapter 04 fully read — Phase 3b complete. Every currently-received Hopp-slægten text is now read.** |

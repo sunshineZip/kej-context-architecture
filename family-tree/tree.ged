@@ -3933,7 +3933,8 @@
 1 CHIL @I734@
 1 CHIL @I735@
 1 CHIL @I741@
-1 NOTE Trolovet 25.1.1776. 6 børn ("a."-"f."), alle navngivet og modelleret — én (b.) døde barn, resten navngives også ved deres fars skifte 1800. Branch "d." (Frederik Danielsen Hopp) endnu ikke bygget — CHIL-linje tilføjes i næste checkpoint. [VERIFIED: hopp-slaegten, 04]
+1 CHIL @I746@
+1 NOTE Trolovet 25.1.1776. 6 børn ("a."-"f."), alle navngivet og modelleret — én (b.) døde barn, resten navngives også ved deres fars skifte 1800. [VERIFIED: hopp-slaegten, 04]
 0 @I721@ INDI
 1 NAME Edel Nielsdatter /Hug/
 1 SEX F
@@ -8292,4 +8293,174 @@
 2 PLAC Lemvig, Danmark
 1 OCCU Gjørtlersvend (kobbersmed)
 1 NOTE Barn "II." Konfirmeret 1836 i Lemvig. I gjørtlerlære i Holstebro fra 1836. Kildens egen dødsårsangivelse her ("1959") er tydeligvis en trykfejl — sammenholdt med broderen Daniels egen note ("Han døde 1859 som gjørtlersvend i Lemvig") er 1859 lagt til grund. Ingen ægteskab fundet. [VERIFIED: hopp-slaegten, 04]
+0 @I746@ INDI
+1 NAME Frederik Danielsen /Hopp/
+1 SEX M
+1 FAMC @F124@
+1 BIRT
+2 DATE 1783
+2 PLAC Vedersø, Danmark
+1 DEAT
+2 DATE 17 JAN 1869
+2 PLAC Bjerregård, Vedersø sogn, Danmark
+1 OCCU Husmand, flere steder i Vedersø sogn (Aabergsmark, Kirkeby, Bjerregård Østervang)
+1 FAMS @F250@
+1 NOTE Barn "d." Overtog tilsyneladende husmandsstedet i Bjerregård efter stedmoderen Edels død 1810. Boede siden flere steder i Vedersø sogn — Aabergsmark (1816), Kirkeby (1834), til sidst gårdmand i Bjerregård Østervang (1842-46), som han 1846 overdrog til datteren Mette Kathrine (= V.) og svigersønnen Jeppe Olesen. Levede selv på aftægt hos dem fra 1855 til sin død, 85½ år gammel. 5 børn ("I."-"V."), alle navngivet og modelleret med egne vitalia — deres egen efterslægt (flere linjer dokumenteret ind i 1950'erne, bl.a. en gren med navnebevis "Halkjær") ikke modelleret her, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 04]
+0 @I747@ INDI
+1 NAME Maren /Andersdatter/
+1 SEX F
+1 BIRT
+2 DATE 1781
+2 PLAC Tarp, Vedersø sogn, Danmark
+1 DEAT
+2 DATE 9 FEB 1864
+1 FAMS @F250@
+1 NOTE [VERIFIED: hopp-slaegten, 04]
+0 @F250@ FAM
+1 HUSB @I746@
+1 WIFE @I747@
+1 MARR
+2 DATE 1809
+2 PLAC Danmark
+1 CHIL @I748@
+1 CHIL @I749@
+1 CHIL @I752@
+1 CHIL @I754@
+1 CHIL @I756@
+1 NOTE 5 børn, alle navngivet og modelleret. [VERIFIED: hopp-slaegten, 04]
+0 @I748@ INDI
+1 NAME Daniel /Frederiksen (Hop)/
+1 SEX M
+1 FAMC @F250@
+1 BIRT
+2 DATE 1809
+1 DEAT
+2 DATE 1811
+1 NOTE Barn "I." Død som lille. [VERIFIED: hopp-slaegten, 04]
+0 @I749@ INDI
+1 NAME Anders Frederichsen /Hop/
+1 SEX M
+1 FAMC @F250@
+1 BIRT
+2 DATE 15 NOV 1812
+2 PLAC Vedersø, Danmark
+1 DEAT
+2 DATE 15 APR 1885
+2 PLAC Sønderho, Bramminge sogn, Danmark
+1 OCCU Smed (1838, 1845); husmand og høker i Hunderup sogn (fra 1866)
+1 FAMS @F251@
+1 FAMS @F252@
+1 NOTE Barn "II." Samme navn som broderen III. — begge levede tilsyneladende samtidig med identisk navn og patronym, en reel navnesammenfald i kilden selv, ikke en fejl her. Flyttede maj 1837 til Hunderup sogn (Gørding herred, Ribe amt). Gift 1. gang 27.10.1838 med Malene Jacobsdatter (d. 22.9.1866), gift 2. gang 12.11.1874 med enken Else Kirstine Kristensdatter. 1 datter kendt (af 1. ægteskab) — ikke modelleret, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 04]
+0 @I750@ INDI
+1 NAME Malene /Jacobsdatter/
+1 SEX F
+1 DEAT
+2 DATE 22 SEP 1866
+2 PLAC Hunderup, Danmark
+1 FAMS @F251@
+1 NOTE 1. hustru, af Hunderup. [VERIFIED: hopp-slaegten, 04]
+0 @F251@ FAM
+1 HUSB @I749@
+1 WIFE @I750@
+1 MARR
+2 DATE 27 OCT 1838
+2 PLAC Hunderup, Danmark
+1 NOTE 1 datter (født uden for ægteskab), ikke modelleret. [VERIFIED: hopp-slaegten, 04]
+0 @I751@ INDI
+1 NAME Else Kirstine /Kristensdatter/
+1 SEX F
+1 BIRT
+2 PLAC Bramminge, Danmark
+1 FAMS @F252@
+1 NOTE 2. hustru, 55 år ved vielsen. Enke efter Peder Mikkelsen af Sønderho. [VERIFIED: hopp-slaegten, 04]
+0 @F252@ FAM
+1 HUSB @I749@
+1 WIFE @I751@
+1 MARR
+2 DATE 12 NOV 1874
+2 PLAC Hunderup, Danmark
+1 NOTE [VERIFIED: hopp-slaegten, 04]
+0 @I752@ INDI
+1 NAME Anders Frederichsen /Hop/
+1 SEX M
+1 FAMC @F250@
+1 BIRT
+2 DATE 2 APR 1814
+2 PLAC Vedersø, Danmark
+1 OCCU Husmand og daglejer i Tarp, Vedersø sogn
+1 FAMS @F253@
+1 NOTE Barn "III." Samme navn som broderen II. — se note dér. Gift 22.5.1842 i Vedersø ved et dobbeltbryllup samme dag som broderen IV. Rejste kort efter brylluppet som tjenestekarl til Slesvig/Holsten, men var tilbage i Vedersø samme år. Død 24.1.1902, hustruen 19.1.1901. 5 børn kendt — ikke modelleret, per "vores-linje"-dybdepolitikken (én linje er usædvanligt velsporet, med navnebevis "Halkjær" 1905, dokumenteret ind i 1950'erne). [VERIFIED: hopp-slaegten, 04]
+0 @I753@ INDI
+1 NAME Kirsten /Jensdatter/
+1 SEX F
+1 BIRT
+2 DATE 1817
+2 PLAC Gimsing sogn, Danmark
+1 FAMS @F253@
+1 NOTE Fra Fabjerg. [VERIFIED: hopp-slaegten, 04]
+0 @F253@ FAM
+1 HUSB @I752@
+1 WIFE @I753@
+1 MARR
+2 DATE 22 MAY 1842
+2 PLAC Vedersø, Danmark
+1 NOTE 5 børn, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 04]
+0 @I754@ INDI
+1 NAME Daniel Kristian /Frederiksen/
+1 SEX M
+1 FAMC @F250@
+1 BIRT
+2 DATE 3 APR 1816
+2 PLAC Vedersø, Danmark
+1 DEAT
+2 DATE 20 MAR 1851
+2 PLAC Meilby, Stadil sogn, Danmark
+1 OCCU Murermester i Meilby, Stadil sogn
+1 FAMS @F254@
+1 NOTE Barn "IV." En ekstern sekundærkilde (Viborg amts degne- og skolehistorie) forveksler ham fejlagtigt med sin egen farfar Daniel Nielsen Hopp (= 04) — samme forveksling allerede noteret på I371. Gift 22.5.1842 i Vedersø ved samme dobbeltbryllup som broderen III. Død 35 år gl. af "hjernebetændelse." 2 børn — ikke modelleret, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 04]
+0 @I755@ INDI
+1 NAME Maren /Pedersdatter/
+1 SEX F
+1 BIRT
+2 PLAC Tarp, Vedersø sogn, Danmark
+1 DEAT
+2 DATE 27 FEB 1892
+2 PLAC Stadil sogn, Danmark
+1 FAMS @F254@
+1 NOTE [VERIFIED: hopp-slaegten, 04]
+0 @F254@ FAM
+1 HUSB @I754@
+1 WIFE @I755@
+1 MARR
+2 DATE 22 MAY 1842
+2 PLAC Vedersø, Danmark
+1 NOTE 2 børn, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 04]
+0 @I756@ INDI
+1 NAME Mette Katrine /Frederiksdatter/
+1 SEX F
+1 FAMC @F250@
+1 BIRT
+2 DATE 28 FEB 1819
+2 PLAC Kirkeby, Vedersø sogn, Danmark
+1 DEAT
+2 DATE 6 MAR 1867
+1 FAMS @F255@
+1 NOTE Barn "V." Overtog med manden faderens parcel i Bjerregård Østervang 1846; forældrene kom på aftægt hos dem. 6 børn — ikke modelleret, per "vores-linje"-dybdepolitikken. [VERIFIED: hopp-slaegten, 04]
+0 @I757@ INDI
+1 NAME Jeppe /Olesen/
+1 SEX M
+1 BIRT
+2 DATE 1815
+2 PLAC Opstrup, Stadil sogn, Danmark
+1 DEAT
+2 DATE 1881
+1 FAMS @F255@
+1 NOTE [VERIFIED: hopp-slaegten, 04]
+0 @F255@ FAM
+1 HUSB @I757@
+1 WIFE @I756@
+1 MARR
+2 DATE 1 NOV 1846
+2 PLAC Vedersø, Danmark
+1 NOTE 6 børn, ikke modelleret enkeltvis. [VERIFIED: hopp-slaegten, 04]
 0 TRLR

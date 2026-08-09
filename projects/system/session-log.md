@@ -902,3 +902,34 @@ STATUS: CHECKPOINT
 Completed: Phase 3b Checkpoint 2 — branches "b.," "e.," "f." read in full; "c." refined. Confirmed text-first policy for Hopp media extraction (deferred as its own pass).
 Next: Branch "d." (Frederik Danielsen Hopp) — the last piece of chapter 04, expected to be the largest single branch of the whole chapter, likely its own multi-checkpoint effort. After that: the deferred Hopp-slægten media/image pass, starting with 01C's 6 images (the easy `.docx` case).
 Waiting for: Human's direction on whether to continue into branch "d." now or pace differently.
+
+---
+
+## [Claude] — Turn 34 | 2026-08-09
+
+Same session, continued. Human: "Yes please" — continued straight into branch "d.," the last piece of chapter 04.
+
+**Frederik Danielsen Hopp** (`#I746`) inherited the family's husmandssted in Bjerregård after his stepmother's 1810 death, moved between several holdings within Vedersø sogn, and ended his life on aftægt with one of his own children at 85½. Modeled all 5 of his own children with full vitals, per the established two-generation cap.
+
+The most interesting find of the checkpoint: **children "II." and "III." are two full brothers who share the exact same name — both "Anders Frederichsen Hop," born 1812 and 1814.** Worth being direct about how this was handled: this wasn't treated as a probable transcription artifact the way similar-looking anomalies have been elsewhere in this project (per `family-tree/possible-duplicates.md`'s own reassessment triggers) — the source itself carries them as two clearly distinct, fully separate people throughout, with different marriages, different lives, different locations (II. moved away to Hunderup sogn near Ribe and became a smith; III. stayed near Vedersø as a daylaborer). Modeled both as separate individuals, with a note on each pointing to the other rather than silently picking one as "the real one."
+
+Branch IV. (Daniel Kristian Frederiksen) closed a loop flagged back when chapter 03 was first read: an external secondary source had mistakenly listed him as a *son* of Daniel Nielsen Hopp rather than a grandson — now cross-referenced and resolved on both records. He and his brother III. had a double wedding on the same day (22 May 1842, Vedersø) — a small, specific detail worth keeping rather than trimming.
+
+All 5 children's own descendants capped per policy — one line (through III.) is unusually well-documented, formally took the surname "Halkjær" via a 1905 navnebevis, and is traceable in the source into the 1950s, clearly well past the two-generation line.
+
+**12 individuals, 6 families this checkpoint** (`#I746`-`#I757` new, `#F124` given its final CHIL entry, `#F250`-`#F255` new). `tree.ged` now 757 individuals, 252 families.
+
+**This completes chapter 04 — Phase 3b is done, and with it, every currently-received Hopp-slægten text (01, 01C, 01F, 02, 03, 04) has now been read cover to cover.** Only chapter 05 (Nicolai Danielsen Hopp, the next direct-line link) and further chapters remain, none yet received from KEJ. The one deliberately deferred piece of work on everything currently in hand is the Hopp-slægten image/media pass, confirmed as its own follow-up task last turn.
+
+**Built/updated:** `hopp-slaegten-04-extraction.md`, `hopp-slaegten-manifest.md`, `reference-index.md`, `intake-manifest.md`, `TODO.md` (moved the whole Phase 3 item from Open to Done).
+
+### Session close
+
+Knowledge candidates: None — no Hopp domain exists yet (Phase 3 of the overall project, domain buildout, hasn't started — not to be confused with this Hopp-slægten "Phase 3" naming, which is this material's own internal phasing).
+Open flags: None escalated to `grandfather-review/queue.md` this turn.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Chapter 04 fully read (Phase 3b complete). Every currently-received Hopp-slægten text is now fully read.
+Next: No unread Hopp-slægten text remains. Open work: the deferred image/media extraction pass (01C's 6 images first, the easy `.docx` case; then whatever can be recovered from the legacy `.doc` files' `[pic]` markers), and waiting on KEJ for chapter 05 onward.
+Waiting for: Human's direction on what to work on next — likely the media pass, per the plan confirmed two turns ago.
