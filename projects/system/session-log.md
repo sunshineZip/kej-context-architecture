@@ -1054,3 +1054,24 @@ STATUS: FLAG RAISED
 Completed: Investigated whether Turns 35-37's extraction/caption-tracing methods are captured anywhere reusable — confirmed they are not, and drafted a `[FLAG FOR KNOWLEDGE UPDATE]` for a new `authoring-guidelines.md` §9.6 to close the gap.
 Next: Awaiting the human's approve/edit/reject on the flag above before committing anything to `knowledge/`.
 Waiting for: Human review of the proposed §9.6 text.
+
+---
+
+## [Claude] — Turn 39 | 2026-08-09
+
+Same session, continued. Human: "Approved as-is. Go ahead." Committed the flag's proposed text verbatim as `knowledge/domains/authoring-guidelines.md` §9.6 "Media/Image Extraction Method" (version 1.9 → 1.10), placed after §9.5 (Citation Format) and before §10. Covers the `.doc`/`.docx` extraction tooling table and the 5-step OOXML caption-identification procedure, including the mandatory calibration step. Validated clean, no new warnings.
+
+Future sessions extracting media from a new deep well now have a direct pointer instead of having to rediscover the tooling and calibration lesson from scratch.
+
+**Built/updated:** `knowledge/domains/authoring-guidelines.md`.
+
+### Session close
+
+Knowledge candidates: None further — this turn's own work was the knowledge update.
+Open flags: None.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: `[FLAG FOR KNOWLEDGE UPDATE]` from Turn 38 approved and committed — `authoring-guidelines.md` §9.6 now documents the media-extraction tooling and caption-tracing method for future sessions.
+Next: No specific next step queued.
+Waiting for: Human's direction on what to work on next.

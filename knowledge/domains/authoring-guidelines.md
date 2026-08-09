@@ -1,6 +1,6 @@
 # Domain Knowledge Authoring Guidelines
 
-Version 1.9 | 2026-08-07 | Production
+Version 1.10 | 2026-08-09 | Production
 
 ---
 
@@ -405,6 +405,29 @@ Add the full citation string to `sources/manifest.md`'s **Citation** column (§9
 
 The tag itself stays short — a pointer, same pattern as citing a stored deep well. The file it points to (typically in a project's own `context/` folder until a domain exists to hold it properly under `sources/`) must carry the actual full citations — title, author/publisher, URL, access date — one per source, in the Secondary Source format above. A bare "ai-research" label with no traceable citations does not satisfy this — see `projects/archive-digitization/context/ai-research-danske-navnelove.md` for a worked example.
 
+### 9.6 Media/Image Extraction Method
+
+For a stored deep well with embedded images not yet extracted (`.doc` or `.docx`):
+
+**Tooling, by format:**
+
+| Format | Method | Notes |
+|---|---|---|
+| `.docx` (zip-based) | `unzip -j <file>.docx "word/media/*" -d <destdir>` | Images sit at `word/media/*` directly. |
+| `.doc` (legacy binary) | `wvHtml <file>.doc <out>.html` (`wv` package; `apt-get install -y wv catdoc`) | `LibreOffice`/`soffice --headless --convert-to` fails to open these files. `antiword` (fine for text) discards embedded images and undercounts even its own `[pic]` placeholders — do not trust its image count. `wvHtml` dumps every image alongside the HTML in document order (`out0.jpg`, `out1.jpg`, ...). |
+
+**Caption identification (`.docx` sources):**
+
+1. Find the image's relationship ID in `word/_rels/document.xml.rels` (`Target="media/imageN.ext"` → `Id="rIdM"`).
+2. Find `r:embed="rIdM"` in `word/document.xml` — this is the image's exact source position.
+3. Read the text immediately adjacent for a short, standalone, natural-language line (e.g., "Name og Name," "Tv. Name, Sted") — this is genuine caption evidence.
+4. Before applying step 3 across a batch, calibrate it: pick 1-2 images with an independently confirmed identity and measure how far the real caption sits from the image tag. If the distance can run to tens of thousands of characters (common for floating/`wp:anchor` images), do not treat mere adjacency to unrelated text — e.g., a different person's biography starting right after the image — as caption-strength evidence on its own.
+5. Move an image to public storage only on an actual caption match (step 3) or independent confirmation (human, cross-referenced primary source) — never on proximity alone.
+
+Sensitivity handling (public/restricted split) is a separate, already-documented concern — see `Architecture.md` §3 ("Restricted companion repo").
+
+Discovered 2026-08-09, Hopp-slægten and Boe-slægten media passes. See `projects/system/session-log.md` Turns 35, 37 for the full narrative and worked examples.
+
 ---
 
 ## 10. What Does Not Belong in a Knowledge Document
@@ -453,3 +476,4 @@ Before submitting any knowledge document for human approval:
 | 1.7 | 2026-07-25 | §4 gained "Behavioral and communication-style notes" — how a domain captures what's known about how a household member or external party tends to communicate or argue, without needing a separate content type or top-level structure. Reuses existing signals ([SENSITIVE], [VERIFIED]/[UNVERIFIED]) rather than inventing new ones. |
 | 1.8 | 2026-08-05 | Fork-specific addition (`kej-context-architecture`): new §9.5 "Genealogical Proof Standard and Citation Format," adopting GPS (mapped to existing repo mechanisms) and an Evidence Explained-derived citation format, with Danish-adapted templates for kirkebog/folketælling/skifteprotokol/secondary sources (EE itself has no ready-made Danish templates — verified via web search, not assumed). Added a Citation column to the `sources/manifest.md` template (§9.1) and a matching Quick Checklist item (§11). |
 | 1.9 | 2026-08-07 | §9.5 gained two refined citation formats, prompted by a human review of an early, under-specified use: `familieidentifikation` now requires naming who made the identification and their stated confidence (`sikker`/`formodet`), not just a bare tag; and a new `[CONTEXT: ai-research, ...]` tag for AI-researched general background (as distinct from `[VERIFIED: ...]`, which always means an evidenced claim about the family itself), pointing to a file carrying full, real citations rather than a vague label. Both retrofitted across existing `family-tree/tree.ged` usage, not just applied going forward. |
+| 1.10 | 2026-08-09 | Added new §9.6 "Media/Image Extraction Method," approved via `[FLAG FOR KNOWLEDGE UPDATE]` (`projects/system/session-log.md` Turn 38) after the human asked whether the tooling and caption-tracing method used across the Hopp-slægten and Boe-slægten media passes were captured anywhere reusable — they weren't, only in narrative session-log history. Documents the `.doc`/`.docx` extraction tooling decision (`wvHtml` vs. `LibreOffice`'s outright failure vs. `antiword`'s silent image loss) and a 5-step OOXML caption-identification procedure, including a mandatory calibration step: real captions on floating (`wp:anchor`) images can sit tens of thousands of characters from the image tag, so mere adjacency to unrelated text must not be trusted as caption-strength evidence without checking this first. |
