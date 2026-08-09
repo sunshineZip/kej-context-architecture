@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.19 | 2026-08-09 | Active
+Version 1.20 | 2026-08-09 | Active
 
 ---
 
@@ -62,9 +62,9 @@ Kapitel 1 (three sub-items) sending next; kapitel 2–16 to follow later.
 | 01 Knud Danielsen Hopp o.1640-1723 | oktober 2015 | **In progress (2026-08-08)** — overview table fully extracted into `family-tree/tree.ged#I364` onward. Confirms KEJ's own worry: metadata claims 5 pages / 422 words against the catalog's expected 33 + 3 maps — only the Kapitel 1 overview index survived, no individual biographical entry for Knud Danielsen Hopp himself. Accepted as a gap for now per the human (2026-08-08): "we can always swap them later if my grandfather manages to find the complete documents." |
 | 01C Niels Jørgen Knudsen Hopp 1685-1770 | januar 2016 / januar 2025 | **Fully read at "our line" depth (2026-08-08)** — Checkpoint 1: Niels Jørgen Knudsen Hopp's own generation. Checkpoint 2: one full child-line to full depth (230 individuals, 60 living, per the human's explicit choice, left as-is). Checkpoints 3-5: all remaining children of Dorthe, Berthe, and Knud Nielsen Hopp, capped per the "our line" policy. See `library/deep-wells/hopp-slaegten-manifest.md`. |
 | 01F Knud Knudsen Hopp død 1762 | januar 2016 / januar 2025 | **Fully read at "our line" depth (2026-08-08)** — all 6 children's branches read ("a." Mogens's counterfeiting scandal, "b.," "c.," "d." — the largest, a Viborg dyer-family saga, "e.," "f."), replacing the earlier stopgap stub. See `projects/archive-digitization/context/hopp-slaegten-01f-extraction.md`. |
-| 02 Daniel Knudsen Hopp o.1681-1730/31 | sept. 2015 | **Incoming (2026-08-09)** — KEJ sent this by email; his own first attempt (as a link, not a real attachment) failed, a retry 8 minutes later attached the actual file (per the human). **Not yet in `incoming/`** — landed in the human's inbox, not pushed to the repo yet. This is the direct-line chapter ("01-a") — full depth applies once received, not the "our line" cap used for 01C/01F. |
-| 03 Niels Danielsen Hopp 1707-1775 | oktober 2015 | **Incoming (2026-08-09)** — same email/retry as 02 above. Not yet in `incoming/`. Direct-line chapter ("02-a") — full depth applies. |
-| 04 Daniel Nielsen Hopp o.1732-1800 | oktober 2015 | **Incoming (2026-08-09)** — same email/retry as 02 above. Not yet in `incoming/`. Direct-line chapter ("03-a") — full depth applies. |
+| 02 Daniel Knudsen Hopp o.1681-1730/31 | sept. 2015 | **Triaged (2026-08-09)** — stored at `library/deep-wells/hopp-slaegten/02-daniel-knudsen-hopp-o1681-1830.doc`. Flyover: 16 pages/4,221 words, content-complete, `antiword`-only (LibreOffice fails). Direct-line chapter ("01-a") — reading starting as Phase 3a, combined with 03. |
+| 03 Niels Danielsen Hopp 1707-1775 | oktober 2015 | **Triaged (2026-08-09)** — stored at `library/deep-wells/hopp-slaegten/03-niels-danielsen-hopp-1709-1775.doc`. Flyover: 8 pages/2,427 words, exact match to catalog, content-complete. Direct-line chapter ("02-a") — reading starting as Phase 3a, combined with 02. |
+| 04 Daniel Nielsen Hopp o.1732-1800 | oktober 2015 | **Triaged (2026-08-09)** — stored at `library/deep-wells/hopp-slaegten/04-daniel-nielsen-hopp-1732-1800.doc`. Flyover: 59 pages/13,620 words, content-complete, a newer revision than its catalog listing. Direct-line chapter ("03-a") — comparable in scale to 01C/01F, planned as its own Phase 3b. |
 | 05 Nicolai Danielsen Hopp 1780-1837 | august 2022 | Not yet received |
 | 06 Jacob Daniel Nicolaisen (Hopp) 1818-1870 | december 2015 | Not yet received |
 | 07 Lauritz Jacobsen (Saling) 1841-1920 | august 2025 | Not yet received |
@@ -208,3 +208,4 @@ New section (2026-08-08) — three items found in KEJ's master catalog that aren
 | 1.17 | 2026-08-08 | Phase 2 (01F) started — Knud Knudsen Hopp's own biography plus 3 of 6 children's branches read, replacing the stopgap stub. 01F (§3) status updated from "Triaged" to "In progress." |
 | 1.18 | 2026-08-08 | Phase 2 (01F) completed — branches "d." and "e." read. 01F (§3) status updated to "Fully read at 'our line' depth." All three Hopp-slægten files currently in hand (01, 01C, 01F) are now fully read. |
 | 1.19 | 2026-08-09 | KEJ sent chapters 02, 03, 04 by email (two attempts — first as broken links, a retry 8 minutes later with real attachments). These are the **direct-line** chapters ("01-a," "02-a," "03-a") — the first genuine "our line" material received, not a side branch. Status updated to "Incoming" for all three; **not yet pushed to `incoming/`**, still needs to land in the repo before anything can be read. |
+| 1.20 | 2026-08-09 | Human pushed all four files (02, 03, 04, plus a stale re-sent 01F) directly to `incoming/` via GitHub. Flyover done on all three new chapters — all content-complete, no gap like file "01" had. Human confirmed storage; stale 01F duplicate discarded (older version than what's already stored). All three now Triaged, reading starting. |

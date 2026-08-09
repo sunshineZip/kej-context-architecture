@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.26 | 2026-08-08 | Production
+Version 1.27 | 2026-08-09 | Production
 
 ---
 
@@ -94,7 +94,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
 
 ## hopp-slaegten
 
-- **Title:** "Hopp-slægten," Kapitel 1 (items 01, 01C, 01F so far, more expected) — Knud Erik Jakobsen (KEJ), unpublished, per-chapter files
+- **Title:** "Hopp-slægten" (items 01, 01C, 01F, 02, 03, 04 so far, more expected) — Knud Erik Jakobsen (KEJ), unpublished, per-chapter files
 - **Format:** mixed — legacy `.doc` and modern `.docx`, per file (see manifest)
 - **Stored:** yes — attached to KEJ's 2026-08-08 email (relayed via the human), landed in `incoming/`, triaged same day.
 - **Location:** library/deep-wells/hopp-slaegten/ (growing folder, one file per chapter — see `library/deep-wells/hopp-slaegten-manifest.md` for the full history, per-file flyover findings, and extraction log)
@@ -107,6 +107,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
   - 2026-08-08: Checkpoint 5 — Knud Nielsen Hopp's remaining children IV.-X., capped (11 individuals, 4 families) → `family-tree/tree.ged#I663`-`#I673`, `#F218`-`#F221`. **Phase 1 (01 + 01C) now fully read** — only Phase 2 (01F, deferred) remains open.
   - 2026-08-08: Phase 2 (01F) started — Knud Knudsen Hopp himself, his wife, and 3 of 6 children's branches ("a." Mogens's counterfeiting scandal, "b.," "c.") read, replacing the earlier stopgap stub (26 individuals, 11 families). Branches "d." (11 children) and "e." (2 children) remain. See `projects/archive-digitization/context/hopp-slaegten-01f-extraction.md`.
   - 2026-08-08: Branches "d." (Daniel Knudsen Hopp — a Viborg dyer-family saga plus a colorfully-documented drunk-but-competent schoolteacher) and "e." read, closing 01F (16 individuals, 4 families). **Phase 2 complete — every currently-received Hopp-slægten file (01, 01C, 01F) is now fully read.**
+  - 2026-08-09: Chapters 02, 03, 04 stored — **the first direct-line material** received (not a side branch). A stale duplicate of 01F (sent by mistake) discarded. Phase 3 planned and starting — see `hopp-slaegten-manifest.md`.
 
 ---
 
@@ -141,3 +142,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.24 | 2026-08-08 | `hopp-slaegten` Checkpoint 5: Knud Nielsen Hopp's remaining children IV.-X. modeled (11 individuals, 4 families), closing the gap left after Checkpoint 4. **Phase 1 (01 + 01C) now fully read.** |
 | 1.25 | 2026-08-08 | `hopp-slaegten` Phase 2 (01F) started — Knud Knudsen Hopp's own biography plus 3 of 6 children's branches read (26 individuals, 11 families), replacing the earlier stopgap stub. Branches "d." and "e." remain. |
 | 1.26 | 2026-08-08 | `hopp-slaegten` Phase 2 complete — branches "d." and "e." read (16 individuals, 4 families). **Every currently-received Hopp-slægten file (01, 01C, 01F) is now fully read** at the "our line" depth standard. |
+| 1.27 | 2026-08-09 | `hopp-slaegten` chapters 02, 03, 04 stored — the first direct-line material received. Stale 01F duplicate discarded. Phase 3 reading starting. |
