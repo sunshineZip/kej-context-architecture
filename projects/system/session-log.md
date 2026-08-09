@@ -1010,3 +1010,47 @@ STATUS: CHECKPOINT
 Completed: Direct-caption-trace re-check of all 21 remaining restricted Boe-slægten images. 3 moved to public (image10, image11, image15). 13 entries revised with stronger candidates, none promoted without a genuine caption match. Method's real limits calibrated and documented rather than over-applied.
 Next: No specific next step queued — this was a targeted follow-up to the image34.png catch, not part of a larger open task.
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 38 | 2026-08-09
+
+Same session, continued. Human asked whether the media-extraction tooling and the caption-tracing method from Turns 35-37 are integrated into the repo in a way that would make future extraction work smoother. Checked rather than assumed: `knowledge/domains/authoring-guidelines.md` §9 covers deep-well registration, the cornerstone rule, referential integrity, and the citation/GPS standard — nothing about the actual mechanics of extracting embedded media, or the caption-identification method and its calibration discipline. Those currently exist only as narrative history (this session's own turns, one deep-well manifest's "How This Was Built" note) — not as forward-pointing procedure a future session would find. Real gap, worth closing properly rather than leaving to be rediscovered next time a source with embedded images turns up.
+
+Human confirmed (per the one-line-question-first rule, `operating-principles.md` §5) that this is worth capturing. Raising the flag below rather than editing `knowledge/` directly.
+
+[FLAG FOR KNOWLEDGE UPDATE]
+Source: Project archive-digitization, Turns 35-37
+File: knowledge/domains/authoring-guidelines.md
+Issue: §9 (Evidentiary Sources & Deep Wells) has no section on extracting embedded media from source documents. Two reusable methods were discovered this session and are undocumented outside narrative session-log entries: (1) a tooling decision tree for `.doc`/`.docx` image extraction — `LibreOffice` fails to open legacy `.doc` files at all, `antiword` silently discards embedded images and undercounts even its own `[pic]` placeholder markers, `wvHtml` (the `wv` package) succeeds; `.docx` images extract trivially via `unzip word/media/*`. (2) A caption-identification method for `.docx` sources — trace an image's `r:embed="rIdN"` through `word/_rels/document.xml.rels` to its exact position in `word/document.xml` and read the adjacent text — plus a calibration step that turned out to matter: real captions on floating (`wp:anchor`) images can sit tens of thousands of characters from the image tag, so proximity to *unrelated* nearby text (e.g., a different person's biography starting right after the image) must not be treated as caption-strength evidence without first checking this against an already-confirmed case.
+Proposed change: add a new §9.6 "Media/Image Extraction Method" after §9.5, structured as a numbered procedure per §"Procedures" conventions:
+
+```
+### 9.6 Media/Image Extraction Method
+
+For a stored deep well with embedded images not yet extracted (`.doc` or `.docx`):
+
+**Tooling, by format:**
+
+| Format | Method | Notes |
+|---|---|---|
+| `.docx` (zip-based) | `unzip -j <file>.docx "word/media/*" -d <destdir>` | Images sit at `word/media/*` directly. |
+| `.doc` (legacy binary) | `wvHtml <file>.doc <out>.html` (`wv` package; `apt-get install -y wv catdoc`) | `LibreOffice`/`soffice --headless --convert-to` fails to open these files. `antiword` (fine for text) discards embedded images and undercounts even its own `[pic]` placeholders — do not trust its image count. `wvHtml` dumps every image alongside the HTML in document order (`out0.jpg`, `out1.jpg`, ...). |
+
+**Caption identification (`.docx` sources):**
+
+1. Find the image's relationship ID in `word/_rels/document.xml.rels` (`Target="media/imageN.ext"` → `Id="rIdM"`).
+2. Find `r:embed="rIdM"` in `word/document.xml` — this is the image's exact source position.
+3. Read the text immediately adjacent for a short, standalone, natural-language line (e.g., "Name og Name," "Tv. Name, Sted") — this is genuine caption evidence.
+4. Before applying step 3 across a batch, calibrate it: pick 1-2 images with an independently confirmed identity and measure how far the real caption sits from the image tag. If the distance can run to tens of thousands of characters (common for floating/`wp:anchor` images), do not treat mere adjacency to unrelated text — e.g., a different person's biography starting right after the image — as caption-strength evidence on its own.
+5. Move an image to public storage only on an actual caption match (step 3) or independent confirmation (human, cross-referenced primary source) — never on proximity alone.
+
+Sensitivity handling (public/restricted split) is a separate, already-documented concern — see `Architecture.md` §3 ("Restricted companion repo").
+
+Discovered 2026-08-09, Hopp-slægten and Boe-slægten media passes. See `projects/system/session-log.md` Turns 35, 37 for the full narrative and worked examples.
+```
+
+STATUS: FLAG RAISED
+Completed: Investigated whether Turns 35-37's extraction/caption-tracing methods are captured anywhere reusable — confirmed they are not, and drafted a `[FLAG FOR KNOWLEDGE UPDATE]` for a new `authoring-guidelines.md` §9.6 to close the gap.
+Next: Awaiting the human's approve/edit/reject on the flag above before committing anything to `knowledge/`.
+Waiting for: Human review of the proposed §9.6 text.
