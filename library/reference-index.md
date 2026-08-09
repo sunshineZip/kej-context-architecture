@@ -1,6 +1,6 @@
 # Reference Index
 
-Version 1.31 | 2026-08-09 | Production
+Version 1.32 | 2026-08-09 | Production
 
 ---
 
@@ -97,7 +97,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
 - **Title:** "Hopp-slægten" (items 01, 01C, 01F, 02, 03, 04 so far, more expected) — Knud Erik Jakobsen (KEJ), unpublished, per-chapter files
 - **Format:** mixed — legacy `.doc` and modern `.docx`, per file (see manifest)
 - **Stored:** yes — attached to KEJ's 2026-08-08 email (relayed via the human), landed in `incoming/`, triaged same day.
-- **Location:** library/deep-wells/hopp-slaegten/ (growing folder, one file per chapter — see `library/deep-wells/hopp-slaegten-manifest.md` for the full history, per-file flyover findings, and extraction log)
+- **Location:** library/deep-wells/hopp-slaegten/ (growing folder, one file per chapter — see `library/deep-wells/hopp-slaegten-manifest.md` for the full history, per-file flyover findings, and extraction log). Media: `library/deep-wells/hopp-slaegten-media/` (30 public images) plus `restricted/media/` (3 restricted, see `restricted/hopp-slaegten-media-manifest.md`).
 - **Referenced by domains:** None yet — not read.
 - **Cornerstone status:** Yes — personal, unpublished, not reacquirable except from KEJ; distributed as many separate per-chapter files (16+ expected per `intake-manifest.md` §3) that will accumulate here over an extended period, the strongest form of the "mined incrementally over months" criterion.
 - **Extraction log:**
@@ -112,6 +112,7 @@ Add one heading per work, following this template (see `knowledge/domains/author
   - 2026-08-09: Phase 3b Checkpoint 1 — chapter 04 (Daniel Nielsen Hopp) started, own biography plus branch "a." (Niels Danielsen Hopp/Hoppe) read in full. 13 individuals, 6 families. Branches "b.," "d.," "e.," "f." remain — "d." expected largest. See `projects/archive-digitization/context/hopp-slaegten-04-extraction.md`.
   - 2026-08-09: Phase 3b Checkpoint 2 — branches "b.," "e.," "f." read in full (12 individuals, 5 families); "c." given a refined birth date. Only branch "d." (~42% of the chapter) remains. Human confirmed image/media extraction is a deliberately deferred follow-up, after text extraction completes.
   - 2026-08-09: Phase 3b Checkpoint 3 — branch "d." read in full (12 individuals, 6 families), including a genuine same-name-siblings case. **Chapter 04 complete — every currently-received Hopp-slægten text (01, 01C, 01F, 02, 03, 04) is now fully read.** Only the deferred media/image pass remains open. See `projects/archive-digitization/context/hopp-slaegten-04-extraction.md`.
+  - 2026-08-09: Deferred media/image pass completed — 33 images extracted across all five source files via `wvHtml` (legacy `.doc`) and `unzip` (01C's `.docx`); 30 confirmed safe and stored publicly at `library/deep-wells/hopp-slaegten-media/`, 3 moved to `restricted/media/` (era/identity not confidently pinned down as clearly historical). **Every currently-received Hopp-slægten file — text and media — is now fully processed.** See `library/deep-wells/hopp-slaegten-media/manifest.md` and `restricted/hopp-slaegten-media-manifest.md`.
 
 ---
 
@@ -151,3 +152,4 @@ Add one heading per work, following this template (see `knowledge/domains/author
 | 1.29 | 2026-08-09 | `hopp-slaegten` Phase 3b started — chapter 04 Checkpoint 1 (Daniel Nielsen Hopp + branch "a.," 13 individuals, 6 families). Branches "b.," "d.," "e.," "f." remain. |
 | 1.30 | 2026-08-09 | `hopp-slaegten` Phase 3b Checkpoint 2 — branches "b.," "e.," "f." read in full (12 individuals, 5 families). Only branch "d." remains. Confirmed with the human: image/media extraction across all Hopp-slægten files is deliberately deferred until text extraction is fully complete. |
 | 1.31 | 2026-08-09 | `hopp-slaegten` Phase 3b Checkpoint 3 — branch "d." read in full (12 individuals, 6 families), completing chapter 04. **Every currently-received Hopp-slægten text is now fully read.** Only the deferred media/image pass remains. |
+| 1.32 | 2026-08-09 | `hopp-slaegten` media/image pass complete — 33 images extracted, 30 stored publicly at `library/deep-wells/hopp-slaegten-media/`, 3 moved to `restricted/media/`. **Every currently-received Hopp-slægten file is now fully processed, text and media.** |

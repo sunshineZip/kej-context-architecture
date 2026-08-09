@@ -933,3 +933,32 @@ STATUS: CHECKPOINT
 Completed: Chapter 04 fully read (Phase 3b complete). Every currently-received Hopp-slægten text is now fully read.
 Next: No unread Hopp-slægten text remains. Open work: the deferred image/media extraction pass (01C's 6 images first, the easy `.docx` case; then whatever can be recovered from the legacy `.doc` files' `[pic]` markers), and waiting on KEJ for chapter 05 onward.
 Waiting for: Human's direction on what to work on next — likely the media pass, per the plan confirmed two turns ago.
+
+---
+
+## [Claude] — Turn 35 | 2026-08-09
+
+Same session, continued. Human: "Let's do the media pass of every document we have extracted media files from yet" — the deferred Hopp-slægten media pass, confirmed two turns ago, across all five currently-received source files (01, 01C, 01F, 02, 03, 04).
+
+**Tooling first.** `antiword` (used for all text extraction) discards embedded images entirely, leaving only `[pic]` placeholder markers — and even those undercount: file "02" showed 3 markers in the text but actually holds 7 embedded images. `LibreOffice`/`soffice --headless --convert-to` fails to open any of the legacy `.doc` files at all ("source file could not be loaded"). Installed `wv`/`catdoc` (`apt-get install -y wv catdoc`); `wvHtml <input.doc> <output.html>` succeeded on all 4 legacy `.doc` files, converting to HTML and dumping every embedded image alongside it in document order. 01C, a modern `.docx`, needed no special tooling — its images came straight out of `word/media/` via `unzip`.
+
+**33 images extracted total** (1 from "01," 1 from "03," 7 from "02," 4 from "04," 6 from "01C," 14 from "01F" — the largest single set). Viewed and identified each individually, cross-checking against surrounding-text captions recovered from each file's own `out.html` wherever present. Sensitivity determination leaned on apparent photographic era (clothing, print style, studio marks) cross-checked against any recovered caption or existing `tree.ged` dates, not a fixed cutoff year — same default-to-restricted-when-ambiguous rule already established for Boe-slægten.
+
+**30 of the 33 confirmed safe** — documents, maps, a 1732 silver coin, an illustration, floor plans, and photos whose subjects' era and/or a direct caption place them as long deceased (the oldest identifiable, a 1673 archival document; the most recent confidently-public photo, a 1925 silver-wedding group portrait with a matching 1926 name-change certificate). Stored at `library/deep-wells/hopp-slaegten-media/`, new manifest written matching the Boe-slægten template.
+
+**3 moved to `restricted/media/`** (new `restricted/hopp-slaegten-media-manifest.md`): one unambiguously modern (a 1980s color family portrait, embedded oddly inside 01C alongside centuries-older material); two era-ambiguous (a c.1900-1915 studio-portrait pair in chapter 04 whose loose caption proximity doesn't cleanly confirm identity; an outdoor group photo in 01F, clothing reading as roughly 1940s-1950s, plausibly depicting a generation of the documented "Dalland" family who could still be alive today).
+
+**Incidental finding, worth flagging rather than letting slide:** KEJ's own long-standing worry (relayed 2026-08-08) that 01C and 01F were each missing "2 maps" is now partially resolved. 01C's 2 expected maps are both present and accounted for (a regional map, and a second explicitly dated "Videnskabernes Selskabs kort, 1792"). **01F's 2 expected maps did not turn up** — none of its 14 images is a map. Logged in `TODO.md` and `intake-manifest.md` as still open, not assumed resolved just because the pass is done.
+
+**Built/updated:** `library/deep-wells/hopp-slaegten-media/manifest.md` (new), `restricted/hopp-slaegten-media-manifest.md` (new), `hopp-slaegten-manifest.md`, `reference-index.md`, `intake-manifest.md`, `TODO.md` (moved the deferred-media item to Done, added the unresolved-01F-maps note).
+
+### Session close
+
+Knowledge candidates: None — no Hopp domain exists yet.
+Open flags: None escalated to `grandfather-review/queue.md` this turn — the 3 restricted images are logged in `restricted/hopp-slaegten-media-manifest.md` itself, not the human-facing review queue, since none of them rises to a confirmed finding needing KEJ's input yet.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Full Hopp-slægten media pass — all 5 currently-received source files. 33 images extracted, 30 public, 3 restricted. **Every currently-received Hopp-slægten file (text and media alike) is now fully processed.**
+Next: No unprocessed Hopp-slægten material remains in hand. Open items: 01F's 2 expected-but-missing maps (worth asking KEJ), chapter 05 onward (not yet received), and the standing `grandfather-review/queue.md`/`research-queue.md` backlogs.
+Waiting for: Human's direction on what to work on next.
