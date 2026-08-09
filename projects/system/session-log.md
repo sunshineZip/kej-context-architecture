@@ -1177,3 +1177,34 @@ STATUS: FLAG RAISED
 Completed: Full exposure audit (git history + live working tree) across the public repo. Remediation plan drafted and saved to `restricted/`. Phase 1 (move live source exposure to `restricted/deep-wells/`) executed, with all cross-references updated. Phase 2 (history rewrite) held pending backup confirmation.
 Next: Await the human's approve/edit/reject on the flag above; separately, await backup confirmation before Phase 2. Correspondence-text extraction (from two turns ago) still outstanding.
 Waiting for: Human review of the flag, and backup confirmation for Phase 2.
+
+---
+
+## [Claude] — Turn 43 | 2026-08-09
+
+Same session, continued. Human confirmed both repos backed up and asked to proceed with Phase 2 — the public repo's git history rewrite.
+
+Treated this as genuinely irreversible-adjacent and worked accordingly: never touched the live working repo directly, did everything on an isolated clone in the scratchpad, verified exhaustively before pushing anything.
+
+**Scope re-audit first, since Phase 1 had already happened since the plan was written:** re-ran the deletion audit on current history — 44 unique paths, not the plan's original 41 (26 images, 1 stale duplicate, 1 old preview manifest, plus 6 raw emails and 10 Phase-1 source manuscripts that hadn't existed as removable history yet when the plan was drafted). Both new categories were real, days-long public exposure windows, not edge cases worth skipping.
+
+**tree.ged needed a different technique than the images** — whole-file removal would have destroyed the legitimate history of all 600 non-sensitive individuals. Built a `git-filter-repo` blob callback keyed on a content signature (`1 SOUR kej-context-architecture`, present since file creation — more robust across all of history than the GEDCOM header fields, which were themselves added in a later commit) that replaces each of 217 sensitive IDs' records with their *current* canonical text in every historical blob, regardless of which specific commit. Caught a real design bug before writing any code: individuals and families are interspersed in this file (append-only editing appends new individuals past existing family blocks), so a naive "replace up to the next INDI line" boundary would have silently eaten intervening FAM records. Fixed by bounding on "next INDI *or* FAM line" and verified against the current file (757 INDI + 252 FAM = 1009 records, zero chunks with an embedded boundary) before touching history.
+
+**First full run caught a real correctness bug of its own, before anything was pushed:** the working-tree diff between the rewritten clone and the live repo showed `image10.jpeg`, `image11.jpeg`, `image15.jpeg` missing — these were 3 of the original 26 "sensitive" images, but they'd been *re-added* to the public repo just yesterday after direct-caption tracing confirmed them genuinely safe. Blanket path removal doesn't distinguish "this path's early exposure" from "this path's later, legitimate re-addition" — it would have deleted current, correct public content. Caught by the working-tree diff check, not by luck: redid the whole rewrite from a fresh clone with those 3 excluded (41 paths, not 44).
+
+**Verification before pushing:** working tree byte-identical to the live repo (only the expected `restricted/`-uninitialized and gitignored `temp/` differences); precise per-record leak check across all 36 historical tree.ged blobs (parsed by ID, not string search) — zero leaks across all 217 sensitive IDs, with 60 confirmed never needing a rewrite at all (created redacted from the start); one apparent false-positive investigated and resolved (`@I580@` and `@I612@` are two different real people who happen to share the name "Karen Ginnerup," one long-deceased and public, one living and correctly redacted — not a leak); `scripts/validate.ps1` clean on both the clone and, after sync, the live repo.
+
+**Pushed:** force-pushed from the isolated clone (which required re-adding `origin` — `git-filter-repo` strips it as a safety default), then synced the live working repo via `fetch` + `reset --hard`. Confirmed via GitHub's API that all 88 commits got new hashes (tree.ged's content touches nearly the whole history) and that the branch tip moved. **One residual risk found and documented, not yet resolved:** the pre-rewrite HEAD commit still resolves by direct SHA via GitHub's API despite being unreachable from any branch or tag (confirmed 0 tags, 0 forks) — this is the exact cache/CDN behavior the plan anticipated. Recommended follow-up: a GitHub support request to purge orphaned objects, referencing the saved commit-hash mapping. Not filed this session.
+
+**Built/updated:** `restricted/remediation-plan-2026-08-09.md` (Phase 2 section, Human's Decisions), `restricted/commit-map-2026-08-09.txt` (new), `restricted/README.md`.
+
+### Session close
+
+Knowledge candidates: None new this turn.
+Open flags: `[FLAG FOR KNOWLEDGE UPDATE]` from Turn 42, still awaiting human review. GitHub support request (cache purge) recommended but not filed — a human action, not something to action unprompted.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Phase 2 (public repo git history rewrite) executed, verified, and pushed. All four phases of `restricted/remediation-plan-2026-08-09.md` now resolved (Phase 0 declined by the human; 1, 2, 4 complete).
+Next: Correspondence-text extraction from the 6 emails (outstanding since before this whole remediation detour). The `[FLAG FOR KNOWLEDGE UPDATE]` from Turn 42 still needs a decision. Optionally, the GitHub cache-purge support request.
+Waiting for: Human's direction on what to work on next.
