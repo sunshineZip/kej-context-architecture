@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.18 | 2026-08-08 | Active
+Version 1.19 | 2026-08-09 | Active
 
 ---
 
@@ -147,6 +147,22 @@ Christen Pedersen Boe og Mette Jensdatters vielsesår er bekræftet af KEJ som 1
 **Grundlag:** KEJs egen formulering er udtrykkeligt spekulativ ("Et evt. bindeled... kunne gå over...") — ikke en påvist forbindelse, kun en foreslået forskningsvej. Delt godsejerskab er i sig selv ikke bevis for en flytning af den enkelte familie. Ingen primærkilde ud over selve skifteprotokol-henvisningen er tjekket her.
 **Status:** Foreslået — endnu ikke gennemgået. Har du selv undersøgt denne Anders Pedersen Boe i Vorring nærmere, eller kender du andre spor, der kunne bekræfte eller afkræfte et slægtskab mellem Mors-linjen og Sebbersund/Nibe-familien?
 
+### 18. Manglende indhold og kort i kapitel "01" (Knud Danielsen Hopp)
+
+**Kategori:** Datahul
+**Kilde:** Projekt Arkivdigitalisering, medie-gennemgang 2026-08-09 — se `projects/archive-digitization/context/intake-manifest.md` §3
+**Fund:** Den modtagne fil for kapitel "01" (Knud Danielsen Hopp o.1640-1723) indeholder kun selve Kapitel 1-oversigten (5 sider / 422 ord) — ikke hans egen biografi, som kataloget ("2026 KEJ Slægtshistorie og lokalhistorie") angiver skulle fylde 33 sider. Kun 1 billede fulgte med (et arkivdokument fra 1673), og ingen af de 3 kort, kataloget angiver skulle være i filen, er til stede.
+**Grundlag:** Sammenligning af den modtagne fils metadata (side-/ordantal, billedantal) mod katalogets egen angivelse. Du nævnte selv usikkerhed om denne fils indhold ved afsendelse (2026-08-08).
+**Status:** Accepteret som et midlertidigt hul (2026-08-08, human: "kan altid udskiftes senere, hvis min bedstefar finder de komplette dokumenter") — men ikke glemt. Har du en anden/ældre version af denne fil liggende, eller de 3 kort separat?
+
+### 19. Manglende kort i kapitel "01F" (Knud Knudsen Hopp)
+
+**Kategori:** Datahul
+**Kilde:** Projekt Arkivdigitalisering, medie-gennemgang 2026-08-09 — se `projects/archive-digitization/context/intake-manifest.md` §3
+**Fund:** 14 billeder blev udtrukket af kapitel "01F" (dokumenter, en mønt, periodefotos, en gravering), men ingen af de 2 kort, du selv nævnte skulle være med i filen, er iblandt dem.
+**Grundlag:** Fuld gennemgang af alle 14 udtrukne billeder — ingen matcher et kort. Til sammenligning: kapitel "01C" havde samme "2 kort mangler"-bekymring, og der blev begge kort fundet blandt de udtrukne billeder, så det er ikke en generel fejl i selve udtrækningsmetoden.
+**Status:** Uafklaret — mangler kortene helt i din fil, eller er de der og blot ikke blevet udtrukket korrekt af værktøjet?
+
 ---
 
 ## Version History
@@ -172,3 +188,4 @@ Christen Pedersen Boe og Mette Jensdatters vielsesår er bekræftet af KEJ som 1
 | 1.16 | 2026-08-08 | KEJ answered items 4, 5, 8, and 9 in full (replaced with pointer stubs to `log.md`) and partially answered item 6 (day/month now confirmed matching, year still open). Item 7 not directly answered, but item 3 of his reply supplied a confirmed full sibling list for branch g (`family-tree/tree.ged#F14`) used as supporting context in `family-tree/possible-duplicates.md`. |
 | 1.17 | 2026-08-08 | Correction to 1.15: item 10's underlying question (family tradition vs. the manuscript's own "udlagt barnefader" claim, naming Gunnar Vilhelm Carlsen) was not itself restricted-tier — that fact was already in the manuscript and public before `restricted/` existed. Restored to full public content. Only KEJ's own follow-up account (his correspondence and visit, the declared father's denial and counter-theory, and a third party's wartime political affiliation) is restricted, per his explicit instruction — narrowed accordingly in `family-tree/tree.ged#I164` and `#I167` and here. |
 | 1.18 | 2026-08-08 | Added item 17: the Himmerland/Thy hypothesis (a possible connection between the Mors line and a Sebbersund/Nibe-area Boe fishing family, via shared Ullerup/Sebberkloster estate ownership) now has a named, dated candidate connecting individual — Anders Pedersen Boe i Vorring, Nors sogn, probate 1759 — per KEJ's own expanded "Forskellige Boe-slægter" (august 2026). Still explicitly speculative in his own words; the one genuinely open lead found while reading that document. |
+| 1.19 | 2026-08-09 | Added items 18 and 19 — new "Datahul" category, prompted by the human noticing these gaps had only been tracked as prose notes in `intake-manifest.md`/`TODO.md`, not as trackable items that would actually get relayed to KEJ. Item 18: chapter "01" is missing its own biography (only the overview table survived) and all 3 of its expected maps. Item 19: chapter "01F" is missing both of its 2 expected maps, unlike the structurally similar "01C," where both were found — ruling out a systematic extraction-tool failure as the explanation. |

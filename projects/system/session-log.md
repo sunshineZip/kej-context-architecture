@@ -1302,3 +1302,24 @@ STATUS: CHECKPOINT
 Completed: Reply to KEJ drafted, verified against `tree.ged` and sent by the human; sent version logged for continuity.
 Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md`, `research-queue.md`), plus whatever KEJ sends next in response to this reply.
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 48 | 2026-08-09
+
+Same session, continued. Human asked a follow-up factual question first: is the individual list/line between KEJ and Knud Danielsen Hopp actually complete, given the "received" list in the reply email included some chapters with acknowledged gaps? Traced the direct-line chain in `family-tree/tree.ged` generation by generation: confirmed 01→05 (Knud Danielsen Hopp through Nicolai Danielsen Hopp) is solid, each explicitly marked "direkte led i 'vores linje'" in its own record. Generation 06 (Jacob Daniel Nicolaisen Hopp) onward is not — it's in the tree only as a bare stub from the chapter-01 overview table, and gen06 had (at least) 7 children (chapters 07-13, `@I377@`-`@I383@`), none of them marked as the confirmed direct-line continuation. Past that, nothing links down to KEJ himself at all (`@I168@` has no `FAMC` recorded in the tree). Reported this precisely rather than the more generic "not yet received" framing from the reply email.
+
+Human then flagged something more specific: the reply email's "received" list included chapters 01 and 01F despite each having acknowledged content gaps (01 is missing its own biography and all 3 expected maps; 01F is missing both of its 2 expected maps) — and asked that these gaps be tracked reliably enough to actually get raised with KEJ in the future, not just live as prose notes in `intake-manifest.md`/`TODO.md` that could get lost. Added items 18 and 19 to `grandfather-review/queue.md` (introducing its "Datahul" category, already anticipated in the file's own Document Purpose text but not used until now) — the mechanism that already exists in this project specifically for things to relay to KEJ and track through to his answer.
+
+**Built/updated:** `grandfather-review/queue.md` (items 18, 19; Version History).
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Line-completeness question answered precisely (solid to generation 05, branches unconfirmed into 7 candidates at generation 06, blank from there to KEJ). Missing-maps/missing-content gaps for chapters 01 and 01F now tracked as proper `grandfather-review/queue.md` items, ready to be included next time a batch goes to KEJ.
+Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md` items 1-3, 6, 7, 11-14, 17-19, `research-queue.md`).
+Waiting for: Human's direction on what to work on next.
