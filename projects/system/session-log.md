@@ -1348,3 +1348,26 @@ STATUS: CHECKPOINT
 Completed: External Leunbach anetavle assessed, cross-checked against `tree.ged`, and logged as `grandfather-review/queue.md` item 20 for KEJ's input. PDF itself not stored, per the Cornerstone Rule and the source's own copyright terms.
 Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md` items 1-3, 6, 7, 11-14, 17-20, `research-queue.md`).
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 50 | 2026-08-09
+
+Same session, continued. Extended conversation working through the "mechanics" of the pre-1640 Hopp hypothesis with the human — whether proving a link between Jean Hop and Knud Danielsen Hopp would prove descent from Hans Hop (answer: only if the link were specifically lineal, not collateral — Jean Hop is positioned as a sibling-line founder, not an ancestor, per the source's own claimed structure), then whether Mads Hop plausibly founded the regional Hopp surname given a "widespread" second branch mentioned in `external-source-hopp-herredsfoged.md`. Corrected my own earlier framing here after the human pushed back: the widespread second branch, if it also descends from Mads Hop per the source's own claim, supports rather than undermines the single-founder hypothesis — multiple branches from one immigrant founder is a normal pattern, not competing evidence. Explained the Daniel Madsen Hopp birth-year impossibility (1633, incompatible with fathering a son in 1640) in plain terms at the human's request, and where it sits relative to the confirmed part of the tree (only affects generations *above* Knud Danielsen Hopp, not the confirmed line from him downward).
+
+Human then proposed documenting their own synthesis as a first hypothesis independent of KEJ's material, and separately asked whether Knud Danielsen Hopp could be Mads Hop's own son directly (skipping Daniel), possibly via a younger second wife. Assessed this as mechanically age-plausible for Mads (~50 at Knud's birth, unlike Daniel's biologically-impossible 7) but lower-confidence than the "1633 is a recording error" alternative, on patronymic-naming grounds: Knud's patronym is consistently "Danielsen" across `tree.ged#I364` (from KEJ's own material) and both external sources — three independent-of-each-other sources agreeing implies a real father named Daniel, which the "wrong birth year" hypothesis accounts for and the "skip to Mads" hypothesis would have to explain away. Also caught and corrected the human's "Zealand church books" suggestion — nothing in either source places this family on Zealand at any point; the relevant geography is Skagen/Vendsyssel/Aalborg, or Dutch records if Daniel was born before the family's move to Skagen.
+
+Created `projects/archive-digitization/context/hopp-slaegten-pre-1640-hypothesis.md` — three hypotheses (Mads Hop as regional surname founder; the 1633 birth-year error; the lower-confidence direct-son idea), explicitly framed as the family's own synthesis rather than a transcription of either external source. Updated `grandfather-review/queue.md` item 2 with a pointer and a direct question for KEJ. Added two new sections to `research-queue.md` for the archive-lookup angle (Dutch records if Daniel was born before Skagen; Danish kirkebøger for Knud's own baptism and, alternatively, Daniel's — flagged as likely free via Arkivalieronline rather than paywalled, unlike this file's other entries, but still needing dedicated search time and an unresolved approach to period handwriting).
+
+**Built/updated:** `projects/archive-digitization/context/hopp-slaegten-pre-1640-hypothesis.md` (new), `grandfather-review/queue.md` (item 2, Version History), `research-queue.md` (two new sections, Version History), `projects/archive-digitization/TODO.md`.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: The family's own pre-1640 Hopp hypothesis (three variants, ranked by confidence) now documented centrally and cross-referenced from both the KEJ-review queue and the archive-research queue.
+Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md` items 1-3, 6, 7, 11-14, 17-20, `research-queue.md`).
+Waiting for: Human's direction on what to work on next.

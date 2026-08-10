@@ -1,6 +1,6 @@
 # Research Queue — By External Source
 
-Version 1.0 | 2026-08-07 | Active
+Version 1.1 | 2026-08-09 | Active
 
 ---
 
@@ -28,7 +28,16 @@ This is deliberately separate from `grandfather-review/queue.md` (questions only
 
 ### Nederlandse archieven (Hopp-slægten, Dutch records)
 
-**Status:** No open questions yet — Hopp-slægten material hasn't been received (`projects/archive-digitization/context/intake-manifest.md` §3), so no specific Dutch-archive-dependent gap has been identified yet. Anticipated candidate once that material arrives: the Hopp-slægten's own Dutch immigration ancestor(s) (see `intake-manifest.md` §7, "Andre Hopp-slægter," and `grandfather-review/queue.md` items 1-3 for related external cross-references already found).
+**Status:** 1 open question, not yet acted on.
+
+- [ ] **Daniel Madsen Hopp's birth year** (candidate for `family-tree/tree.ged#I364`'s presumed father, not yet in `tree.ged`) — one external secondary source gives 1633, which is impossible given his claimed son Knud Danielsen Hopp's birth ~1640; a *different* external source's own summary chart silently corrects this to "omk 1620" without citing anything. Full analysis: `projects/archive-digitization/context/hopp-slaegten-pre-1640-hypothesis.md`, Hypothesis A. If Daniel really was born before the family's move from Holland to Skagen (c. 1625), the relevant records would be Dutch, not Danish — but neither source pins down which Dutch town the family lived in before emigrating, so this can't be acted on yet. Revisit once/if that's narrowed down (possibly something KEJ already knows — see `grandfather-review/queue.md` item 2).
+
+### Danske kirkebøger — Vendsyssel/Skagen/Aalborg (Hopp-slægten, pre-1640)
+
+**Status:** 2 open questions, not yet acted on. Unlike the other sources in this file, these are likely *free* via Rigsarkivet's Arkivalieronline (digitized Danish church books) rather than needing a paid subscription — logged here anyway because they need dedicated archive-search time and, for this period, Gothic/Kurrent handwriting the family hasn't yet settled a transcription approach for (`projects/archive-digitization/TODO.md`'s open item on this).
+
+- [ ] **Knud Danielsen Hopp's own baptism**, ~1640, presumed Aalborg area per `external-source-hopp-herredsfoged.md` (itself uncorroborated) — the single most decisive record for the pre-1640 hypotheses, since a baptism entry from this period typically names the father directly. Would settle whether "Daniel" is real without needing his own birth year resolved at all.
+- [ ] **Daniel Madsen Hopp's baptism**, if he was born *after* the family's arrival in Skagen c. 1625 rather than before it (the Dutch-records alternative above) — Skagen or wider Vendsyssel kirkebøger, 1620s-30s.
 
 ---
 
@@ -37,3 +46,4 @@ This is deliberately separate from `grandfather-review/queue.md` (questions only
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-07 | Initial creation, prompted by Nikolaj finding a paywalled MyHeritage lead on Jens Christian Christensen (the American emigrant, `I29`) and proposing a general mechanism for batching cost/effort against external resources rather than paying or traveling repeatedly. Seeded with the MyHeritage lead and an empty placeholder for the anticipated future Dutch-archive Hopp-slægten case. |
+| 1.1 | 2026-08-09 | The anticipated Dutch-archive placeholder became a real question: Daniel Madsen Hopp's disputed birth year (`projects/archive-digitization/context/hopp-slaegten-pre-1640-hypothesis.md`, Hypothesis A). Added a new section for Danish kirkebog candidates (Knud Danielsen Hopp's own baptism, and Daniel Madsen Hopp's if born in Denmark rather than Holland) — flagged as likely free via Arkivalieronline rather than paywalled, but logged here anyway since they need dedicated search time and a not-yet-settled approach to this period's handwriting. |
