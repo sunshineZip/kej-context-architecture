@@ -1371,3 +1371,24 @@ STATUS: CHECKPOINT
 Completed: The family's own pre-1640 Hopp hypothesis (three variants, ranked by confidence) now documented centrally and cross-referenced from both the KEJ-review queue and the archive-research queue.
 Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md` items 1-3, 6, 7, 11-14, 17-20, `research-queue.md`).
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 51 | 2026-08-09
+
+Same session, continued. Human reconsidered Hypothesis B (Knud Danielsen Hopp as Mads Hop's direct son) after the patronymic-naming explanation and asked to discard it.
+
+Marked it discarded rather than deleting it, in `hopp-slaegten-pre-1640-hypothesis.md` — same convention already used elsewhere in this project for ruled-out leads (e.g. the Nykøbing Mors Boe hypothesis), so the reasoning stays on record rather than silently disappearing. Narrowed `grandfather-review/queue.md` item 2's question to KEJ down to the two remaining hypotheses, with a brief note that a third was considered and dropped. Updated the `TODO.md` cross-reference to drop the stale "three" count.
+
+**Built/updated:** `projects/archive-digitization/context/hopp-slaegten-pre-1640-hypothesis.md`, `grandfather-review/queue.md`, `projects/archive-digitization/TODO.md`.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Hypothesis B discarded and marked as such (not deleted); item 2's question to KEJ narrowed accordingly.
+Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md` items 1-3, 6, 7, 11-14, 17-20, `research-queue.md`).
+Waiting for: Human's direction on what to work on next.

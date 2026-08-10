@@ -1,6 +1,6 @@
 # Working Hypothesis — Hopp-Slægten Before Knud Danielsen Hopp (pre-1640)
 
-Version 1.0 | 2026-08-09 | Active
+Version 1.1 | 2026-08-09 | Active
 
 ---
 
@@ -52,15 +52,15 @@ Logged to `research-queue.md` as an archive-lookup candidate, since resolving th
 
 ---
 
-## Hypothesis B (lower confidence) — Knud Danielsen Hopp as Mads Hop's direct son
+## Hypothesis B — DISCARDED (2026-08-09) — Knud Danielsen Hopp as Mads Hop's direct son
+
+**Discarded by Nikolaj after reviewing the patronymic argument below.** Kept here, not deleted, so the reasoning stays on record — same convention as other ruled-out leads elsewhere in this project (e.g. the Nykøbing Mors Boe hypothesis in `forskellige-boe-slaegter-extraction.md`).
 
 **The idea, as raised in conversation:** skip Daniel Madsen Hopp entirely — what if Knud Danielsen Hopp was Mads Hop's own son, not grandson, perhaps via a younger second wife? Mads (b. 1590) would have been about 50 at Knud's birth (~1640) — biologically unremarkable for a father, unlike Hypothesis A's outright impossibility.
 
-**Why it's ranked below Hypothesis A:** every source that names Knud Danielsen Hopp's patronymic — including `family-tree/tree.ged#I364` itself, drawn from KEJ's own chapter "01" overview table, independently of either external source — gives it consistently as **"Danielsen."** In this period, Danish patronymics were formed directly and specifically from the father's given name; "Danielsen" is only expected if the father's own first name was Daniel. Three independent-of-each-other sources (KEJ's own material, plus the two external compilations) agreeing on "Danielsen" is a real, if not conclusive, piece of evidence that a father actually named Daniel existed — which Hypothesis A accounts for cleanly (Daniel exists, his birth year is just wrong) and Hypothesis B would have to explain away (why would a son of Mads be recorded everywhere as "Danielsen"?).
+**Why it was discarded:** every source that names Knud Danielsen Hopp's patronymic — including `family-tree/tree.ged#I364` itself, drawn from KEJ's own chapter "01" overview table, independently of either external source — gives it consistently as **"Danielsen."** In this period, Danish patronymics were formed directly and specifically from the father's given name; "Danielsen" is only expected if the father's own first name was Daniel. Three independent-of-each-other sources (KEJ's own material, plus the two external compilations) agreeing on "Danielsen" is a real, if not conclusive, piece of evidence that a father actually named Daniel existed — which Hypothesis A accounts for cleanly (Daniel exists, his birth year is just wrong) and this hypothesis would have to explain away (why would a son of Mads be recorded everywhere as "Danielsen"?). Rescuing it would require inventing an unrecorded middle name "Daniel" for Mads himself, or some unevidenced naming irregularity — a bigger leap for no real gain over Hypothesis A.
 
-**Not ruled out entirely** — a remote possibility is that Mads Hop himself carried an unrecorded second given name, "Daniel" (making "Knud Danielsen" technically still correct for a son of Mads) — but nothing in either source suggests this, and it would be a specific, additional, unevidenced claim on top of an already-unconfirmed hypothesis, not a simpler explanation than Hypothesis A.
-
-**Also unsupported:** neither source mentions a wife for Mads Hop at all, let alone a second one — the "younger second wife" detail is pure speculation with nothing to anchor it, layered on top of an already-lower-confidence hypothesis.
+**Also unsupported on its own terms:** neither source mentions a wife for Mads Hop at all, let alone a second one — the "younger second wife" detail was pure speculation with nothing to anchor it, on top of the naming problem above.
 
 ---
 
@@ -69,3 +69,4 @@ Logged to `research-queue.md` as an archive-lookup candidate, since resolving th
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-09 | Initial creation. Hypothesis 1 (Mads Hop as regional surname founder) and Hypothesis A (1633 is a recording error) developed in conversation with Nikolaj; Hypothesis B (Knud as Mads's direct son) raised and assessed as lower-confidence, primarily on patronymic-naming grounds. Not yet shown to KEJ. |
+| 1.1 | 2026-08-09 | Hypothesis B discarded, at Nikolaj's decision, after reviewing the patronymic argument — marked discarded rather than removed, so the reasoning stays on record. |
