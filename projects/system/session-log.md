@@ -1323,3 +1323,28 @@ STATUS: CHECKPOINT
 Completed: Line-completeness question answered precisely (solid to generation 05, branches unconfirmed into 7 candidates at generation 06, blank from there to KEJ). Missing-maps/missing-content gaps for chapters 01 and 01F now tracked as proper `grandfather-review/queue.md` items, ready to be included next time a batch goes to KEJ.
 Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md` items 1-3, 6, 7, 11-14, 17-19, `research-queue.md`).
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 49 | 2026-08-09
+
+Same session, continued. Human shared a PDF found via a personal Google search — an ancestor chart for Dr. Jonathan Høegh Leunbach (1884-1955), compiled by Svend Aage Nielsen (2021, Danskernes Historie Online), asking whether it taught anything relevant to this family's own line, with an explicit instruction to be careful about assumptions.
+
+Cross-checked every claim directly against `family-tree/tree.ged` rather than taking the document at face value. Confirmed: the chart's ancestor #196, Knud Danielsen Hopp (b. ~1640, d. 1723), is the same person as this family's own `#I364` — exact match on name, dates, wife, and occupation. Critically, the chart's own source list for that entry names "Knud Erik Jakobsen, Risum" directly — so its detailed biography (the 1686 Tise witch-trial connection, the Marsvin fuldmægtig work) is very likely KEJ's own research surfacing through a different compiler, not independent confirmation — same pattern already on file for the akj-cbj.dk source (`external-source-hopp-herredsfoged.md`). Also checked, and confirmed unresolved: the chart repeats the "further back than 1640" hypothesis already tracked in `grandfather-review/queue.md` item 2, from a different book, with the same unfixed chronological contradiction (a father born 1633 for a son born 1640).
+
+Two things verified as genuinely new against the tree: two previously-unconfirmed children of Knud Danielsen Hopp (Karen and Helle Knudsdatter Hopp — `tree.ged#I364`'s own note had explicitly flagged these two as unconfirmed), and one further generation on the Hjardemaal branch than currently modeled — traced by hand through `tree.ged#I644` (Søren Nielsen Hjardemaal, where the "our line" depth policy deliberately stopped) to confirm the extension to Leunbach himself is genuinely absent from the tree, not just unnoticed.
+
+Created `projects/archive-digitization/context/external-source-leunbach-anetavle.md`, modeled directly on the existing `external-source-hopp-herredsfoged.md` precedent, with one deliberate difference: only relevant excerpts are preserved, not the full document, since this source (unlike the earlier one) carries an explicit copyright notice restricting it to personal use. Recommended against storing the PDF itself for the same reason, and because it doesn't clear the Cornerstone Rule bar (low relevance density — 2 of 36 pages — and reacquirable via the publishing library if ever needed). Human agreed. Added `grandfather-review/queue.md` item 20 (one bundled item covering all four sub-questions, since the human's framing was "get his views on the article" as a whole) and a matching `TODO.md` open item.
+
+**Built/updated:** `projects/archive-digitization/context/external-source-leunbach-anetavle.md` (new), `grandfather-review/queue.md` (item 20, Version History), `projects/archive-digitization/TODO.md`.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: External Leunbach anetavle assessed, cross-checked against `tree.ged`, and logged as `grandfather-review/queue.md` item 20 for KEJ's input. PDF itself not stored, per the Cornerstone Rule and the source's own copyright terms.
+Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md` items 1-3, 6, 7, 11-14, 17-20, `research-queue.md`).
+Waiting for: Human's direction on what to work on next.

@@ -1,6 +1,6 @@
 # KEJs Gennemgangsliste
 
-Version 1.19 | 2026-08-09 | Active
+Version 1.20 | 2026-08-09 | Active
 
 ---
 
@@ -163,6 +163,18 @@ Christen Pedersen Boe og Mette Jensdatters vielsesår er bekræftet af KEJ som 1
 **Grundlag:** Fuld gennemgang af alle 14 udtrukne billeder — ingen matcher et kort. Til sammenligning: kapitel "01C" havde samme "2 kort mangler"-bekymring, og der blev begge kort fundet blandt de udtrukne billeder, så det er ikke en generel fejl i selve udtrækningsmetoden.
 **Status:** Uafklaret — mangler kortene helt i din fil, eller er de der og blot ikke blevet udtrukket korrekt af værktøjet?
 
+### 20. En ekstern anetavle (Svend Aage Nielsen, 2021) for lægen Jonathan Høegh Leunbach — samme stamfar, Knud Danielsen Hopp
+
+**Kategori:** Forbindelse
+**Kilde:** Nikolaj fandt selv dokumentet via en almindelig Google-søgning (2026-08-09) — se `projects/archive-digitization/context/external-source-leunbach-anetavle.md` for den fulde gennemgang
+**Fund:** En anetavle for lægen og seksualoplyseren Jonathan Høegh Leunbach (1884-1955), udgivet af Svend Aage Nielsen (Løgstør, 2021) via Danskernes Historie Online. Leunbachs anetavle nr. 196 er Knud Danielsen Hopp (f. o. 1640, d. 1723) — samme person som "01" i din egen kapitelliste, med samme kone (Berte/Birthe Pedersdatter) og en detaljeret, velkildebelagt biografi (fuldmægtig for Jørgen Marsvin, formand ved Tise-hekseprocessen 1686, bosat på "Bundgaard" i Sdr. Thise). **Kildelisten til netop denne biografi nævner dig direkte: "Knud Erik Jakobsen, Risum."** Fire ting, vi gerne vil have din vurdering af:
+1. Er du bekendt med dette dokument, og er den udførlige biografi af Knud Danielsen Hopp i det væsentlige din egen research fra "Skiveegnens Jul 1978"? Hvis ja, kan den måske erstatte det, der gik tabt i din egen fil "01" (se punkt 18 ovenfor).
+2. Dokumentet navngiver to børn af Knud Danielsen Hopp, som vi ikke tidligere har kunnet bekræfte fandtes — Karen Knudsdatter Hopp (f. o. 1689, d. 1767 i Harre) og Helle Knudsdatter Hopp (f. o. 1690, d. 1733 i Harre, g.m. Christen Furboe 1714). Genkender du disse to?
+3. Dokumentet gentager (fra en anden bog end den, vi allerede kender fra punkt 2 ovenfor — denne gang "Slægten Hop," 1989, Viborg Landsarkiv) den samme spekulative forbindelse til tre ældre generationer (Hans Hop, Mads Hopp, Daniel Madsen Hopp) — med samme uløste årstalsproblem. Kender du denne bog, eller har du selv en holdning til hypotesen?
+4. Dokumentet forlænger Hjardemaal-linjen (Niels Jørgen Knudsen Hopps datter Dorthe) én generation længere end det, vi selv har modelleret — frem til netop Jonathan Høegh Leunbach selv. Var du bekendt med denne forbindelse?
+**Grundlag:** Direkte navnesammenligning mod `family-tree/tree.ged#I364` (Knud Danielsen Hopp) og `#I388` (Dorthe Nielsdatter Hopp) — født-/dødsår og ægtefællenavne stemmer nøjagtigt overens. Ikke krydstjekket mod nogen primærkilde ud over det, der allerede er i `tree.ged`.
+**Status:** Foreslået — endnu ikke gennemgået. Selve PDF-filen er ikke gemt i dette repository (ophavsretligt materiale, kun til personlig brug) — kun relevante uddrag, se kildenoten.
+
 ---
 
 ## Version History
@@ -189,3 +201,4 @@ Christen Pedersen Boe og Mette Jensdatters vielsesår er bekræftet af KEJ som 1
 | 1.17 | 2026-08-08 | Correction to 1.15: item 10's underlying question (family tradition vs. the manuscript's own "udlagt barnefader" claim, naming Gunnar Vilhelm Carlsen) was not itself restricted-tier — that fact was already in the manuscript and public before `restricted/` existed. Restored to full public content. Only KEJ's own follow-up account (his correspondence and visit, the declared father's denial and counter-theory, and a third party's wartime political affiliation) is restricted, per his explicit instruction — narrowed accordingly in `family-tree/tree.ged#I164` and `#I167` and here. |
 | 1.18 | 2026-08-08 | Added item 17: the Himmerland/Thy hypothesis (a possible connection between the Mors line and a Sebbersund/Nibe-area Boe fishing family, via shared Ullerup/Sebberkloster estate ownership) now has a named, dated candidate connecting individual — Anders Pedersen Boe i Vorring, Nors sogn, probate 1759 — per KEJ's own expanded "Forskellige Boe-slægter" (august 2026). Still explicitly speculative in his own words; the one genuinely open lead found while reading that document. |
 | 1.19 | 2026-08-09 | Added items 18 and 19 — new "Datahul" category, prompted by the human noticing these gaps had only been tracked as prose notes in `intake-manifest.md`/`TODO.md`, not as trackable items that would actually get relayed to KEJ. Item 18: chapter "01" is missing its own biography (only the overview table survived) and all 3 of its expected maps. Item 19: chapter "01F" is missing both of its 2 expected maps, unlike the structurally similar "01C," where both were found — ruling out a systematic extraction-tool failure as the explanation. |
+| 1.20 | 2026-08-09 | Added item 20: an external anetavle for Dr. Jonathan Høegh Leunbach (Svend Aage Nielsen, 2021), found by the human via a personal Google search, whose ancestor #196 is the same Knud Danielsen Hopp as this family's own "01" — with KEJ named directly in its source list. Four sub-questions bundled into one item: whether the detailed biography there is KEJ's own lost "01" content resurfacing; two previously-unconfirmed children (Karen, Helle) now named; a second, independent-looking but equally unresolved repetition of the "further back than 1640" hypothesis (from a different book than the one already tracked in item 2); and a Hjardemaal-line extension one generation past what `tree.ged` currently models, down to Leunbach himself. Full write-up in the new `projects/archive-digitization/context/external-source-leunbach-anetavle.md`. |
