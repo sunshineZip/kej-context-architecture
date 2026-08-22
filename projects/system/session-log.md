@@ -1392,3 +1392,30 @@ STATUS: CHECKPOINT
 Completed: Hypothesis B discarded and marked as such (not deleted); item 2's question to KEJ narrowed accordingly.
 Next: No outstanding work from this session. Open items are the pre-existing background queue (Hopp-slægten chapters 05+, `grandfather-review/queue.md` items 1-3, 6, 7, 11-14, 17-20, `research-queue.md`).
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 52 | 2026-08-09
+
+Same session, continued. Human asked for a maintenance run across both repos, scoped first before execution. Survey found: both repos clean (no uncommitted work, submodule pointer in sync); 199 of 200 validation warnings were benign GEDCOM long-line notices, 1 was a real but already-understood false positive on `restricted/tree-sensitive.ged#I164`; `projects/system/TODO.md` completely stale since the 2026-08-05 fork date, not reflecting any of the work since; the Upstream Template Sync marker unchecked since fork; `grandfather-review/queue.md` grown to 20 items (15 open) with no cadence tracking; and the largest gap, Phase 3 domain creation, not started despite Phase 2 material substantially surfacing. Presented this as a scope, not yet acted on.
+
+Human approved all of it except the session-log question (deferred). Executed:
+
+1. **The `@I164@` false positive** — fixed `scripts/validate.ps1`'s bidirectional `tree.ged`/`tree-sensitive.ged` completeness check rather than just annotating around it: an individual with a full public record whose own `NOTE` cross-references `restricted/tree-sensitive.ged#<same-ID>` is now recognized as an intentional narrowed-but-public case (not a stale mismatch) and the warning is suppressed for that ID specifically — generalized, not hardcoded to `@I164@`. Confirmed the warning is gone and nothing else changed (199 → 198 total, only the benign long-line notices remain).
+2. **`projects/system/TODO.md` refresh** — Open list brought current (removed a long-done item, updated the `grandfather-review/queue.md` count, reframed the Phase 3 item from "anticipated" to "unblocked, not started"); Done list gained six entries for work that had only ever been logged in this session-log, never reflected in the tracker itself, including the restricted-tier build (§ below).
+3. **Upstream Template Sync check** — added `sunshinezip/proto-context-architecture` to the session (read-only) and ran the Check Procedure from `knowledge/flow/upstream-sync.md` §4. 10 commits since the fork's last-synced SHA, all touching tracked paths — logged in full in the System Maintenance Pass section, not applied (per the procedure, Check is read-only; Apply needs a separate explicit decision). **Notable finding:** commit `e1876ca` adds `knowledge/flow/restricted-tier.md` to the base template — a generalized restricted-tier pattern whose section structure and specific phrasing closely track the LLM-to-LLM report written in this same session two turns ago (`restricted-tier-architecture-report.md`, sent to the human for exactly this purpose). Its own Version History cites "a genealogy-research fork" and this repo's `session-log.md` Turn 18 as the source. The report appears to have done exactly what it was written for.
+
+Did not touch the actual reconciliation of those 10 upstream commits against this fork's own customizations — flagged as a separate, sizable piece of work in the new `TODO.md` item, not folded into today's maintenance pass.
+
+**Built/updated:** `scripts/validate.ps1`, `projects/system/TODO.md`.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: `@I164@` false positive fixed at the script level; `projects/system/TODO.md` brought current; upstream sync checked and reported (10 commits found, not applied).
+Next: Session-log length/archiving decision (deferred, human said "after"). Whether to reconcile the 10 upstream commits. Phase 3 domain-creation scope, still to be discussed with the human.
+Waiting for: Human's direction on the remaining maintenance items.

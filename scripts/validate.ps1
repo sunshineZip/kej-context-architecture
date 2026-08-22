@@ -884,7 +884,8 @@ if (Test-Path $treeGedPath) {
 #     error, just skip silently). ---
 $restrictedTreePath = Join-Path $repoRoot "restricted\tree-sensitive.ged"
 if ((Test-Path $treeGedPath) -and (Test-Path $restrictedTreePath)) {
-    $publicPlaceholderIds = [regex]::Matches((Get-Content -Path $treeGedPath -Raw), '0 @(I\d+)@ INDI\r?\n1 NAME (?:Living|Withheld) /') |
+    $treeGedRawText = Get-Content -Path $treeGedPath -Raw
+    $publicPlaceholderIds = [regex]::Matches($treeGedRawText, '0 @(I\d+)@ INDI\r?\n1 NAME (?:Living|Withheld) /') |
         ForEach-Object { $_.Groups[1].Value }
     $restrictedText = Get-Content -Path $restrictedTreePath -Raw
     $restrictedIds = [regex]::Matches($restrictedText, '(?m)^0 @(I\d+)@ INDI\s*$') | ForEach-Object { $_.Groups[1].Value }
@@ -899,7 +900,16 @@ if ((Test-Path $treeGedPath) -and (Test-Path $restrictedTreePath)) {
     }
     foreach ($rid in $restrictedIds) {
         if (-not $publicSet.Contains($rid)) {
-            Add-ValidationWarning "restricted/tree-sensitive.ged — @$rid@ has a full record here but the public tree.ged does not have a matching 'Living /.../' placeholder for it (may be stale, or the public individual was un-redacted without removing it here)"
+            # Some individuals are intentionally public by name (their basic
+            # identity was cleared for public disclosure) while restricted/
+            # still holds fuller, narrower context under the same ID — not a
+            # stale/accidental mismatch. The public record's own NOTE lines
+            # link back here in that case (e.g. @I164@, 2026-08-08), so treat
+            # that self-reference as confirmation rather than flagging it.
+            if ($treeGedRawText.Contains("restricted/tree-sensitive.ged#$rid")) {
+                continue
+            }
+            Add-ValidationWarning "restricted/tree-sensitive.ged — @$rid@ has a full record here but the public tree.ged does not have a matching 'Living /.../' placeholder for it, and its own record doesn't cross-reference this file either (may be stale, or the public individual was un-redacted without removing it here)"
         }
     }
 }
