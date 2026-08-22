@@ -5,7 +5,7 @@ project: system
 
 # System — TODO
 
-Version 1.1 | 2026-08-09 | Active
+Version 1.2 | 2026-08-09 | Active
 
 > **Routing check:** This is a task tracking file, not a work queue. Do not start work on any item here unless you have completed ROUTING.md routing and received explicit human confirmation for this session.
 
@@ -18,7 +18,6 @@ Version 1.1 | 2026-08-09 | Active
 - [ ] Confirm the full list of *slægt* (family line) names with the family — KEJ's manifest names at least Boe, Hopp, Dølby (Bruno's line), and Inge's slægt (Rahbæk-Østergaard, Neermann); Svend Åge Pedersen's 7 slægter may be more still
 - [ ] Resolve open classification questions from the intake manifest: mills/Lokalarkiv as `library/` deep wells, Hopp-surname-research connection, Svend Åge Pedersen's slægter status — see `projects/archive-digitization/TODO.md`
 - [ ] Decide an approach to handwriting transcription for older Danish church records (possibly Gothic/Kurrent script) — manual transcription, a specialized OCR tool, or the family's own knowledge of the handwriting. Not yet solved — see `research-queue.md`'s new kirkebog entries, which will need this the moment either is acted on
-- [ ] Create the first real *slægt* domain(s) — Phase 2 material has now substantially surfaced (Boe-slægten fully read; Hopp-slægten chapters 01, 01C, 01F, 02, 03, 04 fully read), so Phase 3 is unblocked, not just anticipated. Not started yet — see the 2026-08-09 scoping conversation in `session-log.md` for the open question of how big a first pass should be
 - [ ] Fill in `knowledge/domains/website-infrastructure/knowledge.md` §3–5 once the website repository is created
 - [ ] Human to review `grandfather-review/queue.md` (20 items total, 15 open as of 2026-08-09) and send it to KEJ when it feels due (no fixed cadence — his own schedule)
 - [ ] Refine the Danish citation templates in `authoring-guidelines.md` §9.5 (kirkebog/folketælling/skifteprotokol) once real parish/census/probate material is actually in hand — they're a starting adaptation of Evidence Explained's general logic, not a finished translation. Still nothing but KEJ's own narrative manuscripts processed so far, no raw parish records yet
@@ -40,6 +39,7 @@ Version 1.1 | 2026-08-09 | Active
 - [x] Built `research-queue.md` — a mechanism for batching external-resource questions (paid subscriptions, archive visits) by source rather than acting on each as it's found (2026-08-07)
 - [x] Built the two-tier restricted-content architecture, prompted by a full exposure audit finding the public repo's git history and live working tree had exposed ~150 individuals' unredacted records, 26 images, a paternity detail, and every raw source manuscript (2026-08-09): a private `kej-restricted-context-architecture` companion repo mounted as a submodule at `restricted/`; the Hard Constraint gating it (with the one `incoming/` exception); `incoming/` and its triage discipline moved there from the main repo; the `authoring-guidelines.md` §9.3 Cornerstone Rule extension (raw sources default restricted); the `tree.ged`/`tree-sensitive.ged` placeholder-and-pointer pattern; the `grandfather-review/queue.md` restricted counterpart; a `git-filter-repo` history rewrite removing the historical exposure, with exhaustive before/after verification. Full account: `restricted/remediation-plan-2026-08-09.md`, `session-log.md` Turns 41-43. **This work was later written up as a generalized LLM-to-LLM report (2026-08-09) and appears to have directly informed upstream's own `knowledge/flow/restricted-tier.md` (added 2026-08-11) — see the Upstream Template Sync section below.**
 - [x] Decided against giving the restricted repo its own `ROUTING.md`, deliberately, after the human asked whether routing/processing structure should move there as it grew into the de facto home for raw material — documented in `restricted/README.md`'s "Why this repo has no `ROUTING.md`" section (2026-08-09)
+- [x] **Phase 3 — first two real *slægt* domains created (2026-08-09):** `knowledge/domains/boe-slaegten/` and `knowledge/domains/hopp-slaegten/`, promoted from the fully-read manuscript chapters, synthesizing what had previously only lived in `projects/archive-digitization/context/*-extraction.md` working notes. Registered in `knowledge/domains/index.md`, routed in `ROUTING.md` Step 2, cross-referenced from `library/reference-index.md`'s four affected deep-well entries. `family-tree/tree.ged` remains the authoritative structured record; the new domains cover overview, notable history, the Hopp direct-line confirmation boundary, and open questions.
 
 ---
 

@@ -1,6 +1,6 @@
 # Routing
 
-Version 1.21 | 2026-08-09 | Production
+Version 1.22 | 2026-08-09 | Production
 
 ---
 
@@ -37,6 +37,8 @@ Read the first message. Match one row. Load the listed files before responding.
 | Changes to or questions about the context architecture itself — adding domains, modifying routing or protocols, structural improvements, or any work that changes how this system operates | System | `projects/system/TODO.md` |
 | Getting KEJ's document pile (emails, scans, .docx files) into this repo and roughly triaged by *slægt*/category — including anything from the intake manifest | Archive Digitization | `projects/archive-digitization/TODO.md` · `projects/archive-digitization/context/intake-manifest.md` |
 | Questions about the future genealogy website — its repo location, tech stack, deployment, or maintenance procedures once it exists | N/A — reference domain only, no dedicated project yet | `knowledge/domains/website-infrastructure/description.md` · `knowledge/domains/website-infrastructure/knowledge.md` |
+| The Boe-slægten family line — Peder Christensen Boe's descendants, Hanne Boe, the Boe surname's origin | N/A — reference domain only, no dedicated project yet | `knowledge/domains/boe-slaegten/description.md` · `knowledge/domains/boe-slaegten/knowledge.md` |
+| The Hopp-slægten family line — Knud Danielsen Hopp's descendants, the direct-line question, pre-1640 hypotheses | N/A — reference domain only, no dedicated project yet | `knowledge/domains/hopp-slaegten/description.md` · `knowledge/domains/hopp-slaegten/knowledge.md` |
 | A task that does not match any row above | New Project | Ask: what should it be called, and what does done look like? Do not create files until answered. |
 | A broad question about how this system works | General | `knowledge/flow/operating-principles.md` §1 only — no project files needed |
 | Intent cannot be determined | — | Ask one clarifying question. Do nothing else until answered. |
@@ -220,3 +222,4 @@ The real *slægt* (family line) list can't be known until the source material �
 | 1.19 | 2026-08-08 | Added a Standing Rule making removal from `incoming/` an explicit, non-deferrable part of triage rather than a separate cleanup step — matching `scripts/validate.ps1`'s new non-empty-`incoming/`-directory warning (a per-commit nudge, not a periodic sweep). Prompted by the human asking whether a periodic cleanup pass would be safer; concluded it's the opposite, since a deferred check just lets triaged files linger longer, and deletion here was never actually risky (git history keeps everything, this repo has never rewritten it). |
 | 1.20 | 2026-08-09 | **`incoming/` moved to `restricted/incoming/`,** per explicit human decision — updated the restricted-repo Hard Constraint (one scoped exception: `restricted/incoming/` is checked routinely, not gated behind naming a file that turn), the `incoming/`-triage Standing Rule, and the Quick Task Guide's raw-file entry, all to the new path. Prompted by two incidents in one session: a home address surfaced incidentally in KEJ's own correspondence, and this session's media-extraction work confirmed KEJ doesn't reliably recognize when an embedded photo involves a living person — so exposure risk starts at landing, not triage, for documents as much as correspondence. See `Architecture.md` §3. |
 | 1.21 | 2026-08-09 | **Phase 1 of `restricted/remediation-plan-2026-08-09.md`:** added a Quick Task Guide note that a raw KEJ source manuscript defaults to `restricted/deep-wells/`, not `library/deep-wells/`, unless individually confirmed to carry no living-person content. Prompted by an audit finding the source manuscripts themselves — not just extracted facts — sitting unredacted in the public repo. |
+| 1.22 | 2026-08-09 | Added Step 2 routing rows for `boe-slaegten` and `hopp-slaegten` — the first two real *slægt* domains, promoted from fully-read manuscript chapters (Phase 3). |

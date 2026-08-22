@@ -1419,3 +1419,28 @@ STATUS: CHECKPOINT
 Completed: `@I164@` false positive fixed at the script level; `projects/system/TODO.md` brought current; upstream sync checked and reported (10 commits found, not applied).
 Next: Session-log length/archiving decision (deferred, human said "after"). Whether to reconcile the 10 upstream commits. Phase 3 domain-creation scope, still to be discussed with the human.
 Waiting for: Human's direction on the remaining maintenance items.
+
+---
+
+## [Claude] — Turn 53 | 2026-08-09
+
+Same session, continued. Human chose the largest of three offered options for Phase 3 scope: both domains, full pass, not a pilot.
+
+Read through the fully-completed extraction-notes files for both lines rather than working from memory — `boe-slaegten-chapter1-extraction.md` through `-chapter4-extraction.md`, `-anetavler-kilder-extraction.md`, and, for Hopp-slægten, the version-history summaries of `hopp-slaegten-kapitel1-extraction.md`, `-01f-extraction.md`, `-02-03-extraction.md`, `-04-extraction.md` (already covered in depth earlier this session for the direct-line and pre-1640 work). Pulled headline counts directly from `tree.ged` (757 individuals / 252 families total; roughly `@I1@`-`@I363@` for Boe, `@I364@`-`@I757@` for Hopp) rather than trusting older figures in the extraction notes, since several had grown since those were written.
+
+Created `knowledge/domains/boe-slaegten/` (description.md + knowledge.md) and `knowledge/domains/hopp-slaegten/` (description.md + knowledge.md), following the `example-domain`/`website-infrastructure` template structure exactly (frontmatter, Routing check/Brevity constraint/Edit guide blockquotes, Index, Executive Summary, Version History). Deliberately scoped each `knowledge.md` as synthesis — overview, notable history, branch structure, open questions, citations back to the source manuscript and the extraction-notes files — not a re-transcription of every individual, since `tree.ged` already is that authoritative record. The Hopp-slægten domain's most load-bearing section is §2, stating precisely how far the confirmed direct line actually reaches (generation 05, not further) and why generation 06 onward is a spray of seven unconfirmed candidates rather than a continued chain — the exact finding worked out with the human several turns ago in this same session.
+
+Registered both domains in `knowledge/domains/index.md` (with the Bruno Dølby cross-reference noted both ways), added `ROUTING.md` Step 2 rows for both, and updated four `library/reference-index.md` entries whose `Referenced by domains` field was either empty or stale (`hopp-slaegten`'s said "not read," despite all six chapters having been fully read for several turns). Closed out the corresponding `projects/system/TODO.md` Open item and added a Done entry.
+
+**Built/updated:** `knowledge/domains/boe-slaegten/description.md`, `knowledge/domains/boe-slaegten/knowledge.md`, `knowledge/domains/hopp-slaegten/description.md`, `knowledge/domains/hopp-slaegten/knowledge.md`, `knowledge/domains/index.md`, `ROUTING.md`, `library/reference-index.md`, `projects/system/TODO.md`.
+
+### Session close
+
+Knowledge candidates: None — this turn itself created two domains, not knowledge to flag for one.
+Open flags: None open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Phase 3 done for both lines — the first two real *slægt* domains exist, registered and routed. This closes out the maintenance-pass item from a few turns ago.
+Next: Session-log length/archiving decision, still deferred per the human's "after." Whether to reconcile the 10 upstream commits — still undecided, not urgent.
+Waiting for: Human's direction on what to work on next.
