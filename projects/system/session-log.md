@@ -1444,3 +1444,26 @@ STATUS: CHECKPOINT
 Completed: Phase 3 done for both lines — the first two real *slægt* domains exist, registered and routed. This closes out the maintenance-pass item from a few turns ago.
 Next: Session-log length/archiving decision, still deferred per the human's "after." Whether to reconcile the 10 upstream commits — still undecided, not urgent.
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 54 | 2026-08-09
+
+Same session, continued. Human revisited the session-log-length question from a few turns ago — checked upstream `proto-context-architecture`'s own `projects/system/session-log.md` for comparison (744 lines / 108KB, no splitting convention despite active development) and confirmed the file's own routing convention already caps routine reads to the last 3 turns, so context bloat isn't actually happening. Recommended leaving it as one file rather than building a rotation scheme for a mostly-cosmetic benefit. Human agreed, closed as "checked, not actually a problem."
+
+Then asked whether this fork had accumulated any structural findings worth relaying to whoever works on `proto-context-architecture` next. Checked two candidates against upstream's actual current state (using the read-only clone from the earlier upstream-sync check) rather than assuming: (1) upstream's flag taxonomy (`operating-principles.md` §5) has no flag type for a named *external* authority who isn't the session's user — confirmed `grandfather-review/` fills a real gap, and confirmed upstream's own `restricted-tier.md` §9 already assumes such a mechanism exists without describing how to build one; (2) the `@I164@` validation fix from a few turns ago is a genuine, generalizable gotcha for `restricted-tier.md` §8's redaction pattern, not just a fork-specific script quirk. Drafted both as full `[FLAG FOR UPSTREAM]`-format prompts, per the exact template upstream itself defines, and confirmed with the human before writing anything down.
+
+Human asked for both, then confirmed adding them to a durable local home (declined the offer to relay via a live session in the other repo — will do that manually). Added an **Upstream Feedback Log** subsection to `projects/system/TODO.md`'s System Maintenance Pass, with both findings' full self-contained prompt text — not just a summary, since a future session (or the human, later) needs to be able to relay them without re-deriving the exact wording from this conversation. Noted explicitly that this fork hasn't adopted upstream's own formal `[FLAG FOR UPSTREAM]` flag type or the full `upstream-sync.md` §7 procedure — this log section exists on its own as a minimal, durable landing spot for these two specific entries, not as the complete mechanism.
+
+**Built/updated:** `projects/system/TODO.md` (Upstream Feedback Log, two entries).
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: Session-log length closed as a non-issue. Two upstream findings drafted, confirmed with the human, and logged durably for manual relay.
+Next: No outstanding work from this session. Whether to reconcile the 10 upstream commits remains undecided, not urgent.
+Waiting for: Human's direction on what to work on next.

@@ -5,7 +5,7 @@ project: system
 
 # System — TODO
 
-Version 1.2 | 2026-08-09 | Active
+Version 1.3 | 2026-08-09 | Active
 
 > **Routing check:** This is a task tracking file, not a work queue. Do not start work on any item here unless you have completed ROUTING.md routing and received explicit human confirmation for this session.
 
@@ -64,3 +64,36 @@ Version 1.2 | 2026-08-09 | Active
   Not reconciled against this fork's own customizations yet — that's a real piece of work (10 commits touching `ROUTING.md`, `Architecture.md`, `MarkdownConventions.md`, `README.md`, `authoring-guidelines.md`, `knowledge/flow/*`, and several scripts, most of which this fork has already diverged from in fork-specific ways) worth scoping on its own rather than folding into routine maintenance. See `knowledge/flow/upstream-sync.md` §5 for the Apply Procedure whenever that's greenlit.
 
 See `knowledge/flow/upstream-sync.md` for the check/apply procedure. Run opportunistically — not on a schedule.
+
+**Upstream Feedback Log**
+
+*(Confirmed template-level findings — not yet relayed, or relayed but not yet confirmed landed upstream. This fork has not adopted upstream's own formal `[FLAG FOR UPSTREAM]` flag type or `knowledge/flow/upstream-sync.md` §7 procedure yet — see the sync report above — so this section exists on its own, purely as a durable home for the two entries below, not as the full mechanism. Delete an entry once it's confirmed relayed and landed, or the human says it's been handled otherwise.)*
+
+### Missing flag type for external (non-session) review authority
+
+Status: Open
+Raised: 2026-08-09 (Turn 54, System)
+
+Finding: The template's flag taxonomy (`operating-principles.md` §5 — `[FLAG FOR KNOWLEDGE UPDATE]`, `[FLAG FOR SYSTEM]`, `[FLAG FOR UPSTREAM]`) all route a finding to whoever is operating the session. Nothing covers the case where the authoritative party is a specific *external* person who isn't the session's user — a source, a subject-matter expert, a client, a co-researcher whose confirmation something needs before it's treated as settled. This isn't fork-specific: any fork built to digest one authoritative party's material (interviews, source documents, correspondence) on behalf of a different day-to-day user hits this. It's also a real gap in what's already upstream: `knowledge/flow/restricted-tier.md` §9 ("Two-Tier Review-Queue Pattern") assumes a fork "has a mechanism for flagging open questions that need a specific human's confirmation" — but nothing in the base template describes how to build one.
+
+Proposed prompt (ready to hand to a session working in `proto-context-architecture` with no memory of this conversation):
+
+> This finding comes from kej-context-architecture, a fork of this template used for LLM-assisted genealogy research. Its subject is being researched on behalf of one specific person (the family's primary source and final authority on genealogical conclusions), who is not the fork's day-to-day user. The fork built its own mechanism for this — grandfather-review/queue.md — worth generalizing into the template:
+>
+> - A queue file (per-item: Category, Source, Finding, Grounds/confidence, Status) holding proposed connections, discoveries, or inconsistencies not yet confirmed by the named external authority.
+> - A companion log.md that items move to once answered, preserving the confirmed outcome and closing the loop — the queue itself never accumulates resolved items.
+> - An escalation discipline to avoid flooding that person with noise: a low-confidence anomaly (e.g. one inconsistent date) is tracked in a lighter side file first (this fork's family-tree/possible-duplicates.md) and only promoted to the actual review queue once a real pattern emerges (3+ instances of the same shape), not on first occurrence.
+> - A restricted-tier counterpart, for items too sensitive to even pose publicly — this part already matches restricted-tier.md §9's existing assumption.
+>
+> Propose: (1) a fourth flag type, e.g. [FLAG FOR EXTERNAL REVIEW], in operating-principles.md §5, parallel in structure to the existing three but explicitly for a named party who isn't the session's user; (2) a new knowledge/flow/external-review.md documenting the queue+log+escalation pattern generically, with the party's name/role as a fork-filled placeholder; (3) update restricted-tier.md §9 to point at this new file instead of assuming the mechanism exists. Follow this template's own confirm-before-writing discipline before committing anything — surface it to the human running proto-context-architecture first.
+
+### Structured-data redaction pattern: intentionally-public-but-cross-referenced gotcha
+
+Status: Open
+Raised: 2026-08-09 (Turn 54, System)
+
+Finding: `knowledge/flow/restricted-tier.md` §8 ("Structured-Data Redaction Pattern") already documents one gotcha (record-type interleaving breaking boundary-detection regexes). A second, equally real gotcha surfaced in this fork and isn't covered: an individual can be legitimately public by name while a *narrower*, related fact about them stays restricted (here: someone's identity is public, but a fuller account of one specific matter involving them is restricted at the source's own instruction). The validation check as §8 describes it — every restricted-file record should have a matching public placeholder, else warn — can't distinguish that intentional case from a genuinely stale, accidental mismatch. This isn't fork-specific: any fork adopting this redaction pattern where "restricted" doesn't cleanly mean "fully anonymous" will hit the same false positive.
+
+Proposed prompt (ready to hand to a session working in `proto-context-architecture` with no memory of this conversation):
+
+> This finding comes from kej-context-architecture, a fork of this template. Its validate.ps1 implementation of the §8 structured-data redaction pattern was flagging a real, non-stale case as a warning every run: an individual public by name in the main file, with a fuller restricted-tier record under the same ID, and no way for the check to tell that apart from an accidental un-redaction. The fix that resolved it: check whether the public record's own note text cross-references the restricted file by that same ID (e.g. contains "restricted/<file>#<ID>") — if so, treat it as a confirmed intentional link, not a mismatch, and skip the warning. Propose adding this as a second bullet under §8's existing "gotcha worth checking" callout, describing the pattern (not fork-specific code) — an individual whose public record explicitly cross-references its own restricted counterpart should be read as confirmation, not error. Follow this template's own confirm-before-writing discipline before committing anything.
