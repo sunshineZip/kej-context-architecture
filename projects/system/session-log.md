@@ -1467,3 +1467,28 @@ STATUS: CHECKPOINT
 Completed: Session-log length closed as a non-issue. Two upstream findings drafted, confirmed with the human, and logged durably for manual relay.
 Next: No outstanding work from this session. Whether to reconcile the 10 upstream commits remains undecided, not urgent.
 Waiting for: Human's direction on what to work on next.
+
+---
+
+## [Claude] — Turn 55 | 2026-08-09
+
+Same session, continued. Human shared screenshots of KEJ attempting to send chapter "05" (Nicolai Danielsen Hopp, the next chapter in the confirmed direct line — see `hopp-slaegten/knowledge.md`'s Known Gaps) via a OneDrive share link that arrived broken ("You can't access this item"), with a note that this happens roughly every second email — KEJ is elderly with limited technical comfort, and re-troubleshooting per email isn't sustainable.
+
+Diagnosed the likely cause (Word/Outlook auto-attaching larger files as a OneDrive cloud link rather than a true attachment, with the share scoped to a mismatched account) and proposed a one-time fix: KEJ creates and shares a single OneDrive folder ("Delt med Nikolaj") at the folder level, so anything he saves into it going forward is visible without any further per-file sharing. Recommended "Specific people" over an open link, given the material's occasional sensitivity. Provided setup steps for both sides (his one-time share, the human's "Add shortcut to My files").
+
+Human asked for this logged in the repo, a Danish translation of the setup steps (for relaying to KEJ directly, using Danish Windows/OneDrive terminology), and whether reliable remote-desktop access to KEJ's PC exists without a separate prior setup flow. Answered the last question honestly rather than overclaiming: no fully setup-free option exists for legitimate security reasons — any remote-desktop tool needs at least one moment of his active cooperation to establish trust, the same shape as the OneDrive fix. Recommended Chrome Remote Desktop's unattended-access mode specifically as the closest match to "one-time setup, then always available," suggesting it be done in the same sitting as the OneDrive walkthrough rather than as a separate future ask.
+
+Logged the new intake channel in `projects/archive-digitization/context/intake-manifest.md`: a new Document Purpose note alongside the existing email/git-push channels, and chapter "05"'s own status updated from "Not yet received" to "Incoming," recording the broken-link attempt.
+
+**Built/updated:** `projects/archive-digitization/context/intake-manifest.md`.
+
+### Session close
+
+Knowledge candidates: None.
+Open flags: None open.
+Push status: Pending — will push after this turn is logged.
+
+STATUS: CHECKPOINT
+Completed: New OneDrive intake channel documented; chapter 05's attempted-but-broken delivery logged. Danish setup guide and remote-desktop guidance delivered in chat (not repo content — personal family tech support, not genealogical research).
+Next: Whether the human sets up the OneDrive folder and/or Chrome Remote Desktop with KEJ. Whether chapter 05 (and the earlier-attempted "05 ff.") actually arrives once that's done.
+Waiting for: Human's direction on what to work on next.
