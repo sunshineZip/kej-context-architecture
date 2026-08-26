@@ -25,7 +25,7 @@ Reference knowledge for the Boe-slægten domain — the family line from Mors an
 2. [Direct Line, Generations 02-05](#2-direct-line-generations-02-05)
 3. [The Boe Name — Origin Unknown](#3-the-boe-name--origin-unknown)
 4. [Notable History](#4-notable-history)
-5. [Descendant Branches (Efterslægt)](#5-descendant-branches-efterslaegt)
+5. [Descendant Branches (Efterslægt)](#5-descendant-branches-efterslægt)
 6. [Ancestor Lines Behind In-Marrying Spouses](#6-ancestor-lines-behind-in-marrying-spouses)
 7. [Comparative "Boe" Research — Other, Unconnected Families](#7-comparative-boe-research--other-unconnected-families)
 8. [Known Data-Quality Issues](#8-known-data-quality-issues)

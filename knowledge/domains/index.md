@@ -1,6 +1,6 @@
 # Domain Index
 
-Version 1.4 | 2026-08-09 | Production
+Version 1.5 | 2026-08-25 | Production
 
 ---
 
@@ -18,7 +18,7 @@ Registry of all knowledge domains in this context architecture. Add one entry pe
 
 | Domain | Folder | Status | Covers | Last Updated | References |
 |---|---|---|---|---|---|
-| Website Infrastructure | `knowledge/domains/website-infrastructure/` | Active | Reference domain for the future public genealogy website — repo location, tech stack, deployment, maintenance. Stub pending the second repo's creation. | 2026-08-05 | None |
+| Website Infrastructure | `knowledge/domains/website-infrastructure/` | Active | Reference domain for the future public genealogy website — repo location, tech stack, deployment, maintenance. Stub pending the second repo's creation. | 2026-08-25 | None |
 | Boe-slægten | `knowledge/domains/boe-slaegten/` | Active | The Mors/Fur family line descending from Peder Christensen Boe (b. c.1731) — the family Hanne Boe (KEJ's late ex-wife) belonged to, and the source of Nikolaj's own surname. | 2026-08-09 | Hopp-slægten (Bruno Dølby marrying into this family, 2000) |
 | Hopp-slægten | `knowledge/domains/hopp-slaegten/` | Active | KEJ's own line, descending from Knud Danielsen Hopp (b. c.1640) — the confirmed root of this project's direct-line research, with an unconfirmed gap between generation 06 and KEJ himself. | 2026-08-09 | Boe-slægten (same Bruno Dølby link) |
 
@@ -72,3 +72,4 @@ Reactivating a retired domain reverses steps 1–2 and is logged the same way.
 | 1.2 | 2026-07-25 | Added a `Status` column (Active/Retired) to the registry and a "Retiring a Domain" procedure — archive-in-place, not delete, per `MarkdownConventions.md` §1. `scripts/validate.ps1` now checks this column stays consistent with each domain's own header Status. |
 | 1.3 | 2026-08-05 | Forked from `proto-context-architecture` (upstream commit `86d4eddb6211b623a0e5a9ea047528076533ea8a`). Removed the placeholder Example Domain row; registered `website-infrastructure` as the first real domain (a thin reference stub); noted that *slægt* domains are deliberately not created yet — see the inventory-first setup sequence in `README.md` and `ROUTING.md`. Added an expected future Cross-Domain Query Recipe note for intermarriage/shared-descendant queries across *slægt* domains. |
 | 1.4 | 2026-08-09 | Phase 3: registered the first two real *slægt* domains, `boe-slaegten` and `hopp-slaegten`, promoted from fully-read manuscript chapters previously living only as working extraction notes. Both reference each other (Bruno Dølby marrying into the Boe line in 2000, from Hopp-slægten). |
+| 1.5 | 2026-08-25 | `website-infrastructure`'s Last Updated column corrected to 2026-08-25, matching its own header — a structural (Index-entry-only) fix made to `knowledge.md` as a byproduct of the upstream sync, surfaced by `validate.ps1`'s new Last-Updated staleness check. |

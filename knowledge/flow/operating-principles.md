@@ -1,6 +1,6 @@
 # Operating Principles
 
-Version 1.4 | 2026-08-05 | Production
+Version 1.5 | 2026-08-25 | Production
 
 ---
 
@@ -140,6 +140,26 @@ Status: Proposed — not yet reviewed by KEJ
 
 See `grandfather-review/queue.md` and `grandfather-review/log.md` for the full mechanism: how items accumulate, how they are sent for KEJ's periodic review, and how his response (confirmed / corrected / rejected) is recorded and, once confirmed, promoted into the relevant domain with `[VERIFIED: KEJ, YYYY-MM-DD]`. Both files carry a note at the top explaining the Danish-language exception; the `## Version History` section of each stays in the repo's standard English convention so `scripts/validate.ps1` keeps recognizing it.
 
+> `[FLAG FOR GRANDFATHER REVIEW]` is this fork's own concrete implementation of a more general pattern — a finding needing confirmation from a named external authority who isn't the session's own user. That pattern has since been generalized upstream as `[FLAG FOR EXTERNAL REVIEW]` (`knowledge/flow/external-review.md`), generalized directly from this mechanism and relayed via `[FLAG FOR UPSTREAM]`. No change needed here — the fork's own file names predate and differ from the generic ones, which is expected, not a gap to fix.
+
+### Upstream feedback flags
+
+When a finding is a property of the template itself — something any fork built the same way would hit, not a mistake specific to this fork's own customization — it doesn't get fixed here and it doesn't get written into the upstream template repo either, even if this session happens to have repo access to it. Raise a separate flag instead:
+
+```
+[FLAG FOR UPSTREAM]
+Source: Project [name], Turn [N]
+Finding: [Describe the template-level gap or bug precisely, and why it isn't fork-specific]
+Proposed prompt: [Self-contained text, ready to hand to a session working in the
+upstream repo with no memory of this conversation — what fork this came from and
+why, the finding, a concrete proposed fix if one exists, and explicit instructions
+for what that session should do]
+```
+
+Same confirm-before-writing gate as above: surface it as a one-line question first, write the full flag only once the human confirms it's worth capturing. Once confirmed, append the entry to `projects/system/TODO.md`'s Upstream Feedback Log — see `knowledge/flow/upstream-sync.md` §7 for the log format and lifecycle.
+
+**This fork never writes the finding directly into the upstream repo, regardless of whether repo access is available in-session.** The human decides if and when to relay it — the same review a human-submitted finding would get applies equally to one this session identified itself.
+
 ---
 
 ## Version History
@@ -151,3 +171,4 @@ See `grandfather-review/queue.md` and `grandfather-review/log.md` for the full m
 | 1.2 | 2026-08-05 | Added a third flag type, `[FLAG FOR GRANDFATHER REVIEW]`, alongside the existing knowledge-update and system flags — for discoveries, connections, inconsistencies, or gaps this repo notices on its own during genealogical research. Established that the grandfather, not the human operating this repo, is the final authority on research conclusions; his sign-off is required before any such finding is treated as fact. See the new `grandfather-review/` mechanism. |
 | 1.3 | 2026-08-05 | §5 updated: the in-turn `[FLAG FOR GRANDFATHER REVIEW]` stays in whatever language the session log is in, but the actual entry appended to `grandfather-review/queue.md` must be written in Danish — his English is limited and the research itself is Danish. Added the Danish field-label template. |
 | 1.4 | 2026-08-05 | §5 prose now refers to Knud Erik Jakobsen by name/initials (KEJ) rather than "the grandfather," per the human's preference — including both the English and Danish flag-template examples and the `[VERIFIED: KEJ, YYYY-MM-DD]` signal value. The `[FLAG FOR GRANDFATHER REVIEW]` tag and `grandfather-review/` folder name are kept as-is. |
+| 1.5 | 2026-08-25 | Upstream sync from `proto-context-architecture`. Added a fifth flag type, `[FLAG FOR UPSTREAM]`, for template-level findings this fork identifies in itself — never written directly to the upstream repo even when access is available; logged locally in `projects/system/TODO.md`'s Upstream Feedback Log for the human to relay (`knowledge/flow/upstream-sync.md` §7). Also noted that `[FLAG FOR GRANDFATHER REVIEW]` is this fork's own concrete instance of the newer, generalized `[FLAG FOR EXTERNAL REVIEW]` pattern (`knowledge/flow/external-review.md`) — itself generalized from this fork's mechanism and relayed upstream. No separate generic flag adopted here; the fork's own naming stays as the concrete implementation. |

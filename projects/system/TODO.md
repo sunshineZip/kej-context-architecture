@@ -5,7 +5,7 @@ project: system
 
 # System — TODO
 
-Version 1.3 | 2026-08-09 | Active
+Version 1.4 | 2026-08-25 | Active
 
 > **Routing check:** This is a task tracking file, not a work queue. Do not start work on any item here unless you have completed ROUTING.md routing and received explicit human confirmation for this session.
 
@@ -22,7 +22,7 @@ Version 1.3 | 2026-08-09 | Active
 - [ ] Human to review `grandfather-review/queue.md` (20 items total, 15 open as of 2026-08-09) and send it to KEJ when it feels due (no fixed cadence — his own schedule)
 - [ ] Refine the Danish citation templates in `authoring-guidelines.md` §9.5 (kirkebog/folketælling/skifteprotokol) once real parish/census/probate material is actually in hand — they're a starting adaptation of Evidence Explained's general logic, not a finished translation. Still nothing but KEJ's own narrative manuscripts processed so far, no raw parish records yet
 - [ ] **Long-term, not urgent:** once material is organized into real domains with proper citations, consider depositing it with a recognized Danish genealogy institution — verified two concrete avenues (2026-08-05): **Danskernes Historie Online** (formerly Slægtsforskernes Bibliotek, run by Danske Slægtsforskere/DIS-Danmark) explicitly accepts donated family-history manuscripts (physical, electronic, or scanned) and digitizes them for the community; **local archives via arkiv.dk** (e.g. Sundsøre Lokalarkiv, already in the intake manifest) welcome personal/family papers, though not every lokalarkiv feeds arkiv.dk. Rigsarkivet has a formal "submit research data" process too, but it reads as institutional/bureaucratic (questionnaires, transfer-obligation determination) rather than a natural fit for a personal compilation — would need a direct inquiry to know for sure. Worth raising with KEJ — he may already know these channels, or have views on whether he wants this shared at all.
-- [ ] **New (2026-08-09), from the Upstream Template Sync check below:** decide whether/how to reconcile 10 commits' worth of upstream drift, most notably upstream's own generalized `knowledge/flow/restricted-tier.md` — which this fork's own restricted-tier work (built independently, before upstream's version existed) directly informed. See the Upstream Template Sync section for the full commit list; nothing has been applied yet, this is a report only.
+- [ ] **Not urgent:** a future Maintenance Pass could clear the ~85 pre-existing orphan-Index-entry warnings the new `validate.ps1` structural check (2026-08-25 sync) surfaced across `intake-manifest.md` and a couple of other files — ordinary content upkeep, not a sync-scope item.
 
 ---
 
@@ -40,6 +40,7 @@ Version 1.3 | 2026-08-09 | Active
 - [x] Built the two-tier restricted-content architecture, prompted by a full exposure audit finding the public repo's git history and live working tree had exposed ~150 individuals' unredacted records, 26 images, a paternity detail, and every raw source manuscript (2026-08-09): a private `kej-restricted-context-architecture` companion repo mounted as a submodule at `restricted/`; the Hard Constraint gating it (with the one `incoming/` exception); `incoming/` and its triage discipline moved there from the main repo; the `authoring-guidelines.md` §9.3 Cornerstone Rule extension (raw sources default restricted); the `tree.ged`/`tree-sensitive.ged` placeholder-and-pointer pattern; the `grandfather-review/queue.md` restricted counterpart; a `git-filter-repo` history rewrite removing the historical exposure, with exhaustive before/after verification. Full account: `restricted/remediation-plan-2026-08-09.md`, `session-log.md` Turns 41-43. **This work was later written up as a generalized LLM-to-LLM report (2026-08-09) and appears to have directly informed upstream's own `knowledge/flow/restricted-tier.md` (added 2026-08-11) — see the Upstream Template Sync section below.**
 - [x] Decided against giving the restricted repo its own `ROUTING.md`, deliberately, after the human asked whether routing/processing structure should move there as it grew into the de facto home for raw material — documented in `restricted/README.md`'s "Why this repo has no `ROUTING.md`" section (2026-08-09)
 - [x] **Phase 3 — first two real *slægt* domains created (2026-08-09):** `knowledge/domains/boe-slaegten/` and `knowledge/domains/hopp-slaegten/`, promoted from the fully-read manuscript chapters, synthesizing what had previously only lived in `projects/archive-digitization/context/*-extraction.md` working notes. Registered in `knowledge/domains/index.md`, routed in `ROUTING.md` Step 2, cross-referenced from `library/reference-index.md`'s four affected deep-well entries. `family-tree/tree.ged` remains the authoritative structured record; the new domains cover overview, notable history, the Hopp direct-line confirmation boundary, and open questions.
+- [x] **Full upstream sync applied (2026-08-25):** reconciled all 17 tracked-path files against 15 commits of upstream drift (`86d4eddb`..`1b7401d`) via the Apply Procedure — new multi-writer git safety (`git-collaboration.md`, `sync-check.ps1`, fetch/rebase logic in `commit-push.ps1`), the pre-push branch-default hook, the secret-pattern pre-commit scan, the formal `[FLAG FOR UPSTREAM]`/§7 Downstream Feedback mechanism, and new `validate.ps1` checks (Index structural integrity, domain heaviness, cross-reference scope-exclusion differentiation). Confirmed both of this fork's own prior `[FLAG FOR UPSTREAM]` findings had already landed upstream, crediting this fork by name. Deliberately skipped the cosmetic "deep well" → "reference work" rename and the generic top-level `incoming/` addition — both conflict with or are superseded by this fork's own already-diverged implementations. `validate.ps1` passes clean (0 errors) after the sync; a handful of pre-existing structural gaps it newly surfaced (a wrong Danish-character anchor, a missing `## 5.` heading, three missing "Version History" Index entries) were fixed as direct byproducts. Full account: `session-log.md` Turn 56.
 
 ---
 
@@ -47,53 +48,13 @@ Version 1.3 | 2026-08-09 | Active
 
 **Upstream Template Sync**
 - Upstream: https://github.com/sunshinezip/proto-context-architecture
-- Last synced commit: 86d4eddb6211b623a0e5a9ea047528076533ea8a
-- Last synced date: 2026-08-05
-- **Last checked (not applied): 2026-08-09.** 10 commits since the last sync, all touching tracked paths — nothing applied yet, this is the Check Procedure report only (`knowledge/flow/upstream-sync.md` §4):
-  - `3495dc6` Add multi-writer git safety: fetch-before-push, rebase, and re-validate
-  - `15d31c0` Rename "deep well" to "reference work" and flatten `library/` structure
-  - `e1876ca` Add sensitive/confidential-content handling: Hard Constraint, secret-scan pre-commit check, opt-in restricted-tier pattern (`knowledge/flow/restricted-tier.md`) — **generalizes this fork's own restricted-tier work, built independently a day or two before this commit; see the Done entry above**
-  - `f5e4774` Add downstream feedback mechanism: forks log template-level findings for human relay, never write upstream directly
-  - `c89f4a5` Fix phantom-file bug in source manifest validation
-  - `2ed0353` Add generic `incoming/` folder to base template; restricted-tier's is now the restricted variant of it, not its origin
-  - `02161b9` Add Index structural-integrity and domain-heaviness checks to `validate.ps1`
-  - `5ac566c` Promote main-by-default from Standing Rule to Hard Constraint, backed by a new pre-push hook
-  - `cd12398` Add session-start sync check, closing the cross-interface staleness gap
-  - `46bb419` Log context-engineering/industry-tooling ambitions to the system backlog
+- Last synced commit: 1b7401d
+- Last synced date: 2026-08-25
 
-  Not reconciled against this fork's own customizations yet — that's a real piece of work (10 commits touching `ROUTING.md`, `Architecture.md`, `MarkdownConventions.md`, `README.md`, `authoring-guidelines.md`, `knowledge/flow/*`, and several scripts, most of which this fork has already diverged from in fork-specific ways) worth scoping on its own rather than folding into routine maintenance. See `knowledge/flow/upstream-sync.md` §5 for the Apply Procedure whenever that's greenlit.
-
-See `knowledge/flow/upstream-sync.md` for the check/apply procedure. Run opportunistically — not on a schedule.
+See `knowledge/flow/upstream-sync.md` for the check/apply procedure (now including the formal §7 Downstream Feedback mechanism, adopted in the 2026-08-25 sync). Run opportunistically — not on a schedule.
 
 **Upstream Feedback Log**
 
-*(Confirmed template-level findings — not yet relayed, or relayed but not yet confirmed landed upstream. This fork has not adopted upstream's own formal `[FLAG FOR UPSTREAM]` flag type or `knowledge/flow/upstream-sync.md` §7 procedure yet — see the sync report above — so this section exists on its own, purely as a durable home for the two entries below, not as the full mechanism. Delete an entry once it's confirmed relayed and landed, or the human says it's been handled otherwise.)*
+*(Confirmed template-level findings — not yet relayed, or relayed but not yet confirmed landed upstream. Delete an entry once it's confirmed relayed and landed, or the human says it's been handled otherwise.)*
 
-### Missing flag type for external (non-session) review authority
-
-Status: Open
-Raised: 2026-08-09 (Turn 54, System)
-
-Finding: The template's flag taxonomy (`operating-principles.md` §5 — `[FLAG FOR KNOWLEDGE UPDATE]`, `[FLAG FOR SYSTEM]`, `[FLAG FOR UPSTREAM]`) all route a finding to whoever is operating the session. Nothing covers the case where the authoritative party is a specific *external* person who isn't the session's user — a source, a subject-matter expert, a client, a co-researcher whose confirmation something needs before it's treated as settled. This isn't fork-specific: any fork built to digest one authoritative party's material (interviews, source documents, correspondence) on behalf of a different day-to-day user hits this. It's also a real gap in what's already upstream: `knowledge/flow/restricted-tier.md` §9 ("Two-Tier Review-Queue Pattern") assumes a fork "has a mechanism for flagging open questions that need a specific human's confirmation" — but nothing in the base template describes how to build one.
-
-Proposed prompt (ready to hand to a session working in `proto-context-architecture` with no memory of this conversation):
-
-> This finding comes from kej-context-architecture, a fork of this template used for LLM-assisted genealogy research. Its subject is being researched on behalf of one specific person (the family's primary source and final authority on genealogical conclusions), who is not the fork's day-to-day user. The fork built its own mechanism for this — grandfather-review/queue.md — worth generalizing into the template:
->
-> - A queue file (per-item: Category, Source, Finding, Grounds/confidence, Status) holding proposed connections, discoveries, or inconsistencies not yet confirmed by the named external authority.
-> - A companion log.md that items move to once answered, preserving the confirmed outcome and closing the loop — the queue itself never accumulates resolved items.
-> - An escalation discipline to avoid flooding that person with noise: a low-confidence anomaly (e.g. one inconsistent date) is tracked in a lighter side file first (this fork's family-tree/possible-duplicates.md) and only promoted to the actual review queue once a real pattern emerges (3+ instances of the same shape), not on first occurrence.
-> - A restricted-tier counterpart, for items too sensitive to even pose publicly — this part already matches restricted-tier.md §9's existing assumption.
->
-> Propose: (1) a fourth flag type, e.g. [FLAG FOR EXTERNAL REVIEW], in operating-principles.md §5, parallel in structure to the existing three but explicitly for a named party who isn't the session's user; (2) a new knowledge/flow/external-review.md documenting the queue+log+escalation pattern generically, with the party's name/role as a fork-filled placeholder; (3) update restricted-tier.md §9 to point at this new file instead of assuming the mechanism exists. Follow this template's own confirm-before-writing discipline before committing anything — surface it to the human running proto-context-architecture first.
-
-### Structured-data redaction pattern: intentionally-public-but-cross-referenced gotcha
-
-Status: Open
-Raised: 2026-08-09 (Turn 54, System)
-
-Finding: `knowledge/flow/restricted-tier.md` §8 ("Structured-Data Redaction Pattern") already documents one gotcha (record-type interleaving breaking boundary-detection regexes). A second, equally real gotcha surfaced in this fork and isn't covered: an individual can be legitimately public by name while a *narrower*, related fact about them stays restricted (here: someone's identity is public, but a fuller account of one specific matter involving them is restricted at the source's own instruction). The validation check as §8 describes it — every restricted-file record should have a matching public placeholder, else warn — can't distinguish that intentional case from a genuinely stale, accidental mismatch. This isn't fork-specific: any fork adopting this redaction pattern where "restricted" doesn't cleanly mean "fully anonymous" will hit the same false positive.
-
-Proposed prompt (ready to hand to a session working in `proto-context-architecture` with no memory of this conversation):
-
-> This finding comes from kej-context-architecture, a fork of this template. Its validate.ps1 implementation of the §8 structured-data redaction pattern was flagging a real, non-stale case as a warning every run: an individual public by name in the main file, with a fuller restricted-tier record under the same ID, and no way for the check to tell that apart from an accidental un-redaction. The fix that resolved it: check whether the public record's own note text cross-references the restricted file by that same ID (e.g. contains "restricted/<file>#<ID>") — if so, treat it as a confirmed intentional link, not a mismatch, and skip the warning. Propose adding this as a second bullet under §8's existing "gotcha worth checking" callout, describing the pattern (not fork-specific code) — an individual whose public record explicitly cross-references its own restricted counterpart should be read as confirmation, not error. Follow this template's own confirm-before-writing discipline before committing anything.
+*(No open entries. The two findings this fork previously logged here — external-review-authority flag type, and the structured-data cross-reference redaction gotcha — were confirmed landed upstream during the 2026-08-25 sync (`git-collaboration.md` commit history and `restricted-tier.md` v1.2 respectively both credit this fork by name) and have been removed per this section's own lifecycle rule.)*

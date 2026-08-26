@@ -1,6 +1,6 @@
 # Domain Knowledge Authoring Guidelines
 
-Version 1.11 | 2026-08-09 | Production
+Version 1.12 | 2026-08-25 | Production
 
 ---
 
@@ -39,6 +39,7 @@ This document covers knowledge-document-specific rules only. General markdown fo
 9. [Evidentiary Sources & Deep Wells](#9-evidentiary-sources--deep-wells)
 10. [What Does Not Belong in a Knowledge Document](#10-what-does-not-belong-in-a-knowledge-document)
 11. [Quick Checklist](#11-quick-checklist)
+12. [Version History](#version-history)
 
 ---
 
@@ -173,7 +174,14 @@ When a knowledge document refers to content in another domain:
 - Use a relative file link: `[description.md](../other-domain/description.md)`
 - Add a `> **See also:**` callout at the point of reference naming the other domain and what it covers.
 - Do not duplicate content from another domain — reference it instead.
-- Register the cross-reference in `knowledge/domains/index.md` (Registered Domains → References column), and check whether the referenced domain should reference this one back. A reference that only points one way is a common source of silent drift as the domain family grows — nothing else catches it. `scripts/validate.ps1` now checks this mechanically (§8) by scanning for the actual links rather than the index summary — treat its warning the same as a Maintenance Pass finding, not as a new rule.
+- Register the cross-reference in `knowledge/domains/index.md` (Registered Domains → References column), and check whether the referenced domain should reference this one back. `scripts/validate.ps1` now checks this mechanically (§8) by scanning for the actual links rather than the index summary — treat its warning the same as a Maintenance Pass finding, not as a new rule.
+
+A one-directional cross-reference is not automatically drift, though — it splits into two categories with opposite correct outcomes, and conflating them means re-verifying the same permanently-fine links every single pass:
+
+- **Genuine scope-exclusion pointers** — "this domain does NOT cover X, see Y" — where Y has no reason to reference back, since it's being excluded *from*, not depended *on*. These should stay one-way permanently. `scripts/validate.ps1` recognizes this phrasing and words its warning accordingly (§8) — treat that wording as "no action needed, confirmed by pattern," not something to re-investigate.
+- **Real content dependencies** — the target domain's own content substantively depends on or extends the source domain's material, and a reciprocal link would genuinely help routing/discovery. These are the ones actually worth fixing.
+
+When a warning doesn't carry the scope-exclusion wording, check both domains' actual content before deciding — don't assume either direction by default.
 
 ---
 
@@ -214,11 +222,12 @@ A structural health check, distinct from the per-edit updates above. Per-edit up
 - [ ] Confirm the Executive Summary still reflects the most operationally critical facts — move anything it has outgrown into the relevant domain section
 - [ ] If the domain has separate Known Gaps and Open Items sections (§3), confirm they haven't been conflated
 - [ ] Compact fully-resolved entries: once something is no longer actionable, collapse it to a one-line outcome and date rather than keeping the full history
-- [ ] Confirm `knowledge/domains/index.md`'s References column still matches the actual `> See also:` callouts in this domain's `knowledge.md` — a one-directional reference that should be reciprocal is exactly the kind of drift this pass exists to catch. `scripts/validate.ps1` now flags this mechanically (§5) — run it as part of this check rather than eyeballing the column by hand.
+- [ ] Confirm `knowledge/domains/index.md`'s References column still matches the actual `> See also:` callouts in this domain's `knowledge.md`. `scripts/validate.ps1` now flags one-directional links mechanically (§5) — run it as part of this check rather than eyeballing the column by hand, but only chase warnings that don't carry the scope-exclusion wording (§5); those are confirmed-fine by pattern, not drift.
 - [ ] Consider whether this domain should split in two: warning signs are routinely needing the Full file (ROUTING.md §4, level 5) because sections are too interdependent to load separately, or two sections that are never needed by the same task. There's no fixed size threshold — judge by whether a task ever needs the whole document versus consistently needing only one part of it
 - [ ] If this domain has a `sources/` folder, run `scripts/validate.ps1` and confirm it reports no referential-integrity issues for this domain (§9.4)
 - [ ] Confirm `description.md` and `knowledge.md` both have correct frontmatter (`MarkdownConventions.md` §1) — `scripts/validate.ps1` checks this on every run, but worth a manual glance if either file was ever created by copying another domain's files rather than the template
 - [ ] Consider whether this domain has become genuinely irrelevant, not just stale — if so, retire it (`knowledge/domains/index.md` § Retiring a Domain) rather than leaving it silently unmaintained
+- [ ] Grep this domain's own `description.md` for placeholder phrasing like "(not yet created)" and confirm it's still accurate — a sibling domain may have been onboarded since this was written
 
 This pass is scoped to a single domain document. For the equivalent housekeeping at the repo/instance level — including checking whether the upstream template has changed — see `knowledge/flow/upstream-sync.md`.
 
@@ -480,3 +489,4 @@ Before submitting any knowledge document for human approval:
 | 1.9 | 2026-08-07 | §9.5 gained two refined citation formats, prompted by a human review of an early, under-specified use: `familieidentifikation` now requires naming who made the identification and their stated confidence (`sikker`/`formodet`), not just a bare tag; and a new `[CONTEXT: ai-research, ...]` tag for AI-researched general background (as distinct from `[VERIFIED: ...]`, which always means an evidenced claim about the family itself), pointing to a file carrying full, real citations rather than a vague label. Both retrofitted across existing `family-tree/tree.ged` usage, not just applied going forward. |
 | 1.10 | 2026-08-09 | Added new §9.6 "Media/Image Extraction Method," approved via `[FLAG FOR KNOWLEDGE UPDATE]` (`projects/system/session-log.md` Turn 38) after the human asked whether the tooling and caption-tracing method used across the Hopp-slægten and Boe-slægten media passes were captured anywhere reusable — they weren't, only in narrative session-log history. Documents the `.doc`/`.docx` extraction tooling decision (`wvHtml` vs. `LibreOffice`'s outright failure vs. `antiword`'s silent image loss) and a 5-step OOXML caption-identification procedure, including a mandatory calibration step: real captions on floating (`wp:anchor`) images can sit tens of thousands of characters from the image tag, so mere adjacency to unrelated text must not be trusted as caption-strength evidence without checking this first. |
 | 1.11 | 2026-08-09 | §9.3 gained a fork-specific addition, approved via `[FLAG FOR KNOWLEDGE UPDATE]` (`projects/system/session-log.md` Turn 42): a cornerstone work's raw source file defaults to `restricted/deep-wells/`, not `library/deep-wells/`, unless individually assessed and confirmed to carry no living-person content (including embedded media, per §9.6). Prompted by a full exposure audit that found the public repo's git history and live working tree had been exposing unredacted source manuscripts — the *derived* content (manifests, tree.ged, classified media) had been getting redacted, but never the source itself. See `restricted/remediation-plan-2026-08-09.md` for the full incident and remediation. |
+| 1.12 | 2026-08-25 | Upstream sync from `proto-context-architecture`. Added a missing "12. Version History" Index entry — this file's own Version History section had never been indexed. §5 and §8: a one-directional cross-reference is no longer treated as uniformly suspect — split into genuine scope-exclusion pointers (permanently one-way, no action needed) versus real content dependencies (worth fixing), matching `scripts/validate.ps1`'s differentiated warning wording. §8 also gained a checklist item for re-checking a domain's own stale "(not yet created)" placeholder prose. **Not adopted:** the §9 "Deep Wells" → "Reference Works" rename — see `ROUTING.md` v1.23 for why. |

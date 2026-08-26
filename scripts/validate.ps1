@@ -67,18 +67,28 @@ if (-not (Test-Path $copilotInstructionsPath)) {
     Add-ValidationError "Missing entry point: .github\copilot-instructions.md"
 }
 
-# --- Pre-commit hook: files must exist, and the hook must actually be
-#     activated (git config core.hooksPath). See Architecture.md §6. ---
+# --- Git hooks: files must exist, and hooksPath must actually be
+#     activated (git config core.hooksPath) for either to run. See
+#     Architecture.md §6. ---
 if (-not (Test-Path (Join-Path $repoRoot ".githooks\pre-commit"))) {
     Add-ValidationError "Missing .githooks/pre-commit"
 }
 if (-not (Test-Path (Join-Path $repoRoot "scripts\pre-commit-check.ps1"))) {
     Add-ValidationError "Missing scripts/pre-commit-check.ps1"
 }
+if (-not (Test-Path (Join-Path $repoRoot ".githooks\pre-push"))) {
+    Add-ValidationError "Missing .githooks/pre-push"
+}
+if (-not (Test-Path (Join-Path $repoRoot "scripts\pre-push-check.ps1"))) {
+    Add-ValidationError "Missing scripts/pre-push-check.ps1"
+}
+if (-not (Test-Path (Join-Path $repoRoot "scripts\sync-check.ps1"))) {
+    Add-ValidationError "Missing scripts/sync-check.ps1"
+}
 if ($isGitRepo) {
     $hooksPath = (git -C $repoRoot config --get core.hooksPath 2>$null)
     if ($hooksPath -ne ".githooks") {
-        Add-ValidationWarning "core.hooksPath is not set to '.githooks' in this clone — the pre-commit hook is inactive here. Run: git config core.hooksPath .githooks"
+        Add-ValidationWarning "core.hooksPath is not set to '.githooks' in this clone — the pre-commit and pre-push hooks are both inactive here. Run: git config core.hooksPath .githooks"
     }
 }
 
@@ -111,6 +121,17 @@ foreach ($domainDir in $domainDirs) {
     }
 }
 
+# --- Shared regex fragment: a YYYY-MM-DD date, optionally followed by a
+#     parenthetical annotation (e.g. a same-day second edit written as
+#     "2026-08-22 (later)"). Used everywhere a header line's date field is
+#     matched, so a trailing annotation doesn't silently break detection.
+#     This is not a convention the template itself defines or requires —
+#     the existing version-number and turn-number increments already
+#     disambiguate same-day multiple edits without needing a date suffix
+#     at all — but the regex should not silently misparse if a fork uses
+#     one anyway. ---
+$dateFieldPattern = '\d{4}-\d{2}-\d{2}(?:\s*\([^)]*\))?'
+
 # --- projects/ ---
 if (-not (Test-Path $projectsPath)) {
     Add-ValidationError "Missing projects folder"
@@ -133,9 +154,9 @@ foreach ($projectDir in $projectDirs) {
 
     if (Test-Path $todoPath) {
         $todoText = Get-Content -Path $todoPath -Raw
-        if ($todoText -match '(?mi)^Version\s+.+\|\s+\d{4}-\d{2}-\d{2}\s+\|\s+Active\s*$') {
+        if ($todoText -match "(?mi)^Version\s+.+\|\s+$dateFieldPattern\s+\|\s+Active\s*`$") {
             $activeProjects += $projectDir.Name
-        } elseif ($todoText -match '(?mi)^Version\s+.+\|\s+\d{4}-\d{2}-\d{2}\s+\|\s+Retired\s*$') {
+        } elseif ($todoText -match "(?mi)^Version\s+.+\|\s+$dateFieldPattern\s+\|\s+Retired\s*`$") {
             $retiredProjects += $projectDir.Name
         }
     }
@@ -173,8 +194,18 @@ function Get-Frontmatter {
 #     consistency checks below. See MarkdownConventions.md §1. ---
 function Get-HeaderStatus {
     param([string]$Text)
-    $m = [regex]::Match($Text, '(?m)^Version\s+[\d.]+\s*\|\s*\d{4}-\d{2}-\d{2}\s*\|\s*(.+?)\s*$')
+    $m = [regex]::Match($Text, "(?m)^Version\s+[\d.]+\s*\|\s*$dateFieldPattern\s*\|\s*(.+?)\s*`$")
     if ($m.Success) { return $m.Groups[1].Value.Trim() }
+    return $null
+}
+
+# --- Shared helper: extract just the bare date from the same header line,
+#     ignoring any trailing annotation. Used by the domain Last-Updated
+#     staleness check below. ---
+function Get-HeaderDate {
+    param([string]$Text)
+    $m = [regex]::Match($Text, '(?m)^Version\s+[\d.]+\s*\|\s*(\d{4}-\d{2}-\d{2})')
+    if ($m.Success) { return $m.Groups[1].Value }
     return $null
 }
 
@@ -259,7 +290,7 @@ foreach ($projectDir in $projectDirs) {
     $rawContent = Get-Content -Path $sessionLogPath -Raw
     $scanText = Remove-CodeFences -Text $rawContent
 
-    $turnMatches = [regex]::Matches($scanText, '(?m)^## \[([^\]]+)\] — Turn (\d+) \| (\d{4}-\d{2}-\d{2})\s*$')
+    $turnMatches = [regex]::Matches($scanText, "(?m)^## \[([^\]]+)\] — Turn (\d+) \| ($dateFieldPattern)\s*`$")
     $expectedNext = 1
 
     for ($i = 0; $i -lt $turnMatches.Count; $i++) {
@@ -317,6 +348,7 @@ foreach ($projectDir in $projectDirs) {
 #     (Draft, Review Pending, Production) are legitimately independent of
 #     each other and not what this check is for. ---
 $indexDomainStatus = @{}
+$indexDomainLastUpdated = @{}
 $indexPath = Join-Path $domainsPath "index.md"
 if (Test-Path $indexPath) {
     $indexText = Remove-CodeFences -Text (Get-Content -Path $indexPath -Raw)
@@ -328,6 +360,12 @@ if (Test-Path $indexPath) {
         $slugMatch = [regex]::Match($cells[1], 'knowledge/domains/([a-zA-Z0-9_-]+)/?')
         if (-not $slugMatch.Success) { continue }
         $indexDomainStatus[$slugMatch.Groups[1].Value] = $cells[2]
+        if ($cells.Count -gt 4) {
+            $indexDateMatch = [regex]::Match($cells[4], '\d{4}-\d{2}-\d{2}')
+            if ($indexDateMatch.Success) {
+                $indexDomainLastUpdated[$slugMatch.Groups[1].Value] = $indexDateMatch.Value
+            }
+        }
     }
 }
 
@@ -355,6 +393,26 @@ foreach ($domainDir in $domainDirs) {
             Add-ValidationWarning "Domain '$($domainDir.Name)': description.md/knowledge.md status is 'Retired' but index.md still lists Status '$indexStatus' — update the index"
         }
     }
+
+    # --- Last Updated staleness: index.md's own instruction (§ Registered
+    #     Domains) says to update this column whenever description.md or
+    #     knowledge.md changes materially, but nothing checked it — a
+    #     domain's own files could get edited (and their header dates
+    #     bumped) every month without the separate index row ever being
+    #     touched. Warning, not error: a small lag between an edit and the
+    #     next validate run can be normal. ---
+    $descDate = $null
+    $knowledgeDate = $null
+    if (Test-Path $descPath) { $descDate = Get-HeaderDate -Text (Get-Content -Path $descPath -Raw) }
+    if (Test-Path $knowledgeFilePath) { $knowledgeDate = Get-HeaderDate -Text (Get-Content -Path $knowledgeFilePath -Raw) }
+    $latestFileDate = @($descDate, $knowledgeDate) | Where-Object { $_ } | Sort-Object -Descending | Select-Object -First 1
+
+    if ($latestFileDate -and $indexDomainLastUpdated.ContainsKey($domainDir.Name)) {
+        $indexDate = $indexDomainLastUpdated[$domainDir.Name]
+        if ($latestFileDate -gt $indexDate) {
+            Add-ValidationWarning "Domain '$($domainDir.Name)': description.md/knowledge.md was last touched $latestFileDate but index.md's Last Updated column still says $indexDate — update the index row (knowledge/domains/index.md § Registered Domains)"
+        }
+    }
 }
 
 # --- knowledge/domains/*/sources/ — evidentiary source manifests ---
@@ -362,13 +420,22 @@ foreach ($domainDir in $domainDirs) {
 function Get-ManifestTableFirstColumn {
     param([string]$Text)
     $values = @()
+    $inFileTable = $false
     foreach ($line in ($Text -split "`r?`n")) {
         $trimmed = $line.Trim()
-        if (-not $trimmed.StartsWith("|")) { continue }
+        if ($trimmed -match '^\|\s*File\s*\|') {
+            $inFileTable = $true
+            continue
+        }
+        if (-not $inFileTable) { continue }
+        if (-not $trimmed.StartsWith("|")) {
+            $inFileTable = $false
+            continue
+        }
         $cells = $trimmed.Trim('|') -split '\|' | ForEach-Object { $_.Trim() }
         if ($cells.Count -eq 0) { continue }
         $first = $cells[0]
-        if ($first -eq "" -or $first -eq "File" -or $first -match '^-+$') { continue }
+        if ($first -eq "" -or $first -match '^-+$') { continue }
         $values += $first
     }
     return $values
@@ -524,11 +591,22 @@ foreach ($domainDir in $domainDirs) {
 # the actual links inside each domain's own files, not index.md's prose
 # References column — that column is a human-authored summary and could
 # itself drift from the real links.
+#
+# A one-directional link near "does NOT cover" phrasing is a genuine
+# scope-exclusion pointer (authoring-guidelines.md §5) — permanently
+# one-way by design, not drift. Recognizing that pattern and wording its
+# warning differently is what actually fixes the reviewer toil: without
+# it, every one-directional warning looks identical, and the only way to
+# tell a confirmed-fine exclusion pointer from a real broken reference is
+# to re-open both domains' content and check by hand, every single pass.
+# Still reported either way — never fully suppressed, since the pattern
+# match is a heuristic, not a proof of intent — just distinguishable at a
+# glance.
 $domainNames = $domainDirs | ForEach-Object { $_.Name }
 $domainLinkMap = @{}
 
 foreach ($domainDir in $domainDirs) {
-    $linkedDomains = New-Object System.Collections.Generic.HashSet[string]
+    $linked = @{}
     foreach ($fileName in @("description.md", "knowledge.md")) {
         $filePath = Join-Path $domainDir.FullName $fileName
         if (-not (Test-Path $filePath)) { continue }
@@ -537,19 +615,31 @@ foreach ($domainDir in $domainDirs) {
         $siblingMatches = [regex]::Matches($text, '\]\(\.\./([a-zA-Z0-9_-]+)/')
         foreach ($m in $siblingMatches) {
             $target = $m.Groups[1].Value
-            if ($target -ne $domainDir.Name -and ($domainNames -contains $target)) {
-                [void]$linkedDomains.Add($target)
+            if ($target -eq $domainDir.Name -or -not ($domainNames -contains $target)) { continue }
+
+            $windowStart = [Math]::Max(0, $m.Index - 400)
+            $window = $text.Substring($windowStart, $m.Index - $windowStart)
+            $isExclusion = [bool]($window -match '(?i)does\s+not\s+cover')
+
+            if (-not $linked.ContainsKey($target)) {
+                $linked[$target] = $isExclusion
+            } elseif ($isExclusion) {
+                $linked[$target] = $true
             }
         }
     }
-    $domainLinkMap[$domainDir.Name] = $linkedDomains
+    $domainLinkMap[$domainDir.Name] = $linked
 }
 
 foreach ($from in $domainLinkMap.Keys) {
-    foreach ($to in $domainLinkMap[$from]) {
-        $backLinked = $domainLinkMap.ContainsKey($to) -and $domainLinkMap[$to].Contains($from)
+    foreach ($to in $domainLinkMap[$from].Keys) {
+        $backLinked = $domainLinkMap.ContainsKey($to) -and $domainLinkMap[$to].ContainsKey($from)
         if (-not $backLinked) {
-            Add-ValidationWarning "'$from' links to '$to', but '$to' does not link back to '$from' (one-directional cross-reference — confirm this is intentional, see authoring-guidelines.md §5)"
+            if ($domainLinkMap[$from][$to]) {
+                Add-ValidationWarning "'$from' links to '$to' near 'does NOT cover' phrasing, with no link back (likely a permanent scope-exclusion pointer, not drift — see authoring-guidelines.md §5; only re-check if '$to''s actual scope changed)"
+            } else {
+                Add-ValidationWarning "'$from' links to '$to', but '$to' does not link back to '$from' (one-directional cross-reference — confirm this is intentional, see authoring-guidelines.md §5)"
+            }
         }
     }
 }
@@ -940,6 +1030,117 @@ if (Test-Path $oldIncomingPath) {
     if ($oldIncomingFiles.Count -gt 0) {
         $oldIncomingNames = ($oldIncomingFiles | ForEach-Object { $_.Name }) -join ", "
         Add-ValidationWarning "incoming/ (old location) has $($oldIncomingFiles.Count) file(s): $oldIncomingNames — this folder moved to restricted/incoming/ on 2026-08-09; move these there instead"
+    }
+}
+
+# --- Index structural integrity: every file with an "## Index" section
+#     should have each Index entry resolve to a real heading in the same
+#     file (a stale entry — the section it pointed to was renamed or
+#     removed), and every real ## section (excluding Document Purpose and
+#     Index themselves) should have a corresponding Index entry (an
+#     orphan section — added without updating the Index). This only
+#     catches structural drift. Whether an Index entry's *description*
+#     still accurately reflects a section that changed underneath it is a
+#     judgment call no script can make — that's what the Maintenance Pass
+#     (authoring-guidelines.md §8) is for. ---
+function Get-GithubAnchorSlug {
+    # Mirrors GitHub's actual heading-anchor algorithm closely enough for
+    # this repo's headings: strip characters outside [letters, digits,
+    # hyphen, space] — keeping Unicode letters (æ/ø/å and similar), since
+    # GitHub does not ASCII-transliterate them. An ASCII-only version
+    # ([^a-z0-9]) produced false "stale Index entry" errors as soon as
+    # this check was adopted (fork sync, 2026-08-25): headings across this
+    # Danish-language repo routinely contain æ/ø/å, and stripping them
+    # entirely produced the wrong slug (e.g. "Efterslægt" -> "efterslgt"
+    # instead of the real GitHub anchor "efterslægt"). Then replace each
+    # individual space with a hyphen (not collapsed) — GitHub does not
+    # collapse runs of whitespace, so removing punctuation that sat
+    # between two spaces ("Sources & Reference" -> "Sources  Reference")
+    # legitimately produces a double hyphen ("sources--reference"), not a
+    # single one.
+    param([string]$HeadingText)
+    $slug = $HeadingText.Trim().ToLowerInvariant()
+    $slug = [regex]::Replace($slug, '[^\p{L}\p{N}\- ]', '')
+    $slug = $slug.Replace(' ', '-')
+    return $slug
+}
+
+foreach ($mdFile in $allMdFiles) {
+    $rawText = Get-Content -Path $mdFile.FullName -Raw
+    $scanText = Remove-CodeFences -Text $rawText
+    if ($scanText -notmatch '(?m)^## Index\s*$') { continue }
+
+    $relPath = ([System.IO.Path]::GetRelativePath($repoRoot, $mdFile.FullName)) -replace '\\', '/'
+
+    $indexMatch = [regex]::Match($scanText, '(?ms)^## Index\s*\r?\n(.*?)(?:\r?\n## |\r?\n---)')
+    $indexLinkAnchors = @{}
+    if ($indexMatch.Success) {
+        foreach ($linkMatch in [regex]::Matches($indexMatch.Groups[1].Value, '\[[^\]]+\]\(#([\p{L}\p{N}\-]+)\)')) {
+            $indexLinkAnchors[$linkMatch.Groups[1].Value] = $true
+        }
+    }
+
+    $realSlugs = @{}
+    foreach ($headingMatch in [regex]::Matches($scanText, '(?m)^## (.+?)\s*$')) {
+        $headingText = $headingMatch.Groups[1].Value.Trim()
+        if ($headingText -eq "Document Purpose" -or $headingText -eq "Index") { continue }
+        $realSlugs[(Get-GithubAnchorSlug -HeadingText $headingText)] = $headingText
+    }
+
+    foreach ($anchor in $indexLinkAnchors.Keys) {
+        if (-not $realSlugs.ContainsKey($anchor)) {
+            Add-ValidationError "'$relPath': Index links to '#$anchor' but no section with that heading exists — stale Index entry"
+        }
+    }
+
+    foreach ($slug in $realSlugs.Keys) {
+        if (-not $indexLinkAnchors.ContainsKey($slug)) {
+            Add-ValidationWarning "'$relPath': section '$($realSlugs[$slug])' has no corresponding Index entry — orphan section"
+        }
+    }
+}
+
+# --- Domain "heaviness": knowledge.md files large enough to strain the
+#     Step 4 loading hierarchy (ROUTING.md) are a real cost — a session
+#     that defaults to a full-file load burns far more context than the
+#     hierarchy is meant to cost. These are lagging-indicator tripwires,
+#     not hard limits or errors: crossing one is a prompt to consider the
+#     authoring-guidelines.md §8 split heuristic at the next Maintenance
+#     Pass. The Executive Summary gets its own, much lower threshold
+#     since Step 4 Level 3 loads it on nearly every domain query — bloat
+#     there is the most expensive place for a heavy domain to hurt an
+#     ordinary session. Thresholds are deliberately generous defaults;
+#     tune them per instance if needed. ---
+$domainSizeLineWarnThreshold = 600
+$domainIndexEntryWarnThreshold = 15
+$executiveSummaryLineWarnThreshold = 20
+
+foreach ($domainDir in $domainDirs) {
+    $knowledgeFilePath = Join-Path $domainDir.FullName "knowledge.md"
+    if (-not (Test-Path $knowledgeFilePath)) { continue }
+
+    $rawText = Get-Content -Path $knowledgeFilePath -Raw
+    $scanText = Remove-CodeFences -Text $rawText
+    $lineCount = @($rawText -split "`r?`n").Count
+
+    if ($lineCount -gt $domainSizeLineWarnThreshold) {
+        Add-ValidationWarning "Domain '$($domainDir.Name)/knowledge.md' is $lineCount lines (over $domainSizeLineWarnThreshold) — consider whether it should split (authoring-guidelines.md §8)"
+    }
+
+    $indexMatch = [regex]::Match($scanText, '(?ms)^## Index\s*\r?\n(.*?)(?:\r?\n## |\r?\n---)')
+    if ($indexMatch.Success) {
+        $entryCount = @([regex]::Matches($indexMatch.Groups[1].Value, '(?m)^\d+\.\s')).Count
+        if ($entryCount -gt $domainIndexEntryWarnThreshold) {
+            Add-ValidationWarning "Domain '$($domainDir.Name)/knowledge.md' has $entryCount Index entries (over $domainIndexEntryWarnThreshold) — consider whether it should split (authoring-guidelines.md §8)"
+        }
+    }
+
+    $execMatch = [regex]::Match($scanText, '(?ms)^## (?:\d+\.\s*)?Executive Summary\s*\r?\n(.*?)(?:\r?\n## |\r?\n---|\z)')
+    if ($execMatch.Success) {
+        $execLineCount = @($execMatch.Groups[1].Value -split "`r?`n" | Where-Object { $_.Trim() -ne "" }).Count
+        if ($execLineCount -gt $executiveSummaryLineWarnThreshold) {
+            Add-ValidationWarning "Domain '$($domainDir.Name)/knowledge.md' Executive Summary is $execLineCount non-blank lines (over $executiveSummaryLineWarnThreshold) — this is what Step 4 Level 3 loads on nearly every query; move detail into a named section instead (authoring-guidelines.md §8)"
+        }
     }
 }
 

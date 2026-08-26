@@ -5,7 +5,7 @@ domain: website-infrastructure
 
 # Website Infrastructure — Knowledge
 
-Version 1.0 | 2026-08-05 | Draft
+Version 1.1 | 2026-08-25 | Draft
 
 ---
 
@@ -26,6 +26,7 @@ Reference knowledge for the future public genealogy website: where its repositor
 3. [Website Repository](#3-website-repository) — where the site's code will live, once created (placeholder)
 4. [Tech Stack and Deployment](#4-tech-stack-and-deployment) — placeholder, pending repo creation
 5. [Maintenance Procedures](#5-maintenance-procedures) — placeholder, pending repo creation
+6. [Version History](#version-history)
 
 ---
 
@@ -81,3 +82,4 @@ Reference knowledge for the future public genealogy website: where its repositor
 | Version | Date | Summary |
 |---|---|---|
 | 1.0 | 2026-08-05 | Initial creation. Thin stub — only §1 (Executive Summary) and §2 (Publishing Curation Gate) have real content; §3–5 are placeholders pending the website repository's creation. |
+| 1.1 | 2026-08-25 | Structural fix: added the missing "6. Version History" Index entry, surfaced by a new Index-integrity check adopted from an upstream template sync. No content change. |

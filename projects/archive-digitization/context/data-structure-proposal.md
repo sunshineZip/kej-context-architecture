@@ -1,6 +1,6 @@
 # Data Structure Proposal — Individuals and Families at Scale
 
-Version 1.2 | 2026-08-05 | Draft
+Version 1.3 | 2026-08-25 | Draft
 
 ---
 
@@ -17,6 +17,7 @@ A sketch, not yet a decision, for how to structure individual/family data once m
 3. [Where This Would Live](#3-where-this-would-live) — proposed single cross-*slægt* `family-tree/tree.ged`
 4. [IDs, Duplicates, and Unknown Relations](#4-ids-duplicates-and-unknown-relations) — ID stability, never-merge-on-name-match, the two-tier duplicate workflow
 5. [Kirkebog Record Types → GEDCOM Tags](#5-kirkebog-record-types--gedcom-tags) — mapping each Danish parish record type to the specific GEDCOM structure it converts to, so extraction now doesn't need redoing later
+6. [Version History](#version-history)
 
 ---
 
@@ -221,3 +222,4 @@ Danish kirkebøger record six event types, in this order within the book: fødse
 | 1.0 | 2026-08-05 | Initial creation. GEDCOM vs. CSV comparison using real Hopp-slægt data from `external-source-hopp-herredsfoged.md`, plus a proposed (not yet built) top-level `family-tree/` location. |
 | 1.1 | 2026-08-05 | Added §4 (IDs, duplicates, unknown relations): append-only ID assignment, the never-merge-on-name-match rule, the two-tier duplicate workflow (routine ambiguity vs. well-evidenced grandfather-review candidate), and the merge-without-deleting convention. Added an Index (file now exceeds four sections). Updated references to KEJ per the human's naming preference. |
 | 1.2 | 2026-08-05 | Added §5, mapping each Danish kirkebog record type (dåb, konfirmation, vielse, tilgang/afgang, begravelse/død) to its actual GEDCOM structure (CHR/CONF/MARR/RESI-or-EVEN/BURI-DEAT), verified against Rigsarkivet and DIS-Danmark documentation rather than assumed. Answers the question of whether we're capturing enough structured detail for a later conversion, not just citation provenance. Flagged the historical illegitimate-birth parentage-garbling pattern as an expected messiness case. |
+| 1.3 | 2026-08-25 | Structural fix: added the missing "6. Version History" Index entry, surfaced by a new Index-integrity check adopted from an upstream template sync. No content change. |

@@ -1,6 +1,6 @@
 # Archive Digitization — Intake Manifest
 
-Version 1.27 | 2026-08-09 | Active
+Version 1.29 | 2026-08-25 | Active
 
 ---
 
@@ -26,6 +26,7 @@ Checklist of every item KEJ's email (2026-08-05) named — either sent already o
 8. [Møller i Sundsøre Kommune](#8-møller-i-sundsøre-kommune) — mill history, proposed deep-well candidate
 9. [Sundsøre Lokalarkiv](#9-sundsøre-lokalarkiv) — local archive material, proposed deep-well candidate
 10. [Personlige Erindringer](#10-personlige-erindringer) — KEJ's own memoirs, not slægt research
+11. [Version History](#version-history)
 
 ---
 
@@ -95,6 +96,10 @@ Seven separately compiled slægter, each with chapters 1-16. Whether these are a
 | Slægt VIII, Kapitel 1-16, Aner og deres efterslægt | 2024 / januar 2025 | Not yet received |
 
 **Corrections (2026-08-08):** Slægt I was entirely missing from the original list — added from KEJ's master catalog. Versions for III-VIII refined to include both original and revision dates, per the same source (previously only one date each, and IV's revision date was almost certainly a typo — "dec. 2004" in the source read as "december 2024" here, consistent with the pattern of every other item's revision clustering in 2023-2025). VIII's "1925" likewise read as "2025."
+
+---
+
+## 5. Dølby-slægten
 
 Bruno's slægt (Brunos slægt).
 
@@ -218,3 +223,5 @@ New section (2026-08-08) — three items found in KEJ's master catalog that aren
 | 1.25 | 2026-08-09 | Media pass done across all 6 items in §3 (01, 01C, 01F, 02, 03, 04) — 33 images extracted, 30 public, 3 restricted. Partial resolution of KEJ's own "2 maps missing" worry: 01C's 2 expected maps both found; 01F's 2 expected maps still not accounted for among its 14 extracted images, worth asking him directly. |
 | 1.26 | 2026-08-09 | **Correction, from reading the actual source emails directly for the first time** (the human pushed all 6 raw `.eml` files to `incoming/` for verification, prompted by a summary request this file's prior wording couldn't fully support): item 1.9 above is imprecise — 2026-08-08 was **two separate emails** ("Slægtshistorie" 14:03, "Hopp-slægter" 18:59), not Hopp-slægten material arriving "in the same message" as the Forskellige Boe-slægter/catalog attachments. Similarly, 2026-08-09's chapters arrived across **two emails** ("Hopp 01F" 10:08, in which 01F succeeded but 02/03/04 failed; "Hopp-slægter 02, 03, 04" 10:16, the successful retry) rather than one email sent twice. A previously undocumented **2026-08-06 email** ("Sv: Slægter") also exists — KEJ reporting an attachment failure ("Vedhæft i kopi" error), explaining why the Boe-slægten `.docx` reached this repo via a GitHub Desktop push rather than an email attachment. Everything else in this file's §3-9 content — the actual item statuses, dates, and corrections — was cross-checked against the real email bodies and confirmed accurate; only the email-count/grouping framing was off. |
 | 1.27 | 2026-08-09 | Chapter "05" attempted via a broken OneDrive share link (permissions/account mismatch) — status updated to "Incoming," not yet actually received. Added a new Document Purpose note on intake channels: a shared OneDrive folder ("Delt med Nikolaj") set up as a one-time fix for KEJ's recurring attachment failures, alongside the existing email and direct-git-push channels. |
+| 1.28 | 2026-08-25 | Structural fix, surfaced by a new Index-integrity check adopted from an upstream template sync: the Index has always promised a "5. Dølby-slægten" section, but the actual Dølby content had only ever been a trailing paragraph and table inside §4, with no heading of its own — section numbering silently skipped from 4 to 6. Gave it a real `## 5. Dølby-slægten` heading with the existing content moved under it; no item status or content changed. |
+| 1.29 | 2026-08-25 | Structural fix: added the missing "11. Version History" Index entry, same check as 1.28. No content change. |
